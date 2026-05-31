@@ -1,0 +1,1564 @@
+{
+  "grade": 4,
+  "book": "下册",
+  "vocabulary": [
+    {
+      "word_id": "g4dn_001_spring",
+      "word": "spring",
+      "meaning": "春天",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in spring"
+      ],
+      "sentence": "Flowers bloom in spring.",
+      "phonetic": "/sprɪŋ/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "春天",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_002_summer",
+      "word": "summer",
+      "meaning": "夏天",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in summer"
+      ],
+      "sentence": "It's hot in summer.",
+      "phonetic": "/ˈsʌmər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "夏天",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_003_autumn",
+      "word": "autumn",
+      "meaning": "秋天",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in autumn"
+      ],
+      "sentence": "Leaves fall in autumn.",
+      "phonetic": "/ˈɔːtəm/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "秋天",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_004_winter",
+      "word": "winter",
+      "meaning": "冬天",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in winter"
+      ],
+      "sentence": "It's cold in winter.",
+      "phonetic": "/ˈwɪntər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "冬天",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_005_season",
+      "word": "season",
+      "meaning": "季节",
+      "part_of_speech": "noun",
+      "phrase": [
+        "four seasons"
+      ],
+      "sentence": "There are four seasons.",
+      "phonetic": "/ˈsiːzn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "季节",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_006_warm",
+      "word": "warm",
+      "meaning": "温暖的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "warm weather"
+      ],
+      "sentence": "Spring is warm.",
+      "phonetic": "/wɔːm/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "温暖的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_007_hot",
+      "word": "hot",
+      "meaning": "热的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "hot weather",
+        "very hot"
+      ],
+      "sentence": "Summer is very hot.",
+      "phonetic": "/hɒt/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "热的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_008_cool",
+      "word": "cool",
+      "meaning": "凉爽的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "cool weather"
+      ],
+      "sentence": "Autumn is cool.",
+      "phonetic": "/kuːl/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "凉爽的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_009_cold",
+      "word": "cold",
+      "meaning": "冷的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "cold weather",
+        "very cold"
+      ],
+      "sentence": "Winter is cold.",
+      "phonetic": "/kəʊld/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "冷的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_010_sunny",
+      "word": "sunny",
+      "meaning": "晴朗的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a sunny day"
+      ],
+      "sentence": "It's sunny today.",
+      "phonetic": "/ˈsʌni/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "晴朗的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_011_cloudy",
+      "word": "cloudy",
+      "meaning": "多云的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a cloudy day"
+      ],
+      "sentence": "It's cloudy today.",
+      "phonetic": "/ˈklaʊdi/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "多云的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_012_rainy",
+      "word": "rainy",
+      "meaning": "下雨的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a rainy day"
+      ],
+      "sentence": "It's rainy today.",
+      "phonetic": "/ˈreɪni/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "下雨的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_013_windy",
+      "word": "windy",
+      "meaning": "有风的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a windy day"
+      ],
+      "sentence": "It's windy today.",
+      "phonetic": "/ˈwɪndi/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "有风的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_014_snowy",
+      "word": "snowy",
+      "meaning": "下雪的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a snowy day"
+      ],
+      "sentence": "It's snowy in winter.",
+      "phonetic": "/ˈsnəʊi/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "下雪的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_015_foggy",
+      "word": "foggy",
+      "meaning": "有雾的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a foggy day"
+      ],
+      "sentence": "It's foggy this morning.",
+      "phonetic": "/ˈfɒɡi/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "有雾的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_016_rain",
+      "word": "rain",
+      "meaning": "雨",
+      "part_of_speech": "noun",
+      "phrase": [
+        "heavy rain"
+      ],
+      "sentence": "I don't like the rain.",
+      "phonetic": "/reɪn/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "雨",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_017_snow",
+      "word": "snow",
+      "meaning": "雪",
+      "part_of_speech": "noun",
+      "phrase": [
+        "white snow"
+      ],
+      "sentence": "I like snow.",
+      "phonetic": "/snəʊ/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "雪",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_018_weather",
+      "word": "weather",
+      "meaning": "天气",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the weather",
+        "weather forecast"
+      ],
+      "sentence": "How's the weather today?",
+      "phonetic": "/ˈweðər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "天气",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_019_happy",
+      "word": "happy",
+      "meaning": "开心的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "very happy",
+        "be happy"
+      ],
+      "sentence": "I'm happy today.",
+      "phonetic": "/ˈhæpi/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "开心的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_020_sad",
+      "word": "sad",
+      "meaning": "伤心的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "very sad",
+        "be sad"
+      ],
+      "sentence": "Don't be sad.",
+      "phonetic": "/sæd/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "伤心的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_021_angry",
+      "word": "angry",
+      "meaning": "生气的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "be angry",
+        "very angry"
+      ],
+      "sentence": "Dad is angry.",
+      "phonetic": "/ˈæŋɡri/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "生气的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_022_tired",
+      "word": "tired",
+      "meaning": "累的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "be tired",
+        "feel tired"
+      ],
+      "sentence": "I'm tired.",
+      "phonetic": "/ˈtaɪəd/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "累的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_023_hungry",
+      "word": "hungry",
+      "meaning": "饿的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "be hungry",
+        "feel hungry"
+      ],
+      "sentence": "I'm hungry.",
+      "phonetic": "/ˈhʌŋɡri/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "饿的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_024_thirsty",
+      "word": "thirsty",
+      "meaning": "渴的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "be thirsty",
+        "feel thirsty"
+      ],
+      "sentence": "I'm thirsty.",
+      "phonetic": "/ˈθɜːsti/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "渴的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_025_afraid",
+      "word": "afraid",
+      "meaning": "害怕的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "be afraid of"
+      ],
+      "sentence": "I'm afraid of dogs.",
+      "phonetic": "/əˈfreɪd/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "害怕的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_026_ill",
+      "word": "ill",
+      "meaning": "生病的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "be ill",
+        "feel ill"
+      ],
+      "sentence": "She is ill today.",
+      "phonetic": "/ɪl/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "生病的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_027_worried",
+      "word": "worried",
+      "meaning": "担心的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "be worried about"
+      ],
+      "sentence": "Mum is worried about me.",
+      "phonetic": "/ˈwʌrid/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "担心的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_028_wake_up",
+      "word": "wake up",
+      "meaning": "醒来",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "wake up"
+      ],
+      "sentence": "I wake up at seven.",
+      "phonetic": "/weɪk ʌp/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "醒来",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_029_get_up",
+      "word": "get up",
+      "meaning": "起床",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "get up"
+      ],
+      "sentence": "I get up at seven.",
+      "phonetic": "/ɡet ʌp/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "起床",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_030_go_to_school",
+      "word": "go to school",
+      "meaning": "去上学",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "go to school"
+      ],
+      "sentence": "I go to school at eight.",
+      "phonetic": "/ɡə tuː skuːl/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "去上学",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_031_have_breakfast",
+      "word": "have breakfast",
+      "meaning": "吃早饭",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "have breakfast"
+      ],
+      "sentence": "I have breakfast at seven thirty.",
+      "phonetic": "/hæv ˈbrekfəst/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "吃早饭",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_032_have_lunch",
+      "word": "have lunch",
+      "meaning": "吃午饭",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "have lunch"
+      ],
+      "sentence": "I have lunch at twelve.",
+      "phonetic": "/hæv lʌntʃ/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "吃午饭",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_033_have_dinner",
+      "word": "have dinner",
+      "meaning": "吃晚饭",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "have dinner"
+      ],
+      "sentence": "I have dinner at six.",
+      "phonetic": "/hæv ˈdɪnər/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "吃晚饭",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_034_go_to_bed",
+      "word": "go to bed",
+      "meaning": "去睡觉",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "go to bed"
+      ],
+      "sentence": "I go to bed at nine.",
+      "phonetic": "/ɡə tuː bed/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "去睡觉",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_035_do_homework",
+      "word": "do homework",
+      "meaning": "做作业",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "do homework"
+      ],
+      "sentence": "I do homework after dinner.",
+      "phonetic": "/duː ˈhəʊmwɜːk/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "做作业",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_036_watch_TV",
+      "word": "watch TV",
+      "meaning": "看电视",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "watch TV"
+      ],
+      "sentence": "I watch TV after dinner.",
+      "phonetic": "/wɒtʃ ˌtiː ˈviː/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "看电视",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_037_go_home",
+      "word": "go home",
+      "meaning": "回家",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "go home"
+      ],
+      "sentence": "I go home at four.",
+      "phonetic": "/ɡə həʊm/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "回家",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_038_flower",
+      "word": "flower",
+      "meaning": "花",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a flower",
+        "some flowers"
+      ],
+      "sentence": "The flower is beautiful.",
+      "phonetic": "/ˈflaʊər/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "花",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_039_tree",
+      "word": "tree",
+      "meaning": "树",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a tree",
+        "some trees"
+      ],
+      "sentence": "There is a tree in the garden.",
+      "phonetic": "/triː/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "树",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_040_river",
+      "word": "river",
+      "meaning": "河流",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a river"
+      ],
+      "sentence": "The river is long.",
+      "phonetic": "/ˈrɪvər/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "河流",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_041_lake",
+      "word": "lake",
+      "meaning": "湖泊",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a lake"
+      ],
+      "sentence": "The lake is beautiful.",
+      "phonetic": "/leɪk/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "湖泊",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_042_hill",
+      "word": "hill",
+      "meaning": "小山",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a hill"
+      ],
+      "sentence": "There is a hill near our school.",
+      "phonetic": "/hɪl/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "小山",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_043_mountain",
+      "word": "mountain",
+      "meaning": "山",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a mountain"
+      ],
+      "sentence": "The mountain is very high.",
+      "phonetic": "/ˈmaʊntən/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "山",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_044_sun",
+      "word": "sun",
+      "meaning": "太阳",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the sun"
+      ],
+      "sentence": "The sun is bright.",
+      "phonetic": "/sʌn/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "太阳",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_045_moon",
+      "word": "moon",
+      "meaning": "月亮",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the moon"
+      ],
+      "sentence": "The moon is bright at night.",
+      "phonetic": "/muːn/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "月亮",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_046_star",
+      "word": "star",
+      "meaning": "星星",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a star",
+        "some stars"
+      ],
+      "sentence": "I can see stars at night.",
+      "phonetic": "/stɑːr/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "星星",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_047_sky",
+      "word": "sky",
+      "meaning": "天空",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the sky",
+        "blue sky"
+      ],
+      "sentence": "The sky is blue.",
+      "phonetic": "/skaɪ/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "天空",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_048_shirt",
+      "word": "shirt",
+      "meaning": "衬衫",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a shirt",
+        "a T-shirt"
+      ],
+      "sentence": "I like this shirt.",
+      "phonetic": "/ʃɜːt/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "衬衫",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_049_T-shirt",
+      "word": "T-shirt",
+      "meaning": "T恤衫",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a T-shirt"
+      ],
+      "sentence": "I wear a T-shirt in summer.",
+      "phonetic": "/ˈtiː ʃɜːt/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "T恤衫",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_050_dress",
+      "word": "dress",
+      "meaning": "连衣裙",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a dress"
+      ],
+      "sentence": "She is wearing a red dress.",
+      "phonetic": "/dres/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "连衣裙",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_051_skirt",
+      "word": "skirt",
+      "meaning": "短裙",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a skirt"
+      ],
+      "sentence": "She has a new skirt.",
+      "phonetic": "/skɜːt/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "短裙",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_052_coat",
+      "word": "coat",
+      "meaning": "外套",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a coat",
+        "wear a coat"
+      ],
+      "sentence": "Put on your coat.",
+      "phonetic": "/kəʊt/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "外套",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_053_jacket",
+      "word": "jacket",
+      "meaning": "夹克",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a jacket"
+      ],
+      "sentence": "I have a new jacket.",
+      "phonetic": "/ˈdʒækɪt/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "夹克",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_054_trousers",
+      "word": "trousers",
+      "meaning": "裤子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pair of trousers"
+      ],
+      "sentence": "These trousers are too long.",
+      "phonetic": "/ˈtraʊzəz/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "裤子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_055_shorts",
+      "word": "shorts",
+      "meaning": "短裤",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pair of shorts"
+      ],
+      "sentence": "I wear shorts in summer.",
+      "phonetic": "/ʃɔːts/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "短裤",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_056_cap",
+      "word": "cap",
+      "meaning": "帽子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a cap",
+        "wear a cap"
+      ],
+      "sentence": "He is wearing a cap.",
+      "phonetic": "/kæp/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "帽子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_057_shoes",
+      "word": "shoes",
+      "meaning": "鞋子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pair of shoes"
+      ],
+      "sentence": "I have new shoes.",
+      "phonetic": "/ʃuːz/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "鞋子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_058_sweater",
+      "word": "sweater",
+      "meaning": "毛衣",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a sweater",
+        "wear a sweater"
+      ],
+      "sentence": "I wear a sweater in winter.",
+      "phonetic": "/ˈswetər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "毛衣",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "description": "译林版五年级下册单词表模板",
+    "version": "1.0",
+    "created": "2026-05-30",
+    "fields_explanation": {
+      "word_id": "单词唯一标识，格式：unit_序号_单词，如 unit_1_001_play",
+      "grade": "年级",
+      "book": "册次",
+      "unit": "所属单元",
+      "section": "所属板块（Story Time / Cartoon Time 等）",
+      "word": "英文单词",
+      "meaning": "中文释义",
+      "part_of_speech": "词性（noun/verb/adjective/adverb/preposition/conjunction/pronoun）",
+      "phrase": "常见短语搭配",
+      "sentence": "教材核心例句",
+      "phonetic": "音标",
+      "listen_audio": "听力音频文件路径",
+      "image_prompt": "配图描述（用于AI生成图片）",
+      "error_tags": "常见错误标签数组",
+      "review_level": "复习等级（0-5，0=未学习，5=完全掌握）",
+      "abilities": {
+        "listen": "听力能力得分（0-100）",
+        "recognize": "认读能力得分（0-100）",
+        "speak": "口语能力得分（0-100）",
+        "spell": "拼写能力得分（0-100）",
+        "use": "应用能力得分（0-100）"
+      }
+    }
+  },
+  "vocabulary": [
+    {
+      "word_id": "unit_1_001_[待填写]",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "[待填写：Story Time / Cartoon Time]",
+      "word": "[待填写：英文单词]",
+      "meaning": "[待填写：中文释义]",
+      "part_of_speech": "[待填写：noun/verb/adj/adv]",
+      "phrase": [
+        "[待填写：短语1]",
+        "[待填写：短语2]"
+      ],
+      "sentence": "[待填写：教材核心例句]",
+      "phonetic": "[待填写：音标，如 /pleɪ/]",
+      "listen_audio": "[待填写：音频文件路径]",
+      "image_prompt": "[待填写：配图描述，如 '一个男孩在公园玩耍']",
+      "error_tags": [
+        "[待填写：常见错误标签，如 '拼写错', '词义混']"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ],
+  "example": {
+    "word_id": "unit_1_example_play",
+    "grade": 5,
+    "book": "下册",
+    "unit": "Unit 1",
+    "section": "Story Time",
+    "word": "play",
+    "meaning": "玩；播放",
+    "part_of_speech": "verb",
+    "phrase": [
+      "play football",
+      "play the piano",
+      "play with friends"
+    ],
+    "sentence": "I often play football after school.",
+    "phonetic": "/pleɪ/",
+    "listen_audio": "audio/unit1/play.mp3",
+    "image_prompt": "一个男孩在操场上踢足球",
+    "error_tags": [
+      "动词形式错",
+      "拼写错"
+    ],
+    "review_level": 0,
+    "abilities": {
+      "listen": 0,
+      "recognize": 0,
+      "speak": 0,
+      "spell": 0,
+      "use": 0
+    }
+  },
+  "instructions": "1. 复制 example 对象\n2. 根据实际教材填写每个字段\n3. word_id 格式：unit_X_序号_单词\n4. 每个 Unit 建议 15-20 个核心单词\n5. error_tags 根据学生常见错误填写"
+}

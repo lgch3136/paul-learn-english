@@ -1,0 +1,1582 @@
+{
+  "grade": 3,
+  "book": "下册",
+  "vocabulary": [
+    {
+      "word_id": "g3dn_001_schoolbag",
+      "word": "schoolbag",
+      "meaning": "书包",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my schoolbag"
+      ],
+      "sentence": "This is my schoolbag.",
+      "phonetic": "/ˈskuːlbæɡ/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "书包",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_002_pen",
+      "word": "pen",
+      "meaning": "钢笔",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pen"
+      ],
+      "sentence": "I have a pen.",
+      "phonetic": "/pen/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "钢笔",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_003_pencil",
+      "word": "pencil",
+      "meaning": "铅笔",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pencil"
+      ],
+      "sentence": "This is a pencil.",
+      "phonetic": "/ˈpensl/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "铅笔",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_004_ruler",
+      "word": "ruler",
+      "meaning": "尺子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a ruler"
+      ],
+      "sentence": "I have a ruler.",
+      "phonetic": "/ˈruːlər/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "尺子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_005_rubber",
+      "word": "rubber",
+      "meaning": "橡皮",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a rubber"
+      ],
+      "sentence": "This is my rubber.",
+      "phonetic": "/ˈrʌbər/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "橡皮",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_006_book",
+      "word": "book",
+      "meaning": "书",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a book",
+        "read a book"
+      ],
+      "sentence": "I like this book.",
+      "phonetic": "/bʊk/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "书",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_007_crayon",
+      "word": "crayon",
+      "meaning": "蜡笔",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a crayon"
+      ],
+      "sentence": "I have a red crayon.",
+      "phonetic": "/ˈkreɪən/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "蜡笔",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_008_notebook",
+      "word": "notebook",
+      "meaning": "笔记本",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a notebook"
+      ],
+      "sentence": "This is my notebook.",
+      "phonetic": "/ˈnəʊtbʊk/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "笔记本",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_009_pencil_case",
+      "word": "pencil case",
+      "meaning": "铅笔盒",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pencil case"
+      ],
+      "sentence": "My pencil case is new.",
+      "phonetic": "/ˈpensl keɪs/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "铅笔盒",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_010_one",
+      "word": "one",
+      "meaning": "一",
+      "part_of_speech": "number",
+      "phrase": [
+        "one two three"
+      ],
+      "sentence": "I have one dog.",
+      "phonetic": "/wʌn/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "一",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_011_two",
+      "word": "two",
+      "meaning": "二",
+      "part_of_speech": "number",
+      "phrase": [
+        "two books"
+      ],
+      "sentence": "I have two hands.",
+      "phonetic": "/tuː/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "二",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_012_three",
+      "word": "three",
+      "meaning": "三",
+      "part_of_speech": "number",
+      "phrase": [
+        "three cats"
+      ],
+      "sentence": "There are three birds.",
+      "phonetic": "/θriː/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "三",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_013_four",
+      "word": "four",
+      "meaning": "四",
+      "part_of_speech": "number",
+      "phrase": [
+        "four apples"
+      ],
+      "sentence": "I see four dogs.",
+      "phonetic": "/fɔːr/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "四",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_014_five",
+      "word": "five",
+      "meaning": "五",
+      "part_of_speech": "number",
+      "phrase": [
+        "five books"
+      ],
+      "sentence": "I have five pencils.",
+      "phonetic": "/faɪv/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "五",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_015_six",
+      "word": "six",
+      "meaning": "六",
+      "part_of_speech": "number",
+      "phrase": [
+        "six pens"
+      ],
+      "sentence": "There are six boxes.",
+      "phonetic": "/sɪks/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "六",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_016_seven",
+      "word": "seven",
+      "meaning": "七",
+      "part_of_speech": "number",
+      "phrase": [
+        "seven days"
+      ],
+      "sentence": "There are seven days in a week.",
+      "phonetic": "/ˈsevn/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "七",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_017_eight",
+      "word": "eight",
+      "meaning": "八",
+      "part_of_speech": "number",
+      "phrase": [
+        "eight students"
+      ],
+      "sentence": "I am eight years old.",
+      "phonetic": "/eɪt/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "八",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_018_nine",
+      "word": "nine",
+      "meaning": "九",
+      "part_of_speech": "number",
+      "phrase": [
+        "nine girls"
+      ],
+      "sentence": "Nine and one is ten.",
+      "phonetic": "/naɪn/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "九",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_019_ten",
+      "word": "ten",
+      "meaning": "十",
+      "part_of_speech": "number",
+      "phrase": [
+        "ten boys"
+      ],
+      "sentence": "I have ten fingers.",
+      "phonetic": "/ten/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_020_eleven",
+      "word": "eleven",
+      "meaning": "十一",
+      "part_of_speech": "number",
+      "phrase": [
+        "eleven books"
+      ],
+      "sentence": "There are eleven students.",
+      "phonetic": "/ɪˈlevn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十一",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_021_twelve",
+      "word": "twelve",
+      "meaning": "十二",
+      "part_of_speech": "number",
+      "phrase": [
+        "twelve eggs"
+      ],
+      "sentence": "I have twelve crayons.",
+      "phonetic": "/twelv/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十二",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_022_cake",
+      "word": "cake",
+      "meaning": "蛋糕",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a cake",
+        "birthday cake"
+      ],
+      "sentence": "I like cake.",
+      "phonetic": "/keɪk/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "蛋糕",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_023_pie",
+      "word": "pie",
+      "meaning": "派，馅饼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "an apple pie"
+      ],
+      "sentence": "This pie is yummy.",
+      "phonetic": "/paɪ/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "派，馅饼",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_024_ice_cream",
+      "word": "ice cream",
+      "meaning": "冰淇淋",
+      "part_of_speech": "noun",
+      "phrase": [
+        "some ice cream"
+      ],
+      "sentence": "I want ice cream.",
+      "phonetic": "/aɪs kriːm/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "冰淇淋",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_025_sweet",
+      "word": "sweet",
+      "meaning": "糖果",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a sweet"
+      ],
+      "sentence": "I have a sweet.",
+      "phonetic": "/swiːt/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "糖果",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_026_hot_dog",
+      "word": "hot dog",
+      "meaning": "热狗",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a hot dog"
+      ],
+      "sentence": "I want a hot dog.",
+      "phonetic": "/hɒt dɒɡ/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "热狗",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_027_egg",
+      "word": "egg",
+      "meaning": "鸡蛋",
+      "part_of_speech": "noun",
+      "phrase": [
+        "an egg"
+      ],
+      "sentence": "I have an egg for breakfast.",
+      "phonetic": "/eɡ/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "鸡蛋",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_028_mango",
+      "word": "mango",
+      "meaning": "芒果",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a mango"
+      ],
+      "sentence": "The mango is sweet.",
+      "phonetic": "/ˈmæŋɡəʊ/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "芒果",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_029_pineapple",
+      "word": "pineapple",
+      "meaning": "菠萝",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pineapple"
+      ],
+      "sentence": "I like pineapple.",
+      "phonetic": "/ˈpaɪnæpl/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "菠萝",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_030_banana",
+      "word": "banana",
+      "meaning": "香蕉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a banana"
+      ],
+      "sentence": "The banana is yellow.",
+      "phonetic": "/bəˈnɑːnə/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "香蕉",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_031_orange",
+      "word": "orange",
+      "meaning": "橙子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "an orange"
+      ],
+      "sentence": "I have an orange.",
+      "phonetic": "/ˈɒrɪndʒ/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "橙子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_032_cat",
+      "word": "cat",
+      "meaning": "猫",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a cat"
+      ],
+      "sentence": "The cat is cute.",
+      "phonetic": "/kæt/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "猫",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_033_dog",
+      "word": "dog",
+      "meaning": "狗",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a dog"
+      ],
+      "sentence": "I have a dog.",
+      "phonetic": "/dɒɡ/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "狗",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_034_bird",
+      "word": "bird",
+      "meaning": "鸟",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a bird"
+      ],
+      "sentence": "The bird can fly.",
+      "phonetic": "/bɜːd/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "鸟",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_035_fish",
+      "word": "fish",
+      "meaning": "鱼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a fish"
+      ],
+      "sentence": "I can see a fish.",
+      "phonetic": "/fɪʃ/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "鱼",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_036_tiger",
+      "word": "tiger",
+      "meaning": "老虎",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a tiger"
+      ],
+      "sentence": "The tiger is big.",
+      "phonetic": "/ˈtaɪɡər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "老虎",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_037_lion",
+      "word": "lion",
+      "meaning": "狮子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a lion"
+      ],
+      "sentence": "The lion is strong.",
+      "phonetic": "/ˈlaɪən/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "狮子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_038_monkey",
+      "word": "monkey",
+      "meaning": "猴子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a monkey"
+      ],
+      "sentence": "The monkey likes bananas.",
+      "phonetic": "/ˈmʌŋki/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "猴子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_039_elephant",
+      "word": "elephant",
+      "meaning": "大象",
+      "part_of_speech": "noun",
+      "phrase": [
+        "an elephant"
+      ],
+      "sentence": "The elephant is very big.",
+      "phonetic": "/ˈelɪfənt/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "大象",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_040_panda",
+      "word": "panda",
+      "meaning": "熊猫",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a panda"
+      ],
+      "sentence": "I like pandas.",
+      "phonetic": "/ˈpændə/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "熊猫",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_041_bear",
+      "word": "bear",
+      "meaning": "熊",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a bear"
+      ],
+      "sentence": "The bear is brown.",
+      "phonetic": "/beər/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "熊",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_042_bed",
+      "word": "bed",
+      "meaning": "床",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a bed",
+        "go to bed"
+      ],
+      "sentence": "I go to bed at nine.",
+      "phonetic": "/bed/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "床",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_043_desk",
+      "word": "desk",
+      "meaning": "书桌",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a desk"
+      ],
+      "sentence": "My book is on the desk.",
+      "phonetic": "/desk/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "书桌",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_044_chair",
+      "word": "chair",
+      "meaning": "椅子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a chair"
+      ],
+      "sentence": "Please sit on the chair.",
+      "phonetic": "/tʃeər/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "椅子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_045_table",
+      "word": "table",
+      "meaning": "桌子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a table"
+      ],
+      "sentence": "The cake is on the table.",
+      "phonetic": "/ˈteɪbl/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "桌子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_046_door",
+      "word": "door",
+      "meaning": "门",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a door",
+        "open the door"
+      ],
+      "sentence": "Please open the door.",
+      "phonetic": "/dɔːr/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "门",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_047_window",
+      "word": "window",
+      "meaning": "窗户",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a window",
+        "open the window"
+      ],
+      "sentence": "Please close the window.",
+      "phonetic": "/ˈwɪndəʊ/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "窗户",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_048_sofa",
+      "word": "sofa",
+      "meaning": "沙发",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a sofa"
+      ],
+      "sentence": "The cat is on the sofa.",
+      "phonetic": "/ˈsəʊfə/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "沙发",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_049_fridge",
+      "word": "fridge",
+      "meaning": "冰箱",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a fridge"
+      ],
+      "sentence": "The milk is in the fridge.",
+      "phonetic": "/frɪdʒ/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "冰箱",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_050_TV",
+      "word": "TV",
+      "meaning": "电视",
+      "part_of_speech": "noun",
+      "phrase": [
+        "watch TV"
+      ],
+      "sentence": "I watch TV in the evening.",
+      "phonetic": "/ˌtiː ˈviː/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "电视",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_051_father",
+      "word": "father",
+      "meaning": "爸爸",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my father"
+      ],
+      "sentence": "My father is a teacher.",
+      "phonetic": "/ˈfɑːðər/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "爸爸",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_052_mother",
+      "word": "mother",
+      "meaning": "妈妈",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my mother"
+      ],
+      "sentence": "My mother is beautiful.",
+      "phonetic": "/ˈmʌðər/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "妈妈",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_053_brother",
+      "word": "brother",
+      "meaning": "兄弟",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my brother"
+      ],
+      "sentence": "He is my brother.",
+      "phonetic": "/ˈbrʌðər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "兄弟",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_054_sister",
+      "word": "sister",
+      "meaning": "姐妹",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my sister"
+      ],
+      "sentence": "She is my sister.",
+      "phonetic": "/ˈsɪstər/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "姐妹",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_055_grandfather",
+      "word": "grandfather",
+      "meaning": "爷爷，外公",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my grandfather"
+      ],
+      "sentence": "My grandfather is kind.",
+      "phonetic": "/ˈɡrænfɑːðər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "爷爷，外公",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_056_grandmother",
+      "word": "grandmother",
+      "meaning": "奶奶，外婆",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my grandmother"
+      ],
+      "sentence": "My grandmother likes flowers.",
+      "phonetic": "/ˈɡrænmʌðər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "奶奶，外婆",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_057_friend",
+      "word": "friend",
+      "meaning": "朋友",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a friend",
+        "my friend"
+      ],
+      "sentence": "She is my friend.",
+      "phonetic": "/frend/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "朋友",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_058_teacher",
+      "word": "teacher",
+      "meaning": "老师",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my teacher"
+      ],
+      "sentence": "My teacher is nice.",
+      "phonetic": "/ˈtiːtʃər/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "老师",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_059_family",
+      "word": "family",
+      "meaning": "家庭",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my family"
+      ],
+      "sentence": "I love my family.",
+      "phonetic": "/ˈfæməli/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "家庭",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

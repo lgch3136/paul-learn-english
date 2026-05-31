@@ -1,0 +1,26 @@
+{
+  "unit": "Unit 3",
+  "grammar_points": [
+    {
+      "grammar_id": "grammar_unit_3_001",
+      "unit": "Unit 3",
+      "grammar_point": "方位介词",
+      "category": "usage",
+      "student_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "teacher_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "correct_examples": [
+        {"sentence":"The bookshop is next to the school.","translation":"书店在学校旁边。","highlight":""},
+        {"sentence":"The park is between the school and the hospital.","translation":"公园在学校和医院之间。","highlight":""}
+      ],
+      "wrong_examples": [
+        {"sentence":"The bookshop is next the school.","correction":"The bookshop is next to the school.","error_type":"介词用错"},
+        {"sentence":"The park is between the school to the hospital.","correction":"The park is between the school and the hospital.","error_type":"介词用错"}
+      ],
+      "error_reason":"学生容易混淆正确用法",
+      "error_tags":["介词用错","短语搭配"],
+      "practice_types":["选择","填空","改错"],
+      "difficulty": 3,
+      "related_vocabulary":[]
+    }
+  ]
+}

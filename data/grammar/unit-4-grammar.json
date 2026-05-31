@@ -1,0 +1,26 @@
+{
+  "unit": "Unit 4",
+  "grammar_points": [
+    {
+      "grammar_id": "grammar_unit_4_001",
+      "unit": "Unit 4",
+      "grammar_point": "have + 疾病的表达",
+      "category": "usage",
+      "student_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "teacher_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "correct_examples": [
+        {"sentence":"I have a headache.","translation":"我头疼。","highlight":""},
+        {"sentence":"He has a fever.","translation":"他发烧了。","highlight":""}
+      ],
+      "wrong_examples": [
+        {"sentence":"I have headache.","correction":"I have a headache.","error_type":"缺少冠词"},
+        {"sentence":"He have a fever.","correction":"He has a fever.","error_type":"缺少冠词"}
+      ],
+      "error_reason":"学生容易混淆正确用法",
+      "error_tags":["缺少冠词","动词形式错"],
+      "practice_types":["选择","填空","改错"],
+      "difficulty": 3,
+      "related_vocabulary":[]
+    }
+  ]
+}

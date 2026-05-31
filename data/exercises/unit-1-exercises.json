@@ -1,0 +1,580 @@
+{
+  "unit": "Unit 1",
+  "exercises": [
+    {
+      "question_id": "exercise_unit_1_001",
+      "unit": "Unit 1",
+      "type": "recognize_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "question": "选出与图片相符的单词（图片：一个男孩在踢足球）",
+      "options": [
+        "play football",
+        "play basketball",
+        "play the piano",
+        "play games"
+      ],
+      "answer": "play football",
+      "explanation": "图片显示的是踢足球的场景，football 是足球",
+      "error_tag": "词义混",
+      "related_vocabulary": [
+        "play",
+        "football"
+      ],
+      "related_grammar": null,
+      "next_if_wrong": "exercise_unit_1_002",
+      "next_if_right": "exercise_unit_1_002",
+      "time_limit": 25
+    },
+    {
+      "question_id": "exercise_unit_1_002",
+      "unit": "Unit 1",
+      "type": "recognize_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "question": "选出单词 'usually' 的正确中文意思",
+      "options": [
+        "从不",
+        "有时候",
+        "通常",
+        "经常"
+      ],
+      "answer": "通常",
+      "explanation": "usually 表示通常，频率很高",
+      "error_tag": "词义混",
+      "related_vocabulary": [
+        "usually",
+        "often",
+        "sometimes",
+        "never"
+      ],
+      "related_grammar": "grammar_unit_1_002_frequency_adverbs",
+      "next_if_wrong": "exercise_unit_1_003",
+      "next_if_right": "exercise_unit_1_003",
+      "time_limit": 20
+    },
+    {
+      "question_id": "exercise_unit_1_003",
+      "unit": "Unit 1",
+      "type": "spell_fill",
+      "skill": "writing",
+      "difficulty": 2,
+      "question": "根据中文提示，补全单词：足球 f____tball",
+      "options": null,
+      "answer": "oot",
+      "explanation": "football 是合成词，由 foot（脚）和 ball（球）组成",
+      "error_tag": "拼写错",
+      "related_vocabulary": [
+        "football",
+        "foot",
+        "ball"
+      ],
+      "related_grammar": null,
+      "next_if_wrong": "exercise_unit_1_004",
+      "next_if_right": "exercise_unit_1_004",
+      "time_limit": 45
+    },
+    {
+      "question_id": "exercise_unit_1_004",
+      "unit": "Unit 1",
+      "type": "spell_fill",
+      "skill": "writing",
+      "difficulty": 2,
+      "question": "根据中文提示，补全单词：家庭作业 ho____rk",
+      "options": null,
+      "answer": "mewo",
+      "explanation": "homework 由 home（家）和 work（工作）组成",
+      "error_tag": "拼写错",
+      "related_vocabulary": [
+        "homework",
+        "home",
+        "work"
+      ],
+      "related_grammar": null,
+      "next_if_wrong": "exercise_unit_1_005",
+      "next_if_right": "exercise_unit_1_005",
+      "time_limit": 45
+    },
+    {
+      "question_id": "exercise_unit_1_005",
+      "unit": "Unit 1",
+      "type": "correct_error",
+      "skill": "grammar",
+      "difficulty": 3,
+      "question": "找出句子中的错误并改正：He play football every day.",
+      "options": null,
+      "answer": "play → plays",
+      "explanation": "主语是 He（第三人称单数），动词要加 s",
+      "error_tag": "动词形式错",
+      "related_vocabulary": [
+        "play",
+        "he"
+      ],
+      "related_grammar": "grammar_unit_1_001_present_simple",
+      "next_if_wrong": "exercise_unit_1_006",
+      "next_if_right": "exercise_unit_1_006",
+      "time_limit": 60
+    },
+    {
+      "question_id": "exercise_unit_1_006",
+      "unit": "Unit 1",
+      "type": "correct_error",
+      "skill": "grammar",
+      "difficulty": 3,
+      "question": "找出句子中的错误并改正：She watchs TV every evening.",
+      "options": null,
+      "answer": "watchs → watches",
+      "explanation": "watch 以 ch 结尾，要加 es 而不是 s",
+      "error_tag": "动词形式错",
+      "related_vocabulary": [
+        "watch",
+        "she"
+      ],
+      "related_grammar": "grammar_unit_1_001_present_simple",
+      "next_if_wrong": "exercise_unit_1_007",
+      "next_if_right": "exercise_unit_1_007",
+      "time_limit": 60
+    },
+    {
+      "question_id": "exercise_unit_1_007",
+      "unit": "Unit 1",
+      "type": "correct_error",
+      "skill": "grammar",
+      "difficulty": 3,
+      "question": "找出句子中的错误并改正：I get up usually at seven.",
+      "options": null,
+      "answer": "get up usually → usually get up",
+      "explanation": "频率副词 usually 要放在动词前面",
+      "error_tag": "句序错",
+      "related_vocabulary": [
+        "usually",
+        "get up"
+      ],
+      "related_grammar": "grammar_unit_1_002_frequency_adverbs",
+      "next_if_wrong": "exercise_unit_1_008",
+      "next_if_right": "exercise_unit_1_008",
+      "time_limit": 60
+    },
+    {
+      "question_id": "exercise_unit_1_008",
+      "unit": "Unit 1",
+      "type": "sentence_make",
+      "skill": "writing",
+      "difficulty": 4,
+      "question": "用所给单词组成句子：football / plays / He / every day",
+      "options": null,
+      "answer": "He plays football every day.",
+      "explanation": "主语 + 动词 + 宾语 + 时间状语",
+      "error_tag": "句序错",
+      "related_vocabulary": [
+        "play",
+        "football",
+        "every",
+        "day"
+      ],
+      "related_grammar": "grammar_unit_1_001_present_simple",
+      "next_if_wrong": "exercise_unit_1_009",
+      "next_if_right": "exercise_unit_1_009",
+      "time_limit": 90
+    },
+    {
+      "question_id": "exercise_unit_1_009",
+      "unit": "Unit 1",
+      "type": "sentence_make",
+      "skill": "writing",
+      "difficulty": 4,
+      "question": "用所给单词组成句子：usually / I / at / get up / seven",
+      "options": null,
+      "answer": "I usually get up at seven.",
+      "explanation": "主语 + 频率副词 + 动词 + 时间",
+      "error_tag": "句序错",
+      "related_vocabulary": [
+        "usually",
+        "get up",
+        "at",
+        "seven"
+      ],
+      "related_grammar": "grammar_unit_1_002_frequency_adverbs",
+      "next_if_wrong": "exercise_unit_1_010",
+      "next_if_right": "exercise_unit_1_010",
+      "time_limit": 90
+    },
+    {
+      "question_id": "exercise_unit_1_010",
+      "unit": "Unit 1",
+      "type": "translate",
+      "skill": "reading",
+      "difficulty": 3,
+      "question": "将下面的句子翻译成英文：我经常在放学后踢足球。",
+      "options": null,
+      "answer": "I often play football after school.",
+      "explanation": "often 是经常，after school 是放学后",
+      "error_tag": "句序错",
+      "related_vocabulary": [
+        "often",
+        "play",
+        "football",
+        "after",
+        "school"
+      ],
+      "related_grammar": "grammar_unit_1_002_frequency_adverbs",
+      "next_if_wrong": "exercise_unit_1_011",
+      "next_if_right": "exercise_unit_1_011",
+      "time_limit": 90
+    },
+    {
+      "question_id": "exercise_unit_1_011",
+      "unit": "Unit 1",
+      "type": "translate",
+      "skill": "reading",
+      "difficulty": 3,
+      "question": "将下面的句子翻译成英文：她从不看电视。",
+      "options": null,
+      "answer": "She never watches TV.",
+      "explanation": "主语是 She，所以 watch 要加 es",
+      "error_tag": "动词形式错",
+      "related_vocabulary": [
+        "never",
+        "watch",
+        "TV"
+      ],
+      "related_grammar": "grammar_unit_1_001_present_simple",
+      "next_if_wrong": "exercise_unit_1_012",
+      "next_if_right": "exercise_unit_1_012",
+      "time_limit": 90
+    },
+    {
+      "question_id": "exercise_unit_1_012",
+      "unit": "Unit 1",
+      "type": "recognize_choice",
+      "skill": "reading",
+      "difficulty": 2,
+      "question": "选出正确的介词：I get up ___ seven.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "for"
+      ],
+      "answer": "at",
+      "explanation": "具体时间点前用 at",
+      "error_tag": "介词错",
+      "related_vocabulary": [
+        "at",
+        "seven"
+      ],
+      "related_grammar": "grammar_unit_1_003_time_expressions",
+      "next_if_wrong": "exercise_unit_1_013",
+      "next_if_right": "exercise_unit_1_013",
+      "time_limit": 25
+    },
+    {
+      "question_id": "exercise_unit_1_013",
+      "unit": "Unit 1",
+      "type": "recognize_choice",
+      "skill": "reading",
+      "difficulty": 2,
+      "question": "选出正确的介词：I read books ___ the evening.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "for"
+      ],
+      "answer": "in",
+      "explanation": "in the evening 是固定搭配",
+      "error_tag": "介词错",
+      "related_vocabulary": [
+        "in",
+        "evening"
+      ],
+      "related_grammar": "grammar_unit_1_003_time_expressions",
+      "next_if_wrong": "exercise_unit_1_014",
+      "next_if_right": "exercise_unit_1_014",
+      "time_limit": 25
+    },
+    {
+      "question_id": "exercise_unit_1_014",
+      "unit": "Unit 1",
+      "type": "recognize_choice",
+      "skill": "reading",
+      "difficulty": 2,
+      "question": "选出正确的介词：I play football ___ Sunday.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "for"
+      ],
+      "answer": "on",
+      "explanation": "星期前用 on",
+      "error_tag": "介词错",
+      "related_vocabulary": [
+        "on",
+        "Sunday"
+      ],
+      "related_grammar": "grammar_unit_1_003_time_expressions",
+      "next_if_wrong": "exercise_unit_1_015",
+      "next_if_right": "exercise_unit_1_015",
+      "time_limit": 25
+    },
+    {
+      "question_id": "exercise_unit_1_015",
+      "unit": "Unit 1",
+      "type": "recognize_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "question": "选出单词 'homework' 的正确中文意思",
+      "options": [
+        "家务",
+        "家庭作业",
+        "家庭",
+        "工作"
+      ],
+      "answer": "家庭作业",
+      "explanation": "homework 是 home + work，指在家做的功课",
+      "error_tag": "词义混",
+      "related_vocabulary": [
+        "homework",
+        "home",
+        "work"
+      ],
+      "related_grammar": null,
+      "next_if_wrong": "exercise_unit_1_016",
+      "next_if_right": "exercise_unit_1_016",
+      "time_limit": 20
+    },
+    {
+      "question_id": "exercise_unit_1_016",
+      "unit": "Unit 1",
+      "type": "spell_fill",
+      "skill": "writing",
+      "difficulty": 2,
+      "question": "根据中文提示，补全单词：晚餐 d_nner",
+      "options": null,
+      "answer": "i",
+      "explanation": "dinner 的拼写是 d-i-n-n-e-r",
+      "error_tag": "拼写错",
+      "related_vocabulary": [
+        "dinner"
+      ],
+      "related_grammar": null,
+      "next_if_wrong": "exercise_unit_1_017",
+      "next_if_right": "exercise_unit_1_017",
+      "time_limit": 45
+    },
+    {
+      "question_id": "exercise_unit_1_017",
+      "unit": "Unit 1",
+      "type": "correct_error",
+      "skill": "grammar",
+      "difficulty": 3,
+      "question": "找出句子中的错误并改正：My brother go to school at eight.",
+      "options": null,
+      "answer": "go → goes",
+      "explanation": "My brother 是第三人称单数，动词要加 es",
+      "error_tag": "动词形式错",
+      "related_vocabulary": [
+        "go",
+        "brother"
+      ],
+      "related_grammar": "grammar_unit_1_001_present_simple",
+      "next_if_wrong": "exercise_unit_1_018",
+      "next_if_right": "exercise_unit_1_018",
+      "time_limit": 60
+    },
+    {
+      "question_id": "exercise_unit_1_018",
+      "unit": "Unit 1",
+      "type": "sentence_make",
+      "skill": "writing",
+      "difficulty": 4,
+      "question": "用所给单词组成句子：TV / watches / She / evening / the / in",
+      "options": null,
+      "answer": "She watches TV in the evening.",
+      "explanation": "主语 + 动词 + 宾语 + 时间",
+      "error_tag": "句序错",
+      "related_vocabulary": [
+        "watch",
+        "TV",
+        "evening"
+      ],
+      "related_grammar": "grammar_unit_1_001_present_simple",
+      "next_if_wrong": "exercise_unit_1_019",
+      "next_if_right": "exercise_unit_1_019",
+      "time_limit": 90
+    },
+    {
+      "question_id": "exercise_unit_1_019",
+      "unit": "Unit 1",
+      "type": "translate",
+      "skill": "reading",
+      "difficulty": 3,
+      "question": "将下面的句子翻译成英文：他通常在早上读书。",
+      "options": null,
+      "answer": "He usually reads books in the morning.",
+      "explanation": "主语是 He，read 要加 s；usually 放在动词前",
+      "error_tag": "动词形式错",
+      "related_vocabulary": [
+        "usually",
+        "read",
+        "books",
+        "morning"
+      ],
+      "related_grammar": "grammar_unit_1_001_present_simple",
+      "next_if_wrong": "exercise_unit_1_020",
+      "next_if_right": "exercise_unit_1_020",
+      "time_limit": 90
+    },
+    {
+      "question_id": "exercise_unit_1_020",
+      "unit": "Unit 1",
+      "type": "recognize_choice",
+      "skill": "reading",
+      "difficulty": 2,
+      "question": "选出 'because' 的正确中文意思",
+      "options": [
+        "但是",
+        "所以",
+        "因为",
+        "如果"
+      ],
+      "answer": "因为",
+      "explanation": "because 表示原因，意思是'因为'",
+      "error_tag": "词义混",
+      "related_vocabulary": [
+        "because"
+      ],
+      "related_grammar": null,
+      "next_if_wrong": "exercise_unit_1_021",
+      "next_if_right": "exercise_unit_1_021",
+      "time_limit": 20
+    },
+    {
+      "question_id": "exercise_unit_1_021",
+      "unit": "Unit 1",
+      "type": "recognize_choice",
+      "skill": "reading",
+      "difficulty": 2,
+      "question": "选出正确的句子",
+      "options": [
+        "He often play football.",
+        "He often plays football.",
+        "He play often football.",
+        "He plays often football."
+      ],
+      "answer": "He often plays football.",
+      "explanation": "主语是 He，play 要加 s；often 放在动词前",
+      "error_tag": "动词形式错",
+      "related_vocabulary": [
+        "often",
+        "play",
+        "football"
+      ],
+      "related_grammar": "grammar_unit_1_001_present_simple",
+      "next_if_wrong": "exercise_unit_1_022",
+      "next_if_right": "exercise_unit_1_022",
+      "time_limit": 30
+    },
+    {
+      "question_id": "exercise_unit_1_022",
+      "unit": "Unit 1",
+      "type": "correct_error",
+      "skill": "grammar",
+      "difficulty": 3,
+      "question": "找出句子中的错误并改正：I do never my homework.",
+      "options": null,
+      "answer": "do never → never do",
+      "explanation": "频率副词 never 要放在动词 do 前面",
+      "error_tag": "句序错",
+      "related_vocabulary": [
+        "never",
+        "do",
+        "homework"
+      ],
+      "related_grammar": "grammar_unit_1_002_frequency_adverbs",
+      "next_if_wrong": "exercise_unit_1_023",
+      "next_if_right": "exercise_unit_1_023",
+      "time_limit": 60
+    },
+    {
+      "question_id": "exercise_unit_1_023",
+      "unit": "Unit 1",
+      "type": "spell_fill",
+      "skill": "writing",
+      "difficulty": 2,
+      "question": "根据中文提示，补全单词：因为 bec__se",
+      "options": null,
+      "answer": "au",
+      "explanation": "because 的拼写是 b-e-c-a-u-s-e",
+      "error_tag": "拼写错",
+      "related_vocabulary": [
+        "because"
+      ],
+      "related_grammar": null,
+      "next_if_wrong": "exercise_unit_1_024",
+      "next_if_right": "exercise_unit_1_024",
+      "time_limit": 45
+    },
+    {
+      "question_id": "exercise_unit_1_024",
+      "unit": "Unit 1",
+      "type": "sentence_make",
+      "skill": "writing",
+      "difficulty": 4,
+      "question": "用所给单词组成句子：like / I / because / football / it's / fun",
+      "options": null,
+      "answer": "I like football because it's fun.",
+      "explanation": "because 引导原因状语从句",
+      "error_tag": "because 用法错",
+      "related_vocabulary": [
+        "like",
+        "football",
+        "because",
+        "fun"
+      ],
+      "related_grammar": null,
+      "next_if_wrong": "exercise_unit_1_025",
+      "next_if_right": "exercise_unit_1_025",
+      "time_limit": 90
+    },
+    {
+      "question_id": "exercise_unit_1_025",
+      "unit": "Unit 1",
+      "type": "translate",
+      "skill": "reading",
+      "difficulty": 4,
+      "question": "将下面的句子翻译成英文：我喜欢读书因为它很有趣。",
+      "options": null,
+      "answer": "I like reading books because it's interesting.",
+      "explanation": "like doing 表示喜欢做某事，because 引导原因",
+      "error_tag": "because 用法错",
+      "related_vocabulary": [
+        "like",
+        "read",
+        "books",
+        "because",
+        "interesting"
+      ],
+      "related_grammar": null,
+      "next_if_wrong": null,
+      "next_if_right": null,
+      "time_limit": 90
+    }
+  ],
+  "total_exercises": 25,
+  "difficulty_distribution": {
+    "1": 3,
+    "2": 7,
+    "3": 9,
+    "4": 6
+  },
+  "type_distribution": {
+    "recognize_choice": 8,
+    "spell_fill": 4,
+    "correct_error": 5,
+    "sentence_make": 4,
+    "translate": 4
+  },
+  "note": "这些是基于译林版五年级下册 Unit 1 创建的示例练习题，可根据实际教材进行调整。"
+}

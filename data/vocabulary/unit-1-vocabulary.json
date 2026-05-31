@@ -1,0 +1,621 @@
+{
+  "unit": "Unit 1",
+  "unit_title": "What do you do?",
+  "theme": "日常生活与习惯",
+  "big_question": "What do you usually do after school?",
+  "vocabulary": [
+    {
+      "word_id": "unit_1_001_play",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "play",
+      "meaning": "玩；播放",
+      "part_of_speech": "verb",
+      "phrase": [
+        "play football",
+        "play the piano",
+        "play with friends",
+        "play games"
+      ],
+      "sentence": "I often play football after school.",
+      "phonetic": "/pleɪ/",
+      "listen_audio": "audio/unit1/play.mp3",
+      "image_prompt": "一个男孩在操场上开心地踢足球",
+      "error_tags": [
+        "动词形式错",
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_002_football",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "football",
+      "meaning": "足球",
+      "part_of_speech": "noun",
+      "phrase": [
+        "play football",
+        "football match",
+        "football field"
+      ],
+      "sentence": "He likes playing football very much.",
+      "phonetic": "/ˈfʊtbɔːl/",
+      "listen_audio": "audio/unit1/football.mp3",
+      "image_prompt": "一个足球",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_003_every",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "every",
+      "meaning": "每个",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "every day",
+        "every week",
+        "every morning",
+        "every student"
+      ],
+      "sentence": "I go to school every day.",
+      "phonetic": "/ˈevri/",
+      "listen_audio": "audio/unit1/every.mp3",
+      "image_prompt": "日历上圈出的每一天",
+      "error_tags": [
+        "拼写错",
+        "词义混"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_004_day",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "day",
+      "meaning": "天；日子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "every day",
+        "today",
+        "yesterday",
+        "day and night"
+      ],
+      "sentence": "What do you do every day?",
+      "phonetic": "/deɪ/",
+      "listen_audio": "audio/unit1/day.mp3",
+      "image_prompt": "太阳升起的白天场景",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_005_usually",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "usually",
+      "meaning": "通常",
+      "part_of_speech": "adverb",
+      "phrase": [
+        "usually do",
+        "usually go",
+        "usually have"
+      ],
+      "sentence": "I usually get up at seven.",
+      "phonetic": "/ˈjuːʒuəli/",
+      "listen_audio": "audio/unit1/usually.mp3",
+      "image_prompt": "一个孩子每天早上起床的场景",
+      "error_tags": [
+        "拼写错",
+        "句序错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_006_often",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "often",
+      "meaning": "经常",
+      "part_of_speech": "adverb",
+      "phrase": [
+        "often do",
+        "often go",
+        "how often"
+      ],
+      "sentence": "I often read books in the evening.",
+      "phonetic": "/ˈɒfn/",
+      "listen_audio": "audio/unit1/often.mp3",
+      "image_prompt": "一个孩子在看书",
+      "error_tags": [
+        "拼写错",
+        "词义混"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_007_sometimes",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "sometimes",
+      "meaning": "有时候",
+      "part_of_speech": "adverb",
+      "phrase": [
+        "sometimes do",
+        "sometimes go"
+      ],
+      "sentence": "Sometimes I play basketball.",
+      "phonetic": "/ˈsʌmtaɪmz/",
+      "listen_audio": "audio/unit1/sometimes.mp3",
+      "image_prompt": "孩子偶尔打篮球的场景",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_008_never",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "never",
+      "meaning": "从不",
+      "part_of_speech": "adverb",
+      "phrase": [
+        "never do",
+        "never go",
+        "never mind"
+      ],
+      "sentence": "I never go to school late.",
+      "phonetic": "/ˈnevə(r)/",
+      "listen_audio": "audio/unit1/never.mp3",
+      "image_prompt": "一个孩子准时到校",
+      "error_tags": [
+        "拼写错",
+        "词义混"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_009_get_up",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "get up",
+      "meaning": "起床",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "get up early",
+        "get up late",
+        "get up at six"
+      ],
+      "sentence": "I get up at seven every morning.",
+      "phonetic": "/ɡet ʌp/",
+      "listen_audio": "audio/unit1/get_up.mp3",
+      "image_prompt": "一个孩子早上起床伸懒腰",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_010_go_to_school",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "go to school",
+      "meaning": "去上学",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "go to school by bus",
+        "go to school on foot"
+      ],
+      "sentence": "I go to school at eight.",
+      "phonetic": "/ɡəʊ tuː skuːl/",
+      "listen_audio": "audio/unit1/go_to_school.mp3",
+      "image_prompt": "孩子背着书包去学校",
+      "error_tags": [
+        "句序错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_011_after",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "after",
+      "meaning": "在……之后",
+      "part_of_speech": "preposition",
+      "phrase": [
+        "after school",
+        "after lunch",
+        "after class"
+      ],
+      "sentence": "I play football after school.",
+      "phonetic": "/ˈɑːftə(r)/",
+      "listen_audio": "audio/unit1/after.mp3",
+      "image_prompt": "放学后的场景",
+      "error_tags": [
+        "介词错",
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_012_homework",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "homework",
+      "meaning": "家庭作业",
+      "part_of_speech": "noun",
+      "phrase": [
+        "do homework",
+        "homework time",
+        "finish homework"
+      ],
+      "sentence": "I do my homework after dinner.",
+      "phonetic": "/ˈhəʊmwɜːk/",
+      "listen_audio": "audio/unit1/homework.mp3",
+      "image_prompt": "孩子在书桌前写作业",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_013_dinner",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "dinner",
+      "meaning": "晚餐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have dinner",
+        "after dinner",
+        "dinner time"
+      ],
+      "sentence": "We have dinner at six.",
+      "phonetic": "/ˈdɪnə(r)/",
+      "listen_audio": "audio/unit1/dinner.mp3",
+      "image_prompt": "一家人在餐桌前吃晚餐",
+      "error_tags": [
+        "拼写错",
+        "词义混"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_014_watch",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "watch",
+      "meaning": "观看",
+      "part_of_speech": "verb",
+      "phrase": [
+        "watch TV",
+        "watch a film",
+        "watch a match"
+      ],
+      "sentence": "I watch TV in the evening.",
+      "phonetic": "/wɒtʃ/",
+      "listen_audio": "audio/unit1/watch.mp3",
+      "image_prompt": "孩子在看电视",
+      "error_tags": [
+        "动词形式错",
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_015_TV",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "TV",
+      "meaning": "电视",
+      "part_of_speech": "noun",
+      "phrase": [
+        "watch TV",
+        "on TV",
+        "TV show"
+      ],
+      "sentence": "My father watches TV every night.",
+      "phonetic": "/ˌtiː ˈviː/",
+      "listen_audio": "audio/unit1/TV.mp3",
+      "image_prompt": "一台电视机",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_016_read",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "read",
+      "meaning": "读；阅读",
+      "part_of_speech": "verb",
+      "phrase": [
+        "read books",
+        "read a story",
+        "read a newspaper"
+      ],
+      "sentence": "I like reading books.",
+      "phonetic": "/riːd/",
+      "listen_audio": "audio/unit1/read.mp3",
+      "image_prompt": "孩子在看书",
+      "error_tags": [
+        "动词形式错",
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_017_books",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "books",
+      "meaning": "书（复数）",
+      "part_of_speech": "noun",
+      "phrase": [
+        "read books",
+        "story books",
+        "English books"
+      ],
+      "sentence": "She reads books every day.",
+      "phonetic": "/bʊks/",
+      "listen_audio": "audio/unit1/books.mp3",
+      "image_prompt": "一堆书",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_018_at",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "at",
+      "meaning": "在（某时刻）",
+      "part_of_speech": "preposition",
+      "phrase": [
+        "at seven",
+        "at home",
+        "at school",
+        "at night"
+      ],
+      "sentence": "I get up at seven.",
+      "phonetic": "/æt/",
+      "listen_audio": "audio/unit1/at.mp3",
+      "image_prompt": "时钟指向7点",
+      "error_tags": [
+        "介词错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_019_in",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "in",
+      "meaning": "在（某段时间）",
+      "part_of_speech": "preposition",
+      "phrase": [
+        "in the morning",
+        "in the evening",
+        "in the afternoon"
+      ],
+      "sentence": "I read books in the evening.",
+      "phonetic": "/ɪn/",
+      "listen_audio": "audio/unit1/in.mp3",
+      "image_prompt": "傍晚的场景",
+      "error_tags": [
+        "介词错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_1_020_because",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "because",
+      "meaning": "因为",
+      "part_of_speech": "conjunction",
+      "phrase": [
+        "because of",
+        "because I like"
+      ],
+      "sentence": "I like football because it's fun.",
+      "phonetic": "/bɪˈkɒz/",
+      "listen_audio": "audio/unit1/because.mp3",
+      "image_prompt": "因果关系的图示",
+      "error_tags": [
+        "because 用法错",
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ],
+  "total_words": 20,
+  "note": "这些是基于译林版五年级下册常见内容创建的示例数据，可根据实际教材进行调整。"
+}

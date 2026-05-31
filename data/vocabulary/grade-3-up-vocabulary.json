@@ -1,0 +1,1553 @@
+{
+  "unit": "Grade 3 上册",
+  "vocabulary": [
+    {
+      "word_id": "g3up_001_hello",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "hello",
+      "meaning": "你好",
+      "part_of_speech": "interjection",
+      "phrase": [
+        "say hello"
+      ],
+      "sentence": "Hello, I'm Liu Tao.",
+      "phonetic": "/həˈləʊ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_002_hi",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "hi",
+      "meaning": "嗨",
+      "part_of_speech": "interjection",
+      "phrase": [],
+      "sentence": "Hi! Nice to meet you.",
+      "phonetic": "/haɪ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_003_good",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "good",
+      "meaning": "好的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "good night"
+      ],
+      "sentence": "Good morning, class!",
+      "phonetic": "/ɡʊd/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_004_morning",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "morning",
+      "meaning": "早上",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good morning",
+        "in the morning"
+      ],
+      "sentence": "Good morning, Miss Li.",
+      "phonetic": "/ˈmɔːnɪŋ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_005_afternoon",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "afternoon",
+      "meaning": "下午",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good afternoon",
+        "in the afternoon"
+      ],
+      "sentence": "Good afternoon, everyone.",
+      "phonetic": "/ˌɑːftəˈnuːn/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_006_evening",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "evening",
+      "meaning": "晚上",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good evening",
+        "in the evening"
+      ],
+      "sentence": "Good evening, Dad.",
+      "phonetic": "/ˈiːvnɪŋ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_007_miss",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "Miss",
+      "meaning": "女士",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Miss Li"
+      ],
+      "sentence": "Good morning, Miss Wang.",
+      "phonetic": "/mɪs/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "大小写"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_008_class",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "class",
+      "meaning": "同学们；班级",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my class",
+        "in class"
+      ],
+      "sentence": "Good morning, class!",
+      "phonetic": "/klɑːs/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_009_I",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "I",
+      "meaning": "我",
+      "part_of_speech": "pronoun",
+      "phrase": [
+        "I am"
+      ],
+      "sentence": "I am Su Hai.",
+      "phonetic": "/aɪ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "大小写"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_010_am",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "am",
+      "meaning": "是",
+      "part_of_speech": "verb",
+      "phrase": [
+        "I am"
+      ],
+      "sentence": "I am a student.",
+      "phonetic": "/æm/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "动词形式错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_011_are",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "are",
+      "meaning": "是",
+      "part_of_speech": "verb",
+      "phrase": [
+        "you are",
+        "we are"
+      ],
+      "sentence": "You are my friend.",
+      "phonetic": "/ɑː/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "动词形式错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_012_yes",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "yes",
+      "meaning": "是的",
+      "part_of_speech": "adverb",
+      "phrase": [
+        "yes, I am",
+        "yes, please"
+      ],
+      "sentence": "Yes, I am Liu Tao.",
+      "phonetic": "/jes/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_013_no",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "no",
+      "meaning": "不",
+      "part_of_speech": "adverb",
+      "phrase": [
+        "no, I'm not",
+        "no, thank you"
+      ],
+      "sentence": "No, I'm not Liu Tao.",
+      "phonetic": "/nəʊ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_014_not",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "not",
+      "meaning": "不",
+      "part_of_speech": "adverb",
+      "phrase": [
+        "I'm not",
+        "is not",
+        "are not"
+      ],
+      "sentence": "I'm not Mike.",
+      "phonetic": "/nɒt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_015_boy",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "boy",
+      "meaning": "男孩",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a boy"
+      ],
+      "sentence": "I'm a boy.",
+      "phonetic": "/bɔɪ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_016_girl",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "girl",
+      "meaning": "女孩",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a girl"
+      ],
+      "sentence": "She's a girl.",
+      "phonetic": "/ɡɜːl/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_017_friend",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "friend",
+      "meaning": "朋友",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my friend",
+        "good friend"
+      ],
+      "sentence": "You are my friend.",
+      "phonetic": "/frend/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_018_and",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "and",
+      "meaning": "和",
+      "part_of_speech": "conjunction",
+      "phrase": [],
+      "sentence": "Tom and I are friends.",
+      "phonetic": "/ænd/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_019_too",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "too",
+      "meaning": "也",
+      "part_of_speech": "adverb",
+      "phrase": [
+        "me too"
+      ],
+      "sentence": "I'm nine too.",
+      "phonetic": "/tuː/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_020_red",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "red",
+      "meaning": "红色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a red apple"
+      ],
+      "sentence": "This is red.",
+      "phonetic": "/red/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_021_blue",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "blue",
+      "meaning": "蓝色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a blue sky"
+      ],
+      "sentence": "I like blue.",
+      "phonetic": "/bluː/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_022_green",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "green",
+      "meaning": "绿色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a green tree"
+      ],
+      "sentence": "The tree is green.",
+      "phonetic": "/ɡriːn/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_023_yellow",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "yellow",
+      "meaning": "黄色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a yellow banana"
+      ],
+      "sentence": "The banana is yellow.",
+      "phonetic": "/ˈjeləʊ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_024_black",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "black",
+      "meaning": "黑色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a black cat"
+      ],
+      "sentence": "I have a black pen.",
+      "phonetic": "/blæk/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_025_white",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "white",
+      "meaning": "白色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a white rabbit"
+      ],
+      "sentence": "The rabbit is white.",
+      "phonetic": "/waɪt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_026_brown",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "brown",
+      "meaning": "棕色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a brown dog"
+      ],
+      "sentence": "The dog is brown.",
+      "phonetic": "/braʊn/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_027_orange",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "orange",
+      "meaning": "橙色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "an orange"
+      ],
+      "sentence": "I like orange.",
+      "phonetic": "/ˈɒrɪndʒ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_028_nice",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "nice",
+      "meaning": "漂亮的；好的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "nice to meet you",
+        "how nice"
+      ],
+      "sentence": "How nice!",
+      "phonetic": "/naɪs/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_029_family",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "family",
+      "meaning": "家庭",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my family",
+        "family photo"
+      ],
+      "sentence": "This is my family.",
+      "phonetic": "/ˈfæməli/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_030_father",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "father",
+      "meaning": "爸爸",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my father"
+      ],
+      "sentence": "This is my father.",
+      "phonetic": "/ˈfɑːðə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_031_mother",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "mother",
+      "meaning": "妈妈",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my mother"
+      ],
+      "sentence": "This is my mother.",
+      "phonetic": "/ˈmʌðə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_032_brother",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "brother",
+      "meaning": "兄弟",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my brother",
+        "big brother"
+      ],
+      "sentence": "He's my brother.",
+      "phonetic": "/ˈbrʌðə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_033_sister",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "sister",
+      "meaning": "姐妹",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my sister",
+        "big sister"
+      ],
+      "sentence": "She's my sister.",
+      "phonetic": "/ˈsɪstə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_034_grandfather",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "grandfather",
+      "meaning": "爷爷/外公",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my grandfather"
+      ],
+      "sentence": "My grandfather is old.",
+      "phonetic": "/ˈɡrænfɑːðə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_035_grandmother",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "grandmother",
+      "meaning": "奶奶/外婆",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my grandmother"
+      ],
+      "sentence": "My grandmother is kind.",
+      "phonetic": "/ˈɡrænmʌðə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_036_me",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "me",
+      "meaning": "我（宾格）",
+      "part_of_speech": "pronoun",
+      "phrase": [
+        "look at me",
+        "for me"
+      ],
+      "sentence": "Look at me!",
+      "phonetic": "/miː/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_037_head",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "head",
+      "meaning": "头",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my head",
+        "touch your head"
+      ],
+      "sentence": "Touch your head.",
+      "phonetic": "/hed/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_038_eye",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "eye",
+      "meaning": "眼睛",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my eyes"
+      ],
+      "sentence": "I have two eyes.",
+      "phonetic": "/aɪ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_039_ear",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "ear",
+      "meaning": "耳朵",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my ears"
+      ],
+      "sentence": "I have two ears.",
+      "phonetic": "/ɪə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_040_nose",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "nose",
+      "meaning": "鼻子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my nose",
+        "touch your nose"
+      ],
+      "sentence": "This is my nose.",
+      "phonetic": "/nəʊz/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_041_mouth",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "mouth",
+      "meaning": "嘴巴",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my mouth",
+        "open your mouth"
+      ],
+      "sentence": "Open your mouth.",
+      "phonetic": "/maʊθ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_042_face",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "face",
+      "meaning": "脸",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my face",
+        "wash your face"
+      ],
+      "sentence": "Wash your face.",
+      "phonetic": "/feɪs/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_043_hand",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "hand",
+      "meaning": "手",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my hands",
+        "wash your hands"
+      ],
+      "sentence": "Wash your hands.",
+      "phonetic": "/hænd/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_044_leg",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "leg",
+      "meaning": "腿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my legs"
+      ],
+      "sentence": "I have two legs.",
+      "phonetic": "/leɡ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_045_foot",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "foot",
+      "meaning": "脚",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my foot",
+        "my feet"
+      ],
+      "sentence": "This is my foot.",
+      "phonetic": "/fʊt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "单复数"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_046_arm",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "arm",
+      "meaning": "手臂",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my arms"
+      ],
+      "sentence": "I have two arms.",
+      "phonetic": "/ɑːm/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_047_look",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "look",
+      "meaning": "看",
+      "part_of_speech": "verb",
+      "phrase": [
+        "look at"
+      ],
+      "sentence": "Look at my dress.",
+      "phonetic": "/lʊk/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "动词形式错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_048_at",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "at",
+      "meaning": "在",
+      "part_of_speech": "preposition",
+      "phrase": [
+        "look at",
+        "at school"
+      ],
+      "sentence": "Look at the bird.",
+      "phonetic": "/æt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_049_dress",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "dress",
+      "meaning": "连衣裙",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a nice dress"
+      ],
+      "sentence": "Look at my dress.",
+      "phonetic": "/dres/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_050_shirt",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "shirt",
+      "meaning": "衬衫",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a T-shirt"
+      ],
+      "sentence": "He wears a shirt.",
+      "phonetic": "/ʃɜːt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_051_skirt",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "skirt",
+      "meaning": "短裙",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a red skirt"
+      ],
+      "sentence": "She has a skirt.",
+      "phonetic": "/skɜːt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_052_cap",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "cap",
+      "meaning": "帽子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a cap"
+      ],
+      "sentence": "This is my cap.",
+      "phonetic": "/kæp/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_053_jacket",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "jacket",
+      "meaning": "夹克",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a jacket"
+      ],
+      "sentence": "It's a nice jacket.",
+      "phonetic": "/ˈdʒækɪt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_054_great",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "great",
+      "meaning": "太好了",
+      "part_of_speech": "adjective",
+      "phrase": [],
+      "sentence": "Great! Let's go.",
+      "phonetic": "/ɡreɪt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_055_new",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "new",
+      "meaning": "新的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a new dress",
+        "new friend"
+      ],
+      "sentence": "It's a new cap.",
+      "phonetic": "/njuː/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_056_colour",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "colour",
+      "meaning": "颜色",
+      "part_of_speech": "noun",
+      "phrase": [
+        "what colour"
+      ],
+      "sentence": "What colour is it?",
+      "phonetic": "/ˈkʌlə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "unit": "Unit 1",
+  "grammar_points": [
+    {
+      "grammar_id": "grammar_unit_1_001_present_simple",
+      "unit": "Unit 1",
+      "grammar_point": "一般现在时（第三人称单数）",
+      "category": "tense",
+      "student_explanation": "当句子说的是 he、she、it 或一个人名时，动词要加 s 或 es",
+      "teacher_explanation": "一般现在时表示经常性、习惯性的动作或状态。当主语是第三人称单数（he/she/it/单个人名）时，动词需要发生变化：一般加-s（plays, reads），以s/x/sh/ch/o结尾加-es（watches, goes），以辅音字母+y结尾变y为i加-es（studies）。",
+      "correct_examples": [
+        {
+          "sentence": "He plays football every day.",
+          "translation": "他每天踢足球。",
+          "highlight": "plays"
+        },
+        {
+          "sentence": "She watches TV in the evening.",
+          "translation": "她晚上看电视。",
+          "highlight": "watches"
+        },
+        {
+          "sentence": "My mother goes to work by bus.",
+          "translation": "我妈妈坐公交车去上班。",
+          "highlight": "goes"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "He play football every day.",
+          "correction": "He plays football every day.",
+          "error_type": "动词形式错"
+        },
+        {
+          "sentence": "She watchs TV in the evening.",
+          "correction": "She watches TV in the evening.",
+          "error_type": "动词形式错"
+        },
+        {
+          "sentence": "My mother gos to work by bus.",
+          "correction": "My mother goes to work by bus.",
+          "error_type": "动词形式错"
+        }
+      ],
+      "error_reason": "学生容易忘记主语是第三人称单数时动词要变形，或者变形规则记错（如watch直接加s而不是es）",
+      "error_tags": [
+        "动词形式错",
+        "主语判断错"
+      ],
+      "practice_types": [
+        "选择",
+        "填空",
+        "改错",
+        "造句"
+      ],
+      "difficulty": 3,
+      "related_vocabulary": [
+        "play",
+        "watch",
+        "go",
+        "read",
+        "do",
+        "have"
+      ]
+    },
+    {
+      "grammar_id": "grammar_unit_1_002_frequency_adverbs",
+      "unit": "Unit 1",
+      "grammar_point": "频率副词的用法",
+      "category": "usage",
+      "student_explanation": "usually、often、sometimes、never 这些词表示做事的频率，放在动词前面",
+      "teacher_explanation": "频率副词表示动作发生的频率，从高到低依次为：always（总是）> usually（通常）> often（经常）> sometimes（有时候）> seldom（很少）> never（从不）。频率副词通常放在be动词之后、行为动词之前。",
+      "correct_examples": [
+        {
+          "sentence": "I usually get up at seven.",
+          "translation": "我通常七点起床。",
+          "highlight": "usually"
+        },
+        {
+          "sentence": "She often reads books.",
+          "translation": "她经常看书。",
+          "highlight": "often"
+        },
+        {
+          "sentence": "He never goes to school late.",
+          "translation": "他从不上学迟到。",
+          "highlight": "never"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I get up usually at seven.",
+          "correction": "I usually get up at seven.",
+          "error_type": "句序错"
+        },
+        {
+          "sentence": "She reads often books.",
+          "correction": "She often reads books.",
+          "error_type": "句序错"
+        },
+        {
+          "sentence": "He goes never to school late.",
+          "correction": "He never goes to school late.",
+          "error_type": "句序错"
+        }
+      ],
+      "error_reason": "学生受中文影响，把频率副词放在动词后面或其他位置",
+      "error_tags": [
+        "句序错"
+      ],
+      "practice_types": [
+        "选择",
+        "填空",
+        "改错",
+        "造句"
+      ],
+      "difficulty": 2,
+      "related_vocabulary": [
+        "usually",
+        "often",
+        "sometimes",
+        "never",
+        "always"
+      ]
+    },
+    {
+      "grammar_id": "grammar_unit_1_003_time_expressions",
+      "unit": "Unit 1",
+      "grammar_point": "时间表达（at/in/on）",
+      "category": "usage",
+      "student_explanation": "at 用在具体时间点前，in 用在早中晚、月份、年份前，on 用在星期、日期前",
+      "teacher_explanation": "介词at、in、on都可以表示时间，但用法不同：at用于具体时刻（at seven, at noon）、in用于较长时间段（in the morning, in May, in 2024）、on用于具体某天（on Monday, on May 1st）。",
+      "correct_examples": [
+        {
+          "sentence": "I get up at seven.",
+          "translation": "我七点起床。",
+          "highlight": "at"
+        },
+        {
+          "sentence": "I read books in the evening.",
+          "translation": "我晚上看书。",
+          "highlight": "in"
+        },
+        {
+          "sentence": "I play football on Sunday.",
+          "translation": "我周日踢足球。",
+          "highlight": "on"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I get up in seven.",
+          "correction": "I get up at seven.",
+          "error_type": "介词错"
+        },
+        {
+          "sentence": "I read books at the evening.",
+          "correction": "I read books in the evening.",
+          "error_type": "介词错"
+        },
+        {
+          "sentence": "I play football in Sunday.",
+          "correction": "I play football on Sunday.",
+          "error_type": "介词错"
+        }
+      ],
+      "error_reason": "学生分不清 at、in、on 在时间表达中的区别，容易混用",
+      "error_tags": [
+        "介词错",
+        "时间表达错"
+      ],
+      "practice_types": [
+        "选择",
+        "填空",
+        "改错"
+      ],
+      "difficulty": 2,
+      "related_vocabulary": [
+        "at",
+        "in",
+        "on",
+        "every",
+        "morning",
+        "evening"
+      ]
+    }
+  ],
+  "total_grammar_points": 3,
+  "note": "这些是基于译林版五年级下册常见语法点创建的示例数据，可根据实际教材进行调整。"
+}

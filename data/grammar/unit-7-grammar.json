@@ -1,0 +1,26 @@
+{
+  "unit": "Unit 7",
+  "grammar_points": [
+    {
+      "grammar_id": "grammar_unit_7_001",
+      "unit": "Unit 7",
+      "grammar_point": "节日活动表达",
+      "category": "usage",
+      "student_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "teacher_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "correct_examples": [
+        {"sentence":"We eat dumplings at the Spring Festival.","translation":"我们在春节吃饺子。","highlight":""},
+        {"sentence":"We watch the moon at the Mid-Autumn Festival.","translation":"我们在中秋节赏月。","highlight":""}
+      ],
+      "wrong_examples": [
+        {"sentence":"We eat dumplings in the Spring Festival.","correction":"We eat dumplings at the Spring Festival.","error_type":"介词用错"},
+        {"sentence":"We watch moon at the Mid-Autumn Festival.","correction":"We watch the moon at the Mid-Autumn Festival.","error_type":"介词用错"}
+      ],
+      "error_reason":"学生容易混淆正确用法",
+      "error_tags":["介词用错","缺少冠词"],
+      "practice_types":["选择","填空","改错"],
+      "difficulty": 3,
+      "related_vocabulary":[]
+    }
+  ]
+}

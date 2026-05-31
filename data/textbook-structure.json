@@ -1,0 +1,127 @@
+{
+  "textbook": {
+    "name": "译林版小学英语（三年级起点）五年级下册",
+    "version": "2024修订版",
+    "publisher": "译林出版社",
+    "editor": "何锋",
+    "grade": 5,
+    "semester": "下册",
+    "total_units": 8,
+    "total_modules": 2,
+    "units_per_module": 4
+  },
+  "structure": {
+    "modules": [
+      {
+        "module_id": 1,
+        "module_name": "Module 1",
+        "units": [1, 2, 3, 4],
+        "project": {
+          "project_id": 1,
+          "project_name": "Project 1",
+          "description": "我的日常生活"
+        }
+      },
+      {
+        "module_id": 2,
+        "module_name": "Module 2",
+        "units": [5, 6, 7, 8],
+        "project": {
+          "project_id": 2,
+          "project_name": "Project 2",
+          "description": "节日与庆祝"
+        }
+      }
+    ],
+    "units": [
+      {
+        "unit_id": 1,
+        "unit_name": "What do you do?",
+        "theme": "日常生活与习惯",
+        "big_question": "What do you usually do after school?",
+        "sections": [
+          {"section_id": "story_time", "section_name": "Story Time", "description": "故事时间"},
+          {"section_id": "cartoon_time", "section_name": "Cartoon Time", "description": "卡通时间"},
+          {"section_id": "grammar", "section_name": "Grammar", "description": "语法讲解"}
+        ]
+      },
+      {
+        "unit_id": 2,
+        "unit_name": "How do you come to school?",
+        "theme": "交通出行",
+        "big_question": "How do you come to school every day?",
+        "sections": [
+          {"section_id": "story_time", "section_name": "Story Time", "description": "故事时间"},
+          {"section_id": "cartoon_time", "section_name": "Cartoon Time", "description": "卡通时间"},
+          {"section_id": "grammar", "section_name": "Grammar", "description": "语法讲解"}
+        ]
+      },
+      {
+        "unit_id": 3,
+        "unit_name": "Asking the way",
+        "theme": "问路与指路",
+        "big_question": "Can you tell me the way to the museum?",
+        "sections": [
+          {"section_id": "story_time", "section_name": "Story Time", "description": "故事时间"},
+          {"section_id": "cartoon_time", "section_name": "Cartoon Time", "description": "卡通时间"},
+          {"section_id": "grammar", "section_name": "Grammar", "description": "语法讲解"}
+        ]
+      },
+      {
+        "unit_id": 4,
+        "unit_name": "Seeing the doctor",
+        "theme": "看病就医",
+        "big_question": "What's wrong with you?",
+        "sections": [
+          {"section_id": "story_time", "section_name": "Story Time", "description": "故事时间"},
+          {"section_id": "cartoon_time", "section_name": "Cartoon Time", "description": "卡通时间"},
+          {"section_id": "grammar", "section_name": "Grammar", "description": "语法讲解"}
+        ]
+      },
+      {
+        "unit_id": 5,
+        "unit_name": "Helping our parents",
+        "theme": "帮助父母做家务",
+        "big_question": "What do you do to help your parents?",
+        "sections": [
+          {"section_id": "story_time", "section_name": "Story Time", "description": "故事时间"},
+          {"section_id": "cartoon_time", "section_name": "Cartoon Time", "description": "卡通时间"},
+          {"section_id": "grammar", "section_name": "Grammar", "description": "语法讲解"}
+        ]
+      },
+      {
+        "unit_id": 6,
+        "unit_name": "In the kitchen",
+        "theme": "厨房与食物",
+        "big_question": "What are you cooking?",
+        "sections": [
+          {"section_id": "story_time", "section_name": "Story Time", "description": "故事时间"},
+          {"section_id": "cartoon_time", "section_name": "Cartoon Time", "description": "卡通时间"},
+          {"section_id": "grammar", "section_name": "Grammar", "description": "语法讲解"}
+        ]
+      },
+      {
+        "unit_id": 7,
+        "unit_name": "Chinese festivals",
+        "theme": "中国传统节日",
+        "big_question": "What do you know about Chinese festivals?",
+        "sections": [
+          {"section_id": "story_time", "section_name": "Story Time", "description": "故事时间"},
+          {"section_id": "cartoon_time", "section_name": "Cartoon Time", "description": "卡通时间"},
+          {"section_id": "grammar", "section_name": "Grammar", "description": "语法讲解"}
+        ]
+      },
+      {
+        "unit_id": 8,
+        "unit_name": "Birthdays",
+        "theme": "生日与庆祝",
+        "big_question": "When is your birthday?",
+        "sections": [
+          {"section_id": "story_time", "section_name": "Story Time", "description": "故事时间"},
+          {"section_id": "cartoon_time", "section_name": "Cartoon Time", "description": "卡通时间"},
+          {"section_id": "grammar", "section_name": "Grammar", "description": "语法讲解"}
+        ]
+      }
+    ]
+  }
+}

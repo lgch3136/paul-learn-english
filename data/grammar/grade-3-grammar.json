@@ -1,0 +1,293 @@
+{
+  "unit": "Grade 3",
+  "grammar_points": [
+    {
+      "grammar_id": "grammar_g3_001_am_is_are",
+      "unit": "Grade 3",
+      "grammar_point": "be 动词 am/is/are 的用法",
+      "category": "structure",
+      "student_explanation": "I 用 am，he/she/it 用 is，you/we/they 用 are",
+      "teacher_explanation": "be 动词根据主语人称和数变化：I am, he/she/it is, you/we/they are",
+      "correct_examples": [
+        {
+          "sentence": "I am a student.",
+          "translation": "我是一个学生。",
+          "highlight": "I am"
+        },
+        {
+          "sentence": "She is my friend.",
+          "translation": "她是我的朋友。",
+          "highlight": "She is"
+        },
+        {
+          "sentence": "They are happy.",
+          "translation": "他们很开心。",
+          "highlight": "They are"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I is a student.",
+          "correction": "I am a student.",
+          "error_type": "be动词用错"
+        },
+        {
+          "sentence": "She are my friend.",
+          "correction": "She is my friend.",
+          "error_type": "be动词用错"
+        },
+        {
+          "sentence": "They is happy.",
+          "correction": "They are happy.",
+          "error_type": "be动词用错"
+        }
+      ],
+      "error_reason": "学生容易混淆 am/is/are 的搭配，尤其是 she is 和 they are",
+      "error_tags": [
+        "be动词用错"
+      ],
+      "practice_types": [
+        "选择",
+        "填空",
+        "改错"
+      ],
+      "difficulty": 1,
+      "related_vocabulary": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "grammar_id": "grammar_g3_002_a_an",
+      "unit": "Grade 3",
+      "grammar_point": "不定冠词 a 和 an 的用法",
+      "category": "structure",
+      "student_explanation": "辅音开头的词前面用 a，元音开头的词前面用 an",
+      "teacher_explanation": "a/an 是不定冠词，a 用于辅音音素开头，an 用于元音音素开头",
+      "correct_examples": [
+        {
+          "sentence": "This is a book.",
+          "translation": "这是一本书。",
+          "highlight": "a book"
+        },
+        {
+          "sentence": "I have an apple.",
+          "translation": "我有一个苹果。",
+          "highlight": "an apple"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I have a apple.",
+          "correction": "I have an apple.",
+          "error_type": "冠词用错"
+        },
+        {
+          "sentence": "This is an book.",
+          "correction": "This is a book.",
+          "error_type": "冠词用错"
+        }
+      ],
+      "error_reason": "学生容易忽略 a/an 的区别，或者按字母而非发音判断",
+      "error_tags": [
+        "冠词用错"
+      ],
+      "practice_types": [
+        "选择",
+        "填空"
+      ],
+      "difficulty": 1,
+      "related_vocabulary": [
+        "a",
+        "an"
+      ]
+    },
+    {
+      "grammar_id": "grammar_g3_003_this_that",
+      "unit": "Grade 3",
+      "grammar_point": "this/that 指示代词",
+      "category": "structure",
+      "student_explanation": "this 指近处的'这个'，that 指远处的'那个'",
+      "teacher_explanation": "this（这个）用于近指，that（那个）用于远指，可作主语或定语",
+      "correct_examples": [
+        {
+          "sentence": "This is my book.",
+          "translation": "这是我的书。",
+          "highlight": "This is"
+        },
+        {
+          "sentence": "That is a dog.",
+          "translation": "那是一只狗。",
+          "highlight": "That is"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "This are my book.",
+          "correction": "This is my book.",
+          "error_type": "be动词用错"
+        },
+        {
+          "sentence": "That are a dog.",
+          "correction": "That is a dog.",
+          "error_type": "be动词用错"
+        }
+      ],
+      "error_reason": "学生容易在 this/that 后面用错 be 动词",
+      "error_tags": [
+        "be动词用错",
+        "指示代词用错"
+      ],
+      "practice_types": [
+        "选择",
+        "填空",
+        "翻译"
+      ],
+      "difficulty": 1,
+      "related_vocabulary": [
+        "this",
+        "that"
+      ]
+    },
+    {
+      "grammar_id": "grammar_g3_004_have_has",
+      "unit": "Grade 3",
+      "grammar_point": "have/has 表示'有'",
+      "category": "structure",
+      "student_explanation": "I/you/we/they 用 have，he/she/it 用 has",
+      "teacher_explanation": "have/has 表示拥有，第三人称单数用 has，其余用 have",
+      "correct_examples": [
+        {
+          "sentence": "I have a dog.",
+          "translation": "我有一只狗。",
+          "highlight": "I have"
+        },
+        {
+          "sentence": "She has a cat.",
+          "translation": "她有一只猫。",
+          "highlight": "She has"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "She have a cat.",
+          "correction": "She has a cat.",
+          "error_type": "动词形式错"
+        },
+        {
+          "sentence": "I has a dog.",
+          "correction": "I have a dog.",
+          "error_type": "动词形式错"
+        }
+      ],
+      "error_reason": "学生容易忽略第三人称单数 has 的变化",
+      "error_tags": [
+        "动词形式错"
+      ],
+      "practice_types": [
+        "选择",
+        "填空",
+        "改错"
+      ],
+      "difficulty": 2,
+      "related_vocabulary": [
+        "have",
+        "has"
+      ]
+    },
+    {
+      "grammar_id": "grammar_g3_005_how_many",
+      "unit": "Grade 3",
+      "grammar_point": "How many 询问数量",
+      "category": "pattern",
+      "student_explanation": "用 How many + 名词复数 + are there? 来询问数量",
+      "teacher_explanation": "How many 后接可数名词复数，用于提问数量",
+      "correct_examples": [
+        {
+          "sentence": "How many books are there?",
+          "translation": "有多少本书？",
+          "highlight": "How many books"
+        },
+        {
+          "sentence": "How many students are in your class?",
+          "translation": "你们班有多少学生？",
+          "highlight": "How many students"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "How many book is there?",
+          "correction": "How many books are there?",
+          "error_type": "名词单复数错"
+        },
+        {
+          "sentence": "How much books are there?",
+          "correction": "How many books are there?",
+          "error_type": "用词错"
+        }
+      ],
+      "error_reason": "学生容易忘记 many 后面的名词要加复数，也容易和 how much 混淆",
+      "error_tags": [
+        "名词单复数错",
+        "用词错"
+      ],
+      "practice_types": [
+        "选择",
+        "造句",
+        "问答"
+      ],
+      "difficulty": 2,
+      "related_vocabulary": [
+        "how many"
+      ]
+    },
+    {
+      "grammar_id": "grammar_g3_006_imperative",
+      "unit": "Grade 3",
+      "grammar_point": "祈使句（please + 动词原形）",
+      "category": "pattern",
+      "student_explanation": "用动词原形开头来表示请求或命令，可以加 please 表示礼貌",
+      "teacher_explanation": "祈使句省略主语 you，用动词原形开头，否定用 Don't + 动词原形",
+      "correct_examples": [
+        {
+          "sentence": "Please open the door.",
+          "translation": "请打开门。",
+          "highlight": "Please open"
+        },
+        {
+          "sentence": "Don't open the window.",
+          "translation": "不要打开窗户。",
+          "highlight": "Don't open"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "Please opening the door.",
+          "correction": "Please open the door.",
+          "error_type": "动词形式错"
+        },
+        {
+          "sentence": "Not open the window.",
+          "correction": "Don't open the window.",
+          "error_type": "句型用错"
+        }
+      ],
+      "error_reason": "学生容易在祈使句中使用动名词形式或错误的否定形式",
+      "error_tags": [
+        "动词形式错",
+        "句型用错"
+      ],
+      "practice_types": [
+        "选择",
+        "翻译",
+        "改错"
+      ],
+      "difficulty": 1,
+      "related_vocabulary": [
+        "please",
+        "don't"
+      ]
+    }
+  ]
+}

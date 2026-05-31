@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "description": "译林版五年级下册错因标签体系",
+    "version": "1.0",
+    "created": "2026-05-30",
+    "purpose": "用于诊断学生错误原因，指导针对性复习"
+  },
+  "error_tags": [
+    {
+      "tag_id": "subject_error",
+      "tag_name": "主语判断错",
+      "description": "I / you / he / she / they 分不清",
+      "student_hint": "先看句子说的是谁，再决定动词怎么变",
+      "parent_hint": "让孩子多做'选主语'的练习",
+      "related_grammar": ["一般现在时第三人称单数", "be动词用法"],
+      "common_mistakes": [
+        "He play football. (应为 plays)",
+        "I is a student. (应为 am)"
+      ],
+      "practice_suggestions": [
+        "主语判断练习",
+        "be动词填空",
+        "动词形式选择"
+      ]
+    },
+    {
+      "tag_id": "be_verb_error",
+      "tag_name": "be 动词错",
+      "description": "am / is / are 乱用",
+      "student_hint": "I 用 am，he/she/it 用 is，you/we/they 用 are",
+      "parent_hint": "让孩子背诵 'I am, you are, he is, she is, it is, we are, they are'",
+      "related_grammar": ["be动词用法"],
+      "common_mistakes": [
+        "I is happy. (应为 am)",
+        "They is friends. (应为 are)"
+      ],
+      "practice_suggestions": [
+        "be动词填空",
+        "主语+be动词配对"
+      ]
+    },
+    {
+      "tag_id": "verb_form_error",
+      "tag_name": "动词形式错",
+      "description": "动词原形、三单、现在分词混淆",
+      "student_hint": "看主语是谁，决定动词要不要变形",
+      "parent_hint": "讲解第三人称单数规则，多做变形练习",
+      "related_grammar": ["一般现在时第三人称单数", "现在进行时"],
+      "common_mistakes": [
+        "He play football. (应为 plays)",
+        "She watchs TV. (应为 watches)",
+        "I am play football. (应为 playing)"
+      ],
+      "practice_suggestions": [
+        "动词变形练习",
+        "选择正确动词形式",
+        "改错练习"
+      ]
+    },
+    {
+      "tag_id": "question_word_error",
+      "tag_name": "疑问词错",
+      "description": "what / where / when / why / how 混淆",
+      "student_hint": "what 问什么，where 问哪里，when 问什么时候，why 问为什么，how 问怎么样",
+      "parent_hint": "制作疑问词卡片，让孩子理解每个词的含义",
+      "related_grammar": ["特殊疑问句"],
+      "common_mistakes": [
+        "Where do you live? (回答：I live in Nanjing.) 但学生用 What",
+        "What time is it? 学生用 Where"
+      ],
+      "practice_suggestions": [
+        "疑问词选择",
+        "根据答句选问句",
+        "造疑问句"
+      ]
+    },
+    {
+      "tag_id": "because_error",
+      "tag_name": "because 用法错",
+      "description": "why 问句不会用 because 回答",
+      "student_hint": "回答 why 的问题时，用 because 开头",
+      "parent_hint": "练习 'Why...?' 'Because...' 的问答",
+      "related_grammar": ["特殊疑问句", "连词用法"],
+      "common_mistakes": [
+        "Why are you late? I am late. (应为 Because I am late.)",
+        "Because 后面句子不完整"
+      ],
+      "practice_suggestions": [
+        "because 回答练习",
+        "补全 because 句子",
+        "造句练习"
+      ]
+    },
+    {
+      "tag_id": "preposition_error",
+      "tag_name": "介词错",
+      "description": "in / on / at / under / near / beside 混淆",
+      "student_hint": "in 在里面，on 在上面，at 在某点，under 在下面",
+      "parent_hint": "用实物演示介词的位置关系",
+      "related_grammar": ["介词用法"],
+      "common_mistakes": [
+        "The book is in the table. (应为 on)",
+        "I get up in 7 o'clock. (应为 at)"
+      ],
+      "practice_suggestions": [
+        "介词选择",
+        "看图选介词",
+        "介词填空"
+      ]
+    },
+    {
+      "tag_id": "time_error",
+      "tag_name": "时间表达错",
+      "description": "月份、日期、序数词",
+      "student_hint": "月份首字母大写，日期用序数词",
+      "parent_hint": "制作月份和日期卡片，每天练习",
+      "related_grammar": ["时间表达"],
+      "common_mistakes": [
+        "I was born in january. (应为 January)",
+        "My birthday is in May 1st. (应为 on May 1st)"
+      ],
+      "practice_suggestions": [
+        "月份拼写",
+        "日期表达",
+        "序数词练习"
+      ]
+    },
+    {
+      "tag_id": "word_order_error",
+      "tag_name": "句序错",
+      "description": "中文顺序直译成英文",
+      "student_hint": "英文句子顺序：主语 + 动词 + 宾语 + 地点 + 时间",
+      "parent_hint": "对比中英文句子顺序的差异",
+      "related_grammar": ["句子结构"],
+      "common_mistakes": [
+        "I football play every day. (应为 I play football every day.)",
+        "Yesterday I to school went. (应为 I went to school yesterday.)"
+      ],
+      "practice_suggestions": [
+        "句子排序",
+        "中译英练习",
+        "造句练习"
+      ]
+    },
+    {
+      "tag_id": "spelling_error",
+      "tag_name": "拼写错",
+      "description": "单词漏字母、多字母、顺序错",
+      "student_hint": "拼读记忆，边读边写",
+      "parent_hint": "每天听写 5-10 个单词，重点关注易错词",
+      "related_grammar": [],
+      "common_mistakes": [
+        "becuase (应为 because)",
+        "friend 误写为 freind",
+        "Wednesday 漏写字母"
+      ],
+      "practice_suggestions": [
+        "拼写填空",
+        "听写练习",
+        "易错词专项"
+      ]
+    },
+    {
+      "tag_id": "reading_error",
+      "tag_name": "读题错",
+      "description": "题目要求没看清",
+      "student_hint": "做题前先读两遍题目要求",
+      "parent_hint": "提醒孩子做题前先圈出题目要求中的关键词",
+      "related_grammar": [],
+      "common_mistakes": [
+        "题目要求选错误的，学生选了正确的",
+        "题目要求填序号，学生填了单词"
+      ],
+      "practice_suggestions": [
+        "审题训练",
+        "圈关键词练习"
+      ]
+    }
+  ],
+  "tag_statistics_template": {
+    "tag_name": "主语判断错",
+    "total_questions": 0,
+    "correct_count": 0,
+    "wrong_count": 0,
+    "accuracy_rate": 0,
+    "last_wrong_date": null,
+    "consecutive_wrong": 0,
+    "review_priority": "low"
+  },
+  "student_error_profile_template": {
+    "student_id": "[学生ID]",
+    "unit": "Unit 1",
+    "error_tags": [
+      {
+        "tag_name": "动词形式错",
+        "frequency": 5,
+        "last_occurrence": "2026-05-30",
+        "improvement_trend": "improving"
+      }
+    ],
+    "weakest_areas": ["动词形式错", "句序错"],
+    "strongest_areas": ["拼写错"],
+    "recommended_focus": "动词形式和句子结构"
+  },
+  "instructions": "1. 每道题都要关联一个或多个 error_tag\n2. 学生做错后，系统根据 error_tag 给出提示\n3. 统计每个 tag 的错误频率，找出薄弱点\n4. 根据薄弱点推荐针对性练习"
+}

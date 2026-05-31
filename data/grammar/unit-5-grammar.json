@@ -1,0 +1,26 @@
+{
+  "unit": "Unit 5",
+  "grammar_points": [
+    {
+      "grammar_id": "grammar_unit_5_001",
+      "unit": "Unit 5",
+      "grammar_point": "动名词搭配(做家务)",
+      "category": "usage",
+      "student_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "teacher_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "correct_examples": [
+        {"sentence":"I sweep the floor every day.","translation":"我每天扫地。","highlight":""},
+        {"sentence":"She washes the dishes after dinner.","translation":"她晚饭后洗碗。","highlight":""}
+      ],
+      "wrong_examples": [
+        {"sentence":"I sweep floor every day.","correction":"I sweep the floor every day.","error_type":"缺少冠词"},
+        {"sentence":"She washs the dishes after dinner.","correction":"She washes the dishes after dinner.","error_type":"缺少冠词"}
+      ],
+      "error_reason":"学生容易混淆正确用法",
+      "error_tags":["缺少冠词","动词形式错"],
+      "practice_types":["选择","填空","改错"],
+      "difficulty": 3,
+      "related_vocabulary":[]
+    }
+  ]
+}

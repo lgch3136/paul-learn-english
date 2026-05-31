@@ -1,0 +1,1548 @@
+{
+  "grade": 4,
+  "book": "上册",
+  "vocabulary": [
+    {
+      "word_id": "g4up_001_horse",
+      "word": "horse",
+      "meaning": "马",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a horse"
+      ],
+      "sentence": "The horse can run fast.",
+      "phonetic": "/hɔːs/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "马",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_002_cow",
+      "word": "cow",
+      "meaning": "奶牛",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a cow"
+      ],
+      "sentence": "The cow gives us milk.",
+      "phonetic": "/kaʊ/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "奶牛",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_003_sheep",
+      "word": "sheep",
+      "meaning": "绵羊",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a sheep"
+      ],
+      "sentence": "The sheep is white.",
+      "phonetic": "/ʃiːp/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "绵羊",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_004_chicken",
+      "word": "chicken",
+      "meaning": "鸡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a chicken"
+      ],
+      "sentence": "I can see a chicken.",
+      "phonetic": "/ˈtʃɪkɪn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "鸡",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_005_duck",
+      "word": "duck",
+      "meaning": "鸭子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a duck"
+      ],
+      "sentence": "The duck can swim.",
+      "phonetic": "/dʌk/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "鸭子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_006_pig",
+      "word": "pig",
+      "meaning": "猪",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pig"
+      ],
+      "sentence": "The pig is fat.",
+      "phonetic": "/pɪɡ/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "猪",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_007_rabbit",
+      "word": "rabbit",
+      "meaning": "兔子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a rabbit"
+      ],
+      "sentence": "The rabbit is cute.",
+      "phonetic": "/ˈræbɪt/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "兔子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_008_snake",
+      "word": "snake",
+      "meaning": "蛇",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a snake"
+      ],
+      "sentence": "The snake is long.",
+      "phonetic": "/sneɪk/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "蛇",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_009_mouse",
+      "word": "mouse",
+      "meaning": "老鼠",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a mouse"
+      ],
+      "sentence": "The mouse is small.",
+      "phonetic": "/maʊs/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "老鼠",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_010_apple",
+      "word": "apple",
+      "meaning": "苹果",
+      "part_of_speech": "noun",
+      "phrase": [
+        "an apple"
+      ],
+      "sentence": "I eat an apple every day.",
+      "phonetic": "/ˈæpl/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "苹果",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_011_pear",
+      "word": "pear",
+      "meaning": "梨",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pear"
+      ],
+      "sentence": "This pear is sweet.",
+      "phonetic": "/peər/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "梨",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_012_grape",
+      "word": "grape",
+      "meaning": "葡萄",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a grape",
+        "some grapes"
+      ],
+      "sentence": "I like grapes.",
+      "phonetic": "/ɡreɪp/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "葡萄",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_013_watermelon",
+      "word": "watermelon",
+      "meaning": "西瓜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a watermelon"
+      ],
+      "sentence": "Watermelon is my favourite fruit.",
+      "phonetic": "/ˈwɔːtəmelən/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "西瓜",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_014_strawberry",
+      "word": "strawberry",
+      "meaning": "草莓",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a strawberry",
+        "some strawberries"
+      ],
+      "sentence": "The strawberry is red.",
+      "phonetic": "/ˈstrɔːbəri/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "草莓",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_015_cherry",
+      "word": "cherry",
+      "meaning": "樱桃",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a cherry",
+        "some cherries"
+      ],
+      "sentence": "Cherries are small and red.",
+      "phonetic": "/ˈtʃeri/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "樱桃",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_016_peach",
+      "word": "peach",
+      "meaning": "桃子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a peach"
+      ],
+      "sentence": "The peach is soft.",
+      "phonetic": "/piːtʃ/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "桃子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_017_lemon",
+      "word": "lemon",
+      "meaning": "柠檬",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a lemon"
+      ],
+      "sentence": "The lemon is sour.",
+      "phonetic": "/ˈlemən/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "柠檬",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_018_coconut",
+      "word": "coconut",
+      "meaning": "椰子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a coconut"
+      ],
+      "sentence": "I want a coconut.",
+      "phonetic": "/ˈkəʊkənʌt/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "椰子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_019_thirteen",
+      "word": "thirteen",
+      "meaning": "十三",
+      "part_of_speech": "number",
+      "phrase": [
+        "thirteen students"
+      ],
+      "sentence": "There are thirteen apples.",
+      "phonetic": "/ˌθɜːˈtiːn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十三",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_020_fourteen",
+      "word": "fourteen",
+      "meaning": "十四",
+      "part_of_speech": "number",
+      "phrase": [
+        "fourteen books"
+      ],
+      "sentence": "I have fourteen pencils.",
+      "phonetic": "/ˌfɔːˈtiːn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十四",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_021_fifteen",
+      "word": "fifteen",
+      "meaning": "十五",
+      "part_of_speech": "number",
+      "phrase": [
+        "fifteen pens"
+      ],
+      "sentence": "I can see fifteen birds.",
+      "phonetic": "/ˌfɪfˈtiːn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十五",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_022_sixteen",
+      "word": "sixteen",
+      "meaning": "十六",
+      "part_of_speech": "number",
+      "phrase": [
+        "sixteen books"
+      ],
+      "sentence": "There are sixteen desks.",
+      "phonetic": "/ˌsɪksˈtiːn/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十六",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_023_seventeen",
+      "word": "seventeen",
+      "meaning": "十七",
+      "part_of_speech": "number",
+      "phrase": [
+        "seventeen girls"
+      ],
+      "sentence": "I have seventeen stickers.",
+      "phonetic": "/ˌsevnˈtiːn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十七",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_024_eighteen",
+      "word": "eighteen",
+      "meaning": "十八",
+      "part_of_speech": "number",
+      "phrase": [
+        "eighteen boys"
+      ],
+      "sentence": "He is eighteen years old.",
+      "phonetic": "/ˌeɪˈtiːn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十八",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_025_nineteen",
+      "word": "nineteen",
+      "meaning": "十九",
+      "part_of_speech": "number",
+      "phrase": [
+        "nineteen flowers"
+      ],
+      "sentence": "I can count to nineteen.",
+      "phonetic": "/ˌnaɪnˈtiːn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十九",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_026_twenty",
+      "word": "twenty",
+      "meaning": "二十",
+      "part_of_speech": "number",
+      "phrase": [
+        "twenty students"
+      ],
+      "sentence": "There are twenty desks.",
+      "phonetic": "/ˈtwenti/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "二十",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_027_twenty_one",
+      "word": "twenty-one",
+      "meaning": "二十一",
+      "part_of_speech": "number",
+      "phrase": [
+        "twenty-one books"
+      ],
+      "sentence": "I have twenty-one books.",
+      "phonetic": "/ˌtwenti ˈwʌn/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "二十一",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_028_twenty_five",
+      "word": "twenty-five",
+      "meaning": "二十五",
+      "part_of_speech": "number",
+      "phrase": [
+        "twenty-five apples"
+      ],
+      "sentence": "There are twenty-five students.",
+      "phonetic": "/ˌtwenti ˈfaɪv/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "二十五",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_029_swim",
+      "word": "swim",
+      "meaning": "游泳",
+      "part_of_speech": "verb",
+      "phrase": [
+        "swim well",
+        "can swim"
+      ],
+      "sentence": "I can swim.",
+      "phonetic": "/swɪm/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "游泳",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_030_run",
+      "word": "run",
+      "meaning": "跑步",
+      "part_of_speech": "verb",
+      "phrase": [
+        "run fast"
+      ],
+      "sentence": "I can run fast.",
+      "phonetic": "/rʌn/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "跑步",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_031_jump",
+      "word": "jump",
+      "meaning": "跳",
+      "part_of_speech": "verb",
+      "phrase": [
+        "jump high"
+      ],
+      "sentence": "The rabbit can jump.",
+      "phonetic": "/dʒʌmp/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "跳",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_032_skate",
+      "word": "skate",
+      "meaning": "滑冰",
+      "part_of_speech": "verb",
+      "phrase": [
+        "go skating",
+        "can skate"
+      ],
+      "sentence": "I can skate.",
+      "phonetic": "/skeɪt/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "滑冰",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_033_ski",
+      "word": "ski",
+      "meaning": "滑雪",
+      "part_of_speech": "verb",
+      "phrase": [
+        "go skiing",
+        "can ski"
+      ],
+      "sentence": "He can ski very well.",
+      "phonetic": "/skiː/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "滑雪",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_034_ride",
+      "word": "ride",
+      "meaning": "骑",
+      "part_of_speech": "verb",
+      "phrase": [
+        "ride a bike",
+        "ride a horse"
+      ],
+      "sentence": "I can ride a bike.",
+      "phonetic": "/raɪd/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "骑",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_035_play_football",
+      "word": "play football",
+      "meaning": "踢足球",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "play football"
+      ],
+      "sentence": "I like to play football.",
+      "phonetic": "/pleɪ ˈfʊtbɔːl/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "踢足球",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_036_play_basketball",
+      "word": "play basketball",
+      "meaning": "打篮球",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "play basketball"
+      ],
+      "sentence": "He can play basketball.",
+      "phonetic": "/pleɪ ˈbɑːskɪtbɔːl/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "打篮球",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_037_play_table_tennis",
+      "word": "play table tennis",
+      "meaning": "打乒乓球",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "play table tennis"
+      ],
+      "sentence": "I can play table tennis.",
+      "phonetic": "/pleɪ ˈteɪbl tenɪs/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "打乒乓球",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_038_fly",
+      "word": "fly",
+      "meaning": "飞",
+      "part_of_speech": "verb",
+      "phrase": [
+        "fly a kite"
+      ],
+      "sentence": "I can fly a kite.",
+      "phonetic": "/flaɪ/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "飞",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_039_living_room",
+      "word": "living room",
+      "meaning": "客厅",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the living room"
+      ],
+      "sentence": "We watch TV in the living room.",
+      "phonetic": "/ˈlɪvɪŋ ruːm/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "客厅",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_040_bedroom",
+      "word": "bedroom",
+      "meaning": "卧室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my bedroom"
+      ],
+      "sentence": "I sleep in my bedroom.",
+      "phonetic": "/ˈbedruːm/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "卧室",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_041_kitchen",
+      "word": "kitchen",
+      "meaning": "厨房",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the kitchen"
+      ],
+      "sentence": "Mum is in the kitchen.",
+      "phonetic": "/ˈkɪtʃɪn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "厨房",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_042_bathroom",
+      "word": "bathroom",
+      "meaning": "卫生间",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the bathroom"
+      ],
+      "sentence": "The bathroom is clean.",
+      "phonetic": "/ˈbɑːθruːm/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "卫生间",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_043_dining_room",
+      "word": "dining room",
+      "meaning": "餐厅",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the dining room"
+      ],
+      "sentence": "We eat in the dining room.",
+      "phonetic": "/ˈdaɪnɪŋ ruːm/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "餐厅",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_044_study",
+      "word": "study",
+      "meaning": "书房",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the study"
+      ],
+      "sentence": "Dad is in the study.",
+      "phonetic": "/ˈstʌdi/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "书房",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_045_garden",
+      "word": "garden",
+      "meaning": "花园",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the garden"
+      ],
+      "sentence": "There are flowers in the garden.",
+      "phonetic": "/ˈɡɑːdn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "花园",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_046_garage",
+      "word": "garage",
+      "meaning": "车库",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the garage"
+      ],
+      "sentence": "The car is in the garage.",
+      "phonetic": "/ˈɡærɑːʒ/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "车库",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_047_balcony",
+      "word": "balcony",
+      "meaning": "阳台",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the balcony"
+      ],
+      "sentence": "I read on the balcony.",
+      "phonetic": "/ˈbælkəni/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "阳台",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_048_rice",
+      "word": "rice",
+      "meaning": "米饭",
+      "part_of_speech": "noun",
+      "phrase": [
+        "some rice"
+      ],
+      "sentence": "I eat rice for lunch.",
+      "phonetic": "/raɪs/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "米饭",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_049_noodles",
+      "word": "noodles",
+      "meaning": "面条",
+      "part_of_speech": "noun",
+      "phrase": [
+        "some noodles"
+      ],
+      "sentence": "I like noodles.",
+      "phonetic": "/ˈnuːdlz/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "面条",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_050_bread",
+      "word": "bread",
+      "meaning": "面包",
+      "part_of_speech": "noun",
+      "phrase": [
+        "some bread",
+        "a piece of bread"
+      ],
+      "sentence": "I have bread for breakfast.",
+      "phonetic": "/bred/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "面包",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_051_milk",
+      "word": "milk",
+      "meaning": "牛奶",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a glass of milk"
+      ],
+      "sentence": "I drink milk every day.",
+      "phonetic": "/mɪlk/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "牛奶",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_052_juice",
+      "word": "juice",
+      "meaning": "果汁",
+      "part_of_speech": "noun",
+      "phrase": [
+        "some juice",
+        "orange juice"
+      ],
+      "sentence": "I want some juice.",
+      "phonetic": "/dʒuːs/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "果汁",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_053_water",
+      "word": "water",
+      "meaning": "水",
+      "part_of_speech": "noun",
+      "phrase": [
+        "some water",
+        "a glass of water"
+      ],
+      "sentence": "I want some water.",
+      "phonetic": "/ˈwɔːtər/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "水",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_054_chocolate",
+      "word": "chocolate",
+      "meaning": "巧克力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "some chocolate"
+      ],
+      "sentence": "I like chocolate.",
+      "phonetic": "/ˈtʃɒklət/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "巧克力",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_055_sandwich",
+      "word": "sandwich",
+      "meaning": "三明治",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a sandwich"
+      ],
+      "sentence": "I have a sandwich for lunch.",
+      "phonetic": "/ˈsænwɪtʃ/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "三明治",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_056_hamburger",
+      "word": "hamburger",
+      "meaning": "汉堡包",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a hamburger"
+      ],
+      "sentence": "I want a hamburger.",
+      "phonetic": "/ˈhæmbɜːɡər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "汉堡包",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_057_chicken_meat",
+      "word": "chicken",
+      "meaning": "鸡肉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "some chicken"
+      ],
+      "sentence": "I like chicken very much.",
+      "phonetic": "/ˈtʃɪkɪn/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "鸡肉",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "unit": "Unit 8",
+  "grammar_points": [
+    {
+      "grammar_id": "grammar_unit_8_001",
+      "unit": "Unit 8",
+      "grammar_point": "日期和序数词",
+      "category": "usage",
+      "student_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "teacher_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "correct_examples": [
+        {"sentence":"When is your birthday?","translation":"你的生日是什么时候？","highlight":""},
+        {"sentence":"My birthday is on the fifth of May.","translation":"我的生日在五月五日。","highlight":""}
+      ],
+      "wrong_examples": [
+        {"sentence":"When is your day?","correction":"When is your birthday?","error_type":"序数词用错"},
+        {"sentence":"My birthday is on five of May.","correction":"My birthday is on the fifth of May.","error_type":"序数词用错"}
+      ],
+      "error_reason":"学生容易混淆正确用法",
+      "error_tags":["序数词用错","日期表达错"],
+      "practice_types":["选择","填空","改错"],
+      "difficulty": 3,
+      "related_vocabulary":[]
+    }
+  ]
+}

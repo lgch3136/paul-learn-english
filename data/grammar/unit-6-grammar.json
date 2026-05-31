@@ -1,0 +1,26 @@
+{
+  "unit": "Unit 6",
+  "grammar_points": [
+    {
+      "grammar_id": "grammar_unit_6_001",
+      "unit": "Unit 6",
+      "grammar_point": "可数与不可数名词",
+      "category": "usage",
+      "student_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "teacher_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "correct_examples": [
+        {"sentence":"I want some tomatoes.","translation":"我想要一些番茄。","highlight":""},
+        {"sentence":"I want some rice.","translation":"我想要一些米饭。","highlight":""}
+      ],
+      "wrong_examples": [
+        {"sentence":"I want some tomato.","correction":"I want some tomatoes.","error_type":"单复数错"},
+        {"sentence":"I want a rice.","correction":"I want some rice.","error_type":"单复数错"}
+      ],
+      "error_reason":"学生容易混淆正确用法",
+      "error_tags":["单复数错","可数不可数"],
+      "practice_types":["选择","填空","改错"],
+      "difficulty": 3,
+      "related_vocabulary":[]
+    }
+  ]
+}

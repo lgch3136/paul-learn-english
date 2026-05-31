@@ -1,0 +1,440 @@
+{
+  "unit": "Unit 7",
+  "unit_title": "Chinese festivals",
+  "theme": "中国传统节日",
+  "big_question": "What do you know about Chinese festivals?",
+  "vocabulary": [
+    {
+      "word_id": "unit_7_001_festival",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 7",
+      "section": "Story Time",
+      "word": "festival",
+      "meaning": "节日",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Chinese festival",
+        "Spring Festival"
+      ],
+      "sentence": "The Spring Festival is a Chinese festival.",
+      "phonetic": "/ˈfestɪvl/",
+      "listen_audio": "",
+      "image_prompt": "节日",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_7_002_spring",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 7",
+      "section": "Story Time",
+      "word": "spring",
+      "meaning": "春天",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in spring",
+        "Spring Festival"
+      ],
+      "sentence": "The Spring Festival is in January or February.",
+      "phonetic": "/sprɪŋ/",
+      "listen_audio": "",
+      "image_prompt": "春天",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_7_003_dumpling",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 7",
+      "section": "Story Time",
+      "word": "dumpling",
+      "meaning": "饺子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "eat dumplings",
+        "make dumplings"
+      ],
+      "sentence": "We eat dumplings at the Spring Festival.",
+      "phonetic": "/ˈdʌmplɪŋ/",
+      "listen_audio": "",
+      "image_prompt": "饺子",
+      "error_tags": [
+        "拼写错",
+        "单复数"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_7_004_mooncake",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 7",
+      "section": "Story Time",
+      "word": "mooncake",
+      "meaning": "月饼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "eat mooncakes"
+      ],
+      "sentence": "We eat mooncakes at the Mid-Autumn Festival.",
+      "phonetic": "/ˈmuːnkeɪk/",
+      "listen_audio": "",
+      "image_prompt": "月饼",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_7_005_dragon",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 7",
+      "section": "Story Time",
+      "word": "dragon",
+      "meaning": "龙",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dragon boat",
+        "dragon dance"
+      ],
+      "sentence": "We watch dragon boat races.",
+      "phonetic": "/ˈdræɡən/",
+      "listen_audio": "",
+      "image_prompt": "龙",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_7_006_boat",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 7",
+      "section": "Story Time",
+      "word": "boat",
+      "meaning": "船",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dragon boat",
+        "boat race"
+      ],
+      "sentence": "The dragon boat race is exciting.",
+      "phonetic": "/bəʊt/",
+      "listen_audio": "",
+      "image_prompt": "龙舟",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_7_007_rice_dumpling",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 7",
+      "section": "Story Time",
+      "word": "rice dumpling",
+      "meaning": "粽子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "eat rice dumplings"
+      ],
+      "sentence": "People eat rice dumplings at the Dragon Boat Festival.",
+      "phonetic": "/raɪs ˈdʌmplɪŋ/",
+      "listen_audio": "",
+      "image_prompt": "粽子",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_7_008_celebrate",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 7",
+      "section": "Story Time",
+      "word": "celebrate",
+      "meaning": "庆祝",
+      "part_of_speech": "verb",
+      "phrase": [
+        "celebrate the festival"
+      ],
+      "sentence": "How do you celebrate the Spring Festival?",
+      "phonetic": "/ˈselɪbreɪt/",
+      "listen_audio": "",
+      "image_prompt": "庆祝",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_7_009_visit",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 7",
+      "section": "Story Time",
+      "word": "visit",
+      "meaning": "拜访；参观",
+      "part_of_speech": "verb",
+      "phrase": [
+        "visit relatives",
+        "visit friends"
+      ],
+      "phonetic": "/ˈvɪzɪt/",
+      "listen_audio": "",
+      "image_prompt": "拜访",
+      "error_tags": [
+        "动词形式错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      },
+      "sentence": "We visit our relatives at the Spring Festival."
+    },
+    {
+      "word_id": "unit_7_010_relative",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 7",
+      "section": "Story Time",
+      "word": "relative",
+      "meaning": "亲戚",
+      "part_of_speech": "noun",
+      "phrase": [
+        "visit relatives"
+      ],
+      "sentence": "We visit our relatives during the holiday.",
+      "phonetic": "/ˈrelətɪv/",
+      "listen_audio": "",
+      "image_prompt": "亲戚",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_7_011_present",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 7",
+      "section": "Story Time",
+      "word": "present",
+      "meaning": "礼物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "give presents",
+        "get presents"
+      ],
+      "sentence": "Children get red presents at the Spring Festival.",
+      "phonetic": "/ˈpreznt/",
+      "listen_audio": "",
+      "image_prompt": "礼物",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_7_012_red_packet",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 7",
+      "section": "Story Time",
+      "word": "red packet",
+      "meaning": "红包",
+      "part_of_speech": "noun",
+      "phrase": [
+        "get red packets"
+      ],
+      "sentence": "Children love getting red packets.",
+      "phonetic": "/red ˈpækɪt/",
+      "listen_audio": "",
+      "image_prompt": "红包",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_7_013_moon",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 7",
+      "section": "Cartoon Time",
+      "word": "moon",
+      "meaning": "月亮",
+      "part_of_speech": "noun",
+      "phrase": [
+        "look at the moon",
+        "full moon"
+      ],
+      "sentence": "We look at the moon at the Mid-Autumn Festival.",
+      "phonetic": "/muːn/",
+      "listen_audio": "",
+      "image_prompt": "月亮",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_7_014_candy",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 7",
+      "section": "Cartoon Time",
+      "word": "candy",
+      "meaning": "糖果",
+      "part_of_speech": "noun",
+      "phrase": [
+        "some candy",
+        "eat candy"
+      ],
+      "sentence": "Children eat candy during the festival.",
+      "phonetic": "/ˈkændi/",
+      "listen_audio": "",
+      "image_prompt": "糖果",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "unit_7_015_firework",
+      "grade": 5,
+      "book": "下册",
+      "unit": "Unit 7",
+      "section": "Story Time",
+      "word": "firework",
+      "meaning": "烟花",
+      "part_of_speech": "noun",
+      "phrase": [
+        "watch fireworks",
+        "set off fireworks"
+      ],
+      "sentence": "We watch fireworks at night.",
+      "phonetic": "/ˈfaɪəwɜːk/",
+      "listen_audio": "",
+      "image_prompt": "烟花",
+      "error_tags": [
+        "拼写错",
+        "单复数"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

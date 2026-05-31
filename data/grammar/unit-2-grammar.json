@@ -1,0 +1,26 @@
+{
+  "unit": "Unit 2",
+  "grammar_points": [
+    {
+      "grammar_id": "grammar_unit_2_001",
+      "unit": "Unit 2",
+      "grammar_point": "频率副词的用法",
+      "category": "usage",
+      "student_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "teacher_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "correct_examples": [
+        {"sentence":"I always go to school by bus.","translation":"我总是坐公交车上学。","highlight":""},
+        {"sentence":"She usually walks to school.","translation":"她通常走路去上学。","highlight":""}
+      ],
+      "wrong_examples": [
+        {"sentence":"I go always to school by bus.","correction":"I always go to school by bus.","error_type":"频率副词位置错"},
+        {"sentence":"She walks usually to school.","correction":"She usually walks to school.","error_type":"频率副词位置错"}
+      ],
+      "error_reason":"学生容易混淆正确用法",
+      "error_tags":["频率副词位置错","动词形式错"],
+      "practice_types":["选择","填空","改错"],
+      "difficulty": 3,
+      "related_vocabulary":[]
+    }
+  ]
+}

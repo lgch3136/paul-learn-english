@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "description": "译林版五年级下册练习题模板",
+    "version": "1.0",
+    "created": "2026-05-30",
+    "fields_explanation": {
+      "question_id": "题目唯一标识，格式：exercise_unit_X_序号",
+      "unit": "所属单元",
+      "type": "题目类型（listen_choice/recognize_choice/spell_fill/correct_error/sentence_make/translate）",
+      "skill": "考察技能（listening/reading/writing/grammar）",
+      "difficulty": "难度等级（1-5）",
+      "question": "题目内容",
+      "options": "选项数组（选择题）",
+      "answer": "正确答案",
+      "explanation": "小学生能懂的解释",
+      "error_tag": "对应的错因标签",
+      "related_vocabulary": "关联的单词",
+      "related_grammar": "关联的语法点",
+      "next_if_wrong": "答错后推荐的下一题",
+      "next_if_right": "答对后推荐的下一题",
+      "time_limit": "建议完成时间（秒）"
+    }
+  },
+  "exercises": [
+    {
+      "question_id": "exercise_unit_1_001_[待填写]",
+      "unit": "Unit 1",
+      "type": "[待填写：listen_choice/recognize_choice/spell_fill/correct_error/sentence_make/translate]",
+      "skill": "[待填写：listening/reading/writing/grammar]",
+      "difficulty": 1,
+      "question": "[待填写：题目内容]",
+      "options": [
+        "[待填写：选项A]",
+        "[待填写：选项B]",
+        "[待填写：选项C]",
+        "[待填写：选项D]"
+      ],
+      "answer": "[待填写：正确答案]",
+      "explanation": "[待填写：小学生能懂的解释]",
+      "error_tag": "[待填写：对应的错因标签]",
+      "related_vocabulary": [
+        "[待填写：相关的单词]"
+      ],
+      "related_grammar": "[待填写：相关的语法点ID]",
+      "next_if_wrong": "[待填写：答错后推荐的题目ID]",
+      "next_if_right": "[待填写：答对后推荐的题目ID]",
+      "time_limit": 30
+    }
+  ],
+  "examples": {
+    "listen_choice": {
+      "question_id": "exercise_unit_1_example_listen",
+      "unit": "Unit 1",
+      "type": "listen_choice",
+      "skill": "listening",
+      "difficulty": 1,
+      "question": "听录音，选出你听到的单词",
+      "options": [
+        "play",
+        "plate",
+        "plane",
+        "please"
+      ],
+      "answer": "play",
+      "explanation": "仔细听发音，play 的发音是 /pleɪ/",
+      "error_tag": "拼写错",
+      "related_vocabulary": [
+        "play",
+        "plate",
+        "plane"
+      ],
+      "related_grammar": null,
+      "next_if_wrong": "exercise_unit_1_listen_review",
+      "next_if_right": "exercise_unit_1_002",
+      "time_limit": 20
+    },
+    "recognize_choice": {
+      "question_id": "exercise_unit_1_example_recognize",
+      "unit": "Unit 1",
+      "type": "recognize_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "question": "选出与图片相符的单词",
+      "options": [
+        "play football",
+        "play basketball",
+        "play the piano",
+        "play games"
+      ],
+      "answer": "play football",
+      "explanation": "图片显示的是踢足球的场景",
+      "error_tag": "词义混",
+      "related_vocabulary": [
+        "football",
+        "basketball",
+        "piano"
+      ],
+      "related_grammar": null,
+      "next_if_wrong": "exercise_unit_1_recognize_review",
+      "next_if_right": "exercise_unit_1_003",
+      "time_limit": 25
+    },
+    "spell_fill": {
+      "question_id": "exercise_unit_1_example_spell",
+      "unit": "Unit 1",
+      "type": "spell_fill",
+      "skill": "writing",
+      "difficulty": 2,
+      "question": "根据中文提示，补全单词：踢足球 play f____ball",
+      "options": null,
+      "answer": "oot",
+      "explanation": "football 是合成词，由 foot（脚）和 ball（球）组成",
+      "error_tag": "拼写错",
+      "related_vocabulary": [
+        "football",
+        "foot",
+        "ball"
+      ],
+      "related_grammar": null,
+      "next_if_wrong": "exercise_unit_1_spell_review",
+      "next_if_right": "exercise_unit_1_004",
+      "time_limit": 45
+    },
+    "correct_error": {
+      "question_id": "exercise_unit_1_example_correct",
+      "unit": "Unit 1",
+      "type": "correct_error",
+      "skill": "grammar",
+      "difficulty": 3,
+      "question": "找出句子中的错误并改正：He play football every day.",
+      "options": null,
+      "answer": "play → plays",
+      "explanation": "主语是 He（第三人称单数），动词要加 s",
+      "error_tag": "动词形式错",
+      "related_vocabulary": [
+        "play",
+        "he"
+      ],
+      "related_grammar": "grammar_unit_1_example_present_simple",
+      "next_if_wrong": "exercise_unit_1_grammar_review",
+      "next_if_right": "exercise_unit_1_005",
+      "time_limit": 60
+    },
+    "sentence_make": {
+      "question_id": "exercise_unit_1_example_sentence",
+      "unit": "Unit 1",
+      "type": "sentence_make",
+      "skill": "writing",
+      "difficulty": 4,
+      "question": "用所给单词组成句子：football / plays / He / every day",
+      "options": null,
+      "answer": "He plays football every day.",
+      "explanation": "主语 + 动词 + 宾语 + 时间状语",
+      "error_tag": "句序错",
+      "related_vocabulary": [
+        "play",
+        "football",
+        "every day"
+      ],
+      "related_grammar": "grammar_unit_1_example_present_simple",
+      "next_if_wrong": "exercise_unit_1_sentence_review",
+      "next_if_right": "exercise_unit_1_006",
+      "time_limit": 90
+    }
+  },
+  "exercise_types": {
+    "listen_choice": {
+      "name": "听音选择",
+      "description": "听录音，选出正确答案",
+      "skill": "listening",
+      "icon": "🎧"
+    },
+    "recognize_choice": {
+      "name": "认读选择",
+      "description": "看图或看中文，选出正确英文",
+      "skill": "reading",
+      "icon": "👀"
+    },
+    "spell_fill": {
+      "name": "拼写填空",
+      "description": "补全单词中的缺失字母",
+      "skill": "writing",
+      "icon": "✏️"
+    },
+    "correct_error": {
+      "name": "改错",
+      "description": "找出句子中的错误并改正",
+      "skill": "grammar",
+      "icon": "🔍"
+    },
+    "sentence_make": {
+      "name": "造句",
+      "description": "用所给单词组成正确的句子",
+      "skill": "writing",
+      "icon": "📝"
+    },
+    "translate": {
+      "name": "翻译",
+      "description": "中译英或英译中",
+      "skill": "reading",
+      "icon": "🌐"
+    }
+  },
+  "difficulty_levels": {
+    "1": "基础 - 直接认读",
+    "2": "初级 - 简单应用",
+    "3": "中级 - 语法运用",
+    "4": "高级 - 综合运用",
+    "5": "挑战 - 拓展延伸"
+  },
+  "instructions": "1. 复制 examples 中对应类型的对象\n2. 根据实际教材内容填写题目\n3. 每个 Unit 建议 20-30 道题\n4. 每种题型都要有，但数量可以不均等\n5. next_if_wrong 和 next_if_right 用于智能推荐\n6. difficulty 从 1 开始，逐步增加"
+}

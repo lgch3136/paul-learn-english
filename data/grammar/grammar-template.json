@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "description": "译林版五年级下册语法知识点模板",
+    "version": "1.0",
+    "created": "2026-05-30",
+    "fields_explanation": {
+      "grammar_id": "语法点唯一标识，格式：grammar_unit_X_序号",
+      "unit": "所属单元",
+      "grammar_point": "语法点名称",
+      "category": "语法类别（tense/structure/usage/pattern）",
+      "student_explanation": "给小学生看的简单解释",
+      "teacher_explanation": "给老师/家长看的详细解释",
+      "correct_examples": "正确例句数组",
+      "wrong_examples": "常见错误例句数组",
+      "error_reason": "错误原因分析",
+      "error_tags": "关联的错因标签",
+      "practice_types": "适合的练习类型",
+      "difficulty": "难度等级（1-5）",
+      "related_vocabulary": "关联的单词"
+    }
+  },
+  "grammar_points": [
+    {
+      "grammar_id": "grammar_unit_1_001_[待填写]",
+      "unit": "Unit 1",
+      "grammar_point": "[待填写：语法点名称，如 '一般现在时']",
+      "category": "[待填写：tense/structure/usage/pattern]",
+      "student_explanation": "[待填写：用小学生能懂的话解释，如 '表示经常做的事情']",
+      "teacher_explanation": "[待填写：详细解释，包含规则、用法、注意事项]",
+      "correct_examples": [
+        {
+          "sentence": "[待填写：正确句子]",
+          "translation": "[待填写：中文翻译]",
+          "highlight": "[待填写：重点部分，如 'plays']"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "[待填写：错误句子]",
+          "correction": "[待填写：正确形式]",
+          "error_type": "[待填写：错误类型]"
+        }
+      ],
+      "error_reason": "[待填写：为什么学生容易错，如 '忘记主语是第三人称单数']",
+      "error_tags": [
+        "[待填写：相关错因标签]"
+      ],
+      "practice_types": [
+        "选择",
+        "填空",
+        "改错",
+        "造句"
+      ],
+      "difficulty": 3,
+      "related_vocabulary": [
+        "[待填写：相关的单词]"
+      ]
+    }
+  ],
+  "example": {
+    "grammar_id": "grammar_unit_1_example_present_simple",
+    "unit": "Unit 1",
+    "grammar_point": "一般现在时（第三人称单数）",
+    "category": "tense",
+    "student_explanation": "当主语是 he、she、it 或一个人名时，动词要加 s 或 es",
+    "teacher_explanation": "一般现在时表示经常性、习惯性的动作或状态。当主语是第三人称单数（he/she/it/单个人名）时，动词需要发生变化：一般加-s，以s/x/sh/ch/o结尾加-es，以辅音字母+y结尾变y为i加-es。",
+    "correct_examples": [
+      {
+        "sentence": "He plays football every day.",
+        "translation": "他每天踢足球。",
+        "highlight": "plays"
+      },
+      {
+        "sentence": "She watches TV in the evening.",
+        "translation": "她晚上看电视。",
+        "highlight": "watches"
+      }
+    ],
+    "wrong_examples": [
+      {
+        "sentence": "He play football every day.",
+        "correction": "He plays football every day.",
+        "error_type": "动词形式错"
+      },
+      {
+        "sentence": "She watchs TV in the evening.",
+        "correction": "She watches TV in the evening.",
+        "error_type": "动词形式错"
+      }
+    ],
+    "error_reason": "学生容易忘记主语是第三人称单数时动词要变形，或者变形规则记错",
+    "error_tags": [
+      "动词形式错",
+      "主语判断错"
+    ],
+    "practice_types": [
+      "选择",
+      "填空",
+      "改错",
+      "造句"
+    ],
+    "difficulty": 3,
+    "related_vocabulary": [
+      "play",
+      "watch",
+      "go",
+      "do",
+      "have"
+    ]
+  },
+  "error_tag_reference": {
+    "主语判断错": "I / you / he / she / they 分不清",
+    "be 动词错": "am / is / are 乱用",
+    "动词形式错": "动词原形、三单、现在分词混淆",
+    "疑问词错": "what / where / when / why / how 混淆",
+    "because 用法错": "why 问句不会用 because 回答",
+    "介词错": "in / on / at / under / near / beside",
+    "时间表达错": "月份、日期、序数词",
+    "句序错": "中文顺序直译成英文",
+    "拼写错": "单词漏字母、多字母、顺序错",
+    "读题错": "题目要求没看清"
+  },
+  "instructions": "1. 复制 example 对象\n2. 根据实际教材填写每个语法点\n3. grammar_id 格式：grammar_unit_X_序号\n4. 每个 Unit 建议 2-4 个核心语法点\n5. student_explanation 要用小学生能懂的语言\n6. wrong_examples 要包含学生最常犯的错误"
+}
