@@ -1,0 +1,1915 @@
+{
+  "unit": "grade-6-up",
+  "unit_title": "六年级上册",
+  "theme": "译林版六年级上册英语词汇",
+  "vocabulary": [
+    {
+      "word_id": "g6up_1_001",
+      "word": "king",
+      "meaning": "国王",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the king",
+        "king size",
+        "king of"
+      ],
+      "sentence": "The king walked through the city.",
+      "phonetic": "/kɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_002",
+      "word": "new clothes",
+      "meaning": "新衣服",
+      "part_of_speech": "noun",
+      "phrase": [
+        "try on new clothes",
+        "wear new clothes"
+      ],
+      "sentence": "The king likes new clothes.",
+      "phonetic": "/njuː kləʊðz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_003",
+      "word": "foolish",
+      "meaning": "愚蠢的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "foolish idea",
+        "foolish person",
+        "foolish mistake"
+      ],
+      "sentence": "The king was foolish.",
+      "phonetic": "/ˈfuːlɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_004",
+      "word": "clever",
+      "meaning": "聪明的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "clever idea",
+        "clever boy",
+        "how clever"
+      ],
+      "sentence": "The boy is very clever.",
+      "phonetic": "/ˈklevər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_005",
+      "word": "laugh",
+      "meaning": "笑",
+      "part_of_speech": "verb",
+      "phrase": [
+        "laugh at",
+        "laugh loudly",
+        "laugh out loud"
+      ],
+      "sentence": "People laughed at the king.",
+      "phonetic": "/læf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_006",
+      "word": "through",
+      "meaning": "穿过",
+      "part_of_speech": "prep",
+      "phrase": [
+        "walk through",
+        "look through",
+        "go through"
+      ],
+      "sentence": "The king walked through the city.",
+      "phonetic": "/θruː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_007",
+      "word": "point at",
+      "meaning": "指着",
+      "part_of_speech": "verb",
+      "phrase": [
+        "point at someone",
+        "point at the board",
+        "don't point"
+      ],
+      "sentence": "The boy pointed at the king.",
+      "phonetic": "/pɔɪnt æt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_008",
+      "word": "shout",
+      "meaning": "喊叫",
+      "part_of_speech": "verb",
+      "phrase": [
+        "shout at",
+        "shout out",
+        "shout loudly"
+      ],
+      "sentence": "The people shouted.",
+      "phonetic": "/ʃaʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_009",
+      "word": "wear",
+      "meaning": "穿",
+      "part_of_speech": "verb",
+      "phrase": [
+        "wear clothes",
+        "wear a hat",
+        "wear glasses"
+      ],
+      "sentence": "The king wore nothing.",
+      "phonetic": "/weər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_010",
+      "word": "each",
+      "meaning": "每个",
+      "part_of_speech": "det",
+      "phrase": [
+        "each other",
+        "each day",
+        "each student"
+      ],
+      "sentence": "Each student has a book.",
+      "phonetic": "/iːtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_011",
+      "word": "beautiful",
+      "meaning": "美丽的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "beautiful girl",
+        "beautiful day",
+        "beautiful view"
+      ],
+      "sentence": "The dress is beautiful.",
+      "phonetic": "/ˈbjuːtɪfəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_012",
+      "word": "turn into",
+      "meaning": "变成",
+      "part_of_speech": "verb",
+      "phrase": [
+        "turn into a prince",
+        "turn into gold"
+      ],
+      "sentence": "The frog turned into a prince.",
+      "phonetic": "/tɜːrn ˈɪntə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_013",
+      "word": "prince",
+      "meaning": "王子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Prince Charming",
+        "the prince",
+        "handsome prince"
+      ],
+      "sentence": "The prince lived in a castle.",
+      "phonetic": "/prɪns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_014",
+      "word": "princess",
+      "meaning": "公主",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the princess",
+        "princess dress",
+        "beautiful princess"
+      ],
+      "sentence": "The princess is very kind.",
+      "phonetic": "/prɪnˈses/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_015",
+      "word": "castle",
+      "meaning": "城堡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "castle in the air",
+        "sand castle",
+        "live in a castle"
+      ],
+      "sentence": "The king lives in a castle.",
+      "phonetic": "/ˈkɑːsəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_001",
+      "word": "sunny",
+      "meaning": "晴朗的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "sunny day",
+        "sunny side",
+        "bright and sunny"
+      ],
+      "sentence": "It was sunny yesterday.",
+      "phonetic": "/ˈsʌni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_002",
+      "word": "weather",
+      "meaning": "天气",
+      "part_of_speech": "noun",
+      "phrase": [
+        "weather forecast",
+        "bad weather",
+        "weather report"
+      ],
+      "sentence": "How is the weather today?",
+      "phonetic": "/ˈweðər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_003",
+      "word": "cloudy",
+      "meaning": "多云的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "cloudy sky",
+        "partly cloudy"
+      ],
+      "sentence": "It was cloudy this morning.",
+      "phonetic": "/ˈklaʊdi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_004",
+      "word": "rainy",
+      "meaning": "下雨的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "rainy day",
+        "rainy season",
+        "rainy weather"
+      ],
+      "sentence": "It was rainy yesterday.",
+      "phonetic": "/ˈreɪni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_005",
+      "word": "windy",
+      "meaning": "有风的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "windy day",
+        "windy weather",
+        "very windy"
+      ],
+      "sentence": "It was windy in the afternoon.",
+      "phonetic": "/ˈwɪndi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_006",
+      "word": "high",
+      "meaning": "高的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "fly high",
+        "high up",
+        "high speed"
+      ],
+      "sentence": "The kite flew too high.",
+      "phonetic": "/haɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_007",
+      "word": "honey",
+      "meaning": "蜂蜜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "honey bee",
+        "honey moon",
+        "sweet as honey"
+      ],
+      "sentence": "I found some honey.",
+      "phonetic": "/ˈhʌni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_008",
+      "word": "climb",
+      "meaning": "爬",
+      "part_of_speech": "verb",
+      "phrase": [
+        "climb up",
+        "climb the mountain",
+        "climb a tree"
+      ],
+      "sentence": "We climbed up the hill.",
+      "phonetic": "/klaɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_009",
+      "word": "near",
+      "meaning": "在…附近",
+      "part_of_speech": "prep",
+      "phrase": [
+        "near here",
+        "near by",
+        "come near"
+      ],
+      "sentence": "The park is near my house.",
+      "phonetic": "/nɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_010",
+      "word": "ant",
+      "meaning": "蚂蚁",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ant hill",
+        "ant colony",
+        "busy as an ant"
+      ],
+      "sentence": "An ant is very small.",
+      "phonetic": "/ænt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_011",
+      "word": "lose",
+      "meaning": "丢失",
+      "part_of_speech": "verb",
+      "phrase": [
+        "lose the way",
+        "lose weight",
+        "get lost"
+      ],
+      "sentence": "I lost my pencil.",
+      "phonetic": "/luːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_012",
+      "word": "know",
+      "meaning": "知道",
+      "part_of_speech": "verb",
+      "phrase": [
+        "I know",
+        "don't know",
+        "know about"
+      ],
+      "sentence": "I know the answer.",
+      "phonetic": "/noʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_013",
+      "word": "what happened",
+      "meaning": "发生了什么",
+      "part_of_speech": "noun",
+      "phrase": [
+        "what happened to",
+        "what happened next"
+      ],
+      "sentence": "What happened to you?",
+      "phonetic": "/wɒt ˈhæpənd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_014",
+      "word": "sad",
+      "meaning": "伤心的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel sad",
+        "sad story",
+        "sad face"
+      ],
+      "sentence": "He was sad about the rain.",
+      "phonetic": "/sæd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_015",
+      "word": "well",
+      "meaning": "好吧",
+      "part_of_speech": "int",
+      "phrase": [
+        "well done",
+        "very well",
+        "as well"
+      ],
+      "sentence": "Well, let's go home.",
+      "phonetic": "/wel/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_001",
+      "word": "holiday",
+      "meaning": "假期",
+      "part_of_speech": "noun",
+      "phrase": [
+        "summer holiday",
+        "on holiday",
+        "holiday homework"
+      ],
+      "sentence": "I had a good holiday.",
+      "phonetic": "/ˈhɒlədeɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_002",
+      "word": "museum",
+      "meaning": "博物馆",
+      "part_of_speech": "noun",
+      "phrase": [
+        "science museum",
+        "art museum",
+        "go to the museum"
+      ],
+      "sentence": "We visited a museum.",
+      "phonetic": "/mjuˈziːəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_003",
+      "word": "palace",
+      "meaning": "宫殿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the Palace Museum",
+        "summer palace",
+        "imperial palace"
+      ],
+      "sentence": "We went to the Palace Museum.",
+      "phonetic": "/ˈpælɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_004",
+      "word": "Shanghai",
+      "meaning": "上海",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go to Shanghai",
+        "Shanghai Museum",
+        "Shanghai Tower"
+      ],
+      "sentence": "I went to Shanghai for a holiday.",
+      "phonetic": "/ʃæŋˈhaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_005",
+      "word": "summer",
+      "meaning": "夏天",
+      "part_of_speech": "noun",
+      "phrase": [
+        "summer holiday",
+        "summer camp",
+        "hot summer"
+      ],
+      "sentence": "I went to Beijing in the summer.",
+      "phonetic": "/ˈsʌmər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_006",
+      "word": "Great Wall",
+      "meaning": "长城",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the Great Wall",
+        "visit the Great Wall"
+      ],
+      "sentence": "We climbed the Great Wall.",
+      "phonetic": "/ɡreɪt wɔːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_007",
+      "word": "travel",
+      "meaning": "旅行",
+      "part_of_speech": "verb",
+      "phrase": [
+        "travel around",
+        "travel abroad",
+        "travel agent"
+      ],
+      "sentence": "We travelled to Beijing.",
+      "phonetic": "/ˈtrævəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_008",
+      "word": "excited",
+      "meaning": "兴奋的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "very excited",
+        "excited about",
+        "excited to see"
+      ],
+      "sentence": "I was very excited.",
+      "phonetic": "/ɪkˈsaɪtɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_009",
+      "word": "wonderful",
+      "meaning": "精彩的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "wonderful time",
+        "wonderful day",
+        "how wonderful"
+      ],
+      "sentence": "We had a wonderful time.",
+      "phonetic": "/ˈwʌndərfəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_010",
+      "word": "bottle",
+      "meaning": "瓶子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "water bottle",
+        "glass bottle",
+        "bottle of water"
+      ],
+      "sentence": "I bought a bottle of water.",
+      "phonetic": "/ˈbɒtl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_011",
+      "word": "paper",
+      "meaning": "纸",
+      "part_of_speech": "noun",
+      "phrase": [
+        "paper plane",
+        "on paper",
+        "piece of paper",
+        "toilet paper"
+      ],
+      "sentence": "I made a paper plane.",
+      "phonetic": "/ˈpeɪpər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_012",
+      "word": "ask",
+      "meaning": "问",
+      "part_of_speech": "verb",
+      "phrase": [
+        "ask a question",
+        "ask for",
+        "ask about"
+      ],
+      "sentence": "I asked my teacher a question.",
+      "phonetic": "/æsk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_013",
+      "word": "answer",
+      "meaning": "回答",
+      "part_of_speech": "verb",
+      "phrase": [
+        "answer the question",
+        "answer the phone",
+        "right answer"
+      ],
+      "sentence": "Please answer my question.",
+      "phonetic": "/ˈænsər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_014",
+      "word": "star",
+      "meaning": "星星",
+      "part_of_speech": "noun",
+      "phrase": [
+        "five stars",
+        "movie star",
+        "star fish"
+      ],
+      "sentence": "I can see the stars at night.",
+      "phonetic": "/stɑːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_015",
+      "word": "pear",
+      "meaning": "梨子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "pear tree",
+        "pear juice",
+        "sweet pear"
+      ],
+      "sentence": "I like eating pears.",
+      "phonetic": "/peər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_001",
+      "word": "then",
+      "meaning": "那时",
+      "part_of_speech": "adv",
+      "phrase": [
+        "back then",
+        "just then",
+        "since then"
+      ],
+      "sentence": "Life was different then.",
+      "phonetic": "/ðen/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_002",
+      "word": "now",
+      "meaning": "现在",
+      "part_of_speech": "adv",
+      "phrase": [
+        "right now",
+        "by now",
+        "from now on"
+      ],
+      "sentence": "Now we have computers.",
+      "phonetic": "/naʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_003",
+      "word": "ago",
+      "meaning": "以前",
+      "part_of_speech": "adv",
+      "phrase": [
+        "long ago",
+        "a year ago",
+        "a moment ago"
+      ],
+      "sentence": "Ten years ago, there were no phones.",
+      "phonetic": "/əˈɡoʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_004",
+      "word": "telephone",
+      "meaning": "电话",
+      "part_of_speech": "noun",
+      "phrase": [
+        "telephone number",
+        "answer the telephone",
+        "mobile telephone"
+      ],
+      "sentence": "People use telephones now.",
+      "phonetic": "/ˈtelɪfəʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_005",
+      "word": "mobile phone",
+      "meaning": "手机",
+      "part_of_speech": "noun",
+      "phrase": [
+        "use a mobile phone",
+        "mobile phone number"
+      ],
+      "sentence": "Everyone has a mobile phone now.",
+      "phonetic": "/ˈmoʊbəl foʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_006",
+      "word": "invent",
+      "meaning": "发明",
+      "part_of_speech": "verb",
+      "phrase": [
+        "invent the phone",
+        "invent a new way",
+        "invent something"
+      ],
+      "sentence": "Who invented the telephone?",
+      "phonetic": "/ɪnˈvent/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_007",
+      "word": "newspaper",
+      "meaning": "报纸",
+      "part_of_speech": "noun",
+      "phrase": [
+        "read the newspaper",
+        "daily newspaper",
+        "newspaper stand"
+      ],
+      "sentence": "People read newspapers in the past.",
+      "phonetic": "/ˈnjuːzpeɪpər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_008",
+      "word": "watch",
+      "meaning": "观看",
+      "part_of_speech": "verb",
+      "phrase": [
+        "watch TV",
+        "watch a movie",
+        "watch out"
+      ],
+      "sentence": "We watch TV every day.",
+      "phonetic": "/wɒtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_009",
+      "word": "radio",
+      "meaning": "收音机",
+      "part_of_speech": "noun",
+      "phrase": [
+        "listen to the radio",
+        "radio station",
+        "radio show"
+      ],
+      "sentence": "People listened to the radio before.",
+      "phonetic": "/ˈreɪdioʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_010",
+      "word": "get",
+      "meaning": "得到",
+      "part_of_speech": "verb",
+      "phrase": [
+        "get information",
+        "get news",
+        "get better"
+      ],
+      "sentence": "We can get news from the Internet.",
+      "phonetic": "/ɡet/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_011",
+      "word": "news",
+      "meaning": "新闻",
+      "part_of_speech": "noun",
+      "phrase": [
+        "news paper",
+        "good news",
+        "bad news",
+        "news report"
+      ],
+      "sentence": "I read the news on my phone.",
+      "phonetic": "/njuːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_012",
+      "word": "e-book",
+      "meaning": "电子书",
+      "part_of_speech": "noun",
+      "phrase": [
+        "read an e-book",
+        "e-book reader",
+        "buy an e-book"
+      ],
+      "sentence": "I read e-books on my tablet.",
+      "phonetic": "/iː bʊk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_013",
+      "word": "spell",
+      "meaning": "拼写",
+      "part_of_speech": "verb",
+      "phrase": [
+        "spell the word",
+        "spell out",
+        "spelling bee"
+      ],
+      "sentence": "Can you spell your name?",
+      "phonetic": "/spel/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_014",
+      "word": "look up",
+      "meaning": "查阅",
+      "part_of_speech": "verb",
+      "phrase": [
+        "look up the word",
+        "look up to",
+        "look up at"
+      ],
+      "sentence": "You can look up new words online.",
+      "phonetic": "/lʊk ʌp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_015",
+      "word": "change",
+      "meaning": "变化",
+      "part_of_speech": "verb",
+      "phrase": [
+        "change into",
+        "for a change",
+        "make a change"
+      ],
+      "sentence": "The world has changed a lot.",
+      "phonetic": "/tʃeɪndʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_001",
+      "word": "sign",
+      "meaning": "标识",
+      "part_of_speech": "noun",
+      "phrase": [
+        "traffic sign",
+        "sign language",
+        "stop sign"
+      ],
+      "sentence": "What does this sign mean?",
+      "phonetic": "/saɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_002",
+      "word": "mean",
+      "meaning": "意思是",
+      "part_of_speech": "verb",
+      "phrase": [
+        "what does it mean",
+        "mean to do",
+        "no mean feat"
+      ],
+      "sentence": "What does this sign mean?",
+      "phonetic": "/miːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_003",
+      "word": "shopping centre",
+      "meaning": "购物中心",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go to the shopping centre",
+        "new shopping centre"
+      ],
+      "sentence": "Let's go to the shopping centre.",
+      "phonetic": "/ˈʃɒpɪŋ ˈsentər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_004",
+      "word": "careful",
+      "meaning": "小心的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be careful",
+        "careful with",
+        "careful not to"
+      ],
+      "sentence": "Be careful!",
+      "phonetic": "/ˈkeərfəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_005",
+      "word": "dangerous",
+      "meaning": "危险的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "dangerous animal",
+        "dangerous place",
+        "it's dangerous"
+      ],
+      "sentence": "It's dangerous to swim here.",
+      "phonetic": "/ˈdeɪndʒərəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_006",
+      "word": "must",
+      "meaning": "必须",
+      "part_of_speech": "modal",
+      "phrase": [
+        "you must",
+        "must be",
+        "must not"
+      ],
+      "sentence": "You must not smoke here.",
+      "phonetic": "/mʌst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_007",
+      "word": "should",
+      "meaning": "应该",
+      "part_of_speech": "modal",
+      "phrase": [
+        "you should",
+        "should not",
+        "should be"
+      ],
+      "sentence": "You should wait here.",
+      "phonetic": "/ʃʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_008",
+      "word": "can't",
+      "meaning": "不能",
+      "part_of_speech": "modal",
+      "phrase": [
+        "you can't",
+        "I can't",
+        "can't do"
+      ],
+      "sentence": "You can't park here.",
+      "phonetic": "/kænt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_009",
+      "word": "floor",
+      "meaning": "地面",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the floor",
+        "floor plan",
+        "ground floor"
+      ],
+      "sentence": "Don't litter on the floor.",
+      "phonetic": "/flɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_010",
+      "word": "litter",
+      "meaning": "乱扔垃圾",
+      "part_of_speech": "verb",
+      "phrase": [
+        "no litter",
+        "litter bin",
+        "pick up litter"
+      ],
+      "sentence": "Don't litter in the park.",
+      "phonetic": "/ˈlɪtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_011",
+      "word": "smoke",
+      "meaning": "吸烟",
+      "part_of_speech": "verb",
+      "phrase": [
+        "no smoking",
+        "smoke a cigarette",
+        "smoke alarm"
+      ],
+      "sentence": "You can't smoke here.",
+      "phonetic": "/smoʊk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_012",
+      "word": "park",
+      "meaning": "停车",
+      "part_of_speech": "verb",
+      "phrase": [
+        "park the car",
+        "no parking",
+        "car park"
+      ],
+      "sentence": "You can't park here.",
+      "phonetic": "/pɑːrk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_013",
+      "word": "take...into",
+      "meaning": "带入",
+      "part_of_speech": "verb",
+      "phrase": [
+        "take into the room",
+        "take food into"
+      ],
+      "sentence": "You can't take food into the library.",
+      "phonetic": "/teɪk...ˈɪntə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_014",
+      "word": "outing",
+      "meaning": "远足",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go on an outing",
+        "school outing",
+        "family outing"
+      ],
+      "sentence": "We went on an outing.",
+      "phonetic": "/ˈaʊtɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_015",
+      "word": "around",
+      "meaning": "围绕",
+      "part_of_speech": "prep",
+      "phrase": [
+        "look around",
+        "around the world",
+        "go around"
+      ],
+      "sentence": "Look around carefully.",
+      "phonetic": "/əˈraʊnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_001",
+      "word": "city",
+      "meaning": "城市",
+      "part_of_speech": "noun",
+      "phrase": [
+        "big city",
+        "city centre",
+        "city life"
+      ],
+      "sentence": "Our city is very beautiful.",
+      "phonetic": "/ˈsɪti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_002",
+      "word": "clean",
+      "meaning": "干净的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "keep clean",
+        "clean up",
+        "clean water"
+      ],
+      "sentence": "Keep our city clean.",
+      "phonetic": "/kliːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_003",
+      "word": "dirty",
+      "meaning": "脏的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "dirty water",
+        "dirty air",
+        "dirty clothes"
+      ],
+      "sentence": "The river is very dirty.",
+      "phonetic": "/ˈdɜːrti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_004",
+      "word": "mess",
+      "meaning": "混乱",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a mess",
+        "in a mess",
+        "clean up the mess"
+      ],
+      "sentence": "Don't make a mess in the room.",
+      "phonetic": "/mes/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_005",
+      "word": "rubbish",
+      "meaning": "垃圾",
+      "part_of_speech": "noun",
+      "phrase": [
+        "pick up rubbish",
+        "rubbish bin",
+        "rubbish bag"
+      ],
+      "sentence": "Pick up the rubbish, please.",
+      "phonetic": "/ˈrʌbɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_006",
+      "word": "factory",
+      "meaning": "工厂",
+      "part_of_speech": "noun",
+      "phrase": [
+        "factory waste",
+        "factory worker",
+        "factory smoke"
+      ],
+      "sentence": "The factory makes the air dirty.",
+      "phonetic": "/ˈfæktəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_007",
+      "word": "smoke",
+      "meaning": "烟",
+      "part_of_speech": "noun",
+      "phrase": [
+        "smoke from",
+        "thick smoke",
+        "no smoke"
+      ],
+      "sentence": "There is a lot of smoke from the factory.",
+      "phonetic": "/smoʊk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_008",
+      "word": "air",
+      "meaning": "空气",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fresh air",
+        "air pollution",
+        "clean air"
+      ],
+      "sentence": "We need clean air.",
+      "phonetic": "/eər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_009",
+      "word": "plant",
+      "meaning": "种植",
+      "part_of_speech": "verb",
+      "phrase": [
+        "plant trees",
+        "plant flowers",
+        "plant a seed"
+      ],
+      "sentence": "We plant trees to keep the air clean.",
+      "phonetic": "/plɑːnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_010",
+      "word": "throw",
+      "meaning": "扔",
+      "part_of_speech": "verb",
+      "phrase": [
+        "throw away",
+        "throw out",
+        "throw to"
+      ],
+      "sentence": "Don't throw rubbish on the ground.",
+      "phonetic": "/θroʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_011",
+      "word": "ground",
+      "meaning": "地面",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the ground",
+        "ground floor",
+        "fall to the ground"
+      ],
+      "sentence": "Don't throw things on the ground.",
+      "phonetic": "/ɡraʊnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_012",
+      "word": "protect",
+      "meaning": "保护",
+      "part_of_speech": "verb",
+      "phrase": [
+        "protect the environment",
+        "protect animals",
+        "protect yourself"
+      ],
+      "sentence": "We should protect our city.",
+      "phonetic": "/prəˈtekt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_013",
+      "word": "keep",
+      "meaning": "保持",
+      "part_of_speech": "verb",
+      "phrase": [
+        "keep clean",
+        "keep quiet",
+        "keep doing"
+      ],
+      "sentence": "Keep our city clean.",
+      "phonetic": "/kiːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_014",
+      "word": "move...away",
+      "meaning": "搬走",
+      "part_of_speech": "verb",
+      "phrase": [
+        "move away from",
+        "move things away"
+      ],
+      "sentence": "The factory moved away from the city.",
+      "phonetic": "/muːv...əˈweɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_015",
+      "word": "dead",
+      "meaning": "死的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "dead tree",
+        "dead fish",
+        "dead end"
+      ],
+      "sentence": "Many fish are dead in the dirty river.",
+      "phonetic": "/ded/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_001",
+      "word": "Earth",
+      "meaning": "地球",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on Earth",
+        "save the Earth",
+        "Earth Day"
+      ],
+      "sentence": "We live on the Earth.",
+      "phonetic": "/ɜːrθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_002",
+      "word": "save",
+      "meaning": "节约；拯救",
+      "part_of_speech": "verb",
+      "phrase": [
+        "save water",
+        "save energy",
+        "save the Earth",
+        "save money"
+      ],
+      "sentence": "We should save water.",
+      "phonetic": "/seɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_003",
+      "word": "water",
+      "meaning": "水",
+      "part_of_speech": "noun",
+      "phrase": [
+        "drink water",
+        "water bottle",
+        "clean water"
+      ],
+      "sentence": "We should save water.",
+      "phonetic": "/ˈwɔːtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_004",
+      "word": "energy",
+      "meaning": "能源",
+      "part_of_speech": "noun",
+      "phrase": [
+        "save energy",
+        "solar energy",
+        "clean energy"
+      ],
+      "sentence": "We should save energy.",
+      "phonetic": "/ˈenərdʒi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_005",
+      "word": "wood",
+      "meaning": "木材",
+      "part_of_speech": "noun",
+      "phrase": [
+        "wood table",
+        "cut down wood",
+        "wood fire"
+      ],
+      "sentence": "We shouldn't waste wood.",
+      "phonetic": "/wʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_006",
+      "word": "plastic",
+      "meaning": "塑料",
+      "part_of_speech": "noun",
+      "phrase": [
+        "plastic bag",
+        "plastic bottle",
+        "plastic waste"
+      ],
+      "sentence": "We shouldn't use too many plastic bags.",
+      "phonetic": "/ˈplæstɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_007",
+      "word": "too many",
+      "meaning": "太多",
+      "part_of_speech": "det",
+      "phrase": [
+        "too many people",
+        "too many cars",
+        "too many things"
+      ],
+      "sentence": "There are too many cars.",
+      "phonetic": "/tuː ˈmeni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_008",
+      "word": "reuse",
+      "meaning": "再利用",
+      "part_of_speech": "verb",
+      "phrase": [
+        "reuse paper",
+        "reuse bags",
+        "reuse water"
+      ],
+      "sentence": "We can reuse paper.",
+      "phonetic": "/riːˈjuːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_009",
+      "word": "recycle",
+      "meaning": "回收",
+      "part_of_speech": "verb",
+      "phrase": [
+        "recycle bottles",
+        "recycle paper",
+        "recycle bin"
+      ],
+      "sentence": "We should recycle glass bottles.",
+      "phonetic": "/riːˈsaɪkəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_010",
+      "word": "glass",
+      "meaning": "玻璃",
+      "part_of_speech": "noun",
+      "phrase": [
+        "glass bottle",
+        "glass window",
+        "broken glass"
+      ],
+      "sentence": "We can reuse glass bottles.",
+      "phonetic": "/ɡlɑːs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_011",
+      "word": "bottle",
+      "meaning": "瓶子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "glass bottle",
+        "water bottle",
+        "bottle of"
+      ],
+      "sentence": "Don't throw away glass bottles.",
+      "phonetic": "/ˈbɒtl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_012",
+      "word": "come from",
+      "meaning": "来自",
+      "part_of_speech": "verb",
+      "phrase": [
+        "come from the sea",
+        "come from trees",
+        "where do you come from"
+      ],
+      "sentence": "Energy comes from the sun.",
+      "phonetic": "/kʌm frɒm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_013",
+      "word": "cut down",
+      "meaning": "砍伐",
+      "part_of_speech": "verb",
+      "phrase": [
+        "cut down trees",
+        "cut down on",
+        "cut it down"
+      ],
+      "sentence": "We shouldn't cut down too many trees.",
+      "phonetic": "/kʌt daʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_014",
+      "word": "too much",
+      "meaning": "太多",
+      "part_of_speech": "det",
+      "phrase": [
+        "too much water",
+        "too much noise",
+        "too much work"
+      ],
+      "sentence": "Don't waste too much water.",
+      "phonetic": "/tuː mʌtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_015",
+      "word": "use",
+      "meaning": "使用",
+      "part_of_speech": "verb",
+      "phrase": [
+        "use up",
+        "make use of",
+        "use your head"
+      ],
+      "sentence": "We should use paper bags.",
+      "phonetic": "/juːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_001",
+      "word": "Chinese New Year",
+      "meaning": "春节",
+      "part_of_speech": "noun",
+      "phrase": [
+        "celebrate Chinese New Year",
+        "during Chinese New Year"
+      ],
+      "sentence": "Chinese New Year is coming!",
+      "phonetic": "/ˌtʃaɪˈniːz njuː jɪr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_002",
+      "word": "fireworks",
+      "meaning": "烟花",
+      "part_of_speech": "noun",
+      "phrase": [
+        "watch fireworks",
+        "set off fireworks",
+        "fireworks show"
+      ],
+      "sentence": "We watch fireworks at night.",
+      "phonetic": "/ˈfaɪərwɜːrks/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_003",
+      "word": "firecracker",
+      "meaning": "鞭炮",
+      "part_of_speech": "noun",
+      "phrase": [
+        "set off firecrackers",
+        "light firecrackers"
+      ],
+      "sentence": "People set off firecrackers.",
+      "phonetic": "/ˈfaɪərkrækər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_004",
+      "word": "red packet",
+      "meaning": "红包",
+      "part_of_speech": "noun",
+      "phrase": [
+        "give red packets",
+        "receive red packets",
+        "lucky red packet"
+      ],
+      "sentence": "I get red packets from my grandparents.",
+      "phonetic": "/red ˈpækɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_005",
+      "word": "dumpling",
+      "meaning": "饺子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make dumplings",
+        "eat dumplings",
+        "dumpling soup"
+      ],
+      "sentence": "We make dumplings together.",
+      "phonetic": "/ˈdʌmplɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_006",
+      "word": "lion dance",
+      "meaning": "舞狮",
+      "part_of_speech": "noun",
+      "phrase": [
+        "watch the lion dance",
+        "lion dance show"
+      ],
+      "sentence": "We watch the lion dance.",
+      "phonetic": "/ˈlaɪən dæns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_007",
+      "word": "plan",
+      "meaning": "计划",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a plan",
+        "plan to do",
+        "go according to plan"
+      ],
+      "sentence": "What are your plans for Chinese New Year?",
+      "phonetic": "/plæn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_008",
+      "word": "excited",
+      "meaning": "兴奋的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "very excited",
+        "excited about",
+        "excited to do"
+      ],
+      "sentence": "I'm very excited about Chinese New Year.",
+      "phonetic": "/ɪkˈsaɪtɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_009",
+      "word": "rich",
+      "meaning": "富有的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "rich food",
+        "rich man",
+        "get rich"
+      ],
+      "sentence": "We eat rich food at Chinese New Year.",
+      "phonetic": "/rɪtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_010",
+      "word": "famous",
+      "meaning": "著名的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "famous for",
+        "famous person",
+        "world famous"
+      ],
+      "sentence": "Hong Kong is famous for shopping.",
+      "phonetic": "/ˈfeɪməs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_011",
+      "word": "food",
+      "meaning": "食物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "rich food",
+        "fast food",
+        "Chinese food"
+      ],
+      "sentence": "We have lots of good food.",
+      "phonetic": "/fuːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_012",
+      "word": "get together",
+      "meaning": "聚会",
+      "part_of_speech": "verb",
+      "phrase": [
+        "get together with",
+        "family get together"
+      ],
+      "sentence": "Families get together at Chinese New Year.",
+      "phonetic": "/ɡet təˈɡeðər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_013",
+      "word": "Mid-Autumn Festival",
+      "meaning": "中秋节",
+      "part_of_speech": "noun",
+      "phrase": [
+        "celebrate Mid-Autumn Festival",
+        "during Mid-Autumn Festival"
+      ],
+      "sentence": "We eat mooncakes at Mid-Autumn Festival.",
+      "phonetic": "/mɪd ˈɔːtəm ˈfestɪvəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_014",
+      "word": "mooncake",
+      "meaning": "月饼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "eat mooncakes",
+        "make mooncakes",
+        "mooncake box"
+      ],
+      "sentence": "We eat mooncakes and watch the moon.",
+      "phonetic": "/ˈmuːnkeɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_015",
+      "word": "Spring Festival",
+      "meaning": "春节",
+      "part_of_speech": "noun",
+      "phrase": [
+        "celebrate Spring Festival",
+        "during Spring Festival"
+      ],
+      "sentence": "Spring Festival is the most important festival in China.",
+      "phonetic": "/sprɪŋ ˈfestɪvəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

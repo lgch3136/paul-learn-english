@@ -54,6 +54,7 @@ const gradeGroups: GradeGroup[] = [
     color: 'from-orange-400 to-amber-500',
     borderColor: 'border-orange-300',
     units: [
+      { id: 'grade-5-up', label: '上册', icon: '📖' },
       { id: 'Unit 1', label: 'Unit 1' },
       { id: 'Unit 2', label: 'Unit 2' },
       { id: 'Unit 3', label: 'Unit 3' },
@@ -71,7 +72,8 @@ const gradeGroups: GradeGroup[] = [
     color: 'from-rose-400 to-pink-500',
     borderColor: 'border-rose-300',
     units: [
-      { id: 'g6up', label: '上册（敬请期待）', icon: '🔜' },
+      { id: 'grade-6-up', label: '上册', icon: '📖' },
+      { id: 'grade-6-down', label: '下册', icon: '📖' },
     ],
   },
 ]
@@ -174,7 +176,7 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
           {/* 各年级卡片 */}
           {gradeGroups.map(grade => {
             const isExpanded = expandedGrade === grade.id
-            const hasUnits = grade.units[0]?.id !== 'g6up'
+            const hasUnits = grade.units.length > 0
             return (
               <div
                 key={grade.id}

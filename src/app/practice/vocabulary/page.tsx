@@ -33,6 +33,7 @@ import AchievementPopup from '@/components/gameification/AchievementPopup'
 import PointsReward from '@/components/gameification/PointsReward'
 import BackButton from '@/components/ui/BackButton'
 import AnswerFeedback from '@/components/practice/AnswerFeedback'
+import StreakCombo from '@/components/practice/StreakCombo'
 
 // 生成干扰选项
 function generateOptions(correctMeaning: string, allMeanings: string[]): string[] {
@@ -89,6 +90,7 @@ export default function VocabularyPractice() {
   })
   const [performances, setPerformances] = useState<Map<string, WordPerformance>>(new Map())
   const [practiceSequence, setPracticeSequence] = useState<any[]>([])
+  const [showStreakCombo, setShowStreakCombo] = useState(false)
   const [answerFeedback, setAnswerFeedback] = useState<{ isCorrect: boolean; message?: string; detail?: string } | null>(null)
   const containerRef = useRef<HTMLDivElement>(null)
 
@@ -318,8 +320,9 @@ export default function VocabularyPractice() {
       if (newStreak >= 3) {
         setTimeout(() => {
           sounds.streak()
+          setShowStreakCombo(true)
           setEncouragement(getRandomEncouragement('streak'))
-        }, 300)
+        }, 800)
       }
 
       if (currentIndex === practiceSequence.length - 1) {
@@ -665,6 +668,11 @@ export default function VocabularyPractice() {
 
   return (
     <main className="min-h-screen p-4 sm:p-8" ref={containerRef}>
+      {/* 连击动效 */}
+      {showStreakCombo && streak >= 3 && (
+        <StreakCombo streak={streak} visible={showStreakCombo} onDone={() => setShowStreakCombo(false)} />
+      )}
+
       {/* 成就弹窗 */}
       {unlockedAchievement && (
         <AchievementPopup

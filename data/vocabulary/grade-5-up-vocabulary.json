@@ -1,0 +1,1909 @@
+{
+  "unit": "grade-5-up",
+  "unit_title": "五年级上册",
+  "theme": "译林版五年级上册英语词汇",
+  "vocabulary": [
+    {
+      "word_id": "g5up_1_001",
+      "word": "bear",
+      "meaning": "熊",
+      "part_of_speech": "noun",
+      "phrase": [
+        "teddy bear",
+        "polar bear",
+        "bear hug"
+      ],
+      "sentence": "I see a bear in the zoo.",
+      "phonetic": "/beər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_002",
+      "word": "forest",
+      "meaning": "森林",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the forest",
+        "forest fire",
+        "rain forest"
+      ],
+      "sentence": "The forest is very big.",
+      "phonetic": "/ˈfɒrɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_003",
+      "word": "house",
+      "meaning": "房子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "house work",
+        "go home",
+        "house number"
+      ],
+      "sentence": "There is a house in the forest.",
+      "phonetic": "/haʊs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_004",
+      "word": "soup",
+      "meaning": "汤",
+      "part_of_speech": "noun",
+      "phrase": [
+        "chicken soup",
+        "hot soup",
+        "make soup"
+      ],
+      "sentence": "The soup is too hot.",
+      "phonetic": "/suːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_005",
+      "word": "room",
+      "meaning": "房间",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bedroom",
+        "living room",
+        "room number"
+      ],
+      "sentence": "This room is too cold.",
+      "phonetic": "/ruːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_006",
+      "word": "hard",
+      "meaning": "硬的",
+      "part_of_speech": "noun",
+      "phrase": [
+        "hard rock",
+        "work hard",
+        "hard work"
+      ],
+      "sentence": "This bed is too hard.",
+      "phonetic": "/hɑːrd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_007",
+      "word": "soft",
+      "meaning": "软的",
+      "part_of_speech": "noun",
+      "phrase": [
+        "soft toy",
+        "soft drink",
+        "soft music"
+      ],
+      "sentence": "This bed is too soft.",
+      "phonetic": "/sɒft/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_008",
+      "word": "afraid",
+      "meaning": "害怕的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be afraid of",
+        "afraid not",
+        "I'm afraid"
+      ],
+      "sentence": "I'm afraid of bears.",
+      "phonetic": "/əˈfreɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_009",
+      "word": "in front of",
+      "meaning": "在…前面",
+      "part_of_speech": "prep",
+      "phrase": [
+        "in front of the house",
+        "right in front of"
+      ],
+      "sentence": "There is a table in front of the bed.",
+      "phonetic": "/ɪn frʌnt ɒv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_010",
+      "word": "between",
+      "meaning": "在…中间",
+      "part_of_speech": "prep",
+      "phrase": [
+        "between A and B",
+        "in between"
+      ],
+      "sentence": "The bed is between two chairs.",
+      "phonetic": "/bɪˈtwiːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_011",
+      "word": "beside",
+      "meaning": "在…旁边",
+      "part_of_speech": "prep",
+      "phrase": [
+        "sit beside",
+        "right beside",
+        "beside the point"
+      ],
+      "sentence": "Come and sit beside me.",
+      "phonetic": "/bɪˈsaɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_012",
+      "word": "behind",
+      "meaning": "在…后面",
+      "part_of_speech": "prep",
+      "phrase": [
+        "behind the door",
+        "fall behind",
+        "behind schedule"
+      ],
+      "sentence": "The cat is behind the tree.",
+      "phonetic": "/bɪˈhaɪnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_013",
+      "word": "find",
+      "meaning": "找到",
+      "part_of_speech": "verb",
+      "phrase": [
+        "find out",
+        "I found",
+        "can't find",
+        "find a way"
+      ],
+      "sentence": "I can't find my pen.",
+      "phonetic": "/faɪnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_014",
+      "word": "really",
+      "meaning": "真的",
+      "part_of_speech": "adv",
+      "phrase": [
+        "really good",
+        "really nice",
+        "not really"
+      ],
+      "sentence": "It's really cold today.",
+      "phonetic": "/ˈriːəli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_015",
+      "word": "then",
+      "meaning": "然后",
+      "part_of_speech": "adv",
+      "phrase": [
+        "and then",
+        "just then",
+        "by then"
+      ],
+      "sentence": "I ate, then went to bed.",
+      "phonetic": "/ðen/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_001",
+      "word": "student",
+      "meaning": "学生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "new student",
+        "student ID",
+        "good student"
+      ],
+      "sentence": "She is a new student.",
+      "phonetic": "/ˈstjuːdənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_002",
+      "word": "classroom",
+      "meaning": "教室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the classroom",
+        "classroom door",
+        "classroom rules"
+      ],
+      "sentence": "Our classroom is on the second floor.",
+      "phonetic": "/ˈklɑːsruːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_003",
+      "word": "floor",
+      "meaning": "楼层；地板",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ground floor",
+        "first floor",
+        "on the floor"
+      ],
+      "sentence": "The music room is on the third floor.",
+      "phonetic": "/flɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_004",
+      "word": "computer",
+      "meaning": "电脑",
+      "part_of_speech": "noun",
+      "phrase": [
+        "computer room",
+        "computer game",
+        "use a computer"
+      ],
+      "sentence": "There are many computers in the room.",
+      "phonetic": "/kəmˈpjuːtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_005",
+      "word": "library",
+      "meaning": "图书馆",
+      "part_of_speech": "noun",
+      "phrase": [
+        "school library",
+        "go to the library",
+        "library card"
+      ],
+      "sentence": "We read books in the library.",
+      "phonetic": "/ˈlaɪbrəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_006",
+      "word": "playground",
+      "meaning": "操场",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the playground",
+        "playground equipment"
+      ],
+      "sentence": "Children play on the playground.",
+      "phonetic": "/ˈpleɪɡraʊnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_007",
+      "word": "art room",
+      "meaning": "美术教室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the art room",
+        "art room supplies"
+      ],
+      "sentence": "We draw pictures in the art room.",
+      "phonetic": "/ɑːrt ruːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_008",
+      "word": "music room",
+      "meaning": "音乐教室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the music room",
+        "music room practice"
+      ],
+      "sentence": "We sing songs in the music room.",
+      "phonetic": "/ˈmjuːzɪk ruːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_009",
+      "word": "first",
+      "meaning": "第一",
+      "part_of_speech": "adj",
+      "phrase": [
+        "first floor",
+        "first of all",
+        "at first"
+      ],
+      "sentence": "The library is on the first floor.",
+      "phonetic": "/fɜːrst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_010",
+      "word": "second",
+      "meaning": "第二",
+      "part_of_speech": "adj",
+      "phrase": [
+        "second floor",
+        "the second one"
+      ],
+      "sentence": "My classroom is on the second floor.",
+      "phonetic": "/ˈsekənd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_011",
+      "word": "third",
+      "meaning": "第三",
+      "part_of_speech": "adj",
+      "phrase": [
+        "third floor",
+        "the third time"
+      ],
+      "sentence": "The art room is on the third floor.",
+      "phonetic": "/θɜːrd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_012",
+      "word": "show",
+      "meaning": "带…看",
+      "part_of_speech": "verb",
+      "phrase": [
+        "show around",
+        "show me",
+        "TV show"
+      ],
+      "sentence": "Let me show you around.",
+      "phonetic": "/ʃoʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_013",
+      "word": "heavy",
+      "meaning": "重的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "heavy rain",
+        "heavy box",
+        "heavy traffic"
+      ],
+      "sentence": "This bag is too heavy.",
+      "phonetic": "/ˈhevi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_014",
+      "word": "thin",
+      "meaning": "瘦的；薄的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "thin paper",
+        "thin air",
+        "thin ice"
+      ],
+      "sentence": "The book is very thin.",
+      "phonetic": "/θɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_015",
+      "word": "each",
+      "meaning": "每一",
+      "part_of_speech": "det",
+      "phrase": [
+        "each other",
+        "each day",
+        "each student"
+      ],
+      "sentence": "Each student has a computer.",
+      "phonetic": "/iːtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_001",
+      "word": "animal",
+      "meaning": "动物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "animal friend",
+        "wild animal",
+        "animal world"
+      ],
+      "sentence": "Dogs are my favourite animals.",
+      "phonetic": "/ˈænɪməl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_002",
+      "word": "body",
+      "meaning": "身体",
+      "part_of_speech": "noun",
+      "phrase": [
+        "body language",
+        "human body",
+        "body parts"
+      ],
+      "sentence": "A fish has no legs or arms.",
+      "phonetic": "/ˈbɒdi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_003",
+      "word": "leg",
+      "meaning": "腿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "long legs",
+        "broken leg",
+        "leg of the table"
+      ],
+      "sentence": "A dog has four legs.",
+      "phonetic": "/leɡ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_004",
+      "word": "arm",
+      "meaning": "手臂",
+      "part_of_speech": "noun",
+      "phrase": [
+        "arm in arm",
+        "hold in your arms"
+      ],
+      "sentence": "A monkey has two long arms.",
+      "phonetic": "/ɑːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_005",
+      "word": "wing",
+      "meaning": "翅膀",
+      "part_of_speech": "noun",
+      "phrase": [
+        "spread its wings",
+        "left wing",
+        "right wing"
+      ],
+      "sentence": "A bird has two wings.",
+      "phonetic": "/wɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_006",
+      "word": "foot",
+      "meaning": "脚",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on foot",
+        "foot step",
+        "at the foot of"
+      ],
+      "sentence": "A duck has big feet.",
+      "phonetic": "/fʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_007",
+      "word": "tail",
+      "meaning": "尾巴",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tail wagging",
+        "long tail",
+        "short tail"
+      ],
+      "sentence": "A rabbit has a short tail.",
+      "phonetic": "/teɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_008",
+      "word": "eye",
+      "meaning": "眼睛",
+      "part_of_speech": "noun",
+      "phrase": [
+        "open your eyes",
+        "blue eyes",
+        "eye contact"
+      ],
+      "sentence": "A fish has big eyes.",
+      "phonetic": "/aɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_009",
+      "word": "ear",
+      "meaning": "耳朵",
+      "part_of_speech": "noun",
+      "phrase": [
+        "big ears",
+        "ear ring",
+        "play it by ear"
+      ],
+      "sentence": "A rabbit has long ears.",
+      "phonetic": "/ɪr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_010",
+      "word": "body",
+      "meaning": "身体部位",
+      "part_of_speech": "noun",
+      "phrase": [
+        "body parts",
+        "human body",
+        "whole body"
+      ],
+      "sentence": "This animal has no body hair.",
+      "phonetic": "/ˈbɒdi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_011",
+      "word": "give",
+      "meaning": "给",
+      "part_of_speech": "verb",
+      "phrase": [
+        "give me",
+        "give up",
+        "give away"
+      ],
+      "sentence": "Give me your hand.",
+      "phonetic": "/ɡɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_012",
+      "word": "one…, the other",
+      "meaning": "一个…另一个",
+      "part_of_speech": "pron",
+      "phrase": [
+        "one hand...the other",
+        "one eye...the other"
+      ],
+      "sentence": "I have two dogs. One is big, the other is small.",
+      "phonetic": "/wʌn...ðɪ ˈʌðər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_013",
+      "word": "finger",
+      "meaning": "手指",
+      "part_of_speech": "noun",
+      "phrase": [
+        "finger print",
+        "point a finger",
+        "cross your fingers"
+      ],
+      "sentence": "I have ten fingers.",
+      "phonetic": "/ˈfɪŋɡər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_014",
+      "word": "rainbow",
+      "meaning": "彩虹",
+      "part_of_speech": "noun",
+      "phrase": [
+        "rainbow colors",
+        "over the rainbow"
+      ],
+      "sentence": "Look at the beautiful rainbow!",
+      "phonetic": "/ˈreɪnboʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_015",
+      "word": "parrot",
+      "meaning": "鹦鹉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "parrot talk",
+        "pet parrot"
+      ],
+      "sentence": "The parrot can talk.",
+      "phonetic": "/ˈpærət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_001",
+      "word": "hobby",
+      "meaning": "爱好",
+      "part_of_speech": "noun",
+      "phrase": [
+        "hobby class",
+        "my hobby",
+        "hobby group"
+      ],
+      "sentence": "What's your hobby?",
+      "phonetic": "/ˈhɒbi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_002",
+      "word": "story",
+      "meaning": "故事",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tell a story",
+        "story book",
+        "story time"
+      ],
+      "sentence": "I like reading stories.",
+      "phonetic": "/ˈstɔːri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_003",
+      "word": "piano",
+      "meaning": "钢琴",
+      "part_of_speech": "noun",
+      "phrase": [
+        "play the piano",
+        "piano lesson",
+        "piano music"
+      ],
+      "sentence": "She plays the piano very well.",
+      "phonetic": "/piˈænoʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_004",
+      "word": "dance",
+      "meaning": "跳舞",
+      "part_of_speech": "verb",
+      "phrase": [
+        "dance class",
+        "dance music",
+        "learn to dance"
+      ],
+      "sentence": "I like dancing.",
+      "phonetic": "/dæns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_005",
+      "word": "draw",
+      "meaning": "画画",
+      "part_of_speech": "verb",
+      "phrase": [
+        "draw a picture",
+        "draw well",
+        "draw attention"
+      ],
+      "sentence": "I like drawing pictures.",
+      "phonetic": "/drɔː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_006",
+      "word": "sing",
+      "meaning": "唱歌",
+      "part_of_speech": "verb",
+      "phrase": [
+        "sing a song",
+        "sing well",
+        "sing along"
+      ],
+      "sentence": "She can sing very well.",
+      "phonetic": "/sɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_007",
+      "word": "read",
+      "meaning": "阅读",
+      "part_of_speech": "verb",
+      "phrase": [
+        "read books",
+        "read aloud",
+        "read a story"
+      ],
+      "sentence": "I like reading books.",
+      "phonetic": "/riːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_008",
+      "word": "both",
+      "meaning": "两个都",
+      "part_of_speech": "det",
+      "phrase": [
+        "both of",
+        "both sides",
+        "both...and..."
+      ],
+      "sentence": "We both like singing.",
+      "phonetic": "/boʊθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_009",
+      "word": "idea",
+      "meaning": "主意",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good idea",
+        "have an idea",
+        "great idea"
+      ],
+      "sentence": "That's a good idea!",
+      "phonetic": "/aɪˈdɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_010",
+      "word": "group",
+      "meaning": "组",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in a group",
+        "group work",
+        "group leader"
+      ],
+      "sentence": "Let's work in groups.",
+      "phonetic": "/ɡruːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_011",
+      "word": "also",
+      "meaning": "也",
+      "part_of_speech": "adv",
+      "phrase": [
+        "also like",
+        "also known as",
+        "not only...but also"
+      ],
+      "sentence": "I also like dancing.",
+      "phonetic": "/ˈɔːlsoʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_012",
+      "word": "about",
+      "meaning": "关于",
+      "part_of_speech": "prep",
+      "phrase": [
+        "how about",
+        "what about",
+        "talk about"
+      ],
+      "sentence": "What about you?",
+      "phonetic": "/əˈbaʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_013",
+      "word": "well",
+      "meaning": "好",
+      "part_of_speech": "adv",
+      "phrase": [
+        "very well",
+        "well done",
+        "as well"
+      ],
+      "sentence": "She can dance very well.",
+      "phonetic": "/wel/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_014",
+      "word": "look out",
+      "meaning": "当心",
+      "part_of_speech": "verb",
+      "phrase": [
+        "look out for",
+        "look out!",
+        "look out of"
+      ],
+      "sentence": "Look out! The car is coming!",
+      "phonetic": "/lʊk aʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_015",
+      "word": "hole",
+      "meaning": "洞",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the hole",
+        "dig a hole",
+        "black hole"
+      ],
+      "sentence": "The mouse is in the hole.",
+      "phonetic": "/hoʊl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_001",
+      "word": "teacher",
+      "meaning": "老师",
+      "part_of_speech": "noun",
+      "phrase": [
+        "English teacher",
+        "math teacher",
+        "teacher's day"
+      ],
+      "sentence": "My mother is a teacher.",
+      "phonetic": "/ˈtiːtʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_002",
+      "word": "doctor",
+      "meaning": "医生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "see a doctor",
+        "doctor's office",
+        "animal doctor"
+      ],
+      "sentence": "My father is a doctor.",
+      "phonetic": "/ˈdɒktər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_003",
+      "word": "cook",
+      "meaning": "厨师",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cook food",
+        "good cook",
+        "cook dinner"
+      ],
+      "sentence": "He is a cook in a restaurant.",
+      "phonetic": "/kʊk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_004",
+      "word": "driver",
+      "meaning": "司机",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bus driver",
+        "taxi driver",
+        "car driver"
+      ],
+      "sentence": "He is a bus driver.",
+      "phonetic": "/ˈdraɪvər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_005",
+      "word": "farmer",
+      "meaning": "农民",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fruit farmer",
+        "rice farmer"
+      ],
+      "sentence": "My grandfather is a farmer.",
+      "phonetic": "/ˈfɑːrmər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_006",
+      "word": "nurse",
+      "meaning": "护士",
+      "part_of_speech": "noun",
+      "phrase": [
+        "head nurse",
+        "nurse station",
+        "student nurse"
+      ],
+      "sentence": "She is a nurse in the hospital.",
+      "phonetic": "/nɜːrs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_007",
+      "word": "worker",
+      "meaning": "工人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "factory worker",
+        "hard worker",
+        "office worker"
+      ],
+      "sentence": "He is a factory worker.",
+      "phonetic": "/ˈwɜːrkər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_008",
+      "word": "policeman",
+      "meaning": "警察",
+      "part_of_speech": "noun",
+      "phrase": [
+        "policeman uniform",
+        "traffic policeman"
+      ],
+      "sentence": "My uncle is a policeman.",
+      "phonetic": "/pəˈliːsmən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_009",
+      "word": "writer",
+      "meaning": "作家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "famous writer",
+        "story writer",
+        "science writer"
+      ],
+      "sentence": "She is a writer.",
+      "phonetic": "/ˈraɪtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_010",
+      "word": "help",
+      "meaning": "帮助",
+      "part_of_speech": "verb",
+      "phrase": [
+        "help people",
+        "help out",
+        "with your help"
+      ],
+      "sentence": "Doctors help sick people.",
+      "phonetic": "/help/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_011",
+      "word": "sick",
+      "meaning": "生病的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel sick",
+        "sick leave",
+        "sick people"
+      ],
+      "sentence": "The doctor helps sick people.",
+      "phonetic": "/sɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_012",
+      "word": "factory",
+      "meaning": "工厂",
+      "part_of_speech": "noun",
+      "phrase": [
+        "factory worker",
+        "car factory",
+        "toy factory"
+      ],
+      "sentence": "He works in a car factory.",
+      "phonetic": "/ˈfæktəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_013",
+      "word": "write",
+      "meaning": "写",
+      "part_of_speech": "verb",
+      "phrase": [
+        "write a letter",
+        "write down",
+        "write a story"
+      ],
+      "sentence": "The writer writes stories.",
+      "phonetic": "/raɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_014",
+      "word": "job",
+      "meaning": "工作",
+      "part_of_speech": "noun",
+      "phrase": [
+        "job interview",
+        "get a job",
+        "do a good job"
+      ],
+      "sentence": "What's your job?",
+      "phonetic": "/dʒɒb/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_015",
+      "word": "people",
+      "meaning": "人们",
+      "part_of_speech": "n",
+      "phrase": [
+        "young people",
+        "old people",
+        "many people"
+      ],
+      "sentence": "Teachers teach people.",
+      "phonetic": "/ˈpiːpəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_001",
+      "word": "e-friend",
+      "meaning": "网友",
+      "part_of_speech": "noun",
+      "phrase": [
+        "e-friend from",
+        "my e-friend",
+        "talk to e-friend"
+      ],
+      "sentence": "I have an e-friend in the UK.",
+      "phonetic": "/iː frend/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_002",
+      "word": "country",
+      "meaning": "国家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my country",
+        "country side",
+        "other countries"
+      ],
+      "sentence": "He lives in a different country.",
+      "phonetic": "/ˈkʌntri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_003",
+      "word": "email",
+      "meaning": "电子邮件",
+      "part_of_speech": "noun",
+      "phrase": [
+        "send an email",
+        "email address",
+        "check email"
+      ],
+      "sentence": "I send emails to my e-friend.",
+      "phonetic": "/ˈiːmeɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_004",
+      "word": "live",
+      "meaning": "居住",
+      "part_of_speech": "verb",
+      "phrase": [
+        "live in",
+        "live with",
+        "live happily"
+      ],
+      "sentence": "He lives in the UK.",
+      "phonetic": "/lɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_005",
+      "word": "speak",
+      "meaning": "说",
+      "part_of_speech": "verb",
+      "phrase": [
+        "speak English",
+        "speak to",
+        "speak up"
+      ],
+      "sentence": "He speaks English.",
+      "phonetic": "/spiːk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_006",
+      "word": "Chinese",
+      "meaning": "中文",
+      "part_of_speech": "noun",
+      "phrase": [
+        "speak Chinese",
+        "Chinese food",
+        "Chinese people"
+      ],
+      "sentence": "I speak Chinese at home.",
+      "phonetic": "/ˌtʃaɪˈniːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_007",
+      "word": "age",
+      "meaning": "年龄",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at the age of",
+        "what age",
+        "old age"
+      ],
+      "sentence": "What's your age?",
+      "phonetic": "/eɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_008",
+      "word": "subject",
+      "meaning": "科目",
+      "part_of_speech": "noun",
+      "phrase": [
+        "favourite subject",
+        "main subject",
+        "subject teacher"
+      ],
+      "sentence": "My favourite subject is English.",
+      "phonetic": "/ˈsʌbdʒɪkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_009",
+      "word": "wait",
+      "meaning": "等候",
+      "part_of_speech": "verb",
+      "phrase": [
+        "wait for",
+        "wait a moment",
+        "can't wait"
+      ],
+      "sentence": "Please wait for me.",
+      "phonetic": "/weɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_010",
+      "word": "tomorrow",
+      "meaning": "明天",
+      "part_of_speech": "adv",
+      "phrase": [
+        "tomorrow morning",
+        "see you tomorrow",
+        "day after tomorrow"
+      ],
+      "sentence": "Let's go tomorrow.",
+      "phonetic": "/təˈmɒroʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_011",
+      "word": "turn",
+      "meaning": "转弯",
+      "part_of_speech": "verb",
+      "phrase": [
+        "turn left",
+        "turn right",
+        "take turns",
+        "your turn"
+      ],
+      "sentence": "It's your turn.",
+      "phonetic": "/tɜːrn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_012",
+      "word": "UK",
+      "meaning": "英国",
+      "part_of_speech": "noun",
+      "phrase": [
+        "from the UK",
+        "go to the UK"
+      ],
+      "sentence": "He is from the UK.",
+      "phonetic": "/juː keɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_013",
+      "word": "US",
+      "meaning": "美国",
+      "part_of_speech": "noun",
+      "phrase": [
+        "from the US",
+        "go to the US"
+      ],
+      "sentence": "She lives in the US.",
+      "phonetic": "/juː es/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_014",
+      "word": "favourite",
+      "meaning": "最喜欢的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "favourite food",
+        "my favourite",
+        "favourite colour"
+      ],
+      "sentence": "English is my favourite subject.",
+      "phonetic": "/ˈfeɪvərɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_015",
+      "word": "send",
+      "meaning": "发送",
+      "part_of_speech": "verb",
+      "phrase": [
+        "send email",
+        "send message",
+        "send a letter"
+      ],
+      "sentence": "I will send you an email.",
+      "phonetic": "/send/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_001",
+      "word": "weekend",
+      "meaning": "周末",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at weekends",
+        "this weekend",
+        "last weekend",
+        "on weekends"
+      ],
+      "sentence": "What do you do at weekends?",
+      "phonetic": "/ˌwiːkˈend/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_002",
+      "word": "visit",
+      "meaning": "拜访",
+      "part_of_speech": "verb",
+      "phrase": [
+        "visit friends",
+        "visit grandparents",
+        "pay a visit"
+      ],
+      "sentence": "I visit my grandparents at weekends.",
+      "phonetic": "/ˈvɪzɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_003",
+      "word": "grandparent",
+      "meaning": "(外)祖父/母",
+      "part_of_speech": "noun",
+      "phrase": [
+        "visit grandparents",
+        "grandparent's house"
+      ],
+      "sentence": "I love my grandparents.",
+      "phonetic": "/ˈɡrænpeərənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_004",
+      "word": "chat",
+      "meaning": "聊天",
+      "part_of_speech": "verb",
+      "phrase": [
+        "chat with",
+        "chat online",
+        "have a chat"
+      ],
+      "sentence": "I chat with my friends online.",
+      "phonetic": "/tʃæt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_005",
+      "word": "Internet",
+      "meaning": "互联网",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the Internet",
+        "Internet cafe",
+        "Internet access"
+      ],
+      "sentence": "I surf the Internet at weekends.",
+      "phonetic": "/ˈɪntərnet/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_006",
+      "word": "always",
+      "meaning": "总是",
+      "part_of_speech": "adv",
+      "phrase": [
+        "always ready",
+        "always happy",
+        "not always"
+      ],
+      "sentence": "I always have a good time.",
+      "phonetic": "/ˈɔːlweɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_007",
+      "word": "sometimes",
+      "meaning": "有时",
+      "part_of_speech": "adv",
+      "phrase": [
+        "sometimes go",
+        "sometimes play"
+      ],
+      "sentence": "I sometimes go to the park.",
+      "phonetic": "/ˈsʌmtaɪmz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_008",
+      "word": "often",
+      "meaning": "经常",
+      "part_of_speech": "adv",
+      "phrase": [
+        "how often",
+        "more often",
+        "quite often"
+      ],
+      "sentence": "I often visit my grandparents.",
+      "phonetic": "/ˈɒfn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_009",
+      "word": "never",
+      "meaning": "从不",
+      "part_of_speech": "adv",
+      "phrase": [
+        "never mind",
+        "never give up",
+        "never before"
+      ],
+      "sentence": "I never play computer games.",
+      "phonetic": "/ˈnevər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_010",
+      "word": "go swimming",
+      "meaning": "去游泳",
+      "part_of_speech": "verb",
+      "phrase": [
+        "go swimming in",
+        "go swimming pool"
+      ],
+      "sentence": "I sometimes go swimming.",
+      "phonetic": "/ɡoʊ ˈswɪmɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_011",
+      "word": "picnic",
+      "meaning": "野餐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have a picnic",
+        "go on a picnic",
+        "picnic basket"
+      ],
+      "sentence": "We have a picnic in the park.",
+      "phonetic": "/ˈpɪknɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_012",
+      "word": "fly",
+      "meaning": "放(风筝)",
+      "part_of_speech": "verb",
+      "phrase": [
+        "fly a kite",
+        "fly away",
+        "fly high"
+      ],
+      "sentence": "I fly kites in the park.",
+      "phonetic": "/flaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_013",
+      "word": "kite",
+      "meaning": "风筝",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fly a kite",
+        "kite festival",
+        "paper kite"
+      ],
+      "sentence": "I have a beautiful kite.",
+      "phonetic": "/kaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_014",
+      "word": "come out",
+      "meaning": "出来",
+      "part_of_speech": "verb",
+      "phrase": [
+        "come out of",
+        "when it comes out",
+        "come out to play"
+      ],
+      "sentence": "The flowers come out in spring.",
+      "phonetic": "/kʌm aʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_015",
+      "word": "get up",
+      "meaning": "起床",
+      "part_of_speech": "verb",
+      "phrase": [
+        "get up early",
+        "get up late",
+        "time to get up"
+      ],
+      "sentence": "I get up at seven on weekends.",
+      "phonetic": "/ɡet ʌp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_001",
+      "word": "Christmas",
+      "meaning": "圣诞节",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Christmas tree",
+        "Merry Christmas",
+        "Christmas card",
+        "Christmas Eve"
+      ],
+      "sentence": "Christmas is on December 25th.",
+      "phonetic": "/ˈkrɪsməs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_002",
+      "word": "present",
+      "meaning": "礼物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "birthday present",
+        "Christmas present",
+        "at present"
+      ],
+      "sentence": "I get many presents at Christmas.",
+      "phonetic": "/ˈprezənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_003",
+      "word": "card",
+      "meaning": "卡片",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Christmas card",
+        "birthday card",
+        "play cards"
+      ],
+      "sentence": "I make a Christmas card for my mum.",
+      "phonetic": "/kɑːrd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_004",
+      "word": "tree",
+      "meaning": "树",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Christmas tree",
+        "in the tree",
+        "tree house"
+      ],
+      "sentence": "We put a star on the Christmas tree.",
+      "phonetic": "/triː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_005",
+      "word": "stocking",
+      "meaning": "长筒袜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Christmas stocking",
+        "stocking filler"
+      ],
+      "sentence": "I put a stocking on my bed.",
+      "phonetic": "/ˈstɒkɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_006",
+      "word": "turkey",
+      "meaning": "火鸡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "roast turkey",
+        "turkey sandwich"
+      ],
+      "sentence": "We eat turkey at Christmas.",
+      "phonetic": "/ˈtɜːrki/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_007",
+      "word": "pudding",
+      "meaning": "布丁",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Christmas pudding",
+        "rice pudding",
+        "chocolate pudding"
+      ],
+      "sentence": "We have pudding for dessert.",
+      "phonetic": "/ˈpʊdɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_008",
+      "word": "Santa Claus",
+      "meaning": "圣诞老人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Santa Claus is coming",
+        "from Santa Claus"
+      ],
+      "sentence": "Santa Claus brings presents.",
+      "phonetic": "/ˈsæntə klɔːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_009",
+      "word": "wish",
+      "meaning": "愿望",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a wish",
+        "best wishes",
+        "wish you"
+      ],
+      "sentence": "I make a wish on my birthday.",
+      "phonetic": "/wɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_010",
+      "word": "merry",
+      "meaning": "愉快的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "Merry Christmas",
+        "merry go round"
+      ],
+      "sentence": "Merry Christmas!",
+      "phonetic": "/ˈmeri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_011",
+      "word": "buy",
+      "meaning": "买",
+      "part_of_speech": "verb",
+      "phrase": [
+        "buy presents",
+        "buy food",
+        "go and buy"
+      ],
+      "sentence": "We buy a Christmas tree.",
+      "phonetic": "/baɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_012",
+      "word": "decorate",
+      "meaning": "装饰",
+      "part_of_speech": "verb",
+      "phrase": [
+        "decorate the tree",
+        "decorate the room",
+        "Christmas decoration"
+      ],
+      "sentence": "We decorate the Christmas tree.",
+      "phonetic": "/ˈdekəreɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_013",
+      "word": "put on",
+      "meaning": "穿上",
+      "part_of_speech": "verb",
+      "phrase": [
+        "put on clothes",
+        "put on a show",
+        "put on weight"
+      ],
+      "sentence": "I put on my new coat.",
+      "phonetic": "/pʊt ɒn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_014",
+      "word": "next",
+      "meaning": "下一个",
+      "part_of_speech": "adj",
+      "phrase": [
+        "next time",
+        "next week",
+        "next to"
+      ],
+      "sentence": "See you next time!",
+      "phonetic": "/nekst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_015",
+      "word": "thing",
+      "meaning": "东西",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the thing is",
+        "first thing",
+        "new thing"
+      ],
+      "sentence": "I have many things to do.",
+      "phonetic": "/θɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

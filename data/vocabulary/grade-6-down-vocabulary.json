@@ -1,0 +1,1919 @@
+{
+  "unit": "grade-6-down",
+  "unit_title": "六年级下册",
+  "theme": "译林版六年级下册英语词汇",
+  "vocabulary": [
+    {
+      "word_id": "g6dn_1_001",
+      "word": "lion",
+      "meaning": "狮子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "lion dance",
+        "lion king",
+        "brave as a lion"
+      ],
+      "sentence": "The lion is the king of animals.",
+      "phonetic": "/ˈlaɪən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_002",
+      "word": "mouse",
+      "meaning": "老鼠",
+      "part_of_speech": "noun",
+      "phrase": [
+        "mouse trap",
+        "as quiet as a mouse",
+        "computer mouse"
+      ],
+      "sentence": "A mouse woke up the lion.",
+      "phonetic": "/maʊs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_003",
+      "word": "large",
+      "meaning": "大的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "large number",
+        "large size",
+        "by and large"
+      ],
+      "sentence": "The lion is very large.",
+      "phonetic": "/lɑːrdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_004",
+      "word": "sharp",
+      "meaning": "锋利的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "sharp teeth",
+        "sharp eyes",
+        "sharp mind"
+      ],
+      "sentence": "The lion has sharp teeth.",
+      "phonetic": "/ʃɑːrp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_005",
+      "word": "net",
+      "meaning": "网",
+      "part_of_speech": "noun",
+      "phrase": [
+        "catch in a net",
+        "safety net",
+        "fish net"
+      ],
+      "sentence": "The lion was caught in a net.",
+      "phonetic": "/net/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_006",
+      "word": "bite",
+      "meaning": "咬",
+      "part_of_speech": "verb",
+      "phrase": [
+        "bite the net",
+        "bite into",
+        "mosquito bite"
+      ],
+      "sentence": "The mouse bit the net with its teeth.",
+      "phonetic": "/baɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_007",
+      "word": "sadly",
+      "meaning": "伤心地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "say sadly",
+        "smile sadly",
+        "look sadly"
+      ],
+      "sentence": "The lion cried sadly.",
+      "phonetic": "/ˈsædli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_008",
+      "word": "just then",
+      "meaning": "就在那时",
+      "part_of_speech": "adv",
+      "phrase": [
+        "just then the mouse",
+        "just then I heard"
+      ],
+      "sentence": "Just then, the mouse came.",
+      "phonetic": "/dʒʌst ðen/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_009",
+      "word": "soon",
+      "meaning": "很快",
+      "part_of_speech": "adv",
+      "phrase": [
+        "very soon",
+        "as soon as",
+        "sooner or later"
+      ],
+      "sentence": "Soon the lion was free.",
+      "phonetic": "/suːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_010",
+      "word": "happily",
+      "meaning": "开心地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "live happily",
+        "smile happily",
+        "happily ever after"
+      ],
+      "sentence": "The lion walked away happily.",
+      "phonetic": "/ˈhæpɪli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_011",
+      "word": "wake...up",
+      "meaning": "叫醒",
+      "part_of_speech": "verb",
+      "phrase": [
+        "wake up",
+        "wake me up",
+        "wake someone up"
+      ],
+      "sentence": "The mouse woke the lion up.",
+      "phonetic": "/weɪk...ʌp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_012",
+      "word": "let...go",
+      "meaning": "放开",
+      "part_of_speech": "verb",
+      "phrase": [
+        "let go of",
+        "let it go",
+        "let me go"
+      ],
+      "sentence": "The lion let the mouse go.",
+      "phonetic": "/let...ɡoʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_013",
+      "word": "from then on",
+      "meaning": "从那时起",
+      "part_of_speech": "adv",
+      "phrase": [
+        "from then on they became friends"
+      ],
+      "sentence": "From then on, they became friends.",
+      "phonetic": "/frɒm ðen ɒn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_014",
+      "word": "deep",
+      "meaning": "深的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "deep water",
+        "deep sleep",
+        "deep breath"
+      ],
+      "sentence": "The river is very deep.",
+      "phonetic": "/diːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_015",
+      "word": "reach",
+      "meaning": "够到；到达",
+      "part_of_speech": "verb",
+      "phrase": [
+        "reach out",
+        "reach for",
+        "reach the top"
+      ],
+      "sentence": "The mouse can't reach the net.",
+      "phonetic": "/riːtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_001",
+      "word": "habit",
+      "meaning": "习惯",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good habit",
+        "bad habit",
+        "eating habit"
+      ],
+      "sentence": "Good habits are important.",
+      "phonetic": "/ˈhæbɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_002",
+      "word": "tidy",
+      "meaning": "整洁的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "tidy up",
+        "keep tidy",
+        "very tidy"
+      ],
+      "sentence": "His room is always tidy.",
+      "phonetic": "/ˈtaɪdi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_003",
+      "word": "messy",
+      "meaning": "凌乱的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "messy room",
+        "messy desk",
+        "very messy"
+      ],
+      "sentence": "Her room is always messy.",
+      "phonetic": "/ˈmesi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_004",
+      "word": "early",
+      "meaning": "早的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "get up early",
+        "early morning",
+        "early bird"
+      ],
+      "sentence": "He gets up early every day.",
+      "phonetic": "/ˈɜːrli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_005",
+      "word": "late",
+      "meaning": "迟的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be late for",
+        "late at night",
+        "too late"
+      ],
+      "sentence": "She is never late for school.",
+      "phonetic": "/leɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_006",
+      "word": "never",
+      "meaning": "从不",
+      "part_of_speech": "adv",
+      "phrase": [
+        "never late",
+        "never give up",
+        "never forget"
+      ],
+      "sentence": "He is never late for school.",
+      "phonetic": "/ˈnevər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_007",
+      "word": "before",
+      "meaning": "在…以前",
+      "part_of_speech": "prep",
+      "phrase": [
+        "before class",
+        "before dinner",
+        "the day before"
+      ],
+      "sentence": "I do homework before dinner.",
+      "phonetic": "/bɪˈfɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_008",
+      "word": "finish",
+      "meaning": "完成",
+      "part_of_speech": "verb",
+      "phrase": [
+        "finish homework",
+        "finish eating",
+        "finish doing"
+      ],
+      "sentence": "I finish my homework first.",
+      "phonetic": "/ˈfɪnɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_009",
+      "word": "sleepy",
+      "meaning": "困的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel sleepy",
+        "sleepy head",
+        "very sleepy"
+      ],
+      "sentence": "He feels sleepy in class.",
+      "phonetic": "/ˈsliːpi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_010",
+      "word": "listen to",
+      "meaning": "听",
+      "part_of_speech": "verb",
+      "phrase": [
+        "listen to music",
+        "listen to the teacher",
+        "listen carefully"
+      ],
+      "sentence": "You should listen to the teacher.",
+      "phonetic": "/ˈlɪsn tuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_011",
+      "word": "walk",
+      "meaning": "走；走路",
+      "part_of_speech": "verb",
+      "phrase": [
+        "walk slowly",
+        "walk fast",
+        "walk to school",
+        "go for a walk"
+      ],
+      "sentence": "He walks to school every day.",
+      "phonetic": "/wɔːk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_012",
+      "word": "slowly",
+      "meaning": "慢地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "walk slowly",
+        "speak slowly",
+        "slowly but surely"
+      ],
+      "sentence": "Please walk slowly.",
+      "phonetic": "/ˈsloʊli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_013",
+      "word": "quickly",
+      "meaning": "快地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "run quickly",
+        "walk quickly",
+        "finish quickly"
+      ],
+      "sentence": "He runs quickly.",
+      "phonetic": "/ˈkwɪkli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_014",
+      "word": "badly",
+      "meaning": "糟糕地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "do badly",
+        "behave badly",
+        "badly hurt"
+      ],
+      "sentence": "He did badly in the test.",
+      "phonetic": "/ˈbædli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_015",
+      "word": "well",
+      "meaning": "好地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "do well",
+        "behave well",
+        "very well"
+      ],
+      "sentence": "She does well in English.",
+      "phonetic": "/wel/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_001",
+      "word": "diet",
+      "meaning": "饮食",
+      "part_of_speech": "noun",
+      "phrase": [
+        "healthy diet",
+        "go on a diet",
+        "balanced diet"
+      ],
+      "sentence": "A healthy diet is important.",
+      "phonetic": "/ˈdaɪət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_002",
+      "word": "healthy",
+      "meaning": "健康的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "healthy food",
+        "healthy diet",
+        "stay healthy"
+      ],
+      "sentence": "Fruit is healthy food.",
+      "phonetic": "/ˈhelθi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_003",
+      "word": "sweet",
+      "meaning": "甜的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "sweet food",
+        "sweet tooth",
+        "very sweet"
+      ],
+      "sentence": "Don't eat too many sweet things.",
+      "phonetic": "/swiːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_004",
+      "word": "a little",
+      "meaning": "一点",
+      "part_of_speech": "det",
+      "phrase": [
+        "a little water",
+        "a little tired",
+        "a little bit"
+      ],
+      "sentence": "She eats a little rice.",
+      "phonetic": "/ə ˈlɪtl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_005",
+      "word": "a few",
+      "meaning": "几个",
+      "part_of_speech": "det",
+      "phrase": [
+        "a few friends",
+        "a few days",
+        "quite a few"
+      ],
+      "sentence": "I have a few friends.",
+      "phonetic": "/ə fjuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_006",
+      "word": "at a time",
+      "meaning": "一次",
+      "part_of_speech": "noun",
+      "phrase": [
+        "one at a time",
+        "at a time",
+        "every time"
+      ],
+      "sentence": "You can eat a few sweets at a time.",
+      "phonetic": "/æt ə taɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_007",
+      "word": "cola",
+      "meaning": "可乐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a can of cola",
+        "drink cola",
+        "cola and chips"
+      ],
+      "sentence": "I don't drink too much cola.",
+      "phonetic": "/ˈkoʊlə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_008",
+      "word": "need",
+      "meaning": "需要",
+      "part_of_speech": "verb",
+      "phrase": [
+        "need to do",
+        "I need",
+        "what you need"
+      ],
+      "sentence": "You need a healthy diet.",
+      "phonetic": "/niːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_009",
+      "word": "should",
+      "meaning": "应该",
+      "part_of_speech": "modal",
+      "phrase": [
+        "you should",
+        "should not",
+        "should be"
+      ],
+      "sentence": "You should eat more vegetables.",
+      "phonetic": "/ʃʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_010",
+      "word": "vegetable",
+      "meaning": "蔬菜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "eat vegetables",
+        "green vegetables",
+        "fresh vegetables"
+      ],
+      "sentence": "Eat more vegetables.",
+      "phonetic": "/ˈvedʒtəbəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_011",
+      "word": "fruit",
+      "meaning": "水果",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fresh fruit",
+        "fruit juice",
+        "fruit salad"
+      ],
+      "sentence": "Eat more fruit.",
+      "phonetic": "/fruːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_012",
+      "word": "rice",
+      "meaning": "米饭",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fried rice",
+        "rice noodles",
+        "a bowl of rice"
+      ],
+      "sentence": "I eat a little rice for lunch.",
+      "phonetic": "/raɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_013",
+      "word": "bread",
+      "meaning": "面包",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a piece of bread",
+        "bread and butter",
+        "toast bread"
+      ],
+      "sentence": "I eat some bread for breakfast.",
+      "phonetic": "/bred/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_014",
+      "word": "milk",
+      "meaning": "牛奶",
+      "part_of_speech": "noun",
+      "phrase": [
+        "drink milk",
+        "a glass of milk",
+        "fresh milk"
+      ],
+      "sentence": "I drink a glass of milk every day.",
+      "phonetic": "/mɪlk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_015",
+      "word": "chicken",
+      "meaning": "鸡肉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fried chicken",
+        "chicken soup",
+        "chicken wings"
+      ],
+      "sentence": "I eat a little chicken for dinner.",
+      "phonetic": "/ˈtʃɪkɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_001",
+      "word": "road",
+      "meaning": "马路",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cross the road",
+        "on the road",
+        "road safety"
+      ],
+      "sentence": "Cross the road safely.",
+      "phonetic": "/roʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_002",
+      "word": "safety",
+      "meaning": "安全",
+      "part_of_speech": "noun",
+      "phrase": [
+        "road safety",
+        "safety first",
+        "food safety"
+      ],
+      "sentence": "Road safety is very important.",
+      "phonetic": "/ˈseɪfti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_003",
+      "word": "cross",
+      "meaning": "穿过",
+      "part_of_speech": "verb",
+      "phrase": [
+        "cross the road",
+        "cross the street",
+        "cross out"
+      ],
+      "sentence": "Look before you cross the road.",
+      "phonetic": "/krɒs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_004",
+      "word": "safely",
+      "meaning": "安全地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "cross safely",
+        "drive safely",
+        "arrive safely"
+      ],
+      "sentence": "You must cross the road safely.",
+      "phonetic": "/ˈseɪfli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_005",
+      "word": "must",
+      "meaning": "必须",
+      "part_of_speech": "modal",
+      "phrase": [
+        "you must",
+        "must do",
+        "must not"
+      ],
+      "sentence": "You must wait for the green light.",
+      "phonetic": "/mʌst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_006",
+      "word": "stop",
+      "meaning": "停",
+      "part_of_speech": "verb",
+      "phrase": [
+        "stop and wait",
+        "bus stop",
+        "stop doing"
+      ],
+      "sentence": "You must stop at a red light.",
+      "phonetic": "/stɒp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_007",
+      "word": "wait",
+      "meaning": "等待",
+      "part_of_speech": "verb",
+      "phrase": [
+        "wait for",
+        "wait and see",
+        "wait a minute"
+      ],
+      "sentence": "Wait for the green light.",
+      "phonetic": "/weɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_008",
+      "word": "pavement",
+      "meaning": "人行道",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the pavement",
+        "walk on the pavement"
+      ],
+      "sentence": "Walk on the pavement.",
+      "phonetic": "/ˈpeɪvmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_009",
+      "word": "zebra crossing",
+      "meaning": "斑马线",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at the zebra crossing",
+        "near the zebra crossing"
+      ],
+      "sentence": "Cross at the zebra crossing.",
+      "phonetic": "/ˈzebrə ˈkrɒsɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_010",
+      "word": "look out for",
+      "meaning": "当心",
+      "part_of_speech": "verb",
+      "phrase": [
+        "look out for cars",
+        "look out for bikes"
+      ],
+      "sentence": "Look out for cars and bikes.",
+      "phonetic": "/lʊk aʊt fɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_011",
+      "word": "easily",
+      "meaning": "容易地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "very easily",
+        "easily done",
+        "easily hurt"
+      ],
+      "sentence": "You can get hurt easily.",
+      "phonetic": "/ˈiːzɪli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_012",
+      "word": "follow",
+      "meaning": "遵守",
+      "part_of_speech": "verb",
+      "phrase": [
+        "follow the rules",
+        "follow me",
+        "follow the signs"
+      ],
+      "sentence": "You must follow the traffic rules.",
+      "phonetic": "/ˈfɒloʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_013",
+      "word": "rule",
+      "meaning": "规则",
+      "part_of_speech": "noun",
+      "phrase": [
+        "follow the rules",
+        "class rules",
+        "school rules"
+      ],
+      "sentence": "You must follow the rules.",
+      "phonetic": "/ruːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_014",
+      "word": "light",
+      "meaning": "灯",
+      "part_of_speech": "noun",
+      "phrase": [
+        "traffic light",
+        "red light",
+        "green light"
+      ],
+      "sentence": "Wait for the green light.",
+      "phonetic": "/laɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_015",
+      "word": "stay",
+      "meaning": "保持",
+      "part_of_speech": "verb",
+      "phrase": [
+        "stay safe",
+        "stay healthy",
+        "stay here"
+      ],
+      "sentence": "Stay on the pavement.",
+      "phonetic": "/steɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_001",
+      "word": "party",
+      "meaning": "聚会",
+      "part_of_speech": "noun",
+      "phrase": [
+        "birthday party",
+        "have a party",
+        "party time"
+      ],
+      "sentence": "We are going to have a party.",
+      "phonetic": "/ˈpɑːrti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_002",
+      "word": "begin",
+      "meaning": "开始",
+      "part_of_speech": "verb",
+      "phrase": [
+        "begin with",
+        "to begin with",
+        "begin to"
+      ],
+      "sentence": "The party begins at 3 p.m.",
+      "phonetic": "/bɪˈɡɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_003",
+      "word": "end",
+      "meaning": "结束",
+      "part_of_speech": "verb",
+      "phrase": [
+        "at the end",
+        "in the end",
+        "end of"
+      ],
+      "sentence": "The party ends at 5 p.m.",
+      "phonetic": "/end/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_004",
+      "word": "balloon",
+      "meaning": "气球",
+      "part_of_speech": "noun",
+      "phrase": [
+        "blow up balloons",
+        "red balloon",
+        "balloon animal"
+      ],
+      "sentence": "We blow up balloons for the party.",
+      "phonetic": "/bəˈluːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_005",
+      "word": "snack",
+      "meaning": "零食",
+      "part_of_speech": "noun",
+      "phrase": [
+        "snack bar",
+        "snack time",
+        "healthy snack"
+      ],
+      "sentence": "We have snacks at the party.",
+      "phonetic": "/snæk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_006",
+      "word": "drinks",
+      "meaning": "饮料",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cold drinks",
+        "hot drinks",
+        "soft drinks"
+      ],
+      "sentence": "We have some drinks at the party.",
+      "phonetic": "/drɪŋks/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_007",
+      "word": "fruit",
+      "meaning": "水果",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fruit salad",
+        "fresh fruit",
+        "fruit juice"
+      ],
+      "sentence": "We have fruit at the party.",
+      "phonetic": "/fruːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_008",
+      "word": "bring",
+      "meaning": "带来",
+      "part_of_speech": "verb",
+      "phrase": [
+        "bring to",
+        "bring back",
+        "bring about"
+      ],
+      "sentence": "What are you going to bring to the party?",
+      "phonetic": "/brɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_009",
+      "word": "arrive",
+      "meaning": "到达",
+      "part_of_speech": "verb",
+      "phrase": [
+        "arrive at",
+        "arrive in",
+        "arrive home"
+      ],
+      "sentence": "We arrive at the party on time.",
+      "phonetic": "/əˈraɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_010",
+      "word": "invite",
+      "meaning": "邀请",
+      "part_of_speech": "verb",
+      "phrase": [
+        "invite to",
+        "invite friends",
+        "invited to"
+      ],
+      "sentence": "I will invite my friends.",
+      "phonetic": "/ɪnˈvaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_011",
+      "word": "candy",
+      "meaning": "糖果",
+      "part_of_speech": "noun",
+      "phrase": [
+        "candy shop",
+        "cotton candy",
+        "candy bar"
+      ],
+      "sentence": "We have candy at the party.",
+      "phonetic": "/ˈkændi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_012",
+      "word": "clown",
+      "meaning": "小丑",
+      "part_of_speech": "noun",
+      "phrase": [
+        "clown suit",
+        "sad clown",
+        "funny clown"
+      ],
+      "sentence": "A clown comes to the party.",
+      "phonetic": "/klaʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_013",
+      "word": "game",
+      "meaning": "游戏",
+      "part_of_speech": "noun",
+      "phrase": [
+        "play games",
+        "game over",
+        "party game"
+      ],
+      "sentence": "We play party games.",
+      "phonetic": "/ɡeɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_014",
+      "word": "fun",
+      "meaning": "乐趣",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have fun",
+        "fun time",
+        "fun to do"
+      ],
+      "sentence": "We have a lot of fun at the party.",
+      "phonetic": "/fʌn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_015",
+      "word": "enjoy",
+      "meaning": "享受",
+      "part_of_speech": "verb",
+      "phrase": [
+        "enjoy yourself",
+        "enjoy doing",
+        "enjoy the party"
+      ],
+      "sentence": "We enjoy the party.",
+      "phonetic": "/ɪnˈdʒɔɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_001",
+      "word": "country",
+      "meaning": "国家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "an interesting country",
+        "other countries",
+        "developing country"
+      ],
+      "sentence": "Australia is an interesting country.",
+      "phonetic": "/ˈkʌntri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_002",
+      "word": "interesting",
+      "meaning": "有趣的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "very interesting",
+        "interesting book",
+        "interesting story"
+      ],
+      "sentence": "Australia is very interesting.",
+      "phonetic": "/ˈɪntrəstɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_003",
+      "word": "Australia",
+      "meaning": "澳大利亚",
+      "part_of_speech": "noun",
+      "phrase": [
+        "from Australia",
+        "go to Australia",
+        "Australian flag"
+      ],
+      "sentence": "I want to go to Australia.",
+      "phonetic": "/ɒˈstreɪliə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_004",
+      "word": "kangaroo",
+      "meaning": "袋鼠",
+      "part_of_speech": "noun",
+      "phrase": [
+        "baby kangaroo",
+        "kangaroo jump",
+        "red kangaroo"
+      ],
+      "sentence": "Kangaroos live in Australia.",
+      "phonetic": "/ˌkæŋɡəˈruː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_005",
+      "word": "koala",
+      "meaning": "考拉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "koala bear",
+        "baby koala",
+        "cute koala"
+      ],
+      "sentence": "Koalas are very cute.",
+      "phonetic": "/koʊˈɑːlə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_006",
+      "word": "sport",
+      "meaning": "运动",
+      "part_of_speech": "noun",
+      "phrase": [
+        "favourite sport",
+        "play sport",
+        "sport day"
+      ],
+      "sentence": "Australians love sport.",
+      "phonetic": "/spɔːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_007",
+      "word": "visitor",
+      "meaning": "游客",
+      "part_of_speech": "noun",
+      "phrase": [
+        "foreign visitor",
+        "visitor centre",
+        "welcome visitors"
+      ],
+      "sentence": "Many visitors come to Australia.",
+      "phonetic": "/ˈvɪzɪtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_008",
+      "word": "find out",
+      "meaning": "发现",
+      "part_of_speech": "verb",
+      "phrase": [
+        "find out about",
+        "find out the truth",
+        "want to find out"
+      ],
+      "sentence": "I want to find out about Australia.",
+      "phonetic": "/faɪnd aʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_009",
+      "word": "learn about",
+      "meaning": "了解",
+      "part_of_speech": "verb",
+      "phrase": [
+        "learn about history",
+        "learn about animals",
+        "want to learn about"
+      ],
+      "sentence": "I want to learn about this country.",
+      "phonetic": "/lɜːrn əˈbaʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_010",
+      "word": "will",
+      "meaning": "将",
+      "part_of_speech": "modal",
+      "phrase": [
+        "I will",
+        "will do",
+        "will be"
+      ],
+      "sentence": "I will go to Australia.",
+      "phonetic": "/wɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_011",
+      "word": "welcome",
+      "meaning": "欢迎",
+      "part_of_speech": "noun",
+      "phrase": [
+        "welcome to",
+        "you're welcome",
+        "welcome back"
+      ],
+      "sentence": "Welcome to Australia!",
+      "phonetic": "/ˈwelkəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_012",
+      "word": "London",
+      "meaning": "伦敦",
+      "part_of_speech": "noun",
+      "phrase": [
+        "from London",
+        "go to London",
+        "London Bridge"
+      ],
+      "sentence": "London is a big city in the UK.",
+      "phonetic": "/ˈlʌndən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_013",
+      "word": "Oxford",
+      "meaning": "牛津",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Oxford University",
+        "Oxford Street"
+      ],
+      "sentence": "Oxford is famous for its university.",
+      "phonetic": "/ˈɒksfərd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_14",
+      "word": "Big Ben",
+      "meaning": "大本钟",
+      "part_of_speech": "noun",
+      "phrase": [
+        "visit Big Ben",
+        "near Big Ben",
+        "Big Ben clock"
+      ],
+      "sentence": "Big Ben is in London.",
+      "phonetic": "/bɪɡ ben/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_015",
+      "word": "exciting",
+      "meaning": "令人兴奋的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "very exciting",
+        "exciting news",
+        "exciting trip"
+      ],
+      "sentence": "The trip is very exciting.",
+      "phonetic": "/ɪkˈsaɪtɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_001",
+      "word": "plan",
+      "meaning": "计划",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a plan",
+        "plan to do",
+        "summer plan"
+      ],
+      "sentence": "What's your plan for the summer?",
+      "phonetic": "/plæn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_002",
+      "word": "summer holiday",
+      "meaning": "暑假",
+      "part_of_speech": "noun",
+      "phrase": [
+        "during the summer holiday",
+        "summer holiday plans"
+      ],
+      "sentence": "The summer holiday is coming.",
+      "phonetic": "/ˈsʌmər ˈhɒlədeɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_003",
+      "word": "stay",
+      "meaning": "待",
+      "part_of_speech": "verb",
+      "phrase": [
+        "stay in",
+        "stay at",
+        "stay with"
+      ],
+      "sentence": "I will stay in Beijing.",
+      "phonetic": "/steɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_004",
+      "word": "visit",
+      "meaning": "参观",
+      "part_of_speech": "verb",
+      "phrase": [
+        "visit the museum",
+        "visit friends",
+        "visit the zoo"
+      ],
+      "sentence": "I will visit the museum.",
+      "phonetic": "/ˈvɪzɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_005",
+      "word": "go back",
+      "meaning": "回去",
+      "part_of_speech": "verb",
+      "phrase": [
+        "go back to",
+        "go back home",
+        "go back to school"
+      ],
+      "sentence": "I will go back to my hometown.",
+      "phonetic": "/ɡoʊ bæk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_006",
+      "word": "hometown",
+      "meaning": "家乡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go back to my hometown",
+        "beautiful hometown",
+        "my hometown"
+      ],
+      "sentence": "I will go back to my hometown.",
+      "phonetic": "/ˈhoʊmtaʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_007",
+      "word": "sound",
+      "meaning": "听起来",
+      "part_of_speech": "verb",
+      "phrase": [
+        "sounds great",
+        "sounds good",
+        "sounds like"
+      ],
+      "sentence": "That sounds great!",
+      "phonetic": "/saʊnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_008",
+      "word": "summer camp",
+      "meaning": "夏令营",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go to summer camp",
+        "English summer camp",
+        "summer camp fun"
+      ],
+      "sentence": "I will go to summer camp.",
+      "phonetic": "/ˈsʌmər kæmp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_009",
+      "word": "how long",
+      "meaning": "多久",
+      "part_of_speech": "noun",
+      "phrase": [
+        "how long will you stay",
+        "how long does it take"
+      ],
+      "sentence": "How long will you stay there?",
+      "phonetic": "/haʊ lɒŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_010",
+      "word": "excited",
+      "meaning": "兴奋的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "very excited",
+        "excited about",
+        "excited to go"
+      ],
+      "sentence": "I'm very excited about the holiday.",
+      "phonetic": "/ɪkˈsaɪtɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_011",
+      "word": "traveller",
+      "meaning": "旅行者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a young traveller",
+        "world traveller",
+        "frequent traveller"
+      ],
+      "sentence": "He is a great traveller.",
+      "phonetic": "/ˈtrævələr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_012",
+      "word": "full of",
+      "meaning": "充满",
+      "part_of_speech": "noun",
+      "phrase": [
+        "full of fun",
+        "full of energy",
+        "full of hope"
+      ],
+      "sentence": "The city is full of fun.",
+      "phonetic": "/fʊl ɒv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_013",
+      "word": "Ocean",
+      "meaning": "大洋",
+      "part_of_speech": "noun",
+      "phrase": [
+        "across the ocean",
+        "ocean blue",
+        "Pacific Ocean"
+      ],
+      "sentence": "They will travel across the ocean.",
+      "phonetic": "/ˈoʊʃən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_014",
+      "word": "different",
+      "meaning": "不同的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "different from",
+        "be different",
+        "different countries"
+      ],
+      "sentence": "Different people have different plans.",
+      "phonetic": "/ˈdɪfərənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_015",
+      "word": "dream",
+      "meaning": "梦想",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dream of",
+        "dream come true",
+        "have a dream"
+      ],
+      "sentence": "My dream is to travel around the world.",
+      "phonetic": "/driːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_001",
+      "word": "dream",
+      "meaning": "梦想",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dream of",
+        "dream come true",
+        "have a dream",
+        "big dream"
+      ],
+      "sentence": "What's your dream?",
+      "phonetic": "/driːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_002",
+      "word": "future",
+      "meaning": "未来",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the future",
+        "future plan",
+        "bright future"
+      ],
+      "sentence": "What do you want to be in the future?",
+      "phonetic": "/ˈfjuːtʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_003",
+      "word": "astronaut",
+      "meaning": "宇航员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "become an astronaut",
+        "astronaut suit",
+        "space astronaut"
+      ],
+      "sentence": "I want to be an astronaut.",
+      "phonetic": "/ˈæstrənɔːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_004",
+      "word": "dancer",
+      "meaning": "舞蹈家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "become a dancer",
+        "ballet dancer",
+        "professional dancer"
+      ],
+      "sentence": "She wants to be a dancer.",
+      "phonetic": "/ˈdænsər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_005",
+      "word": "scientist",
+      "meaning": "科学家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "become a scientist",
+        "famous scientist",
+        "young scientist"
+      ],
+      "sentence": "He wants to be a scientist.",
+      "phonetic": "/ˈsaɪəntɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_006",
+      "word": "pianist",
+      "meaning": "钢琴家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "become a pianist",
+        "famous pianist",
+        "young pianist"
+      ],
+      "sentence": "She wants to be a pianist.",
+      "phonetic": "/ˈpiːənɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_007",
+      "word": "artist",
+      "meaning": "画家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "become an artist",
+        "famous artist",
+        "young artist"
+      ],
+      "sentence": "He wants to be an artist.",
+      "phonetic": "/ˈɑːrtɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_008",
+      "word": "football player",
+      "meaning": "足球运动员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "become a football player",
+        "professional football player"
+      ],
+      "sentence": "He wants to be a football player.",
+      "phonetic": "/ˈfʊtbɔːl ˈpleɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_009",
+      "word": "care about",
+      "meaning": "关心",
+      "part_of_speech": "verb",
+      "phrase": [
+        "care about others",
+        "care about the environment",
+        "really care about"
+      ],
+      "sentence": "Dancers care about their health.",
+      "phonetic": "/keər əˈbaʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_010",
+      "word": "health",
+      "meaning": "健康",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good health",
+        "health care",
+        "health food"
+      ],
+      "sentence": "Health is important for everyone.",
+      "phonetic": "/helθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_011",
+      "word": "brave",
+      "meaning": "勇敢的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "brave enough",
+        "brave person",
+        "brave act"
+      ],
+      "sentence": "Astronauts are very brave.",
+      "phonetic": "/breɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_012",
+      "word": "paint",
+      "meaning": "画画",
+      "part_of_speech": "verb",
+      "phrase": [
+        "paint pictures",
+        "paint the wall",
+        "paint a picture"
+      ],
+      "sentence": "Artists paint beautiful pictures.",
+      "phonetic": "/peɪnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_013",
+      "word": "study",
+      "meaning": "学习",
+      "part_of_speech": "verb",
+      "phrase": [
+        "study hard",
+        "study English",
+        "study for a test"
+      ],
+      "sentence": "I want to study hard.",
+      "phonetic": "/ˈstʌdi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_014",
+      "word": "come true",
+      "meaning": "实现",
+      "part_of_speech": "verb",
+      "phrase": [
+        "dream comes true",
+        "wish comes true",
+        "make it come true"
+      ],
+      "sentence": "I hope your dream comes true.",
+      "phonetic": "/kʌm truː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_015",
+      "word": "believe",
+      "meaning": "相信",
+      "part_of_speech": "verb",
+      "phrase": [
+        "believe in",
+        "believe yourself",
+        "I believe"
+      ],
+      "sentence": "I believe I can do it.",
+      "phonetic": "/bɪˈliːv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}
