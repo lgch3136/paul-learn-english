@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import Link from 'next/link'
 import { sounds } from '@/lib/sounds'
 import { createConfetti, addConfettiStyle, vibrate } from '@/lib/animations'
@@ -93,6 +93,27 @@ export default function VocabularyPractice() {
   const [showStreakCombo, setShowStreakCombo] = useState(false)
   const [answerFeedback, setAnswerFeedback] = useState<{ isCorrect: boolean; message?: string; detail?: string } | null>(null)
   const containerRef = useRef<HTMLDivElement>(null)
+
+  // 稳定的成就弹窗关闭回调（避免 onClosure 引用变化导致 useEffect 重置）
+  const handleAchievementClose = useCallback(() => {
+    // 保存成就到 localStorage（弹窗关闭后才保存，避免期间新答案重复触发）
+    const pending = pendingAchievementRef.current
+    if (pending) {
+      pendingAchievementRef.current = null
+      try {
+        const saved = localStorage.getItem('paul_english_achievements')
+        let currentUnlockedIds: string[] = saved ? JSON.parse(saved) : []
+        if (!currentUnlockedIds.includes(pending.id)) {
+          currentUnlockedIds.push(pending.id)
+          localStorage.setItem('paul_english_achievements', JSON.stringify(currentUnlockedIds))
+          setUnlockedAchievementIds(currentUnlockedIds)
+        }
+      } catch (e) {
+        console.error('保存成就失败:', e)
+      }
+    }
+    setUnlockedAchievement(null)
+  }, [])
 
   // 初始化
   useEffect(() => {
@@ -225,6 +246,9 @@ export default function VocabularyPractice() {
     }
   }
 
+  // 待展示的成就（用于延迟弹窗显示，避免在弹窗前就保存 localStorage）
+  const pendingAchievementRef = useRef<Achievement | null>(null)
+
   // 检查成就 - 只弹出新解锁的成就
   const checkForAchievements = (sessionStats: PlayerStats, currentPoints: number, latestPerformances: Map<string, WordPerformance>) => {
     const cumulativeStats = getCumulativeStats(sessionStats, latestPerformances)
@@ -243,30 +267,20 @@ export default function VocabularyPractice() {
 
     if (newlyUnlocked.length > 0) {
       const latestAchievement = newlyUnlocked[newlyUnlocked.length - 1]
+
       // 延迟显示成就弹窗，等 AnswerFeedback 先播放完毕
       setTimeout(() => {
+        console.log('[成就] 显示弹窗:', latestAchievement.id)
         setUnlockedAchievement(latestAchievement)
       }, 1500)
 
-      // 保存新解锁的成就到 localStorage
-      const newIds = newlyUnlocked.map(a => a.id)
-      const updatedIds = currentUnlockedIds.concat(newIds.filter(id => !currentUnlockedIds.includes(id)))
-      setUnlockedAchievementIds(updatedIds)
-      try {
-        localStorage.setItem('paul_english_achievements', JSON.stringify(updatedIds))
-      } catch (e) {
-        console.error('保存成就失败:', e)
-      }
-
-      // 更新积分
+      // 更新积分（立即）
       const rewardPoints = newlyUnlocked.reduce((sum, a) => sum + a.reward, 0)
       const newPoints = currentPoints + rewardPoints
       setPoints(newPoints)
-      try {
-        localStorage.setItem('paul_english_points', newPoints.toString())
-      } catch (e) {
-        console.error('保存积分失败:', e)
-      }
+
+      // 标记待展示的成就（在弹窗关闭后再保存到 localStorage，避免期间新答案重复触发）
+      pendingAchievementRef.current = latestAchievement
     }
   }
 
@@ -677,7 +691,7 @@ export default function VocabularyPractice() {
       {unlockedAchievement && (
         <AchievementPopup
           achievement={unlockedAchievement}
-          onClose={() => setUnlockedAchievement(null)}
+          onClose={handleAchievementClose}
         />
       )}
 

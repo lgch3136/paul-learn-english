@@ -13,28 +13,43 @@ export default function AchievementPopup({ achievement, onClose }: AchievementPo
   const [isVisible, setIsVisible] = useState(false)
   const [showParticles, setShowParticles] = useState(false)
   const canvasRef = useRef<HTMLCanvasElement>(null)
+  const hasInitRef = useRef(false)
+
+  // 使用 ref 存储 onClose，避免 effect 重跑
+  const onCloseRef = useRef(onClose)
+  useEffect(() => { onCloseRef.current = onClose }, [onClose])
 
   useEffect(() => {
+    // 防止 StrictMode 双重执行
+    if (hasInitRef.current) return
+    hasInitRef.current = true
+
+    console.log('[AchievementPopup] 成就弹窗已挂载:', achievement.id, achievement.title)
+
     // 播放成就音效
-    sounds.levelUp()
-    
+    try { sounds.levelUp() } catch (e) { console.warn('音效播放失败:', e) }
+
     // 显示动画
-    setTimeout(() => setIsVisible(true), 100)
-    
+    const showTimer = setTimeout(() => setIsVisible(true), 100)
+
     // 粒子效果
-    setTimeout(() => {
+    const particleTimer = setTimeout(() => {
       setShowParticles(true)
       createParticleEffect()
     }, 500)
 
-    // 自动关闭
-    const timer = setTimeout(() => {
+    // 自动关闭（使用 ref 获取最新回调）
+    const autoCloseTimer = setTimeout(() => {
       setIsVisible(false)
-      setTimeout(onClose, 500)
+      setTimeout(() => onCloseRef.current(), 500)
     }, 5000)
 
-    return () => clearTimeout(timer)
-  }, [onClose])
+    return () => {
+      clearTimeout(showTimer)
+      clearTimeout(particleTimer)
+      clearTimeout(autoCloseTimer)
+    }
+  }, [achievement.id]) // 只依赖 achievement.id
 
   const createParticleEffect = () => {
     const canvas = canvasRef.current
@@ -59,7 +74,6 @@ export default function AchievementPopup({ achievement, onClose }: AchievementPo
 
     const colors = ['#FFD700', '#FFA500', '#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4']
 
-    // 创建粒子
     for (let i = 0; i < 50; i++) {
       particles.push({
         x: canvas.width / 2,
@@ -75,14 +89,12 @@ export default function AchievementPopup({ achievement, onClose }: AchievementPo
 
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height)
-
       particles.forEach(particle => {
         particle.x += particle.vx
         particle.y += particle.vy
-        particle.vy += 0.1 // 重力
+        particle.vy += 0.1
         particle.life -= 0.02
         particle.alpha = particle.life
-
         if (particle.life > 0) {
           ctx.save()
           ctx.globalAlpha = particle.alpha
@@ -93,13 +105,15 @@ export default function AchievementPopup({ achievement, onClose }: AchievementPo
           ctx.restore()
         }
       })
-
-      if (particles.some(p => p.life > 0)) {
-        requestAnimationFrame(animate)
-      }
+      if (particles.some(p => p.life > 0)) requestAnimationFrame(animate)
     }
-
     animate()
+  }
+
+  const handleClose = () => {
+    try { sounds.click() } catch (e) {}
+    setIsVisible(false)
+    setTimeout(() => onCloseRef.current(), 500)
   }
 
   return (
@@ -118,7 +132,7 @@ export default function AchievementPopup({ achievement, onClose }: AchievementPo
         isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
       }`}>
         {/* 背景遮罩 */}
-        <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={onClose} />
+        <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={handleClose} />
 
         {/* 成就卡片 */}
         <div className={`relative bg-white rounded-3xl shadow-2xl max-w-sm w-full mx-4 overflow-hidden transform transition-all duration-700 ${
@@ -138,13 +152,12 @@ export default function AchievementPopup({ achievement, onClose }: AchievementPo
               </div>
             </div>
 
-            {/* 成就图标 - 带动画 */}
+            {/* 成就图标 */}
             <div className="flex justify-center mb-6">
               <div className="relative">
                 <div className="w-24 h-24 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-2xl flex items-center justify-center shadow-xl transform rotate-12 hover:rotate-0 transition-transform duration-500">
                   <span className="text-5xl">{achievement.icon}</span>
                 </div>
-                {/* 光环效果 */}
                 <div className="absolute inset-0 rounded-2xl animate-ping opacity-20 bg-yellow-400" />
               </div>
             </div>
@@ -168,11 +181,7 @@ export default function AchievementPopup({ achievement, onClose }: AchievementPo
 
             {/* 确认按钮 */}
             <button
-              onClick={() => {
-                sounds.click()
-                setIsVisible(false)
-                setTimeout(onClose, 500)
-              }}
+              onClick={handleClose}
               className="w-full bg-gradient-to-r from-yellow-400 to-orange-500 text-white font-bold py-4 px-6 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl active:scale-95 shadow-lg"
             >
               太棒了！继续努力 🚀
