@@ -1,0 +1,244 @@
+{
+  "unit": "g6dn-unit4",
+  "unit_title": "Road safety",
+  "theme": "交通安全",
+  "vocabulary": [
+    {
+      "word_id": "g6dn_4_001",
+      "word": "road",
+      "meaning": "马路",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cross the road",
+        "on the road",
+        "road safety"
+      ],
+      "sentence": "Cross the road safely.",
+      "phonetic": "/roʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_002",
+      "word": "safety",
+      "meaning": "安全",
+      "part_of_speech": "noun",
+      "phrase": [
+        "road safety",
+        "safety first",
+        "food safety"
+      ],
+      "sentence": "Road safety is very important.",
+      "phonetic": "/ˈseɪfti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_003",
+      "word": "cross",
+      "meaning": "穿过",
+      "part_of_speech": "verb",
+      "phrase": [
+        "cross the road",
+        "cross the street",
+        "cross out"
+      ],
+      "sentence": "Look before you cross the road.",
+      "phonetic": "/krɒs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_004",
+      "word": "safely",
+      "meaning": "安全地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "cross safely",
+        "drive safely",
+        "arrive safely"
+      ],
+      "sentence": "You must cross the road safely.",
+      "phonetic": "/ˈseɪfli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_005",
+      "word": "must",
+      "meaning": "必须",
+      "part_of_speech": "modal",
+      "phrase": [
+        "you must",
+        "must do",
+        "must not"
+      ],
+      "sentence": "You must wait for the green light.",
+      "phonetic": "/mʌst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_006",
+      "word": "stop",
+      "meaning": "停",
+      "part_of_speech": "verb",
+      "phrase": [
+        "stop and wait",
+        "bus stop",
+        "stop doing"
+      ],
+      "sentence": "You must stop at a red light.",
+      "phonetic": "/stɒp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_007",
+      "word": "wait",
+      "meaning": "等待",
+      "part_of_speech": "verb",
+      "phrase": [
+        "wait for",
+        "wait and see",
+        "wait a minute"
+      ],
+      "sentence": "Wait for the green light.",
+      "phonetic": "/weɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_008",
+      "word": "pavement",
+      "meaning": "人行道",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the pavement",
+        "walk on the pavement"
+      ],
+      "sentence": "Walk on the pavement.",
+      "phonetic": "/ˈpeɪvmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_009",
+      "word": "zebra crossing",
+      "meaning": "斑马线",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at the zebra crossing",
+        "near the zebra crossing"
+      ],
+      "sentence": "Cross at the zebra crossing.",
+      "phonetic": "/ˈzebrə ˈkrɒsɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_010",
+      "word": "look out for",
+      "meaning": "当心",
+      "part_of_speech": "verb",
+      "phrase": [
+        "look out for cars",
+        "look out for bikes"
+      ],
+      "sentence": "Look out for cars and bikes.",
+      "phonetic": "/lʊk aʊt fɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_011",
+      "word": "easily",
+      "meaning": "容易地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "very easily",
+        "easily done",
+        "easily hurt"
+      ],
+      "sentence": "You can get hurt easily.",
+      "phonetic": "/ˈiːzɪli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_012",
+      "word": "follow",
+      "meaning": "遵守",
+      "part_of_speech": "verb",
+      "phrase": [
+        "follow the rules",
+        "follow me",
+        "follow the signs"
+      ],
+      "sentence": "You must follow the traffic rules.",
+      "phonetic": "/ˈfɒloʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_013",
+      "word": "rule",
+      "meaning": "规则",
+      "part_of_speech": "noun",
+      "phrase": [
+        "follow the rules",
+        "class rules",
+        "school rules"
+      ],
+      "sentence": "You must follow the rules.",
+      "phonetic": "/ruːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_014",
+      "word": "light",
+      "meaning": "灯",
+      "part_of_speech": "noun",
+      "phrase": [
+        "traffic light",
+        "red light",
+        "green light"
+      ],
+      "sentence": "Wait for the green light.",
+      "phonetic": "/laɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_4_015",
+      "word": "stay",
+      "meaning": "保持",
+      "part_of_speech": "verb",
+      "phrase": [
+        "stay safe",
+        "stay healthy",
+        "stay here"
+      ],
+      "sentence": "Stay on the pavement.",
+      "phonetic": "/steɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

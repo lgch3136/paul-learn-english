@@ -1,0 +1,258 @@
+{
+  "unit": "g3up-unit1",
+  "unit_title": "Hello!",
+  "theme": "打招呼",
+  "vocabulary": [
+    {
+      "word_id": "g3up_001_hello",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "hello",
+      "meaning": "你好",
+      "part_of_speech": "interjection",
+      "phrase": [
+        "say hello"
+      ],
+      "sentence": "Hello, I'm Liu Tao.",
+      "phonetic": "/həˈləʊ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_002_hi",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "hi",
+      "meaning": "嗨",
+      "part_of_speech": "interjection",
+      "phrase": [],
+      "sentence": "Hi! Nice to meet you.",
+      "phonetic": "/haɪ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_003_good",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "good",
+      "meaning": "好的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "good night"
+      ],
+      "sentence": "Good morning, class!",
+      "phonetic": "/ɡʊd/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_004_morning",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "morning",
+      "meaning": "早上",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good morning",
+        "in the morning"
+      ],
+      "sentence": "Good morning, Miss Li.",
+      "phonetic": "/ˈmɔːnɪŋ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_005_afternoon",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "afternoon",
+      "meaning": "下午",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good afternoon",
+        "in the afternoon"
+      ],
+      "sentence": "Good afternoon, everyone.",
+      "phonetic": "/ˌɑːftəˈnuːn/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_006_evening",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "evening",
+      "meaning": "晚上",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good evening",
+        "in the evening"
+      ],
+      "sentence": "Good evening, Dad.",
+      "phonetic": "/ˈiːvnɪŋ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_007_miss",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "Miss",
+      "meaning": "女士",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Miss Li"
+      ],
+      "sentence": "Good morning, Miss Wang.",
+      "phonetic": "/mɪs/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "大小写"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_008_class",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "class",
+      "meaning": "同学们；班级",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my class",
+        "in class"
+      ],
+      "sentence": "Good morning, class!",
+      "phonetic": "/klɑːs/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_009_I",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "I",
+      "meaning": "我",
+      "part_of_speech": "pronoun",
+      "phrase": [
+        "I am"
+      ],
+      "sentence": "I am Su Hai.",
+      "phonetic": "/aɪ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "大小写"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

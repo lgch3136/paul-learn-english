@@ -1,0 +1,248 @@
+{
+  "unit": "g3dn-unit3",
+  "unit_title": "Is this your pencil?",
+  "theme": "学习用品",
+  "vocabulary": [
+    {
+      "word_id": "g3dn_019_ten",
+      "word": "ten",
+      "meaning": "十",
+      "part_of_speech": "number",
+      "phrase": [
+        "ten boys"
+      ],
+      "sentence": "I have ten fingers.",
+      "phonetic": "/ten/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_020_eleven",
+      "word": "eleven",
+      "meaning": "十一",
+      "part_of_speech": "number",
+      "phrase": [
+        "eleven books"
+      ],
+      "sentence": "There are eleven students.",
+      "phonetic": "/ɪˈlevn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十一",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_021_twelve",
+      "word": "twelve",
+      "meaning": "十二",
+      "part_of_speech": "number",
+      "phrase": [
+        "twelve eggs"
+      ],
+      "sentence": "I have twelve crayons.",
+      "phonetic": "/twelv/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十二",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_022_cake",
+      "word": "cake",
+      "meaning": "蛋糕",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a cake",
+        "birthday cake"
+      ],
+      "sentence": "I like cake.",
+      "phonetic": "/keɪk/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "蛋糕",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_023_pie",
+      "word": "pie",
+      "meaning": "派，馅饼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "an apple pie"
+      ],
+      "sentence": "This pie is yummy.",
+      "phonetic": "/paɪ/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "派，馅饼",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_024_ice_cream",
+      "word": "ice cream",
+      "meaning": "冰淇淋",
+      "part_of_speech": "noun",
+      "phrase": [
+        "some ice cream"
+      ],
+      "sentence": "I want ice cream.",
+      "phonetic": "/aɪs kriːm/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "冰淇淋",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_025_sweet",
+      "word": "sweet",
+      "meaning": "糖果",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a sweet"
+      ],
+      "sentence": "I have a sweet.",
+      "phonetic": "/swiːt/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "糖果",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_026_hot_dog",
+      "word": "hot dog",
+      "meaning": "热狗",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a hot dog"
+      ],
+      "sentence": "I want a hot dog.",
+      "phonetic": "/hɒt dɒɡ/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "热狗",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_027_egg",
+      "word": "egg",
+      "meaning": "鸡蛋",
+      "part_of_speech": "noun",
+      "phrase": [
+        "an egg"
+      ],
+      "sentence": "I have an egg for breakfast.",
+      "phonetic": "/eɡ/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "鸡蛋",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

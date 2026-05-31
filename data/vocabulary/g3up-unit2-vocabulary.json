@@ -1,0 +1,251 @@
+{
+  "unit": "g3up-unit2",
+  "unit_title": "I'm Liu Tao",
+  "theme": "介绍自己",
+  "vocabulary": [
+    {
+      "word_id": "g3up_010_am",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 1",
+      "section": "Story Time",
+      "word": "am",
+      "meaning": "是",
+      "part_of_speech": "verb",
+      "phrase": [
+        "I am"
+      ],
+      "sentence": "I am a student.",
+      "phonetic": "/æm/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "动词形式错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_011_are",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "are",
+      "meaning": "是",
+      "part_of_speech": "verb",
+      "phrase": [
+        "you are",
+        "we are"
+      ],
+      "sentence": "You are my friend.",
+      "phonetic": "/ɑː/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "动词形式错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_012_yes",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "yes",
+      "meaning": "是的",
+      "part_of_speech": "adverb",
+      "phrase": [
+        "yes, I am",
+        "yes, please"
+      ],
+      "sentence": "Yes, I am Liu Tao.",
+      "phonetic": "/jes/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_013_no",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "no",
+      "meaning": "不",
+      "part_of_speech": "adverb",
+      "phrase": [
+        "no, I'm not",
+        "no, thank you"
+      ],
+      "sentence": "No, I'm not Liu Tao.",
+      "phonetic": "/nəʊ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_014_not",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "not",
+      "meaning": "不",
+      "part_of_speech": "adverb",
+      "phrase": [
+        "I'm not",
+        "is not",
+        "are not"
+      ],
+      "sentence": "I'm not Mike.",
+      "phonetic": "/nɒt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_015_boy",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "boy",
+      "meaning": "男孩",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a boy"
+      ],
+      "sentence": "I'm a boy.",
+      "phonetic": "/bɔɪ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_016_girl",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "girl",
+      "meaning": "女孩",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a girl"
+      ],
+      "sentence": "She's a girl.",
+      "phonetic": "/ɡɜːl/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_017_friend",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "friend",
+      "meaning": "朋友",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my friend",
+        "good friend"
+      ],
+      "sentence": "You are my friend.",
+      "phonetic": "/frend/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_018_and",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "and",
+      "meaning": "和",
+      "part_of_speech": "conjunction",
+      "phrase": [],
+      "sentence": "Tom and I are friends.",
+      "phonetic": "/ænd/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

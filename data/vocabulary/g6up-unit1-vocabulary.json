@@ -1,0 +1,245 @@
+{
+  "unit": "g6up-unit1",
+  "unit_title": "The king's new clothes",
+  "theme": "童话",
+  "vocabulary": [
+    {
+      "word_id": "g6up_1_001",
+      "word": "king",
+      "meaning": "国王",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the king",
+        "king size",
+        "king of"
+      ],
+      "sentence": "The king walked through the city.",
+      "phonetic": "/kɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_002",
+      "word": "new clothes",
+      "meaning": "新衣服",
+      "part_of_speech": "noun",
+      "phrase": [
+        "try on new clothes",
+        "wear new clothes"
+      ],
+      "sentence": "The king likes new clothes.",
+      "phonetic": "/njuː kləʊðz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_003",
+      "word": "foolish",
+      "meaning": "愚蠢的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "foolish idea",
+        "foolish person",
+        "foolish mistake"
+      ],
+      "sentence": "The king was foolish.",
+      "phonetic": "/ˈfuːlɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_004",
+      "word": "clever",
+      "meaning": "聪明的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "clever idea",
+        "clever boy",
+        "how clever"
+      ],
+      "sentence": "The boy is very clever.",
+      "phonetic": "/ˈklevər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_005",
+      "word": "laugh",
+      "meaning": "笑",
+      "part_of_speech": "verb",
+      "phrase": [
+        "laugh at",
+        "laugh loudly",
+        "laugh out loud"
+      ],
+      "sentence": "People laughed at the king.",
+      "phonetic": "/læf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_006",
+      "word": "through",
+      "meaning": "穿过",
+      "part_of_speech": "prep",
+      "phrase": [
+        "walk through",
+        "look through",
+        "go through"
+      ],
+      "sentence": "The king walked through the city.",
+      "phonetic": "/θruː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_007",
+      "word": "point at",
+      "meaning": "指着",
+      "part_of_speech": "verb",
+      "phrase": [
+        "point at someone",
+        "point at the board",
+        "don't point"
+      ],
+      "sentence": "The boy pointed at the king.",
+      "phonetic": "/pɔɪnt æt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_008",
+      "word": "shout",
+      "meaning": "喊叫",
+      "part_of_speech": "verb",
+      "phrase": [
+        "shout at",
+        "shout out",
+        "shout loudly"
+      ],
+      "sentence": "The people shouted.",
+      "phonetic": "/ʃaʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_009",
+      "word": "wear",
+      "meaning": "穿",
+      "part_of_speech": "verb",
+      "phrase": [
+        "wear clothes",
+        "wear a hat",
+        "wear glasses"
+      ],
+      "sentence": "The king wore nothing.",
+      "phonetic": "/weər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_010",
+      "word": "each",
+      "meaning": "每个",
+      "part_of_speech": "det",
+      "phrase": [
+        "each other",
+        "each day",
+        "each student"
+      ],
+      "sentence": "Each student has a book.",
+      "phonetic": "/iːtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_011",
+      "word": "beautiful",
+      "meaning": "美丽的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "beautiful girl",
+        "beautiful day",
+        "beautiful view"
+      ],
+      "sentence": "The dress is beautiful.",
+      "phonetic": "/ˈbjuːtɪfəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_012",
+      "word": "turn into",
+      "meaning": "变成",
+      "part_of_speech": "verb",
+      "phrase": [
+        "turn into a prince",
+        "turn into gold"
+      ],
+      "sentence": "The frog turned into a prince.",
+      "phonetic": "/tɜːrn ˈɪntə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_013",
+      "word": "prince",
+      "meaning": "王子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Prince Charming",
+        "the prince",
+        "handsome prince"
+      ],
+      "sentence": "The prince lived in a castle.",
+      "phonetic": "/prɪns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_014",
+      "word": "princess",
+      "meaning": "公主",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the princess",
+        "princess dress",
+        "beautiful princess"
+      ],
+      "sentence": "The princess is very kind.",
+      "phonetic": "/prɪnˈses/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_1_015",
+      "word": "castle",
+      "meaning": "城堡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "castle in the air",
+        "sand castle",
+        "live in a castle"
+      ],
+      "sentence": "The king lives in a castle.",
+      "phonetic": "/ˈkɑːsəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

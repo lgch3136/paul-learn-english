@@ -1,0 +1,249 @@
+{
+  "unit": "g4up-unit5",
+  "unit_title": "Our new home",
+  "theme": "家与房间",
+  "vocabulary": [
+    {
+      "word_id": "g4up_037_play_table_tennis",
+      "word": "play table tennis",
+      "meaning": "打乒乓球",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "play table tennis"
+      ],
+      "sentence": "I can play table tennis.",
+      "phonetic": "/pleɪ ˈteɪbl tenɪs/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "打乒乓球",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_038_fly",
+      "word": "fly",
+      "meaning": "飞",
+      "part_of_speech": "verb",
+      "phrase": [
+        "fly a kite"
+      ],
+      "sentence": "I can fly a kite.",
+      "phonetic": "/flaɪ/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "飞",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_039_living_room",
+      "word": "living room",
+      "meaning": "客厅",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the living room"
+      ],
+      "sentence": "We watch TV in the living room.",
+      "phonetic": "/ˈlɪvɪŋ ruːm/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "客厅",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_040_bedroom",
+      "word": "bedroom",
+      "meaning": "卧室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my bedroom"
+      ],
+      "sentence": "I sleep in my bedroom.",
+      "phonetic": "/ˈbedruːm/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "卧室",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_041_kitchen",
+      "word": "kitchen",
+      "meaning": "厨房",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the kitchen"
+      ],
+      "sentence": "Mum is in the kitchen.",
+      "phonetic": "/ˈkɪtʃɪn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "厨房",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_042_bathroom",
+      "word": "bathroom",
+      "meaning": "卫生间",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the bathroom"
+      ],
+      "sentence": "The bathroom is clean.",
+      "phonetic": "/ˈbɑːθruːm/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "卫生间",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_043_dining_room",
+      "word": "dining room",
+      "meaning": "餐厅",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the dining room"
+      ],
+      "sentence": "We eat in the dining room.",
+      "phonetic": "/ˈdaɪnɪŋ ruːm/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "餐厅",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_044_study",
+      "word": "study",
+      "meaning": "书房",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the study"
+      ],
+      "sentence": "Dad is in the study.",
+      "phonetic": "/ˈstʌdi/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "书房",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_045_garden",
+      "word": "garden",
+      "meaning": "花园",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the garden"
+      ],
+      "sentence": "There are flowers in the garden.",
+      "phonetic": "/ˈɡɑːdn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "花园",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

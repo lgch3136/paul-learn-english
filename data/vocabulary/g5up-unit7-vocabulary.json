@@ -1,0 +1,245 @@
+{
+  "unit": "g5up-unit7",
+  "unit_title": "At weekends",
+  "theme": "周末活动",
+  "vocabulary": [
+    {
+      "word_id": "g5up_7_001",
+      "word": "weekend",
+      "meaning": "周末",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at weekends",
+        "this weekend",
+        "last weekend",
+        "on weekends"
+      ],
+      "sentence": "What do you do at weekends?",
+      "phonetic": "/ˌwiːkˈend/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_002",
+      "word": "visit",
+      "meaning": "拜访",
+      "part_of_speech": "verb",
+      "phrase": [
+        "visit friends",
+        "visit grandparents",
+        "pay a visit"
+      ],
+      "sentence": "I visit my grandparents at weekends.",
+      "phonetic": "/ˈvɪzɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_003",
+      "word": "grandparent",
+      "meaning": "(外)祖父/母",
+      "part_of_speech": "noun",
+      "phrase": [
+        "visit grandparents",
+        "grandparent's house"
+      ],
+      "sentence": "I love my grandparents.",
+      "phonetic": "/ˈɡrænpeərənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_004",
+      "word": "chat",
+      "meaning": "聊天",
+      "part_of_speech": "verb",
+      "phrase": [
+        "chat with",
+        "chat online",
+        "have a chat"
+      ],
+      "sentence": "I chat with my friends online.",
+      "phonetic": "/tʃæt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_005",
+      "word": "Internet",
+      "meaning": "互联网",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the Internet",
+        "Internet cafe",
+        "Internet access"
+      ],
+      "sentence": "I surf the Internet at weekends.",
+      "phonetic": "/ˈɪntərnet/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_006",
+      "word": "always",
+      "meaning": "总是",
+      "part_of_speech": "adv",
+      "phrase": [
+        "always ready",
+        "always happy",
+        "not always"
+      ],
+      "sentence": "I always have a good time.",
+      "phonetic": "/ˈɔːlweɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_007",
+      "word": "sometimes",
+      "meaning": "有时",
+      "part_of_speech": "adv",
+      "phrase": [
+        "sometimes go",
+        "sometimes play"
+      ],
+      "sentence": "I sometimes go to the park.",
+      "phonetic": "/ˈsʌmtaɪmz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_008",
+      "word": "often",
+      "meaning": "经常",
+      "part_of_speech": "adv",
+      "phrase": [
+        "how often",
+        "more often",
+        "quite often"
+      ],
+      "sentence": "I often visit my grandparents.",
+      "phonetic": "/ˈɒfn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_009",
+      "word": "never",
+      "meaning": "从不",
+      "part_of_speech": "adv",
+      "phrase": [
+        "never mind",
+        "never give up",
+        "never before"
+      ],
+      "sentence": "I never play computer games.",
+      "phonetic": "/ˈnevər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_010",
+      "word": "go swimming",
+      "meaning": "去游泳",
+      "part_of_speech": "verb",
+      "phrase": [
+        "go swimming in",
+        "go swimming pool"
+      ],
+      "sentence": "I sometimes go swimming.",
+      "phonetic": "/ɡoʊ ˈswɪmɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_011",
+      "word": "picnic",
+      "meaning": "野餐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have a picnic",
+        "go on a picnic",
+        "picnic basket"
+      ],
+      "sentence": "We have a picnic in the park.",
+      "phonetic": "/ˈpɪknɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_012",
+      "word": "fly",
+      "meaning": "放(风筝)",
+      "part_of_speech": "verb",
+      "phrase": [
+        "fly a kite",
+        "fly away",
+        "fly high"
+      ],
+      "sentence": "I fly kites in the park.",
+      "phonetic": "/flaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_013",
+      "word": "kite",
+      "meaning": "风筝",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fly a kite",
+        "kite festival",
+        "paper kite"
+      ],
+      "sentence": "I have a beautiful kite.",
+      "phonetic": "/kaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_014",
+      "word": "come out",
+      "meaning": "出来",
+      "part_of_speech": "verb",
+      "phrase": [
+        "come out of",
+        "when it comes out",
+        "come out to play"
+      ],
+      "sentence": "The flowers come out in spring.",
+      "phonetic": "/kʌm aʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_7_015",
+      "word": "get up",
+      "meaning": "起床",
+      "part_of_speech": "verb",
+      "phrase": [
+        "get up early",
+        "get up late",
+        "time to get up"
+      ],
+      "sentence": "I get up at seven on weekends.",
+      "phonetic": "/ɡet ʌp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

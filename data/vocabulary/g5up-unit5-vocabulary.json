@@ -1,0 +1,245 @@
+{
+  "unit": "g5up-unit5",
+  "unit_title": "What do they do?",
+  "theme": "职业",
+  "vocabulary": [
+    {
+      "word_id": "g5up_5_001",
+      "word": "teacher",
+      "meaning": "老师",
+      "part_of_speech": "noun",
+      "phrase": [
+        "English teacher",
+        "math teacher",
+        "teacher's day"
+      ],
+      "sentence": "My mother is a teacher.",
+      "phonetic": "/ˈtiːtʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_002",
+      "word": "doctor",
+      "meaning": "医生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "see a doctor",
+        "doctor's office",
+        "animal doctor"
+      ],
+      "sentence": "My father is a doctor.",
+      "phonetic": "/ˈdɒktər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_003",
+      "word": "cook",
+      "meaning": "厨师",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cook food",
+        "good cook",
+        "cook dinner"
+      ],
+      "sentence": "He is a cook in a restaurant.",
+      "phonetic": "/kʊk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_004",
+      "word": "driver",
+      "meaning": "司机",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bus driver",
+        "taxi driver",
+        "car driver"
+      ],
+      "sentence": "He is a bus driver.",
+      "phonetic": "/ˈdraɪvər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_005",
+      "word": "farmer",
+      "meaning": "农民",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fruit farmer",
+        "rice farmer"
+      ],
+      "sentence": "My grandfather is a farmer.",
+      "phonetic": "/ˈfɑːrmər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_006",
+      "word": "nurse",
+      "meaning": "护士",
+      "part_of_speech": "noun",
+      "phrase": [
+        "head nurse",
+        "nurse station",
+        "student nurse"
+      ],
+      "sentence": "She is a nurse in the hospital.",
+      "phonetic": "/nɜːrs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_007",
+      "word": "worker",
+      "meaning": "工人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "factory worker",
+        "hard worker",
+        "office worker"
+      ],
+      "sentence": "He is a factory worker.",
+      "phonetic": "/ˈwɜːrkər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_008",
+      "word": "policeman",
+      "meaning": "警察",
+      "part_of_speech": "noun",
+      "phrase": [
+        "policeman uniform",
+        "traffic policeman"
+      ],
+      "sentence": "My uncle is a policeman.",
+      "phonetic": "/pəˈliːsmən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_009",
+      "word": "writer",
+      "meaning": "作家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "famous writer",
+        "story writer",
+        "science writer"
+      ],
+      "sentence": "She is a writer.",
+      "phonetic": "/ˈraɪtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_010",
+      "word": "help",
+      "meaning": "帮助",
+      "part_of_speech": "verb",
+      "phrase": [
+        "help people",
+        "help out",
+        "with your help"
+      ],
+      "sentence": "Doctors help sick people.",
+      "phonetic": "/help/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_011",
+      "word": "sick",
+      "meaning": "生病的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel sick",
+        "sick leave",
+        "sick people"
+      ],
+      "sentence": "The doctor helps sick people.",
+      "phonetic": "/sɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_012",
+      "word": "factory",
+      "meaning": "工厂",
+      "part_of_speech": "noun",
+      "phrase": [
+        "factory worker",
+        "car factory",
+        "toy factory"
+      ],
+      "sentence": "He works in a car factory.",
+      "phonetic": "/ˈfæktəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_013",
+      "word": "write",
+      "meaning": "写",
+      "part_of_speech": "verb",
+      "phrase": [
+        "write a letter",
+        "write down",
+        "write a story"
+      ],
+      "sentence": "The writer writes stories.",
+      "phonetic": "/raɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_014",
+      "word": "job",
+      "meaning": "工作",
+      "part_of_speech": "noun",
+      "phrase": [
+        "job interview",
+        "get a job",
+        "do a good job"
+      ],
+      "sentence": "What's your job?",
+      "phonetic": "/dʒɒb/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_5_015",
+      "word": "people",
+      "meaning": "人们",
+      "part_of_speech": "n",
+      "phrase": [
+        "young people",
+        "old people",
+        "many people"
+      ],
+      "sentence": "Teachers teach people.",
+      "phonetic": "/ˈpiːpəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

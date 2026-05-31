@@ -1,0 +1,253 @@
+{
+  "unit": "g3up-unit3",
+  "unit_title": "My friends",
+  "theme": "描述朋友",
+  "vocabulary": [
+    {
+      "word_id": "g3up_019_too",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 2",
+      "section": "Story Time",
+      "word": "too",
+      "meaning": "也",
+      "part_of_speech": "adverb",
+      "phrase": [
+        "me too"
+      ],
+      "sentence": "I'm nine too.",
+      "phonetic": "/tuː/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_020_red",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "red",
+      "meaning": "红色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a red apple"
+      ],
+      "sentence": "This is red.",
+      "phonetic": "/red/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_021_blue",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "blue",
+      "meaning": "蓝色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a blue sky"
+      ],
+      "sentence": "I like blue.",
+      "phonetic": "/bluː/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_022_green",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "green",
+      "meaning": "绿色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a green tree"
+      ],
+      "sentence": "The tree is green.",
+      "phonetic": "/ɡriːn/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_023_yellow",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "yellow",
+      "meaning": "黄色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a yellow banana"
+      ],
+      "sentence": "The banana is yellow.",
+      "phonetic": "/ˈjeləʊ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_024_black",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "black",
+      "meaning": "黑色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a black cat"
+      ],
+      "sentence": "I have a black pen.",
+      "phonetic": "/blæk/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_025_white",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "white",
+      "meaning": "白色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a white rabbit"
+      ],
+      "sentence": "The rabbit is white.",
+      "phonetic": "/waɪt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_026_brown",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "brown",
+      "meaning": "棕色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a brown dog"
+      ],
+      "sentence": "The dog is brown.",
+      "phonetic": "/braʊn/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_027_orange",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "orange",
+      "meaning": "橙色的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "an orange"
+      ],
+      "sentence": "I like orange.",
+      "phonetic": "/ˈɒrɪndʒ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

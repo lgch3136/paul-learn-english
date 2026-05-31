@@ -1,0 +1,245 @@
+{
+  "unit": "g6dn-unit7",
+  "unit_title": "Summer holiday plans",
+  "theme": "暑假计划",
+  "vocabulary": [
+    {
+      "word_id": "g6dn_7_001",
+      "word": "plan",
+      "meaning": "计划",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a plan",
+        "plan to do",
+        "summer plan"
+      ],
+      "sentence": "What's your plan for the summer?",
+      "phonetic": "/plæn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_002",
+      "word": "summer holiday",
+      "meaning": "暑假",
+      "part_of_speech": "noun",
+      "phrase": [
+        "during the summer holiday",
+        "summer holiday plans"
+      ],
+      "sentence": "The summer holiday is coming.",
+      "phonetic": "/ˈsʌmər ˈhɒlədeɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_003",
+      "word": "stay",
+      "meaning": "待",
+      "part_of_speech": "verb",
+      "phrase": [
+        "stay in",
+        "stay at",
+        "stay with"
+      ],
+      "sentence": "I will stay in Beijing.",
+      "phonetic": "/steɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_004",
+      "word": "visit",
+      "meaning": "参观",
+      "part_of_speech": "verb",
+      "phrase": [
+        "visit the museum",
+        "visit friends",
+        "visit the zoo"
+      ],
+      "sentence": "I will visit the museum.",
+      "phonetic": "/ˈvɪzɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_005",
+      "word": "go back",
+      "meaning": "回去",
+      "part_of_speech": "verb",
+      "phrase": [
+        "go back to",
+        "go back home",
+        "go back to school"
+      ],
+      "sentence": "I will go back to my hometown.",
+      "phonetic": "/ɡoʊ bæk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_006",
+      "word": "hometown",
+      "meaning": "家乡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go back to my hometown",
+        "beautiful hometown",
+        "my hometown"
+      ],
+      "sentence": "I will go back to my hometown.",
+      "phonetic": "/ˈhoʊmtaʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_007",
+      "word": "sound",
+      "meaning": "听起来",
+      "part_of_speech": "verb",
+      "phrase": [
+        "sounds great",
+        "sounds good",
+        "sounds like"
+      ],
+      "sentence": "That sounds great!",
+      "phonetic": "/saʊnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_008",
+      "word": "summer camp",
+      "meaning": "夏令营",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go to summer camp",
+        "English summer camp",
+        "summer camp fun"
+      ],
+      "sentence": "I will go to summer camp.",
+      "phonetic": "/ˈsʌmər kæmp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_009",
+      "word": "how long",
+      "meaning": "多久",
+      "part_of_speech": "noun",
+      "phrase": [
+        "how long will you stay",
+        "how long does it take"
+      ],
+      "sentence": "How long will you stay there?",
+      "phonetic": "/haʊ lɒŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_010",
+      "word": "excited",
+      "meaning": "兴奋的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "very excited",
+        "excited about",
+        "excited to go"
+      ],
+      "sentence": "I'm very excited about the holiday.",
+      "phonetic": "/ɪkˈsaɪtɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_011",
+      "word": "traveller",
+      "meaning": "旅行者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a young traveller",
+        "world traveller",
+        "frequent traveller"
+      ],
+      "sentence": "He is a great traveller.",
+      "phonetic": "/ˈtrævələr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_012",
+      "word": "full of",
+      "meaning": "充满",
+      "part_of_speech": "noun",
+      "phrase": [
+        "full of fun",
+        "full of energy",
+        "full of hope"
+      ],
+      "sentence": "The city is full of fun.",
+      "phonetic": "/fʊl ɒv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_013",
+      "word": "Ocean",
+      "meaning": "大洋",
+      "part_of_speech": "noun",
+      "phrase": [
+        "across the ocean",
+        "ocean blue",
+        "Pacific Ocean"
+      ],
+      "sentence": "They will travel across the ocean.",
+      "phonetic": "/ˈoʊʃən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_014",
+      "word": "different",
+      "meaning": "不同的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "different from",
+        "be different",
+        "different countries"
+      ],
+      "sentence": "Different people have different plans.",
+      "phonetic": "/ˈdɪfərənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_7_015",
+      "word": "dream",
+      "meaning": "梦想",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dream of",
+        "dream come true",
+        "have a dream"
+      ],
+      "sentence": "My dream is to travel around the world.",
+      "phonetic": "/driːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

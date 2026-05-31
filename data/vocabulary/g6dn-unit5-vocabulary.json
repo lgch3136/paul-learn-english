@@ -1,0 +1,247 @@
+{
+  "unit": "g6dn-unit5",
+  "unit_title": "A party",
+  "theme": "聚会",
+  "vocabulary": [
+    {
+      "word_id": "g6dn_5_001",
+      "word": "party",
+      "meaning": "聚会",
+      "part_of_speech": "noun",
+      "phrase": [
+        "birthday party",
+        "have a party",
+        "party time"
+      ],
+      "sentence": "We are going to have a party.",
+      "phonetic": "/ˈpɑːrti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_002",
+      "word": "begin",
+      "meaning": "开始",
+      "part_of_speech": "verb",
+      "phrase": [
+        "begin with",
+        "to begin with",
+        "begin to"
+      ],
+      "sentence": "The party begins at 3 p.m.",
+      "phonetic": "/bɪˈɡɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_003",
+      "word": "end",
+      "meaning": "结束",
+      "part_of_speech": "verb",
+      "phrase": [
+        "at the end",
+        "in the end",
+        "end of"
+      ],
+      "sentence": "The party ends at 5 p.m.",
+      "phonetic": "/end/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_004",
+      "word": "balloon",
+      "meaning": "气球",
+      "part_of_speech": "noun",
+      "phrase": [
+        "blow up balloons",
+        "red balloon",
+        "balloon animal"
+      ],
+      "sentence": "We blow up balloons for the party.",
+      "phonetic": "/bəˈluːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_005",
+      "word": "snack",
+      "meaning": "零食",
+      "part_of_speech": "noun",
+      "phrase": [
+        "snack bar",
+        "snack time",
+        "healthy snack"
+      ],
+      "sentence": "We have snacks at the party.",
+      "phonetic": "/snæk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_006",
+      "word": "drinks",
+      "meaning": "饮料",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cold drinks",
+        "hot drinks",
+        "soft drinks"
+      ],
+      "sentence": "We have some drinks at the party.",
+      "phonetic": "/drɪŋks/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_007",
+      "word": "fruit",
+      "meaning": "水果",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fruit salad",
+        "fresh fruit",
+        "fruit juice"
+      ],
+      "sentence": "We have fruit at the party.",
+      "phonetic": "/fruːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_008",
+      "word": "bring",
+      "meaning": "带来",
+      "part_of_speech": "verb",
+      "phrase": [
+        "bring to",
+        "bring back",
+        "bring about"
+      ],
+      "sentence": "What are you going to bring to the party?",
+      "phonetic": "/brɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_009",
+      "word": "arrive",
+      "meaning": "到达",
+      "part_of_speech": "verb",
+      "phrase": [
+        "arrive at",
+        "arrive in",
+        "arrive home"
+      ],
+      "sentence": "We arrive at the party on time.",
+      "phonetic": "/əˈraɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_010",
+      "word": "invite",
+      "meaning": "邀请",
+      "part_of_speech": "verb",
+      "phrase": [
+        "invite to",
+        "invite friends",
+        "invited to"
+      ],
+      "sentence": "I will invite my friends.",
+      "phonetic": "/ɪnˈvaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_011",
+      "word": "candy",
+      "meaning": "糖果",
+      "part_of_speech": "noun",
+      "phrase": [
+        "candy shop",
+        "cotton candy",
+        "candy bar"
+      ],
+      "sentence": "We have candy at the party.",
+      "phonetic": "/ˈkændi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_012",
+      "word": "clown",
+      "meaning": "小丑",
+      "part_of_speech": "noun",
+      "phrase": [
+        "clown suit",
+        "sad clown",
+        "funny clown"
+      ],
+      "sentence": "A clown comes to the party.",
+      "phonetic": "/klaʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_013",
+      "word": "game",
+      "meaning": "游戏",
+      "part_of_speech": "noun",
+      "phrase": [
+        "play games",
+        "game over",
+        "party game"
+      ],
+      "sentence": "We play party games.",
+      "phonetic": "/ɡeɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_014",
+      "word": "fun",
+      "meaning": "乐趣",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have fun",
+        "fun time",
+        "fun to do"
+      ],
+      "sentence": "We have a lot of fun at the party.",
+      "phonetic": "/fʌn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_5_015",
+      "word": "enjoy",
+      "meaning": "享受",
+      "part_of_speech": "verb",
+      "phrase": [
+        "enjoy yourself",
+        "enjoy doing",
+        "enjoy the party"
+      ],
+      "sentence": "We enjoy the party.",
+      "phonetic": "/ɪnˈdʒɔɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "unit": "g5up-unit8",
+  "unit_title": "At Christmas",
+  "theme": "圣诞节",
+  "vocabulary": [
+    {
+      "word_id": "g5up_8_001",
+      "word": "Christmas",
+      "meaning": "圣诞节",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Christmas tree",
+        "Merry Christmas",
+        "Christmas card",
+        "Christmas Eve"
+      ],
+      "sentence": "Christmas is on December 25th.",
+      "phonetic": "/ˈkrɪsməs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_002",
+      "word": "present",
+      "meaning": "礼物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "birthday present",
+        "Christmas present",
+        "at present"
+      ],
+      "sentence": "I get many presents at Christmas.",
+      "phonetic": "/ˈprezənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_003",
+      "word": "card",
+      "meaning": "卡片",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Christmas card",
+        "birthday card",
+        "play cards"
+      ],
+      "sentence": "I make a Christmas card for my mum.",
+      "phonetic": "/kɑːrd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_004",
+      "word": "tree",
+      "meaning": "树",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Christmas tree",
+        "in the tree",
+        "tree house"
+      ],
+      "sentence": "We put a star on the Christmas tree.",
+      "phonetic": "/triː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_005",
+      "word": "stocking",
+      "meaning": "长筒袜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Christmas stocking",
+        "stocking filler"
+      ],
+      "sentence": "I put a stocking on my bed.",
+      "phonetic": "/ˈstɒkɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_006",
+      "word": "turkey",
+      "meaning": "火鸡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "roast turkey",
+        "turkey sandwich"
+      ],
+      "sentence": "We eat turkey at Christmas.",
+      "phonetic": "/ˈtɜːrki/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_007",
+      "word": "pudding",
+      "meaning": "布丁",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Christmas pudding",
+        "rice pudding",
+        "chocolate pudding"
+      ],
+      "sentence": "We have pudding for dessert.",
+      "phonetic": "/ˈpʊdɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_008",
+      "word": "Santa Claus",
+      "meaning": "圣诞老人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Santa Claus is coming",
+        "from Santa Claus"
+      ],
+      "sentence": "Santa Claus brings presents.",
+      "phonetic": "/ˈsæntə klɔːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_009",
+      "word": "wish",
+      "meaning": "愿望",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a wish",
+        "best wishes",
+        "wish you"
+      ],
+      "sentence": "I make a wish on my birthday.",
+      "phonetic": "/wɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_010",
+      "word": "merry",
+      "meaning": "愉快的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "Merry Christmas",
+        "merry go round"
+      ],
+      "sentence": "Merry Christmas!",
+      "phonetic": "/ˈmeri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_011",
+      "word": "buy",
+      "meaning": "买",
+      "part_of_speech": "verb",
+      "phrase": [
+        "buy presents",
+        "buy food",
+        "go and buy"
+      ],
+      "sentence": "We buy a Christmas tree.",
+      "phonetic": "/baɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_012",
+      "word": "decorate",
+      "meaning": "装饰",
+      "part_of_speech": "verb",
+      "phrase": [
+        "decorate the tree",
+        "decorate the room",
+        "Christmas decoration"
+      ],
+      "sentence": "We decorate the Christmas tree.",
+      "phonetic": "/ˈdekəreɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_013",
+      "word": "put on",
+      "meaning": "穿上",
+      "part_of_speech": "verb",
+      "phrase": [
+        "put on clothes",
+        "put on a show",
+        "put on weight"
+      ],
+      "sentence": "I put on my new coat.",
+      "phonetic": "/pʊt ɒn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_014",
+      "word": "next",
+      "meaning": "下一个",
+      "part_of_speech": "adj",
+      "phrase": [
+        "next time",
+        "next week",
+        "next to"
+      ],
+      "sentence": "See you next time!",
+      "phonetic": "/nekst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_8_015",
+      "word": "thing",
+      "meaning": "东西",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the thing is",
+        "first thing",
+        "new thing"
+      ],
+      "sentence": "I have many things to do.",
+      "phonetic": "/θɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

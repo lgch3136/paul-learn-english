@@ -1,0 +1,246 @@
+{
+  "unit": "g3dn-unit5",
+  "unit_title": "How old are you?",
+  "theme": "数字与年龄",
+  "vocabulary": [
+    {
+      "word_id": "g3dn_037_lion",
+      "word": "lion",
+      "meaning": "狮子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a lion"
+      ],
+      "sentence": "The lion is strong.",
+      "phonetic": "/ˈlaɪən/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "狮子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_038_monkey",
+      "word": "monkey",
+      "meaning": "猴子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a monkey"
+      ],
+      "sentence": "The monkey likes bananas.",
+      "phonetic": "/ˈmʌŋki/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "猴子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_039_elephant",
+      "word": "elephant",
+      "meaning": "大象",
+      "part_of_speech": "noun",
+      "phrase": [
+        "an elephant"
+      ],
+      "sentence": "The elephant is very big.",
+      "phonetic": "/ˈelɪfənt/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "大象",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_040_panda",
+      "word": "panda",
+      "meaning": "熊猫",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a panda"
+      ],
+      "sentence": "I like pandas.",
+      "phonetic": "/ˈpændə/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "熊猫",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_041_bear",
+      "word": "bear",
+      "meaning": "熊",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a bear"
+      ],
+      "sentence": "The bear is brown.",
+      "phonetic": "/beər/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "熊",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_042_bed",
+      "word": "bed",
+      "meaning": "床",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a bed",
+        "go to bed"
+      ],
+      "sentence": "I go to bed at nine.",
+      "phonetic": "/bed/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "床",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_043_desk",
+      "word": "desk",
+      "meaning": "书桌",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a desk"
+      ],
+      "sentence": "My book is on the desk.",
+      "phonetic": "/desk/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "书桌",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_044_chair",
+      "word": "chair",
+      "meaning": "椅子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a chair"
+      ],
+      "sentence": "Please sit on the chair.",
+      "phonetic": "/tʃeər/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "椅子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_045_table",
+      "word": "table",
+      "meaning": "桌子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a table"
+      ],
+      "sentence": "The cake is on the table.",
+      "phonetic": "/ˈteɪbl/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "桌子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

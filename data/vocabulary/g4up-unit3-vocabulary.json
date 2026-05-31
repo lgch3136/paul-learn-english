@@ -1,0 +1,255 @@
+{
+  "unit": "g4up-unit3",
+  "unit_title": "How many?",
+  "theme": "数字与玩具",
+  "vocabulary": [
+    {
+      "word_id": "g4up_019_thirteen",
+      "word": "thirteen",
+      "meaning": "十三",
+      "part_of_speech": "number",
+      "phrase": [
+        "thirteen students"
+      ],
+      "sentence": "There are thirteen apples.",
+      "phonetic": "/ˌθɜːˈtiːn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十三",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_020_fourteen",
+      "word": "fourteen",
+      "meaning": "十四",
+      "part_of_speech": "number",
+      "phrase": [
+        "fourteen books"
+      ],
+      "sentence": "I have fourteen pencils.",
+      "phonetic": "/ˌfɔːˈtiːn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十四",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_021_fifteen",
+      "word": "fifteen",
+      "meaning": "十五",
+      "part_of_speech": "number",
+      "phrase": [
+        "fifteen pens"
+      ],
+      "sentence": "I can see fifteen birds.",
+      "phonetic": "/ˌfɪfˈtiːn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十五",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_022_sixteen",
+      "word": "sixteen",
+      "meaning": "十六",
+      "part_of_speech": "number",
+      "phrase": [
+        "sixteen books"
+      ],
+      "sentence": "There are sixteen desks.",
+      "phonetic": "/ˌsɪksˈtiːn/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十六",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_023_seventeen",
+      "word": "seventeen",
+      "meaning": "十七",
+      "part_of_speech": "number",
+      "phrase": [
+        "seventeen girls"
+      ],
+      "sentence": "I have seventeen stickers.",
+      "phonetic": "/ˌsevnˈtiːn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十七",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_024_eighteen",
+      "word": "eighteen",
+      "meaning": "十八",
+      "part_of_speech": "number",
+      "phrase": [
+        "eighteen boys"
+      ],
+      "sentence": "He is eighteen years old.",
+      "phonetic": "/ˌeɪˈtiːn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十八",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_025_nineteen",
+      "word": "nineteen",
+      "meaning": "十九",
+      "part_of_speech": "number",
+      "phrase": [
+        "nineteen flowers"
+      ],
+      "sentence": "I can count to nineteen.",
+      "phonetic": "/ˌnaɪnˈtiːn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "十九",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_026_twenty",
+      "word": "twenty",
+      "meaning": "二十",
+      "part_of_speech": "number",
+      "phrase": [
+        "twenty students"
+      ],
+      "sentence": "There are twenty desks.",
+      "phonetic": "/ˈtwenti/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "二十",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_027_twenty_one",
+      "word": "twenty-one",
+      "meaning": "二十一",
+      "part_of_speech": "number",
+      "phrase": [
+        "twenty-one books"
+      ],
+      "sentence": "I have twenty-one books.",
+      "phonetic": "/ˌtwenti ˈwʌn/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "二十一",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "unit": "g5up-unit2",
+  "unit_title": "A new student",
+  "theme": "学校设施",
+  "vocabulary": [
+    {
+      "word_id": "g5up_2_001",
+      "word": "student",
+      "meaning": "学生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "new student",
+        "student ID",
+        "good student"
+      ],
+      "sentence": "She is a new student.",
+      "phonetic": "/ˈstjuːdənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_002",
+      "word": "classroom",
+      "meaning": "教室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the classroom",
+        "classroom door",
+        "classroom rules"
+      ],
+      "sentence": "Our classroom is on the second floor.",
+      "phonetic": "/ˈklɑːsruːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_003",
+      "word": "floor",
+      "meaning": "楼层；地板",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ground floor",
+        "first floor",
+        "on the floor"
+      ],
+      "sentence": "The music room is on the third floor.",
+      "phonetic": "/flɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_004",
+      "word": "computer",
+      "meaning": "电脑",
+      "part_of_speech": "noun",
+      "phrase": [
+        "computer room",
+        "computer game",
+        "use a computer"
+      ],
+      "sentence": "There are many computers in the room.",
+      "phonetic": "/kəmˈpjuːtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_005",
+      "word": "library",
+      "meaning": "图书馆",
+      "part_of_speech": "noun",
+      "phrase": [
+        "school library",
+        "go to the library",
+        "library card"
+      ],
+      "sentence": "We read books in the library.",
+      "phonetic": "/ˈlaɪbrəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_006",
+      "word": "playground",
+      "meaning": "操场",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the playground",
+        "playground equipment"
+      ],
+      "sentence": "Children play on the playground.",
+      "phonetic": "/ˈpleɪɡraʊnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_007",
+      "word": "art room",
+      "meaning": "美术教室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the art room",
+        "art room supplies"
+      ],
+      "sentence": "We draw pictures in the art room.",
+      "phonetic": "/ɑːrt ruːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_008",
+      "word": "music room",
+      "meaning": "音乐教室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the music room",
+        "music room practice"
+      ],
+      "sentence": "We sing songs in the music room.",
+      "phonetic": "/ˈmjuːzɪk ruːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_009",
+      "word": "first",
+      "meaning": "第一",
+      "part_of_speech": "adj",
+      "phrase": [
+        "first floor",
+        "first of all",
+        "at first"
+      ],
+      "sentence": "The library is on the first floor.",
+      "phonetic": "/fɜːrst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_010",
+      "word": "second",
+      "meaning": "第二",
+      "part_of_speech": "adj",
+      "phrase": [
+        "second floor",
+        "the second one"
+      ],
+      "sentence": "My classroom is on the second floor.",
+      "phonetic": "/ˈsekənd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_011",
+      "word": "third",
+      "meaning": "第三",
+      "part_of_speech": "adj",
+      "phrase": [
+        "third floor",
+        "the third time"
+      ],
+      "sentence": "The art room is on the third floor.",
+      "phonetic": "/θɜːrd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_012",
+      "word": "show",
+      "meaning": "带…看",
+      "part_of_speech": "verb",
+      "phrase": [
+        "show around",
+        "show me",
+        "TV show"
+      ],
+      "sentence": "Let me show you around.",
+      "phonetic": "/ʃoʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_013",
+      "word": "heavy",
+      "meaning": "重的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "heavy rain",
+        "heavy box",
+        "heavy traffic"
+      ],
+      "sentence": "This bag is too heavy.",
+      "phonetic": "/ˈhevi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_014",
+      "word": "thin",
+      "meaning": "瘦的；薄的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "thin paper",
+        "thin air",
+        "thin ice"
+      ],
+      "sentence": "The book is very thin.",
+      "phonetic": "/θɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_2_015",
+      "word": "each",
+      "meaning": "每一",
+      "part_of_speech": "det",
+      "phrase": [
+        "each other",
+        "each day",
+        "each student"
+      ],
+      "sentence": "Each student has a computer.",
+      "phonetic": "/iːtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

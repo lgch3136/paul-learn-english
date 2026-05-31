@@ -1,0 +1,247 @@
+{
+  "unit": "g5up-unit4",
+  "unit_title": "Hobbies",
+  "theme": "兴趣爱好",
+  "vocabulary": [
+    {
+      "word_id": "g5up_4_001",
+      "word": "hobby",
+      "meaning": "爱好",
+      "part_of_speech": "noun",
+      "phrase": [
+        "hobby class",
+        "my hobby",
+        "hobby group"
+      ],
+      "sentence": "What's your hobby?",
+      "phonetic": "/ˈhɒbi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_002",
+      "word": "story",
+      "meaning": "故事",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tell a story",
+        "story book",
+        "story time"
+      ],
+      "sentence": "I like reading stories.",
+      "phonetic": "/ˈstɔːri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_003",
+      "word": "piano",
+      "meaning": "钢琴",
+      "part_of_speech": "noun",
+      "phrase": [
+        "play the piano",
+        "piano lesson",
+        "piano music"
+      ],
+      "sentence": "She plays the piano very well.",
+      "phonetic": "/piˈænoʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_004",
+      "word": "dance",
+      "meaning": "跳舞",
+      "part_of_speech": "verb",
+      "phrase": [
+        "dance class",
+        "dance music",
+        "learn to dance"
+      ],
+      "sentence": "I like dancing.",
+      "phonetic": "/dæns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_005",
+      "word": "draw",
+      "meaning": "画画",
+      "part_of_speech": "verb",
+      "phrase": [
+        "draw a picture",
+        "draw well",
+        "draw attention"
+      ],
+      "sentence": "I like drawing pictures.",
+      "phonetic": "/drɔː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_006",
+      "word": "sing",
+      "meaning": "唱歌",
+      "part_of_speech": "verb",
+      "phrase": [
+        "sing a song",
+        "sing well",
+        "sing along"
+      ],
+      "sentence": "She can sing very well.",
+      "phonetic": "/sɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_007",
+      "word": "read",
+      "meaning": "阅读",
+      "part_of_speech": "verb",
+      "phrase": [
+        "read books",
+        "read aloud",
+        "read a story"
+      ],
+      "sentence": "I like reading books.",
+      "phonetic": "/riːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_008",
+      "word": "both",
+      "meaning": "两个都",
+      "part_of_speech": "det",
+      "phrase": [
+        "both of",
+        "both sides",
+        "both...and..."
+      ],
+      "sentence": "We both like singing.",
+      "phonetic": "/boʊθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_009",
+      "word": "idea",
+      "meaning": "主意",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good idea",
+        "have an idea",
+        "great idea"
+      ],
+      "sentence": "That's a good idea!",
+      "phonetic": "/aɪˈdɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_010",
+      "word": "group",
+      "meaning": "组",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in a group",
+        "group work",
+        "group leader"
+      ],
+      "sentence": "Let's work in groups.",
+      "phonetic": "/ɡruːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_011",
+      "word": "also",
+      "meaning": "也",
+      "part_of_speech": "adv",
+      "phrase": [
+        "also like",
+        "also known as",
+        "not only...but also"
+      ],
+      "sentence": "I also like dancing.",
+      "phonetic": "/ˈɔːlsoʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_012",
+      "word": "about",
+      "meaning": "关于",
+      "part_of_speech": "prep",
+      "phrase": [
+        "how about",
+        "what about",
+        "talk about"
+      ],
+      "sentence": "What about you?",
+      "phonetic": "/əˈbaʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_013",
+      "word": "well",
+      "meaning": "好",
+      "part_of_speech": "adv",
+      "phrase": [
+        "very well",
+        "well done",
+        "as well"
+      ],
+      "sentence": "She can dance very well.",
+      "phonetic": "/wel/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_014",
+      "word": "look out",
+      "meaning": "当心",
+      "part_of_speech": "verb",
+      "phrase": [
+        "look out for",
+        "look out!",
+        "look out of"
+      ],
+      "sentence": "Look out! The car is coming!",
+      "phonetic": "/lʊk aʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_4_015",
+      "word": "hole",
+      "meaning": "洞",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the hole",
+        "dig a hole",
+        "black hole"
+      ],
+      "sentence": "The mouse is in the hole.",
+      "phonetic": "/hoʊl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "unit": "g3up-unit5",
+  "unit_title": "Look at me!",
+  "theme": "身体部位",
+  "vocabulary": [
+    {
+      "word_id": "g3up_037_head",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "head",
+      "meaning": "头",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my head",
+        "touch your head"
+      ],
+      "sentence": "Touch your head.",
+      "phonetic": "/hed/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_038_eye",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "eye",
+      "meaning": "眼睛",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my eyes"
+      ],
+      "sentence": "I have two eyes.",
+      "phonetic": "/aɪ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_039_ear",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "ear",
+      "meaning": "耳朵",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my ears"
+      ],
+      "sentence": "I have two ears.",
+      "phonetic": "/ɪə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_040_nose",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "nose",
+      "meaning": "鼻子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my nose",
+        "touch your nose"
+      ],
+      "sentence": "This is my nose.",
+      "phonetic": "/nəʊz/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_041_mouth",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "mouth",
+      "meaning": "嘴巴",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my mouth",
+        "open your mouth"
+      ],
+      "sentence": "Open your mouth.",
+      "phonetic": "/maʊθ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_042_face",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "face",
+      "meaning": "脸",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my face",
+        "wash your face"
+      ],
+      "sentence": "Wash your face.",
+      "phonetic": "/feɪs/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_043_hand",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "hand",
+      "meaning": "手",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my hands",
+        "wash your hands"
+      ],
+      "sentence": "Wash your hands.",
+      "phonetic": "/hænd/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_044_leg",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "leg",
+      "meaning": "腿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my legs"
+      ],
+      "sentence": "I have two legs.",
+      "phonetic": "/leɡ/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_045_foot",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "foot",
+      "meaning": "脚",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my foot",
+        "my feet"
+      ],
+      "sentence": "This is my foot.",
+      "phonetic": "/fʊt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "单复数"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

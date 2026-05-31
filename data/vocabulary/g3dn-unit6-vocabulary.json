@@ -1,0 +1,384 @@
+{
+  "unit": "g3dn-unit6",
+  "unit_title": "What time is it?",
+  "theme": "时间与日常",
+  "vocabulary": [
+    {
+      "word_id": "g3dn_046_door",
+      "word": "door",
+      "meaning": "门",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a door",
+        "open the door"
+      ],
+      "sentence": "Please open the door.",
+      "phonetic": "/dɔːr/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "门",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_047_window",
+      "word": "window",
+      "meaning": "窗户",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a window",
+        "open the window"
+      ],
+      "sentence": "Please close the window.",
+      "phonetic": "/ˈwɪndəʊ/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "窗户",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_048_sofa",
+      "word": "sofa",
+      "meaning": "沙发",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a sofa"
+      ],
+      "sentence": "The cat is on the sofa.",
+      "phonetic": "/ˈsəʊfə/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "沙发",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_049_fridge",
+      "word": "fridge",
+      "meaning": "冰箱",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a fridge"
+      ],
+      "sentence": "The milk is in the fridge.",
+      "phonetic": "/frɪdʒ/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "冰箱",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_050_TV",
+      "word": "TV",
+      "meaning": "电视",
+      "part_of_speech": "noun",
+      "phrase": [
+        "watch TV"
+      ],
+      "sentence": "I watch TV in the evening.",
+      "phonetic": "/ˌtiː ˈviː/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "电视",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_051_father",
+      "word": "father",
+      "meaning": "爸爸",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my father"
+      ],
+      "sentence": "My father is a teacher.",
+      "phonetic": "/ˈfɑːðər/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "爸爸",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_052_mother",
+      "word": "mother",
+      "meaning": "妈妈",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my mother"
+      ],
+      "sentence": "My mother is beautiful.",
+      "phonetic": "/ˈmʌðər/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "妈妈",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_053_brother",
+      "word": "brother",
+      "meaning": "兄弟",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my brother"
+      ],
+      "sentence": "He is my brother.",
+      "phonetic": "/ˈbrʌðər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "兄弟",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_054_sister",
+      "word": "sister",
+      "meaning": "姐妹",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my sister"
+      ],
+      "sentence": "She is my sister.",
+      "phonetic": "/ˈsɪstər/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "姐妹",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_055_grandfather",
+      "word": "grandfather",
+      "meaning": "爷爷，外公",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my grandfather"
+      ],
+      "sentence": "My grandfather is kind.",
+      "phonetic": "/ˈɡrænfɑːðər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "爷爷，外公",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_056_grandmother",
+      "word": "grandmother",
+      "meaning": "奶奶，外婆",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my grandmother"
+      ],
+      "sentence": "My grandmother likes flowers.",
+      "phonetic": "/ˈɡrænmʌðər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "奶奶，外婆",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_057_friend",
+      "word": "friend",
+      "meaning": "朋友",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a friend",
+        "my friend"
+      ],
+      "sentence": "She is my friend.",
+      "phonetic": "/frend/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "朋友",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_058_teacher",
+      "word": "teacher",
+      "meaning": "老师",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my teacher"
+      ],
+      "sentence": "My teacher is nice.",
+      "phonetic": "/ˈtiːtʃər/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "老师",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_059_family",
+      "word": "family",
+      "meaning": "家庭",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my family"
+      ],
+      "sentence": "I love my family.",
+      "phonetic": "/ˈfæməli/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "家庭",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

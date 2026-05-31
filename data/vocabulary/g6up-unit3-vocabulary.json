@@ -1,0 +1,247 @@
+{
+  "unit": "g6up-unit3",
+  "unit_title": "Holiday fun",
+  "theme": "假期",
+  "vocabulary": [
+    {
+      "word_id": "g6up_3_001",
+      "word": "holiday",
+      "meaning": "假期",
+      "part_of_speech": "noun",
+      "phrase": [
+        "summer holiday",
+        "on holiday",
+        "holiday homework"
+      ],
+      "sentence": "I had a good holiday.",
+      "phonetic": "/ˈhɒlədeɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_002",
+      "word": "museum",
+      "meaning": "博物馆",
+      "part_of_speech": "noun",
+      "phrase": [
+        "science museum",
+        "art museum",
+        "go to the museum"
+      ],
+      "sentence": "We visited a museum.",
+      "phonetic": "/mjuˈziːəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_003",
+      "word": "palace",
+      "meaning": "宫殿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the Palace Museum",
+        "summer palace",
+        "imperial palace"
+      ],
+      "sentence": "We went to the Palace Museum.",
+      "phonetic": "/ˈpælɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_004",
+      "word": "Shanghai",
+      "meaning": "上海",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go to Shanghai",
+        "Shanghai Museum",
+        "Shanghai Tower"
+      ],
+      "sentence": "I went to Shanghai for a holiday.",
+      "phonetic": "/ʃæŋˈhaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_005",
+      "word": "summer",
+      "meaning": "夏天",
+      "part_of_speech": "noun",
+      "phrase": [
+        "summer holiday",
+        "summer camp",
+        "hot summer"
+      ],
+      "sentence": "I went to Beijing in the summer.",
+      "phonetic": "/ˈsʌmər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_006",
+      "word": "Great Wall",
+      "meaning": "长城",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the Great Wall",
+        "visit the Great Wall"
+      ],
+      "sentence": "We climbed the Great Wall.",
+      "phonetic": "/ɡreɪt wɔːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_007",
+      "word": "travel",
+      "meaning": "旅行",
+      "part_of_speech": "verb",
+      "phrase": [
+        "travel around",
+        "travel abroad",
+        "travel agent"
+      ],
+      "sentence": "We travelled to Beijing.",
+      "phonetic": "/ˈtrævəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_008",
+      "word": "excited",
+      "meaning": "兴奋的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "very excited",
+        "excited about",
+        "excited to see"
+      ],
+      "sentence": "I was very excited.",
+      "phonetic": "/ɪkˈsaɪtɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_009",
+      "word": "wonderful",
+      "meaning": "精彩的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "wonderful time",
+        "wonderful day",
+        "how wonderful"
+      ],
+      "sentence": "We had a wonderful time.",
+      "phonetic": "/ˈwʌndərfəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_010",
+      "word": "bottle",
+      "meaning": "瓶子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "water bottle",
+        "glass bottle",
+        "bottle of water"
+      ],
+      "sentence": "I bought a bottle of water.",
+      "phonetic": "/ˈbɒtl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_011",
+      "word": "paper",
+      "meaning": "纸",
+      "part_of_speech": "noun",
+      "phrase": [
+        "paper plane",
+        "on paper",
+        "piece of paper",
+        "toilet paper"
+      ],
+      "sentence": "I made a paper plane.",
+      "phonetic": "/ˈpeɪpər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_012",
+      "word": "ask",
+      "meaning": "问",
+      "part_of_speech": "verb",
+      "phrase": [
+        "ask a question",
+        "ask for",
+        "ask about"
+      ],
+      "sentence": "I asked my teacher a question.",
+      "phonetic": "/æsk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_013",
+      "word": "answer",
+      "meaning": "回答",
+      "part_of_speech": "verb",
+      "phrase": [
+        "answer the question",
+        "answer the phone",
+        "right answer"
+      ],
+      "sentence": "Please answer my question.",
+      "phonetic": "/ˈænsər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_014",
+      "word": "star",
+      "meaning": "星星",
+      "part_of_speech": "noun",
+      "phrase": [
+        "five stars",
+        "movie star",
+        "star fish"
+      ],
+      "sentence": "I can see the stars at night.",
+      "phonetic": "/stɑːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_3_015",
+      "word": "pear",
+      "meaning": "梨子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "pear tree",
+        "pear juice",
+        "sweet pear"
+      ],
+      "sentence": "I like eating pears.",
+      "phonetic": "/peər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

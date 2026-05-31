@@ -1,0 +1,252 @@
+{
+  "unit": "g4up-unit2",
+  "unit_title": "Let's make a fruit salad",
+  "theme": "水果",
+  "vocabulary": [
+    {
+      "word_id": "g4up_010_apple",
+      "word": "apple",
+      "meaning": "苹果",
+      "part_of_speech": "noun",
+      "phrase": [
+        "an apple"
+      ],
+      "sentence": "I eat an apple every day.",
+      "phonetic": "/ˈæpl/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "苹果",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_011_pear",
+      "word": "pear",
+      "meaning": "梨",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pear"
+      ],
+      "sentence": "This pear is sweet.",
+      "phonetic": "/peər/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "梨",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_012_grape",
+      "word": "grape",
+      "meaning": "葡萄",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a grape",
+        "some grapes"
+      ],
+      "sentence": "I like grapes.",
+      "phonetic": "/ɡreɪp/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "葡萄",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_013_watermelon",
+      "word": "watermelon",
+      "meaning": "西瓜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a watermelon"
+      ],
+      "sentence": "Watermelon is my favourite fruit.",
+      "phonetic": "/ˈwɔːtəmelən/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "西瓜",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_014_strawberry",
+      "word": "strawberry",
+      "meaning": "草莓",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a strawberry",
+        "some strawberries"
+      ],
+      "sentence": "The strawberry is red.",
+      "phonetic": "/ˈstrɔːbəri/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "草莓",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_015_cherry",
+      "word": "cherry",
+      "meaning": "樱桃",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a cherry",
+        "some cherries"
+      ],
+      "sentence": "Cherries are small and red.",
+      "phonetic": "/ˈtʃeri/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "樱桃",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_016_peach",
+      "word": "peach",
+      "meaning": "桃子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a peach"
+      ],
+      "sentence": "The peach is soft.",
+      "phonetic": "/piːtʃ/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "桃子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_017_lemon",
+      "word": "lemon",
+      "meaning": "柠檬",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a lemon"
+      ],
+      "sentence": "The lemon is sour.",
+      "phonetic": "/ˈlemən/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "柠檬",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_018_coconut",
+      "word": "coconut",
+      "meaning": "椰子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a coconut"
+      ],
+      "sentence": "I want a coconut.",
+      "phonetic": "/ˈkəʊkənʌt/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "椰子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

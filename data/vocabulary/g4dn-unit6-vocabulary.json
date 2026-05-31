@@ -1,0 +1,357 @@
+{
+  "unit": "g4dn-unit6",
+  "unit_title": "Whose dress is this?",
+  "theme": "服装",
+  "vocabulary": [
+    {
+      "word_id": "g4dn_046_star",
+      "word": "star",
+      "meaning": "星星",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a star",
+        "some stars"
+      ],
+      "sentence": "I can see stars at night.",
+      "phonetic": "/stɑːr/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "星星",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_047_sky",
+      "word": "sky",
+      "meaning": "天空",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the sky",
+        "blue sky"
+      ],
+      "sentence": "The sky is blue.",
+      "phonetic": "/skaɪ/",
+      "error_tags": [],
+      "unit": "Unit 5",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "天空",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_048_shirt",
+      "word": "shirt",
+      "meaning": "衬衫",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a shirt",
+        "a T-shirt"
+      ],
+      "sentence": "I like this shirt.",
+      "phonetic": "/ʃɜːt/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "衬衫",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_049_T-shirt",
+      "word": "T-shirt",
+      "meaning": "T恤衫",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a T-shirt"
+      ],
+      "sentence": "I wear a T-shirt in summer.",
+      "phonetic": "/ˈtiː ʃɜːt/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "T恤衫",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_050_dress",
+      "word": "dress",
+      "meaning": "连衣裙",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a dress"
+      ],
+      "sentence": "She is wearing a red dress.",
+      "phonetic": "/dres/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "连衣裙",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_051_skirt",
+      "word": "skirt",
+      "meaning": "短裙",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a skirt"
+      ],
+      "sentence": "She has a new skirt.",
+      "phonetic": "/skɜːt/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "短裙",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_052_coat",
+      "word": "coat",
+      "meaning": "外套",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a coat",
+        "wear a coat"
+      ],
+      "sentence": "Put on your coat.",
+      "phonetic": "/kəʊt/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "外套",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_053_jacket",
+      "word": "jacket",
+      "meaning": "夹克",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a jacket"
+      ],
+      "sentence": "I have a new jacket.",
+      "phonetic": "/ˈdʒækɪt/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "夹克",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_054_trousers",
+      "word": "trousers",
+      "meaning": "裤子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pair of trousers"
+      ],
+      "sentence": "These trousers are too long.",
+      "phonetic": "/ˈtraʊzəz/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "裤子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_055_shorts",
+      "word": "shorts",
+      "meaning": "短裤",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pair of shorts"
+      ],
+      "sentence": "I wear shorts in summer.",
+      "phonetic": "/ʃɔːts/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "短裤",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_056_cap",
+      "word": "cap",
+      "meaning": "帽子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a cap",
+        "wear a cap"
+      ],
+      "sentence": "He is wearing a cap.",
+      "phonetic": "/kæp/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "帽子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_057_shoes",
+      "word": "shoes",
+      "meaning": "鞋子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pair of shoes"
+      ],
+      "sentence": "I have new shoes.",
+      "phonetic": "/ʃuːz/",
+      "error_tags": [],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "鞋子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_058_sweater",
+      "word": "sweater",
+      "meaning": "毛衣",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a sweater",
+        "wear a sweater"
+      ],
+      "sentence": "I wear a sweater in winter.",
+      "phonetic": "/ˈswetər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 6",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "毛衣",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

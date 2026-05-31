@@ -1,0 +1,245 @@
+{
+  "unit": "g6up-unit5",
+  "unit_title": "Signs",
+  "theme": "标识",
+  "vocabulary": [
+    {
+      "word_id": "g6up_5_001",
+      "word": "sign",
+      "meaning": "标识",
+      "part_of_speech": "noun",
+      "phrase": [
+        "traffic sign",
+        "sign language",
+        "stop sign"
+      ],
+      "sentence": "What does this sign mean?",
+      "phonetic": "/saɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_002",
+      "word": "mean",
+      "meaning": "意思是",
+      "part_of_speech": "verb",
+      "phrase": [
+        "what does it mean",
+        "mean to do",
+        "no mean feat"
+      ],
+      "sentence": "What does this sign mean?",
+      "phonetic": "/miːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_003",
+      "word": "shopping centre",
+      "meaning": "购物中心",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go to the shopping centre",
+        "new shopping centre"
+      ],
+      "sentence": "Let's go to the shopping centre.",
+      "phonetic": "/ˈʃɒpɪŋ ˈsentər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_004",
+      "word": "careful",
+      "meaning": "小心的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be careful",
+        "careful with",
+        "careful not to"
+      ],
+      "sentence": "Be careful!",
+      "phonetic": "/ˈkeərfəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_005",
+      "word": "dangerous",
+      "meaning": "危险的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "dangerous animal",
+        "dangerous place",
+        "it's dangerous"
+      ],
+      "sentence": "It's dangerous to swim here.",
+      "phonetic": "/ˈdeɪndʒərəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_006",
+      "word": "must",
+      "meaning": "必须",
+      "part_of_speech": "modal",
+      "phrase": [
+        "you must",
+        "must be",
+        "must not"
+      ],
+      "sentence": "You must not smoke here.",
+      "phonetic": "/mʌst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_007",
+      "word": "should",
+      "meaning": "应该",
+      "part_of_speech": "modal",
+      "phrase": [
+        "you should",
+        "should not",
+        "should be"
+      ],
+      "sentence": "You should wait here.",
+      "phonetic": "/ʃʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_008",
+      "word": "can't",
+      "meaning": "不能",
+      "part_of_speech": "modal",
+      "phrase": [
+        "you can't",
+        "I can't",
+        "can't do"
+      ],
+      "sentence": "You can't park here.",
+      "phonetic": "/kænt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_009",
+      "word": "floor",
+      "meaning": "地面",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the floor",
+        "floor plan",
+        "ground floor"
+      ],
+      "sentence": "Don't litter on the floor.",
+      "phonetic": "/flɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_010",
+      "word": "litter",
+      "meaning": "乱扔垃圾",
+      "part_of_speech": "verb",
+      "phrase": [
+        "no litter",
+        "litter bin",
+        "pick up litter"
+      ],
+      "sentence": "Don't litter in the park.",
+      "phonetic": "/ˈlɪtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_011",
+      "word": "smoke",
+      "meaning": "吸烟",
+      "part_of_speech": "verb",
+      "phrase": [
+        "no smoking",
+        "smoke a cigarette",
+        "smoke alarm"
+      ],
+      "sentence": "You can't smoke here.",
+      "phonetic": "/smoʊk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_012",
+      "word": "park",
+      "meaning": "停车",
+      "part_of_speech": "verb",
+      "phrase": [
+        "park the car",
+        "no parking",
+        "car park"
+      ],
+      "sentence": "You can't park here.",
+      "phonetic": "/pɑːrk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_013",
+      "word": "take...into",
+      "meaning": "带入",
+      "part_of_speech": "verb",
+      "phrase": [
+        "take into the room",
+        "take food into"
+      ],
+      "sentence": "You can't take food into the library.",
+      "phonetic": "/teɪk...ˈɪntə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_014",
+      "word": "outing",
+      "meaning": "远足",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go on an outing",
+        "school outing",
+        "family outing"
+      ],
+      "sentence": "We went on an outing.",
+      "phonetic": "/ˈaʊtɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_5_015",
+      "word": "around",
+      "meaning": "围绕",
+      "part_of_speech": "prep",
+      "phrase": [
+        "look around",
+        "around the world",
+        "go around"
+      ],
+      "sentence": "Look around carefully.",
+      "phonetic": "/əˈraʊnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

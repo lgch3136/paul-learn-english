@@ -1,0 +1,250 @@
+{
+  "unit": "g3dn-unit1",
+  "unit_title": "In class",
+  "theme": "课堂用语",
+  "vocabulary": [
+    {
+      "word_id": "g3dn_001_schoolbag",
+      "word": "schoolbag",
+      "meaning": "书包",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my schoolbag"
+      ],
+      "sentence": "This is my schoolbag.",
+      "phonetic": "/ˈskuːlbæɡ/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "书包",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_002_pen",
+      "word": "pen",
+      "meaning": "钢笔",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pen"
+      ],
+      "sentence": "I have a pen.",
+      "phonetic": "/pen/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "钢笔",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_003_pencil",
+      "word": "pencil",
+      "meaning": "铅笔",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pencil"
+      ],
+      "sentence": "This is a pencil.",
+      "phonetic": "/ˈpensl/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "铅笔",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_004_ruler",
+      "word": "ruler",
+      "meaning": "尺子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a ruler"
+      ],
+      "sentence": "I have a ruler.",
+      "phonetic": "/ˈruːlər/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "尺子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_005_rubber",
+      "word": "rubber",
+      "meaning": "橡皮",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a rubber"
+      ],
+      "sentence": "This is my rubber.",
+      "phonetic": "/ˈrʌbər/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "橡皮",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_006_book",
+      "word": "book",
+      "meaning": "书",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a book",
+        "read a book"
+      ],
+      "sentence": "I like this book.",
+      "phonetic": "/bʊk/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "书",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_007_crayon",
+      "word": "crayon",
+      "meaning": "蜡笔",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a crayon"
+      ],
+      "sentence": "I have a red crayon.",
+      "phonetic": "/ˈkreɪən/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "蜡笔",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_008_notebook",
+      "word": "notebook",
+      "meaning": "笔记本",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a notebook"
+      ],
+      "sentence": "This is my notebook.",
+      "phonetic": "/ˈnəʊtbʊk/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "笔记本",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_009_pencil_case",
+      "word": "pencil case",
+      "meaning": "铅笔盒",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pencil case"
+      ],
+      "sentence": "My pencil case is new.",
+      "phonetic": "/ˈpensl keɪs/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "铅笔盒",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

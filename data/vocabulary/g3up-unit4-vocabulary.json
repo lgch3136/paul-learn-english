@@ -1,0 +1,260 @@
+{
+  "unit": "g3up-unit4",
+  "unit_title": "My family",
+  "theme": "家庭成员",
+  "vocabulary": [
+    {
+      "word_id": "g3up_028_nice",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 3",
+      "section": "Story Time",
+      "word": "nice",
+      "meaning": "漂亮的；好的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "nice to meet you",
+        "how nice"
+      ],
+      "sentence": "How nice!",
+      "phonetic": "/naɪs/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_029_family",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "family",
+      "meaning": "家庭",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my family",
+        "family photo"
+      ],
+      "sentence": "This is my family.",
+      "phonetic": "/ˈfæməli/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_030_father",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "father",
+      "meaning": "爸爸",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my father"
+      ],
+      "sentence": "This is my father.",
+      "phonetic": "/ˈfɑːðə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_031_mother",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "mother",
+      "meaning": "妈妈",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my mother"
+      ],
+      "sentence": "This is my mother.",
+      "phonetic": "/ˈmʌðə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_032_brother",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "brother",
+      "meaning": "兄弟",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my brother",
+        "big brother"
+      ],
+      "sentence": "He's my brother.",
+      "phonetic": "/ˈbrʌðə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_033_sister",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "sister",
+      "meaning": "姐妹",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my sister",
+        "big sister"
+      ],
+      "sentence": "She's my sister.",
+      "phonetic": "/ˈsɪstə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_034_grandfather",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "grandfather",
+      "meaning": "爷爷/外公",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my grandfather"
+      ],
+      "sentence": "My grandfather is old.",
+      "phonetic": "/ˈɡrænfɑːðə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_035_grandmother",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "grandmother",
+      "meaning": "奶奶/外婆",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my grandmother"
+      ],
+      "sentence": "My grandmother is kind.",
+      "phonetic": "/ˈɡrænmʌðə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_036_me",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 4",
+      "section": "Story Time",
+      "word": "me",
+      "meaning": "我（宾格）",
+      "part_of_speech": "pronoun",
+      "phrase": [
+        "look at me",
+        "for me"
+      ],
+      "sentence": "Look at me!",
+      "phonetic": "/miː/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

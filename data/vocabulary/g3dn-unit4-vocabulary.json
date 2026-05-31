@@ -1,0 +1,247 @@
+{
+  "unit": "g3dn-unit4",
+  "unit_title": "Where's the bird?",
+  "theme": "位置与动物",
+  "vocabulary": [
+    {
+      "word_id": "g3dn_028_mango",
+      "word": "mango",
+      "meaning": "芒果",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a mango"
+      ],
+      "sentence": "The mango is sweet.",
+      "phonetic": "/ˈmæŋɡəʊ/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "芒果",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_029_pineapple",
+      "word": "pineapple",
+      "meaning": "菠萝",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pineapple"
+      ],
+      "sentence": "I like pineapple.",
+      "phonetic": "/ˈpaɪnæpl/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "菠萝",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_030_banana",
+      "word": "banana",
+      "meaning": "香蕉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a banana"
+      ],
+      "sentence": "The banana is yellow.",
+      "phonetic": "/bəˈnɑːnə/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "香蕉",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_031_orange",
+      "word": "orange",
+      "meaning": "橙子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "an orange"
+      ],
+      "sentence": "I have an orange.",
+      "phonetic": "/ˈɒrɪndʒ/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "橙子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_032_cat",
+      "word": "cat",
+      "meaning": "猫",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a cat"
+      ],
+      "sentence": "The cat is cute.",
+      "phonetic": "/kæt/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "猫",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_033_dog",
+      "word": "dog",
+      "meaning": "狗",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a dog"
+      ],
+      "sentence": "I have a dog.",
+      "phonetic": "/dɒɡ/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "狗",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_034_bird",
+      "word": "bird",
+      "meaning": "鸟",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a bird"
+      ],
+      "sentence": "The bird can fly.",
+      "phonetic": "/bɜːd/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "鸟",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_035_fish",
+      "word": "fish",
+      "meaning": "鱼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a fish"
+      ],
+      "sentence": "I can see a fish.",
+      "phonetic": "/fɪʃ/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "鱼",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_036_tiger",
+      "word": "tiger",
+      "meaning": "老虎",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a tiger"
+      ],
+      "sentence": "The tiger is big.",
+      "phonetic": "/ˈtaɪɡər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 4",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "老虎",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

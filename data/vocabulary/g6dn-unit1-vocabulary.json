@@ -1,0 +1,244 @@
+{
+  "unit": "g6dn-unit1",
+  "unit_title": "The lion and the mouse",
+  "theme": "寓言",
+  "vocabulary": [
+    {
+      "word_id": "g6dn_1_001",
+      "word": "lion",
+      "meaning": "狮子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "lion dance",
+        "lion king",
+        "brave as a lion"
+      ],
+      "sentence": "The lion is the king of animals.",
+      "phonetic": "/ˈlaɪən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_002",
+      "word": "mouse",
+      "meaning": "老鼠",
+      "part_of_speech": "noun",
+      "phrase": [
+        "mouse trap",
+        "as quiet as a mouse",
+        "computer mouse"
+      ],
+      "sentence": "A mouse woke up the lion.",
+      "phonetic": "/maʊs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_003",
+      "word": "large",
+      "meaning": "大的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "large number",
+        "large size",
+        "by and large"
+      ],
+      "sentence": "The lion is very large.",
+      "phonetic": "/lɑːrdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_004",
+      "word": "sharp",
+      "meaning": "锋利的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "sharp teeth",
+        "sharp eyes",
+        "sharp mind"
+      ],
+      "sentence": "The lion has sharp teeth.",
+      "phonetic": "/ʃɑːrp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_005",
+      "word": "net",
+      "meaning": "网",
+      "part_of_speech": "noun",
+      "phrase": [
+        "catch in a net",
+        "safety net",
+        "fish net"
+      ],
+      "sentence": "The lion was caught in a net.",
+      "phonetic": "/net/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_006",
+      "word": "bite",
+      "meaning": "咬",
+      "part_of_speech": "verb",
+      "phrase": [
+        "bite the net",
+        "bite into",
+        "mosquito bite"
+      ],
+      "sentence": "The mouse bit the net with its teeth.",
+      "phonetic": "/baɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_007",
+      "word": "sadly",
+      "meaning": "伤心地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "say sadly",
+        "smile sadly",
+        "look sadly"
+      ],
+      "sentence": "The lion cried sadly.",
+      "phonetic": "/ˈsædli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_008",
+      "word": "just then",
+      "meaning": "就在那时",
+      "part_of_speech": "adv",
+      "phrase": [
+        "just then the mouse",
+        "just then I heard"
+      ],
+      "sentence": "Just then, the mouse came.",
+      "phonetic": "/dʒʌst ðen/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_009",
+      "word": "soon",
+      "meaning": "很快",
+      "part_of_speech": "adv",
+      "phrase": [
+        "very soon",
+        "as soon as",
+        "sooner or later"
+      ],
+      "sentence": "Soon the lion was free.",
+      "phonetic": "/suːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_010",
+      "word": "happily",
+      "meaning": "开心地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "live happily",
+        "smile happily",
+        "happily ever after"
+      ],
+      "sentence": "The lion walked away happily.",
+      "phonetic": "/ˈhæpɪli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_011",
+      "word": "wake...up",
+      "meaning": "叫醒",
+      "part_of_speech": "verb",
+      "phrase": [
+        "wake up",
+        "wake me up",
+        "wake someone up"
+      ],
+      "sentence": "The mouse woke the lion up.",
+      "phonetic": "/weɪk...ʌp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_012",
+      "word": "let...go",
+      "meaning": "放开",
+      "part_of_speech": "verb",
+      "phrase": [
+        "let go of",
+        "let it go",
+        "let me go"
+      ],
+      "sentence": "The lion let the mouse go.",
+      "phonetic": "/let...ɡoʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_013",
+      "word": "from then on",
+      "meaning": "从那时起",
+      "part_of_speech": "adv",
+      "phrase": [
+        "from then on they became friends"
+      ],
+      "sentence": "From then on, they became friends.",
+      "phonetic": "/frɒm ðen ɒn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_014",
+      "word": "deep",
+      "meaning": "深的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "deep water",
+        "deep sleep",
+        "deep breath"
+      ],
+      "sentence": "The river is very deep.",
+      "phonetic": "/diːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_1_015",
+      "word": "reach",
+      "meaning": "够到；到达",
+      "part_of_speech": "verb",
+      "phrase": [
+        "reach out",
+        "reach for",
+        "reach the top"
+      ],
+      "sentence": "The mouse can't reach the net.",
+      "phonetic": "/riːtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

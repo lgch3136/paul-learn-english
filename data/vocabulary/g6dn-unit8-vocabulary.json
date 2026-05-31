@@ -1,0 +1,247 @@
+{
+  "unit": "g6dn-unit8",
+  "unit_title": "Our dreams",
+  "theme": "我们的梦想",
+  "vocabulary": [
+    {
+      "word_id": "g6dn_8_001",
+      "word": "dream",
+      "meaning": "梦想",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dream of",
+        "dream come true",
+        "have a dream",
+        "big dream"
+      ],
+      "sentence": "What's your dream?",
+      "phonetic": "/driːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_002",
+      "word": "future",
+      "meaning": "未来",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the future",
+        "future plan",
+        "bright future"
+      ],
+      "sentence": "What do you want to be in the future?",
+      "phonetic": "/ˈfjuːtʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_003",
+      "word": "astronaut",
+      "meaning": "宇航员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "become an astronaut",
+        "astronaut suit",
+        "space astronaut"
+      ],
+      "sentence": "I want to be an astronaut.",
+      "phonetic": "/ˈæstrənɔːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_004",
+      "word": "dancer",
+      "meaning": "舞蹈家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "become a dancer",
+        "ballet dancer",
+        "professional dancer"
+      ],
+      "sentence": "She wants to be a dancer.",
+      "phonetic": "/ˈdænsər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_005",
+      "word": "scientist",
+      "meaning": "科学家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "become a scientist",
+        "famous scientist",
+        "young scientist"
+      ],
+      "sentence": "He wants to be a scientist.",
+      "phonetic": "/ˈsaɪəntɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_006",
+      "word": "pianist",
+      "meaning": "钢琴家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "become a pianist",
+        "famous pianist",
+        "young pianist"
+      ],
+      "sentence": "She wants to be a pianist.",
+      "phonetic": "/ˈpiːənɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_007",
+      "word": "artist",
+      "meaning": "画家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "become an artist",
+        "famous artist",
+        "young artist"
+      ],
+      "sentence": "He wants to be an artist.",
+      "phonetic": "/ˈɑːrtɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_008",
+      "word": "football player",
+      "meaning": "足球运动员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "become a football player",
+        "professional football player"
+      ],
+      "sentence": "He wants to be a football player.",
+      "phonetic": "/ˈfʊtbɔːl ˈpleɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_009",
+      "word": "care about",
+      "meaning": "关心",
+      "part_of_speech": "verb",
+      "phrase": [
+        "care about others",
+        "care about the environment",
+        "really care about"
+      ],
+      "sentence": "Dancers care about their health.",
+      "phonetic": "/keər əˈbaʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_010",
+      "word": "health",
+      "meaning": "健康",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good health",
+        "health care",
+        "health food"
+      ],
+      "sentence": "Health is important for everyone.",
+      "phonetic": "/helθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_011",
+      "word": "brave",
+      "meaning": "勇敢的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "brave enough",
+        "brave person",
+        "brave act"
+      ],
+      "sentence": "Astronauts are very brave.",
+      "phonetic": "/breɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_012",
+      "word": "paint",
+      "meaning": "画画",
+      "part_of_speech": "verb",
+      "phrase": [
+        "paint pictures",
+        "paint the wall",
+        "paint a picture"
+      ],
+      "sentence": "Artists paint beautiful pictures.",
+      "phonetic": "/peɪnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_013",
+      "word": "study",
+      "meaning": "学习",
+      "part_of_speech": "verb",
+      "phrase": [
+        "study hard",
+        "study English",
+        "study for a test"
+      ],
+      "sentence": "I want to study hard.",
+      "phonetic": "/ˈstʌdi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_014",
+      "word": "come true",
+      "meaning": "实现",
+      "part_of_speech": "verb",
+      "phrase": [
+        "dream comes true",
+        "wish comes true",
+        "make it come true"
+      ],
+      "sentence": "I hope your dream comes true.",
+      "phonetic": "/kʌm truː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_8_015",
+      "word": "believe",
+      "meaning": "相信",
+      "part_of_speech": "verb",
+      "phrase": [
+        "believe in",
+        "believe yourself",
+        "I believe"
+      ],
+      "sentence": "I believe I can do it.",
+      "phonetic": "/bɪˈliːv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

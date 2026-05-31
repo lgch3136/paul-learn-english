@@ -1,0 +1,248 @@
+{
+  "unit": "g6dn-unit2",
+  "unit_title": "Good habits",
+  "theme": "好习惯",
+  "vocabulary": [
+    {
+      "word_id": "g6dn_2_001",
+      "word": "habit",
+      "meaning": "习惯",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good habit",
+        "bad habit",
+        "eating habit"
+      ],
+      "sentence": "Good habits are important.",
+      "phonetic": "/ˈhæbɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_002",
+      "word": "tidy",
+      "meaning": "整洁的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "tidy up",
+        "keep tidy",
+        "very tidy"
+      ],
+      "sentence": "His room is always tidy.",
+      "phonetic": "/ˈtaɪdi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_003",
+      "word": "messy",
+      "meaning": "凌乱的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "messy room",
+        "messy desk",
+        "very messy"
+      ],
+      "sentence": "Her room is always messy.",
+      "phonetic": "/ˈmesi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_004",
+      "word": "early",
+      "meaning": "早的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "get up early",
+        "early morning",
+        "early bird"
+      ],
+      "sentence": "He gets up early every day.",
+      "phonetic": "/ˈɜːrli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_005",
+      "word": "late",
+      "meaning": "迟的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be late for",
+        "late at night",
+        "too late"
+      ],
+      "sentence": "She is never late for school.",
+      "phonetic": "/leɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_006",
+      "word": "never",
+      "meaning": "从不",
+      "part_of_speech": "adv",
+      "phrase": [
+        "never late",
+        "never give up",
+        "never forget"
+      ],
+      "sentence": "He is never late for school.",
+      "phonetic": "/ˈnevər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_007",
+      "word": "before",
+      "meaning": "在…以前",
+      "part_of_speech": "prep",
+      "phrase": [
+        "before class",
+        "before dinner",
+        "the day before"
+      ],
+      "sentence": "I do homework before dinner.",
+      "phonetic": "/bɪˈfɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_008",
+      "word": "finish",
+      "meaning": "完成",
+      "part_of_speech": "verb",
+      "phrase": [
+        "finish homework",
+        "finish eating",
+        "finish doing"
+      ],
+      "sentence": "I finish my homework first.",
+      "phonetic": "/ˈfɪnɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_009",
+      "word": "sleepy",
+      "meaning": "困的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel sleepy",
+        "sleepy head",
+        "very sleepy"
+      ],
+      "sentence": "He feels sleepy in class.",
+      "phonetic": "/ˈsliːpi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_010",
+      "word": "listen to",
+      "meaning": "听",
+      "part_of_speech": "verb",
+      "phrase": [
+        "listen to music",
+        "listen to the teacher",
+        "listen carefully"
+      ],
+      "sentence": "You should listen to the teacher.",
+      "phonetic": "/ˈlɪsn tuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_011",
+      "word": "walk",
+      "meaning": "走；走路",
+      "part_of_speech": "verb",
+      "phrase": [
+        "walk slowly",
+        "walk fast",
+        "walk to school",
+        "go for a walk"
+      ],
+      "sentence": "He walks to school every day.",
+      "phonetic": "/wɔːk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_012",
+      "word": "slowly",
+      "meaning": "慢地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "walk slowly",
+        "speak slowly",
+        "slowly but surely"
+      ],
+      "sentence": "Please walk slowly.",
+      "phonetic": "/ˈsloʊli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_013",
+      "word": "quickly",
+      "meaning": "快地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "run quickly",
+        "walk quickly",
+        "finish quickly"
+      ],
+      "sentence": "He runs quickly.",
+      "phonetic": "/ˈkwɪkli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_014",
+      "word": "badly",
+      "meaning": "糟糕地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "do badly",
+        "behave badly",
+        "badly hurt"
+      ],
+      "sentence": "He did badly in the test.",
+      "phonetic": "/ˈbædli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_2_015",
+      "word": "well",
+      "meaning": "好地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "do well",
+        "behave well",
+        "very well"
+      ],
+      "sentence": "She does well in English.",
+      "phonetic": "/wel/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

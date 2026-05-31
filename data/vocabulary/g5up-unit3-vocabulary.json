@@ -1,0 +1,243 @@
+{
+  "unit": "g5up-unit3",
+  "unit_title": "Our animal friends",
+  "theme": "动物描述",
+  "vocabulary": [
+    {
+      "word_id": "g5up_3_001",
+      "word": "animal",
+      "meaning": "动物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "animal friend",
+        "wild animal",
+        "animal world"
+      ],
+      "sentence": "Dogs are my favourite animals.",
+      "phonetic": "/ˈænɪməl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_002",
+      "word": "body",
+      "meaning": "身体",
+      "part_of_speech": "noun",
+      "phrase": [
+        "body language",
+        "human body",
+        "body parts"
+      ],
+      "sentence": "A fish has no legs or arms.",
+      "phonetic": "/ˈbɒdi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_003",
+      "word": "leg",
+      "meaning": "腿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "long legs",
+        "broken leg",
+        "leg of the table"
+      ],
+      "sentence": "A dog has four legs.",
+      "phonetic": "/leɡ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_004",
+      "word": "arm",
+      "meaning": "手臂",
+      "part_of_speech": "noun",
+      "phrase": [
+        "arm in arm",
+        "hold in your arms"
+      ],
+      "sentence": "A monkey has two long arms.",
+      "phonetic": "/ɑːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_005",
+      "word": "wing",
+      "meaning": "翅膀",
+      "part_of_speech": "noun",
+      "phrase": [
+        "spread its wings",
+        "left wing",
+        "right wing"
+      ],
+      "sentence": "A bird has two wings.",
+      "phonetic": "/wɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_006",
+      "word": "foot",
+      "meaning": "脚",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on foot",
+        "foot step",
+        "at the foot of"
+      ],
+      "sentence": "A duck has big feet.",
+      "phonetic": "/fʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_007",
+      "word": "tail",
+      "meaning": "尾巴",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tail wagging",
+        "long tail",
+        "short tail"
+      ],
+      "sentence": "A rabbit has a short tail.",
+      "phonetic": "/teɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_008",
+      "word": "eye",
+      "meaning": "眼睛",
+      "part_of_speech": "noun",
+      "phrase": [
+        "open your eyes",
+        "blue eyes",
+        "eye contact"
+      ],
+      "sentence": "A fish has big eyes.",
+      "phonetic": "/aɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_009",
+      "word": "ear",
+      "meaning": "耳朵",
+      "part_of_speech": "noun",
+      "phrase": [
+        "big ears",
+        "ear ring",
+        "play it by ear"
+      ],
+      "sentence": "A rabbit has long ears.",
+      "phonetic": "/ɪr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_010",
+      "word": "body",
+      "meaning": "身体部位",
+      "part_of_speech": "noun",
+      "phrase": [
+        "body parts",
+        "human body",
+        "whole body"
+      ],
+      "sentence": "This animal has no body hair.",
+      "phonetic": "/ˈbɒdi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_011",
+      "word": "give",
+      "meaning": "给",
+      "part_of_speech": "verb",
+      "phrase": [
+        "give me",
+        "give up",
+        "give away"
+      ],
+      "sentence": "Give me your hand.",
+      "phonetic": "/ɡɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_012",
+      "word": "one…, the other",
+      "meaning": "一个…另一个",
+      "part_of_speech": "pron",
+      "phrase": [
+        "one hand...the other",
+        "one eye...the other"
+      ],
+      "sentence": "I have two dogs. One is big, the other is small.",
+      "phonetic": "/wʌn...ðɪ ˈʌðər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_013",
+      "word": "finger",
+      "meaning": "手指",
+      "part_of_speech": "noun",
+      "phrase": [
+        "finger print",
+        "point a finger",
+        "cross your fingers"
+      ],
+      "sentence": "I have ten fingers.",
+      "phonetic": "/ˈfɪŋɡər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_014",
+      "word": "rainbow",
+      "meaning": "彩虹",
+      "part_of_speech": "noun",
+      "phrase": [
+        "rainbow colors",
+        "over the rainbow"
+      ],
+      "sentence": "Look at the beautiful rainbow!",
+      "phonetic": "/ˈreɪnboʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_3_015",
+      "word": "parrot",
+      "meaning": "鹦鹉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "parrot talk",
+        "pet parrot"
+      ],
+      "sentence": "The parrot can talk.",
+      "phonetic": "/ˈpærət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

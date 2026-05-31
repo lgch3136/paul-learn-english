@@ -1,0 +1,248 @@
+{
+  "unit": "g4dn-unit2",
+  "unit_title": "Whose dress is this?",
+  "theme": "服装",
+  "vocabulary": [
+    {
+      "word_id": "g4dn_010_sunny",
+      "word": "sunny",
+      "meaning": "晴朗的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a sunny day"
+      ],
+      "sentence": "It's sunny today.",
+      "phonetic": "/ˈsʌni/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "晴朗的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_011_cloudy",
+      "word": "cloudy",
+      "meaning": "多云的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a cloudy day"
+      ],
+      "sentence": "It's cloudy today.",
+      "phonetic": "/ˈklaʊdi/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "多云的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_012_rainy",
+      "word": "rainy",
+      "meaning": "下雨的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a rainy day"
+      ],
+      "sentence": "It's rainy today.",
+      "phonetic": "/ˈreɪni/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "下雨的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_013_windy",
+      "word": "windy",
+      "meaning": "有风的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a windy day"
+      ],
+      "sentence": "It's windy today.",
+      "phonetic": "/ˈwɪndi/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "有风的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_014_snowy",
+      "word": "snowy",
+      "meaning": "下雪的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a snowy day"
+      ],
+      "sentence": "It's snowy in winter.",
+      "phonetic": "/ˈsnəʊi/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "下雪的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_015_foggy",
+      "word": "foggy",
+      "meaning": "有雾的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a foggy day"
+      ],
+      "sentence": "It's foggy this morning.",
+      "phonetic": "/ˈfɒɡi/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "有雾的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_016_rain",
+      "word": "rain",
+      "meaning": "雨",
+      "part_of_speech": "noun",
+      "phrase": [
+        "heavy rain"
+      ],
+      "sentence": "I don't like the rain.",
+      "phonetic": "/reɪn/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "雨",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_017_snow",
+      "word": "snow",
+      "meaning": "雪",
+      "part_of_speech": "noun",
+      "phrase": [
+        "white snow"
+      ],
+      "sentence": "I like snow.",
+      "phonetic": "/snəʊ/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "雪",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_018_weather",
+      "word": "weather",
+      "meaning": "天气",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the weather",
+        "weather forecast"
+      ],
+      "sentence": "How's the weather today?",
+      "phonetic": "/ˈweðər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "天气",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

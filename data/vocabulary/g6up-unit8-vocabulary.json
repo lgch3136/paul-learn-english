@@ -1,0 +1,241 @@
+{
+  "unit": "g6up-unit8",
+  "unit_title": "Chinese New Year",
+  "theme": "春节",
+  "vocabulary": [
+    {
+      "word_id": "g6up_8_001",
+      "word": "Chinese New Year",
+      "meaning": "春节",
+      "part_of_speech": "noun",
+      "phrase": [
+        "celebrate Chinese New Year",
+        "during Chinese New Year"
+      ],
+      "sentence": "Chinese New Year is coming!",
+      "phonetic": "/ˌtʃaɪˈniːz njuː jɪr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_002",
+      "word": "fireworks",
+      "meaning": "烟花",
+      "part_of_speech": "noun",
+      "phrase": [
+        "watch fireworks",
+        "set off fireworks",
+        "fireworks show"
+      ],
+      "sentence": "We watch fireworks at night.",
+      "phonetic": "/ˈfaɪərwɜːrks/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_003",
+      "word": "firecracker",
+      "meaning": "鞭炮",
+      "part_of_speech": "noun",
+      "phrase": [
+        "set off firecrackers",
+        "light firecrackers"
+      ],
+      "sentence": "People set off firecrackers.",
+      "phonetic": "/ˈfaɪərkrækər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_004",
+      "word": "red packet",
+      "meaning": "红包",
+      "part_of_speech": "noun",
+      "phrase": [
+        "give red packets",
+        "receive red packets",
+        "lucky red packet"
+      ],
+      "sentence": "I get red packets from my grandparents.",
+      "phonetic": "/red ˈpækɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_005",
+      "word": "dumpling",
+      "meaning": "饺子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make dumplings",
+        "eat dumplings",
+        "dumpling soup"
+      ],
+      "sentence": "We make dumplings together.",
+      "phonetic": "/ˈdʌmplɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_006",
+      "word": "lion dance",
+      "meaning": "舞狮",
+      "part_of_speech": "noun",
+      "phrase": [
+        "watch the lion dance",
+        "lion dance show"
+      ],
+      "sentence": "We watch the lion dance.",
+      "phonetic": "/ˈlaɪən dæns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_007",
+      "word": "plan",
+      "meaning": "计划",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a plan",
+        "plan to do",
+        "go according to plan"
+      ],
+      "sentence": "What are your plans for Chinese New Year?",
+      "phonetic": "/plæn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_008",
+      "word": "excited",
+      "meaning": "兴奋的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "very excited",
+        "excited about",
+        "excited to do"
+      ],
+      "sentence": "I'm very excited about Chinese New Year.",
+      "phonetic": "/ɪkˈsaɪtɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_009",
+      "word": "rich",
+      "meaning": "富有的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "rich food",
+        "rich man",
+        "get rich"
+      ],
+      "sentence": "We eat rich food at Chinese New Year.",
+      "phonetic": "/rɪtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_010",
+      "word": "famous",
+      "meaning": "著名的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "famous for",
+        "famous person",
+        "world famous"
+      ],
+      "sentence": "Hong Kong is famous for shopping.",
+      "phonetic": "/ˈfeɪməs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_011",
+      "word": "food",
+      "meaning": "食物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "rich food",
+        "fast food",
+        "Chinese food"
+      ],
+      "sentence": "We have lots of good food.",
+      "phonetic": "/fuːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_012",
+      "word": "get together",
+      "meaning": "聚会",
+      "part_of_speech": "verb",
+      "phrase": [
+        "get together with",
+        "family get together"
+      ],
+      "sentence": "Families get together at Chinese New Year.",
+      "phonetic": "/ɡet təˈɡeðər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_013",
+      "word": "Mid-Autumn Festival",
+      "meaning": "中秋节",
+      "part_of_speech": "noun",
+      "phrase": [
+        "celebrate Mid-Autumn Festival",
+        "during Mid-Autumn Festival"
+      ],
+      "sentence": "We eat mooncakes at Mid-Autumn Festival.",
+      "phonetic": "/mɪd ˈɔːtəm ˈfestɪvəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_014",
+      "word": "mooncake",
+      "meaning": "月饼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "eat mooncakes",
+        "make mooncakes",
+        "mooncake box"
+      ],
+      "sentence": "We eat mooncakes and watch the moon.",
+      "phonetic": "/ˈmuːnkeɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_8_015",
+      "word": "Spring Festival",
+      "meaning": "春节",
+      "part_of_speech": "noun",
+      "phrase": [
+        "celebrate Spring Festival",
+        "during Spring Festival"
+      ],
+      "sentence": "Spring Festival is the most important festival in China.",
+      "phonetic": "/sprɪŋ ˈfestɪvəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

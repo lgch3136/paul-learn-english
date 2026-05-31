@@ -1,0 +1,246 @@
+{
+  "unit": "g6up-unit6",
+  "unit_title": "Keep our city clean",
+  "theme": "环保",
+  "vocabulary": [
+    {
+      "word_id": "g6up_6_001",
+      "word": "city",
+      "meaning": "城市",
+      "part_of_speech": "noun",
+      "phrase": [
+        "big city",
+        "city centre",
+        "city life"
+      ],
+      "sentence": "Our city is very beautiful.",
+      "phonetic": "/ˈsɪti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_002",
+      "word": "clean",
+      "meaning": "干净的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "keep clean",
+        "clean up",
+        "clean water"
+      ],
+      "sentence": "Keep our city clean.",
+      "phonetic": "/kliːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_003",
+      "word": "dirty",
+      "meaning": "脏的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "dirty water",
+        "dirty air",
+        "dirty clothes"
+      ],
+      "sentence": "The river is very dirty.",
+      "phonetic": "/ˈdɜːrti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_004",
+      "word": "mess",
+      "meaning": "混乱",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a mess",
+        "in a mess",
+        "clean up the mess"
+      ],
+      "sentence": "Don't make a mess in the room.",
+      "phonetic": "/mes/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_005",
+      "word": "rubbish",
+      "meaning": "垃圾",
+      "part_of_speech": "noun",
+      "phrase": [
+        "pick up rubbish",
+        "rubbish bin",
+        "rubbish bag"
+      ],
+      "sentence": "Pick up the rubbish, please.",
+      "phonetic": "/ˈrʌbɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_006",
+      "word": "factory",
+      "meaning": "工厂",
+      "part_of_speech": "noun",
+      "phrase": [
+        "factory waste",
+        "factory worker",
+        "factory smoke"
+      ],
+      "sentence": "The factory makes the air dirty.",
+      "phonetic": "/ˈfæktəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_007",
+      "word": "smoke",
+      "meaning": "烟",
+      "part_of_speech": "noun",
+      "phrase": [
+        "smoke from",
+        "thick smoke",
+        "no smoke"
+      ],
+      "sentence": "There is a lot of smoke from the factory.",
+      "phonetic": "/smoʊk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_008",
+      "word": "air",
+      "meaning": "空气",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fresh air",
+        "air pollution",
+        "clean air"
+      ],
+      "sentence": "We need clean air.",
+      "phonetic": "/eər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_009",
+      "word": "plant",
+      "meaning": "种植",
+      "part_of_speech": "verb",
+      "phrase": [
+        "plant trees",
+        "plant flowers",
+        "plant a seed"
+      ],
+      "sentence": "We plant trees to keep the air clean.",
+      "phonetic": "/plɑːnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_010",
+      "word": "throw",
+      "meaning": "扔",
+      "part_of_speech": "verb",
+      "phrase": [
+        "throw away",
+        "throw out",
+        "throw to"
+      ],
+      "sentence": "Don't throw rubbish on the ground.",
+      "phonetic": "/θroʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_011",
+      "word": "ground",
+      "meaning": "地面",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the ground",
+        "ground floor",
+        "fall to the ground"
+      ],
+      "sentence": "Don't throw things on the ground.",
+      "phonetic": "/ɡraʊnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_012",
+      "word": "protect",
+      "meaning": "保护",
+      "part_of_speech": "verb",
+      "phrase": [
+        "protect the environment",
+        "protect animals",
+        "protect yourself"
+      ],
+      "sentence": "We should protect our city.",
+      "phonetic": "/prəˈtekt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_013",
+      "word": "keep",
+      "meaning": "保持",
+      "part_of_speech": "verb",
+      "phrase": [
+        "keep clean",
+        "keep quiet",
+        "keep doing"
+      ],
+      "sentence": "Keep our city clean.",
+      "phonetic": "/kiːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_014",
+      "word": "move...away",
+      "meaning": "搬走",
+      "part_of_speech": "verb",
+      "phrase": [
+        "move away from",
+        "move things away"
+      ],
+      "sentence": "The factory moved away from the city.",
+      "phonetic": "/muːv...əˈweɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_6_015",
+      "word": "dead",
+      "meaning": "死的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "dead tree",
+        "dead fish",
+        "dead end"
+      ],
+      "sentence": "Many fish are dead in the dirty river.",
+      "phonetic": "/ded/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

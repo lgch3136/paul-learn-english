@@ -1,0 +1,247 @@
+{
+  "unit": "g4up-unit4",
+  "unit_title": "I can play basketball",
+  "theme": "运动与能力",
+  "vocabulary": [
+    {
+      "word_id": "g4up_028_twenty_five",
+      "word": "twenty-five",
+      "meaning": "二十五",
+      "part_of_speech": "number",
+      "phrase": [
+        "twenty-five apples"
+      ],
+      "sentence": "There are twenty-five students.",
+      "phonetic": "/ˌtwenti ˈfaɪv/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "二十五",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_029_swim",
+      "word": "swim",
+      "meaning": "游泳",
+      "part_of_speech": "verb",
+      "phrase": [
+        "swim well",
+        "can swim"
+      ],
+      "sentence": "I can swim.",
+      "phonetic": "/swɪm/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "游泳",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_030_run",
+      "word": "run",
+      "meaning": "跑步",
+      "part_of_speech": "verb",
+      "phrase": [
+        "run fast"
+      ],
+      "sentence": "I can run fast.",
+      "phonetic": "/rʌn/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "跑步",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_031_jump",
+      "word": "jump",
+      "meaning": "跳",
+      "part_of_speech": "verb",
+      "phrase": [
+        "jump high"
+      ],
+      "sentence": "The rabbit can jump.",
+      "phonetic": "/dʒʌmp/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "跳",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_032_skate",
+      "word": "skate",
+      "meaning": "滑冰",
+      "part_of_speech": "verb",
+      "phrase": [
+        "go skating",
+        "can skate"
+      ],
+      "sentence": "I can skate.",
+      "phonetic": "/skeɪt/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "滑冰",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_033_ski",
+      "word": "ski",
+      "meaning": "滑雪",
+      "part_of_speech": "verb",
+      "phrase": [
+        "go skiing",
+        "can ski"
+      ],
+      "sentence": "He can ski very well.",
+      "phonetic": "/skiː/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "滑雪",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_034_ride",
+      "word": "ride",
+      "meaning": "骑",
+      "part_of_speech": "verb",
+      "phrase": [
+        "ride a bike",
+        "ride a horse"
+      ],
+      "sentence": "I can ride a bike.",
+      "phonetic": "/raɪd/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "骑",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_035_play_football",
+      "word": "play football",
+      "meaning": "踢足球",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "play football"
+      ],
+      "sentence": "I like to play football.",
+      "phonetic": "/pleɪ ˈfʊtbɔːl/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "踢足球",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_036_play_basketball",
+      "word": "play basketball",
+      "meaning": "打篮球",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "play basketball"
+      ],
+      "sentence": "He can play basketball.",
+      "phonetic": "/pleɪ ˈbɑːskɪtbɔːl/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "打篮球",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

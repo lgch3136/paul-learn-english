@@ -1,0 +1,309 @@
+{
+  "unit": "g3up-unit6",
+  "unit_title": "Colours",
+  "theme": "颜色",
+  "vocabulary": [
+    {
+      "word_id": "g3up_046_arm",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 5",
+      "section": "Story Time",
+      "word": "arm",
+      "meaning": "手臂",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my arms"
+      ],
+      "sentence": "I have two arms.",
+      "phonetic": "/ɑːm/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_047_look",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "look",
+      "meaning": "看",
+      "part_of_speech": "verb",
+      "phrase": [
+        "look at"
+      ],
+      "sentence": "Look at my dress.",
+      "phonetic": "/lʊk/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "动词形式错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_048_at",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "at",
+      "meaning": "在",
+      "part_of_speech": "preposition",
+      "phrase": [
+        "look at",
+        "at school"
+      ],
+      "sentence": "Look at the bird.",
+      "phonetic": "/æt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_049_dress",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "dress",
+      "meaning": "连衣裙",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a nice dress"
+      ],
+      "sentence": "Look at my dress.",
+      "phonetic": "/dres/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_050_shirt",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "shirt",
+      "meaning": "衬衫",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a T-shirt"
+      ],
+      "sentence": "He wears a shirt.",
+      "phonetic": "/ʃɜːt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_051_skirt",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "skirt",
+      "meaning": "短裙",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a red skirt"
+      ],
+      "sentence": "She has a skirt.",
+      "phonetic": "/skɜːt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_052_cap",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "cap",
+      "meaning": "帽子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a cap"
+      ],
+      "sentence": "This is my cap.",
+      "phonetic": "/kæp/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_053_jacket",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "jacket",
+      "meaning": "夹克",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a jacket"
+      ],
+      "sentence": "It's a nice jacket.",
+      "phonetic": "/ˈdʒækɪt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_054_great",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "great",
+      "meaning": "太好了",
+      "part_of_speech": "adjective",
+      "phrase": [],
+      "sentence": "Great! Let's go.",
+      "phonetic": "/ɡreɪt/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_055_new",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "new",
+      "meaning": "新的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "a new dress",
+        "new friend"
+      ],
+      "sentence": "It's a new cap.",
+      "phonetic": "/njuː/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3up_056_colour",
+      "grade": 3,
+      "book": "上册",
+      "unit": "Unit 6",
+      "section": "Story Time",
+      "word": "colour",
+      "meaning": "颜色",
+      "part_of_speech": "noun",
+      "phrase": [
+        "what colour"
+      ],
+      "sentence": "What colour is it?",
+      "phonetic": "/ˈkʌlə/",
+      "listen_audio": "",
+      "image_prompt": "",
+      "error_tags": [
+        "拼写错"
+      ],
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "unit": "g4dn-unit4",
+  "unit_title": "Drawing in the park",
+  "theme": "户外活动",
+  "vocabulary": [
+    {
+      "word_id": "g4dn_028_wake_up",
+      "word": "wake up",
+      "meaning": "醒来",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "wake up"
+      ],
+      "sentence": "I wake up at seven.",
+      "phonetic": "/weɪk ʌp/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "醒来",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_029_get_up",
+      "word": "get up",
+      "meaning": "起床",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "get up"
+      ],
+      "sentence": "I get up at seven.",
+      "phonetic": "/ɡet ʌp/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "起床",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_030_go_to_school",
+      "word": "go to school",
+      "meaning": "去上学",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "go to school"
+      ],
+      "sentence": "I go to school at eight.",
+      "phonetic": "/ɡə tuː skuːl/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "去上学",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_031_have_breakfast",
+      "word": "have breakfast",
+      "meaning": "吃早饭",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "have breakfast"
+      ],
+      "sentence": "I have breakfast at seven thirty.",
+      "phonetic": "/hæv ˈbrekfəst/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "吃早饭",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_032_have_lunch",
+      "word": "have lunch",
+      "meaning": "吃午饭",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "have lunch"
+      ],
+      "sentence": "I have lunch at twelve.",
+      "phonetic": "/hæv lʌntʃ/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "吃午饭",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_033_have_dinner",
+      "word": "have dinner",
+      "meaning": "吃晚饭",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "have dinner"
+      ],
+      "sentence": "I have dinner at six.",
+      "phonetic": "/hæv ˈdɪnər/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "吃晚饭",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_034_go_to_bed",
+      "word": "go to bed",
+      "meaning": "去睡觉",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "go to bed"
+      ],
+      "sentence": "I go to bed at nine.",
+      "phonetic": "/ɡə tuː bed/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "去睡觉",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_035_do_homework",
+      "word": "do homework",
+      "meaning": "做作业",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "do homework"
+      ],
+      "sentence": "I do homework after dinner.",
+      "phonetic": "/duː ˈhəʊmwɜːk/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "做作业",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_036_watch_TV",
+      "word": "watch TV",
+      "meaning": "看电视",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "watch TV"
+      ],
+      "sentence": "I watch TV after dinner.",
+      "phonetic": "/wɒtʃ ˌtiː ˈviː/",
+      "error_tags": [],
+      "unit": "Unit 4",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "看电视",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

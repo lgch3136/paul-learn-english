@@ -1,0 +1,247 @@
+{
+  "unit": "g6up-unit4",
+  "unit_title": "Then and now",
+  "theme": "过去和现在",
+  "vocabulary": [
+    {
+      "word_id": "g6up_4_001",
+      "word": "then",
+      "meaning": "那时",
+      "part_of_speech": "adv",
+      "phrase": [
+        "back then",
+        "just then",
+        "since then"
+      ],
+      "sentence": "Life was different then.",
+      "phonetic": "/ðen/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_002",
+      "word": "now",
+      "meaning": "现在",
+      "part_of_speech": "adv",
+      "phrase": [
+        "right now",
+        "by now",
+        "from now on"
+      ],
+      "sentence": "Now we have computers.",
+      "phonetic": "/naʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_003",
+      "word": "ago",
+      "meaning": "以前",
+      "part_of_speech": "adv",
+      "phrase": [
+        "long ago",
+        "a year ago",
+        "a moment ago"
+      ],
+      "sentence": "Ten years ago, there were no phones.",
+      "phonetic": "/əˈɡoʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_004",
+      "word": "telephone",
+      "meaning": "电话",
+      "part_of_speech": "noun",
+      "phrase": [
+        "telephone number",
+        "answer the telephone",
+        "mobile telephone"
+      ],
+      "sentence": "People use telephones now.",
+      "phonetic": "/ˈtelɪfəʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_005",
+      "word": "mobile phone",
+      "meaning": "手机",
+      "part_of_speech": "noun",
+      "phrase": [
+        "use a mobile phone",
+        "mobile phone number"
+      ],
+      "sentence": "Everyone has a mobile phone now.",
+      "phonetic": "/ˈmoʊbəl foʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_006",
+      "word": "invent",
+      "meaning": "发明",
+      "part_of_speech": "verb",
+      "phrase": [
+        "invent the phone",
+        "invent a new way",
+        "invent something"
+      ],
+      "sentence": "Who invented the telephone?",
+      "phonetic": "/ɪnˈvent/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_007",
+      "word": "newspaper",
+      "meaning": "报纸",
+      "part_of_speech": "noun",
+      "phrase": [
+        "read the newspaper",
+        "daily newspaper",
+        "newspaper stand"
+      ],
+      "sentence": "People read newspapers in the past.",
+      "phonetic": "/ˈnjuːzpeɪpər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_008",
+      "word": "watch",
+      "meaning": "观看",
+      "part_of_speech": "verb",
+      "phrase": [
+        "watch TV",
+        "watch a movie",
+        "watch out"
+      ],
+      "sentence": "We watch TV every day.",
+      "phonetic": "/wɒtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_009",
+      "word": "radio",
+      "meaning": "收音机",
+      "part_of_speech": "noun",
+      "phrase": [
+        "listen to the radio",
+        "radio station",
+        "radio show"
+      ],
+      "sentence": "People listened to the radio before.",
+      "phonetic": "/ˈreɪdioʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_010",
+      "word": "get",
+      "meaning": "得到",
+      "part_of_speech": "verb",
+      "phrase": [
+        "get information",
+        "get news",
+        "get better"
+      ],
+      "sentence": "We can get news from the Internet.",
+      "phonetic": "/ɡet/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_011",
+      "word": "news",
+      "meaning": "新闻",
+      "part_of_speech": "noun",
+      "phrase": [
+        "news paper",
+        "good news",
+        "bad news",
+        "news report"
+      ],
+      "sentence": "I read the news on my phone.",
+      "phonetic": "/njuːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_012",
+      "word": "e-book",
+      "meaning": "电子书",
+      "part_of_speech": "noun",
+      "phrase": [
+        "read an e-book",
+        "e-book reader",
+        "buy an e-book"
+      ],
+      "sentence": "I read e-books on my tablet.",
+      "phonetic": "/iː bʊk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_013",
+      "word": "spell",
+      "meaning": "拼写",
+      "part_of_speech": "verb",
+      "phrase": [
+        "spell the word",
+        "spell out",
+        "spelling bee"
+      ],
+      "sentence": "Can you spell your name?",
+      "phonetic": "/spel/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_014",
+      "word": "look up",
+      "meaning": "查阅",
+      "part_of_speech": "verb",
+      "phrase": [
+        "look up the word",
+        "look up to",
+        "look up at"
+      ],
+      "sentence": "You can look up new words online.",
+      "phonetic": "/lʊk ʌp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_4_015",
+      "word": "change",
+      "meaning": "变化",
+      "part_of_speech": "verb",
+      "phrase": [
+        "change into",
+        "for a change",
+        "make a change"
+      ],
+      "sentence": "The world has changed a lot.",
+      "phonetic": "/tʃeɪndʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

@@ -24,6 +24,11 @@ interface GradeGroup {
   units: { id: string; label: string; icon?: string }[]
 }
 
+interface SemesterGroup {
+  label: string
+  units: { id: string; label: string }[]
+}
+
 const gradeGroups: GradeGroup[] = [
   {
     id: 'grade3',
@@ -32,8 +37,18 @@ const gradeGroups: GradeGroup[] = [
     color: 'from-lime-400 to-green-500',
     borderColor: 'border-lime-300',
     units: [
-      { id: 'grade-3-up', label: '上册', icon: '📖' },
-      { id: 'grade-3-down', label: '下册', icon: '📖' },
+      { id: 'g3up-unit1', label: '上·U1' },
+      { id: 'g3up-unit2', label: '上·U2' },
+      { id: 'g3up-unit3', label: '上·U3' },
+      { id: 'g3up-unit4', label: '上·U4' },
+      { id: 'g3up-unit5', label: '上·U5' },
+      { id: 'g3up-unit6', label: '上·U6' },
+      { id: 'g3dn-unit1', label: '下·U1' },
+      { id: 'g3dn-unit2', label: '下·U2' },
+      { id: 'g3dn-unit3', label: '下·U3' },
+      { id: 'g3dn-unit4', label: '下·U4' },
+      { id: 'g3dn-unit5', label: '下·U5' },
+      { id: 'g3dn-unit6', label: '下·U6' },
     ],
   },
   {
@@ -43,8 +58,18 @@ const gradeGroups: GradeGroup[] = [
     color: 'from-sky-400 to-blue-500',
     borderColor: 'border-sky-300',
     units: [
-      { id: 'grade-4-up', label: '上册', icon: '📖' },
-      { id: 'grade-4-down', label: '下册', icon: '📖' },
+      { id: 'g4up-unit1', label: '上·U1' },
+      { id: 'g4up-unit2', label: '上·U2' },
+      { id: 'g4up-unit3', label: '上·U3' },
+      { id: 'g4up-unit4', label: '上·U4' },
+      { id: 'g4up-unit5', label: '上·U5' },
+      { id: 'g4up-unit6', label: '上·U6' },
+      { id: 'g4dn-unit1', label: '下·U1' },
+      { id: 'g4dn-unit2', label: '下·U2' },
+      { id: 'g4dn-unit3', label: '下·U3' },
+      { id: 'g4dn-unit4', label: '下·U4' },
+      { id: 'g4dn-unit5', label: '下·U5' },
+      { id: 'g4dn-unit6', label: '下·U6' },
     ],
   },
   {
@@ -54,15 +79,22 @@ const gradeGroups: GradeGroup[] = [
     color: 'from-orange-400 to-amber-500',
     borderColor: 'border-orange-300',
     units: [
-      { id: 'grade-5-up', label: '上册', icon: '📖' },
-      { id: 'Unit 1', label: 'Unit 1' },
-      { id: 'Unit 2', label: 'Unit 2' },
-      { id: 'Unit 3', label: 'Unit 3' },
-      { id: 'Unit 4', label: 'Unit 4' },
-      { id: 'Unit 5', label: 'Unit 5' },
-      { id: 'Unit 6', label: 'Unit 6' },
-      { id: 'Unit 7', label: 'Unit 7' },
-      { id: 'Unit 8', label: 'Unit 8' },
+      { id: 'g5up-unit1', label: '上·U1' },
+      { id: 'g5up-unit2', label: '上·U2' },
+      { id: 'g5up-unit3', label: '上·U3' },
+      { id: 'g5up-unit4', label: '上·U4' },
+      { id: 'g5up-unit5', label: '上·U5' },
+      { id: 'g5up-unit6', label: '上·U6' },
+      { id: 'g5up-unit7', label: '上·U7' },
+      { id: 'g5up-unit8', label: '上·U8' },
+      { id: 'Unit 1', label: '下·U1' },
+      { id: 'Unit 2', label: '下·U2' },
+      { id: 'Unit 3', label: '下·U3' },
+      { id: 'Unit 4', label: '下·U4' },
+      { id: 'Unit 5', label: '下·U5' },
+      { id: 'Unit 6', label: '下·U6' },
+      { id: 'Unit 7', label: '下·U7' },
+      { id: 'Unit 8', label: '下·U8' },
     ],
   },
   {
@@ -72,8 +104,22 @@ const gradeGroups: GradeGroup[] = [
     color: 'from-rose-400 to-pink-500',
     borderColor: 'border-rose-300',
     units: [
-      { id: 'grade-6-up', label: '上册', icon: '📖' },
-      { id: 'grade-6-down', label: '下册', icon: '📖' },
+      { id: 'g6up-unit1', label: '上·U1' },
+      { id: 'g6up-unit2', label: '上·U2' },
+      { id: 'g6up-unit3', label: '上·U3' },
+      { id: 'g6up-unit4', label: '上·U4' },
+      { id: 'g6up-unit5', label: '上·U5' },
+      { id: 'g6up-unit6', label: '上·U6' },
+      { id: 'g6up-unit7', label: '上·U7' },
+      { id: 'g6up-unit8', label: '上·U8' },
+      { id: 'g6dn-unit1', label: '下·U1' },
+      { id: 'g6dn-unit2', label: '下·U2' },
+      { id: 'g6dn-unit3', label: '下·U3' },
+      { id: 'g6dn-unit4', label: '下·U4' },
+      { id: 'g6dn-unit5', label: '下·U5' },
+      { id: 'g6dn-unit6', label: '下·U6' },
+      { id: 'g6dn-unit7', label: '下·U7' },
+      { id: 'g6dn-unit8', label: '下·U8' },
     ],
   },
 ]
@@ -233,7 +279,7 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
                 {/* 展开的单元列表 */}
                 {isExpanded && hasUnits && (
                   <div className="border-t border-gray-100 p-3 bg-gray-50/50">
-                    <div className={`grid ${grade.units.length > 4 ? 'grid-cols-4' : 'grid-cols-2'} gap-2`}>
+                    <div className={`grid ${grade.units.length > 8 ? 'grid-cols-6' : grade.units.length > 4 ? 'grid-cols-4' : 'grid-cols-2'} gap-2`}>
                       {grade.units.map(unit => {
                         const selected = selectedUnits.includes(unit.id)
                         return (

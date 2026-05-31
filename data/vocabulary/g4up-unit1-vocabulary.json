@@ -1,0 +1,247 @@
+{
+  "unit": "g4up-unit1",
+  "unit_title": "I like dogs",
+  "theme": "动物",
+  "vocabulary": [
+    {
+      "word_id": "g4up_001_horse",
+      "word": "horse",
+      "meaning": "马",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a horse"
+      ],
+      "sentence": "The horse can run fast.",
+      "phonetic": "/hɔːs/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "马",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_002_cow",
+      "word": "cow",
+      "meaning": "奶牛",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a cow"
+      ],
+      "sentence": "The cow gives us milk.",
+      "phonetic": "/kaʊ/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "奶牛",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_003_sheep",
+      "word": "sheep",
+      "meaning": "绵羊",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a sheep"
+      ],
+      "sentence": "The sheep is white.",
+      "phonetic": "/ʃiːp/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "绵羊",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_004_chicken",
+      "word": "chicken",
+      "meaning": "鸡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a chicken"
+      ],
+      "sentence": "I can see a chicken.",
+      "phonetic": "/ˈtʃɪkɪn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "鸡",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_005_duck",
+      "word": "duck",
+      "meaning": "鸭子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a duck"
+      ],
+      "sentence": "The duck can swim.",
+      "phonetic": "/dʌk/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "鸭子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_006_pig",
+      "word": "pig",
+      "meaning": "猪",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pig"
+      ],
+      "sentence": "The pig is fat.",
+      "phonetic": "/pɪɡ/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "猪",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_007_rabbit",
+      "word": "rabbit",
+      "meaning": "兔子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a rabbit"
+      ],
+      "sentence": "The rabbit is cute.",
+      "phonetic": "/ˈræbɪt/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "兔子",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_008_snake",
+      "word": "snake",
+      "meaning": "蛇",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a snake"
+      ],
+      "sentence": "The snake is long.",
+      "phonetic": "/sneɪk/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "蛇",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4up_009_mouse",
+      "word": "mouse",
+      "meaning": "老鼠",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a mouse"
+      ],
+      "sentence": "The mouse is small.",
+      "phonetic": "/maʊs/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "上册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "老鼠",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

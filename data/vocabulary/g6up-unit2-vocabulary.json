@@ -1,0 +1,245 @@
+{
+  "unit": "g6up-unit2",
+  "unit_title": "What a day!",
+  "theme": "天气",
+  "vocabulary": [
+    {
+      "word_id": "g6up_2_001",
+      "word": "sunny",
+      "meaning": "晴朗的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "sunny day",
+        "sunny side",
+        "bright and sunny"
+      ],
+      "sentence": "It was sunny yesterday.",
+      "phonetic": "/ˈsʌni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_002",
+      "word": "weather",
+      "meaning": "天气",
+      "part_of_speech": "noun",
+      "phrase": [
+        "weather forecast",
+        "bad weather",
+        "weather report"
+      ],
+      "sentence": "How is the weather today?",
+      "phonetic": "/ˈweðər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_003",
+      "word": "cloudy",
+      "meaning": "多云的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "cloudy sky",
+        "partly cloudy"
+      ],
+      "sentence": "It was cloudy this morning.",
+      "phonetic": "/ˈklaʊdi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_004",
+      "word": "rainy",
+      "meaning": "下雨的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "rainy day",
+        "rainy season",
+        "rainy weather"
+      ],
+      "sentence": "It was rainy yesterday.",
+      "phonetic": "/ˈreɪni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_005",
+      "word": "windy",
+      "meaning": "有风的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "windy day",
+        "windy weather",
+        "very windy"
+      ],
+      "sentence": "It was windy in the afternoon.",
+      "phonetic": "/ˈwɪndi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_006",
+      "word": "high",
+      "meaning": "高的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "fly high",
+        "high up",
+        "high speed"
+      ],
+      "sentence": "The kite flew too high.",
+      "phonetic": "/haɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_007",
+      "word": "honey",
+      "meaning": "蜂蜜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "honey bee",
+        "honey moon",
+        "sweet as honey"
+      ],
+      "sentence": "I found some honey.",
+      "phonetic": "/ˈhʌni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_008",
+      "word": "climb",
+      "meaning": "爬",
+      "part_of_speech": "verb",
+      "phrase": [
+        "climb up",
+        "climb the mountain",
+        "climb a tree"
+      ],
+      "sentence": "We climbed up the hill.",
+      "phonetic": "/klaɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_009",
+      "word": "near",
+      "meaning": "在…附近",
+      "part_of_speech": "prep",
+      "phrase": [
+        "near here",
+        "near by",
+        "come near"
+      ],
+      "sentence": "The park is near my house.",
+      "phonetic": "/nɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_010",
+      "word": "ant",
+      "meaning": "蚂蚁",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ant hill",
+        "ant colony",
+        "busy as an ant"
+      ],
+      "sentence": "An ant is very small.",
+      "phonetic": "/ænt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_011",
+      "word": "lose",
+      "meaning": "丢失",
+      "part_of_speech": "verb",
+      "phrase": [
+        "lose the way",
+        "lose weight",
+        "get lost"
+      ],
+      "sentence": "I lost my pencil.",
+      "phonetic": "/luːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_012",
+      "word": "know",
+      "meaning": "知道",
+      "part_of_speech": "verb",
+      "phrase": [
+        "I know",
+        "don't know",
+        "know about"
+      ],
+      "sentence": "I know the answer.",
+      "phonetic": "/noʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_013",
+      "word": "what happened",
+      "meaning": "发生了什么",
+      "part_of_speech": "noun",
+      "phrase": [
+        "what happened to",
+        "what happened next"
+      ],
+      "sentence": "What happened to you?",
+      "phonetic": "/wɒt ˈhæpənd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_014",
+      "word": "sad",
+      "meaning": "伤心的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel sad",
+        "sad story",
+        "sad face"
+      ],
+      "sentence": "He was sad about the rain.",
+      "phonetic": "/sæd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_2_015",
+      "word": "well",
+      "meaning": "好吧",
+      "part_of_speech": "int",
+      "phrase": [
+        "well done",
+        "very well",
+        "as well"
+      ],
+      "sentence": "Well, let's go home.",
+      "phonetic": "/wel/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

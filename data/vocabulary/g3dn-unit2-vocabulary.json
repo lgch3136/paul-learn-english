@@ -1,0 +1,243 @@
+{
+  "unit": "g3dn-unit2",
+  "unit_title": "In the library",
+  "theme": "图书馆",
+  "vocabulary": [
+    {
+      "word_id": "g3dn_010_one",
+      "word": "one",
+      "meaning": "一",
+      "part_of_speech": "number",
+      "phrase": [
+        "one two three"
+      ],
+      "sentence": "I have one dog.",
+      "phonetic": "/wʌn/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "一",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_011_two",
+      "word": "two",
+      "meaning": "二",
+      "part_of_speech": "number",
+      "phrase": [
+        "two books"
+      ],
+      "sentence": "I have two hands.",
+      "phonetic": "/tuː/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "二",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_012_three",
+      "word": "three",
+      "meaning": "三",
+      "part_of_speech": "number",
+      "phrase": [
+        "three cats"
+      ],
+      "sentence": "There are three birds.",
+      "phonetic": "/θriː/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "三",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_013_four",
+      "word": "four",
+      "meaning": "四",
+      "part_of_speech": "number",
+      "phrase": [
+        "four apples"
+      ],
+      "sentence": "I see four dogs.",
+      "phonetic": "/fɔːr/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "四",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_014_five",
+      "word": "five",
+      "meaning": "五",
+      "part_of_speech": "number",
+      "phrase": [
+        "five books"
+      ],
+      "sentence": "I have five pencils.",
+      "phonetic": "/faɪv/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "五",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_015_six",
+      "word": "six",
+      "meaning": "六",
+      "part_of_speech": "number",
+      "phrase": [
+        "six pens"
+      ],
+      "sentence": "There are six boxes.",
+      "phonetic": "/sɪks/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "六",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_016_seven",
+      "word": "seven",
+      "meaning": "七",
+      "part_of_speech": "number",
+      "phrase": [
+        "seven days"
+      ],
+      "sentence": "There are seven days in a week.",
+      "phonetic": "/ˈsevn/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "七",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_017_eight",
+      "word": "eight",
+      "meaning": "八",
+      "part_of_speech": "number",
+      "phrase": [
+        "eight students"
+      ],
+      "sentence": "I am eight years old.",
+      "phonetic": "/eɪt/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "八",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g3dn_018_nine",
+      "word": "nine",
+      "meaning": "九",
+      "part_of_speech": "number",
+      "phrase": [
+        "nine girls"
+      ],
+      "sentence": "Nine and one is ten.",
+      "phonetic": "/naɪn/",
+      "error_tags": [],
+      "unit": "Unit 2",
+      "grade": 3,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "九",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

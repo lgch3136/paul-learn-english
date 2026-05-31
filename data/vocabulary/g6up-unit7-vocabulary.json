@@ -1,0 +1,248 @@
+{
+  "unit": "g6up-unit7",
+  "unit_title": "Protect the Earth",
+  "theme": "保护地球",
+  "vocabulary": [
+    {
+      "word_id": "g6up_7_001",
+      "word": "Earth",
+      "meaning": "地球",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on Earth",
+        "save the Earth",
+        "Earth Day"
+      ],
+      "sentence": "We live on the Earth.",
+      "phonetic": "/ɜːrθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_002",
+      "word": "save",
+      "meaning": "节约；拯救",
+      "part_of_speech": "verb",
+      "phrase": [
+        "save water",
+        "save energy",
+        "save the Earth",
+        "save money"
+      ],
+      "sentence": "We should save water.",
+      "phonetic": "/seɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_003",
+      "word": "water",
+      "meaning": "水",
+      "part_of_speech": "noun",
+      "phrase": [
+        "drink water",
+        "water bottle",
+        "clean water"
+      ],
+      "sentence": "We should save water.",
+      "phonetic": "/ˈwɔːtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_004",
+      "word": "energy",
+      "meaning": "能源",
+      "part_of_speech": "noun",
+      "phrase": [
+        "save energy",
+        "solar energy",
+        "clean energy"
+      ],
+      "sentence": "We should save energy.",
+      "phonetic": "/ˈenərdʒi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_005",
+      "word": "wood",
+      "meaning": "木材",
+      "part_of_speech": "noun",
+      "phrase": [
+        "wood table",
+        "cut down wood",
+        "wood fire"
+      ],
+      "sentence": "We shouldn't waste wood.",
+      "phonetic": "/wʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_006",
+      "word": "plastic",
+      "meaning": "塑料",
+      "part_of_speech": "noun",
+      "phrase": [
+        "plastic bag",
+        "plastic bottle",
+        "plastic waste"
+      ],
+      "sentence": "We shouldn't use too many plastic bags.",
+      "phonetic": "/ˈplæstɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_007",
+      "word": "too many",
+      "meaning": "太多",
+      "part_of_speech": "det",
+      "phrase": [
+        "too many people",
+        "too many cars",
+        "too many things"
+      ],
+      "sentence": "There are too many cars.",
+      "phonetic": "/tuː ˈmeni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_008",
+      "word": "reuse",
+      "meaning": "再利用",
+      "part_of_speech": "verb",
+      "phrase": [
+        "reuse paper",
+        "reuse bags",
+        "reuse water"
+      ],
+      "sentence": "We can reuse paper.",
+      "phonetic": "/riːˈjuːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_009",
+      "word": "recycle",
+      "meaning": "回收",
+      "part_of_speech": "verb",
+      "phrase": [
+        "recycle bottles",
+        "recycle paper",
+        "recycle bin"
+      ],
+      "sentence": "We should recycle glass bottles.",
+      "phonetic": "/riːˈsaɪkəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_010",
+      "word": "glass",
+      "meaning": "玻璃",
+      "part_of_speech": "noun",
+      "phrase": [
+        "glass bottle",
+        "glass window",
+        "broken glass"
+      ],
+      "sentence": "We can reuse glass bottles.",
+      "phonetic": "/ɡlɑːs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_011",
+      "word": "bottle",
+      "meaning": "瓶子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "glass bottle",
+        "water bottle",
+        "bottle of"
+      ],
+      "sentence": "Don't throw away glass bottles.",
+      "phonetic": "/ˈbɒtl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_012",
+      "word": "come from",
+      "meaning": "来自",
+      "part_of_speech": "verb",
+      "phrase": [
+        "come from the sea",
+        "come from trees",
+        "where do you come from"
+      ],
+      "sentence": "Energy comes from the sun.",
+      "phonetic": "/kʌm frɒm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_013",
+      "word": "cut down",
+      "meaning": "砍伐",
+      "part_of_speech": "verb",
+      "phrase": [
+        "cut down trees",
+        "cut down on",
+        "cut it down"
+      ],
+      "sentence": "We shouldn't cut down too many trees.",
+      "phonetic": "/kʌt daʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_014",
+      "word": "too much",
+      "meaning": "太多",
+      "part_of_speech": "det",
+      "phrase": [
+        "too much water",
+        "too much noise",
+        "too much work"
+      ],
+      "sentence": "Don't waste too much water.",
+      "phonetic": "/tuː mʌtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6up_7_015",
+      "word": "use",
+      "meaning": "使用",
+      "part_of_speech": "verb",
+      "phrase": [
+        "use up",
+        "make use of",
+        "use your head"
+      ],
+      "sentence": "We should use paper bags.",
+      "phonetic": "/juːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "unit": "g5up-unit6",
+  "unit_title": "My e-friend",
+  "theme": "网友",
+  "vocabulary": [
+    {
+      "word_id": "g5up_6_001",
+      "word": "e-friend",
+      "meaning": "网友",
+      "part_of_speech": "noun",
+      "phrase": [
+        "e-friend from",
+        "my e-friend",
+        "talk to e-friend"
+      ],
+      "sentence": "I have an e-friend in the UK.",
+      "phonetic": "/iː frend/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_002",
+      "word": "country",
+      "meaning": "国家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my country",
+        "country side",
+        "other countries"
+      ],
+      "sentence": "He lives in a different country.",
+      "phonetic": "/ˈkʌntri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_003",
+      "word": "email",
+      "meaning": "电子邮件",
+      "part_of_speech": "noun",
+      "phrase": [
+        "send an email",
+        "email address",
+        "check email"
+      ],
+      "sentence": "I send emails to my e-friend.",
+      "phonetic": "/ˈiːmeɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_004",
+      "word": "live",
+      "meaning": "居住",
+      "part_of_speech": "verb",
+      "phrase": [
+        "live in",
+        "live with",
+        "live happily"
+      ],
+      "sentence": "He lives in the UK.",
+      "phonetic": "/lɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_005",
+      "word": "speak",
+      "meaning": "说",
+      "part_of_speech": "verb",
+      "phrase": [
+        "speak English",
+        "speak to",
+        "speak up"
+      ],
+      "sentence": "He speaks English.",
+      "phonetic": "/spiːk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_006",
+      "word": "Chinese",
+      "meaning": "中文",
+      "part_of_speech": "noun",
+      "phrase": [
+        "speak Chinese",
+        "Chinese food",
+        "Chinese people"
+      ],
+      "sentence": "I speak Chinese at home.",
+      "phonetic": "/ˌtʃaɪˈniːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_007",
+      "word": "age",
+      "meaning": "年龄",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at the age of",
+        "what age",
+        "old age"
+      ],
+      "sentence": "What's your age?",
+      "phonetic": "/eɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_008",
+      "word": "subject",
+      "meaning": "科目",
+      "part_of_speech": "noun",
+      "phrase": [
+        "favourite subject",
+        "main subject",
+        "subject teacher"
+      ],
+      "sentence": "My favourite subject is English.",
+      "phonetic": "/ˈsʌbdʒɪkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_009",
+      "word": "wait",
+      "meaning": "等候",
+      "part_of_speech": "verb",
+      "phrase": [
+        "wait for",
+        "wait a moment",
+        "can't wait"
+      ],
+      "sentence": "Please wait for me.",
+      "phonetic": "/weɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_010",
+      "word": "tomorrow",
+      "meaning": "明天",
+      "part_of_speech": "adv",
+      "phrase": [
+        "tomorrow morning",
+        "see you tomorrow",
+        "day after tomorrow"
+      ],
+      "sentence": "Let's go tomorrow.",
+      "phonetic": "/təˈmɒroʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_011",
+      "word": "turn",
+      "meaning": "转弯",
+      "part_of_speech": "verb",
+      "phrase": [
+        "turn left",
+        "turn right",
+        "take turns",
+        "your turn"
+      ],
+      "sentence": "It's your turn.",
+      "phonetic": "/tɜːrn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_012",
+      "word": "UK",
+      "meaning": "英国",
+      "part_of_speech": "noun",
+      "phrase": [
+        "from the UK",
+        "go to the UK"
+      ],
+      "sentence": "He is from the UK.",
+      "phonetic": "/juː keɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_013",
+      "word": "US",
+      "meaning": "美国",
+      "part_of_speech": "noun",
+      "phrase": [
+        "from the US",
+        "go to the US"
+      ],
+      "sentence": "She lives in the US.",
+      "phonetic": "/juː es/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_014",
+      "word": "favourite",
+      "meaning": "最喜欢的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "favourite food",
+        "my favourite",
+        "favourite colour"
+      ],
+      "sentence": "English is my favourite subject.",
+      "phonetic": "/ˈfeɪvərɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_6_015",
+      "word": "send",
+      "meaning": "发送",
+      "part_of_speech": "verb",
+      "phrase": [
+        "send email",
+        "send message",
+        "send a letter"
+      ],
+      "sentence": "I will send you an email.",
+      "phonetic": "/send/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

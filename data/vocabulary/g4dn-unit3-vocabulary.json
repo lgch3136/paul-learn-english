@@ -1,0 +1,258 @@
+{
+  "unit": "g4dn-unit3",
+  "unit_title": "What's the matter?",
+  "theme": "身体状况",
+  "vocabulary": [
+    {
+      "word_id": "g4dn_019_happy",
+      "word": "happy",
+      "meaning": "开心的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "very happy",
+        "be happy"
+      ],
+      "sentence": "I'm happy today.",
+      "phonetic": "/ˈhæpi/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "开心的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_020_sad",
+      "word": "sad",
+      "meaning": "伤心的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "very sad",
+        "be sad"
+      ],
+      "sentence": "Don't be sad.",
+      "phonetic": "/sæd/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "伤心的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_021_angry",
+      "word": "angry",
+      "meaning": "生气的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "be angry",
+        "very angry"
+      ],
+      "sentence": "Dad is angry.",
+      "phonetic": "/ˈæŋɡri/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "生气的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_022_tired",
+      "word": "tired",
+      "meaning": "累的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "be tired",
+        "feel tired"
+      ],
+      "sentence": "I'm tired.",
+      "phonetic": "/ˈtaɪəd/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "累的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_023_hungry",
+      "word": "hungry",
+      "meaning": "饿的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "be hungry",
+        "feel hungry"
+      ],
+      "sentence": "I'm hungry.",
+      "phonetic": "/ˈhʌŋɡri/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "饿的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_024_thirsty",
+      "word": "thirsty",
+      "meaning": "渴的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "be thirsty",
+        "feel thirsty"
+      ],
+      "sentence": "I'm thirsty.",
+      "phonetic": "/ˈθɜːsti/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "渴的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_025_afraid",
+      "word": "afraid",
+      "meaning": "害怕的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "be afraid of"
+      ],
+      "sentence": "I'm afraid of dogs.",
+      "phonetic": "/əˈfreɪd/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "害怕的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_026_ill",
+      "word": "ill",
+      "meaning": "生病的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "be ill",
+        "feel ill"
+      ],
+      "sentence": "She is ill today.",
+      "phonetic": "/ɪl/",
+      "error_tags": [],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "生病的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_027_worried",
+      "word": "worried",
+      "meaning": "担心的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "be worried about"
+      ],
+      "sentence": "Mum is worried about me.",
+      "phonetic": "/ˈwʌrid/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 3",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "担心的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

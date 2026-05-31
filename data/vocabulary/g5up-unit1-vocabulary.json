@@ -1,0 +1,246 @@
+{
+  "unit": "g5up-unit1",
+  "unit_title": "Goldilocks",
+  "theme": "童话故事",
+  "vocabulary": [
+    {
+      "word_id": "g5up_1_001",
+      "word": "bear",
+      "meaning": "熊",
+      "part_of_speech": "noun",
+      "phrase": [
+        "teddy bear",
+        "polar bear",
+        "bear hug"
+      ],
+      "sentence": "I see a bear in the zoo.",
+      "phonetic": "/beər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_002",
+      "word": "forest",
+      "meaning": "森林",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the forest",
+        "forest fire",
+        "rain forest"
+      ],
+      "sentence": "The forest is very big.",
+      "phonetic": "/ˈfɒrɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_003",
+      "word": "house",
+      "meaning": "房子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "house work",
+        "go home",
+        "house number"
+      ],
+      "sentence": "There is a house in the forest.",
+      "phonetic": "/haʊs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_004",
+      "word": "soup",
+      "meaning": "汤",
+      "part_of_speech": "noun",
+      "phrase": [
+        "chicken soup",
+        "hot soup",
+        "make soup"
+      ],
+      "sentence": "The soup is too hot.",
+      "phonetic": "/suːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_005",
+      "word": "room",
+      "meaning": "房间",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bedroom",
+        "living room",
+        "room number"
+      ],
+      "sentence": "This room is too cold.",
+      "phonetic": "/ruːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_006",
+      "word": "hard",
+      "meaning": "硬的",
+      "part_of_speech": "noun",
+      "phrase": [
+        "hard rock",
+        "work hard",
+        "hard work"
+      ],
+      "sentence": "This bed is too hard.",
+      "phonetic": "/hɑːrd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_007",
+      "word": "soft",
+      "meaning": "软的",
+      "part_of_speech": "noun",
+      "phrase": [
+        "soft toy",
+        "soft drink",
+        "soft music"
+      ],
+      "sentence": "This bed is too soft.",
+      "phonetic": "/sɒft/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_008",
+      "word": "afraid",
+      "meaning": "害怕的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be afraid of",
+        "afraid not",
+        "I'm afraid"
+      ],
+      "sentence": "I'm afraid of bears.",
+      "phonetic": "/əˈfreɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_009",
+      "word": "in front of",
+      "meaning": "在…前面",
+      "part_of_speech": "prep",
+      "phrase": [
+        "in front of the house",
+        "right in front of"
+      ],
+      "sentence": "There is a table in front of the bed.",
+      "phonetic": "/ɪn frʌnt ɒv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_010",
+      "word": "between",
+      "meaning": "在…中间",
+      "part_of_speech": "prep",
+      "phrase": [
+        "between A and B",
+        "in between"
+      ],
+      "sentence": "The bed is between two chairs.",
+      "phonetic": "/bɪˈtwiːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_011",
+      "word": "beside",
+      "meaning": "在…旁边",
+      "part_of_speech": "prep",
+      "phrase": [
+        "sit beside",
+        "right beside",
+        "beside the point"
+      ],
+      "sentence": "Come and sit beside me.",
+      "phonetic": "/bɪˈsaɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_012",
+      "word": "behind",
+      "meaning": "在…后面",
+      "part_of_speech": "prep",
+      "phrase": [
+        "behind the door",
+        "fall behind",
+        "behind schedule"
+      ],
+      "sentence": "The cat is behind the tree.",
+      "phonetic": "/bɪˈhaɪnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_013",
+      "word": "find",
+      "meaning": "找到",
+      "part_of_speech": "verb",
+      "phrase": [
+        "find out",
+        "I found",
+        "can't find",
+        "find a way"
+      ],
+      "sentence": "I can't find my pen.",
+      "phonetic": "/faɪnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_014",
+      "word": "really",
+      "meaning": "真的",
+      "part_of_speech": "adv",
+      "phrase": [
+        "really good",
+        "really nice",
+        "not really"
+      ],
+      "sentence": "It's really cold today.",
+      "phonetic": "/ˈriːəli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5up_1_015",
+      "word": "then",
+      "meaning": "然后",
+      "part_of_speech": "adv",
+      "phrase": [
+        "and then",
+        "just then",
+        "by then"
+      ],
+      "sentence": "I ate, then went to bed.",
+      "phonetic": "/ðen/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

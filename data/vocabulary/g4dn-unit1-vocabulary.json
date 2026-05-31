@@ -1,0 +1,251 @@
+{
+  "unit": "g4dn-unit1",
+  "unit_title": "I like dogs",
+  "theme": "动物",
+  "vocabulary": [
+    {
+      "word_id": "g4dn_001_spring",
+      "word": "spring",
+      "meaning": "春天",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in spring"
+      ],
+      "sentence": "Flowers bloom in spring.",
+      "phonetic": "/sprɪŋ/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "春天",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_002_summer",
+      "word": "summer",
+      "meaning": "夏天",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in summer"
+      ],
+      "sentence": "It's hot in summer.",
+      "phonetic": "/ˈsʌmər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "夏天",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_003_autumn",
+      "word": "autumn",
+      "meaning": "秋天",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in autumn"
+      ],
+      "sentence": "Leaves fall in autumn.",
+      "phonetic": "/ˈɔːtəm/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "秋天",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_004_winter",
+      "word": "winter",
+      "meaning": "冬天",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in winter"
+      ],
+      "sentence": "It's cold in winter.",
+      "phonetic": "/ˈwɪntər/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "冬天",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_005_season",
+      "word": "season",
+      "meaning": "季节",
+      "part_of_speech": "noun",
+      "phrase": [
+        "four seasons"
+      ],
+      "sentence": "There are four seasons.",
+      "phonetic": "/ˈsiːzn/",
+      "error_tags": [
+        "拼写错"
+      ],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "季节",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_006_warm",
+      "word": "warm",
+      "meaning": "温暖的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "warm weather"
+      ],
+      "sentence": "Spring is warm.",
+      "phonetic": "/wɔːm/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "温暖的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_007_hot",
+      "word": "hot",
+      "meaning": "热的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "hot weather",
+        "very hot"
+      ],
+      "sentence": "Summer is very hot.",
+      "phonetic": "/hɒt/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "热的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_008_cool",
+      "word": "cool",
+      "meaning": "凉爽的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "cool weather"
+      ],
+      "sentence": "Autumn is cool.",
+      "phonetic": "/kuːl/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "凉爽的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    },
+    {
+      "word_id": "g4dn_009_cold",
+      "word": "cold",
+      "meaning": "冷的",
+      "part_of_speech": "adjective",
+      "phrase": [
+        "cold weather",
+        "very cold"
+      ],
+      "sentence": "Winter is cold.",
+      "phonetic": "/kəʊld/",
+      "error_tags": [],
+      "unit": "Unit 1",
+      "grade": 4,
+      "book": "下册",
+      "section": "Story Time",
+      "listen_audio": "",
+      "image_prompt": "冷的",
+      "review_level": 0,
+      "abilities": {
+        "listen": 0,
+        "recognize": 0,
+        "speak": 0,
+        "spell": 0,
+        "use": 0
+      }
+    }
+  ]
+}

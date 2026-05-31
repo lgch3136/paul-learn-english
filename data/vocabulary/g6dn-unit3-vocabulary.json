@@ -1,0 +1,247 @@
+{
+  "unit": "g6dn-unit3",
+  "unit_title": "A healthy diet",
+  "theme": "健康饮食",
+  "vocabulary": [
+    {
+      "word_id": "g6dn_3_001",
+      "word": "diet",
+      "meaning": "饮食",
+      "part_of_speech": "noun",
+      "phrase": [
+        "healthy diet",
+        "go on a diet",
+        "balanced diet"
+      ],
+      "sentence": "A healthy diet is important.",
+      "phonetic": "/ˈdaɪət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_002",
+      "word": "healthy",
+      "meaning": "健康的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "healthy food",
+        "healthy diet",
+        "stay healthy"
+      ],
+      "sentence": "Fruit is healthy food.",
+      "phonetic": "/ˈhelθi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_003",
+      "word": "sweet",
+      "meaning": "甜的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "sweet food",
+        "sweet tooth",
+        "very sweet"
+      ],
+      "sentence": "Don't eat too many sweet things.",
+      "phonetic": "/swiːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_004",
+      "word": "a little",
+      "meaning": "一点",
+      "part_of_speech": "det",
+      "phrase": [
+        "a little water",
+        "a little tired",
+        "a little bit"
+      ],
+      "sentence": "She eats a little rice.",
+      "phonetic": "/ə ˈlɪtl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_005",
+      "word": "a few",
+      "meaning": "几个",
+      "part_of_speech": "det",
+      "phrase": [
+        "a few friends",
+        "a few days",
+        "quite a few"
+      ],
+      "sentence": "I have a few friends.",
+      "phonetic": "/ə fjuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_006",
+      "word": "at a time",
+      "meaning": "一次",
+      "part_of_speech": "noun",
+      "phrase": [
+        "one at a time",
+        "at a time",
+        "every time"
+      ],
+      "sentence": "You can eat a few sweets at a time.",
+      "phonetic": "/æt ə taɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_007",
+      "word": "cola",
+      "meaning": "可乐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a can of cola",
+        "drink cola",
+        "cola and chips"
+      ],
+      "sentence": "I don't drink too much cola.",
+      "phonetic": "/ˈkoʊlə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_008",
+      "word": "need",
+      "meaning": "需要",
+      "part_of_speech": "verb",
+      "phrase": [
+        "need to do",
+        "I need",
+        "what you need"
+      ],
+      "sentence": "You need a healthy diet.",
+      "phonetic": "/niːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_009",
+      "word": "should",
+      "meaning": "应该",
+      "part_of_speech": "modal",
+      "phrase": [
+        "you should",
+        "should not",
+        "should be"
+      ],
+      "sentence": "You should eat more vegetables.",
+      "phonetic": "/ʃʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_010",
+      "word": "vegetable",
+      "meaning": "蔬菜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "eat vegetables",
+        "green vegetables",
+        "fresh vegetables"
+      ],
+      "sentence": "Eat more vegetables.",
+      "phonetic": "/ˈvedʒtəbəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_011",
+      "word": "fruit",
+      "meaning": "水果",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fresh fruit",
+        "fruit juice",
+        "fruit salad"
+      ],
+      "sentence": "Eat more fruit.",
+      "phonetic": "/fruːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_012",
+      "word": "rice",
+      "meaning": "米饭",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fried rice",
+        "rice noodles",
+        "a bowl of rice"
+      ],
+      "sentence": "I eat a little rice for lunch.",
+      "phonetic": "/raɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_013",
+      "word": "bread",
+      "meaning": "面包",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a piece of bread",
+        "bread and butter",
+        "toast bread"
+      ],
+      "sentence": "I eat some bread for breakfast.",
+      "phonetic": "/bred/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_014",
+      "word": "milk",
+      "meaning": "牛奶",
+      "part_of_speech": "noun",
+      "phrase": [
+        "drink milk",
+        "a glass of milk",
+        "fresh milk"
+      ],
+      "sentence": "I drink a glass of milk every day.",
+      "phonetic": "/mɪlk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_3_015",
+      "word": "chicken",
+      "meaning": "鸡肉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fried chicken",
+        "chicken soup",
+        "chicken wings"
+      ],
+      "sentence": "I eat a little chicken for dinner.",
+      "phonetic": "/ˈtʃɪkɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

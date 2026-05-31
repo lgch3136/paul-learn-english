@@ -1,0 +1,246 @@
+{
+  "unit": "g6dn-unit6",
+  "unit_title": "An interesting country",
+  "theme": "国家介绍",
+  "vocabulary": [
+    {
+      "word_id": "g6dn_6_001",
+      "word": "country",
+      "meaning": "国家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "an interesting country",
+        "other countries",
+        "developing country"
+      ],
+      "sentence": "Australia is an interesting country.",
+      "phonetic": "/ˈkʌntri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_002",
+      "word": "interesting",
+      "meaning": "有趣的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "very interesting",
+        "interesting book",
+        "interesting story"
+      ],
+      "sentence": "Australia is very interesting.",
+      "phonetic": "/ˈɪntrəstɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_003",
+      "word": "Australia",
+      "meaning": "澳大利亚",
+      "part_of_speech": "noun",
+      "phrase": [
+        "from Australia",
+        "go to Australia",
+        "Australian flag"
+      ],
+      "sentence": "I want to go to Australia.",
+      "phonetic": "/ɒˈstreɪliə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_004",
+      "word": "kangaroo",
+      "meaning": "袋鼠",
+      "part_of_speech": "noun",
+      "phrase": [
+        "baby kangaroo",
+        "kangaroo jump",
+        "red kangaroo"
+      ],
+      "sentence": "Kangaroos live in Australia.",
+      "phonetic": "/ˌkæŋɡəˈruː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_005",
+      "word": "koala",
+      "meaning": "考拉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "koala bear",
+        "baby koala",
+        "cute koala"
+      ],
+      "sentence": "Koalas are very cute.",
+      "phonetic": "/koʊˈɑːlə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_006",
+      "word": "sport",
+      "meaning": "运动",
+      "part_of_speech": "noun",
+      "phrase": [
+        "favourite sport",
+        "play sport",
+        "sport day"
+      ],
+      "sentence": "Australians love sport.",
+      "phonetic": "/spɔːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_007",
+      "word": "visitor",
+      "meaning": "游客",
+      "part_of_speech": "noun",
+      "phrase": [
+        "foreign visitor",
+        "visitor centre",
+        "welcome visitors"
+      ],
+      "sentence": "Many visitors come to Australia.",
+      "phonetic": "/ˈvɪzɪtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_008",
+      "word": "find out",
+      "meaning": "发现",
+      "part_of_speech": "verb",
+      "phrase": [
+        "find out about",
+        "find out the truth",
+        "want to find out"
+      ],
+      "sentence": "I want to find out about Australia.",
+      "phonetic": "/faɪnd aʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_009",
+      "word": "learn about",
+      "meaning": "了解",
+      "part_of_speech": "verb",
+      "phrase": [
+        "learn about history",
+        "learn about animals",
+        "want to learn about"
+      ],
+      "sentence": "I want to learn about this country.",
+      "phonetic": "/lɜːrn əˈbaʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_010",
+      "word": "will",
+      "meaning": "将",
+      "part_of_speech": "modal",
+      "phrase": [
+        "I will",
+        "will do",
+        "will be"
+      ],
+      "sentence": "I will go to Australia.",
+      "phonetic": "/wɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_011",
+      "word": "welcome",
+      "meaning": "欢迎",
+      "part_of_speech": "noun",
+      "phrase": [
+        "welcome to",
+        "you're welcome",
+        "welcome back"
+      ],
+      "sentence": "Welcome to Australia!",
+      "phonetic": "/ˈwelkəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_012",
+      "word": "London",
+      "meaning": "伦敦",
+      "part_of_speech": "noun",
+      "phrase": [
+        "from London",
+        "go to London",
+        "London Bridge"
+      ],
+      "sentence": "London is a big city in the UK.",
+      "phonetic": "/ˈlʌndən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_013",
+      "word": "Oxford",
+      "meaning": "牛津",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Oxford University",
+        "Oxford Street"
+      ],
+      "sentence": "Oxford is famous for its university.",
+      "phonetic": "/ˈɒksfərd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_14",
+      "word": "Big Ben",
+      "meaning": "大本钟",
+      "part_of_speech": "noun",
+      "phrase": [
+        "visit Big Ben",
+        "near Big Ben",
+        "Big Ben clock"
+      ],
+      "sentence": "Big Ben is in London.",
+      "phonetic": "/bɪɡ ben/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g6dn_6_015",
+      "word": "exciting",
+      "meaning": "令人兴奋的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "very exciting",
+        "exciting news",
+        "exciting trip"
+      ],
+      "sentence": "The trip is very exciting.",
+      "phonetic": "/ɪkˈsaɪtɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}
