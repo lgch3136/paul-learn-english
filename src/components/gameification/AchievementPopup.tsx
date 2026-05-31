@@ -108,13 +108,13 @@ export default function AchievementPopup({ achievement, onClose }: AchievementPo
       {showParticles && (
         <canvas
           ref={canvasRef}
-          className="fixed inset-0 z-[60] pointer-events-none"
+          className="fixed inset-0 z-[120] pointer-events-none"
           style={{ position: 'fixed', top: 0, left: 0 }}
         />
       )}
 
       {/* 弹窗 */}
-      <div className={`fixed inset-0 z-50 flex items-center justify-center p-4 transition-all duration-500 ${
+      <div className={`fixed inset-0 z-[110] flex items-center justify-center p-4 transition-all duration-500 ${
         isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
       }`}>
         {/* 背景遮罩 */}

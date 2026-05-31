@@ -2,6 +2,13 @@ import { NextResponse } from 'next/server'
 import fs from 'fs'
 import path from 'path'
 
+// 成人阶段文件名映射
+const adultFileMap: Record<string, string> = {
+  'adult1': 'adult-basic-850-vocabulary.json',
+  'adult2': 'adult-ielts-vocabulary.json',
+  'adult3': 'adult-professional-vocabulary.json',
+}
+
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url)
@@ -21,8 +28,15 @@ export async function GET(request: Request) {
       return NextResponse.json({ success: true, unit: 'all', total_words: allVocabulary.length, vocabulary: allVocabulary })
     }
 
-    // 读取指定单元的单词数据
-    const filePath = path.join(vocabDir, `${unit.toLowerCase().replace(' ', '-')}-vocabulary.json`)
+    // 确定文件名
+    let fileName: string
+    if (adultFileMap[unit]) {
+      fileName = adultFileMap[unit]
+    } else {
+      fileName = `${unit.toLowerCase().replace(/ /g, '-')}-vocabulary.json`
+    }
+
+    const filePath = path.join(vocabDir, fileName)
 
     if (!fs.existsSync(filePath)) {
       return NextResponse.json({ success: true, unit, total_words: 0, vocabulary: [] })

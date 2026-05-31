@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import BackButton from '@/components/ui/BackButton'
 import { useRouter } from 'next/navigation'
 import { sounds } from '@/lib/sounds'
 import { loadPerformances, getPerformanceSummary } from '@/lib/question-scheduler'
@@ -67,16 +68,7 @@ export default function LessonPage() {
     <main className="min-h-screen p-4 sm:p-8">
       {/* 头部 */}
       <header className="text-center mb-8 pt-8">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 text-purple-600 hover:text-purple-700 mb-6 transition-colors"
-          onClick={() => sounds.click()}
-        >
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-          </svg>
-          返回首页
-        </Link>
+        <BackButton href="/" label="返回首页" />
         <h1 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-3">
           📚 今日练习
         </h1>

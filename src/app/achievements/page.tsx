@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import BackButton from '@/components/ui/BackButton'
 import { sounds } from '@/lib/sounds'
 import { achievements, Achievement, getCurrentLevel, getLevelProgress, titles } from '@/lib/gameification'
 import { loadPerformances, getPerformanceSummary } from '@/lib/question-scheduler'
@@ -59,9 +60,7 @@ export default function AchievementsPage() {
     <main className="min-h-screen p-4 sm:p-8">
       {/* 头部 */}
       <header className="text-center mb-8">
-        <Link href="/" className="text-blue-500 hover:text-blue-600 mb-4 inline-block">
-          ← 返回首页
-        </Link>
+        <BackButton href="/" />
         <h1 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-yellow-400 via-orange-500 to-pink-500 bg-clip-text text-transparent mb-3">
           🏆 成就殿堂
         </h1>

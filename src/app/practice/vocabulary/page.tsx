@@ -31,6 +31,7 @@ import ListeningMode from '@/components/practice/ListeningMode'
 import SpellingMode from '@/components/practice/SpellingMode'
 import AchievementPopup from '@/components/gameification/AchievementPopup'
 import PointsReward from '@/components/gameification/PointsReward'
+import BackButton from '@/components/ui/BackButton'
 import AnswerFeedback from '@/components/practice/AnswerFeedback'
 
 // 生成干扰选项
@@ -225,7 +226,9 @@ export default function VocabularyPractice() {
   // 检查成就 - 只弹出新解锁的成就
   const checkForAchievements = (sessionStats: PlayerStats, currentPoints: number, latestPerformances: Map<string, WordPerformance>) => {
     const cumulativeStats = getCumulativeStats(sessionStats, latestPerformances)
+    console.log('[成就] 累计统计:', cumulativeStats)
     const allMatching = checkAchievements(cumulativeStats)
+    console.log('[成就] 符合条件:', allMatching.map(a => a.id))
     // 重新从 localStorage 读取最新解锁状态，避免闭包陈旧
     let currentUnlockedIds: string[] = []
     try {
@@ -234,10 +237,14 @@ export default function VocabularyPractice() {
     } catch (e) {}
     // 过滤出尚未解锁的新成就
     const newlyUnlocked = allMatching.filter(a => !currentUnlockedIds.includes(a.id))
+    console.log('[成就] 新解锁:', newlyUnlocked.map(a => a.id), '已有:', currentUnlockedIds)
 
     if (newlyUnlocked.length > 0) {
       const latestAchievement = newlyUnlocked[newlyUnlocked.length - 1]
-      setUnlockedAchievement(latestAchievement)
+      // 延迟显示成就弹窗，等 AnswerFeedback 先播放完毕
+      setTimeout(() => {
+        setUnlockedAchievement(latestAchievement)
+      }, 1500)
 
       // 保存新解锁的成就到 localStorage
       const newIds = newlyUnlocked.map(a => a.id)
@@ -402,9 +409,7 @@ export default function VocabularyPractice() {
     return (
       <main className="min-h-screen p-4 sm:p-8">
         <header className="text-center mb-8">
-          <Link href="/" className="text-blue-500 hover:text-blue-600 mb-4 inline-block">
-            ← 返回首页
-          </Link>
+          <BackButton href="/" />
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
             🔤 单词闯关
           </h1>
@@ -428,9 +433,7 @@ export default function VocabularyPractice() {
             >
               ← 切换范围
             </button>
-            <Link href="/" className="text-blue-500 hover:text-blue-600">
-              首页
-            </Link>
+            <BackButton href="/" label="首页" />
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
             🔤 单词闯关
@@ -699,9 +702,7 @@ export default function VocabularyPractice() {
           >
             ← 切换模式
           </button>
-          <Link href="/" className="text-blue-500 hover:text-blue-600">
-            首页
-          </Link>
+          <BackButton href="/" label="首页" />
         </div>
         <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
           🔤 单词闯关

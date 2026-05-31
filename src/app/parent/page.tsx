@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import BackButton from '@/components/ui/BackButton'
 import { sounds } from '@/lib/sounds'
 import { achievements as allAchievements } from '@/lib/gameification'
 import {
@@ -108,9 +109,7 @@ export default function ParentPage() {
   return (
     <main className="min-h-screen p-4 sm:p-8">
       <header className="text-center mb-8">
-        <Link href="/" className="text-blue-500 hover:text-blue-600 mb-4 inline-block" onClick={() => sounds.click()}>
-          ← 返回首页
-        </Link>
+        <BackButton href="/" />
         <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">📋 学习报告</h1>
         <p className="text-gray-600">{report.date}</p>
       </header>
