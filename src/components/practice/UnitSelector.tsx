@@ -15,111 +15,109 @@ interface UnitSelectorProps {
   currentScope?: GameScope
 }
 
-interface GradeGroup {
+interface GradeData {
   id: string
   label: string
   icon: string
   color: string
-  borderColor: string
-  units: { id: string; label: string; icon?: string }[]
+  semesters: {
+    id: string
+    label: string
+    units: { id: string; label: string }[]
+  }[]
 }
 
-interface SemesterGroup {
-  label: string
-  units: { id: string; label: string }[]
-}
-
-const gradeGroups: GradeGroup[] = [
+const gradeData: GradeData[] = [
   {
-    id: 'grade3',
-    label: '三年级',
-    icon: '📗',
-    color: 'from-lime-400 to-green-500',
-    borderColor: 'border-lime-300',
-    units: [
-      { id: 'g3up-unit1', label: '上·U1' },
-      { id: 'g3up-unit2', label: '上·U2' },
-      { id: 'g3up-unit3', label: '上·U3' },
-      { id: 'g3up-unit4', label: '上·U4' },
-      { id: 'g3up-unit5', label: '上·U5' },
-      { id: 'g3up-unit6', label: '上·U6' },
-      { id: 'g3dn-unit1', label: '下·U1' },
-      { id: 'g3dn-unit2', label: '下·U2' },
-      { id: 'g3dn-unit3', label: '下·U3' },
-      { id: 'g3dn-unit4', label: '下·U4' },
-      { id: 'g3dn-unit5', label: '下·U5' },
-      { id: 'g3dn-unit6', label: '下·U6' },
+    id: 'g3', label: '三年级', icon: '📗', color: 'from-lime-400 to-green-500',
+    semesters: [
+      { id: 'g3up', label: '上册', units: [
+        { id: 'g3up-unit1', label: 'U1 Hello!' },
+        { id: 'g3up-unit2', label: "U2 I'm Liu Tao" },
+        { id: 'g3up-unit3', label: 'U3 My friends' },
+        { id: 'g3up-unit4', label: 'U4 My family' },
+        { id: 'g3up-unit5', label: 'U5 Look at me!' },
+        { id: 'g3up-unit6', label: 'U6 Colours' },
+      ]},
+      { id: 'g3dn', label: '下册', units: [
+        { id: 'g3dn-unit1', label: 'U1 In class' },
+        { id: 'g3dn-unit2', label: 'U2 In the library' },
+        { id: 'g3dn-unit3', label: "U3 Is this your pencil?" },
+        { id: 'g3dn-unit4', label: "U4 Where's the bird?" },
+        { id: 'g3dn-unit5', label: 'U5 How old are you?' },
+        { id: 'g3dn-unit6', label: "U6 What time is it?" },
+      ]},
     ],
   },
   {
-    id: 'grade4',
-    label: '四年级',
-    icon: '📘',
-    color: 'from-sky-400 to-blue-500',
-    borderColor: 'border-sky-300',
-    units: [
-      { id: 'g4up-unit1', label: '上·U1' },
-      { id: 'g4up-unit2', label: '上·U2' },
-      { id: 'g4up-unit3', label: '上·U3' },
-      { id: 'g4up-unit4', label: '上·U4' },
-      { id: 'g4up-unit5', label: '上·U5' },
-      { id: 'g4up-unit6', label: '上·U6' },
-      { id: 'g4dn-unit1', label: '下·U1' },
-      { id: 'g4dn-unit2', label: '下·U2' },
-      { id: 'g4dn-unit3', label: '下·U3' },
-      { id: 'g4dn-unit4', label: '下·U4' },
-      { id: 'g4dn-unit5', label: '下·U5' },
-      { id: 'g4dn-unit6', label: '下·U6' },
+    id: 'g4', label: '四年级', icon: '📘', color: 'from-sky-400 to-blue-500',
+    semesters: [
+      { id: 'g4up', label: '上册', units: [
+        { id: 'g4up-unit1', label: 'U1 I like dogs' },
+        { id: 'g4up-unit2', label: 'U2 Fruit salad' },
+        { id: 'g4up-unit3', label: 'U3 How many?' },
+        { id: 'g4up-unit4', label: 'U4 Basketball' },
+        { id: 'g4up-unit5', label: 'U5 Our new home' },
+        { id: 'g4up-unit6', label: 'U6 Snack bar' },
+      ]},
+      { id: 'g4dn', label: '下册', units: [
+        { id: 'g4dn-unit1', label: 'U1 My day' },
+        { id: 'g4dn-unit2', label: 'U2 After school' },
+        { id: 'g4dn-unit3', label: 'U3 My day' },
+        { id: 'g4dn-unit4', label: 'U4 Drawing' },
+        { id: 'g4dn-unit5', label: 'U5 Seasons' },
+        { id: 'g4dn-unit6', label: 'U6 Whose dress?' },
+      ]},
     ],
   },
   {
-    id: 'grade5',
-    label: '五年级',
-    icon: '📙',
-    color: 'from-orange-400 to-amber-500',
-    borderColor: 'border-orange-300',
-    units: [
-      { id: 'g5up-unit1', label: '上·U1' },
-      { id: 'g5up-unit2', label: '上·U2' },
-      { id: 'g5up-unit3', label: '上·U3' },
-      { id: 'g5up-unit4', label: '上·U4' },
-      { id: 'g5up-unit5', label: '上·U5' },
-      { id: 'g5up-unit6', label: '上·U6' },
-      { id: 'g5up-unit7', label: '上·U7' },
-      { id: 'g5up-unit8', label: '上·U8' },
-      { id: 'Unit 1', label: '下·U1' },
-      { id: 'Unit 2', label: '下·U2' },
-      { id: 'Unit 3', label: '下·U3' },
-      { id: 'Unit 4', label: '下·U4' },
-      { id: 'Unit 5', label: '下·U5' },
-      { id: 'Unit 6', label: '下·U6' },
-      { id: 'Unit 7', label: '下·U7' },
-      { id: 'Unit 8', label: '下·U8' },
+    id: 'g5', label: '五年级', icon: '📙', color: 'from-orange-400 to-amber-500',
+    semesters: [
+      { id: 'g5up', label: '上册', units: [
+        { id: 'g5up-unit1', label: 'U1 Goldilocks' },
+        { id: 'g5up-unit2', label: 'U2 A new student' },
+        { id: 'g5up-unit3', label: 'U3 Animal friends' },
+        { id: 'g5up-unit4', label: 'U4 Hobbies' },
+        { id: 'g5up-unit5', label: 'U5 What do they do?' },
+        { id: 'g5up-unit6', label: 'U6 My e-friend' },
+        { id: 'g5up-unit7', label: 'U7 At weekends' },
+        { id: 'g5up-unit8', label: 'U8 At Christmas' },
+      ]},
+      { id: 'g5dn', label: '下册', units: [
+        { id: 'Unit 1', label: 'U1 Cinderella' },
+        { id: 'Unit 2', label: 'U2 How do you come?' },
+        { id: 'Unit 3', label: 'U3 Asking the way' },
+        { id: 'Unit 4', label: 'U4 Seeing the doctor' },
+        { id: 'Unit 5', label: 'U5 Helping parents' },
+        { id: 'Unit 6', label: 'U6 In the kitchen' },
+        { id: 'Unit 7', label: 'U7 Chinese festivals' },
+        { id: 'Unit 8', label: 'U8 Birthdays' },
+      ]},
     ],
   },
   {
-    id: 'grade6',
-    label: '六年级',
-    icon: '📕',
-    color: 'from-rose-400 to-pink-500',
-    borderColor: 'border-rose-300',
-    units: [
-      { id: 'g6up-unit1', label: '上·U1' },
-      { id: 'g6up-unit2', label: '上·U2' },
-      { id: 'g6up-unit3', label: '上·U3' },
-      { id: 'g6up-unit4', label: '上·U4' },
-      { id: 'g6up-unit5', label: '上·U5' },
-      { id: 'g6up-unit6', label: '上·U6' },
-      { id: 'g6up-unit7', label: '上·U7' },
-      { id: 'g6up-unit8', label: '上·U8' },
-      { id: 'g6dn-unit1', label: '下·U1' },
-      { id: 'g6dn-unit2', label: '下·U2' },
-      { id: 'g6dn-unit3', label: '下·U3' },
-      { id: 'g6dn-unit4', label: '下·U4' },
-      { id: 'g6dn-unit5', label: '下·U5' },
-      { id: 'g6dn-unit6', label: '下·U6' },
-      { id: 'g6dn-unit7', label: '下·U7' },
-      { id: 'g6dn-unit8', label: '下·U8' },
+    id: 'g6', label: '六年级', icon: '📕', color: 'from-rose-400 to-pink-500',
+    semesters: [
+      { id: 'g6up', label: '上册', units: [
+        { id: 'g6up-unit1', label: "U1 King's clothes" },
+        { id: 'g6up-unit2', label: 'U2 What a day!' },
+        { id: 'g6up-unit3', label: 'U3 Holiday fun' },
+        { id: 'g6up-unit4', label: 'U4 Then and now' },
+        { id: 'g6up-unit5', label: 'U5 Signs' },
+        { id: 'g6up-unit6', label: 'U6 Keep city clean' },
+        { id: 'g6up-unit7', label: 'U7 Protect Earth' },
+        { id: 'g6up-unit8', label: 'U8 Chinese New Year' },
+      ]},
+      { id: 'g6dn', label: '下册', units: [
+        { id: 'g6dn-unit1', label: 'U1 Lion & mouse' },
+        { id: 'g6dn-unit2', label: 'U2 Good habits' },
+        { id: 'g6dn-unit3', label: 'U3 Healthy diet' },
+        { id: 'g6dn-unit4', label: 'U4 Road safety' },
+        { id: 'g6dn-unit5', label: 'U5 A party' },
+        { id: 'g6dn-unit6', label: 'U6 Interesting country' },
+        { id: 'g6dn-unit7', label: 'U7 Holiday plans' },
+        { id: 'g6dn-unit8', label: 'U8 Our dreams' },
+      ]},
     ],
   },
 ]
@@ -138,49 +136,66 @@ const questionCounts = [
 ]
 
 export default function UnitSelector({ onSelect, currentScope }: UnitSelectorProps) {
-  const [expandedGrade, setExpandedGrade] = useState<string | null>(null)
-  const [selectedUnits, setSelectedUnits] = useState<string[]>(currentScope?.units || [])
-  const [selectedCount, setSelectedCount] = useState(10)
   const [tab, setTab] = useState<'school' | 'adult'>('school')
+  const [expandedGrade, setExpandedGrade] = useState<string | null>(null)
+  const [expandedSemester, setExpandedSemester] = useState<string | null>(null)
+  const [checkedUnits, setCheckedUnits] = useState<string[]>([])
+  const [selectedCount, setSelectedCount] = useState(10)
 
   const handleSelect = (units: string[], label: string, type: GameScope['type'] = 'single') => {
     sounds.correct()
     onSelect({ type, units, label, questionCount: selectedCount })
   }
 
-  const handleAllHistory = () => {
-    handleSelect(['all'], '全部历史单词', 'all')
+  const handleAllHistory = () => handleSelect(['all'], '全部历史单词', 'all')
+
+  const handleGradeClick = (gradeId: string) => {
+    sounds.click()
+    setExpandedGrade(prev => prev === gradeId ? null : gradeId)
+    setExpandedSemester(null)
+    setCheckedUnits([])
   }
 
-  const toggleUnit = (unitId: string) => {
+  const handleSemesterAll = (grade: GradeData, semester: typeof gradeData[0]['semesters'][0]) => {
+    const allIds = semester.units.map(u => u.id)
+    handleSelect(allIds, `${grade.label}${semester.label}全部`, 'semester')
+  }
+
+  const handleSemesterExpand = (semesterId: string) => {
     sounds.click()
-    setSelectedUnits(prev =>
+    setExpandedSemester(prev => prev === semesterId ? null : semesterId)
+    setCheckedUnits([])
+  }
+
+  const toggleCheck = (unitId: string) => {
+    sounds.click()
+    setCheckedUnits(prev =>
       prev.includes(unitId) ? prev.filter(id => id !== unitId) : [...prev, unitId]
     )
   }
 
-  const handleCustomConfirm = () => {
-    if (selectedUnits.length === 0) return
-    const label = selectedUnits.length === 1
-      ? selectedUnits[0]
-      : `${selectedUnits[0]} 等${selectedUnits.length}个单元`
-    handleSelect(selectedUnits, label, selectedUnits.length === 1 ? 'single' : 'multiple')
+  const selectAllUnits = (units: { id: string }[]) => {
+    sounds.click()
+    const allIds = units.map(u => u.id)
+    const isAllChecked = allIds.every(id => checkedUnits.includes(id))
+    setCheckedUnits(isAllChecked ? [] : allIds)
   }
 
-  const toggleExpand = (gradeId: string) => {
-    sounds.click()
-    setExpandedGrade(prev => prev === gradeId ? null : gradeId)
-    setSelectedUnits([])
+  const handleCustomConfirm = () => {
+    if (checkedUnits.length === 0) return
+    const label = checkedUnits.length === 1
+      ? checkedUnits[0]
+      : `${checkedUnits.length}个单元`
+    handleSelect(checkedUnits, label, checkedUnits.length === 1 ? 'single' : 'multiple')
   }
 
   return (
     <div className="max-w-lg mx-auto">
-      {/* 顶部标题 */}
-      <div className="text-center mb-6">
+      <div className="text-center mb-5">
         <h2 className="text-xl font-bold text-gray-800">📖 选择练习范围</h2>
       </div>
 
-      {/* Tab：小学组 / 成人组 */}
+      {/* Tab */}
       <div className="flex bg-gray-100 rounded-2xl p-1 mb-5">
         {[
           { key: 'school' as const, label: '🎒 小学组', active: 'bg-white text-blue-600 shadow-lg' },
@@ -188,7 +203,7 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
         ].map(t => (
           <button
             key={t.key}
-            onClick={() => { sounds.click(); setTab(t.key); setExpandedGrade(null); setSelectedUnits([]) }}
+            onClick={() => { sounds.click(); setTab(t.key); setExpandedGrade(null); setExpandedSemester(null); setCheckedUnits([]) }}
             className={`flex-1 py-3 rounded-xl text-sm font-bold transition-all duration-300 ${
               tab === t.key ? t.active : 'text-gray-500 hover:text-gray-700'
             }`}
@@ -200,11 +215,11 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
 
       {/* ====== 小学组 ====== */}
       {tab === 'school' && (
-        <div className="space-y-3 mb-6">
-          {/* 全部历史 - 顶部醒目按钮 */}
+        <div className="space-y-2 mb-6">
+          {/* 全部历史 */}
           <button
             onClick={handleAllHistory}
-            className="w-full relative overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 text-white shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.02] active:scale-[0.98]"
+            className="w-full relative overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 text-white shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.01] active:scale-[0.99]"
           >
             <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -translate-y-12 translate-x-12" />
             <div className="relative flex items-center justify-between">
@@ -212,104 +227,125 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
                 <span className="text-3xl">🌍</span>
                 <div className="text-left">
                   <p className="font-bold text-lg">全部历史单词</p>
-                  <p className="text-xs opacity-80">三年级至五年级所有内容</p>
+                  <p className="text-xs opacity-80">三年级至六年级所有内容</p>
                 </div>
               </div>
               <span className="text-2xl opacity-70">→</span>
             </div>
           </button>
 
-          {/* 各年级卡片 */}
-          {gradeGroups.map(grade => {
+          {/* 各年级 */}
+          {gradeData.map(grade => {
             const isExpanded = expandedGrade === grade.id
-            const hasUnits = grade.units.length > 0
             return (
-              <div
-                key={grade.id}
-                className={`rounded-2xl border-2 overflow-hidden transition-all duration-300 ${
-                  isExpanded
-                    ? `${grade.borderColor} shadow-lg`
-                    : 'border-gray-100 hover:border-gray-200 hover:shadow-md'
-                }`}
-              >
+              <div key={grade.id} className={`rounded-2xl border-2 overflow-hidden transition-all duration-300 ${isExpanded ? 'border-gray-300 shadow-lg' : 'border-gray-100 hover:border-gray-200'}`}>
                 {/* 年级头部 */}
-                <div className="flex items-stretch">
-                  {/* 快速选择该年级全部 */}
-                  <button
-                    onClick={() => {
-                      if (!hasUnits) { sounds.wrong(); return }
-                      const allUnitIds = grade.units.map(u => u.id)
-                      handleSelect(allUnitIds, `${grade.label}全部`, 'semester')
-                    }}
-                    className={`flex-1 flex items-center gap-3 p-4 transition-all duration-300 ${
-                      hasUnits
-                        ? 'hover:bg-gray-50 active:bg-gray-100'
-                        : 'opacity-50 cursor-not-allowed'
-                    }`}
-                  >
+                <button
+                  onClick={() => handleGradeClick(grade.id)}
+                  className="w-full flex items-center justify-between p-4 hover:bg-gray-50 transition-colors"
+                >
+                  <div className="flex items-center gap-3">
                     <span className="text-3xl">{grade.icon}</span>
-                    <div className="text-left">
-                      <p className="font-bold text-gray-800">{grade.label}</p>
-                      <p className="text-xs text-gray-500">
-                        {hasUnits ? '点击选择全部' : '暂无数据'}
-                      </p>
-                    </div>
-                  </button>
+                    <span className="font-bold text-gray-800 text-lg">{grade.label}</span>
+                    <span className="text-xs text-gray-400">{grade.semesters.reduce((sum, s) => sum + s.units.length, 0)}个单元</span>
+                  </div>
+                  <svg className={`w-5 h-5 text-gray-400 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
 
-                  {/* 展开/收起按钮 */}
-                  {hasUnits && (
-                    <button
-                      onClick={() => toggleExpand(grade.id)}
-                      className={`px-4 flex items-center border-l transition-all duration-300 ${
-                        isExpanded ? 'bg-gray-50 border-gray-200' : 'border-gray-100 hover:bg-gray-50'
-                      }`}
-                    >
-                      <svg
-                        className={`w-5 h-5 text-gray-400 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                      </svg>
-                    </button>
-                  )}
-                </div>
+                {/* 学期列表 */}
+                {isExpanded && (
+                  <div className="border-t border-gray-100 px-4 pb-3 space-y-2">
+                    {grade.semesters.map(semester => {
+                      const isSemExpanded = expandedSemester === semester.id
+                      const allIds = semester.units.map(u => u.id)
+                      const allChecked = allIds.every(id => checkedUnits.includes(id))
+                      const someChecked = allIds.some(id => checkedUnits.includes(id))
+                      return (
+                        <div key={semester.id} className="rounded-xl bg-gray-50 overflow-hidden">
+                          {/* 学期头部 */}
+                          <div className="flex items-center">
+                            {/* 整册练习按钮 */}
+                            <button
+                              onClick={() => handleSemesterAll(grade, semester)}
+                              className="flex-1 flex items-center gap-2 px-3 py-2.5 text-left hover:bg-gray-100 transition-colors"
+                            >
+                              <span className="text-lg">📖</span>
+                              <span className="font-semibold text-gray-800 text-sm">{semester.label}</span>
+                              <span className="text-xs text-gray-400 ml-1">({semester.units.length}单元)</span>
+                              <span className="ml-auto text-xs text-blue-500 font-medium">整册练习→</span>
+                            </button>
+                            {/* 展开箭头 */}
+                            <button
+                              onClick={() => handleSemesterExpand(semester.id)}
+                              className="px-3 py-2.5 border-l border-gray-200 hover:bg-gray-100 transition-colors"
+                            >
+                              <svg className={`w-4 h-4 text-gray-400 transition-transform duration-300 ${isSemExpanded ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                              </svg>
+                            </button>
+                          </div>
 
-                {/* 展开的单元列表 */}
-                {isExpanded && hasUnits && (
-                  <div className="border-t border-gray-100 p-3 bg-gray-50/50">
-                    <div className={`grid ${grade.units.length > 8 ? 'grid-cols-6' : grade.units.length > 4 ? 'grid-cols-4' : 'grid-cols-2'} gap-2`}>
-                      {grade.units.map(unit => {
-                        const selected = selectedUnits.includes(unit.id)
-                        return (
-                          <button
-                            key={unit.id}
-                            onClick={() => toggleUnit(unit.id)}
-                            className={`py-2.5 px-3 rounded-xl text-center text-sm font-semibold transition-all duration-200 ${
-                              selected
-                                ? `bg-gradient-to-br ${grade.color} text-white shadow-md scale-105`
-                                : 'bg-white text-gray-700 shadow-sm hover:shadow-md hover:scale-105'
-                            }`}
-                          >
-                            {unit.icon && <span className="mr-1">{unit.icon}</span>}
-                            {unit.label}
-                          </button>
-                        )
-                      })}
-                    </div>
+                          {/* 单元列表（展开后） */}
+                          {isSemExpanded && (
+                            <div className="px-3 pb-3 space-y-2">
+                              {/* 全选/取消全选 */}
+                              <div className="flex items-center justify-between pt-1">
+                                <button
+                                  onClick={() => selectAllUnits(semester.units)}
+                                  className={`text-xs font-semibold px-3 py-1.5 rounded-full transition-all ${
+                                    allChecked
+                                      ? 'bg-gray-300 text-gray-600'
+                                      : `bg-gradient-to-r ${grade.color} text-white shadow-sm`
+                                  }`}
+                                >
+                                  {allChecked ? '取消全选' : '✓ 全选本册'}
+                                </button>
+                                {checkedUnits.length > 0 && (
+                                  <span className="text-xs text-gray-500">已选 {checkedUnits.filter(id => allIds.includes(id)).length} 个</span>
+                                )}
+                              </div>
 
-                    {/* 自定义确认 */}
-                    {selectedUnits.length > 0 && (
-                      <div className="mt-3 text-center">
-                        <button
-                          onClick={handleCustomConfirm}
-                          className={`bg-gradient-to-r ${grade.color} text-white font-bold py-2.5 px-6 rounded-xl text-sm shadow-lg transition-all duration-300 hover:shadow-xl active:scale-95`}
-                        >
-                          开始练习所选单元 🚀
-                        </button>
-                      </div>
-                    )}
+                              {/* 单元网格 */}
+                              <div className="grid grid-cols-3 gap-2">
+                                {semester.units.map(unit => {
+                                  const checked = checkedUnits.includes(unit.id)
+                                  return (
+                                    <button
+                                      key={unit.id}
+                                      onClick={() => toggleCheck(unit.id)}
+                                      className={`relative flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-medium transition-all duration-200 ${
+                                        checked
+                                          ? `bg-gradient-to-r ${grade.color} text-white shadow-md`
+                                          : 'bg-white text-gray-700 shadow-sm hover:shadow-md hover:scale-[1.03]'
+                                      }`}
+                                    >
+                                      <span className={`w-4 h-4 rounded-full border-2 flex items-center justify-center flex-shrink-0 transition-all ${
+                                        checked ? 'border-white bg-white/30' : 'border-gray-300'
+                                      }`}>
+                                        {checked && <span className="text-[10px] text-white font-bold">✓</span>}
+                                      </span>
+                                      <span className="truncate">{unit.label}</span>
+                                    </button>
+                                  )
+                                })}
+                              </div>
+
+                              {/* 开始按钮 */}
+                              {checkedUnits.filter(id => allIds.includes(id)).length > 0 && (
+                                <button
+                                  onClick={handleCustomConfirm}
+                                  className={`w-full bg-gradient-to-r ${grade.color} text-white font-bold py-2.5 rounded-xl text-sm shadow-lg transition-all duration-300 hover:shadow-xl active:scale-[0.98]`}
+                                >
+                                  开始练习 {checkedUnits.filter(id => allIds.includes(id)).length} 个单元 🚀
+                                </button>
+                              )}
+                            </div>
+                          )}
+                        </div>
+                      )
+                    })}
                   </div>
                 )}
               </div>
@@ -344,7 +380,7 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
         </div>
       )}
 
-      {/* ====== 题量选择 ====== */}
+      {/* 题量选择 */}
       <div className="mb-5">
         <div className="flex items-center gap-3 mb-3">
           <div className="flex-1 h-px bg-gray-200" />
@@ -370,9 +406,8 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
         </div>
       </div>
 
-      {/* 提示 */}
       <div className="text-center text-xs text-gray-400 mt-4 pb-4">
-        <p>💡 小学组：点击年级名称选择该年级全部 · 点击箭头展开选单元</p>
+        <p>💡 点击年级展开 → 点「整册练习」或展开选单元 → 勾选后开始</p>
       </div>
     </div>
   )
