@@ -10,29 +10,35 @@ import { loadPerformances, getPerformanceSummary } from '@/lib/question-schedule
 export default function LessonPage() {
   const router = useRouter()
   const [isStarting, setIsStarting] = useState(false)
-  const [streak, setStreak] = useState(1)
+  const [streak, setStreak] = useState(0)
   const [totalWords, setTotalWords] = useState(0)
   const [totalAnswered, setTotalAnswered] = useState(0)
 
   useEffect(() => {
     try {
       const saved = localStorage.getItem('paul_english_streak')
-      if (saved) setStreak(parseInt(saved))
-
-      // 记录今天学习了（更新连续天数）
       const lastDate = localStorage.getItem('paul_english_last_study_date')
       const today = new Date().toISOString().split('T')[0]
-      if (lastDate !== today) {
+
+      if (lastDate === today) {
+        // 今天已经学过了，显示当前 streak
+        if (saved) setStreak(parseInt(saved))
+      } else if (lastDate) {
         const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0]
         if (lastDate === yesterday) {
-          const newStreak = (parseInt(saved || '1') + 1)
+          // 连续学习，streak + 1
+          const newStreak = parseInt(saved || '0') + 1
           setStreak(newStreak)
           localStorage.setItem('paul_english_streak', newStreak.toString())
-        } else if (lastDate) {
-          setStreak(1)
-          localStorage.setItem('paul_english_streak', '1')
+        } else {
+          // 断了一天，重置 streak
+          setStreak(0)
+          localStorage.setItem('paul_english_streak', '0')
         }
         localStorage.setItem('paul_english_last_study_date', today)
+      } else {
+        // 新用户，streak = 0
+        setStreak(0)
       }
 
       // 加载学习统计
@@ -74,9 +80,11 @@ export default function LessonPage() {
         </h1>
         <p className="text-gray-600 text-lg">译林版小学英语</p>
         <div className="flex items-center justify-center gap-3 mt-4">
-          <span className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg">
-            🔥 连续 {streak} 天
-          </span>
+          {streak > 0 && (
+            <span className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg">
+              🔥 连续 {streak} 天
+            </span>
+          )}
           {totalWords > 0 && (
             <span className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-400 to-purple-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg">
               📚 已学 {totalWords} 词
@@ -104,7 +112,7 @@ export default function LessonPage() {
                 '🚀 一键开始练习'
               )}
             </button>
-            <p className="text-sm opacity-75 mt-3">包含单词、语法、复习全套练习</p>
+            <p className="text-sm opacity-75 mt-3">快速进入单词闯关练习</p>
           </div>
         </div>
       </section>

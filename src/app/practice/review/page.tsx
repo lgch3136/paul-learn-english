@@ -1,19 +1,28 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import Link from 'next/link'
 import BackButton from '@/components/ui/BackButton'
 import { sounds } from '@/lib/sounds'
 import { createConfetti, addConfettiStyle, vibrate } from '@/lib/animations'
 import {
   WordPerformance,
+  initializePerformance,
   loadPerformances,
   updatePerformance,
   savePerformances,
+  getPerformanceSummary,
 } from '@/lib/question-scheduler'
 import AchievementPopup from '@/components/gameification/AchievementPopup'
 import PointsReward from '@/components/gameification/PointsReward'
-import { Achievement, getRandomEncouragement } from '@/lib/gameification'
+import {
+  Achievement,
+  PlayerStats,
+  checkAchievements,
+  getRandomEncouragement,
+  getCurrentLevel,
+  getLevelProgress,
+} from '@/lib/gameification'
 
 interface VocabWord {
   word_id: string
@@ -53,6 +62,7 @@ export default function ReviewPractice() {
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
   const [showResult, setShowResult] = useState(false)
   const [score, setScore] = useState(0)
+  const [streak, setStreak] = useState(0)
   const [currentOptions, setCurrentOptions] = useState<string[]>([])
   const [encouragement, setEncouragement] = useState('')
   const [started, setStarted] = useState(false)
@@ -60,8 +70,36 @@ export default function ReviewPractice() {
   const [unlockedAchievement, setUnlockedAchievement] = useState<Achievement | null>(null)
   const [pointsReward, setPointsReward] = useState<{ points: number; message: string; icon: string } | null>(null)
   const [points, setPoints] = useState(0)
-  const [unlockedAchievementIds, setUnlockedAchievementIds] = useState<string[]>([])
+  const [stats, setStats] = useState<PlayerStats>({
+    totalWords: 0, correctAnswers: 0, wrongAnswers: 0,
+    streak: 0, maxStreak: 0, totalTime: 0, daysStudied: 1, perfectRounds: 0,
+  })
   const [performances, setPerformances] = useState<Map<string, WordPerformance>>(new Map())
+  const pendingAchievementRef = useRef<Achievement | null>(null)
+
+  // 稳定的成就弹窗关闭回调
+  const handleAchievementClose = useCallback(() => {
+    const pending = pendingAchievementRef.current
+    if (pending) {
+      pendingAchievementRef.current = null
+      try {
+        const saved = localStorage.getItem('paul_english_achievements')
+        let ids: string[] = saved ? JSON.parse(saved) : []
+        if (!ids.includes(pending.id)) {
+          ids.push(pending.id)
+          localStorage.setItem('paul_english_achievements', JSON.stringify(ids))
+        }
+      } catch (e) { console.error('保存成就失败:', e) }
+    }
+    setUnlockedAchievement(null)
+  }, [])
+
+  // 持久化积分
+  useEffect(() => {
+    if (points > 0) {
+      try { localStorage.setItem('paul_english_points', points.toString()) } catch (e) {}
+    }
+  }, [points])
 
   useEffect(() => {
     addConfettiStyle()
@@ -74,24 +112,19 @@ export default function ReviewPractice() {
       setPerformances(perf)
 
       try {
-        const saved = localStorage.getItem('paul_english_achievements')
-        if (saved) setUnlockedAchievementIds(JSON.parse(saved))
         const pts = localStorage.getItem('paul_english_points')
         if (pts) setPoints(parseInt(pts))
-      } catch (e) { /* ignore */ }
+      } catch (e) {}
 
-      // Load all vocabulary across all units
       const response = await fetch('/api/vocabulary?unit=all')
       const data = await response.json()
       if (data.success && data.vocabulary) {
         setAllWords(data.vocabulary)
-
         const wrongWords = data.vocabulary.filter((w: VocabWord) => {
           const p = perf.get(w.word_id)
           if (!p) return false
           return p.consecutiveWrong >= 1 || (p.wrongCount > 0 && p.wrongCount / (p.correctCount + p.wrongCount) > 0.3)
         })
-
         setReviewWords(shuffleArray(wrongWords))
       }
     } catch (e) {
@@ -104,11 +137,54 @@ export default function ReviewPractice() {
   const currentWord = reviewWords[currentIndex]
   const isCorrect = currentWord ? selectedAnswer === currentWord.meaning : false
 
+  // 检查成就
+  const checkForAchievements = (sessionStats: PlayerStats, currentPoints: number, latestPerformances: Map<string, WordPerformance>) => {
+    let totalCorrect = 0, totalWrong = 0, maxConsecutive = 0
+    latestPerformances.forEach(p => {
+      totalCorrect += p.correctCount
+      totalWrong += p.wrongCount
+      maxConsecutive = Math.max(maxConsecutive, p.consecutiveCorrect)
+    })
+    maxConsecutive = Math.max(maxConsecutive, sessionStats.maxStreak)
+    let daysStudied = 1
+    try {
+      const s = localStorage.getItem('paul_english_streak')
+      if (s) daysStudied = parseInt(s)
+    } catch (e) {}
+
+    const cumulativeStats: PlayerStats = {
+      totalWords: latestPerformances.size,
+      correctAnswers: totalCorrect,
+      wrongAnswers: totalWrong,
+      streak: sessionStats.streak,
+      maxStreak: maxConsecutive,
+      totalTime: sessionStats.totalTime,
+      daysStudied,
+      perfectRounds: sessionStats.perfectRounds,
+    }
+    const allMatching = checkAchievements(cumulativeStats)
+    let currentUnlockedIds: string[] = []
+    try {
+      const saved = localStorage.getItem('paul_english_achievements')
+      if (saved) currentUnlockedIds = JSON.parse(saved)
+    } catch (e) {}
+    const newlyUnlocked = allMatching.filter(a => !currentUnlockedIds.includes(a.id))
+
+    if (newlyUnlocked.length > 0) {
+      const latest = newlyUnlocked[newlyUnlocked.length - 1]
+      setTimeout(() => setUnlockedAchievement(latest), 1500)
+      pendingAchievementRef.current = latest
+      const rewardPoints = newlyUnlocked.reduce((sum, a) => sum + a.reward, 0)
+      setPoints(currentPoints + rewardPoints)
+    }
+  }
+
   const startReview = () => {
     if (reviewWords.length === 0) return
     setStarted(true)
     setCurrentIndex(0)
     setScore(0)
+    setStreak(0)
     setShowResult(false)
     setSelectedAnswer(null)
     setFinished(false)
@@ -125,22 +201,39 @@ export default function ReviewPractice() {
 
     const correct = answer === currentWord.meaning
     const wordId = currentWord.word_id
-    const perf = performances.get(wordId)
-    if (perf) {
-      const updated = updatePerformance(perf, correct)
-      const newPerfs = new Map(performances)
-      newPerfs.set(wordId, updated)
-      setPerformances(newPerfs)
-      savePerformances(newPerfs)
-    }
+    const currentPerf = performances.get(wordId) || initializePerformance(wordId)
+    const updated = updatePerformance(currentPerf, correct)
+    const newPerfs = new Map(performances)
+    newPerfs.set(wordId, updated)
+    setPerformances(newPerfs)
+    savePerformances(newPerfs)
 
     if (correct) {
+      const newStreak = streak + 1
+      const earnedPoints = 10 + (newStreak >= 3 ? 5 : 0)
       setScore(score + 1)
-      sounds.correct()
+      setStreak(newStreak)
+      setPoints(points + earnedPoints)
       setEncouragement(getRandomEncouragement('correct'))
+      sounds.correct()
+      vibrate(100)
+
+      const newStats: PlayerStats = {
+        ...stats,
+        totalWords: stats.totalWords + 1,
+        correctAnswers: stats.correctAnswers + 1,
+        streak: newStreak,
+        maxStreak: Math.max(stats.maxStreak, newStreak),
+      }
+      setStats(newStats)
+      checkForAchievements(newStats, points + earnedPoints, newPerfs)
     } else {
-      sounds.wrong()
+      setStreak(0)
       setEncouragement(getRandomEncouragement('wrong'))
+      sounds.wrong()
+      vibrate(200)
+
+      setStats(prev => ({ ...prev, wrongAnswers: prev.wrongAnswers + 1, streak: 0 }))
     }
   }
 
@@ -161,6 +254,9 @@ export default function ReviewPractice() {
     }
   }
 
+  const currentLevel = getCurrentLevel(points)
+  const levelProgress = getLevelProgress(points)
+
   if (loading) {
     return (
       <main className="min-h-screen p-4 sm:p-8 flex items-center justify-center">
@@ -177,25 +273,17 @@ export default function ReviewPractice() {
       <main className="min-h-screen p-4 sm:p-8">
         <header className="text-center mb-8">
           <BackButton href="/" />
-          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
-            🔄 错题复习
-          </h1>
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">🔄 错题复习</h1>
         </header>
         <section className="max-w-md mx-auto">
           <div className="card text-center">
             <span className="text-6xl mb-4 block">🎉</span>
             <h2 className="text-xl font-bold text-gray-800 mb-4">太棒了！没有错题！</h2>
-            <p className="text-gray-600 mb-6">
-              你之前做的练习都答对了，继续保持！
-            </p>
+            <p className="text-gray-600 mb-6">你之前做的练习都答对了，继续保持！</p>
             <div className="bg-green-50 rounded-xl p-4 mb-6">
-              <p className="text-sm text-green-800">
-                ✅ 继续练习新单词，巩固你的词汇量！
-              </p>
+              <p className="text-sm text-green-800">✅ 继续练习新单词，巩固你的词汇量！</p>
             </div>
-            <Link href="/practice/vocabulary" className="btn-primary inline-block">
-              去练习新单词 →
-            </Link>
+            <Link href="/practice/vocabulary" className="btn-primary inline-block">去练习新单词 →</Link>
           </div>
         </section>
       </main>
@@ -207,26 +295,18 @@ export default function ReviewPractice() {
       <main className="min-h-screen p-4 sm:p-8">
         <header className="text-center mb-8">
           <BackButton href="/" />
-          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
-            🔄 错题复习
-          </h1>
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">🔄 错题复习</h1>
           <p className="text-gray-600">专练你做错过的单词</p>
         </header>
         <section className="max-w-md mx-auto">
           <div className="card text-center">
             <span className="text-6xl mb-4 block">📖</span>
             <h2 className="text-xl font-bold text-gray-800 mb-2">找到 {reviewWords.length} 个错词</h2>
-            <p className="text-gray-600 mb-6">
-              系统已筛选出你之前做错的单词，现在来重新练习吧！
-            </p>
+            <p className="text-gray-600 mb-6">系统已筛选出你之前做错的单词，现在来重新练习吧！</p>
             <div className="bg-blue-50 rounded-xl p-4 mb-6">
-              <p className="text-sm text-blue-800">
-                💡 重新答对后，系统会自动更新你的掌握情况
-              </p>
+              <p className="text-sm text-blue-800">💡 重新答对后，系统会自动更新你的掌握情况</p>
             </div>
-            <button onClick={startReview} className="btn-primary text-lg px-8 py-4">
-              开始复习 🚀
-            </button>
+            <button onClick={startReview} className="btn-primary text-lg px-8 py-4">开始复习 🚀</button>
           </div>
         </section>
       </main>
@@ -238,36 +318,23 @@ export default function ReviewPractice() {
     return (
       <main className="min-h-screen p-4 sm:p-8">
         <header className="text-center mb-8">
-          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
-            🔄 错题复习完成
-          </h1>
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">🔄 错题复习完成</h1>
         </header>
         <section className="max-w-md mx-auto">
           <div className="card text-center animate-bounce-in">
-            <span className="text-6xl mb-4 block">
-              {percentage >= 90 ? '🏆' : percentage >= 70 ? '🎉' : '💪'}
-            </span>
+            <span className="text-6xl mb-4 block">{percentage >= 90 ? '🏆' : percentage >= 70 ? '🎉' : '💪'}</span>
             <h2 className="text-2xl font-bold text-gray-800 mb-2">复习完成！</h2>
             <div className="my-6">
-              <p className="text-gray-600">
-                答对 <span className="font-bold text-green-600 text-2xl">{score}</span> / {reviewWords.length} 题
-              </p>
-              <p className="text-gray-600 mt-1">
-                正确率 <span className="font-bold text-blue-600 text-xl">{percentage}%</span>
-              </p>
+              <p className="text-gray-600">答对 <span className="font-bold text-green-600 text-2xl">{score}</span> / {reviewWords.length} 题</p>
+              <p className="text-gray-600 mt-1">正确率 <span className="font-bold text-blue-600 text-xl">{percentage}%</span></p>
+              <p className="text-gray-600 mt-1">获得积分 <span className="font-bold text-purple-600 text-xl">{points}</span></p>
             </div>
             <div className="bg-green-50 rounded-xl p-4 mb-6">
-              <p className="text-sm text-green-800">
-                ✅ 答对的错词已更新掌握记录，下次不会再出现了！
-              </p>
+              <p className="text-sm text-green-800">✅ 答对的错词已更新掌握记录，下次不会再出现了！</p>
             </div>
             <div className="flex gap-3">
-              <Link href="/" className="flex-1 bg-gray-100 text-gray-700 font-bold py-4 px-6 rounded-xl text-center hover:bg-gray-200">
-                返回首页
-              </Link>
-              <button onClick={startReview} className="flex-1 btn-primary py-4">
-                再练一次
-              </button>
+              <Link href="/" className="flex-1 bg-gray-100 text-gray-700 font-bold py-4 px-6 rounded-xl text-center hover:bg-gray-200">返回首页</Link>
+              <button onClick={startReview} className="flex-1 btn-primary py-4">再练一次</button>
             </div>
           </div>
         </section>
@@ -277,8 +344,9 @@ export default function ReviewPractice() {
 
   return (
     <main className="min-h-screen p-4 sm:p-8">
+      {/* 成就弹窗 */}
       {unlockedAchievement && (
-        <AchievementPopup achievement={unlockedAchievement} onClose={() => setUnlockedAchievement(null)} />
+        <AchievementPopup achievement={unlockedAchievement} onClose={handleAchievementClose} />
       )}
       {pointsReward && (
         <PointsReward points={pointsReward.points} message={pointsReward.message} icon={pointsReward.icon} onComplete={() => setPointsReward(null)} />
@@ -286,24 +354,59 @@ export default function ReviewPractice() {
 
       <header className="text-center mb-8">
         <div className="flex items-center justify-center gap-4 mb-4">
-          <button onClick={() => setStarted(false)} className="text-blue-500 hover:text-blue-600">
-            ← 返回
-          </button>
-          <Link href="/" className="text-blue-500 hover:text-blue-600">
-            首页
-          </Link>
+          <button onClick={() => setStarted(false)} className="text-blue-500 hover:text-blue-600">← 返回</button>
+          <BackButton href="/" label="首页" />
         </div>
         <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">🔄 错题复习</h1>
         <p className="text-gray-600">纠正薄弱环节</p>
       </header>
 
-      <section className="max-w-md mx-auto mb-6">
+      {/* 积分和等级 */}
+      <div className="max-w-md mx-auto mb-4">
+        <div className="card py-3">
+          <div className="flex items-center gap-3">
+            <span className="text-2xl">{currentLevel.icon}</span>
+            <div className="flex-1">
+              <div className="flex justify-between items-center text-sm">
+                <span className="font-medium">Lv.{currentLevel.level}</span>
+                <span className="text-blue-600">{points} 积分</span>
+              </div>
+              <div className="progress-bar h-1.5 mt-1">
+                <div className="progress-fill" style={{ width: `${levelProgress}%` }} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 进度 */}
+      <section className="max-w-md mx-auto mb-4">
         <div className="flex justify-between text-sm text-gray-600 mb-2">
           <span>进度</span>
           <span>{currentIndex + 1} / {reviewWords.length}</span>
         </div>
         <div className="progress-bar">
-          <div className="progress-fill" style={{ width: `${((currentIndex + 1) / reviewWords.length) * 100}%` }}></div>
+          <div className="progress-fill" style={{ width: `${((currentIndex + 1) / reviewWords.length) * 100}%` }} />
+        </div>
+      </section>
+
+      {/* 得分和连击 */}
+      <section className="max-w-md mx-auto mb-6">
+        <div className="grid grid-cols-3 gap-3">
+          <div className="card text-center py-3">
+            <p className="text-xs text-gray-600">得分</p>
+            <p className="text-2xl font-bold text-blue-600">{score}</p>
+          </div>
+          <div className="card text-center py-3">
+            <p className="text-xs text-gray-600">连击</p>
+            <p className={`text-2xl font-bold ${streak >= 3 ? 'text-orange-500 animate-pulse' : 'text-green-600'}`}>
+              {streak > 0 ? `×${streak}` : '-'}
+            </p>
+          </div>
+          <div className="card text-center py-3">
+            <p className="text-xs text-gray-600">积分</p>
+            <p className="text-2xl font-bold text-purple-600">{points}</p>
+          </div>
         </div>
       </section>
 
@@ -313,6 +416,7 @@ export default function ReviewPractice() {
         </div>
       )}
 
+      {/* 单词卡片 */}
       <section className="max-w-md mx-auto mb-8">
         <div className={`card transition-all duration-500 ${
           showResult
@@ -325,11 +429,8 @@ export default function ReviewPractice() {
             <h2 className="text-5xl font-bold text-gray-800 mb-2">{currentWord?.word || ''}</h2>
             <p className="text-lg text-gray-500">{currentWord?.phonetic || ''}</p>
           </div>
-
           <div className="h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent mb-6" />
-
           <p className="text-center text-gray-700 mb-4 font-medium text-lg">选出正确的中文意思：</p>
-
           <div className="grid grid-cols-2 gap-3">
             {currentOptions.map((option, index) => {
               const grads = ['from-blue-400 to-blue-500', 'from-purple-400 to-purple-500', 'from-green-400 to-green-500', 'from-orange-400 to-orange-500']
@@ -357,6 +458,7 @@ export default function ReviewPractice() {
         </div>
       </section>
 
+      {/* 结果反馈 */}
       {showResult && (
         <section className="max-w-md mx-auto mb-8 animate-bounce-in">
           <div className={`relative overflow-hidden rounded-2xl shadow-xl ${

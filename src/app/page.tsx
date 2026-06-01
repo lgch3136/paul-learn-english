@@ -158,7 +158,7 @@ export default function Home() {
             <span className="text-2xl">🎓</span>
             <span className="font-semibold text-gray-600">英语小达人</span>
           </div>
-          <p>译林版小学英语 · 三至五年级</p>
+          <p>译林版小学英语 · 三至六年级</p>
           <p className="mt-1 text-gray-400">让孩子爱上学习英语 ❤️</p>
         </div>
       </footer>

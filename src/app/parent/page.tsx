@@ -16,83 +16,111 @@ interface ReportData {
   totalAnswered: number
   totalCorrect: number
   accuracy: number
-  masteredWords: string[]
-  weakWords: { word: string; errorRate: number }[]
+  masteredWords: { word: string; meaning: string }[]
+  weakWords: { word: string; meaning: string; errorRate: number }[]
   totalWords: number
   points: number
   streak: number
   unlockedAchievements: string[]
 }
 
+// 从 wordId 提取英文单词
+function extractWord(wordId: string): string {
+  // unit_1_001_play → play, g3dn_001_schoolbag → schoolbag, adult1_001_come → come
+  const match = wordId.match(/^(?:unit_\d+|g\d+(?:up|dn)|adult\d+)_\d+_(.+)$/)
+  return match ? match[1] : wordId
+}
+
 export default function ParentPage() {
   const [report, setReport] = useState<ReportData | null>(null)
 
   useEffect(() => {
-    const perf = loadPerformances()
-    let points = 0
-    let streak = 1
-    let unlockedIds: string[] = []
+    const loadData = async () => {
+      const perf = loadPerformances()
+      let points = 0
+      let streak = 1
+      let unlockedIds: string[] = []
 
-    try {
-      const pts = localStorage.getItem('paul_english_points')
-      if (pts) points = parseInt(pts)
-      const str = localStorage.getItem('paul_english_streak')
-      if (str) streak = parseInt(str)
-      const saved = localStorage.getItem('paul_english_achievements')
-      if (saved) unlockedIds = JSON.parse(saved)
-    } catch (e) { /* ignore */ }
+      try {
+        const pts = localStorage.getItem('paul_english_points')
+        if (pts) points = parseInt(pts)
+        const str = localStorage.getItem('paul_english_streak')
+        if (str) streak = parseInt(str)
+        const saved = localStorage.getItem('paul_english_achievements')
+        if (saved) unlockedIds = JSON.parse(saved)
+      } catch (e) { /* ignore */ }
 
-    let totalAnswered = 0
-    let totalCorrect = 0
-    const masteredWords: string[] = []
-    const weakWords: { word: string; errorRate: number }[] = []
+      // 加载词汇数据，用于映射 wordId → 中文意思
+      let wordMap = new Map<string, { word: string; meaning: string }>()
+      try {
+        const response = await fetch('/api/vocabulary?unit=all')
+        const data = await response.json()
+        if (data.success && data.vocabulary) {
+          data.vocabulary.forEach((w: any) => {
+            wordMap.set(w.word_id, { word: w.word, meaning: w.meaning })
+          })
+        }
+      } catch (e) { /* ignore */ }
 
-    perf.forEach((p) => {
-      const total = p.correctCount + p.wrongCount
-      totalAnswered += total
-      totalCorrect += p.correctCount
+      let totalAnswered = 0
+      let totalCorrect = 0
+      const masteredWords: { word: string; meaning: string }[] = []
+      const weakWords: { word: string; meaning: string; errorRate: number }[] = []
 
-      const cleanWordId = p.wordId
-        .replace(/^unit_\d+_\d+_/, '')
-        .replace(/^g\d+(up|dn)_\d+_/, '')
+      perf.forEach((p) => {
+        const total = p.correctCount + p.wrongCount
+        totalAnswered += total
+        totalCorrect += p.correctCount
 
-      if (p.consecutiveCorrect >= 3) {
-        masteredWords.push(cleanWordId)
-      } else if (total > 0 && p.wrongCount > 0 && p.wrongCount / total > 0.3) {
-        weakWords.push({
-          word: cleanWordId,
-          errorRate: Math.round((p.wrongCount / total) * 100)
-        })
-      }
-    })
+        // 从词汇映射中获取实际单词和意思
+        const vocabInfo = wordMap.get(p.wordId)
+        const displayWord = vocabInfo ? vocabInfo.word : extractWord(p.wordId)
+        const displayMeaning = vocabInfo ? vocabInfo.meaning : ''
 
-    weakWords.sort((a, b) => b.errorRate - a.errorRate)
+        if (p.consecutiveCorrect >= 3) {
+          masteredWords.push({ word: displayWord, meaning: displayMeaning })
+        } else if (total > 0 && p.wrongCount > 0 && p.wrongCount / total > 0.3) {
+          weakWords.push({
+            word: displayWord,
+            meaning: displayMeaning,
+            errorRate: Math.round((p.wrongCount / total) * 100)
+          })
+        }
+      })
 
-    setReport({
-      date: new Date().toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' }),
-      totalAnswered,
-      totalCorrect,
-      accuracy: totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0,
-      masteredWords,
-      weakWords,
-      totalWords: perf.size,
-      points,
-      streak,
-      unlockedAchievements: unlockedIds,
-    })
+      weakWords.sort((a, b) => b.errorRate - a.errorRate)
+
+      setReport({
+        date: new Date().toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' }),
+        totalAnswered,
+        totalCorrect,
+        accuracy: totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0,
+        masteredWords,
+        weakWords,
+        totalWords: perf.size,
+        points,
+        streak,
+        unlockedAchievements: unlockedIds,
+      })
+    }
+
+    loadData()
   }, [])
 
   if (!report) {
     return (
       <main className="min-h-screen p-4 sm:p-8 flex items-center justify-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto"></div>
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto mb-4"></div>
+          <p className="text-gray-600">正在生成报告...</p>
+        </div>
       </main>
     )
   }
 
   const suggestions: string[] = []
   if (report.weakWords.length > 0) {
-    const top3 = report.weakWords.slice(0, 3).map(w => w.word).join('、')
+    const top3 = report.weakWords.slice(0, 3).map(w => `${w.word}(${w.meaning})`).join('、')
     suggestions.push(`重点复习薄弱单词：${top3}，每天花5分钟巩固记忆`)
   }
   if (report.accuracy < 80) {
@@ -102,9 +130,6 @@ export default function ParentPage() {
     suggestions.push(`已连续学习${report.streak}天，非常棒！继续保持这个节奏`)
   }
   suggestions.push('每天坚持练习10分钟，效果比一次练1小时更好')
-  if (suggestions.length === 0) {
-    suggestions.push('孩子表现很好，继续保持每天练习的习惯！')
-  }
 
   return (
     <main className="min-h-screen p-4 sm:p-8">
@@ -144,8 +169,10 @@ export default function ParentPage() {
             <div className="mb-4">
               <p className="text-sm text-gray-600 mb-2">✅ 已掌握（{report.masteredWords.length} 个）：</p>
               <div className="flex flex-wrap gap-2">
-                {report.masteredWords.slice(0, 12).map((word, i) => (
-                  <span key={i} className="badge bg-green-100 text-green-800">{word}</span>
+                {report.masteredWords.slice(0, 12).map((w, i) => (
+                  <span key={i} className="badge bg-green-100 text-green-800 text-xs">
+                    {w.word} <span className="text-green-600">{w.meaning}</span>
+                  </span>
                 ))}
                 {report.masteredWords.length > 12 && (
                   <span className="badge bg-gray-100 text-gray-600">+{report.masteredWords.length - 12} 更多</span>
@@ -160,7 +187,10 @@ export default function ParentPage() {
               <div className="space-y-2">
                 {report.weakWords.slice(0, 8).map((w, i) => (
                   <div key={i} className="flex items-center justify-between p-2 bg-yellow-50 rounded-lg">
-                    <span className="badge bg-yellow-100 text-yellow-800">{w.word}</span>
+                    <div>
+                      <span className="font-bold text-gray-800">{w.word}</span>
+                      <span className="text-gray-500 text-sm ml-2">{w.meaning}</span>
+                    </div>
                     <span className="text-xs text-red-600">错误率 {w.errorRate}%</span>
                   </div>
                 ))}
