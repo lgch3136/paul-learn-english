@@ -140,6 +140,19 @@ export default function VocabularyPractice() {
     } catch (e) {
       console.error('加载成就数据失败:', e)
     }
+
+    // 快速开始：如果有上次范围，自动加载
+    try {
+      const params = new URLSearchParams(window.location.search)
+      if (params.get('quick') === '1') {
+        const savedScope = localStorage.getItem('paul_english_last_scope')
+        if (savedScope) {
+          const scope: GameScope = JSON.parse(savedScope)
+          setGameScope(scope)
+          loadVocabulary(scope)
+        }
+      }
+    } catch (e) { /* ignore */ }
   }, [])
 
   // 持久化积分
@@ -216,6 +229,8 @@ export default function VocabularyPractice() {
   const handleScopeSelect = (scope: GameScope) => {
     sounds.correct()
     setGameScope(scope)
+    // 保存上次范围
+    try { localStorage.setItem('paul_english_last_scope', JSON.stringify(scope)) } catch (e) {}
     loadVocabulary(scope)
   }
 
@@ -564,7 +579,7 @@ export default function VocabularyPractice() {
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
             ⚡ 闪电速度模式
           </h1>
-          <p className="text-gray-600">限时 10 秒，快速答题</p>
+          <p className="text-gray-600">限时 6 秒，快速答题</p>
         </header>
 
         <SpeedMode
@@ -592,7 +607,7 @@ export default function VocabularyPractice() {
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
             🏆 闯关挑战模式
           </h1>
-          <p className="text-gray-600">连续答对 10 题通关</p>
+          <p className="text-gray-600">连续答对 5 题通关</p>
         </header>
 
         <ChallengeMode

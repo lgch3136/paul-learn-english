@@ -198,7 +198,7 @@ export default function SpellingMode({ words, onComplete, onBack }: SpellingMode
       }`}>
         <span className="text-4xl mb-3 block">✍️</span>
         <h2 className="text-3xl font-bold text-gray-800 mb-2">{currentWord?.meaning}</h2>
-        <p className="text-gray-500">{currentWord?.phonetic}</p>
+        <p className="text-gray-500">这个词有 {currentWord?.word.length} 个字母</p>
 
         {/* Hint */}
         {showHint && (

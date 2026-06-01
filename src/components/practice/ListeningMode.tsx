@@ -221,7 +221,12 @@ export default function ListeningMode({ words, onComplete, onBack }: ListeningMo
         >
           🔊 再听一次
         </button>
-        <p className="text-sm text-gray-400 mt-2">{currentWord?.meaning}</p>
+        {!showResult && (
+          <p className="text-sm text-gray-400 mt-2">仔细听发音，选出正确的单词</p>
+        )}
+        {showResult && (
+          <p className="text-sm text-gray-500 mt-2">{currentWord?.meaning}</p>
+        )}
       </div>
 
       {/* Options */}

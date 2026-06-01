@@ -52,14 +52,25 @@ export default function LessonPage() {
     } catch (e) { /* ignore */ }
   }, [])
 
-  // 一键开始练习
+  // 上次练习的范围
+  const [lastScope, setLastScope] = useState<string | null>(null)
+
+  useEffect(() => {
+    try {
+      const scope = localStorage.getItem('paul_english_last_scope')
+      if (scope) {
+        const parsed = JSON.parse(scope)
+        setLastScope(parsed.label || '上次范围')
+      }
+    } catch (e) {}
+  }, [])
+
+  // 一键开始 - 使用上次范围或跳到选择页
   const handleStartPractice = async () => {
     sounds.click()
     setIsStarting(true)
-
-    // 跳转到单词练习
     setTimeout(() => {
-      router.push('/practice/vocabulary')
+      router.push('/practice/vocabulary?quick=1')
     }, 300)
   }
 
@@ -98,8 +109,11 @@ export default function LessonPage() {
       <section className="max-w-md mx-auto mb-8">
         <div className="card bg-gradient-to-br from-blue-500 to-purple-600 text-white">
           <div className="text-center">
-            <p className="text-lg opacity-90 mb-2">预计 10 分钟</p>
-            <p className="text-5xl font-bold mb-4 animate-float">10 min</p>
+            {lastScope ? (
+              <p className="text-lg opacity-90 mb-2">上次练习：{lastScope}</p>
+            ) : (
+              <p className="text-lg opacity-90 mb-2">每天 10 分钟，进步看得见</p>
+            )}
             <button
               onClick={handleStartPractice}
               disabled={isStarting}
@@ -109,11 +123,15 @@ export default function LessonPage() {
                 <span className="flex items-center justify-center gap-2">
                   <span className="animate-spin">⏳</span> 启动中...
                 </span>
+              ) : lastScope ? (
+                `🚀 继续练习 ${lastScope}`
               ) : (
-                '🚀 一键开始练习'
+                '🚀 选择范围开始练习'
               )}
             </button>
-            <p className="text-sm opacity-75 mt-3">快速进入单词闯关练习</p>
+            <p className="text-sm opacity-75 mt-3">
+              {lastScope ? '自动跳转到上次学习的单元' : '选择年级和单元，2秒搞定'}
+            </p>
           </div>
         </div>
       </section>
@@ -146,7 +164,7 @@ export default function LessonPage() {
             <span className="text-2xl mb-2 block">💡</span>
             <h3 className="font-semibold text-yellow-800 mb-2">学习小贴士</h3>
             <p className="text-sm text-yellow-700">
-              每天坚持练习 10 分钟，连续 7 天解锁"勤奋好学"成就！
+              每天坚持练习 10 分钟，连续 7 天解锁"坚持不懈"成就！
             </p>
           </div>
         </div>

@@ -16,7 +16,7 @@ interface ChallengeModeProps {
   onBack: () => void
 }
 
-const TARGET_STREAK = 10
+const TARGET_STREAK = 5
 
 export default function ChallengeMode({ words, onComplete, onBack }: ChallengeModeProps) {
   const [options, setOptions] = useState<string[]>([])

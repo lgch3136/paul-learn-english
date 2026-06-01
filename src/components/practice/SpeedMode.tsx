@@ -21,7 +21,7 @@ export default function SpeedMode({ words, onComplete, onBack }: SpeedModeProps)
   const [currentIndex, setCurrentIndex] = useState(0)
   const [options, setOptions] = useState<string[]>([])
   const [score, setScore] = useState(0)
-  const [timeLeft, setTimeLeft] = useState(10)
+  const [timeLeft, setTimeLeft] = useState(6)
   const [isActive, setIsActive] = useState(false)
   const [showResult, setShowResult] = useState(false)
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
@@ -65,7 +65,7 @@ export default function SpeedMode({ words, onComplete, onBack }: SpeedModeProps)
     setStreak(0)
     setCurrentIndex(0)
     setGameOver(false)
-    setTimeLeft(10)
+    setTimeLeft(6)
     setShowResult(false)
     setSelectedAnswer(null)
     setShowMultiplier(false)
@@ -123,7 +123,7 @@ export default function SpeedMode({ words, onComplete, onBack }: SpeedModeProps)
       setCurrentIndex(currentIndex + 1)
       setShowResult(false)
       setSelectedAnswer(null)
-      setTimeLeft(10)
+      setTimeLeft(6)
       setIsActive(true)
     } else {
       setGameOver(true)
@@ -163,7 +163,7 @@ export default function SpeedMode({ words, onComplete, onBack }: SpeedModeProps)
         <div className="card">
           <span className="text-5xl mb-4 block">⚡</span>
           <h2 className="text-2xl font-bold text-gray-800 mb-2">闪电速度模式</h2>
-          <p className="text-gray-600 mb-6">每题限时 10 秒，快速选出正确答案！</p>
+          <p className="text-gray-600 mb-6">每题限时 6 秒，快速选出正确答案！</p>
           <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl p-4 mb-4">
             <p className="text-sm text-orange-800 font-medium">🔥 连续答对触发倍数加成！</p>
             <p className="text-xs text-orange-600 mt-1">×2 ×3 ×4... 越连越多越刺激！</p>

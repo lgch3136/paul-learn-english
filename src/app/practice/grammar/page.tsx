@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import BackButton from '@/components/ui/BackButton'
+import Skeleton from '@/components/ui/Skeleton'
 import GrammarScopeSelector, { GrammarScope } from '@/components/practice/GrammarScopeSelector'
 import { sounds } from '@/lib/sounds'
 
@@ -114,10 +115,18 @@ export default function GrammarPractice() {
 
   if (loading) {
     return (
-      <main className="min-h-screen p-4 sm:p-8 flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto mb-4"></div>
-          <p className="text-gray-600">正在加载语法数据...</p>
+      <main className="min-h-screen p-4 sm:p-8">
+        <div className="max-w-md mx-auto">
+          <div className="text-center mb-8">
+            <Skeleton variant="rect" className="h-8 w-48 mx-auto mb-3" />
+            <Skeleton variant="text" className="w-64 mx-auto" />
+          </div>
+          <div className="card space-y-4 p-6">
+            <Skeleton variant="text" className="h-8 w-64 mx-auto" />
+            <Skeleton variant="rect" className="h-24" />
+            <Skeleton variant="rect" className="h-20" />
+            <Skeleton variant="rect" className="h-20" />
+          </div>
         </div>
       </main>
     )
@@ -260,11 +269,11 @@ export default function GrammarPractice() {
         </div>
       )}
 
-      {/* 下一题按钮 */}
-      {showExplanation && (
+      {/* 下一题/完成按钮 */}
+      {showExplanation && currentIndex < grammarData.length - 1 && (
         <div className="max-w-md mx-auto mb-8 text-center">
           <button onClick={handleNext} className="btn-primary text-lg px-8 py-3">
-            {currentIndex < grammarData.length - 1 ? '下一题 →' : '完成练习 🎊'}
+            下一题 →
           </button>
         </div>
       )}
@@ -278,9 +287,15 @@ export default function GrammarPractice() {
               <h2 className="text-2xl font-bold">语法练习完成！</h2>
             </div>
             <div className="bg-white p-6">
-              <div className="bg-green-50 rounded-xl p-4 mb-6 text-center">
+              <div className="bg-green-50 rounded-xl p-4 mb-4 text-center">
                 <p className="text-sm text-gray-600 mb-1">答对题数</p>
                 <p className="text-4xl font-bold text-green-600">{score}/{grammarData.length}</p>
+              </div>
+              <div className="bg-blue-50 rounded-xl p-3 mb-6 text-center">
+                <p className="text-sm text-blue-700">
+                  正确率 {Math.round((score / grammarData.length) * 100)}%
+                  {score === grammarData.length ? ' · 完美！⭐' : score >= grammarData.length * 0.8 ? ' · 非常棒！🎉' : ' · 继续加油！💪'}
+                </p>
               </div>
               <div className="flex gap-3">
                 <Link href="/" className="flex-1 bg-gray-100 text-gray-700 font-bold py-4 px-6 rounded-xl text-center transition-all duration-300 hover:bg-gray-200">返回首页</Link>

@@ -145,7 +145,7 @@ export default function Home() {
             <span className="text-3xl mb-3 block">💡</span>
             <h3 className="font-bold text-yellow-800 mb-2 text-lg">学习小贴士</h3>
             <p className="text-yellow-700">
-              每天坚持练习 10 分钟，连续 7 天解锁"勤奋好学"成就！
+              每天坚持练习 10 分钟，连续 7 天解锁"坚持不懈"成就！
             </p>
           </div>
         </div>

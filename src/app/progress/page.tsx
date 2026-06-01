@@ -17,12 +17,19 @@ import {
   getPerformanceSummary,
 } from '@/lib/question-scheduler'
 
+// 从 wordId 提取英文单词
+function extractWord(wordId: string): string {
+  const match = wordId.match(/^(?:unit_\d+|g\d+(?:up|dn)|adult\d+)_\d+_(.+)$/)
+  return match ? match[1] : wordId
+}
+
 export default function ProgressPage() {
   const [performances, setPerformances] = useState<Map<string, WordPerformance>>(new Map())
   const [unlockedIds, setUnlockedIds] = useState<string[]>([])
   const [points, setPoints] = useState(0)
-  const [streak, setStreak] = useState(1)
+  const [streak, setStreak] = useState(0)
   const [ready, setReady] = useState(false)
+  const [wordMap, setWordMap] = useState<Map<string, { word: string; meaning: string }>>(new Map())
 
   useEffect(() => {
     const perf = loadPerformances()
@@ -37,6 +44,20 @@ export default function ProgressPage() {
       if (str) setStreak(parseInt(str))
     } catch (e) { /* ignore */ }
 
+    // 加载词汇映射
+    fetch('/api/vocabulary?unit=all')
+      .then(res => res.json())
+      .then(data => {
+        if (data.success && data.vocabulary) {
+          const map = new Map<string, { word: string; meaning: string }>()
+          data.vocabulary.forEach((w: any) => {
+            map.set(w.word_id, { word: w.word, meaning: w.meaning })
+          })
+          setWordMap(map)
+        }
+      })
+      .catch(() => {})
+
     setReady(true)
   }, [])
 
@@ -45,12 +66,17 @@ export default function ProgressPage() {
   const levelProgress = getLevelProgress(points)
   const nextLevel = getNextLevel(points)
 
-  // 统计错词
-  const weakWords: { word: string; errorRate: number }[] = []
+  // 统计错词（显示实际单词和中文意思）
+  const weakWords: { word: string; meaning: string; errorRate: number }[] = []
   performances.forEach((perf) => {
     const total = perf.correctCount + perf.wrongCount
     if (total > 0 && perf.wrongCount > 0 && perf.wrongCount / total > 0.3) {
-      weakWords.push({ word: perf.wordId, errorRate: Math.round((perf.wrongCount / total) * 100) })
+      const vocab = wordMap.get(perf.wordId)
+      weakWords.push({
+        word: vocab ? vocab.word : extractWord(perf.wordId),
+        meaning: vocab ? vocab.meaning : '',
+        errorRate: Math.round((perf.wrongCount / total) * 100)
+      })
     }
   })
   weakWords.sort((a, b) => b.errorRate - a.errorRate)
@@ -84,9 +110,13 @@ export default function ProgressPage() {
       <section className="max-w-md mx-auto mb-6">
         <div className="card bg-gradient-to-r from-orange-400 to-red-500 text-white">
           <div className="text-center">
-            <span className="text-5xl">🔥</span>
-            <h2 className="text-2xl font-bold mt-2">连续学习 {streak} 天</h2>
-            <p className="opacity-90 mt-1">坚持就是胜利！</p>
+            <span className="text-5xl">{streak > 0 ? '🔥' : '🌟'}</span>
+            <h2 className="text-2xl font-bold mt-2">
+              {streak > 0 ? `连续学习 ${streak} 天` : '今天是你的第一天！'}
+            </h2>
+            <p className="opacity-90 mt-1">
+              {streak > 0 ? '坚持就是胜利！' : '开始练习，建立你的学习记录！'}
+            </p>
           </div>
         </div>
       </section>
@@ -157,7 +187,10 @@ export default function ProgressPage() {
             <div className="space-y-2">
               {weakWords.slice(0, 10).map((w, i) => (
                 <div key={i} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-                  <span className="font-medium text-gray-800">{w.word}</span>
+                  <div>
+                    <span className="font-bold text-gray-800">{w.word}</span>
+                    {w.meaning && <span className="text-gray-500 text-sm ml-2">{w.meaning}</span>}
+                  </div>
                   <span className="text-sm text-red-600">错误率 {w.errorRate}%</span>
                 </div>
               ))}
