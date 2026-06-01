@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import Link from 'next/link'
 import BackButton from '@/components/ui/BackButton'
+import Skeleton, { ListSkeleton } from '@/components/ui/Skeleton'
 import { sounds } from '@/lib/sounds'
 import { achievements as allAchievements } from '@/lib/gameification'
 import {
@@ -124,10 +125,21 @@ export default function ParentPage() {
 
   if (!report) {
     return (
-      <main className="min-h-screen p-4 sm:p-8 flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto mb-4"></div>
-          <p className="text-gray-600">正在生成报告...</p>
+      <main className="min-h-screen p-4 sm:p-8">
+        <div className="max-w-md mx-auto">
+          <div className="text-center mb-8">
+            <Skeleton variant="rect" className="h-8 w-48 mx-auto mb-3" />
+            <Skeleton variant="text" className="w-32 mx-auto" />
+          </div>
+          <div className="card space-y-4 mb-6">
+            <Skeleton variant="text" className="w-24 h-5" />
+            <div className="grid grid-cols-3 gap-4">
+              <Skeleton variant="rect" className="h-16" />
+              <Skeleton variant="rect" className="h-16" />
+              <Skeleton variant="rect" className="h-16" />
+            </div>
+          </div>
+          <ListSkeleton count={3} />
         </div>
       </main>
     )

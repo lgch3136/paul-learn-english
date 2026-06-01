@@ -3,6 +3,8 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import Link from 'next/link'
 import BackButton from '@/components/ui/BackButton'
+import Skeleton, { WordCardSkeleton } from '@/components/ui/Skeleton'
+import { updateDailyStats } from '@/lib/daily-stats'
 import { sounds } from '@/lib/sounds'
 import { createConfetti, addConfettiStyle, vibrate } from '@/lib/animations'
 import {
@@ -15,6 +17,9 @@ import {
 } from '@/lib/question-scheduler'
 import AchievementPopup from '@/components/gameification/AchievementPopup'
 import PointsReward from '@/components/gameification/PointsReward'
+import WordCard from '@/components/practice/WordCard'
+import OptionGrid from '@/components/practice/OptionGrid'
+import ResultCard from '@/components/practice/ResultCard'
 import {
   Achievement,
   PlayerStats,
@@ -75,6 +80,7 @@ export default function ReviewPractice() {
     streak: 0, maxStreak: 0, totalTime: 0, daysStudied: 1, perfectRounds: 0,
   })
   const [performances, setPerformances] = useState<Map<string, WordPerformance>>(new Map())
+  const [cardTransition, setCardTransition] = useState(false)
   const pendingAchievementRef = useRef<Achievement | null>(null)
 
   // 稳定的成就弹窗关闭回调
@@ -218,6 +224,8 @@ export default function ReviewPractice() {
       sounds.correct()
       vibrate(100)
 
+      updateDailyStats({ wordsLearned: 1, maxStreak: newStreak })
+
       const newStats: PlayerStats = {
         ...stats,
         totalWords: stats.totalWords + 1,
@@ -239,13 +247,17 @@ export default function ReviewPractice() {
 
   const handleNext = () => {
     if (currentIndex < reviewWords.length - 1) {
-      const nextIdx = currentIndex + 1
-      setCurrentIndex(nextIdx)
-      setSelectedAnswer(null)
-      setShowResult(false)
-      setEncouragement('')
-      const allMeanings = allWords.map(v => v.meaning)
-      setCurrentOptions(generateOptions(reviewWords[nextIdx].meaning, allMeanings))
+      setCardTransition(true)
+      setTimeout(() => {
+        const nextIdx = currentIndex + 1
+        setCurrentIndex(nextIdx)
+        setSelectedAnswer(null)
+        setShowResult(false)
+        setEncouragement('')
+        const allMeanings = allWords.map(v => v.meaning)
+        setCurrentOptions(generateOptions(reviewWords[nextIdx].meaning, allMeanings))
+        setCardTransition(false)
+      }, 250)
     } else {
       setFinished(true)
       if (score >= reviewWords.length * 0.7) {
@@ -259,10 +271,13 @@ export default function ReviewPractice() {
 
   if (loading) {
     return (
-      <main className="min-h-screen p-4 sm:p-8 flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto mb-4"></div>
-          <p className="text-gray-600">正在分析错题...</p>
+      <main className="min-h-screen p-4 sm:p-8">
+        <div className="max-w-md mx-auto">
+          <div className="text-center mb-8">
+            <Skeleton variant="rect" className="h-8 w-48 mx-auto mb-3" />
+            <Skeleton variant="text" className="w-64 mx-auto" />
+          </div>
+          <WordCardSkeleton />
         </div>
       </main>
     )
@@ -416,69 +431,40 @@ export default function ReviewPractice() {
         </div>
       )}
 
-      {/* 单词卡片 */}
-      <section className="max-w-md mx-auto mb-8">
-        <div className={`card transition-all duration-500 ${
-          showResult
-            ? isCorrect
-              ? 'bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 animate-pulse-once'
-              : 'bg-gradient-to-br from-red-50 to-pink-50 border-2 border-red-200 animate-shake'
-            : ''
-        }`}>
-          <div className="text-center mb-6">
-            <h2 className="text-5xl font-bold text-gray-800 mb-2">{currentWord?.word || ''}</h2>
-            <p className="text-lg text-gray-500">{currentWord?.phonetic || ''}</p>
-          </div>
-          <div className="h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent mb-6" />
-          <p className="text-center text-gray-700 mb-4 font-medium text-lg">选出正确的中文意思：</p>
-          <div className="grid grid-cols-2 gap-3">
-            {currentOptions.map((option, index) => {
-              const grads = ['from-blue-400 to-blue-500', 'from-purple-400 to-purple-500', 'from-green-400 to-green-500', 'from-orange-400 to-orange-500']
-              return (
-                <button
-                  key={index}
-                  onClick={() => handleAnswerSelect(option)}
-                  disabled={showResult}
-                  className={`relative overflow-hidden p-4 rounded-xl text-lg font-medium transition-all duration-300 transform hover:scale-105 active:scale-95 ${
-                    showResult
-                      ? option === currentWord?.meaning
-                        ? 'bg-gradient-to-br from-green-400 to-emerald-500 text-white shadow-lg scale-105'
-                        : option === selectedAnswer
-                        ? 'bg-gradient-to-br from-red-400 to-pink-500 text-white'
-                        : 'bg-gray-100 text-gray-400'
-                      : `bg-gradient-to-br ${grads[index]} text-white shadow-md hover:shadow-xl`
-                  }`}
-                >
-                  <div className="absolute top-0 right-0 w-16 h-16 bg-white/10 rounded-full -translate-y-8 translate-x-8" />
-                  <span className="relative">{option}</span>
-                </button>
-              )
-            })}
-          </div>
-        </div>
-      </section>
+      {/* 单词卡片 + 选项 + 结果 */}
+      <section className={`max-w-md mx-auto mb-8 transition-all duration-250 ${
+        cardTransition ? 'opacity-0 translate-y-2 scale-[0.98]' : 'opacity-100 translate-y-0 scale-100'
+      }`}>
+        <WordCard
+          word={currentWord?.word || ''}
+          phonetic={currentWord?.phonetic}
+          isCorrect={showResult ? isCorrect : null}
+          className="mb-6"
+        />
 
-      {/* 结果反馈 */}
-      {showResult && (
-        <section className="max-w-md mx-auto mb-8 animate-bounce-in">
-          <div className={`relative overflow-hidden rounded-2xl shadow-xl ${
-            isCorrect
-              ? 'bg-gradient-to-br from-green-400 via-emerald-500 to-teal-500'
-              : 'bg-gradient-to-br from-orange-400 via-red-400 to-pink-500'
-          }`}>
-            <div className="relative p-6 text-white text-center">
-              <span className="text-5xl mb-3 block">{isCorrect ? '🎉' : '💪'}</span>
-              <h3 className="text-2xl font-bold mb-2">{isCorrect ? '这次记住了！' : '再想想！'}</h3>
-              <p className="opacity-90 text-lg mb-4">
-                {isCorrect ? '错词已纠正，继续保持！' : `正确答案是：${currentWord?.meaning || ''}`}
-              </p>
-              <button onClick={handleNext} className="w-full bg-white text-gray-800 font-bold py-4 px-6 rounded-xl text-lg transition-all duration-300 hover:scale-105 shadow-lg">
-                {currentIndex < reviewWords.length - 1 ? '下一题 →' : '完成复习 🎊'}
-              </button>
-            </div>
+        <p className="text-center text-gray-700 mb-4 font-medium text-lg">选出正确的中文意思：</p>
+
+        <OptionGrid
+          options={currentOptions}
+          selectedAnswer={selectedAnswer}
+          correctAnswer={currentWord?.meaning || ''}
+          showResult={showResult}
+          onSelect={handleAnswerSelect}
+        />
+
+        {showResult && (
+          <div className="mt-6">
+            <ResultCard
+              isCorrect={isCorrect}
+              correctMeaning={currentWord?.meaning || ''}
+              phrase={currentWord?.phrase}
+              errorTags={currentWord?.error_tags}
+              onNext={handleNext}
+              isLast={currentIndex >= reviewWords.length - 1}
+            />
           </div>
-        </section>
-      )}
+        )}
+      </section>
 
       <footer className="text-center text-gray-500 text-sm pb-8">
         <p>错题复习帮你巩固薄弱环节</p>

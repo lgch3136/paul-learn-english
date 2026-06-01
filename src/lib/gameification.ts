@@ -486,19 +486,24 @@ export const dailyChallenges: DailyChallenge[] = [
 // 检查每日挑战完成情况
 export function checkDailyChallenge(
   challenge: DailyChallenge,
-  stats: PlayerStats,
   todayWords: number,
-  todayTime: number
+  maxStreak: number,
+  perfectRounds: number,
+  totalTime: number
 ): boolean {
   switch (challenge.id) {
+    case 'daily_5':
     case 'daily_10':
+    case 'daily_20':
       return todayWords >= challenge.target
+    case 'daily_streak_3':
     case 'daily_streak':
-      return stats.maxStreak >= challenge.target
+    case 'daily_streak_10':
+      return maxStreak >= challenge.target
     case 'daily_perfect':
-      return stats.perfectRounds >= challenge.target
-    case 'daily_time':
-      return todayWords >= challenge.target && todayTime <= 120
+      return perfectRounds >= challenge.target
+    case 'daily_speed':
+      return todayWords >= challenge.target && totalTime <= 120
     default:
       return false
   }

@@ -6,6 +6,7 @@ import BackButton from '@/components/ui/BackButton'
 import { useRouter } from 'next/navigation'
 import { sounds } from '@/lib/sounds'
 import { loadPerformances, getPerformanceSummary } from '@/lib/question-scheduler'
+import DailyChallenges from '@/components/practice/DailyChallenges'
 
 export default function LessonPage() {
   const router = useRouter()
@@ -151,38 +152,8 @@ export default function LessonPage() {
         </div>
       </section>
 
-      {/* 今日成就预览 */}
-      <section className="max-w-md mx-auto mb-8">
-        <div className="card">
-          <h2 className="text-lg font-semibold mb-4 text-gray-700 text-center">🏆 今日目标</h2>
-          <div className="space-y-3">
-            <div className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
-              <span className="text-2xl">📖</span>
-              <div className="flex-1">
-                <p className="font-medium text-gray-800">每日十词</p>
-                <p className="text-sm text-gray-600">学会 10 个新单词</p>
-              </div>
-              <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded">+50 积分</span>
-            </div>
-            <div className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
-              <span className="text-2xl">🔥</span>
-              <div className="flex-1">
-                <p className="font-medium text-gray-800">连击挑战</p>
-                <p className="text-sm text-gray-600">连续答对 5 题</p>
-              </div>
-              <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">+30 积分</span>
-            </div>
-            <div className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
-              <span className="text-2xl">⭐</span>
-              <div className="flex-1">
-                <p className="font-medium text-gray-800">完美主义者</p>
-                <p className="text-sm text-gray-600">一轮练习全部答对</p>
-              </div>
-              <span className="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded">+80 积分</span>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* 今日挑战 */}
+      <DailyChallenges />
 
       <footer className="text-center text-gray-500 text-sm pb-8">
         <p>每天进步一点点，积少成多！</p>

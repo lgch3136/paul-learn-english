@@ -32,8 +32,13 @@ import SpellingMode from '@/components/practice/SpellingMode'
 import AchievementPopup from '@/components/gameification/AchievementPopup'
 import PointsReward from '@/components/gameification/PointsReward'
 import BackButton from '@/components/ui/BackButton'
+import Skeleton, { WordCardSkeleton } from '@/components/ui/Skeleton'
+import { updateDailyStats } from '@/lib/daily-stats'
 import AnswerFeedback from '@/components/practice/AnswerFeedback'
 import StreakCombo from '@/components/practice/StreakCombo'
+import WordCard from '@/components/practice/WordCard'
+import OptionGrid from '@/components/practice/OptionGrid'
+import ResultCard from '@/components/practice/ResultCard'
 
 // 生成干扰选项
 function generateOptions(correctMeaning: string, allMeanings: string[]): string[] {
@@ -92,6 +97,7 @@ export default function VocabularyPractice() {
   const [practiceSequence, setPracticeSequence] = useState<any[]>([])
   const [showStreakCombo, setShowStreakCombo] = useState(false)
   const [answerFeedback, setAnswerFeedback] = useState<{ isCorrect: boolean; message?: string; detail?: string } | null>(null)
+  const [cardTransition, setCardTransition] = useState(false)
   const containerRef = useRef<HTMLDivElement>(null)
 
   // 稳定的成就弹窗关闭回调（避免 onClosure 引用变化导致 useEffect 重置）
@@ -347,6 +353,13 @@ export default function VocabularyPractice() {
         setStats(perfectStats)
         checkForAchievements(perfectStats, points + earnedPoints, newPerformances)
 
+        // 更新每日统计
+        updateDailyStats({
+          wordsLearned: practiceSequence.length,
+          maxStreak: newStreak,
+          perfectRounds: 1
+        })
+
         setTimeout(() => {
           sounds.complete()
           setShowConfetti(true)
@@ -378,20 +391,23 @@ export default function VocabularyPractice() {
     }
   }
 
-  // 下一题
+  // 下一题（带过渡动画）
   const handleNext = () => {
-    if (currentIndex < practiceSequence.length - 1) {
-      const nextIndex = currentIndex + 1
-      setCurrentIndex(nextIndex)
-      setSelectedAnswer(null)
-      setShowResult(false)
-      setEncouragement('')
+    setCardTransition(true)
+    setTimeout(() => {
+      if (currentIndex < practiceSequence.length - 1) {
+        const nextIndex = currentIndex + 1
+        setCurrentIndex(nextIndex)
+        setSelectedAnswer(null)
+        setShowResult(false)
+        setEncouragement('')
 
-      // 生成下一题的选项
-      const nextWord = practiceSequence[nextIndex]
-      const allMeanings = vocabularyData.map(v => v.meaning)
-      setCurrentOptions(generateOptions(nextWord.meaning, allMeanings))
-    }
+        const nextWord = practiceSequence[nextIndex]
+        const allMeanings = vocabularyData.map(v => v.meaning)
+        setCurrentOptions(generateOptions(nextWord.meaning, allMeanings))
+      }
+      setCardTransition(false)
+    }, 250)
   }
 
   // 重新开始
@@ -514,7 +530,7 @@ export default function VocabularyPractice() {
       <ListeningMode
         words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic }))}
         onComplete={(score, total) => {
-          console.log('听力模式完成:', score, total)
+          updateDailyStats({ wordsLearned: score })
         }}
         onBack={() => setPracticeMode(null)}
       />
@@ -527,7 +543,7 @@ export default function VocabularyPractice() {
       <SpellingMode
         words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic }))}
         onComplete={(score, total) => {
-          console.log('拼写模式完成:', score, total)
+          updateDailyStats({ wordsLearned: score })
         }}
         onBack={() => setPracticeMode(null)}
       />
@@ -554,7 +570,7 @@ export default function VocabularyPractice() {
         <SpeedMode
           words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic }))}
           onComplete={(score, total) => {
-            console.log('速度模式完成:', score, total)
+            updateDailyStats({ wordsLearned: score })
           }}
           onBack={() => setPracticeMode(null)}
         />
@@ -586,6 +602,7 @@ export default function VocabularyPractice() {
               sounds.complete()
               const earnedPoints = 50 + streak * 5
               setPoints(points + earnedPoints)
+              updateDailyStats({ maxStreak: streak })
               setPointsReward({
                 points: earnedPoints,
                 message: '恭喜通关！',
@@ -660,10 +677,13 @@ export default function VocabularyPractice() {
   // 加载中
   if (loading) {
     return (
-      <main className="min-h-screen p-4 sm:p-8 flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto mb-4"></div>
-          <p className="text-gray-600">正在加载单词数据...</p>
+      <main className="min-h-screen p-4 sm:p-8">
+        <div className="max-w-md mx-auto">
+          <div className="text-center mb-8">
+            <Skeleton variant="rect" className="h-8 w-48 mx-auto mb-3" />
+            <Skeleton variant="text" className="w-64 mx-auto" />
+          </div>
+          <WordCardSkeleton />
         </div>
       </main>
     )
@@ -800,118 +820,42 @@ export default function VocabularyPractice() {
         </div>
       </section>
 
-      {/* 单词卡片 */}
-      <section className="max-w-md mx-auto mb-8">
-        <div className={`card transition-all duration-500 ${
-          showResult
-            ? isCorrect
-              ? 'bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 animate-pulse-once'
-              : 'bg-gradient-to-br from-red-50 to-pink-50 border-2 border-red-200 animate-shake'
-            : 'bg-gradient-to-br from-white to-gray-50'
-        }`}>
-          <div className="text-center mb-6">
-            <div className="inline-block">
-              <h2 className="text-5xl font-bold text-gray-800 mb-2 drop-shadow-sm">
-                {currentWord?.word || ''}
-              </h2>
-              <p className="text-lg text-gray-500 font-medium">{currentWord?.phonetic || ''}</p>
-            </div>
-            <p className="text-gray-600 mt-4 italic text-lg">
-              "{currentWord?.sentence || ''}"
-            </p>
-          </div>
+      {/* 单词卡片和选项（带过渡动画） */}
+      <section className={`max-w-md mx-auto mb-8 transition-all duration-250 ${cardTransition ? 'opacity-0 translate-y-2 scale-[0.98]' : 'opacity-100 translate-y-0 scale-100'}`}>
+        <WordCard
+          word={currentWord?.word || ''}
+          phonetic={currentWord?.phonetic}
+          sentence={currentWord?.sentence}
+          isCorrect={showResult ? isCorrect : null}
+          className="mb-0"
+        />
 
-          <div className="h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent mb-6" />
+        <div className="h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent my-4" />
 
-          <p className="text-center text-gray-700 mb-4 font-medium text-lg">
-            选出正确的中文意思：
-          </p>
+        <p className="text-center text-gray-700 mb-4 font-medium text-lg">
+          选出正确的中文意思：
+        </p>
 
-          <div className="grid grid-cols-2 gap-3">
-            {currentOptions.map((option, index) => {
-              const optionGradients = [
-                'from-blue-400 to-blue-500',
-                'from-purple-400 to-purple-500',
-                'from-green-400 to-green-500',
-                'from-orange-400 to-orange-500',
-              ]
-
-              return (
-                <button
-                  key={index}
-                  onClick={() => handleAnswerSelect(option)}
-                  disabled={showResult}
-                  className={`relative overflow-hidden p-4 rounded-xl text-lg font-medium transition-all duration-300 transform hover:scale-105 active:scale-95 ${
-                    showResult
-                      ? option === currentWord?.meaning
-                        ? 'bg-gradient-to-br from-green-400 to-emerald-500 text-white shadow-lg scale-105'
-                        : option === selectedAnswer
-                        ? 'bg-gradient-to-br from-red-400 to-pink-500 text-white'
-                        : 'bg-gray-100 text-gray-400'
-                      : `bg-gradient-to-br ${optionGradients[index]} text-white shadow-md hover:shadow-xl`
-                  }`}
-                >
-                  <div className="absolute top-0 right-0 w-16 h-16 bg-white/10 rounded-full -translate-y-8 translate-x-8" />
-                  <span className="relative">{option}</span>
-                </button>
-              )
-            })}
-          </div>
-        </div>
+        <OptionGrid
+          options={currentOptions}
+          selectedAnswer={selectedAnswer}
+          correctAnswer={currentWord?.meaning || ''}
+          showResult={showResult}
+          onSelect={handleAnswerSelect}
+        />
       </section>
 
       {/* 结果反馈 */}
       {showResult && (
-        <section className="max-w-md mx-auto mb-8 animate-bounce-in">
-          <div className={`relative overflow-hidden rounded-2xl shadow-xl ${
-            isCorrect
-              ? 'bg-gradient-to-br from-green-400 via-emerald-500 to-teal-500'
-              : 'bg-gradient-to-br from-orange-400 via-red-400 to-pink-500'
-          }`}>
-            <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-16 translate-x-16" />
-            <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full translate-y-12 -translate-x-12" />
-
-            <div className="relative p-6 text-white text-center">
-              <span className="text-5xl mb-3 block">
-                {isCorrect ? '🎉' : '💪'}
-              </span>
-              <h3 className="text-2xl font-bold mb-2">
-                {isCorrect ? '太棒了！' : '加油，再想想！'}
-              </h3>
-              <p className="opacity-90 text-lg mb-4">
-                {isCorrect
-                  ? '你已经掌握了这个单词的意思！'
-                  : `正确答案是：${currentWord?.meaning || ''}`
-                }
-              </p>
-
-              {currentWord?.phrase && currentWord.phrase.length > 0 && (
-                <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 mb-4">
-                  <p className="text-sm font-medium mb-1 opacity-90">📝 常见短语：</p>
-                  <p className="text-white">
-                    {currentWord.phrase.slice(0, 3).join('、')}
-                  </p>
-                </div>
-              )}
-
-              {!isCorrect && currentWord?.error_tags && (
-                <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 mb-4">
-                  <p className="text-sm font-bold mb-2">💡 错因分析：</p>
-                  <div className="bg-white/30 rounded-lg p-3">
-                    <p className="font-medium text-lg">{currentWord.error_tags[0]}</p>
-                  </div>
-                  <p className="text-sm mt-2 opacity-90">这个词明天还会再出现，到时候一定能记住！</p>
-                </div>
-              )}
-
-              <button
-                onClick={handleNext}
-                className="w-full bg-white text-gray-800 font-bold py-4 px-6 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl active:scale-95 shadow-lg"
-              >
-                {currentIndex < practiceSequence.length - 1 ? '下一题 →' : '完成练习 🎊'}
-              </button>
-            </div>
-          </div>
+        <section className="max-w-md mx-auto mb-8">
+          <ResultCard
+            isCorrect={isCorrect}
+            correctMeaning={currentWord?.meaning || ''}
+            phrase={currentWord?.phrase}
+            errorTags={currentWord?.error_tags}
+            onNext={handleNext}
+            isLast={currentIndex >= practiceSequence.length - 1}
+          />
         </section>
       )}
 
