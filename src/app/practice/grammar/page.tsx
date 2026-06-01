@@ -178,17 +178,14 @@ export default function GrammarPractice() {
         </div>
       </div>
 
-      {/* 语法点卡片 */}
+      {/* 语法点标题（不显示解释，避免泄露答案） */}
       <div className="max-w-md mx-auto mb-6">
-        <div className="card">
-          <div className="text-center mb-4">
-            <span className="text-4xl mb-2 block">📚</span>
-            <h2 className="text-xl font-bold text-gray-800">{currentGrammar?.grammar_point || ''}</h2>
-          </div>
-          <div className="bg-blue-50 rounded-xl p-4 mb-4">
-            <p className="text-sm text-blue-800 font-medium mb-1">💡 小学生解释：</p>
-            <p className="text-blue-700">{currentGrammar?.student_explanation || ''}</p>
-          </div>
+        <div className="card text-center">
+          <span className="text-4xl mb-2 block">📚</span>
+          <h2 className="text-xl font-bold text-gray-800">{currentGrammar?.grammar_point || ''}</h2>
+          {!showExplanation && (
+            <p className="text-sm text-gray-500 mt-1">仔细看下面两个句子，选出正确的</p>
+          )}
         </div>
       </div>
 

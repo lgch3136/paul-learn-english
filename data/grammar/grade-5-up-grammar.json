@@ -58,7 +58,7 @@
       ],
       "wrong_examples": [
         {
-          "sentence": "The ball is on the bed.",
+          "sentence": "The ball is under of the bed.",
           "correction": "The ball is under the bed."
         },
         {
@@ -286,12 +286,12 @@
       ],
       "wrong_examples": [
         {
-          "sentence": "Christmas is in december.",
-          "correction": "Christmas is in December."
+          "sentence": "We eats moon cakes at Mid-Autumn Festival.",
+          "correction": "We eat moon cakes at Mid-Autumn Festival."
         },
         {
-          "sentence": "We eats moon cakes.",
-          "correction": "We eat moon cakes."
+          "sentence": "Christmas are in December.",
+          "correction": "Christmas is in December."
         }
       ],
       "error_reason": "",

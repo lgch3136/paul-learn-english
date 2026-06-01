@@ -74,7 +74,7 @@
       ],
       "wrong_examples": [
         {
-          "sentence": "Today is sunny.",
+          "sentence": "It's sunny and rain today.",
           "correction": "It's sunny today.",
           "error_type": "句型用错"
         },
