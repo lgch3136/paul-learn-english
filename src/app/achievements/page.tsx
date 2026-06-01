@@ -39,17 +39,22 @@ export default function AchievementsPage() {
     { id: 'special', name: '特殊', icon: '✨' },
   ]
 
+  // 成就 ID → 分类映射
+  const categoryMap: Record<string, string> = {
+    first_word: 'vocabulary', word_collector_5: 'vocabulary', word_collector_10: 'vocabulary',
+    word_collector_20: 'vocabulary', word_collector_50: 'vocabulary', word_collector_100: 'vocabulary',
+    streak_3: 'streak', streak_5: 'streak', streak_10: 'streak', streak_15: 'streak', streak_20: 'streak',
+    perfect_round: 'perfect', perfect_3: 'perfect', perfect_5: 'perfect',
+    speed_demon: 'speed', quick_learner: 'speed',
+    persistent: 'persistence', dedicated: 'persistence', committed: 'persistence', unstoppable: 'persistence',
+    answer_10: 'vocabulary', answer_25: 'vocabulary', answer_50: 'vocabulary', answer_100: 'vocabulary', answer_200: 'vocabulary',
+    error_corrector: 'special', no_mistakes: 'special', marathon: 'special', night_owl: 'special', early_bird: 'special',
+  }
+
   // 过滤成就
   const filteredAchievements = selectedCategory === 'all'
     ? achievements
-    : achievements.filter(a => a.id.startsWith(selectedCategory) || 
-        (selectedCategory === 'vocabulary' && a.id.includes('word')) ||
-        (selectedCategory === 'streak' && a.id.includes('streak')) ||
-        (selectedCategory === 'perfect' && a.id.includes('perfect')) ||
-        (selectedCategory === 'speed' && a.id.includes('speed')) ||
-        (selectedCategory === 'persistence' && (a.id.includes('persistent') || a.id.includes('dedicated') || a.id.includes('unstoppable'))) ||
-        (selectedCategory === 'special' && !['word', 'streak', 'perfect', 'speed', 'persistent', 'dedicated', 'unstoppable'].some(p => a.id.includes(p)))
-      )
+    : achievements.filter(a => categoryMap[a.id] === selectedCategory)
 
   const isUnlocked = (id: string) => unlockedAchievements.includes(id)
   const unlockedCount = unlockedAchievements.length

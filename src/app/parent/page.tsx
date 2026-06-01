@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import Link from 'next/link'
 import BackButton from '@/components/ui/BackButton'
 import { sounds } from '@/lib/sounds'
@@ -33,6 +33,21 @@ function extractWord(wordId: string): string {
 
 export default function ParentPage() {
   const [report, setReport] = useState<ReportData | null>(null)
+  const [showClearConfirm, setShowClearConfirm] = useState(false)
+
+  const handleClearData = useCallback(() => {
+    try {
+      localStorage.removeItem('paul_english_achievements')
+      localStorage.removeItem('paul_english_points')
+      localStorage.removeItem('paul_english_streak')
+      localStorage.removeItem('paul_english_last_study_date')
+      localStorage.removeItem('paul_english_performances')
+      setShowClearConfirm(false)
+      window.location.reload()
+    } catch (e) {
+      console.error('清除数据失败:', e)
+    }
+  }, [])
 
   useEffect(() => {
     const loadData = async () => {
@@ -251,6 +266,46 @@ export default function ParentPage() {
             </div>
           </div>
         </section>
+      )}
+
+      {/* 数据管理 */}
+      <section className="max-w-md mx-auto mb-8">
+        <div className="card">
+          <h2 className="text-lg font-semibold mb-4 text-gray-800">⚙️ 数据管理</h2>
+          <p className="text-sm text-gray-600 mb-4">清除所有学习数据将重置积分、成就、学习记录，此操作不可撤销。</p>
+          <button
+            onClick={() => setShowClearConfirm(true)}
+            className="w-full bg-red-50 text-red-600 font-bold py-3 px-6 rounded-xl border-2 border-red-200 transition-all hover:bg-red-100 hover:border-red-300 active:scale-[0.98]"
+          >
+            🗑️ 清除所有学习数据
+          </button>
+        </div>
+      </section>
+
+      {/* 清除确认弹窗 */}
+      {showClearConfirm && (
+        <div className="fixed inset-0 flex items-center justify-center p-4" style={{ zIndex: 200 }}>
+          <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" onClick={() => setShowClearConfirm(false)} />
+          <div className="relative bg-white rounded-2xl shadow-2xl max-w-sm w-full p-6 text-center">
+            <span className="text-5xl block mb-4">⚠️</span>
+            <h3 className="text-xl font-bold text-gray-800 mb-2">确认清除数据？</h3>
+            <p className="text-gray-600 mb-6">所有积分、成就、学习记录将被永久删除，无法恢复。</p>
+            <div className="flex gap-3">
+              <button
+                onClick={() => setShowClearConfirm(false)}
+                className="flex-1 bg-gray-100 text-gray-700 font-bold py-3 px-6 rounded-xl hover:bg-gray-200"
+              >
+                取消
+              </button>
+              <button
+                onClick={handleClearData}
+                className="flex-1 bg-red-500 text-white font-bold py-3 px-6 rounded-xl hover:bg-red-600 active:scale-95"
+              >
+                确认清除
+              </button>
+            </div>
+          </div>
+        </div>
       )}
 
       <footer className="text-center text-gray-500 text-sm pb-8">

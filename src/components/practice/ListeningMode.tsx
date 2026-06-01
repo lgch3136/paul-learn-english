@@ -89,7 +89,7 @@ export default function ListeningMode({ words, onComplete, onBack }: ListeningMo
   }, [currentIndex, started])
 
   const startGame = () => {
-    const shuffled = shuffleArray(words).slice(0, Math.min(10, words.length))
+    const shuffled = shuffleArray(words)
     setShuffledWords(shuffled)
     setCurrentIndex(0)
     setScore(0)
@@ -114,30 +114,27 @@ export default function ListeningMode({ words, onComplete, onBack }: ListeningMo
       setScore(score + 1)
       sounds.correct()
       setAnimClass('animate-bounce-result')
-      setShowFeedback(true)
     } else {
       sounds.wrong()
       setAnimClass('animate-shake-result')
-      setShowFeedback(true)
     }
+  }
 
-    setTimeout(() => {
-      setAnimClass('')
-      setShowFeedback(false)
-      if (currentIndex < shuffledWords.length - 1) {
-        setCurrentIndex(currentIndex + 1)
-        setShowResult(false)
-        setSelectedAnswer(null)
-      } else {
-        setGameOver(true)
-        const finalScore = answer === currentWord.word ? score + 1 : score
-        if (finalScore >= shuffledWords.length * 0.7) {
-          sounds.complete()
-          if (containerRef.current) createConfetti(containerRef.current, 50)
-        }
-        onComplete(finalScore, shuffledWords.length)
+  const handleNext = () => {
+    setAnimClass('')
+    setShowFeedback(false)
+    if (currentIndex < shuffledWords.length - 1) {
+      setCurrentIndex(currentIndex + 1)
+      setShowResult(false)
+      setSelectedAnswer(null)
+    } else {
+      setGameOver(true)
+      if (score >= shuffledWords.length * 0.7) {
+        sounds.complete()
+        if (containerRef.current) createConfetti(containerRef.current, 50)
       }
-    }, 1500)
+      onComplete(score, shuffledWords.length)
+    }
   }
 
   if (!started) {
@@ -251,6 +248,28 @@ export default function ListeningMode({ words, onComplete, onBack }: ListeningMo
           )
         })}
       </div>
+
+      {/* 结果反馈 */}
+      {showResult && (
+        <div className="mt-4 animate-bounce-in">
+          <div className={`rounded-2xl shadow-xl p-5 text-white text-center ${
+            selectedAnswer === currentWord?.word
+              ? 'bg-gradient-to-br from-green-400 via-emerald-500 to-teal-500'
+              : 'bg-gradient-to-br from-orange-400 via-red-400 to-pink-500'
+          }`}>
+            <span className="text-4xl mb-2 block">{selectedAnswer === currentWord?.word ? '🎉' : '❌'}</span>
+            <h3 className="text-xl font-bold mb-1">{selectedAnswer === currentWord?.word ? '答对了！' : '答错了！'}</h3>
+            <p className="opacity-90 mb-1">正确答案：<span className="font-bold text-lg">{currentWord?.word}</span></p>
+            <p className="opacity-75 text-sm mb-3">{currentWord?.meaning}</p>
+            <button
+              onClick={handleNext}
+              className="w-full bg-white text-gray-800 font-bold py-3 px-6 rounded-xl text-lg transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg"
+            >
+              {currentIndex < shuffledWords.length - 1 ? '下一题 →' : '完成练习 🎊'}
+            </button>
+          </div>
+        </div>
+      )}
 
       <style jsx>{`
         @keyframes bounceResult {

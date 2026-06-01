@@ -43,7 +43,7 @@ export default function SpellingMode({ words, onComplete, onBack }: SpellingMode
   const currentWord = shuffledWords[currentIndex]
 
   const startGame = () => {
-    const shuffled = shuffleArray(words).slice(0, Math.min(10, words.length))
+    const shuffled = shuffleArray(words)
     setShuffledWords(shuffled)
     setCurrentIndex(0)
     setScore(0)
@@ -95,12 +95,12 @@ export default function SpellingMode({ words, onComplete, onBack }: SpellingMode
       setTimeout(() => inputRef.current?.focus(), 100)
     } else {
       setGameOver(true)
-      const finalScore = isCorrect ? score + 1 : score
-      if (finalScore >= shuffledWords.length * 0.7) {
+      // score 已经在 handleSubmit 中更新了，直接用 score
+      if (score >= shuffledWords.length * 0.7) {
         sounds.complete()
         if (containerRef.current) createConfetti(containerRef.current, 50)
       }
-      onComplete(finalScore, shuffledWords.length)
+      onComplete(score, shuffledWords.length)
     }
   }
 
