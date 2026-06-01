@@ -8,13 +8,14 @@ interface Word {
   word: string
   meaning: string
   phonetic: string
+  word_id?: string
 }
 
 interface ListeningModeProps {
   words: Word[]
   onComplete: (score: number, totalWords: number) => void
   onBack: () => void
-  onAnswer?: (word: string, isCorrect: boolean) => void
+  onAnswer?: (wordId: string, isCorrect: boolean) => void
 }
 
 function shuffleArray<T>(array: T[]): T[] {
@@ -121,7 +122,7 @@ export default function ListeningMode({ words, onComplete, onBack, onAnswer }: L
       setAnimClass('animate-shake-result')
     }
     // 通知父组件记录答题表现（用于成就统计）
-    if (onAnswer) onAnswer(currentWord.word, correct)
+    if (onAnswer && currentWord.word_id) onAnswer(currentWord.word_id, correct)
   }
 
   const handleNext = () => {

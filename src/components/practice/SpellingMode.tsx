@@ -8,13 +8,14 @@ interface Word {
   word: string
   meaning: string
   phonetic: string
+  word_id?: string
 }
 
 interface SpellingModeProps {
   words: Word[]
   onComplete: (score: number, totalWords: number) => void
   onBack: () => void
-  onAnswer?: (word: string, isCorrect: boolean) => void
+  onAnswer?: (wordId: string, isCorrect: boolean) => void
 }
 
 function shuffleArray<T>(array: T[]): T[] {
@@ -74,7 +75,7 @@ export default function SpellingMode({ words, onComplete, onBack, onAnswer }: Sp
       setStreak(0)
       sounds.wrong()
     }
-    if (onAnswer) onAnswer(currentWord.word, correct)
+    if (onAnswer && currentWord.word_id) onAnswer(currentWord.word_id, correct)
   }
 
   const handleKeyDown = (e: React.KeyboardEvent) => {

@@ -9,13 +9,14 @@ interface Word {
   word: string
   meaning: string
   phonetic: string
+  word_id?: string
 }
 
 interface SpeedModeProps {
   words: Word[]
   onComplete: (score: number, totalWords: number) => void
   onBack: () => void
-  onAnswer?: (word: string, isCorrect: boolean) => void
+  onAnswer?: (wordId: string, isCorrect: boolean) => void
 }
 
 export default function SpeedMode({ words, onComplete, onBack, onAnswer }: SpeedModeProps) {
@@ -79,7 +80,7 @@ export default function SpeedMode({ words, onComplete, onBack, onAnswer }: Speed
     setStreak(0)
     sounds.wrong()
     setWrongFlash(true)
-    if (onAnswer && currentWord) onAnswer(currentWord.word, false)
+    if (onAnswer && currentWord && currentWord.word_id) onAnswer(currentWord.word_id, false)
 
     setTimeout(() => {
       setWrongFlash(false)
@@ -94,7 +95,7 @@ export default function SpeedMode({ words, onComplete, onBack, onAnswer }: Speed
     setIsActive(false)
 
     const correct = answer === currentWord.meaning
-    if (onAnswer) onAnswer(currentWord.word, correct)
+    if (onAnswer && currentWord.word_id) onAnswer(currentWord.word_id, correct)
 
     if (correct) {
       const newStreak = streak + 1

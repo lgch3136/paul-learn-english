@@ -235,11 +235,9 @@ export default function VocabularyPractice() {
   // 待展示的成就（用于延迟弹窗显示，避免在弹窗前就保存 localStorage）
   const pendingAchievementRef = useRef<Achievement | null>(null)
 
-  // 全模块通用：记录答题并检查成就
-  const handleModeAnswer = (word: string, isCorrect: boolean) => {
-    // 从 practiceSequence 中找到对应的 word_id
-    const entry = practiceSequence.find((v: any) => v.word === word)
-    if (entry) recordAnswer(entry.word_id, isCorrect)
+  // 全模块通用：记录答题（直接使用 word_id，无需查找）
+  const handleModeAnswer = (wordId: string, isCorrect: boolean) => {
+    recordAnswer(wordId, isCorrect)
   }
 
   // 全模块通用：检查成就并显示弹窗（sessionMaxStreak = 本次会话最大连击数）
@@ -476,7 +474,7 @@ export default function VocabularyPractice() {
   if (practiceMode === 'listening') {
     return (
       <ListeningMode
-        words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic }))}
+        words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic, word_id: v.word_id }))}
         onComplete={(score, total) => {
           updateDailyStats({ wordsLearned: score })
           triggerAchievements(score, 0)
@@ -491,7 +489,7 @@ export default function VocabularyPractice() {
   if (practiceMode === 'spelling') {
     return (
       <SpellingMode
-        words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic }))}
+        words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic, word_id: v.word_id }))}
         onComplete={(score, total) => {
           updateDailyStats({ wordsLearned: score })
           triggerAchievements(score, 0)
@@ -520,7 +518,7 @@ export default function VocabularyPractice() {
         </header>
 
         <SpeedMode
-          words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic }))}
+          words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic, word_id: v.word_id }))}
           onComplete={(score, total) => {
             updateDailyStats({ wordsLearned: score })
             triggerAchievements(score, 0)
@@ -550,7 +548,7 @@ export default function VocabularyPractice() {
         </header>
 
         <ChallengeMode
-          words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic }))}
+          words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic, word_id: v.word_id }))}
           onComplete={(success, streak) => {
             if (success) {
               sounds.complete()

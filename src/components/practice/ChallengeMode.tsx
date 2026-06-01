@@ -8,13 +8,14 @@ interface Word {
   word: string
   meaning: string
   phonetic: string
+  word_id?: string
 }
 
 interface ChallengeModeProps {
   words: Word[]
   onComplete: (success: boolean, streak: number) => void
   onBack: () => void
-  onAnswer?: (word: string, isCorrect: boolean) => void
+  onAnswer?: (wordId: string, isCorrect: boolean) => void
 }
 
 const TARGET_STREAK = 5
@@ -76,7 +77,7 @@ export default function ChallengeMode({ words, onComplete, onBack, onAnswer }: C
     setShowResult(true)
 
     const correct = answer === currentWord.word.meaning
-    if (onAnswer) onAnswer(currentWord.word.word, correct)
+    if (onAnswer && currentWord.word.word_id) onAnswer(currentWord.word.word_id, correct)
 
     if (correct) {
       const newStreak = streak + 1
