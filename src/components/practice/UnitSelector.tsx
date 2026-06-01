@@ -149,6 +149,25 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
 
   const handleAllHistory = () => handleSelect(['all'], '全部历史单词', 'all')
 
+  // 获取从三年级到指定年级的所有单元ID
+  const getAllUnitsUpToGrade = (targetGradeId: string): { units: string[], label: string } => {
+    const targetIndex = gradeData.findIndex(g => g.id === targetGradeId)
+    if (targetIndex < 0) return { units: ['all'], label: '全部历史单词' }
+    const allUnits: string[] = []
+    for (let i = 0; i <= targetIndex; i++) {
+      gradeData[i].semesters.forEach(s => {
+        s.units.forEach(u => allUnits.push(u.id))
+      })
+    }
+    const label = `三年级至${gradeData[targetIndex].label}全部`
+    return { units: allUnits, label }
+  }
+
+  const handleHistoryUpToGrade = (targetGradeId: string) => {
+    const { units, label } = getAllUnitsUpToGrade(targetGradeId)
+    handleSelect(units, label, 'all')
+  }
+
   const handleGradeClick = (gradeId: string) => {
     sounds.click()
     setExpandedGrade(prev => prev === gradeId ? null : gradeId)
@@ -216,23 +235,42 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
       {/* ====== 小学组 ====== */}
       {tab === 'school' && (
         <div className="space-y-2 mb-6">
-          {/* 全部历史 */}
-          <button
-            onClick={handleAllHistory}
-            className="w-full relative overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 text-white shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.01] active:scale-[0.99]"
-          >
-            <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -translate-y-12 translate-x-12" />
-            <div className="relative flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <span className="text-3xl">🌍</span>
-                <div className="text-left">
-                  <p className="font-bold text-lg">全部历史单词</p>
-                  <p className="text-xs opacity-80">三年级至六年级所有内容</p>
+          {/* 全部历史（默认：全部年级；展开某年级后变为"三年级至X年级全部"） */}
+          {expandedGrade ? (
+            <button
+              onClick={() => handleHistoryUpToGrade(expandedGrade)}
+              className="w-full relative overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 text-white shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.01] active:scale-[0.99]"
+            >
+              <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -translate-y-12 translate-x-12" />
+              <div className="relative flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <span className="text-3xl">🌍</span>
+                  <div className="text-left">
+                    <p className="font-bold text-lg">{getAllUnitsUpToGrade(expandedGrade).label}</p>
+                    <p className="text-xs opacity-80">包含已学过的所有单词</p>
+                  </div>
                 </div>
+                <span className="text-2xl opacity-70">→</span>
               </div>
-              <span className="text-2xl opacity-70">→</span>
-            </div>
-          </button>
+            </button>
+          ) : (
+            <button
+              onClick={handleAllHistory}
+              className="w-full relative overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 text-white shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.01] active:scale-[0.99]"
+            >
+              <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -translate-y-12 translate-x-12" />
+              <div className="relative flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <span className="text-3xl">🌍</span>
+                  <div className="text-left">
+                    <p className="font-bold text-lg">全部历史单词</p>
+                    <p className="text-xs opacity-80">三年级至六年级所有内容</p>
+                  </div>
+                </div>
+                <span className="text-2xl opacity-70">→</span>
+              </div>
+            </button>
+          )}
 
           {/* 各年级 */}
           {gradeData.map(grade => {

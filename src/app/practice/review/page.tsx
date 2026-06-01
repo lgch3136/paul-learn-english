@@ -139,9 +139,12 @@ export default function ReviewPractice() {
 
   // 检查成就（使用共享模块）
   const checkForAchievements = (sessionMaxStreak: number) => {
+    console.log('[成就系统-错题复习] checkForAchievements → sessionMaxStreak:', sessionMaxStreak)
     const { newAchievements, totalPoints } = checkNewAchievements(sessionMaxStreak)
+    console.log('[成就系统-错题复习] result → newAchievements:', newAchievements.length)
     if (newAchievements.length > 0) {
       const latest = newAchievements[newAchievements.length - 1]
+      console.log('[成就系统-错题复习] ✅ NEW achievement:', latest.id, latest.title)
       setPoints(totalPoints)
       pendingAchievementRef.current = latest
       setTimeout(() => setUnlockedAchievement(latest), 1500)
@@ -170,6 +173,7 @@ export default function ReviewPractice() {
 
     const correct = answer === currentWord.meaning
     const wordId = currentWord.word_id
+    console.log('[成就系统-错题复习] handleAnswerSelect → wordId:', wordId, 'correct:', correct)
 
     // 通过共享模块记录
     recordAnswer(wordId, correct)

@@ -127,6 +127,25 @@ export default function GrammarScopeSelector({ onSelect }: { onSelect: (scope: G
 
   const handleAllGrammar = () => handleSelect(['all'], '全部语法')
 
+  // 获取从三年级到指定年级的所有语法单元
+  const getAllGrammarUpToGrade = (targetGradeId: string): { units: string[], label: string } => {
+    const targetIndex = gradeData.findIndex(g => g.id === targetGradeId)
+    if (targetIndex < 0) return { units: ['all'], label: '全部语法' }
+    const allUnits: string[] = []
+    for (let i = 0; i <= targetIndex; i++) {
+      gradeData[i].semesters.forEach(s => {
+        s.units.forEach(u => allUnits.push(u.id))
+      })
+    }
+    const label = `三年级至${gradeData[targetIndex].label}全部语法`
+    return { units: allUnits, label }
+  }
+
+  const handleGrammarUpToGrade = (targetGradeId: string) => {
+    const { units, label } = getAllGrammarUpToGrade(targetGradeId)
+    handleSelect(units, label)
+  }
+
   const handleGradeClick = (gradeId: string) => {
     sounds.click()
     setExpandedGrade(prev => prev === gradeId ? null : gradeId)
@@ -171,23 +190,42 @@ export default function GrammarScopeSelector({ onSelect }: { onSelect: (scope: G
       </div>
 
       <div className="space-y-2 mb-6">
-        {/* 全部语法 */}
-        <button
-          onClick={handleAllGrammar}
-          className="w-full relative overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 text-white shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.01] active:scale-[0.99]"
-        >
-          <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -translate-y-12 translate-x-12" />
-          <div className="relative flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <span className="text-3xl">📚</span>
-              <div className="text-left">
-                <p className="font-bold text-lg">全部语法</p>
-                <p className="text-xs opacity-80">三年级至六年级所有语法点</p>
+        {/* 全部语法（默认全部年级；展开某年级后变为"三年级至X年级全部语法"） */}
+        {expandedGrade ? (
+          <button
+            onClick={() => handleGrammarUpToGrade(expandedGrade)}
+            className="w-full relative overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 text-white shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.01] active:scale-[0.99]"
+          >
+            <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -translate-y-12 translate-x-12" />
+            <div className="relative flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <span className="text-3xl">📚</span>
+                <div className="text-left">
+                  <p className="font-bold text-lg">{getAllGrammarUpToGrade(expandedGrade).label}</p>
+                  <p className="text-xs opacity-80">包含已学过的所有语法点</p>
+                </div>
               </div>
+              <span className="text-2xl opacity-70">→</span>
             </div>
-            <span className="text-2xl opacity-70">→</span>
-          </div>
-        </button>
+          </button>
+        ) : (
+          <button
+            onClick={handleAllGrammar}
+            className="w-full relative overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 text-white shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.01] active:scale-[0.99]"
+          >
+            <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -translate-y-12 translate-x-12" />
+            <div className="relative flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <span className="text-3xl">📚</span>
+                <div className="text-left">
+                  <p className="font-bold text-lg">全部语法</p>
+                  <p className="text-xs opacity-80">三年级至六年级所有语法点</p>
+                </div>
+              </div>
+              <span className="text-2xl opacity-70">→</span>
+            </div>
+          </button>
+        )}
 
         {/* 各年级 */}
         {gradeData.map(grade => {

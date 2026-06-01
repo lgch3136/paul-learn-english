@@ -44,7 +44,7 @@ export function getCumulativeStats(sessionMaxStreak: number = 0): PlayerStats {
     if (r) perfectRounds = parseInt(r)
   } catch (e) {}
 
-  return {
+  const stats = {
     totalWords: perf.size,
     correctAnswers: totalCorrect,
     wrongAnswers: totalWrong,
@@ -54,15 +54,19 @@ export function getCumulativeStats(sessionMaxStreak: number = 0): PlayerStats {
     daysStudied,
     perfectRounds,
   }
+  console.log('[成就系统] getCumulativeStats → Map.size:', perf.size, 'totalCorrect:', totalCorrect, 'totalWrong:', totalWrong, 'maxConsecutive:', maxConsecutive, 'daysStudied:', daysStudied, 'perfectRounds:', perfectRounds)
+  return stats
 }
 
 // 记录答题表现（统一入口，所有模式都调用这个）
 export function recordAnswer(wordId: string, isCorrect: boolean): void {
+  console.log('[成就系统] recordAnswer called → wordId:', wordId, 'isCorrect:', isCorrect)
   const perf = loadPerformances()
   const current = perf.get(wordId) || initializePerformance(wordId)
   const updated = updatePerformance(current, isCorrect)
   perf.set(wordId, updated)
   savePerformances(perf)
+  console.log('[成就系统] recordAnswer saved → Map.size:', perf.size, 'correctCount:', updated.correctCount, 'wrongCount:', updated.wrongCount)
 }
 
 // 记录完美轮次

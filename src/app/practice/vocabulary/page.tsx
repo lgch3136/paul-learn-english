@@ -148,6 +148,66 @@ export default function VocabularyPractice() {
         }
       }
     } catch (e) { /* ignore */ }
+
+    // 暴露诊断函数到浏览器控制台
+    ;(window as any).debugAchievements = () => {
+      const perf = loadPerformances()
+      let totalCorrect = 0, totalWrong = 0, maxStreak = 0
+      perf.forEach(p => {
+        totalCorrect += p.correctCount
+        totalWrong += p.wrongCount
+        maxStreak = Math.max(maxStreak, p.consecutiveCorrect)
+      })
+      const achievements = JSON.parse(localStorage.getItem('paul_english_achievements') || '[]')
+      const points = localStorage.getItem('paul_english_points') || '0'
+      const result = {
+        'performances_entries': perf.size,
+        'totalCorrect': totalCorrect,
+        'totalWrong': totalWrong,
+        'maxStreak': maxStreak,
+        'points': points,
+        'unlockedAchievements': achievements,
+        'localStorage_keys': Object.keys(localStorage).filter(k => k.startsWith('paul_english')),
+      }
+      console.table(result)
+      return result
+    }
+
+    // 暴露测试函数：模拟答一题并检查成就
+    ;(window as any).testAchievement = () => {
+      console.log('=== 开始测试成就系统 ===')
+      // 1. 模拟记录一题正确答案
+      recordAnswer('test_word_001', true)
+      console.log('✅ 已记录答题: test_word_001, correct')
+
+      // 2. 检查成就
+      const { newAchievements, totalPoints } = checkNewAchievements(1)
+      console.log('📊 新成就数量:', newAchievements.length, '总积分:', totalPoints)
+      newAchievements.forEach(a => console.log('  🎉', a.id, '-', a.title, ':', a.description))
+
+      // 3. 检查 localStorage
+      const saved = localStorage.getItem('paul_english_achievements')
+      console.log('💾 已存储成就:', saved)
+      const perf = loadPerformances()
+      console.log('📝 performances Map.size:', perf.size)
+
+      // 4. 清理测试数据
+      const perf2 = loadPerformances()
+      perf2.delete('test_word_001')
+      savePerformances(perf2)
+      console.log('🧹 已清理测试数据')
+
+      if (newAchievements.length > 0) {
+        console.log('🎉🎉🎉 成就系统正常工作！发现了', newAchievements.length, '个新成就')
+      } else {
+        console.log('⚠️ 没有发现新成就，可能所有成就已解锁或条件不满足')
+      }
+      return { newAchievements, totalPoints }
+    }
+    console.log('[成就系统] 页面已初始化')
+    console.log('[成就系统] 在控制台输入以下命令进行调试:')
+    console.log('  debugAchievements() - 查看当前成就状态')
+    console.log('  testAchievement() - 模拟答题并测试成就触发')
   }, [])
 
   // 持久化积分
@@ -242,14 +302,20 @@ export default function VocabularyPractice() {
 
   // 全模块通用：检查成就并显示弹窗（sessionMaxStreak = 本次会话最大连击数）
   const triggerAchievements = (sessionMaxStreak: number = 0, delay: number = 1500) => {
+    console.log('[成就系统] triggerAchievements called → sessionMaxStreak:', sessionMaxStreak, 'delay:', delay)
     const { newAchievements, totalPoints } = checkNewAchievements(sessionMaxStreak)
+    console.log('[成就系统] checkNewAchievements result → newAchievements:', newAchievements.length, 'totalPoints:', totalPoints)
     if (newAchievements.length > 0) {
       const latest = newAchievements[newAchievements.length - 1]
+      console.log('[成就系统] ✅ NEW achievement unlocked:', latest.id, latest.title, '→ showing popup in', delay, 'ms')
       setPoints(totalPoints)
       pendingAchievementRef.current = latest
       setTimeout(() => {
+        console.log('[成就系统] Setting unlockedAchievement state now:', latest.id)
         setUnlockedAchievement(latest)
       }, delay)
+    } else {
+      console.log('[成就系统] ❌ No new achievements this time')
     }
   }
 
@@ -264,6 +330,7 @@ export default function VocabularyPractice() {
     setShowResult(true)
 
     const isCorrect = answer === currentWord.meaning
+    console.log('[成就系统] handleAnswerSelect → wordId:', currentWord.word_id, 'answer:', answer, 'correct:', currentWord.meaning, 'isCorrect:', isCorrect)
 
     // 通过共享模块记录答题表现
     const wordId = currentWord.word_id

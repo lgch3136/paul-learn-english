@@ -14,6 +14,7 @@ export default function AchievementPopup({ achievement, onClose }: AchievementPo
   const [showParticles, setShowParticles] = useState(false)
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const hasInitRef = useRef(false)
+  const timersRef = useRef<{ show?: ReturnType<typeof setTimeout>; particle?: ReturnType<typeof setTimeout>; autoClose?: ReturnType<typeof setTimeout>; closeFinish?: ReturnType<typeof setTimeout> }>({})
 
   // 使用 ref 存储 onClose，避免 effect 重跑
   const onCloseRef = useRef(onClose)
@@ -24,30 +25,29 @@ export default function AchievementPopup({ achievement, onClose }: AchievementPo
     if (hasInitRef.current) return
     hasInitRef.current = true
 
-    console.log('[AchievementPopup] 成就弹窗已挂载:', achievement.id, achievement.title)
+    console.log('[成就系统] 🎉 AchievementPopup MOUNTED:', achievement.id, achievement.title, '→ will show in 100ms, auto-close in 5s')
 
     // 播放成就音效
     try { sounds.levelUp() } catch (e) { console.warn('音效播放失败:', e) }
 
     // 显示动画
-    const showTimer = setTimeout(() => setIsVisible(true), 100)
+    timersRef.current.show = setTimeout(() => setIsVisible(true), 100)
 
     // 粒子效果
-    const particleTimer = setTimeout(() => {
+    timersRef.current.particle = setTimeout(() => {
       setShowParticles(true)
       createParticleEffect()
     }, 500)
 
     // 自动关闭（使用 ref 获取最新回调）
-    const autoCloseTimer = setTimeout(() => {
+    timersRef.current.autoClose = setTimeout(() => {
       setIsVisible(false)
-      setTimeout(() => onCloseRef.current(), 500)
+      timersRef.current.closeFinish = setTimeout(() => onCloseRef.current(), 500)
     }, 5000)
 
     return () => {
-      clearTimeout(showTimer)
-      clearTimeout(particleTimer)
-      clearTimeout(autoCloseTimer)
+      Object.values(timersRef.current).forEach(t => clearTimeout(t))
+      timersRef.current = {}
       // 重置 ref，使 StrictMode 重新挂载时能正常执行
       hasInitRef.current = false
     }
@@ -114,6 +114,9 @@ export default function AchievementPopup({ achievement, onClose }: AchievementPo
 
   const handleClose = () => {
     try { sounds.click() } catch (e) {}
+    // 清除所有自动定时器，避免重复调用 onClose
+    Object.values(timersRef.current).forEach(t => clearTimeout(t))
+    timersRef.current = {}
     setIsVisible(false)
     setTimeout(() => onCloseRef.current(), 500)
   }
