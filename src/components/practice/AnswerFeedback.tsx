@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 
 interface AnswerFeedbackProps {
   isCorrect: boolean
@@ -11,16 +11,18 @@ interface AnswerFeedbackProps {
 
 export default function AnswerFeedback({ isCorrect, message, detail, onDone }: AnswerFeedbackProps) {
   const [phase, setPhase] = useState<'enter' | 'show' | 'exit'>('enter')
+  const onDoneRef = useRef(onDone)
+  onDoneRef.current = onDone
 
   useEffect(() => {
     requestAnimationFrame(() => setPhase('show'))
     const exitTimer = setTimeout(() => setPhase('exit'), 1000)
-    const doneTimer = setTimeout(() => onDone(), 1400)
+    const doneTimer = setTimeout(() => onDoneRef.current(), 1400)
     return () => {
       clearTimeout(exitTimer)
       clearTimeout(doneTimer)
     }
-  }, [onDone])
+  }, []) // 不依赖 onDone，用 ref 代替
 
   return (
     <div

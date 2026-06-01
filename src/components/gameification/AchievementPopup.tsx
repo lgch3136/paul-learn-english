@@ -20,7 +20,7 @@ export default function AchievementPopup({ achievement, onClose }: AchievementPo
   useEffect(() => { onCloseRef.current = onClose }, [onClose])
 
   useEffect(() => {
-    // 防止 StrictMode 双重执行
+    // 防止同一次挂载中 effect 被调用两次（非 StrictMode 场景）
     if (hasInitRef.current) return
     hasInitRef.current = true
 
@@ -48,6 +48,8 @@ export default function AchievementPopup({ achievement, onClose }: AchievementPo
       clearTimeout(showTimer)
       clearTimeout(particleTimer)
       clearTimeout(autoCloseTimer)
+      // 重置 ref，使 StrictMode 重新挂载时能正常执行
+      hasInitRef.current = false
     }
   }, [achievement.id]) // 只依赖 achievement.id
 

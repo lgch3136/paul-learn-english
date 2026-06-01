@@ -219,7 +219,7 @@ export default function SpeedMode({ words, onComplete, onBack }: SpeedModeProps)
       {/* 计时器和进度 */}
       <div className="flex justify-between items-center mb-4">
         <div className="text-sm text-gray-600">进度: {currentIndex + 1} / {words.length}</div>
-        <div className={`text-2xl font-bold ${timeLeft <= 3 ? 'text-red-500 animate-pulse' : 'text-blue-600'}`}>
+        <div className={`text-2xl font-bold ${timeLeft <= 2 ? 'text-red-500 animate-pulse' : 'text-blue-600'}`}>
           ⏱️ {timeLeft}s
         </div>
         <div className="text-sm font-bold">
@@ -286,9 +286,9 @@ export default function SpeedMode({ words, onComplete, onBack }: SpeedModeProps)
       <div className="mt-4 h-2 bg-gray-200 rounded-full overflow-hidden">
         <div
           className={`h-full transition-all duration-1000 linear ${
-            timeLeft <= 3 ? 'bg-red-500' : timeLeft <= 6 ? 'bg-yellow-500' : 'bg-green-500'
+            timeLeft <= 2 ? 'bg-red-500' : timeLeft <= 4 ? 'bg-yellow-500' : 'bg-green-500'
           }`}
-          style={{ width: `${(timeLeft / 10) * 100}%` }}
+          style={{ width: `${(timeLeft / 6) * 100}%` }}
         />
       </div>
 
