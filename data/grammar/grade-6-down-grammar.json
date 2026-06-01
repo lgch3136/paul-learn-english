@@ -1,0 +1,309 @@
+{
+  "unit": "Grade 6 Down",
+  "grammar_points": [
+    {
+      "grammar_id": "grammar_g6dn_001",
+      "unit": "g6dn-unit1",
+      "grammar_point": "副词在句中的位置",
+      "category": "grammar",
+      "student_explanation": "频率副词放在be动词后、行为动词前",
+      "teacher_explanation": "频率副词放在be动词后、行为动词前",
+      "correct_examples": [
+        {
+          "sentence": "He always gets up early.",
+          "translation": "他总是早起。"
+        },
+        {
+          "sentence": "She runs very fast.",
+          "translation": "她跑得很快。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "He gets always up early.",
+          "correction": "He always gets up early."
+        },
+        {
+          "sentence": "She very runs fast.",
+          "correction": "She runs very fast."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "副词位置错"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g6dn_002",
+      "unit": "g6dn-unit2",
+      "grammar_point": "习惯用一般现在时",
+      "category": "grammar",
+      "student_explanation": "描述习惯性、经常性的动作用一般现在时",
+      "teacher_explanation": "描述习惯性、经常性的动作用一般现在时",
+      "correct_examples": [
+        {
+          "sentence": "He brushes his teeth twice a day.",
+          "translation": "他每天刷两次牙。"
+        },
+        {
+          "sentence": "I always do my homework.",
+          "translation": "我总是做作业。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "He brush his teeth twice a day.",
+          "correction": "He brushes his teeth."
+        },
+        {
+          "sentence": "I am always doing my homework.",
+          "correction": "I always do my homework."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "三单忘变形",
+        "时态选错"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g6dn_003",
+      "unit": "g6dn-unit3",
+      "grammar_point": "should/shouldn't 饮食建议",
+      "category": "grammar",
+      "student_explanation": "用 should/shouldn't 给饮食建议，后接动词原形",
+      "teacher_explanation": "用 should/shouldn't 给饮食建议，后接动词原形",
+      "correct_examples": [
+        {
+          "sentence": "You should eat more vegetables.",
+          "translation": "你应该多吃蓔菜。"
+        },
+        {
+          "sentence": "You shouldn't eat too many sweets.",
+          "translation": "你不应该吃太多糖。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "You should eating more vegetables.",
+          "correction": "You should eat more vegetables."
+        },
+        {
+          "sentence": "You shouldn't eats too many sweets.",
+          "correction": "You shouldn't eat too many sweets."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "should后加ing",
+        "should后加s"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g6dn_004",
+      "unit": "g6dn-unit4",
+      "grammar_point": "must/mustn't 规则",
+      "category": "grammar",
+      "student_explanation": "must表示“必须”，mustn't表示“禁止”",
+      "teacher_explanation": "must表示“必须”，mustn't表示“禁止”",
+      "correct_examples": [
+        {
+          "sentence": "You must wait for the green light.",
+          "translation": "你必须等绿灯。"
+        },
+        {
+          "sentence": "You mustn't cross the road here.",
+          "translation": "你不许在这里过马路。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "You must waiting for the green light.",
+          "correction": "You must wait for the green light."
+        },
+        {
+          "sentence": "You mustn't to cross the road.",
+          "correction": "You mustn't cross the road."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "must后加ing",
+        "must后多to"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g6dn_005",
+      "unit": "g6dn-unit5",
+      "grammar_point": "be going to 计划",
+      "category": "grammar",
+      "student_explanation": "用 be going to + 动词原形 表示将来的打算",
+      "teacher_explanation": "用 be going to + 动词原形 表示将来的打算",
+      "correct_examples": [
+        {
+          "sentence": "We are going to have a party.",
+          "translation": "我们打算举办一个派对。"
+        },
+        {
+          "sentence": "He is going to play the piano.",
+          "translation": "他打算弹钢琴。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "We are going to having a party.",
+          "correction": "We are going to have a party."
+        },
+        {
+          "sentence": "He is going play piano.",
+          "correction": "He is going to play the piano."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "going to后加ing",
+        "缺少to"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g6dn_006",
+      "unit": "g6dn-unit6",
+      "grammar_point": "国家与国籍形容词",
+      "category": "grammar",
+      "student_explanation": "China→Chinese, America→American, England→English, Australia→Australian",
+      "teacher_explanation": "China→Chinese, America→American, England→English, Australia→Australian",
+      "correct_examples": [
+        {
+          "sentence": "I am Chinese.",
+          "translation": "我是中国人。"
+        },
+        {
+          "sentence": "She is American.",
+          "translation": "她是美国人。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I am China.",
+          "correction": "I am Chinese."
+        },
+        {
+          "sentence": "She comes from American.",
+          "correction": "She comes from America."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "国家与国籍淶淆",
+        "名词形容词混用"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g6dn_007",
+      "unit": "g6dn-unit7",
+      "grammar_point": "will 表示将来",
+      "category": "grammar",
+      "student_explanation": "will + 动词原形，表示将来的动作，否定用 won't",
+      "teacher_explanation": "will + 动词原形，表示将来的动作，否定用 won't",
+      "correct_examples": [
+        {
+          "sentence": "I will go to the park tomorrow.",
+          "translation": "我明天会去公园。"
+        },
+        {
+          "sentence": "It will be sunny.",
+          "translation": "天气会晴朗。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I will goes to the park.",
+          "correction": "I will go to the park."
+        },
+        {
+          "sentence": "It will is sunny.",
+          "correction": "It will be sunny."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "will后加s",
+        "will后用原形"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g6dn_008",
+      "unit": "g6dn-unit8",
+      "grammar_point": "want to be 职业表达",
+      "category": "grammar",
+      "student_explanation": "I want to be a/an + 职业，表示“我想成为...”",
+      "teacher_explanation": "I want to be a/an + 职业，表示“我想成为...”",
+      "correct_examples": [
+        {
+          "sentence": "I want to be a doctor.",
+          "translation": "我想成为一名医生。"
+        },
+        {
+          "sentence": "She wants to be an artist.",
+          "translation": "她想成为一名艺术家。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I want to be doctor.",
+          "correction": "I want to be a doctor."
+        },
+        {
+          "sentence": "She want to be an artist.",
+          "correction": "She wants to be an artist."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "缺冠词",
+        "三单忘变形"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    }
+  ],
+  "total_grammar_points": 8
+}

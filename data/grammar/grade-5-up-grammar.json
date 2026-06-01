@@ -1,0 +1,310 @@
+{
+  "unit": "Grade 5 Up",
+  "grammar_points": [
+    {
+      "grammar_id": "grammar_g5up_001",
+      "unit": "g5up-unit1",
+      "grammar_point": "There be句型",
+      "category": "grammar",
+      "student_explanation": "There is + 单数/不可数名词，There are + 复数名词，表示“有”",
+      "teacher_explanation": "There is + 单数/不可数名词，There are + 复数名词，表示“有”",
+      "correct_examples": [
+        {
+          "sentence": "There is a cat under the table.",
+          "translation": "桌子下面有一只猫。"
+        },
+        {
+          "sentence": "There are some books on the desk.",
+          "translation": "桌上有一些书。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "There is some books on the desk.",
+          "correction": "There are some books on the desk."
+        },
+        {
+          "sentence": "There have a cat.",
+          "correction": "There is a cat."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "单复数混用",
+        "there have错"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 2
+    },
+    {
+      "grammar_id": "grammar_g5up_002",
+      "unit": "g5up-unit2",
+      "grammar_point": "方位介词",
+      "category": "grammar",
+      "student_explanation": "in在里面，on在上面，under在下面，behind在后面，beside在旁边，between在两者之间",
+      "teacher_explanation": "in在里面，on在上面，under在下面，behind在后面，beside在旁边，between在两者之间",
+      "correct_examples": [
+        {
+          "sentence": "The ball is under the bed.",
+          "translation": "球在床下面。"
+        },
+        {
+          "sentence": "She sits beside me.",
+          "translation": "她坐在我旁边。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "The ball is on the bed.",
+          "correction": "The ball is under the bed."
+        },
+        {
+          "sentence": "She sits besides me.",
+          "correction": "She sits beside me."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "介词混用",
+        "beside/besides淶淆"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 2
+    },
+    {
+      "grammar_id": "grammar_g5up_003",
+      "unit": "g5up-unit3",
+      "grammar_point": "can 表示能力",
+      "category": "grammar",
+      "student_explanation": "can + 动词原形，表示“能、会”，否定用 can't",
+      "teacher_explanation": "can + 动词原形，表示“能、会”，否定用 can't",
+      "correct_examples": [
+        {
+          "sentence": "I can swim.",
+          "translation": "我会游泳。"
+        },
+        {
+          "sentence": "She can't fly.",
+          "translation": "她不会飞。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I can swims.",
+          "correction": "I can swim."
+        },
+        {
+          "sentence": "She cans swim.",
+          "correction": "She can swim."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "can后加s",
+        "can后用原形"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 2
+    },
+    {
+      "grammar_id": "grammar_g5up_004",
+      "unit": "g5up-unit4",
+      "grammar_point": "like + 动名词",
+      "category": "grammar",
+      "student_explanation": "like后面接动词时要加ing，表示“喜欢做某事”",
+      "teacher_explanation": "like后面接动词时要加ing，表示“喜欢做某事”",
+      "correct_examples": [
+        {
+          "sentence": "I like reading books.",
+          "translation": "我喜欢看书。"
+        },
+        {
+          "sentence": "She likes singing.",
+          "translation": "她喜欢唱歌。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I like read books.",
+          "correction": "I like reading books."
+        },
+        {
+          "sentence": "She likes sing.",
+          "correction": "She likes singing."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "like后忘加ing",
+        "动词形式错"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 2
+    },
+    {
+      "grammar_id": "grammar_g5up_005",
+      "unit": "g5up-unit5",
+      "grammar_point": "特殊疑问句",
+      "category": "grammar",
+      "student_explanation": "What问什么，Where问哪里，When问时间，How问怎样，Who问谁",
+      "teacher_explanation": "What问什么，Where问哪里，When问时间，How问怎样，Who问谁",
+      "correct_examples": [
+        {
+          "sentence": "Where do you live?",
+          "translation": "你住在哪里？"
+        },
+        {
+          "sentence": "What do you like?",
+          "translation": "你喜欢什么？"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "Where you live?",
+          "correction": "Where do you live?"
+        },
+        {
+          "sentence": "What do you like it?",
+          "correction": "What do you like?"
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "缺助动词",
+        "多余成分"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 2
+    },
+    {
+      "grammar_id": "grammar_g5up_006",
+      "unit": "g5up-unit6",
+      "grammar_point": "日常活动表达",
+      "category": "grammar",
+      "student_explanation": "用一般现在时描述每天的固定活动，注意三单变形",
+      "teacher_explanation": "用一般现在时描述每天的固定活动，注意三单变形",
+      "correct_examples": [
+        {
+          "sentence": "I get up at seven every day.",
+          "translation": "我每天七点起床。"
+        },
+        {
+          "sentence": "He has lunch at twelve.",
+          "translation": "他十二点吃午饭。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I gets up at seven.",
+          "correction": "I get up at seven."
+        },
+        {
+          "sentence": "He have lunch at twelve.",
+          "correction": "He has lunch at twelve."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "主语与动词不一致",
+        "三单变形错"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 2
+    },
+    {
+      "grammar_id": "grammar_g5up_007",
+      "unit": "g5up-unit7",
+      "grammar_point": "周末活动表达",
+      "category": "grammar",
+      "student_explanation": "用一般现在时描述周末活动，注意频率副词位置",
+      "teacher_explanation": "用一般现在时描述周末活动，注意频率副词位置",
+      "correct_examples": [
+        {
+          "sentence": "I often play basketball at weekends.",
+          "translation": "我周末经常打篮球。"
+        },
+        {
+          "sentence": "She usually goes shopping on Sundays.",
+          "translation": "她通常周日去购物。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I often plays basketball.",
+          "correction": "I often play basketball."
+        },
+        {
+          "sentence": "She usually go shopping.",
+          "correction": "She usually goes shopping."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "主语与动词不一致",
+        "频率副词位置错"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 2
+    },
+    {
+      "grammar_id": "grammar_g5up_008",
+      "unit": "g5up-unit8",
+      "grammar_point": "节日表达",
+      "category": "grammar",
+      "student_explanation": "用一般现在时描述节日活动，注意专有名词首字母大写",
+      "teacher_explanation": "用一般现在时描述节日活动，注意专有名词首字母大写",
+      "correct_examples": [
+        {
+          "sentence": "Christmas is in December.",
+          "translation": "圣诞节在十二月。"
+        },
+        {
+          "sentence": "We eat moon cakes at Mid-Autumn Festival.",
+          "translation": "我们在中秋节吃月饼。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "Christmas is in december.",
+          "correction": "Christmas is in December."
+        },
+        {
+          "sentence": "We eats moon cakes.",
+          "correction": "We eat moon cakes."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "专有名词未大写",
+        "动词形式错"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "total_grammar_points": 8
+}

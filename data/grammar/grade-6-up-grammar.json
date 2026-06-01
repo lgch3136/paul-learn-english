@@ -1,0 +1,310 @@
+{
+  "unit": "Grade 6 Up",
+  "grammar_points": [
+    {
+      "grammar_id": "grammar_g6up_001",
+      "unit": "g6up-unit1",
+      "grammar_point": "一般过去时",
+      "category": "grammar",
+      "student_explanation": "表示过去发生的动作，动词变成过去式，规则动词加ed",
+      "teacher_explanation": "表示过去发生的动作，动词变成过去式，规则动词加ed",
+      "correct_examples": [
+        {
+          "sentence": "I watched TV yesterday.",
+          "translation": "我昨天看了电视。"
+        },
+        {
+          "sentence": "She went to school last Monday.",
+          "translation": "她上周一去了学校。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I watch TV yesterday.",
+          "correction": "I watched TV yesterday."
+        },
+        {
+          "sentence": "She goed to school.",
+          "correction": "She went to school."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "忘变动词过去式",
+        "不规则动词错"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g6up_002",
+      "unit": "g6up-unit2",
+      "grammar_point": "感叹句",
+      "category": "grammar",
+      "student_explanation": "What + a/an + 形容词 + 名词！How + 形容词/副词！",
+      "teacher_explanation": "What + a/an + 形容词 + 名词！How + 形容词/副词！",
+      "correct_examples": [
+        {
+          "sentence": "What a beautiful flower!",
+          "translation": "多么漂亮的花！"
+        },
+        {
+          "sentence": "How nice the weather is!",
+          "translation": "天气真好！"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "What beautiful flower!",
+          "correction": "What a beautiful flower!"
+        },
+        {
+          "sentence": "How a nice weather!",
+          "correction": "What nice weather!"
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "缺冠词",
+        "What/How混用"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g6up_003",
+      "unit": "g6up-unit3",
+      "grammar_point": "不规则动词过去式",
+      "category": "grammar",
+      "student_explanation": "go→went, see→saw, eat→ate, have→had, do→did, take→took, come→came",
+      "teacher_explanation": "go→went, see→saw, eat→ate, have→had, do→did, take→took, come→came",
+      "correct_examples": [
+        {
+          "sentence": "I saw a film last night.",
+          "translation": "我昨晚看了电影。"
+        },
+        {
+          "sentence": "We had a good time.",
+          "translation": "我们玩得很开心。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I seed a film.",
+          "correction": "I saw a film."
+        },
+        {
+          "sentence": "We haved a good time.",
+          "correction": "We had a good time."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "不规则动词错劮d",
+        "过去式记错"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g6up_004",
+      "unit": "g6up-unit4",
+      "grammar_point": "过去与现在对比",
+      "category": "grammar",
+      "student_explanation": "用过去时说过去，用现在时说现在，注意时态对比",
+      "teacher_explanation": "用过去时说过去，用现在时说现在，注意时态对比",
+      "correct_examples": [
+        {
+          "sentence": "I could not read before, but now I can.",
+          "translation": "我以前不会读，但现在会了。"
+        },
+        {
+          "sentence": "There was no TV then.",
+          "translation": "那时候没有电视。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I can not read before.",
+          "correction": "I could not read before."
+        },
+        {
+          "sentence": "There is no TV then.",
+          "correction": "There was no TV then."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "时态混乱",
+        "could/can混用"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g6up_005",
+      "unit": "g6up-unit5",
+      "grammar_point": "should/must 表示建议和义务",
+      "category": "grammar",
+      "student_explanation": "should表示“应该”，must表示“必须”，后接动词原形",
+      "teacher_explanation": "should表示“应该”，must表示“必须”，后接动词原形",
+      "correct_examples": [
+        {
+          "sentence": "You should brush your teeth.",
+          "translation": "你应该刷牙。"
+        },
+        {
+          "sentence": "You must not run here.",
+          "translation": "你不许在这里跑。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "You should to brush.",
+          "correction": "You should brush your teeth."
+        },
+        {
+          "sentence": "You must not to run.",
+          "correction": "You must not run here."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "should后多to",
+        "must后多to"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g6up_006",
+      "unit": "g6up-unit6",
+      "grammar_point": "keep + 形容词",
+      "category": "grammar",
+      "student_explanation": "keep + 形容词表示“保持某种状态”",
+      "teacher_explanation": "keep + 形容词表示“保持某种状态”",
+      "correct_examples": [
+        {
+          "sentence": "Keep your room clean.",
+          "translation": "保持你的房间干净。"
+        },
+        {
+          "sentence": "We should keep quiet.",
+          "translation": "我们应该保持安静。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "Keep your room cleaning.",
+          "correction": "Keep your room clean."
+        },
+        {
+          "sentence": "We should keep quietly.",
+          "correction": "We should keep quiet."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "keep后用ing",
+        "形容词副词混用"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g6up_007",
+      "unit": "g6up-unit7",
+      "grammar_point": "should + 动词原形",
+      "category": "grammar",
+      "student_explanation": "should后面直接跟动词原形，表示建议",
+      "teacher_explanation": "should后面直接跟动词原形，表示建议",
+      "correct_examples": [
+        {
+          "sentence": "We should protect the Earth.",
+          "translation": "我们应该保护地球。"
+        },
+        {
+          "sentence": "You should not waste water.",
+          "translation": "你不应该浪费水。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "We should protects the Earth.",
+          "correction": "We should protect the Earth."
+        },
+        {
+          "sentence": "You should not wastes water.",
+          "correction": "You should not waste water."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "should后加s",
+        "动词形式错"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g6up_008",
+      "unit": "g6up-unit8",
+      "grammar_point": "be going to 表将来",
+      "category": "grammar",
+      "student_explanation": "am/is/are going to + 动词原形，表示“打算做某事”",
+      "teacher_explanation": "am/is/are going to + 动词原形，表示“打算做某事”",
+      "correct_examples": [
+        {
+          "sentence": "I am going to visit Beijing.",
+          "translation": "我打算去北京。"
+        },
+        {
+          "sentence": "She is going to buy a book.",
+          "translation": "她打算买一本书。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I am going to visiting Beijing.",
+          "correction": "I am going to visit Beijing."
+        },
+        {
+          "sentence": "She is going buying a book.",
+          "correction": "She is going to buy a book."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "going to后加ing",
+        "缺少to"
+      ],
+      "practice_types": [
+        "选择",
+        "改错"
+      ],
+      "difficulty": 3
+    }
+  ],
+  "total_grammar_points": 8
+}
