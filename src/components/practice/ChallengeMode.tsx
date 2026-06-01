@@ -14,11 +14,12 @@ interface ChallengeModeProps {
   words: Word[]
   onComplete: (success: boolean, streak: number) => void
   onBack: () => void
+  onAnswer?: (word: string, isCorrect: boolean) => void
 }
 
 const TARGET_STREAK = 5
 
-export default function ChallengeMode({ words, onComplete, onBack }: ChallengeModeProps) {
+export default function ChallengeMode({ words, onComplete, onBack, onAnswer }: ChallengeModeProps) {
   const [options, setOptions] = useState<string[]>([])
   const [streak, setStreak] = useState(0)
   const [bestStreak, setBestStreak] = useState(0)
@@ -74,7 +75,10 @@ export default function ChallengeMode({ words, onComplete, onBack }: ChallengeMo
     setSelectedAnswer(answer)
     setShowResult(true)
 
-    if (answer === currentWord.word.meaning) {
+    const correct = answer === currentWord.word.meaning
+    if (onAnswer) onAnswer(currentWord.word.word, correct)
+
+    if (correct) {
       const newStreak = streak + 1
       setStreak(newStreak)
       setBestStreak(Math.max(bestStreak, newStreak))

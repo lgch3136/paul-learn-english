@@ -14,6 +14,7 @@ interface SpellingModeProps {
   words: Word[]
   onComplete: (score: number, totalWords: number) => void
   onBack: () => void
+  onAnswer?: (word: string, isCorrect: boolean) => void
 }
 
 function shuffleArray<T>(array: T[]): T[] {
@@ -25,7 +26,7 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled
 }
 
-export default function SpellingMode({ words, onComplete, onBack }: SpellingModeProps) {
+export default function SpellingMode({ words, onComplete, onBack, onAnswer }: SpellingModeProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [score, setScore] = useState(0)
   const [inputValue, setInputValue] = useState('')
@@ -73,6 +74,7 @@ export default function SpellingMode({ words, onComplete, onBack }: SpellingMode
       setStreak(0)
       sounds.wrong()
     }
+    if (onAnswer) onAnswer(currentWord.word, correct)
   }
 
   const handleKeyDown = (e: React.KeyboardEvent) => {

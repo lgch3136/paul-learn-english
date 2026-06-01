@@ -15,9 +15,10 @@ interface SpeedModeProps {
   words: Word[]
   onComplete: (score: number, totalWords: number) => void
   onBack: () => void
+  onAnswer?: (word: string, isCorrect: boolean) => void
 }
 
-export default function SpeedMode({ words, onComplete, onBack }: SpeedModeProps) {
+export default function SpeedMode({ words, onComplete, onBack, onAnswer }: SpeedModeProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [options, setOptions] = useState<string[]>([])
   const [score, setScore] = useState(0)
@@ -78,6 +79,7 @@ export default function SpeedMode({ words, onComplete, onBack }: SpeedModeProps)
     setStreak(0)
     sounds.wrong()
     setWrongFlash(true)
+    if (onAnswer && currentWord) onAnswer(currentWord.word, false)
 
     setTimeout(() => {
       setWrongFlash(false)
@@ -91,7 +93,10 @@ export default function SpeedMode({ words, onComplete, onBack }: SpeedModeProps)
     setShowResult(true)
     setIsActive(false)
 
-    if (answer === currentWord.meaning) {
+    const correct = answer === currentWord.meaning
+    if (onAnswer) onAnswer(currentWord.word, correct)
+
+    if (correct) {
       const newStreak = streak + 1
       setScore(score + 1)
       setStreak(newStreak)

@@ -5,6 +5,7 @@ import Link from 'next/link'
 import BackButton from '@/components/ui/BackButton'
 import Skeleton, { WordCardSkeleton } from '@/components/ui/Skeleton'
 import { updateDailyStats } from '@/lib/daily-stats'
+import { recordAnswer, checkNewAchievements, saveAchievement } from '@/lib/achievement-tracker'
 import { sounds } from '@/lib/sounds'
 import { createConfetti, addConfettiStyle, vibrate } from '@/lib/animations'
 import {
@@ -88,14 +89,7 @@ export default function ReviewPractice() {
     const pending = pendingAchievementRef.current
     if (pending) {
       pendingAchievementRef.current = null
-      try {
-        const saved = localStorage.getItem('paul_english_achievements')
-        let ids: string[] = saved ? JSON.parse(saved) : []
-        if (!ids.includes(pending.id)) {
-          ids.push(pending.id)
-          localStorage.setItem('paul_english_achievements', JSON.stringify(ids))
-        }
-      } catch (e) { console.error('保存成就失败:', e) }
+      saveAchievement(pending)
     }
     setUnlockedAchievement(null)
   }, [])
@@ -143,45 +137,14 @@ export default function ReviewPractice() {
   const currentWord = reviewWords[currentIndex]
   const isCorrect = currentWord ? selectedAnswer === currentWord.meaning : false
 
-  // 检查成就
-  const checkForAchievements = (sessionStats: PlayerStats, currentPoints: number, latestPerformances: Map<string, WordPerformance>) => {
-    let totalCorrect = 0, totalWrong = 0, maxConsecutive = 0
-    latestPerformances.forEach(p => {
-      totalCorrect += p.correctCount
-      totalWrong += p.wrongCount
-      maxConsecutive = Math.max(maxConsecutive, p.consecutiveCorrect)
-    })
-    maxConsecutive = Math.max(maxConsecutive, sessionStats.maxStreak)
-    let daysStudied = 1
-    try {
-      const s = localStorage.getItem('paul_english_streak')
-      if (s) daysStudied = parseInt(s)
-    } catch (e) {}
-
-    const cumulativeStats: PlayerStats = {
-      totalWords: latestPerformances.size,
-      correctAnswers: totalCorrect,
-      wrongAnswers: totalWrong,
-      streak: sessionStats.streak,
-      maxStreak: maxConsecutive,
-      totalTime: sessionStats.totalTime,
-      daysStudied,
-      perfectRounds: sessionStats.perfectRounds,
-    }
-    const allMatching = checkAchievements(cumulativeStats)
-    let currentUnlockedIds: string[] = []
-    try {
-      const saved = localStorage.getItem('paul_english_achievements')
-      if (saved) currentUnlockedIds = JSON.parse(saved)
-    } catch (e) {}
-    const newlyUnlocked = allMatching.filter(a => !currentUnlockedIds.includes(a.id))
-
-    if (newlyUnlocked.length > 0) {
-      const latest = newlyUnlocked[newlyUnlocked.length - 1]
-      setTimeout(() => setUnlockedAchievement(latest), 1500)
+  // 检查成就（使用共享模块）
+  const checkForAchievements = (sessionMaxStreak: number) => {
+    const { newAchievements, totalPoints } = checkNewAchievements(sessionMaxStreak)
+    if (newAchievements.length > 0) {
+      const latest = newAchievements[newAchievements.length - 1]
+      setPoints(totalPoints)
       pendingAchievementRef.current = latest
-      const rewardPoints = newlyUnlocked.reduce((sum, a) => sum + a.reward, 0)
-      setPoints(currentPoints + rewardPoints)
+      setTimeout(() => setUnlockedAchievement(latest), 1500)
     }
   }
 
@@ -207,12 +170,16 @@ export default function ReviewPractice() {
 
     const correct = answer === currentWord.meaning
     const wordId = currentWord.word_id
+
+    // 通过共享模块记录
+    recordAnswer(wordId, correct)
+
+    // 同时更新本地 Map
     const currentPerf = performances.get(wordId) || initializePerformance(wordId)
     const updated = updatePerformance(currentPerf, correct)
     const newPerfs = new Map(performances)
     newPerfs.set(wordId, updated)
     setPerformances(newPerfs)
-    savePerformances(newPerfs)
 
     if (correct) {
       const newStreak = streak + 1
@@ -234,7 +201,7 @@ export default function ReviewPractice() {
         maxStreak: Math.max(stats.maxStreak, newStreak),
       }
       setStats(newStats)
-      checkForAchievements(newStats, points + earnedPoints, newPerfs)
+      checkForAchievements(newStreak)
     } else {
       setStreak(0)
       setEncouragement(getRandomEncouragement('wrong'))

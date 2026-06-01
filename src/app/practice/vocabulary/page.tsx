@@ -34,6 +34,7 @@ import PointsReward from '@/components/gameification/PointsReward'
 import BackButton from '@/components/ui/BackButton'
 import Skeleton, { WordCardSkeleton } from '@/components/ui/Skeleton'
 import { updateDailyStats } from '@/lib/daily-stats'
+import { recordAnswer, recordPerfectRound, checkNewAchievements, saveAchievement } from '@/lib/achievement-tracker'
 import AnswerFeedback from '@/components/practice/AnswerFeedback'
 import StreakCombo from '@/components/practice/StreakCombo'
 import WordCard from '@/components/practice/WordCard'
@@ -102,21 +103,15 @@ export default function VocabularyPractice() {
 
   // 稳定的成就弹窗关闭回调（避免 onClosure 引用变化导致 useEffect 重置）
   const handleAchievementClose = useCallback(() => {
-    // 保存成就到 localStorage（弹窗关闭后才保存，避免期间新答案重复触发）
     const pending = pendingAchievementRef.current
     if (pending) {
       pendingAchievementRef.current = null
+      saveAchievement(pending)
+      // 更新本地状态
       try {
         const saved = localStorage.getItem('paul_english_achievements')
-        let currentUnlockedIds: string[] = saved ? JSON.parse(saved) : []
-        if (!currentUnlockedIds.includes(pending.id)) {
-          currentUnlockedIds.push(pending.id)
-          localStorage.setItem('paul_english_achievements', JSON.stringify(currentUnlockedIds))
-          setUnlockedAchievementIds(currentUnlockedIds)
-        }
-      } catch (e) {
-        console.error('保存成就失败:', e)
-      }
+        if (saved) setUnlockedAchievementIds(JSON.parse(saved))
+      } catch (e) {}
     }
     setUnlockedAchievement(null)
   }, [])
@@ -237,71 +232,26 @@ export default function VocabularyPractice() {
   const currentWord = practiceSequence[currentIndex]
 
   // 获取累计统计数据（结合历史性能数据和本次会话）
-  const getCumulativeStats = (sessionStats: PlayerStats, latestPerformances: Map<string, WordPerformance>): PlayerStats => {
-    let totalCorrect = 0
-    let totalWrong = 0
-    let maxConsecutive = 0
-    latestPerformances.forEach(p => {
-      totalCorrect += p.correctCount
-      totalWrong += p.wrongCount
-      maxConsecutive = Math.max(maxConsecutive, p.consecutiveCorrect)
-    })
-    maxConsecutive = Math.max(maxConsecutive, sessionStats.maxStreak)
-
-    // 计算连续学习天数
-    let daysStudied = 1
-    try {
-      const streakStr = localStorage.getItem('paul_english_streak')
-      if (streakStr) daysStudied = parseInt(streakStr)
-    } catch (e) {}
-
-    return {
-      totalWords: latestPerformances.size,
-      correctAnswers: totalCorrect,
-      wrongAnswers: totalWrong,
-      streak: sessionStats.streak,
-      maxStreak: maxConsecutive,
-      totalTime: sessionStats.totalTime,
-      daysStudied,
-      perfectRounds: sessionStats.perfectRounds
-    }
-  }
-
   // 待展示的成就（用于延迟弹窗显示，避免在弹窗前就保存 localStorage）
   const pendingAchievementRef = useRef<Achievement | null>(null)
 
-  // 检查成就 - 只弹出新解锁的成就
-  const checkForAchievements = (sessionStats: PlayerStats, currentPoints: number, latestPerformances: Map<string, WordPerformance>) => {
-    const cumulativeStats = getCumulativeStats(sessionStats, latestPerformances)
-    console.log('[成就] 累计统计:', cumulativeStats)
-    const allMatching = checkAchievements(cumulativeStats)
-    console.log('[成就] 符合条件:', allMatching.map(a => a.id))
-    // 重新从 localStorage 读取最新解锁状态，避免闭包陈旧
-    let currentUnlockedIds: string[] = []
-    try {
-      const saved = localStorage.getItem('paul_english_achievements')
-      if (saved) currentUnlockedIds = JSON.parse(saved)
-    } catch (e) {}
-    // 过滤出尚未解锁的新成就
-    const newlyUnlocked = allMatching.filter(a => !currentUnlockedIds.includes(a.id))
-    console.log('[成就] 新解锁:', newlyUnlocked.map(a => a.id), '已有:', currentUnlockedIds)
+  // 全模块通用：记录答题并检查成就
+  const handleModeAnswer = (word: string, isCorrect: boolean) => {
+    // 从 practiceSequence 中找到对应的 word_id
+    const entry = practiceSequence.find((v: any) => v.word === word)
+    if (entry) recordAnswer(entry.word_id, isCorrect)
+  }
 
-    if (newlyUnlocked.length > 0) {
-      const latestAchievement = newlyUnlocked[newlyUnlocked.length - 1]
-
-      // 延迟显示成就弹窗，等 AnswerFeedback 先播放完毕
+  // 全模块通用：检查成就并显示弹窗（sessionMaxStreak = 本次会话最大连击数）
+  const triggerAchievements = (sessionMaxStreak: number = 0, delay: number = 1500) => {
+    const { newAchievements, totalPoints } = checkNewAchievements(sessionMaxStreak)
+    if (newAchievements.length > 0) {
+      const latest = newAchievements[newAchievements.length - 1]
+      setPoints(totalPoints)
+      pendingAchievementRef.current = latest
       setTimeout(() => {
-        console.log('[成就] 显示弹窗:', latestAchievement.id)
-        setUnlockedAchievement(latestAchievement)
-      }, 1500)
-
-      // 更新积分（立即）
-      const rewardPoints = newlyUnlocked.reduce((sum, a) => sum + a.reward, 0)
-      const newPoints = currentPoints + rewardPoints
-      setPoints(newPoints)
-
-      // 标记待展示的成就（在弹窗关闭后再保存到 localStorage，避免期间新答案重复触发）
-      pendingAchievementRef.current = latestAchievement
+        setUnlockedAchievement(latest)
+      }, delay)
     }
   }
 
@@ -317,14 +267,16 @@ export default function VocabularyPractice() {
 
     const isCorrect = answer === currentWord.meaning
 
-    // 更新单词表现记录
+    // 通过共享模块记录答题表现
     const wordId = currentWord.word_id
+    recordAnswer(wordId, isCorrect)
+
+    // 同时更新本地 performances Map（用于选项生成等）
     const currentPerf = performances.get(wordId) || initializePerformance(wordId)
     const updatedPerf = updatePerformance(currentPerf, isCorrect)
     const newPerformances = new Map(performances)
     newPerformances.set(wordId, updatedPerf)
     setPerformances(newPerformances)
-    savePerformances(newPerformances)
 
     if (isCorrect) {
       const newStreak = streak + 1
@@ -339,15 +291,8 @@ export default function VocabularyPractice() {
         message: newStreak >= 3 ? `🔥 ${newStreak}连击！` : '答对了！',
       })
 
-      const newStats: PlayerStats = {
-        ...stats,
-        totalWords: stats.totalWords + 1,
-        correctAnswers: stats.correctAnswers + 1,
-        streak: newStreak,
-        maxStreak: Math.max(stats.maxStreak, newStreak)
-      }
-      setStats(newStats)
-      checkForAchievements(newStats, points + earnedPoints, newPerformances)
+      // 通过共享模块检查成就
+      triggerAchievements(newStreak)
 
       sounds.correct()
       vibrate(100)
@@ -361,14 +306,9 @@ export default function VocabularyPractice() {
       }
 
       if (currentIndex === practiceSequence.length - 1) {
-        const perfectStats: PlayerStats = {
-          ...newStats,
-          perfectRounds: stats.perfectRounds + 1
-        }
-        setStats(perfectStats)
-        checkForAchievements(perfectStats, points + earnedPoints, newPerformances)
+        recordPerfectRound()
+        triggerAchievements(newStreak)
 
-        // 更新每日统计
         updateDailyStats({
           wordsLearned: practiceSequence.length,
           maxStreak: newStreak,
@@ -393,13 +333,6 @@ export default function VocabularyPractice() {
         message: '答错了！',
         detail: `正确答案：${currentWord.meaning}`
       })
-
-      const newStats: PlayerStats = {
-        ...stats,
-        wrongAnswers: stats.wrongAnswers + 1,
-        streak: 0
-      }
-      setStats(newStats)
 
       sounds.wrong()
       vibrate(200)
@@ -546,8 +479,10 @@ export default function VocabularyPractice() {
         words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic }))}
         onComplete={(score, total) => {
           updateDailyStats({ wordsLearned: score })
+          triggerAchievements(score, 0)
         }}
         onBack={() => setPracticeMode(null)}
+        onAnswer={handleModeAnswer}
       />
     )
   }
@@ -559,8 +494,10 @@ export default function VocabularyPractice() {
         words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic }))}
         onComplete={(score, total) => {
           updateDailyStats({ wordsLearned: score })
+          triggerAchievements(score, 0)
         }}
         onBack={() => setPracticeMode(null)}
+        onAnswer={handleModeAnswer}
       />
     )
   }
@@ -586,8 +523,10 @@ export default function VocabularyPractice() {
           words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic }))}
           onComplete={(score, total) => {
             updateDailyStats({ wordsLearned: score })
+            triggerAchievements(score, 0)
           }}
           onBack={() => setPracticeMode(null)}
+          onAnswer={handleModeAnswer}
         />
       </main>
     )
@@ -618,6 +557,7 @@ export default function VocabularyPractice() {
               const earnedPoints = 50 + streak * 5
               setPoints(points + earnedPoints)
               updateDailyStats({ maxStreak: streak })
+              triggerAchievements(streak, 500)
               setPointsReward({
                 points: earnedPoints,
                 message: '恭喜通关！',
@@ -626,6 +566,7 @@ export default function VocabularyPractice() {
             }
           }}
           onBack={() => setPracticeMode(null)}
+          onAnswer={handleModeAnswer}
         />
       </main>
     )

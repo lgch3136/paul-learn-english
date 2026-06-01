@@ -14,6 +14,7 @@ interface ListeningModeProps {
   words: Word[]
   onComplete: (score: number, totalWords: number) => void
   onBack: () => void
+  onAnswer?: (word: string, isCorrect: boolean) => void
 }
 
 function shuffleArray<T>(array: T[]): T[] {
@@ -36,7 +37,7 @@ function generateOptions(correctWord: string, allWords: Word[]): string[] {
   return shuffleArray(options)
 }
 
-export default function ListeningMode({ words, onComplete, onBack }: ListeningModeProps) {
+export default function ListeningMode({ words, onComplete, onBack, onAnswer }: ListeningModeProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [options, setOptions] = useState<string[]>([])
   const [score, setScore] = useState(0)
@@ -110,7 +111,8 @@ export default function ListeningMode({ words, onComplete, onBack }: ListeningMo
     setSelectedAnswer(answer)
     setShowResult(true)
 
-    if (answer === currentWord.word) {
+    const correct = answer === currentWord.word
+    if (correct) {
       setScore(score + 1)
       sounds.correct()
       setAnimClass('animate-bounce-result')
@@ -118,6 +120,8 @@ export default function ListeningMode({ words, onComplete, onBack }: ListeningMo
       sounds.wrong()
       setAnimClass('animate-shake-result')
     }
+    // 通知父组件记录答题表现（用于成就统计）
+    if (onAnswer) onAnswer(currentWord.word, correct)
   }
 
   const handleNext = () => {
