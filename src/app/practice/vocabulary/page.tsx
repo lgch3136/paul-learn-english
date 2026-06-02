@@ -82,6 +82,8 @@ export default function VocabularyPractice() {
   const [encouragement, setEncouragement] = useState('')
   const [unlockedAchievement, setUnlockedAchievement] = useState<Achievement | null>(null)
   const [unlockedAchievementIds, setUnlockedAchievementIds] = useState<string[]>([])
+  const achievementQueueRef = useRef<Achievement[]>([])
+  const showingAchievementRef = useRef(false)
   const [pointsReward, setPointsReward] = useState<{ points: number; message: string; icon: string } | null>(null)
   const [points, setPoints] = useState(0)
   const [stats, setStats] = useState<PlayerStats>({
@@ -101,20 +103,35 @@ export default function VocabularyPractice() {
   const [cardTransition, setCardTransition] = useState(false)
   const containerRef = useRef<HTMLDivElement>(null)
 
-  // 稳定的成就弹窗关闭回调（避免 onClosure 引用变化导致 useEffect 重置）
+  // 成就队列处理：显示队列中的下一个成就
+  const showNextAchievement = useCallback(() => {
+    if (achievementQueueRef.current.length > 0) {
+      const next = achievementQueueRef.current.shift()!
+      showingAchievementRef.current = true
+      pendingAchievementRef.current = next
+      setUnlockedAchievement(next)
+    } else {
+      showingAchievementRef.current = false
+      pendingAchievementRef.current = null
+      setUnlockedAchievement(null)
+    }
+  }, [])
+
+  // 稳定的成就弹窗关闭回调
   const handleAchievementClose = useCallback(() => {
+    // 保存当前成就
     const pending = pendingAchievementRef.current
     if (pending) {
       pendingAchievementRef.current = null
       saveAchievement(pending)
-      // 更新本地状态
       try {
         const saved = localStorage.getItem('paul_english_achievements')
         if (saved) setUnlockedAchievementIds(JSON.parse(saved))
       } catch (e) {}
     }
-    setUnlockedAchievement(null)
-  }, [])
+    // 短暂延迟后显示队列中的下一个成就
+    setTimeout(() => showNextAchievement(), 300)
+  }, [showNextAchievement])
 
   // 初始化
   useEffect(() => {
@@ -305,7 +322,7 @@ export default function VocabularyPractice() {
     }
   }
 
-  // 全模块通用：检查成就并显示弹窗（sessionMaxStreak = 本次会话最大连击数）
+  // 全模块通用：检查成就并加入队列显示
   const triggerAchievements = (sessionMaxStreak: number = 0, delay: number = 1500) => {
     try {
       console.log('[成就系统] ========== triggerAchievements 开始 ==========')
@@ -313,14 +330,21 @@ export default function VocabularyPractice() {
       const { newAchievements, totalPoints } = checkNewAchievements(sessionMaxStreak)
       console.log('[成就系统] 结果: newAchievements:', newAchievements.length, 'totalPoints:', totalPoints)
       if (newAchievements.length > 0) {
-        const latest = newAchievements[newAchievements.length - 1]
-        console.log('[成就系统] 🎉 将显示成就弹窗:', latest.id, latest.title)
         setPoints(totalPoints)
-        pendingAchievementRef.current = latest
-        setTimeout(() => {
-          console.log('[成就系统] ⏰ setTimeout触发，设置 unlockedAchievement:', latest.id)
-          setUnlockedAchievement(latest)
-        }, delay)
+        // 将新成就加入队列（跳过已经在队列中的）
+        const existingIds = new Set(achievementQueueRef.current.map(a => a.id))
+        if (unlockedAchievement) existingIds.add(unlockedAchievement.id)
+        const toEnqueue = newAchievements.filter(a => !existingIds.has(a.id))
+        achievementQueueRef.current.push(...toEnqueue)
+        console.log('[成就系统] 🎉 加入队列:', toEnqueue.map(a => a.id), '队列长度:', achievementQueueRef.current.length)
+        // 如果当前没有在显示成就，开始显示
+        if (!showingAchievementRef.current) {
+          showingAchievementRef.current = true
+          const first = achievementQueueRef.current.shift()!
+          pendingAchievementRef.current = first
+          console.log('[成就系统] ⏰ 立即显示成就:', first.id)
+          setUnlockedAchievement(first)
+        }
       } else {
         console.log('[成就系统] ❌ 没有新成就')
       }

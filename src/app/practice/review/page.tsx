@@ -83,16 +83,31 @@ export default function ReviewPractice() {
   const [performances, setPerformances] = useState<Map<string, WordPerformance>>(new Map())
   const [cardTransition, setCardTransition] = useState(false)
   const pendingAchievementRef = useRef<Achievement | null>(null)
+  const achievementQueueRef = useRef<Achievement[]>([])
+  const showingAchievementRef = useRef(false)
 
-  // 稳定的成就弹窗关闭回调
+  // 成就队列处理
+  const showNextAchievement = useCallback(() => {
+    if (achievementQueueRef.current.length > 0) {
+      const next = achievementQueueRef.current.shift()!
+      showingAchievementRef.current = true
+      pendingAchievementRef.current = next
+      setUnlockedAchievement(next)
+    } else {
+      showingAchievementRef.current = false
+      pendingAchievementRef.current = null
+      setUnlockedAchievement(null)
+    }
+  }, [])
+
   const handleAchievementClose = useCallback(() => {
     const pending = pendingAchievementRef.current
     if (pending) {
       pendingAchievementRef.current = null
       saveAchievement(pending)
     }
-    setUnlockedAchievement(null)
-  }, [])
+    setTimeout(() => showNextAchievement(), 300)
+  }, [showNextAchievement])
 
   // 持久化积分
   useEffect(() => {
@@ -137,17 +152,21 @@ export default function ReviewPractice() {
   const currentWord = reviewWords[currentIndex]
   const isCorrect = currentWord ? selectedAnswer === currentWord.meaning : false
 
-  // 检查成就（使用共享模块）
+  // 检查成就（使用共享模块 + 队列）
   const checkForAchievements = (sessionMaxStreak: number) => {
-    console.log('[成就系统-错题复习] checkForAchievements → sessionMaxStreak:', sessionMaxStreak)
     const { newAchievements, totalPoints } = checkNewAchievements(sessionMaxStreak)
-    console.log('[成就系统-错题复习] result → newAchievements:', newAchievements.length)
     if (newAchievements.length > 0) {
-      const latest = newAchievements[newAchievements.length - 1]
-      console.log('[成就系统-错题复习] ✅ NEW achievement:', latest.id, latest.title)
       setPoints(totalPoints)
-      pendingAchievementRef.current = latest
-      setTimeout(() => setUnlockedAchievement(latest), 1500)
+      const existingIds = new Set(achievementQueueRef.current.map(a => a.id))
+      if (unlockedAchievement) existingIds.add(unlockedAchievement.id)
+      const toEnqueue = newAchievements.filter(a => !existingIds.has(a.id))
+      achievementQueueRef.current.push(...toEnqueue)
+      if (!showingAchievementRef.current) {
+        showingAchievementRef.current = true
+        const first = achievementQueueRef.current.shift()!
+        pendingAchievementRef.current = first
+        setUnlockedAchievement(first)
+      }
     }
   }
 
