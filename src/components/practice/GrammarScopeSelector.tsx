@@ -119,7 +119,6 @@ export default function GrammarScopeSelector({ onSelect }: { onSelect: (scope: G
   const [expandedGrade, setExpandedGrade] = useState<string | null>(null)
   const [expandedSemester, setExpandedSemester] = useState<string | null>(null)
   const [checkedUnits, setCheckedUnits] = useState<string[]>([])
-  const [lastClickedUnit, setLastClickedUnit] = useState<{ id: string; label: string } | null>(null)
 
   const handleSelect = (units: string[], label: string) => {
     sounds.correct()
@@ -129,7 +128,7 @@ export default function GrammarScopeSelector({ onSelect }: { onSelect: (scope: G
   const handleAllGrammar = () => handleSelect(['all'], '全部语法')
 
   // 获取从三年级到指定位置的所有语法单元
-  const getAllGrammarUpTo = (targetGradeId: string, targetSemesterId?: string | null, targetUnitId?: string | null): { units: string[], label: string } => {
+  const getAllGrammarUpTo = (targetGradeId: string, targetSemesterId?: string | null, targetUnitId?: string | null, targetUnitLabel?: string): { units: string[], label: string } => {
     const targetIndex = gradeData.findIndex(g => g.id === targetGradeId)
     if (targetIndex < 0) return { units: ['all'], label: '全部语法' }
     const allUnits: string[] = []
@@ -163,7 +162,7 @@ export default function GrammarScopeSelector({ onSelect }: { onSelect: (scope: G
     let label: string
     if (targetUnitId && targetSemesterId) {
       const sem = grade.semesters.find(s => s.id === targetSemesterId)
-      label = `三年级至${grade.label}${sem?.label || ''}截止单元语法`
+      label = `三年级至${grade.label}${sem?.label || ''} ${targetUnitLabel || ''}全部语法`
     } else if (targetSemesterId) {
       const sem = grade.semesters.find(s => s.id === targetSemesterId)
       label = `三年级至${grade.label}${sem?.label || ''}全部语法`
@@ -173,15 +172,32 @@ export default function GrammarScopeSelector({ onSelect }: { onSelect: (scope: G
     return { units: allUnits, label }
   }
 
-  const handleGrammarUpToGrade = (targetGradeId: string, targetSemesterId?: string | null, targetUnitId?: string | null) => {
-    const { units, label } = getAllGrammarUpTo(targetGradeId, targetSemesterId, targetUnitId)
+  // 从已勾选的单元中，找出在学期原始顺序中最后的那个
+  const getGrammarCutoff = (): { unitId: string; unitLabel: string } | null => {
+    if (!expandedGrade || !expandedSemester || checkedUnits.length === 0) return null
+    const grade = gradeData.find(g => g.id === expandedGrade)
+    if (!grade) return null
+    const sem = grade.semesters.find(s => s.id === expandedSemester)
+    if (!sem) return null
+    let cutoff: { unitId: string; unitLabel: string } | null = null
+    for (const u of sem.units) {
+      if (checkedUnits.includes(u.id)) {
+        cutoff = { unitId: u.id, unitLabel: u.label }
+      }
+    }
+    return cutoff
+  }
+
+  const handleGrammarUpToGrade = (targetGradeId: string, targetSemesterId?: string | null, targetUnitId?: string | null, targetUnitLabel?: string) => {
+    const { units, label } = getAllGrammarUpTo(targetGradeId, targetSemesterId, targetUnitId, targetUnitLabel)
     handleSelect(units, label)
   }
 
   // 当前的"全部语法"范围
+  const grammarCutoff = getGrammarCutoff()
   const currentGrammarScope = (() => {
-    if (lastClickedUnit && expandedSemester && expandedGrade) {
-      return getAllGrammarUpTo(expandedGrade, expandedSemester, lastClickedUnit.id)
+    if (grammarCutoff && expandedSemester && expandedGrade) {
+      return getAllGrammarUpTo(expandedGrade, expandedSemester, grammarCutoff.unitId, grammarCutoff.unitLabel)
     } else if (expandedSemester && expandedGrade) {
       return getAllGrammarUpTo(expandedGrade, expandedSemester)
     } else if (expandedGrade) {
@@ -195,7 +211,6 @@ export default function GrammarScopeSelector({ onSelect }: { onSelect: (scope: G
     setExpandedGrade(prev => prev === gradeId ? null : gradeId)
     setExpandedSemester(null)
     setCheckedUnits([])
-    setLastClickedUnit(null)
   }
 
   const handleSemesterAll = (grade: GradeData, semester: typeof gradeData[0]['semesters'][0]) => {
@@ -206,12 +221,10 @@ export default function GrammarScopeSelector({ onSelect }: { onSelect: (scope: G
     sounds.click()
     setExpandedSemester(prev => prev === semesterId ? null : semesterId)
     setCheckedUnits([])
-    setLastClickedUnit(null)
   }
 
-  const toggleCheck = (unitId: string, unitLabel: string) => {
+  const toggleCheck = (unitId: string) => {
     sounds.click()
-    setLastClickedUnit({ id: unitId, label: unitLabel })
     setCheckedUnits(prev =>
       prev.includes(unitId) ? prev.filter(id => id !== unitId) : [...prev, unitId]
     )
@@ -240,7 +253,7 @@ export default function GrammarScopeSelector({ onSelect }: { onSelect: (scope: G
         {/* 全部语法（默认全部年级；展开后根据年级/学期动态变化） */}
         {currentGrammarScope ? (
           <button
-            onClick={() => handleGrammarUpToGrade(expandedGrade!, expandedSemester, lastClickedUnit?.id)}
+            onClick={() => handleGrammarUpToGrade(expandedGrade!, expandedSemester, grammarCutoff?.unitId, grammarCutoff?.unitLabel)}
             className="w-full relative overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 text-white shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.01] active:scale-[0.99]"
           >
             <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -translate-y-12 translate-x-12" />
@@ -347,7 +360,7 @@ export default function GrammarScopeSelector({ onSelect }: { onSelect: (scope: G
                                 return (
                                   <button
                                     key={unit.id}
-                                    onClick={() => toggleCheck(unit.id, unit.label)}
+                                    onClick={() => toggleCheck(unit.id)}
                                     className={`relative flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-medium transition-all duration-200 ${
                                       checked
                                         ? `bg-gradient-to-r ${grade.color} text-white shadow-md`
