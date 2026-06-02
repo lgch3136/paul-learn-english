@@ -316,7 +316,21 @@ export const levels = [
 
 // 检查解锁的成就
 export function checkAchievements(stats: PlayerStats): Achievement[] {
-  return achievements.filter(a => a.condition(stats))
+  console.log('[成就系统] checkAchievements 输入 stats:', JSON.stringify(stats))
+  const result: Achievement[] = []
+  for (const a of achievements) {
+    try {
+      const matched = a.condition(stats)
+      if (matched) {
+        result.push(a)
+        console.log('[成就系统] ✅ 匹配:', a.id, '-', a.title)
+      }
+    } catch (e) {
+      console.error('[成就系统] ❌ 条件执行出错:', a.id, e)
+    }
+  }
+  console.log('[成就系统] checkAchievements 结果:', result.length, '个成就匹配')
+  return result
 }
 
 // 获取当前等级

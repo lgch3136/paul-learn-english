@@ -297,29 +297,35 @@ export default function VocabularyPractice() {
 
   // 全模块通用：记录答题 + 自动触发成就检查（快速模式、闯关模式等都走这个）
   const handleModeAnswer = (wordId: string, isCorrect: boolean) => {
+    console.log('[成就系统] handleModeAnswer → wordId:', wordId, 'isCorrect:', isCorrect)
     recordAnswer(wordId, isCorrect)
     if (isCorrect) {
-      // 这些模式没有 streak 追踪，传 1 让基础成就能触发
+      console.log('[成就系统] handleModeAnswer → 答对了，调用 triggerAchievements')
       triggerAchievements(1, 500)
     }
   }
 
   // 全模块通用：检查成就并显示弹窗（sessionMaxStreak = 本次会话最大连击数）
   const triggerAchievements = (sessionMaxStreak: number = 0, delay: number = 1500) => {
-    console.log('[成就系统] triggerAchievements called → sessionMaxStreak:', sessionMaxStreak, 'delay:', delay)
-    const { newAchievements, totalPoints } = checkNewAchievements(sessionMaxStreak)
-    console.log('[成就系统] checkNewAchievements result → newAchievements:', newAchievements.length, 'totalPoints:', totalPoints)
-    if (newAchievements.length > 0) {
-      const latest = newAchievements[newAchievements.length - 1]
-      console.log('[成就系统] ✅ NEW achievement unlocked:', latest.id, latest.title, '→ showing popup in', delay, 'ms')
-      setPoints(totalPoints)
-      pendingAchievementRef.current = latest
-      setTimeout(() => {
-        console.log('[成就系统] Setting unlockedAchievement state now:', latest.id)
-        setUnlockedAchievement(latest)
-      }, delay)
-    } else {
-      console.log('[成就系统] ❌ No new achievements this time')
+    try {
+      console.log('[成就系统] ========== triggerAchievements 开始 ==========')
+      console.log('[成就系统] sessionMaxStreak:', sessionMaxStreak)
+      const { newAchievements, totalPoints } = checkNewAchievements(sessionMaxStreak)
+      console.log('[成就系统] 结果: newAchievements:', newAchievements.length, 'totalPoints:', totalPoints)
+      if (newAchievements.length > 0) {
+        const latest = newAchievements[newAchievements.length - 1]
+        console.log('[成就系统] 🎉 将显示成就弹窗:', latest.id, latest.title)
+        setPoints(totalPoints)
+        pendingAchievementRef.current = latest
+        setTimeout(() => {
+          console.log('[成就系统] ⏰ setTimeout触发，设置 unlockedAchievement:', latest.id)
+          setUnlockedAchievement(latest)
+        }, delay)
+      } else {
+        console.log('[成就系统] ❌ 没有新成就')
+      }
+    } catch (err) {
+      console.error('[成就系统] 💥 triggerAchievements 出错:', err)
     }
   }
 
