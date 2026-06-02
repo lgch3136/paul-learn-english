@@ -127,24 +127,51 @@ export default function GrammarScopeSelector({ onSelect }: { onSelect: (scope: G
 
   const handleAllGrammar = () => handleSelect(['all'], '全部语法')
 
-  // 获取从三年级到指定年级的所有语法单元
-  const getAllGrammarUpToGrade = (targetGradeId: string): { units: string[], label: string } => {
+  // 获取从三年级到指定学期的所有语法单元
+  const getAllGrammarUpTo = (targetGradeId: string, targetSemesterId?: string | null): { units: string[], label: string } => {
     const targetIndex = gradeData.findIndex(g => g.id === targetGradeId)
     if (targetIndex < 0) return { units: ['all'], label: '全部语法' }
     const allUnits: string[] = []
     for (let i = 0; i <= targetIndex; i++) {
-      gradeData[i].semesters.forEach(s => {
-        s.units.forEach(u => allUnits.push(u.id))
-      })
+      const grade = gradeData[i]
+      if (i < targetIndex) {
+        grade.semesters.forEach(s => s.units.forEach(u => allUnits.push(u.id)))
+      } else {
+        if (targetSemesterId) {
+          const semIdx = grade.semesters.findIndex(s => s.id === targetSemesterId)
+          for (let j = 0; j <= semIdx; j++) {
+            grade.semesters[j].units.forEach(u => allUnits.push(u.id))
+          }
+        } else {
+          grade.semesters.forEach(s => s.units.forEach(u => allUnits.push(u.id)))
+        }
+      }
     }
-    const label = `三年级至${gradeData[targetIndex].label}全部语法`
+    const grade = gradeData[targetIndex]
+    let label: string
+    if (targetSemesterId) {
+      const sem = grade.semesters.find(s => s.id === targetSemesterId)
+      label = `三年级至${grade.label}${sem?.label || ''}全部语法`
+    } else {
+      label = `三年级至${grade.label}全部语法`
+    }
     return { units: allUnits, label }
   }
 
-  const handleGrammarUpToGrade = (targetGradeId: string) => {
-    const { units, label } = getAllGrammarUpToGrade(targetGradeId)
+  const handleGrammarUpToGrade = (targetGradeId: string, targetSemesterId?: string | null) => {
+    const { units, label } = getAllGrammarUpTo(targetGradeId, targetSemesterId)
     handleSelect(units, label)
   }
+
+  // 当前的"全部语法"范围
+  const currentGrammarScope = (() => {
+    if (expandedSemester && expandedGrade) {
+      return getAllGrammarUpTo(expandedGrade, expandedSemester)
+    } else if (expandedGrade) {
+      return getAllGrammarUpTo(expandedGrade)
+    }
+    return null
+  })()
 
   const handleGradeClick = (gradeId: string) => {
     sounds.click()
@@ -190,10 +217,10 @@ export default function GrammarScopeSelector({ onSelect }: { onSelect: (scope: G
       </div>
 
       <div className="space-y-2 mb-6">
-        {/* 全部语法（默认全部年级；展开某年级后变为"三年级至X年级全部语法"） */}
-        {expandedGrade ? (
+        {/* 全部语法（默认全部年级；展开后根据年级/学期动态变化） */}
+        {currentGrammarScope ? (
           <button
-            onClick={() => handleGrammarUpToGrade(expandedGrade)}
+            onClick={() => handleGrammarUpToGrade(expandedGrade!, expandedSemester)}
             className="w-full relative overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 text-white shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.01] active:scale-[0.99]"
           >
             <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -translate-y-12 translate-x-12" />
@@ -201,7 +228,7 @@ export default function GrammarScopeSelector({ onSelect }: { onSelect: (scope: G
               <div className="flex items-center gap-3">
                 <span className="text-3xl">📚</span>
                 <div className="text-left">
-                  <p className="font-bold text-lg">{getAllGrammarUpToGrade(expandedGrade).label}</p>
+                  <p className="font-bold text-lg">{currentGrammarScope.label}</p>
                   <p className="text-xs opacity-80">包含已学过的所有语法点</p>
                 </div>
               </div>

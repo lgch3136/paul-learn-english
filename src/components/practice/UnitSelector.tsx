@@ -149,24 +149,55 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
 
   const handleAllHistory = () => handleSelect(['all'], '全部历史单词', 'all')
 
-  // 获取从三年级到指定年级的所有单元ID
-  const getAllUnitsUpToGrade = (targetGradeId: string): { units: string[], label: string } => {
+  // 获取从三年级到指定学期的所有单元ID
+  // 展开年级时 → 包含该年级全部（上+下册）
+  // 展开学期时 → 只到该学期（如六年级上）
+  const getAllUnitsUpTo = (targetGradeId: string, targetSemesterId?: string | null): { units: string[], label: string } => {
     const targetIndex = gradeData.findIndex(g => g.id === targetGradeId)
     if (targetIndex < 0) return { units: ['all'], label: '全部历史单词' }
     const allUnits: string[] = []
     for (let i = 0; i <= targetIndex; i++) {
-      gradeData[i].semesters.forEach(s => {
-        s.units.forEach(u => allUnits.push(u.id))
-      })
+      const grade = gradeData[i]
+      if (i < targetIndex) {
+        // 之前的年级：全部学期
+        grade.semesters.forEach(s => s.units.forEach(u => allUnits.push(u.id)))
+      } else {
+        // 目标年级：看是否指定了学期
+        if (targetSemesterId) {
+          const semIdx = grade.semesters.findIndex(s => s.id === targetSemesterId)
+          for (let j = 0; j <= semIdx; j++) {
+            grade.semesters[j].units.forEach(u => allUnits.push(u.id))
+          }
+        } else {
+          grade.semesters.forEach(s => s.units.forEach(u => allUnits.push(u.id)))
+        }
+      }
     }
-    const label = `三年级至${gradeData[targetIndex].label}全部`
+    const grade = gradeData[targetIndex]
+    let label: string
+    if (targetSemesterId) {
+      const sem = grade.semesters.find(s => s.id === targetSemesterId)
+      label = `三年级至${grade.label}${sem?.label || ''}全部`
+    } else {
+      label = `三年级至${grade.label}全部`
+    }
     return { units: allUnits, label }
   }
 
-  const handleHistoryUpToGrade = (targetGradeId: string) => {
-    const { units, label } = getAllUnitsUpToGrade(targetGradeId)
+  const handleHistoryUpToGrade = (targetGradeId: string, targetSemesterId?: string | null) => {
+    const { units, label } = getAllUnitsUpTo(targetGradeId, targetSemesterId)
     handleSelect(units, label, 'all')
   }
+
+  // 当前的"全部历史"范围（根据展开的年级/学期动态计算）
+  const currentHistoryScope = (() => {
+    if (expandedSemester && expandedGrade) {
+      return getAllUnitsUpTo(expandedGrade, expandedSemester)
+    } else if (expandedGrade) {
+      return getAllUnitsUpTo(expandedGrade)
+    }
+    return null
+  })()
 
   const handleGradeClick = (gradeId: string) => {
     sounds.click()
@@ -235,10 +266,10 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
       {/* ====== 小学组 ====== */}
       {tab === 'school' && (
         <div className="space-y-2 mb-6">
-          {/* 全部历史（默认：全部年级；展开某年级后变为"三年级至X年级全部"） */}
-          {expandedGrade ? (
+          {/* 全部历史（默认：全部年级；展开后根据年级/学期动态变化） */}
+          {currentHistoryScope ? (
             <button
-              onClick={() => handleHistoryUpToGrade(expandedGrade)}
+              onClick={() => handleHistoryUpToGrade(expandedGrade!, expandedSemester)}
               className="w-full relative overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 text-white shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.01] active:scale-[0.99]"
             >
               <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -translate-y-12 translate-x-12" />
@@ -246,7 +277,7 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
                 <div className="flex items-center gap-3">
                   <span className="text-3xl">🌍</span>
                   <div className="text-left">
-                    <p className="font-bold text-lg">{getAllUnitsUpToGrade(expandedGrade).label}</p>
+                    <p className="font-bold text-lg">{currentHistoryScope.label}</p>
                     <p className="text-xs opacity-80">包含已学过的所有单词</p>
                   </div>
                 </div>
