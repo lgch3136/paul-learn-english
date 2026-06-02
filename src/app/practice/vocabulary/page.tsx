@@ -648,6 +648,7 @@ export default function VocabularyPractice() {
           }}
           onBack={() => setPracticeMode(null)}
           onAnswer={handleModeAnswer}
+          paused={!!unlockedAchievement}
         />
       </main>
     )

@@ -17,9 +17,10 @@ interface SpeedModeProps {
   onComplete: (score: number, totalWords: number) => void
   onBack: () => void
   onAnswer?: (wordId: string, isCorrect: boolean) => void
+  paused?: boolean
 }
 
-export default function SpeedMode({ words, onComplete, onBack, onAnswer }: SpeedModeProps) {
+export default function SpeedMode({ words, onComplete, onBack, onAnswer, paused = false }: SpeedModeProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [options, setOptions] = useState<string[]>([])
   const [score, setScore] = useState(0)
@@ -52,13 +53,13 @@ export default function SpeedMode({ words, onComplete, onBack, onAnswer }: Speed
   }, [currentIndex, currentWord, words])
 
   useEffect(() => {
-    if (isActive && timeLeft > 0) {
+    if (isActive && timeLeft > 0 && !paused) {
       timerRef.current = setTimeout(() => setTimeLeft(timeLeft - 1), 1000)
-    } else if (timeLeft === 0 && isActive) {
+    } else if (timeLeft === 0 && isActive && !paused) {
       handleTimeUp()
     }
     return () => { if (timerRef.current) clearTimeout(timerRef.current) }
-  }, [isActive, timeLeft])
+  }, [isActive, timeLeft, paused])
 
   const startGame = () => {
     if (words.length === 0) return
