@@ -67,6 +67,21 @@ function shuffleArray<T extends unknown>(array: T[]): T[] {
   return shuffled
 }
 
+// 成就弹窗层 - 在所有模式中共享
+function AchievementLayer({ achievement, onClose, pointsReward, onPointsComplete }: {
+  achievement: Achievement | null
+  onClose: () => void
+  pointsReward: { points: number; message: string; icon: string } | null
+  onPointsComplete: () => void
+}) {
+  return (
+    <>
+      {achievement && <AchievementPopup achievement={achievement} onClose={onClose} />}
+      {pointsReward && <PointsReward points={pointsReward.points} message={pointsReward.message} icon={pointsReward.icon} onComplete={onPointsComplete} />}
+    </>
+  )
+}
+
 export default function VocabularyPractice() {
   const [vocabularyData, setVocabularyData] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
@@ -574,6 +589,8 @@ export default function VocabularyPractice() {
   // 听力模式
   if (practiceMode === 'listening') {
     return (
+      <>
+      <AchievementLayer achievement={unlockedAchievement} onClose={handleAchievementClose} pointsReward={pointsReward} onPointsComplete={() => setPointsReward(null)} />
       <ListeningMode
         words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic, word_id: v.word_id }))}
         onComplete={(score, total) => {
@@ -583,12 +600,15 @@ export default function VocabularyPractice() {
         onBack={() => setPracticeMode(null)}
         onAnswer={handleModeAnswer}
       />
+      </>
     )
   }
 
   // 拼写模式
   if (practiceMode === 'spelling') {
     return (
+      <>
+      <AchievementLayer achievement={unlockedAchievement} onClose={handleAchievementClose} pointsReward={pointsReward} onPointsComplete={() => setPointsReward(null)} />
       <SpellingMode
         words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic, word_id: v.word_id }))}
         onComplete={(score, total) => {
@@ -598,6 +618,7 @@ export default function VocabularyPractice() {
         onBack={() => setPracticeMode(null)}
         onAnswer={handleModeAnswer}
       />
+      </>
     )
   }
 
@@ -605,6 +626,7 @@ export default function VocabularyPractice() {
   if (practiceMode === 'speed') {
     return (
       <main className="min-h-screen p-4 sm:p-8">
+        <AchievementLayer achievement={unlockedAchievement} onClose={handleAchievementClose} pointsReward={pointsReward} onPointsComplete={() => setPointsReward(null)} />
         <header className="text-center mb-8">
           <button
             onClick={() => setPracticeMode(null)}
@@ -635,6 +657,7 @@ export default function VocabularyPractice() {
   if (practiceMode === 'challenge') {
     return (
       <main className="min-h-screen p-4 sm:p-8">
+        <AchievementLayer achievement={unlockedAchievement} onClose={handleAchievementClose} pointsReward={pointsReward} onPointsComplete={() => setPointsReward(null)} />
         <header className="text-center mb-8">
           <button
             onClick={() => setPracticeMode(null)}
@@ -762,23 +785,8 @@ export default function VocabularyPractice() {
         <StreakCombo streak={streak} visible={showStreakCombo} onDone={() => setShowStreakCombo(false)} />
       )}
 
-      {/* 成就弹窗 */}
-      {unlockedAchievement && (
-        <AchievementPopup
-          achievement={unlockedAchievement}
-          onClose={handleAchievementClose}
-        />
-      )}
-
-      {/* 积分奖励 */}
-      {pointsReward && (
-        <PointsReward
-          points={pointsReward.points}
-          message={pointsReward.message}
-          icon={pointsReward.icon}
-          onComplete={() => setPointsReward(null)}
-        />
-      )}
+      {/* 成就弹窗 + 积分奖励 */}
+      <AchievementLayer achievement={unlockedAchievement} onClose={handleAchievementClose} pointsReward={pointsReward} onPointsComplete={() => setPointsReward(null)} />
 
       {/* 答题反馈弹窗 */}
       {answerFeedback && (
