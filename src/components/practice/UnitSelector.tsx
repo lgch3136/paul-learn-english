@@ -141,6 +141,7 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
   const [expandedSemester, setExpandedSemester] = useState<string | null>(null)
   const [checkedUnits, setCheckedUnits] = useState<string[]>([])
   const [selectedCount, setSelectedCount] = useState(10)
+  const [lastClickedUnit, setLastClickedUnit] = useState<{ id: string; label: string } | null>(null)
 
   const handleSelect = (units: string[], label: string, type: GameScope['type'] = 'single') => {
     sounds.correct()
@@ -149,24 +150,33 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
 
   const handleAllHistory = () => handleSelect(['all'], '全部历史单词', 'all')
 
-  // 获取从三年级到指定学期的所有单元ID
-  // 展开年级时 → 包含该年级全部（上+下册）
-  // 展开学期时 → 只到该学期（如六年级上）
-  const getAllUnitsUpTo = (targetGradeId: string, targetSemesterId?: string | null): { units: string[], label: string } => {
+  // 获取从三年级到指定位置的所有单元ID
+  const getAllUnitsUpTo = (targetGradeId: string, targetSemesterId?: string | null, targetUnitId?: string | null): { units: string[], label: string } => {
     const targetIndex = gradeData.findIndex(g => g.id === targetGradeId)
     if (targetIndex < 0) return { units: ['all'], label: '全部历史单词' }
     const allUnits: string[] = []
     for (let i = 0; i <= targetIndex; i++) {
       const grade = gradeData[i]
       if (i < targetIndex) {
-        // 之前的年级：全部学期
         grade.semesters.forEach(s => s.units.forEach(u => allUnits.push(u.id)))
       } else {
-        // 目标年级：看是否指定了学期
         if (targetSemesterId) {
-          const semIdx = grade.semesters.findIndex(s => s.id === targetSemesterId)
-          for (let j = 0; j <= semIdx; j++) {
-            grade.semesters[j].units.forEach(u => allUnits.push(u.id))
+          const sem = grade.semesters.find(s => s.id === targetSemesterId)
+          if (sem) {
+            // 先加目标学期之前的所有学期
+            for (const s of grade.semesters) {
+              if (s.id === targetSemesterId) break
+              s.units.forEach(u => allUnits.push(u.id))
+            }
+            // 目标学期：看是否指定了单元
+            if (targetUnitId) {
+              for (const u of sem.units) {
+                allUnits.push(u.id)
+                if (u.id === targetUnitId) break
+              }
+            } else {
+              sem.units.forEach(u => allUnits.push(u.id))
+            }
           }
         } else {
           grade.semesters.forEach(s => s.units.forEach(u => allUnits.push(u.id)))
@@ -175,7 +185,10 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
     }
     const grade = gradeData[targetIndex]
     let label: string
-    if (targetSemesterId) {
+    if (targetUnitId && targetSemesterId) {
+      const sem = grade.semesters.find(s => s.id === targetSemesterId)
+      label = `三年级至${grade.label}${sem?.label || ''}截止单元`
+    } else if (targetSemesterId) {
       const sem = grade.semesters.find(s => s.id === targetSemesterId)
       label = `三年级至${grade.label}${sem?.label || ''}全部`
     } else {
@@ -184,14 +197,16 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
     return { units: allUnits, label }
   }
 
-  const handleHistoryUpToGrade = (targetGradeId: string, targetSemesterId?: string | null) => {
-    const { units, label } = getAllUnitsUpTo(targetGradeId, targetSemesterId)
+  const handleHistoryUpToGrade = (targetGradeId: string, targetSemesterId?: string | null, targetUnitId?: string | null) => {
+    const { units, label } = getAllUnitsUpTo(targetGradeId, targetSemesterId, targetUnitId)
     handleSelect(units, label, 'all')
   }
 
-  // 当前的"全部历史"范围（根据展开的年级/学期动态计算）
+  // 当前的"全部历史"范围（根据展开的年级/学期/点击的单元动态计算）
   const currentHistoryScope = (() => {
-    if (expandedSemester && expandedGrade) {
+    if (lastClickedUnit && expandedSemester && expandedGrade) {
+      return getAllUnitsUpTo(expandedGrade, expandedSemester, lastClickedUnit.id)
+    } else if (expandedSemester && expandedGrade) {
       return getAllUnitsUpTo(expandedGrade, expandedSemester)
     } else if (expandedGrade) {
       return getAllUnitsUpTo(expandedGrade)
@@ -204,6 +219,7 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
     setExpandedGrade(prev => prev === gradeId ? null : gradeId)
     setExpandedSemester(null)
     setCheckedUnits([])
+    setLastClickedUnit(null)
   }
 
   const handleSemesterAll = (grade: GradeData, semester: typeof gradeData[0]['semesters'][0]) => {
@@ -215,10 +231,12 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
     sounds.click()
     setExpandedSemester(prev => prev === semesterId ? null : semesterId)
     setCheckedUnits([])
+    setLastClickedUnit(null)
   }
 
-  const toggleCheck = (unitId: string) => {
+  const toggleCheck = (unitId: string, unitLabel: string) => {
     sounds.click()
+    setLastClickedUnit({ id: unitId, label: unitLabel })
     setCheckedUnits(prev =>
       prev.includes(unitId) ? prev.filter(id => id !== unitId) : [...prev, unitId]
     )
@@ -269,7 +287,7 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
           {/* 全部历史（默认：全部年级；展开后根据年级/学期动态变化） */}
           {currentHistoryScope ? (
             <button
-              onClick={() => handleHistoryUpToGrade(expandedGrade!, expandedSemester)}
+              onClick={() => handleHistoryUpToGrade(expandedGrade!, expandedSemester, lastClickedUnit?.id)}
               className="w-full relative overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 text-white shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.01] active:scale-[0.99]"
             >
               <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -translate-y-12 translate-x-12" />
@@ -383,7 +401,7 @@ export default function UnitSelector({ onSelect, currentScope }: UnitSelectorPro
                                   return (
                                     <button
                                       key={unit.id}
-                                      onClick={() => toggleCheck(unit.id)}
+                                      onClick={() => toggleCheck(unit.id, unit.label)}
                                       className={`relative flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-medium transition-all duration-200 ${
                                         checked
                                           ? `bg-gradient-to-r ${grade.color} text-white shadow-md`

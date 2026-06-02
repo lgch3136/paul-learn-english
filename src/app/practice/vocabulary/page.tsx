@@ -295,9 +295,13 @@ export default function VocabularyPractice() {
   // 待展示的成就（用于延迟弹窗显示，避免在弹窗前就保存 localStorage）
   const pendingAchievementRef = useRef<Achievement | null>(null)
 
-  // 全模块通用：记录答题（直接使用 word_id，无需查找）
+  // 全模块通用：记录答题 + 自动触发成就检查（快速模式、闯关模式等都走这个）
   const handleModeAnswer = (wordId: string, isCorrect: boolean) => {
     recordAnswer(wordId, isCorrect)
+    if (isCorrect) {
+      // 这些模式没有 streak 追踪，传 1 让基础成就能触发
+      triggerAchievements(1, 500)
+    }
   }
 
   // 全模块通用：检查成就并显示弹窗（sessionMaxStreak = 本次会话最大连击数）
