@@ -5,7 +5,7 @@ import Link from 'next/link'
 import BackButton from '@/components/ui/BackButton'
 import Skeleton, { WordCardSkeleton } from '@/components/ui/Skeleton'
 import { updateDailyStats } from '@/lib/daily-stats'
-import { recordAnswer, checkNewAchievements, saveAchievement } from '@/lib/achievement-tracker'
+import { recordAnswer, checkNewAchievements, saveAchievement, addPoints } from '@/lib/achievement-tracker'
 import { sounds } from '@/lib/sounds'
 import { createConfetti, addConfettiStyle, vibrate } from '@/lib/animations'
 import {
@@ -78,10 +78,11 @@ export default function ReviewPractice() {
   const [points, setPoints] = useState(0)
   const [stats, setStats] = useState<PlayerStats>({
     totalWords: 0, correctAnswers: 0, wrongAnswers: 0,
-    streak: 0, maxStreak: 0, totalTime: 0, daysStudied: 1, perfectRounds: 0,
+    streak: 0, maxStreak: 0, totalTime: 0, daysStudied: 1, perfectRounds: 0, totalPoints: 0,
   })
   const [performances, setPerformances] = useState<Map<string, WordPerformance>>(new Map())
   const [cardTransition, setCardTransition] = useState(false)
+  const sessionStartTimeRef = useRef<number>(Date.now())
   const pendingAchievementRef = useRef<Achievement | null>(null)
   const achievementQueueRef = useRef<Achievement[]>([])
   const showingAchievementRef = useRef(false)
@@ -158,7 +159,7 @@ export default function ReviewPractice() {
     if (newAchievements.length > 0) {
       setPoints(totalPoints)
       const existingIds = new Set(achievementQueueRef.current.map(a => a.id))
-      if (unlockedAchievement) existingIds.add(unlockedAchievement.id)
+      if (pendingAchievementRef.current) existingIds.add(pendingAchievementRef.current.id)
       const toEnqueue = newAchievements.filter(a => !existingIds.has(a.id))
       achievementQueueRef.current.push(...toEnqueue)
       if (!showingAchievementRef.current) {
@@ -172,6 +173,7 @@ export default function ReviewPractice() {
 
   const startReview = () => {
     if (reviewWords.length === 0) return
+    sessionStartTimeRef.current = Date.now()
     setStarted(true)
     setCurrentIndex(0)
     setScore(0)
@@ -192,7 +194,6 @@ export default function ReviewPractice() {
 
     const correct = answer === currentWord.meaning
     const wordId = currentWord.word_id
-    console.log('[成就系统-错题复习] handleAnswerSelect → wordId:', wordId, 'correct:', correct)
 
     // 通过共享模块记录
     recordAnswer(wordId, correct)
@@ -207,9 +208,10 @@ export default function ReviewPractice() {
     if (correct) {
       const newStreak = streak + 1
       const earnedPoints = 10 + (newStreak >= 3 ? 5 : 0)
-      setScore(score + 1)
+      setScore(prev => prev + 1)
       setStreak(newStreak)
-      setPoints(points + earnedPoints)
+      addPoints(earnedPoints)
+      setPoints(prev => prev + earnedPoints)
       setEncouragement(getRandomEncouragement('correct'))
       sounds.correct()
       vibrate(100)
@@ -250,6 +252,8 @@ export default function ReviewPractice() {
       }, 250)
     } else {
       setFinished(true)
+      const sessionSeconds = Math.round((Date.now() - sessionStartTimeRef.current) / 1000)
+      updateDailyStats({ totalTime: sessionSeconds, lastSessionTime: sessionSeconds, lastSessionWords: score })
       if (score >= reviewWords.length * 0.7) {
         sounds.complete()
       }

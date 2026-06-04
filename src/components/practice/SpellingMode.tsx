@@ -41,6 +41,7 @@ export default function SpellingMode({ words, onComplete, onBack, onAnswer }: Sp
   const [streak, setStreak] = useState(0)
   const inputRef = useRef<HTMLInputElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
+  const scoreRef = useRef(0)
 
   const currentWord = shuffledWords[currentIndex]
 
@@ -49,6 +50,7 @@ export default function SpellingMode({ words, onComplete, onBack, onAnswer }: Sp
     setShuffledWords(shuffled)
     setCurrentIndex(0)
     setScore(0)
+    scoreRef.current = 0
     setInputValue('')
     setShowResult(false)
     setIsCorrect(false)
@@ -68,8 +70,10 @@ export default function SpellingMode({ words, onComplete, onBack, onAnswer }: Sp
     setShowResult(true)
 
     if (correct) {
-      setScore(score + 1)
-      setStreak(streak + 1)
+      const newScore = scoreRef.current + 1
+      scoreRef.current = newScore
+      setScore(newScore)
+      setStreak(prev => prev + 1)
       sounds.correct()
     } else {
       setStreak(0)
@@ -98,18 +102,18 @@ export default function SpellingMode({ words, onComplete, onBack, onAnswer }: Sp
       setTimeout(() => inputRef.current?.focus(), 100)
     } else {
       setGameOver(true)
-      // score 已经在 handleSubmit 中更新了，直接用 score
-      if (score >= shuffledWords.length * 0.7) {
+      const finalScore = scoreRef.current
+      if (finalScore >= shuffledWords.length * 0.7) {
         sounds.complete()
         if (containerRef.current) createConfetti(containerRef.current, 50)
       }
-      onComplete(score, shuffledWords.length)
+      onComplete(finalScore, shuffledWords.length)
     }
   }
 
   const handleShowHint = () => {
     setShowHint(true)
-    setHintsUsed(hintsUsed + 1)
+    setHintsUsed(prev => prev + 1)
   }
 
   // Get hint: show first N letters
@@ -117,7 +121,8 @@ export default function SpellingMode({ words, onComplete, onBack, onAnswer }: Sp
     if (!currentWord) return ''
     const word = currentWord.word
     const showCount = Math.min(2 + hintsUsed, word.length - 1)
-    return word.slice(0, showCount) + '_ '.repeat(word.length - showCount)
+    const hidden = word.length - showCount
+    return word.slice(0, showCount) + Array(hidden).fill('_').join(' ')
   }
 
   if (!started) {
@@ -143,7 +148,7 @@ export default function SpellingMode({ words, onComplete, onBack, onAnswer }: Sp
   }
 
   if (gameOver) {
-    const percentage = Math.round((score / shuffledWords.length) * 100)
+    const percentage = Math.round((scoreRef.current / shuffledWords.length) * 100)
     return (
       <div ref={containerRef} className="max-w-md mx-auto text-center">
         <div className="card animate-bounce-in">
@@ -153,7 +158,7 @@ export default function SpellingMode({ words, onComplete, onBack, onAnswer }: Sp
           <h2 className="text-2xl font-bold text-gray-800 mb-2">拼写挑战完成！</h2>
           <div className="my-6">
             <p className="text-gray-600">
-              拼对 <span className="font-bold text-green-600 text-2xl">{score}</span> / {shuffledWords.length} 题
+              拼对 <span className="font-bold text-green-600 text-2xl">{scoreRef.current}</span> / {shuffledWords.length} 题
             </p>
             <p className="text-gray-600 mt-1">
               正确率 <span className="font-bold text-blue-600 text-xl">{percentage}%</span>

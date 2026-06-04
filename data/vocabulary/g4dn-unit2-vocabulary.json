@@ -1,7 +1,7 @@
 {
   "unit": "g4dn-unit2",
-  "unit_title": "Whose dress is this?",
-  "theme": "服装",
+  "unit_title": "Weather",
+  "theme": "天气",
   "vocabulary": [
     {
       "word_id": "g4dn_010_sunny",

@@ -44,6 +44,12 @@ export function getCumulativeStats(sessionMaxStreak: number = 0): PlayerStats {
     if (r) perfectRounds = parseInt(r)
   } catch (e) {}
 
+  let totalPoints = 0
+  try {
+    const p = localStorage.getItem('paul_english_points')
+    if (p) totalPoints = parseInt(p)
+  } catch (e) {}
+
   const stats = {
     totalWords: perf.size,
     correctAnswers: totalCorrect,
@@ -53,20 +59,18 @@ export function getCumulativeStats(sessionMaxStreak: number = 0): PlayerStats {
     totalTime: 0,
     daysStudied,
     perfectRounds,
+    totalPoints,
   }
-  console.log('[成就系统] getCumulativeStats → Map.size:', perf.size, 'totalCorrect:', totalCorrect, 'totalWrong:', totalWrong, 'maxConsecutive:', maxConsecutive, 'daysStudied:', daysStudied, 'perfectRounds:', perfectRounds)
   return stats
 }
 
 // 记录答题表现（统一入口，所有模式都调用这个）
 export function recordAnswer(wordId: string, isCorrect: boolean): void {
-  console.log('[成就系统] recordAnswer called → wordId:', wordId, 'isCorrect:', isCorrect)
   const perf = loadPerformances()
   const current = perf.get(wordId) || initializePerformance(wordId)
   const updated = updatePerformance(current, isCorrect)
   perf.set(wordId, updated)
   savePerformances(perf)
-  console.log('[成就系统] recordAnswer saved → Map.size:', perf.size, 'correctCount:', updated.correctCount, 'wrongCount:', updated.wrongCount)
 }
 
 // 记录完美轮次
@@ -92,13 +96,12 @@ export interface AchievementResult {
   totalPoints: number
 }
 
-// 检查并返回新解锁的成就（不保存到 localStorage，由调用方在弹窗关闭后保存）
+// 检查并返回新解锁的成就
+// 立即保存成就 ID 到 localStorage，防止重复加分
+// 弹窗关闭后 saveAchievement 会做幂等检查，不会重复保存
 export function checkNewAchievements(sessionMaxStreak: number = 0): AchievementResult {
   const stats = getCumulativeStats(sessionMaxStreak)
-  console.log('[成就追踪] 累计统计:', stats)
-
   const allMatching = checkAchievements(stats)
-  console.log('[成就追踪] 符合条件:', allMatching.map(a => a.id))
 
   let currentUnlockedIds: string[] = []
   try {
@@ -107,7 +110,17 @@ export function checkNewAchievements(sessionMaxStreak: number = 0): AchievementR
   } catch (e) {}
 
   const newAchievements = allMatching.filter(a => !currentUnlockedIds.includes(a.id))
-  console.log('[成就追踪] 新解锁:', newAchievements.map(a => a.id), '已有:', currentUnlockedIds)
+
+  if (newAchievements.length === 0) {
+    const totalPoints = parseInt(localStorage.getItem('paul_english_points') || '0')
+    return { newAchievements: [], totalPoints }
+  }
+
+  // 立即保存成就 ID，防止下次检查时重复计入
+  const updatedIds = [...currentUnlockedIds, ...newAchievements.map(a => a.id)]
+  try {
+    localStorage.setItem('paul_english_achievements', JSON.stringify(updatedIds))
+  } catch (e) {}
 
   const rewardPoints = newAchievements.reduce((sum, a) => sum + a.reward, 0)
   const totalPoints = addPoints(rewardPoints)

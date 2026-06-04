@@ -6,8 +6,8 @@
       "unit": "Unit 6",
       "grammar_point": "可数与不可数名词",
       "category": "usage",
-      "student_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
-      "teacher_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "student_explanation": "可数名词有复数形式（tomato→tomatoes），不可数名词没有复数（rice, bread, water）",
+      "teacher_explanation": "可数名词可以用数词直接修饰，有单复数变化；不可数名词不能加s，用量词修饰，如 a glass of water, a piece of bread。",
       "correct_examples": [
         {"sentence":"I want some tomatoes.","translation":"我想要一些番茄。","highlight":""},
         {"sentence":"I want some rice.","translation":"我想要一些米饭。","highlight":""}

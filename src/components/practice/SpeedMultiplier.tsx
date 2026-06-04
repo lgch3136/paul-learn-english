@@ -11,14 +11,16 @@ interface SpeedMultiplierProps {
 export default function SpeedMultiplier({ streak, visible, onDone }: SpeedMultiplierProps) {
   const [phase, setPhase] = useState<'enter' | 'show' | 'exit'>('enter')
   const canvasRef = useRef<HTMLCanvasElement>(null)
+  const onDoneRef = useRef(onDone)
+  onDoneRef.current = onDone
 
   useEffect(() => {
     if (!visible) return
     requestAnimationFrame(() => setPhase('show'))
     const exitTimer = setTimeout(() => setPhase('exit'), 1200)
-    const doneTimer = setTimeout(() => onDone?.(), 1600)
+    const doneTimer = setTimeout(() => onDoneRef.current?.(), 1600)
     return () => { clearTimeout(exitTimer); clearTimeout(doneTimer) }
-  }, [visible, onDone])
+  }, [visible])
 
   useEffect(() => {
     if (visible && streak >= 4) {

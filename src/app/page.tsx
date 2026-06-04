@@ -1,15 +1,38 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { sounds } from '@/lib/sounds'
 import { addConfettiStyle } from '@/lib/animations'
+import { loadCheckIn, hasCheckedInToday } from '@/lib/checkin-tracker'
+import UnitSelector, { GameScope } from '@/components/practice/UnitSelector'
 
 export default function Home() {
-  // 初始化动画样式
+  const [checkedToday, setCheckedToday] = useState(false)
+  const [streak, setStreak] = useState(0)
+  const [showScopeSelector, setShowScopeSelector] = useState(false)
+  const [selectedScope, setSelectedScope] = useState<GameScope | null>(null)
+  const router = useRouter()
+
+  // 初始化动画样式 + 加载已保存的范围
   useEffect(() => {
     addConfettiStyle()
+    setCheckedToday(hasCheckedInToday())
+    const data = loadCheckIn()
+    setStreak(data.currentStreak)
+    try {
+      const saved = localStorage.getItem('paul_english_last_scope')
+      if (saved) setSelectedScope(JSON.parse(saved))
+    } catch (e) { /* ignore */ }
   }, [])
+
+  const handleScopeSelect = (scope: GameScope) => {
+    sounds.correct()
+    try { localStorage.setItem('paul_english_last_scope', JSON.stringify(scope)) } catch (e) {}
+    setSelectedScope(scope)
+    setShowScopeSelector(false)
+  }
 
   const handleButtonClick = () => {
     sounds.click()
@@ -18,7 +41,7 @@ export default function Home() {
   return (
     <main className="min-h-screen p-4 sm:p-8">
       {/* 头部欢迎区域 */}
-      <header className="text-center mb-8 sm:mb-12 pt-8">
+      <header className="text-center mb-6 sm:mb-10 pt-8">
         <div className="animate-float mb-4">
           <span className="text-7xl">🎓</span>
         </div>
@@ -35,28 +58,95 @@ export default function Home() {
         </div>
       </header>
 
-      {/* 学生入口 - 主要按钮 */}
-      <section className="max-w-md mx-auto mb-8">
+      {/* 签到提醒横幅 */}
+      <section className="max-w-md mx-auto mb-6">
+        <Link
+          href="/lesson"
+          className="block"
+          onClick={handleButtonClick}
+        >
+          <div className={`relative overflow-hidden rounded-2xl shadow-lg transition-all hover:scale-[1.02] active:scale-[0.98] ${
+            checkedToday
+              ? 'bg-gradient-to-r from-green-400 to-emerald-500'
+              : 'bg-gradient-to-r from-orange-400 via-red-400 to-pink-500'
+          }`}>
+            <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -translate-y-8 translate-x-8" />
+            <div className="relative p-4 flex items-center gap-4 text-white">
+              <span className="text-4xl">{checkedToday ? '✅' : '📅'}</span>
+              <div className="flex-1">
+                <p className="font-bold text-lg">
+                  {checkedToday ? '今日已签到 ✓' : '📅 别忘了今日签到！'}
+                </p>
+                <p className="text-sm opacity-80">
+                  {checkedToday
+                    ? streak > 0 ? `🔥 已连续 ${streak} 天 · 继续加油` : '继续保持'
+                    : '签到领积分，坚持有惊喜 🎁'
+                  }
+                </p>
+              </div>
+              {!checkedToday && (
+                <span className="animate-bounce text-2xl">→</span>
+              )}
+            </div>
+          </div>
+        </Link>
+      </section>
+
+      {/* 学生入口 - 选范围 → 选模式 */}
+      <section className="max-w-md mx-auto mb-6">
         <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-500 via-purple-600 to-pink-500 p-8 text-white shadow-xl">
-          {/* 背景装饰 */}
           <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-16 translate-x-16" />
           <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full translate-y-12 -translate-x-12" />
 
           <div className="relative text-center">
             <h2 className="text-2xl font-bold mb-2">开始学习</h2>
-            <p className="mb-6 opacity-90 text-lg">
-              今天想练习吗？
-            </p>
-            <Link
-              href="/lesson"
-              className="inline-block w-full bg-white text-purple-600 font-bold py-5 px-8 rounded-xl text-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl active:scale-95 shadow-lg"
-              onClick={handleButtonClick}
-            >
-              🚀 一键开始今日练习
-            </Link>
+            {selectedScope ? (
+              <>
+                <p className="mb-4 opacity-90 text-sm">
+                  📖 {selectedScope.label} · {selectedScope.questionCount} 题
+                </p>
+                <div className="grid grid-cols-2 gap-3 mb-4">
+                  <button
+                    onClick={() => { sounds.correct(); router.push('/practice/vocabulary') }}
+                    className="bg-white text-purple-600 font-bold py-4 px-4 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl active:scale-95 shadow-lg"
+                  >
+                    🔤 单词练习
+                  </button>
+                  <button
+                    onClick={() => { sounds.correct(); router.push('/practice/grammar') }}
+                    className="bg-white text-purple-600 font-bold py-4 px-4 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl active:scale-95 shadow-lg"
+                  >
+                    📝 语法小练
+                  </button>
+                </div>
+                <button
+                  onClick={() => { sounds.click(); setShowScopeSelector(prev => !prev) }}
+                  className="text-sm opacity-80 underline underline-offset-2 hover:opacity-100 transition-opacity"
+                >
+                  {showScopeSelector ? '收起' : '切换范围'}
+                </button>
+              </>
+            ) : (
+              <>
+                <p className="mb-6 opacity-90 text-lg">选择范围，开始练习</p>
+                <button
+                  onClick={() => { sounds.click(); setShowScopeSelector(prev => !prev) }}
+                  className="inline-block w-full bg-white text-purple-600 font-bold py-5 px-8 rounded-xl text-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl active:scale-95 shadow-lg"
+                >
+                  {showScopeSelector ? '📂 收起范围选择' : '📖 选择练习范围'}
+                </button>
+              </>
+            )}
           </div>
         </div>
       </section>
+
+      {/* 练习范围选择器（展开时显示） */}
+      {showScopeSelector && (
+        <section className="max-w-md mx-auto mb-6 animate-bounce-in">
+          <UnitSelector onSelect={handleScopeSelect} />
+        </section>
+      )}
 
       {/* 快速功能入口 */}
       <section className="max-w-md mx-auto mb-8">
@@ -64,14 +154,14 @@ export default function Home() {
         <div className="grid grid-cols-2 gap-4">
           <Link
             href="/practice/vocabulary"
-            className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-400 to-blue-600 p-6 text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
+            className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-400 to-indigo-500 p-6 text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
             onClick={handleButtonClick}
           >
             <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -translate-y-10 translate-x-10" />
             <div className="relative text-center">
               <span className="text-4xl mb-3 block group-hover:animate-bounce">🔤</span>
-              <h3 className="font-bold text-lg">单词闯关</h3>
-              <p className="text-sm opacity-90">记忆单词</p>
+              <h3 className="font-bold text-lg">单词练习</h3>
+              <p className="text-sm opacity-90">多种模式</p>
             </div>
           </Link>
 

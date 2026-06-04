@@ -3,7 +3,7 @@
   "grammar_points": [
     {
       "grammar_id": "grammar_g4_001_can",
-      "unit": "Grade 4",
+      "unit": "g4up-unit1",
       "grammar_point": "情态动词 can 的用法",
       "category": "structure",
       "student_explanation": "can 表示'能、会'，后面直接跟动词原形，不用加 s 或 ing",
@@ -55,7 +55,7 @@
     },
     {
       "grammar_id": "grammar_g4_002_seasons_weather",
-      "unit": "Grade 4",
+      "unit": "g4up-unit2",
       "grammar_point": "描述天气的句型",
       "category": "pattern",
       "student_explanation": "用 It's + 天气形容词 来描述天气，如 It's sunny / rainy / windy",
@@ -105,7 +105,7 @@
     },
     {
       "grammar_id": "grammar_g4_003_what_time",
-      "unit": "Grade 4",
+      "unit": "g4up-unit3",
       "grammar_point": "询问时间 What time is it?",
       "category": "pattern",
       "student_explanation": "用 What time is it? 问时间，回答用 It's + 时间",
@@ -154,7 +154,7 @@
     },
     {
       "grammar_id": "grammar_g4_004_there_be",
-      "unit": "Grade 4",
+      "unit": "g4up-unit4",
       "grammar_point": "There be 句型",
       "category": "structure",
       "student_explanation": "用 There is/are + 某物 + 某地 表示'某处有某物'，近处用 is，远处复数用 are",
@@ -201,7 +201,7 @@
     },
     {
       "grammar_id": "grammar_g4_005_likes_doing",
-      "unit": "Grade 4",
+      "unit": "g4up-unit5",
       "grammar_point": "like + 动名词/名词",
       "category": "structure",
       "student_explanation": "like 后面可以跟名词或动名词（-ing 形式），表示'喜欢...'",
@@ -247,7 +247,7 @@
     },
     {
       "grammar_id": "grammar_g4_006_present_continuous",
-      "unit": "Grade 4",
+      "unit": "g4up-unit6",
       "grammar_point": "现在进行时 be + doing",
       "category": "structure",
       "student_explanation": "用 am/is/are + 动词ing 表示正在做的事",

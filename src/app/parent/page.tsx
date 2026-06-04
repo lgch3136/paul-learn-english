@@ -43,6 +43,11 @@ export default function ParentPage() {
       localStorage.removeItem('paul_english_streak')
       localStorage.removeItem('paul_english_last_study_date')
       localStorage.removeItem('paul_english_performances')
+      localStorage.removeItem('paul_english_perfect_rounds')
+      localStorage.removeItem('paul_english_daily_stats')
+      localStorage.removeItem('paul_english_daily_rewards')
+      localStorage.removeItem('paul_english_last_scope')
+      localStorage.removeItem('paul_english_checkin')
       setShowClearConfirm(false)
       window.location.reload()
     } catch (e) {
@@ -93,7 +98,7 @@ export default function ParentPage() {
         const displayWord = vocabInfo ? vocabInfo.word : extractWord(p.wordId)
         const displayMeaning = vocabInfo ? vocabInfo.meaning : ''
 
-        if (p.consecutiveCorrect >= 3) {
+        if (p.consecutiveCorrect >= 5 && p.correctCount >= 5) {
           masteredWords.push({ word: displayWord, meaning: displayMeaning })
         } else if (total > 0 && p.wrongCount > 0 && p.wrongCount / total > 0.3) {
           weakWords.push({

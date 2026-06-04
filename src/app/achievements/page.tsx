@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import BackButton from '@/components/ui/BackButton'
 import { sounds } from '@/lib/sounds'
-import { achievements, Achievement, getCurrentLevel, getLevelProgress, titles } from '@/lib/gameification'
+import { achievements, Achievement, achievementCategories, getCurrentLevel, getLevelProgress, titles } from '@/lib/gameification'
 import { loadPerformances, getPerformanceSummary } from '@/lib/question-scheduler'
 
 export default function AchievementsPage() {
@@ -12,6 +12,7 @@ export default function AchievementsPage() {
   const [totalPoints, setTotalPoints] = useState(0)
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
   const [showUnlockAnimation, setShowUnlockAnimation] = useState<string | null>(null)
+  const [displayCount, setDisplayCount] = useState(20)
 
   useEffect(() => {
     // 从本地存储加载已解锁的成就
@@ -28,38 +29,26 @@ export default function AchievementsPage() {
   const currentLevel = getCurrentLevel(totalPoints)
   const levelProgress = getLevelProgress(totalPoints)
 
-  // 成就分类
-  const categories = [
-    { id: 'all', name: '全部', icon: '🏆' },
-    { id: 'vocabulary', name: '词汇', icon: '📚' },
-    { id: 'streak', name: '连击', icon: '🔥' },
-    { id: 'perfect', name: '完美', icon: '⭐' },
-    { id: 'speed', name: '速度', icon: '⚡' },
-    { id: 'persistence', name: '坚持', icon: '💪' },
-    { id: 'special', name: '特殊', icon: '✨' },
-  ]
+  // 成就分类（使用 achievements-data.ts 中的分类）
+  const categories = achievementCategories
 
-  // 成就 ID → 分类映射
-  const categoryMap: Record<string, string> = {
-    first_word: 'vocabulary', word_collector_5: 'vocabulary', word_collector_10: 'vocabulary',
-    word_collector_20: 'vocabulary', word_collector_50: 'vocabulary', word_collector_100: 'vocabulary',
-    streak_3: 'streak', streak_5: 'streak', streak_10: 'streak', streak_15: 'streak', streak_20: 'streak',
-    perfect_round: 'perfect', perfect_3: 'perfect', perfect_5: 'perfect',
-    speed_demon: 'speed', quick_learner: 'speed',
-    persistent: 'persistence', dedicated: 'persistence', committed: 'persistence', unstoppable: 'persistence',
-    answer_10: 'vocabulary', answer_25: 'vocabulary', answer_50: 'vocabulary', answer_100: 'vocabulary', answer_200: 'vocabulary',
-    error_corrector: 'special', no_mistakes: 'special', marathon: 'special', night_owl: 'special', early_bird: 'special',
-  }
-
-  // 过滤成就
+  // 过滤成就（直接使用每个成就的 category 字段）
   const filteredAchievements = selectedCategory === 'all'
     ? achievements
-    : achievements.filter(a => categoryMap[a.id] === selectedCategory)
+    : achievements.filter(a => a.category === selectedCategory)
 
   const isUnlocked = (id: string) => unlockedAchievements.includes(id)
   const unlockedCount = unlockedAchievements.length
   const totalCount = achievements.length
   const completionPercentage = Math.round((unlockedCount / totalCount) * 100)
+
+  // 计算每个分类的完成情况
+  const getCategoryStats = (categoryId: string) => {
+    if (categoryId === 'all') return { unlocked: unlockedCount, total: totalCount }
+    const catAchievements = achievements.filter(a => a.category === categoryId)
+    const catUnlocked = catAchievements.filter(a => isUnlocked(a.id)).length
+    return { unlocked: catUnlocked, total: catAchievements.length }
+  }
 
   return (
     <main className="min-h-screen p-4 sm:p-8">
@@ -120,29 +109,97 @@ export default function AchievementsPage() {
       {/* 分类选择 */}
       <section className="max-w-2xl mx-auto mb-6">
         <div className="flex flex-wrap gap-2 justify-center">
-          {categories.map((cat) => (
-            <button
-              key={cat.id}
-              onClick={() => {
-                sounds.click()
-                setSelectedCategory(cat.id)
-              }}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                selectedCategory === cat.id
-                  ? 'bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-lg scale-105'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-              }`}
-            >
-              {cat.icon} {cat.name}
-            </button>
-          ))}
+          {categories.map((cat) => {
+            const stats = getCategoryStats(cat.id)
+            const catPercent = stats.total > 0 ? Math.round((stats.unlocked / stats.total) * 100) : 0
+            const isComplete = stats.unlocked === stats.total && stats.total > 0
+            return (
+              <button
+                key={cat.id}
+                onClick={() => {
+                  sounds.click()
+                  setSelectedCategory(cat.id)
+                  setDisplayCount(20)
+                }}
+                className={`relative px-3 py-2 rounded-xl text-sm font-medium transition-all duration-300 ${
+                  selectedCategory === cat.id
+                    ? 'bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-lg scale-105'
+                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                }`}
+              >
+                <div className="flex items-center gap-1.5">
+                  <span>{cat.icon}</span>
+                  <span>{cat.name}</span>
+                </div>
+                <div className="flex items-center gap-1.5 mt-1">
+                  <span className={`text-xs font-bold ${
+                    selectedCategory === cat.id ? 'text-white/90' : 'text-blue-600'
+                  }`}>
+                    {stats.unlocked}/{stats.total}
+                  </span>
+                  {cat.id !== 'all' && (
+                    <div className={`flex-1 h-1.5 rounded-full min-w-[40px] ${
+                      selectedCategory === cat.id ? 'bg-white/30' : 'bg-gray-300'
+                    }`}>
+                      <div
+                        className={`h-full rounded-full transition-all duration-500 ${
+                          isComplete
+                            ? 'bg-green-400'
+                            : selectedCategory === cat.id
+                              ? 'bg-white'
+                              : 'bg-gradient-to-r from-blue-400 to-purple-400'
+                        }`}
+                        style={{ width: `${catPercent}%` }}
+                      />
+                    </div>
+                  )}
+                  {isComplete && (
+                    <span className="text-xs">✅</span>
+                  )}
+                </div>
+              </button>
+            )
+          })}
         </div>
       </section>
 
       {/* 成就列表 */}
       <section className="max-w-2xl mx-auto mb-8">
+        {/* 当前分类进度条 */}
+        {selectedCategory !== 'all' && (() => {
+          const stats = getCategoryStats(selectedCategory)
+          const catPercent = stats.total > 0 ? Math.round((stats.unlocked / stats.total) * 100) : 0
+          const isComplete = stats.unlocked === stats.total && stats.total > 0
+          const catInfo = categories.find(c => c.id === selectedCategory)
+          return (
+            <div className="mb-4 p-4 rounded-xl bg-gradient-to-r from-blue-50 to-purple-50 border border-blue-100">
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-sm font-bold text-gray-800">
+                  {catInfo?.icon} {catInfo?.name} 完成进度
+                </span>
+                <span className={`text-sm font-bold ${isComplete ? 'text-green-600' : 'text-blue-600'}`}>
+                  {stats.unlocked}/{stats.total}（{catPercent}%）
+                </span>
+              </div>
+              <div className="bg-gray-200 rounded-full h-3 overflow-hidden">
+                <div
+                  className={`h-full rounded-full transition-all duration-700 ${
+                    isComplete
+                      ? 'bg-gradient-to-r from-green-400 to-emerald-500'
+                      : 'bg-gradient-to-r from-blue-500 to-purple-500'
+                  }`}
+                  style={{ width: `${catPercent}%` }}
+                />
+              </div>
+              {isComplete && (
+                <p className="text-sm text-green-600 font-medium mt-2 text-center">🎉 恭喜！该类别成就已全部完成！</p>
+              )}
+            </div>
+          )
+        })()}
+
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {filteredAchievements.map((achievement, index) => {
+          {filteredAchievements.slice(0, displayCount).map((achievement, index) => {
             const unlocked = isUnlocked(achievement.id)
             return (
               <div
@@ -189,6 +246,9 @@ export default function AchievementsPage() {
                         }`}>
                           +{achievement.reward} 积分
                         </span>
+                        <span className="text-xs" title={`难度 ${achievement.difficulty}/5`}>
+                          {'⭐'.repeat(achievement.difficulty)}
+                        </span>
                         {unlocked && (
                           <span className="text-xs text-green-600 font-medium">已获得</span>
                         )}
@@ -200,6 +260,18 @@ export default function AchievementsPage() {
             )
           })}
         </div>
+
+        {/* 加载更多 */}
+        {displayCount < filteredAchievements.length && (
+          <div className="mt-6 text-center">
+            <button
+              onClick={() => { sounds.click(); setDisplayCount(prev => prev + 20) }}
+              className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium px-6 py-3 rounded-xl transition-all"
+            >
+              显示更多 ({filteredAchievements.length - displayCount} 个未显示)
+            </button>
+          </div>
+        )}
       </section>
 
       {/* 称号展示 */}

@@ -3,13 +3,16 @@
 import { useState } from 'react'
 import { sounds } from '@/lib/sounds'
 
-export type PracticeMode = 
+export type PracticeMode =
   | 'classic'      // 经典模式：看词选义
   | 'listening'    // 听力模式：听音选词
   | 'spelling'     // 拼写模式：看义拼词
   | 'speed'        // 速度模式：限时答题
   | 'challenge'    // 挑战模式：连续闯关
   | 'review'       // 复习模式：错题重练
+  | 'shooting'     // 单词打靶：射击飞靶
+  | 'fishing'      // 单词钓鱼：水中抓鱼
+  | 'scramble'     // 字母拼拼乐：拼字母
 
 interface ModeOption {
   id: PracticeMode
@@ -22,10 +25,34 @@ interface ModeOption {
 
 const modes: ModeOption[] = [
   {
+    id: 'fishing',
+    icon: '🎣',
+    title: '单词钓鱼',
+    description: '点击正确的鱼，钓起来！',
+    difficulty: 'medium',
+    funFactor: 5
+  },
+  {
+    id: 'scramble',
+    icon: '🔤',
+    title: '字母拼拼乐',
+    description: '把打乱的字母拼成单词！',
+    difficulty: 'medium',
+    funFactor: 5
+  },
+  {
+    id: 'shooting',
+    icon: '🏹',
+    title: '单词弹射',
+    description: '拉动弹弓，射向正确单词！',
+    difficulty: 'hard',
+    funFactor: 5
+  },
+  {
     id: 'speed',
     icon: '⚡',
     title: '闪电速度',
-    description: '限时 10 秒，快速答题',
+    description: '限时 6 秒，快速答题',
     difficulty: 'medium',
     funFactor: 5
   },
@@ -33,7 +60,7 @@ const modes: ModeOption[] = [
     id: 'challenge',
     icon: '🏆',
     title: '闯关挑战',
-    description: '连续答对 10 题通关',
+    description: '连续答对 8 题通关',
     difficulty: 'hard',
     funFactor: 5
   },
@@ -50,7 +77,7 @@ const modes: ModeOption[] = [
     icon: '🎧',
     title: '听力挑战',
     description: '听发音，选出正确的单词',
-    difficulty: 'medium',
+    difficulty: 'easy',
     funFactor: 4
   },
   {
@@ -115,12 +142,15 @@ export default function PracticeModeSelector({ onSelect, currentMode }: Practice
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {modes.map((mode, index) => {
           const gradients = [
-            'from-yellow-400 to-orange-500',
-            'from-purple-400 to-pink-500',
-            'from-blue-400 to-indigo-500',
-            'from-green-400 to-emerald-500',
-            'from-cyan-400 to-blue-500',
-            'from-gray-400 to-gray-600',
+            'from-sky-400 to-blue-600',        // fishing - 钓鱼蓝
+            'from-amber-400 to-orange-600',    // scramble - 拼写琥珀
+            'from-rose-500 to-red-600',        // shooting - 打靶红
+            'from-yellow-400 to-orange-500',   // speed - 闪电黄橙
+            'from-purple-400 to-pink-500',     // challenge - 挑战紫粉
+            'from-blue-400 to-indigo-500',     // classic - 经典蓝靛
+            'from-green-400 to-emerald-500',   // listening - 听力绿
+            'from-cyan-400 to-blue-500',       // spelling - 拼写青蓝
+            'from-gray-400 to-gray-600',       // review - 复习灰
           ]
           const gradient = gradients[index % gradients.length]
 

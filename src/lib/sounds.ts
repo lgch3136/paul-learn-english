@@ -14,6 +14,11 @@ class SoundManager {
   private playTone(frequency: number, duration: number, type: OscillatorType = 'sine', volume: number = 0.3) {
     if (!this.audioContext) return
 
+    // iOS Safari 等浏览器在用户交互前 AudioContext 处于 suspended 状态
+    if (this.audioContext.state === 'suspended') {
+      this.audioContext.resume()
+    }
+
     const oscillator = this.audioContext.createOscillator()
     const gainNode = this.audioContext.createGain()
 

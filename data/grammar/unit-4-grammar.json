@@ -6,8 +6,8 @@
       "unit": "Unit 4",
       "grammar_point": "have + 疾病的表达",
       "category": "usage",
-      "student_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
-      "teacher_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "student_explanation": "have/has + a + 疾病名称，如 have a headache/fever/cold/toothache",
+      "teacher_explanation": "表示生病用 have/has + a + 疾病名词：headache（头疼）、fever（发烧）、cold（感冒）、toothache（牙疼）、cough（咳嗽）。",
       "correct_examples": [
         {"sentence":"I have a headache.","translation":"我头疼。","highlight":""},
         {"sentence":"He has a fever.","translation":"他发烧了。","highlight":""}

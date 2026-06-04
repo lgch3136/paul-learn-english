@@ -1,300 +1,17 @@
 // 游戏化激励系统
 
-export interface Achievement {
-  id: string
-  title: string
-  description: string
-  icon: string
-  condition: (stats: PlayerStats) => boolean
-  reward: number // 积分奖励
-}
-
-export interface PlayerStats {
-  totalWords: number
-  correctAnswers: number
-  wrongAnswers: number
-  streak: number
-  maxStreak: number
-  totalTime: number // 秒
-  daysStudied: number
-  perfectRounds: number // 全对轮次
-}
+// 从 achievements-data.ts 导入并重导出核心类型和数据
+import type { Achievement, PlayerStats } from '@/lib/achievements-data'
+import { achievements as _achievements, achievementCategories as _achievementCategories } from '@/lib/achievements-data'
+export type { Achievement, PlayerStats }
+export const achievements = _achievements
+export const achievementCategories = _achievementCategories
 
 export interface Reward {
   type: 'points' | 'badge' | 'title' | 'unlock'
   value: string
   amount?: number
 }
-
-// 成就列表 - 扩充到 25 个成就
-export const achievements: Achievement[] = [
-  // 基础成就
-  {
-    id: 'first_word',
-    title: '初出茅庐',
-    description: '学会第一个单词',
-    icon: '🌱',
-    condition: (stats) => stats.totalWords >= 1,
-    reward: 10
-  },
-  {
-    id: 'word_collector_5',
-    title: '小试牛刀',
-    description: '学会 5 个单词',
-    icon: '📝',
-    condition: (stats) => stats.totalWords >= 5,
-    reward: 25
-  },
-  {
-    id: 'word_collector_10',
-    title: '小词库',
-    description: '学会 10 个单词',
-    icon: '📚',
-    condition: (stats) => stats.totalWords >= 10,
-    reward: 50
-  },
-  {
-    id: 'word_collector_20',
-    title: '词汇达人',
-    description: '学会 20 个单词',
-    icon: '🏆',
-    condition: (stats) => stats.totalWords >= 20,
-    reward: 100
-  },
-  {
-    id: 'word_collector_50',
-    title: '词汇大师',
-    description: '学会 50 个单词',
-    icon: '👑',
-    condition: (stats) => stats.totalWords >= 50,
-    reward: 200
-  },
-  {
-    id: 'word_collector_100',
-    title: '词汇之王',
-    description: '学会 100 个单词',
-    icon: '👸',
-    condition: (stats) => stats.totalWords >= 100,
-    reward: 500
-  },
-
-  // 连击成就
-  {
-    id: 'streak_3',
-    title: '小有成就',
-    description: '连续答对 3 题',
-    icon: '🔥',
-    condition: (stats) => stats.maxStreak >= 3,
-    reward: 30
-  },
-  {
-    id: 'streak_5',
-    title: '势如破竹',
-    description: '连续答对 5 题',
-    icon: '⚡',
-    condition: (stats) => stats.maxStreak >= 5,
-    reward: 50
-  },
-  {
-    id: 'streak_10',
-    title: '所向披靡',
-    description: '连续答对 10 题',
-    icon: '💎',
-    condition: (stats) => stats.maxStreak >= 10,
-    reward: 100
-  },
-  {
-    id: 'streak_15',
-    title: '无人能挡',
-    description: '连续答对 15 题',
-    icon: '🌟',
-    condition: (stats) => stats.maxStreak >= 15,
-    reward: 150
-  },
-  {
-    id: 'streak_20',
-    title: '传说之境',
-    description: '连续答对 20 题',
-    icon: '✨',
-    condition: (stats) => stats.maxStreak >= 20,
-    reward: 250
-  },
-
-  // 完美成就
-  {
-    id: 'perfect_round',
-    title: '完美一轮',
-    description: '一轮练习全部答对',
-    icon: '⭐',
-    condition: (stats) => stats.perfectRounds >= 1,
-    reward: 80
-  },
-  {
-    id: 'perfect_3',
-    title: '完美三连',
-    description: '完成 3 轮完美练习',
-    icon: '💫',
-    condition: (stats) => stats.perfectRounds >= 3,
-    reward: 200
-  },
-  {
-    id: 'perfect_5',
-    title: '完美主义者',
-    description: '完成 5 轮完美练习',
-    icon: '🌈',
-    condition: (stats) => stats.perfectRounds >= 5,
-    reward: 350
-  },
-
-  // 速度成就
-  {
-    id: 'speed_demon',
-    title: '闪电侠',
-    description: '平均答题时间少于 3 秒',
-    icon: '⚡',
-    condition: (stats) => {
-      const total = stats.correctAnswers + stats.wrongAnswers
-      return total > 0 && stats.totalTime / total < 3
-    },
-    reward: 60
-  },
-  {
-    id: 'quick_learner',
-    title: '快速学习者',
-    description: '平均答题时间少于 5 秒',
-    icon: '🏃',
-    condition: (stats) => {
-      const total = stats.correctAnswers + stats.wrongAnswers
-      return total > 0 && stats.totalTime / total < 5
-    },
-    reward: 40
-  },
-
-  // 坚持成就
-  {
-    id: 'persistent',
-    title: '坚持不懈',
-    description: '连续学习 3 天',
-    icon: '📅',
-    condition: (stats) => stats.daysStudied >= 3,
-    reward: 70
-  },
-  {
-    id: 'dedicated',
-    title: '勤奋好学',
-    description: '连续学习 7 天',
-    icon: '🌟',
-    condition: (stats) => stats.daysStudied >= 7,
-    reward: 150
-  },
-  {
-    id: 'committed',
-    title: '持之以恒',
-    description: '连续学习 14 天',
-    icon: '💪',
-    condition: (stats) => stats.daysStudied >= 14,
-    reward: 300
-  },
-  {
-    id: 'unstoppable',
-    title: '势不可挡',
-    description: '连续学习 30 天',
-    icon: '🏆',
-    condition: (stats) => stats.daysStudied >= 30,
-    reward: 500
-  },
-
-  // 答题成就
-  {
-    id: 'answer_10',
-    title: '初露锋芒',
-    description: '答对 10 题',
-    icon: '📈',
-    condition: (stats) => stats.correctAnswers >= 10,
-    reward: 30
-  },
-  {
-    id: 'answer_25',
-    title: '渐入佳境',
-    description: '答对 25 题',
-    icon: '📊',
-    condition: (stats) => stats.correctAnswers >= 25,
-    reward: 60
-  },
-  {
-    id: 'answer_50',
-    title: '学霸',
-    description: '答对 50 题',
-    icon: '👑',
-    condition: (stats) => stats.correctAnswers >= 50,
-    reward: 200
-  },
-  {
-    id: 'answer_100',
-    title: '学神',
-    description: '答对 100 题',
-    icon: '👸',
-    condition: (stats) => stats.correctAnswers >= 100,
-    reward: 400
-  },
-  {
-    id: 'answer_200',
-    title: '传奇学者',
-    description: '答对 200 题',
-    icon: '✨',
-    condition: (stats) => stats.correctAnswers >= 200,
-    reward: 800
-  },
-
-  // 特殊成就
-  {
-    id: 'error_corrector',
-    title: '知错能改',
-    description: '错题全部改正',
-    icon: '🔄',
-    condition: (stats) => stats.wrongAnswers > 0 && stats.correctAnswers > stats.wrongAnswers * 2,
-    reward: 40
-  },
-  {
-    id: 'no_mistakes',
-    title: '零失误',
-    description: '答对 20 题且没有错误',
-    icon: '🎯',
-    condition: (stats) => stats.correctAnswers >= 20 && stats.wrongAnswers === 0,
-    reward: 150
-  },
-  {
-    id: 'marathon',
-    title: '马拉松选手',
-    description: '单次练习超过 30 分钟',
-    icon: '🏃',
-    condition: (stats) => stats.totalTime >= 1800,
-    reward: 100
-  },
-  {
-    id: 'night_owl',
-    title: '夜猫子',
-    description: '在晚上 10 点后学习',
-    icon: '🦉',
-    condition: (stats) => {
-      const hour = new Date().getHours()
-      return hour >= 22 || hour < 6
-    },
-    reward: 30
-  },
-  {
-    id: 'early_bird',
-    title: '早起鸟',
-    description: '在早上 7 点前学习',
-    icon: '🐦',
-    condition: (stats) => {
-      const hour = new Date().getHours()
-      return hour >= 5 && hour < 7
-    },
-    reward: 30
-  },
-]
-
 // 积分等级 - 扩充到 15 级
 export const levels = [
   { level: 1, title: '英语新手', minPoints: 0, icon: '🌱' },
@@ -316,20 +33,16 @@ export const levels = [
 
 // 检查解锁的成就
 export function checkAchievements(stats: PlayerStats): Achievement[] {
-  console.log('[成就系统] checkAchievements 输入 stats:', JSON.stringify(stats))
   const result: Achievement[] = []
   for (const a of achievements) {
     try {
-      const matched = a.condition(stats)
-      if (matched) {
+      if (a.condition(stats)) {
         result.push(a)
-        console.log('[成就系统] ✅ 匹配:', a.id, '-', a.title)
       }
     } catch (e) {
-      console.error('[成就系统] ❌ 条件执行出错:', a.id, e)
+      // skip broken condition
     }
   }
-  console.log('[成就系统] checkAchievements 结果:', result.length, '个成就匹配')
   return result
 }
 
@@ -503,7 +216,9 @@ export function checkDailyChallenge(
   todayWords: number,
   maxStreak: number,
   perfectRounds: number,
-  totalTime: number
+  totalTime: number,
+  lastSessionWords?: number,
+  lastSessionTime?: number
 ): boolean {
   switch (challenge.id) {
     case 'daily_5':
@@ -517,7 +232,8 @@ export function checkDailyChallenge(
     case 'daily_perfect':
       return perfectRounds >= challenge.target
     case 'daily_speed':
-      return todayWords >= challenge.target && totalTime <= 120
+      // 速度之星：最近一次练习中答对 >= 10 题且用时 <= 120 秒
+      return (lastSessionWords ?? 0) >= challenge.target && (lastSessionTime ?? Infinity) <= 120
     default:
       return false
   }

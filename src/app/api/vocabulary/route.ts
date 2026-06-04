@@ -9,6 +9,18 @@ const adultFileMap: Record<string, string> = {
   'adult3': 'adult-professional-vocabulary.json',
 }
 
+// 五年级下册旧文件名映射
+const g5dnUnitMap: Record<string, string> = {
+  'g5dn-unit1': 'unit-1-vocabulary.json',
+  'g5dn-unit2': 'unit-2-vocabulary.json',
+  'g5dn-unit3': 'unit-3-vocabulary.json',
+  'g5dn-unit4': 'unit-4-vocabulary.json',
+  'g5dn-unit5': 'unit-5-vocabulary.json',
+  'g5dn-unit6': 'unit-6-vocabulary.json',
+  'g5dn-unit7': 'unit-7-vocabulary.json',
+  'g5dn-unit8': 'unit-8-vocabulary.json',
+}
+
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url)
@@ -32,6 +44,8 @@ export async function GET(request: Request) {
     let fileName: string
     if (adultFileMap[unit]) {
       fileName = adultFileMap[unit]
+    } else if (g5dnUnitMap[unit]) {
+      fileName = g5dnUnitMap[unit]
     } else {
       fileName = `${unit.toLowerCase().replace(/ /g, '-')}-vocabulary.json`
     }

@@ -6,6 +6,21 @@ import BackButton from '@/components/ui/BackButton'
 import Skeleton from '@/components/ui/Skeleton'
 import GrammarScopeSelector, { GrammarScope } from '@/components/practice/GrammarScopeSelector'
 import { sounds } from '@/lib/sounds'
+import { updateDailyStats } from '@/lib/daily-stats'
+import { addPoints } from '@/lib/achievement-tracker'
+
+// 从保存的单词范围推导语法范围
+function getSavedGrammarScope(): GrammarScope | null {
+  try {
+    const saved = localStorage.getItem('paul_english_last_scope')
+    if (!saved) return null
+    const scope = JSON.parse(saved)
+    if (scope.units && scope.label) {
+      return { units: scope.units, label: scope.label }
+    }
+  } catch (e) { /* ignore */ }
+  return null
+}
 
 interface GrammarPoint {
   grammar_id: string
@@ -69,14 +84,32 @@ export default function GrammarPractice() {
 
   const currentGrammar = grammarData[currentIndex]
 
+  // 随机排列正确和错误例句的显示顺序（避免学生记住位置）
+  const [exampleOrder, setExampleOrder] = useState<'correct-first' | 'wrong-first'>('correct-first')
+
+  // 自动加载已保存的练习范围
+  useEffect(() => {
+    const saved = getSavedGrammarScope()
+    if (saved) {
+      setScope(saved)
+      loadGrammar(saved)
+    }
+  }, [])
+
+  useEffect(() => {
+    setExampleOrder(Math.random() > 0.5 ? 'correct-first' : 'wrong-first')
+  }, [currentIndex])
+
   const handleExampleSelect = (type: 'correct' | 'wrong') => {
     if (!currentGrammar) return
     sounds.click()
     setSelectedExample(type)
     setShowExplanation(true)
     if (type === 'correct') {
-      setScore(score + 1)
+      setScore(prev => prev + 1)
       sounds.correct()
+      addPoints(5)
+      updateDailyStats({ wordsLearned: 1 })
     } else {
       sounds.wrong()
     }
@@ -193,48 +226,58 @@ export default function GrammarPractice() {
       <div className="max-w-md mx-auto mb-6">
         <h3 className="text-lg font-semibold text-gray-700 mb-3 text-center">哪个句子是正确的？</h3>
         <div className="space-y-3">
-          {currentGrammar?.correct_examples?.slice(0, 1).map((example, index) => (
-            <button
-              key={`correct-${index}`}
-              onClick={() => handleExampleSelect('correct')}
-              disabled={showExplanation}
-              className={`w-full card text-left transition-all duration-300 ${
-                showExplanation
-                  ? selectedExample === 'correct'
-                    ? 'bg-green-50 border-2 border-green-500 scale-105'
-                    : 'bg-green-50 border-2 border-green-300'
-                  : 'hover:scale-105 hover:shadow-lg'
-              }`}
-            >
-              <p className="font-medium text-gray-800">{example.sentence}</p>
-              <p className="text-sm text-gray-600 mt-1">{example.translation}</p>
-              {showExplanation && selectedExample === 'correct' && (
-                <p className="text-sm text-green-600 mt-2 font-medium">✅ 正确！</p>
-              )}
-            </button>
-          ))}
-
-          {currentGrammar?.wrong_examples?.slice(0, 1).map((example, index) => (
-            <button
-              key={`wrong-${index}`}
-              onClick={() => handleExampleSelect('wrong')}
-              disabled={showExplanation}
-              className={`w-full card text-left transition-all duration-300 ${
-                showExplanation
-                  ? selectedExample === 'wrong'
-                    ? 'bg-red-50 border-2 border-red-500'
-                    : 'bg-red-50 border-2 border-red-300'
-                  : 'hover:scale-105 hover:shadow-lg'
-              }`}
-            >
-              <p className="font-medium text-gray-800">{example.sentence}</p>
-              {showExplanation && (
-                <div className="mt-2">
-                  <p className="text-sm text-red-600">❌ 错误</p>
-                  <p className="text-sm text-green-600 mt-1">正确：{example.correction}</p>
-                </div>
-              )}
-            </button>
+          {/* 按随机顺序渲染两个例句 */}
+          {(exampleOrder === 'correct-first'
+            ? [
+                { type: 'correct' as const, example: currentGrammar?.correct_examples?.[0] },
+                { type: 'wrong' as const, example: currentGrammar?.wrong_examples?.[0] },
+              ]
+            : [
+                { type: 'wrong' as const, example: currentGrammar?.wrong_examples?.[0] },
+                { type: 'correct' as const, example: currentGrammar?.correct_examples?.[0] },
+              ]
+          ).filter(item => item.example).map((item, index) => (
+            item.type === 'correct' ? (
+              <button
+                key={`correct-${index}`}
+                onClick={() => handleExampleSelect('correct')}
+                disabled={showExplanation}
+                className={`w-full card text-left transition-all duration-300 ${
+                  showExplanation
+                    ? selectedExample === 'correct'
+                      ? 'bg-green-50 border-2 border-green-500 scale-105'
+                      : 'bg-green-50 border-2 border-green-300'
+                    : 'hover:scale-105 hover:shadow-lg'
+                }`}
+              >
+                <p className="font-medium text-gray-800">{item.example!.sentence}</p>
+                <p className="text-sm text-gray-600 mt-1">{item.example!.translation}</p>
+                {showExplanation && selectedExample === 'correct' && (
+                  <p className="text-sm text-green-600 mt-2 font-medium">✅ 正确！</p>
+                )}
+              </button>
+            ) : (
+              <button
+                key={`wrong-${index}`}
+                onClick={() => handleExampleSelect('wrong')}
+                disabled={showExplanation}
+                className={`w-full card text-left transition-all duration-300 ${
+                  showExplanation
+                    ? selectedExample === 'wrong'
+                      ? 'bg-red-50 border-2 border-red-500'
+                      : 'bg-red-50 border-2 border-red-300'
+                    : 'hover:scale-105 hover:shadow-lg'
+                }`}
+              >
+                <p className="font-medium text-gray-800">{item.example!.sentence}</p>
+                {showExplanation && (
+                  <div className="mt-2">
+                    <p className="text-sm text-red-600">❌ 错误</p>
+                    <p className="text-sm text-green-600 mt-1">正确：{item.example!.correction}</p>
+                  </div>
+                )}
+              </button>
+            )
           ))}
         </div>
       </div>

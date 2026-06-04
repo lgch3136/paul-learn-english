@@ -6,8 +6,8 @@
       "unit": "Unit 3",
       "grammar_point": "方位介词",
       "category": "usage",
-      "student_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
-      "teacher_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "student_explanation": "next to在旁边，between在两者之间，near在附近，behind在后面，in front of在前面",
+      "teacher_explanation": "方位介词表示位置关系：next to（紧邻）、between...and...（在…之间）、near（附近）、behind（后面）、in front of（前面）。",
       "correct_examples": [
         {"sentence":"The bookshop is next to the school.","translation":"书店在学校旁边。","highlight":""},
         {"sentence":"The park is between the school and the hospital.","translation":"公园在学校和医院之间。","highlight":""}

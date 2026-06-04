@@ -1,0 +1,318 @@
+{
+  "unit": "Grade 5 Down",
+  "grammar_points": [
+    {
+      "grammar_id": "grammar_g5dn_001",
+      "unit": "g5dn-unit1",
+      "grammar_point": "一般现在时（第三人称单数）",
+      "category": "tense",
+      "student_explanation": "当句子说的是 he、she、it 或一个人名时，动词要加 s 或 es",
+      "teacher_explanation": "一般现在时表示经常性、习惯性的动作或状态。当主语是第三人称单数时，动词需要变形：一般加-s，以s/x/sh/ch/o结尾加-es，以辅音字母+y结尾变y为i加-es。",
+      "correct_examples": [
+        {
+          "sentence": "He plays football every day.",
+          "translation": "他每天踢足球。"
+        },
+        {
+          "sentence": "She watches TV in the evening.",
+          "translation": "她晚上看电视。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "He play football every day.",
+          "correction": "He plays football every day."
+        },
+        {
+          "sentence": "She watchs TV in the evening.",
+          "correction": "She watches TV in the evening."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "动词形式错",
+        "主语判断错"
+      ],
+      "practice_types": [
+        "选择",
+        "填空",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g5dn_002",
+      "unit": "g5dn-unit2",
+      "grammar_point": "频率副词的用法",
+      "category": "usage",
+      "student_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在be动词后、行为动词前",
+      "teacher_explanation": "频率副词表示动作发生的频率，从高到低：always > usually > often > sometimes > never。放在be动词之后、行为动词之前。",
+      "correct_examples": [
+        {
+          "sentence": "I always go to school by bus.",
+          "translation": "我总是坐公交车上学。"
+        },
+        {
+          "sentence": "She usually walks to school.",
+          "translation": "她通常走路去上学。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I go always to school by bus.",
+          "correction": "I always go to school by bus."
+        },
+        {
+          "sentence": "She walks usually to school.",
+          "correction": "She usually walks to school."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "频率副词位置错",
+        "动词形式错"
+      ],
+      "practice_types": [
+        "选择",
+        "填空",
+        "改错"
+      ],
+      "difficulty": 2
+    },
+    {
+      "grammar_id": "grammar_g5dn_003",
+      "unit": "g5dn-unit3",
+      "grammar_point": "方位介词",
+      "category": "usage",
+      "student_explanation": "next to在旁边，between在两者之间，near在附近，behind在后面，in front of在前面",
+      "teacher_explanation": "方位介词表示位置关系：next to（紧邻）、between...and...（在…之间）、near（附近）、behind（后面）、in front of（前面）。",
+      "correct_examples": [
+        {
+          "sentence": "The bookshop is next to the school.",
+          "translation": "书店在学校旁边。"
+        },
+        {
+          "sentence": "The park is between the school and the hospital.",
+          "translation": "公园在学校和医院之间。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "The bookshop is next the school.",
+          "correction": "The bookshop is next to the school."
+        },
+        {
+          "sentence": "The park is between the school to the hospital.",
+          "correction": "The park is between the school and the hospital."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "介词用错",
+        "短语搭配"
+      ],
+      "practice_types": [
+        "选择",
+        "填空",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g5dn_004",
+      "unit": "g5dn-unit4",
+      "grammar_point": "have + 疾病的表达",
+      "category": "usage",
+      "student_explanation": "have/has + a + 疾病名称，如 have a headache/fever/cold/toothache",
+      "teacher_explanation": "表示生病用 have/has + a + 疾病名词：headache（头疼）、fever（发烧）、cold（感冒）、toothache（牙疼）、cough（咳嗽）。",
+      "correct_examples": [
+        {
+          "sentence": "I have a headache.",
+          "translation": "我头疼。"
+        },
+        {
+          "sentence": "He has a fever.",
+          "translation": "他发烧了。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I have headache.",
+          "correction": "I have a headache."
+        },
+        {
+          "sentence": "He have a fever.",
+          "correction": "He has a fever."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "缺少冠词",
+        "动词形式错"
+      ],
+      "practice_types": [
+        "选择",
+        "填空",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g5dn_005",
+      "unit": "g5dn-unit5",
+      "grammar_point": "动名词搭配(做家务)",
+      "category": "usage",
+      "student_explanation": "做家务的表达：sweep the floor扫地，wash the dishes洗碗，clean the room打扫房间",
+      "teacher_explanation": "家务动词搭配：sweep the floor（扫地）、wash the dishes（洗碗）、clean the room（打扫房间）、cook dinner（做饭）、do the laundry（洗衣服）。",
+      "correct_examples": [
+        {
+          "sentence": "I sweep the floor every day.",
+          "translation": "我每天扫地。"
+        },
+        {
+          "sentence": "She washes the dishes after dinner.",
+          "translation": "她晚饭后洗碗。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I sweep floor every day.",
+          "correction": "I sweep the floor every day."
+        },
+        {
+          "sentence": "She washs the dishes after dinner.",
+          "correction": "She washes the dishes after dinner."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "缺少冠词",
+        "动词形式错"
+      ],
+      "practice_types": [
+        "选择",
+        "填空",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g5dn_006",
+      "unit": "g5dn-unit6",
+      "grammar_point": "可数与不可数名词",
+      "category": "usage",
+      "student_explanation": "可数名词有复数形式（tomato→tomatoes），不可数名词没有复数（rice, bread, water）",
+      "teacher_explanation": "可数名词可以用数词直接修饰，有单复数变化；不可数名词不能加s，用量词修饰，如 a glass of water, a piece of bread。",
+      "correct_examples": [
+        {
+          "sentence": "I want some tomatoes.",
+          "translation": "我想要一些番茄。"
+        },
+        {
+          "sentence": "I want some rice.",
+          "translation": "我想要一些米饭。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "I want some tomato.",
+          "correction": "I want some tomatoes."
+        },
+        {
+          "sentence": "I want a rice.",
+          "correction": "I want some rice."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "单复数错",
+        "可数不可数"
+      ],
+      "practice_types": [
+        "选择",
+        "填空",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g5dn_007",
+      "unit": "g5dn-unit7",
+      "grammar_point": "节日活动表达",
+      "category": "usage",
+      "student_explanation": "描述节日活动用一般现在时，注意节日前用 at，如 at the Spring Festival",
+      "teacher_explanation": "节日表达：节日前用介词 at（at Christmas, at the Spring Festival），描述节日习惯用一般现在时。",
+      "correct_examples": [
+        {
+          "sentence": "We eat dumplings at the Spring Festival.",
+          "translation": "我们在春节吃饺子。"
+        },
+        {
+          "sentence": "We watch the moon at the Mid-Autumn Festival.",
+          "translation": "我们在中秋节赏月。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "We eat dumplings in the Spring Festival.",
+          "correction": "We eat dumplings at the Spring Festival."
+        },
+        {
+          "sentence": "We watch moon at the Mid-Autumn Festival.",
+          "correction": "We watch the moon at the Mid-Autumn Festival."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "介词用错",
+        "缺少冠词"
+      ],
+      "practice_types": [
+        "选择",
+        "填空",
+        "改错"
+      ],
+      "difficulty": 3
+    },
+    {
+      "grammar_id": "grammar_g5dn_008",
+      "unit": "g5dn-unit8",
+      "grammar_point": "日期和序数词",
+      "category": "usage",
+      "student_explanation": "日期用序数词，如 May the fifth；月份前用 on，如 on May 5th",
+      "teacher_explanation": "序数词表示顺序：first, second, third... 日期表达为 月+日（序数词），如 May the fifth 或 May 5th。介词用 on。",
+      "correct_examples": [
+        {
+          "sentence": "When is your birthday?",
+          "translation": "你的生日是什么时候？"
+        },
+        {
+          "sentence": "My birthday is on the fifth of May.",
+          "translation": "我的生日在五月五日。"
+        }
+      ],
+      "wrong_examples": [
+        {
+          "sentence": "When is your day?",
+          "correction": "When is your birthday?"
+        },
+        {
+          "sentence": "My birthday is on five of May.",
+          "correction": "My birthday is on the fifth of May."
+        }
+      ],
+      "error_reason": "",
+      "error_tags": [
+        "序数词用错",
+        "日期表达错"
+      ],
+      "practice_types": [
+        "选择",
+        "填空",
+        "改错"
+      ],
+      "difficulty": 3
+    }
+  ],
+  "total_grammar_points": 8
+}

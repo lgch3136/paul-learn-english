@@ -3,7 +3,7 @@
   "grammar_points": [
     {
       "grammar_id": "grammar_g3_001_am_is_are",
-      "unit": "Grade 3",
+      "unit": "g3up-unit1",
       "grammar_point": "be 动词 am/is/are 的用法",
       "category": "structure",
       "student_explanation": "I 用 am，he/she/it 用 is，you/we/they 用 are",
@@ -60,7 +60,7 @@
     },
     {
       "grammar_id": "grammar_g3_002_a_an",
-      "unit": "Grade 3",
+      "unit": "g3up-unit2",
       "grammar_point": "不定冠词 a 和 an 的用法",
       "category": "structure",
       "student_explanation": "辅音开头的词前面用 a，元音开头的词前面用 an",
@@ -105,7 +105,7 @@
     },
     {
       "grammar_id": "grammar_g3_003_this_that",
-      "unit": "Grade 3",
+      "unit": "g3up-unit3",
       "grammar_point": "this/that 指示代词",
       "category": "structure",
       "student_explanation": "this 指近处的'这个'，that 指远处的'那个'",
@@ -152,7 +152,7 @@
     },
     {
       "grammar_id": "grammar_g3_004_have_has",
-      "unit": "Grade 3",
+      "unit": "g3up-unit4",
       "grammar_point": "have/has 表示'有'",
       "category": "structure",
       "student_explanation": "I/you/we/they 用 have，he/she/it 用 has",
@@ -198,7 +198,7 @@
     },
     {
       "grammar_id": "grammar_g3_005_how_many",
-      "unit": "Grade 3",
+      "unit": "g3up-unit5",
       "grammar_point": "How many 询问数量",
       "category": "pattern",
       "student_explanation": "用 How many + 名词复数 + are there? 来询问数量",
@@ -244,7 +244,7 @@
     },
     {
       "grammar_id": "grammar_g3_006_imperative",
-      "unit": "Grade 3",
+      "unit": "g3up-unit6",
       "grammar_point": "祈使句（please + 动词原形）",
       "category": "pattern",
       "student_explanation": "用动词原形开头来表示请求或命令，可以加 please 表示礼貌",

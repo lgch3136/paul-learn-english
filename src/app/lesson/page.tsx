@@ -7,6 +7,7 @@ import { useRouter } from 'next/navigation'
 import { sounds } from '@/lib/sounds'
 import { loadPerformances, getPerformanceSummary } from '@/lib/question-scheduler'
 import DailyChallenges from '@/components/practice/DailyChallenges'
+import CheckInCard from '@/components/practice/CheckInCard'
 
 export default function LessonPage() {
   const router = useRouter()
@@ -17,30 +18,9 @@ export default function LessonPage() {
 
   useEffect(() => {
     try {
+      // 读取 streak（由答题时自动更新）
       const saved = localStorage.getItem('paul_english_streak')
-      const lastDate = localStorage.getItem('paul_english_last_study_date')
-      const today = new Date().toISOString().split('T')[0]
-
-      if (lastDate === today) {
-        // 今天已经学过了，显示当前 streak
-        if (saved) setStreak(parseInt(saved))
-      } else if (lastDate) {
-        const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0]
-        if (lastDate === yesterday) {
-          // 连续学习，streak + 1
-          const newStreak = parseInt(saved || '0') + 1
-          setStreak(newStreak)
-          localStorage.setItem('paul_english_streak', newStreak.toString())
-        } else {
-          // 断了一天，重置 streak
-          setStreak(0)
-          localStorage.setItem('paul_english_streak', '0')
-        }
-        localStorage.setItem('paul_english_last_study_date', today)
-      } else {
-        // 新用户，streak = 0
-        setStreak(0)
-      }
+      if (saved) setStreak(parseInt(saved))
 
       // 加载学习统计
       const perf = loadPerformances()
@@ -76,7 +56,7 @@ export default function LessonPage() {
 
   // 快速入口
   const quickLinks = [
-    { icon: '🔤', title: '单词闯关', desc: '记忆单词', href: '/practice/vocabulary' },
+    { icon: '🔤', title: '单词练习', desc: '多种模式', href: '/practice/vocabulary' },
     { icon: '📝', title: '语法小练', desc: '攻克语法', href: '/practice/grammar' },
     { icon: '🔄', title: '错题复习', desc: '巩固薄弱', href: '/practice/review' },
     { icon: '📊', title: '我的进步', desc: '查看成就', href: '/progress' },
@@ -104,6 +84,9 @@ export default function LessonPage() {
           )}
         </div>
       </header>
+
+      {/* 每日签到 */}
+      <CheckInCard />
 
       {/* 一键开始 - 主要按钮 */}
       <section className="max-w-md mx-auto mb-8">

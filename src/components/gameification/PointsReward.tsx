@@ -13,21 +13,23 @@ export default function PointsReward({ points, message, icon, onComplete }: Poin
   const [isVisible, setIsVisible] = useState(false)
   const [showPoints, setShowPoints] = useState(false)
   const [particles, setParticles] = useState<Array<{ id: number; x: number; y: number; vx: number; vy: number }>>([])
+  const onCompleteRef = useRef(onComplete)
+  onCompleteRef.current = onComplete
 
   useEffect(() => {
     // 显示动画
-    setTimeout(() => setIsVisible(true), 100)
-    setTimeout(() => setShowPoints(true), 300)
-    setTimeout(() => createParticles(), 500)
+    const t1 = setTimeout(() => setIsVisible(true), 100)
+    const t2 = setTimeout(() => setShowPoints(true), 300)
+    const t3 = setTimeout(() => createParticles(), 500)
 
     // 自动关闭
     const timer = setTimeout(() => {
       setIsVisible(false)
-      setTimeout(onComplete, 500)
+      setTimeout(() => onCompleteRef.current(), 500)
     }, 3000)
 
-    return () => clearTimeout(timer)
-  }, [onComplete])
+    return () => { clearTimeout(t1); clearTimeout(t2); clearTimeout(t3); clearTimeout(timer) }
+  }, [])
 
   const createParticles = () => {
     const newParticles = Array.from({ length: 12 }, (_, i) => ({

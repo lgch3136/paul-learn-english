@@ -1,5 +1,5 @@
 // 智能题目调度系统 - 核心算法
-// 根据学生表现动态调整题目出现频率
+// 基于艾宾浩斯遗忘曲线 + 间隔重复理论，针对小学生特点优化
 
 export interface WordPerformance {
   wordId: string
@@ -54,56 +54,92 @@ export function updatePerformance(
   }
 }
 
-// 计算单词权重 - 核心算法
-// 权重越高，出现概率越大
+// 计算单词权重 - 基于遗忘曲线的间隔重复算法
+// 权重越高 = 越需要练习
 export function calculateWeight(perf: WordPerformance): number {
-  let weight = 10 // 基础权重
-
   // 1. 从未见过的单词 - 最高优先级
   if (perf.totalSeen === 0) {
     return 100
   }
 
-  // 2. 反复错误的单词 - 高优先级
-  // 连续错误3次以上，权重大幅提升
+  let weight = 10 // 基础权重
+
+  // 2. 连续错误 - 紧急复习（小学生容易反复错同一个词）
   if (perf.consecutiveWrong >= 3) {
-    weight += 80
+    weight += 90  // 非常紧急
   } else if (perf.consecutiveWrong >= 2) {
-    weight += 60
+    weight += 70  // 紧急
   } else if (perf.consecutiveWrong >= 1) {
-    weight += 40
+    weight += 45  // 需要关注
   }
 
-  // 3. 错误率高的单词 - 中高优先级
+  // 3. 累计错误率 - 反映长期薄弱点
   const total = perf.correctCount + perf.wrongCount
   if (total > 0) {
     const errorRate = perf.wrongCount / total
-    // 错误率越高，权重越大
-    weight += errorRate * 50
+    weight += errorRate * 55  // 最高+55（100%错误率时）
   }
 
-  // 4. 最近答错的单词 - 中等优先级
+  // 4. 最近答错 - 短期记忆需要巩固
   if (!perf.lastCorrect && perf.wrongCount > 0) {
-    weight += 30
+    weight += 35
   }
 
-  // 5. 已经连续答对多次的单词 - 降低优先级
+  // 5. 已掌握的词 - 大幅降低但仍保留少量权重用于定期复习
+  //    小学生需要5次连续正确才算真正掌握（比成人更高）
   if (perf.consecutiveCorrect >= 5) {
-    weight -= 30
+    weight -= 35  // 掌握了，但仍偶尔复习
   } else if (perf.consecutiveCorrect >= 3) {
-    weight -= 20
+    weight -= 15  // 接近掌握，仍需巩固
   }
 
-  // 6. 时间因素 - 越久没见，权重略微增加
+  // 6. 基于遗忘曲线的时间因素
+  //    艾宾浩斯：20分钟后遗忘42%，1小时后遗忘56%，1天后遗忘74%
+  //    小学生遗忘更快，间隔应更短
   const timeSinceLastSeen = Date.now() - perf.lastSeen
-  const hoursSince = timeSinceLastSeen / (1000 * 60 * 60)
-  if (hoursSince > 24) {
-    weight += 15
-  } else if (hoursSince > 12) {
+  const minutesSince = timeSinceLastSeen / (1000 * 60)
+
+  if (minutesSince > 1440) {        // 超过1天
+    weight += 40                     // 强制复习
+  } else if (minutesSince > 720) {   // 超过12小时
+    weight += 30
+  } else if (minutesSince > 240) {   // 超过4小时
+    weight += 20
+  } else if (minutesSince > 60) {    // 超过1小时
     weight += 10
   }
 
+  // 7. 答对次数越多，长期权重越低（但不会降到0，保证偶尔复习）
+  if (perf.correctCount >= 10 && perf.consecutiveCorrect >= 3) {
+    weight *= 0.3  // 高频正确词，权重降到30%
+  } else if (perf.correctCount >= 5 && perf.consecutiveCorrect >= 3) {
+    weight *= 0.5  // 中频正确词，权重降到50%
+  }
+
   return Math.max(weight, 1) // 最低权重为1
+}
+
+// 将单词分类：新词 / 需要复习 / 已掌握
+export function classifyWords(
+  words: any[],
+  performances: Map<string, WordPerformance>
+): { newWords: any[]; reviewWords: any[]; masteredWords: any[] } {
+  const newWords: any[] = []
+  const reviewWords: any[] = []
+  const masteredWords: any[] = []
+
+  for (const word of words) {
+    const perf = performances.get(word.word_id)
+    if (!perf || perf.totalSeen === 0) {
+      newWords.push(word)
+    } else if (perf.consecutiveCorrect >= 5 && perf.correctCount >= 5) {
+      masteredWords.push(word)
+    } else {
+      reviewWords.push(word)
+    }
+  }
+
+  return { newWords, reviewWords, masteredWords }
 }
 
 // 加权随机选择算法
@@ -112,6 +148,7 @@ export function weightedRandomSelect<T>(
   weights: number[]
 ): T {
   const totalWeight = weights.reduce((sum, w) => sum + w, 0)
+  if (totalWeight <= 0) return items[0]
   let random = Math.random() * totalWeight
 
   for (let i = 0; i < items.length; i++) {
@@ -130,16 +167,12 @@ export function selectNextQuestion(
   performances: Map<string, WordPerformance>,
   excludeWordId?: string
 ): any {
-  // 计算每个单词的权重
   const weights = words.map(word => {
     const perf = performances.get(word.word_id)
-    if (!perf) {
-      return 100 // 从未见过，最高权重
-    }
+    if (!perf) return 100
     return calculateWeight(perf)
   })
 
-  // 排除刚做过的题目（避免连续出现）
   if (excludeWordId) {
     const excludeIndex = words.findIndex(w => w.word_id === excludeWordId)
     if (excludeIndex !== -1) {
@@ -150,40 +183,112 @@ export function selectNextQuestion(
   return weightedRandomSelect(words, weights)
 }
 
-// 生成练习题目序列
+// 生成练习题目序列 - 教育学优化版
+// 遵循"复习→新词→混合巩固"的三段式结构
 export function generatePracticeSequence(
   words: any[],
   performances: Map<string, WordPerformance>,
   count: number = 10
 ): any[] {
-  const sequence: any[] = []
-  const usedIndices = new Set<number>()
+  const actualCount = Math.min(count, words.length)
+  const { newWords, reviewWords, masteredWords } = classifyWords(words, performances)
 
-  for (let i = 0; i < Math.min(count, words.length); i++) {
-    // 计算权重（排除已选中的）
-    const weights = words.map((word, index) => {
-      if (usedIndices.has(index)) return 0
-      const perf = performances.get(word.word_id)
-      if (!perf) return 100
-      return calculateWeight(perf)
-    })
+  // 比例分配：30% 新词 + 50% 需复习 + 20% 已掌握（巩固）
+  // 但如果新词不够，多分配给复习
+  let newCount = Math.ceil(actualCount * 0.3)
+  let reviewCount = Math.ceil(actualCount * 0.5)
+  let masterCount = actualCount - newCount - reviewCount
 
-    // 选择下一个
-    const selected = weightedRandomSelect(words, weights)
-    const selectedIndex = words.findIndex(w => w.word_id === selected.word_id)
-
-    sequence.push(selected)
-    usedIndices.add(selectedIndex)
+  // 调整：新词不够时补充到复习
+  if (newWords.length < newCount) {
+    const diff = newCount - newWords.length
+    newCount = newWords.length
+    reviewCount += diff
+  }
+  // 复习词不够时补充到已掌握
+  if (reviewWords.length < reviewCount) {
+    const diff = reviewCount - reviewWords.length
+    reviewCount = reviewWords.length
+    masterCount += diff
+  }
+  // 已掌握词不够时补充到复习
+  if (masteredWords.length < masterCount) {
+    reviewCount += masterCount - masteredWords.length
+    masterCount = masteredWords.length
   }
 
-  return sequence
+  // 按权重从各组选词
+  const pickWeighted = (pool: any[], n: number, usedSet: Set<string>): any[] => {
+    if (pool.length === 0 || n <= 0) return []
+    const available = pool.filter(w => !usedSet.has(w.word_id))
+    if (available.length === 0) return []
+    const pickCount = Math.min(n, available.length)
+    const result: any[] = []
+    const remaining = [...available]
+    for (let i = 0; i < pickCount; i++) {
+      const weights = remaining.map(w => {
+        const perf = performances.get(w.word_id)
+        return perf ? calculateWeight(perf) : 100
+      })
+      const selected = weightedRandomSelect(remaining, weights)
+      result.push(selected)
+      usedSet.add(selected.word_id)
+      const idx = remaining.indexOf(selected)
+      if (idx !== -1) remaining.splice(idx, 1)
+    }
+    return result
+  }
+
+  const usedIds = new Set<string>()
+
+  // 第一段：先来2-3个复习热身词（唤醒记忆）
+  const warmupCount = Math.min(2, reviewCount)
+  const warmup = pickWeighted(reviewWords, warmupCount, usedIds)
+
+  // 第二段：新词 + 剩余复习词交替排列
+  const newPicks = pickWeighted(newWords, newCount, usedIds)
+  const reviewPicks = pickWeighted(reviewWords, reviewCount - warmupCount, usedIds)
+  const masterPicks = pickWeighted(masteredWords, masterCount, usedIds)
+
+  // 交替排列新词和复习词（避免连续出现同类）
+  const middle: any[] = []
+  const allMixed = [...newPicks, ...reviewPicks]
+  // 简单的交错：每2个复习词插1个新词
+  let ni = 0, ri = 0
+  let reviewBatch = 0
+  while (ni < newPicks.length || ri < reviewPicks.length) {
+    if (reviewBatch < 2 && ri < reviewPicks.length) {
+      middle.push(reviewPicks[ri++])
+      reviewBatch++
+    } else if (ni < newPicks.length) {
+      middle.push(newPicks[ni++])
+      reviewBatch = 0
+    } else if (ri < reviewPicks.length) {
+      middle.push(reviewPicks[ri++])
+      reviewBatch++
+    }
+  }
+
+  // 第三段：已掌握词混入末尾巩固
+  const sequence = [...warmup, ...middle, ...masterPicks]
+
+  // 如果总数不够，用权重随机补满
+  if (sequence.length < actualCount) {
+    const usedSet = new Set(sequence.map(w => w.word_id))
+    const remaining = words.filter(w => !usedSet.has(w.word_id))
+    const extra = pickWeighted(remaining, actualCount - sequence.length, usedSet)
+    sequence.push(...extra)
+  }
+
+  return sequence.slice(0, actualCount)
 }
 
 // 获取学习统计摘要
+// "掌握"门槛提高到连续答对5次（小学生需要更多巩固）
 export function getPerformanceSummary(
   performances: Map<string, WordPerformance>
 ): {
-  mastered: number      // 连续答对3次以上
+  mastered: number      // 连续答对5次以上且总答对5次以上
   learning: number      // 正在学习中
   struggling: number    // 连续答错2次以上
   unseen: number        // 从未见过
@@ -197,7 +302,7 @@ export function getPerformanceSummary(
   performances.forEach(perf => {
     if (perf.totalSeen === 0) {
       unseen++
-    } else if (perf.consecutiveCorrect >= 3) {
+    } else if (perf.consecutiveCorrect >= 5 && perf.correctCount >= 5) {
       mastered++
     } else if (perf.consecutiveWrong >= 2) {
       struggling++

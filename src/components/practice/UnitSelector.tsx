@@ -61,12 +61,12 @@ const gradeData: GradeData[] = [
         { id: 'g4up-unit6', label: 'U6 Snack bar' },
       ]},
       { id: 'g4dn', label: '下册', units: [
-        { id: 'g4dn-unit1', label: 'U1 My day' },
-        { id: 'g4dn-unit2', label: 'U2 After school' },
-        { id: 'g4dn-unit3', label: 'U3 My day' },
-        { id: 'g4dn-unit4', label: 'U4 Drawing' },
-        { id: 'g4dn-unit5', label: 'U5 Seasons' },
-        { id: 'g4dn-unit6', label: 'U6 Whose dress?' },
+        { id: 'g4dn-unit1', label: 'U1 Seasons' },
+        { id: 'g4dn-unit2', label: 'U2 Weather' },
+        { id: 'g4dn-unit3', label: 'U3 Feelings' },
+        { id: 'g4dn-unit4', label: 'U4 My day' },
+        { id: 'g4dn-unit5', label: 'U5 Nature' },
+        { id: 'g4dn-unit6', label: 'U6 Clothes' },
       ]},
     ],
   },
@@ -84,14 +84,14 @@ const gradeData: GradeData[] = [
         { id: 'g5up-unit8', label: 'U8 At Christmas' },
       ]},
       { id: 'g5dn', label: '下册', units: [
-        { id: 'Unit 1', label: 'U1 Cinderella' },
-        { id: 'Unit 2', label: 'U2 How do you come?' },
-        { id: 'Unit 3', label: 'U3 Asking the way' },
-        { id: 'Unit 4', label: 'U4 Seeing the doctor' },
-        { id: 'Unit 5', label: 'U5 Helping parents' },
-        { id: 'Unit 6', label: 'U6 In the kitchen' },
-        { id: 'Unit 7', label: 'U7 Chinese festivals' },
-        { id: 'Unit 8', label: 'U8 Birthdays' },
+        { id: 'g5dn-unit1', label: 'U1 What do you do?' },
+        { id: 'g5dn-unit2', label: 'U2 How do you come to school?' },
+        { id: 'g5dn-unit3', label: 'U3 Asking the way' },
+        { id: 'g5dn-unit4', label: 'U4 Seeing the doctor' },
+        { id: 'g5dn-unit5', label: 'U5 Helping our parents' },
+        { id: 'g5dn-unit6', label: 'U6 In the kitchen' },
+        { id: 'g5dn-unit7', label: 'U7 Chinese festivals' },
+        { id: 'g5dn-unit8', label: 'U8 Birthdays' },
       ]},
     ],
   },
@@ -129,10 +129,10 @@ const adultStages = [
 ]
 
 const questionCounts = [
-  { count: 10, label: '10题', icon: '⚡', desc: '快速', color: 'from-green-400 to-emerald-500' },
-  { count: 20, label: '20题', icon: '📚', desc: '标准', color: 'from-blue-400 to-indigo-500' },
-  { count: 30, label: '30题', icon: '💪', desc: '强化', color: 'from-purple-400 to-pink-500' },
-  { count: 50, label: '50题', icon: '🔥', desc: '极限', color: 'from-orange-400 to-red-500' },
+  { count: 8, label: '8题', icon: '⚡', desc: '快速', color: 'from-green-400 to-emerald-500' },
+  { count: 15, label: '15题', icon: '📚', desc: '推荐', color: 'from-blue-400 to-indigo-500' },
+  { count: 20, label: '20题', icon: '💪', desc: '强化', color: 'from-purple-400 to-pink-500' },
+  { count: 30, label: '30题', icon: '🔥', desc: '极限', color: 'from-orange-400 to-red-500' },
 ]
 
 export default function UnitSelector({ onSelect, currentScope }: UnitSelectorProps) {

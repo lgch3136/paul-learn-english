@@ -18,7 +18,7 @@ interface ChallengeModeProps {
   onAnswer?: (wordId: string, isCorrect: boolean) => void
 }
 
-const TARGET_STREAK = 5
+const TARGET_STREAK = 8
 
 export default function ChallengeMode({ words, onComplete, onBack, onAnswer }: ChallengeModeProps) {
   const [options, setOptions] = useState<string[]>([])
@@ -31,10 +31,24 @@ export default function ChallengeMode({ words, onComplete, onBack, onAnswer }: C
   const [showParticles, setShowParticles] = useState(false)
   const [fireworks, setFireworks] = useState<Array<{ id: number; x: number; y: number }>>([])
   const containerRef = useRef<HTMLDivElement>(null)
+  const wordPoolRef = useRef<Word[]>([])
+  const poolIndexRef = useRef(0)
+
+  // 创建打乱的单词池，避免重复
+  const shufflePool = () => {
+    wordPoolRef.current = [...words].sort(() => Math.random() - 0.5)
+    poolIndexRef.current = 0
+  }
 
   const getRandomWord = () => {
-    const randomIndex = Math.floor(Math.random() * words.length)
-    return { word: words[randomIndex], index: randomIndex }
+    // 如果池用完了，重新打乱
+    if (wordPoolRef.current.length === 0 || poolIndexRef.current >= wordPoolRef.current.length) {
+      shufflePool()
+    }
+    const idx = poolIndexRef.current
+    const word = wordPoolRef.current[idx]
+    poolIndexRef.current = idx + 1
+    return { word, index: idx }
   }
 
   const [currentWord, setCurrentWord] = useState<{ word: Word; index: number } | null>(null)
@@ -59,6 +73,7 @@ export default function ChallengeMode({ words, onComplete, onBack, onAnswer }: C
   }, [])
 
   const startGame = () => {
+    shufflePool()
     const firstWord = getRandomWord()
     setCurrentWord(firstWord)
     setStreak(0)
@@ -82,7 +97,7 @@ export default function ChallengeMode({ words, onComplete, onBack, onAnswer }: C
     if (correct) {
       const newStreak = streak + 1
       setStreak(newStreak)
-      setBestStreak(Math.max(bestStreak, newStreak))
+      setBestStreak(prev => Math.max(prev, newStreak))
       sounds.correct()
 
       if (newStreak >= TARGET_STREAK) {

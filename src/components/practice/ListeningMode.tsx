@@ -42,6 +42,7 @@ export default function ListeningMode({ words, onComplete, onBack, onAnswer }: L
   const [currentIndex, setCurrentIndex] = useState(0)
   const [options, setOptions] = useState<string[]>([])
   const [score, setScore] = useState(0)
+  const scoreRef = useRef(0)
   const [showResult, setShowResult] = useState(false)
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
   const [gameOver, setGameOver] = useState(false)
@@ -50,6 +51,7 @@ export default function ListeningMode({ words, onComplete, onBack, onAnswer }: L
   const [showFeedback, setShowFeedback] = useState(false)
   const [animClass, setAnimClass] = useState('')
   const containerRef = useRef<HTMLDivElement>(null)
+  const speechSupported = typeof window !== 'undefined' && 'speechSynthesis' in window
 
   const currentWord = shuffledWords[currentIndex]
 
@@ -93,6 +95,7 @@ export default function ListeningMode({ words, onComplete, onBack, onAnswer }: L
   const startGame = () => {
     const shuffled = shuffleArray(words)
     setShuffledWords(shuffled)
+    scoreRef.current = 0
     setCurrentIndex(0)
     setScore(0)
     setShowResult(false)
@@ -114,7 +117,8 @@ export default function ListeningMode({ words, onComplete, onBack, onAnswer }: L
 
     const correct = answer === currentWord.word
     if (correct) {
-      setScore(score + 1)
+      scoreRef.current += 1
+      setScore(scoreRef.current)
       sounds.correct()
       setAnimClass('animate-bounce-result')
     } else {
@@ -134,11 +138,12 @@ export default function ListeningMode({ words, onComplete, onBack, onAnswer }: L
       setSelectedAnswer(null)
     } else {
       setGameOver(true)
-      if (score >= shuffledWords.length * 0.7) {
+      const finalScore = scoreRef.current
+      if (finalScore >= shuffledWords.length * 0.7) {
         sounds.complete()
         if (containerRef.current) createConfetti(containerRef.current, 50)
       }
-      onComplete(score, shuffledWords.length)
+      onComplete(finalScore, shuffledWords.length)
     }
   }
 
@@ -156,6 +161,12 @@ export default function ListeningMode({ words, onComplete, onBack, onAnswer }: L
               🔊 系统会朗读英文单词，你需要从四个选项中选出正确的拼写
             </p>
           </div>
+          {!speechSupported && (
+            <div className="bg-red-50 rounded-xl p-4 mb-6">
+              <p className="text-sm text-red-800 font-medium">⚠️ 你的浏览器不支持语音朗读</p>
+              <p className="text-xs text-red-600 mt-1">建议使用 Chrome 或 Safari 浏览器获得最佳体验</p>
+            </div>
+          )}
           <button onClick={startGame} className="btn-primary text-lg px-8 py-4">
             开始挑战 🚀
           </button>
@@ -165,7 +176,7 @@ export default function ListeningMode({ words, onComplete, onBack, onAnswer }: L
   }
 
   if (gameOver) {
-    const percentage = Math.round((score / shuffledWords.length) * 100)
+    const percentage = Math.round((scoreRef.current / shuffledWords.length) * 100)
     return (
       <div ref={containerRef} className="max-w-md mx-auto text-center">
         <div className="card animate-bounce-in">
@@ -175,7 +186,7 @@ export default function ListeningMode({ words, onComplete, onBack, onAnswer }: L
           <h2 className="text-2xl font-bold text-gray-800 mb-2">听力挑战完成！</h2>
           <div className="my-6">
             <p className="text-gray-600">
-              答对 <span className="font-bold text-green-600 text-2xl">{score}</span> / {shuffledWords.length} 题
+              答对 <span className="font-bold text-green-600 text-2xl">{scoreRef.current}</span> / {shuffledWords.length} 题
             </p>
             <p className="text-gray-600 mt-1">
               正确率 <span className="font-bold text-blue-600 text-xl">{percentage}%</span>

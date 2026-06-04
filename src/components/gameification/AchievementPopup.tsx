@@ -25,10 +25,8 @@ export default function AchievementPopup({ achievement, onClose }: AchievementPo
     if (hasInitRef.current) return
     hasInitRef.current = true
 
-    console.log('[成就系统] 🎉 AchievementPopup MOUNTED:', achievement.id, achievement.title, '→ will show in 100ms, auto-close in 5s')
-
     // 播放成就音效
-    try { sounds.levelUp() } catch (e) { console.warn('音效播放失败:', e) }
+    try { sounds.levelUp() } catch (e) { /* ignore */ }
 
     // 显示动画
     timersRef.current.show = setTimeout(() => setIsVisible(true), 100)

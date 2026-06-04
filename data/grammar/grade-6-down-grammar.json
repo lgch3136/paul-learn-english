@@ -86,7 +86,7 @@
       "correct_examples": [
         {
           "sentence": "You should eat more vegetables.",
-          "translation": "你应该多吃蓔菜。"
+          "translation": "你应该多吃蔬菜。"
         },
         {
           "sentence": "You shouldn't eat too many sweets.",
@@ -219,7 +219,7 @@
       ],
       "error_reason": "",
       "error_tags": [
-        "国家与国籍淶淆",
+        "国家与国籍混淆",
         "名词形容词混用"
       ],
       "practice_types": [

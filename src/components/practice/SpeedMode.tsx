@@ -34,13 +34,16 @@ export default function SpeedMode({ words, onComplete, onBack, onAnswer, paused 
   const [wrongFlash, setWrongFlash] = useState(false)
   const timerRef = useRef<NodeJS.Timeout | null>(null)
   const containerRef = useRef<HTMLDivElement>(null)
+  const scoreRef = useRef(0)
+  const indexRef = useRef(0)
 
   const currentWord = words[currentIndex]
 
   useEffect(() => {
-    if (currentWord && words.length > 0) {
+    const word = words[currentIndex]
+    if (word && words.length > 0) {
       const allMeanings = words.map(w => w.meaning)
-      const correctMeaning = currentWord.meaning
+      const correctMeaning = word.meaning
       const otherMeanings = allMeanings.filter(m => m !== correctMeaning)
       const newOptions = [correctMeaning]
       while (newOptions.length < 4 && otherMeanings.length > 0) {
@@ -50,7 +53,7 @@ export default function SpeedMode({ words, onComplete, onBack, onAnswer, paused 
       }
       setOptions(newOptions.sort(() => Math.random() - 0.5))
     }
-  }, [currentIndex, currentWord, words])
+  }, [currentIndex, words])
 
   useEffect(() => {
     if (isActive && timeLeft > 0 && !paused) {
@@ -64,6 +67,8 @@ export default function SpeedMode({ words, onComplete, onBack, onAnswer, paused 
   const startGame = () => {
     if (words.length === 0) return
     setIsActive(true)
+    scoreRef.current = 0
+    indexRef.current = 0
     setScore(0)
     setStreak(0)
     setCurrentIndex(0)
@@ -100,7 +105,8 @@ export default function SpeedMode({ words, onComplete, onBack, onAnswer, paused 
 
     if (correct) {
       const newStreak = streak + 1
-      setScore(score + 1)
+      scoreRef.current += 1
+      setScore(scoreRef.current)
       setStreak(newStreak)
       sounds.correct()
 
@@ -126,8 +132,10 @@ export default function SpeedMode({ words, onComplete, onBack, onAnswer, paused 
 
   const moveToNext = () => {
     if (words.length === 0) return
-    if (currentIndex < words.length - 1) {
-      setCurrentIndex(currentIndex + 1)
+    const idx = indexRef.current
+    if (idx < words.length - 1) {
+      indexRef.current = idx + 1
+      setCurrentIndex(idx + 1)
       setShowResult(false)
       setSelectedAnswer(null)
       setTimeLeft(6)
@@ -135,15 +143,16 @@ export default function SpeedMode({ words, onComplete, onBack, onAnswer, paused 
     } else {
       setGameOver(true)
       setIsActive(false)
-      if (score >= words.length * 0.7) {
+      if (scoreRef.current >= words.length * 0.7) {
         sounds.complete()
         if (containerRef.current) createConfetti(containerRef.current, 50)
       }
+      onComplete(scoreRef.current, words.length)
     }
   }
 
   if (gameOver) {
-    const percentage = Math.round((score / words.length) * 100)
+    const percentage = Math.round((scoreRef.current / words.length) * 100)
     const grade = percentage >= 90 ? 'S' : percentage >= 80 ? 'A' : percentage >= 70 ? 'B' : percentage >= 60 ? 'C' : 'D'
     return (
       <div ref={containerRef} className="max-w-md mx-auto text-center">
@@ -152,7 +161,7 @@ export default function SpeedMode({ words, onComplete, onBack, onAnswer, paused 
           <h2 className="text-2xl font-bold text-gray-800 mb-2">挑战完成！</h2>
           <div className="my-6">
             <div className="text-6xl font-bold text-blue-600 mb-2">{grade}</div>
-            <p className="text-gray-600">答对 <span className="font-bold text-green-600">{score}</span> / {words.length} 题</p>
+            <p className="text-gray-600">答对 <span className="font-bold text-green-600">{scoreRef.current}</span> / {words.length} 题</p>
             <p className="text-gray-600">正确率 <span className="font-bold">{percentage}%</span></p>
           </div>
           <div className="flex gap-4 justify-center">

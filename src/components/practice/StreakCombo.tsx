@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 
 interface StreakComboProps {
   streak: number
@@ -28,6 +28,8 @@ function getStreakLevel(streak: number): number {
 export default function StreakCombo({ streak, visible, onDone }: StreakComboProps) {
   const [phase, setPhase] = useState<'enter' | 'show' | 'exit'>('enter')
   const [shaking, setShaking] = useState(false)
+  const onDoneRef = useRef(onDone)
+  onDoneRef.current = onDone
 
   const level = getStreakLevel(streak)
   const data = streakData[level]
@@ -43,7 +45,7 @@ export default function StreakCombo({ streak, visible, onDone }: StreakComboProp
     }
 
     const exitTimer = setTimeout(() => setPhase('exit'), 1200)
-    const doneTimer = setTimeout(() => onDone?.(), 1600)
+    const doneTimer = setTimeout(() => onDoneRef.current?.(), 1600)
     return () => {
       clearTimeout(exitTimer)
       clearTimeout(doneTimer)

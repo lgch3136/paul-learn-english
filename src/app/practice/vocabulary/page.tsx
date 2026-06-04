@@ -29,12 +29,15 @@ import SpeedMode from '@/components/practice/SpeedMode'
 import ChallengeMode from '@/components/practice/ChallengeMode'
 import ListeningMode from '@/components/practice/ListeningMode'
 import SpellingMode from '@/components/practice/SpellingMode'
+import WordShootingMode from '@/components/practice/WordShootingMode'
+import WordFishingMode from '@/components/practice/WordFishingMode'
+import WordScrambleMode from '@/components/practice/WordScrambleMode'
 import AchievementPopup from '@/components/gameification/AchievementPopup'
 import PointsReward from '@/components/gameification/PointsReward'
 import BackButton from '@/components/ui/BackButton'
 import Skeleton, { WordCardSkeleton } from '@/components/ui/Skeleton'
 import { updateDailyStats } from '@/lib/daily-stats'
-import { recordAnswer, recordPerfectRound, checkNewAchievements, saveAchievement } from '@/lib/achievement-tracker'
+import { recordAnswer, recordPerfectRound, checkNewAchievements, saveAchievement, addPoints } from '@/lib/achievement-tracker'
 import AnswerFeedback from '@/components/practice/AnswerFeedback'
 import StreakCombo from '@/components/practice/StreakCombo'
 import WordCard from '@/components/practice/WordCard'
@@ -91,6 +94,7 @@ export default function VocabularyPractice() {
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
   const [showResult, setShowResult] = useState(false)
   const [score, setScore] = useState(0)
+  const scoreRef = useRef(0)
   const [streak, setStreak] = useState(0)
   const [currentOptions, setCurrentOptions] = useState<string[]>([])
   const [showConfetti, setShowConfetti] = useState(false)
@@ -109,7 +113,8 @@ export default function VocabularyPractice() {
     maxStreak: 0,
     totalTime: 0,
     daysStudied: 1,
-    perfectRounds: 0
+    perfectRounds: 0,
+    totalPoints: 0,
   })
   const [performances, setPerformances] = useState<Map<string, WordPerformance>>(new Map())
   const [practiceSequence, setPracticeSequence] = useState<any[]>([])
@@ -117,6 +122,7 @@ export default function VocabularyPractice() {
   const [answerFeedback, setAnswerFeedback] = useState<{ isCorrect: boolean; message?: string; detail?: string } | null>(null)
   const [cardTransition, setCardTransition] = useState(false)
   const containerRef = useRef<HTMLDivElement>(null)
+  const sessionStartTimeRef = useRef<number>(Date.now())
 
   // 成就队列处理：显示队列中的下一个成就
   const showNextAchievement = useCallback(() => {
@@ -168,78 +174,16 @@ export default function VocabularyPractice() {
       console.error('加载成就数据失败:', e)
     }
 
-    // 快速开始：如果有上次范围，自动加载
+    // 自动加载已保存的练习范围
     try {
-      const params = new URLSearchParams(window.location.search)
-      if (params.get('quick') === '1') {
-        const savedScope = localStorage.getItem('paul_english_last_scope')
-        if (savedScope) {
-          const scope: GameScope = JSON.parse(savedScope)
-          setGameScope(scope)
-          loadVocabulary(scope)
-        }
+      const savedScope = localStorage.getItem('paul_english_last_scope')
+      if (savedScope) {
+        const scope: GameScope = JSON.parse(savedScope)
+        setGameScope(scope)
+        loadVocabulary(scope)
       }
     } catch (e) { /* ignore */ }
 
-    // 暴露诊断函数到浏览器控制台
-    ;(window as any).debugAchievements = () => {
-      const perf = loadPerformances()
-      let totalCorrect = 0, totalWrong = 0, maxStreak = 0
-      perf.forEach(p => {
-        totalCorrect += p.correctCount
-        totalWrong += p.wrongCount
-        maxStreak = Math.max(maxStreak, p.consecutiveCorrect)
-      })
-      const achievements = JSON.parse(localStorage.getItem('paul_english_achievements') || '[]')
-      const points = localStorage.getItem('paul_english_points') || '0'
-      const result = {
-        'performances_entries': perf.size,
-        'totalCorrect': totalCorrect,
-        'totalWrong': totalWrong,
-        'maxStreak': maxStreak,
-        'points': points,
-        'unlockedAchievements': achievements,
-        'localStorage_keys': Object.keys(localStorage).filter(k => k.startsWith('paul_english')),
-      }
-      console.table(result)
-      return result
-    }
-
-    // 暴露测试函数：模拟答一题并检查成就
-    ;(window as any).testAchievement = () => {
-      console.log('=== 开始测试成就系统 ===')
-      // 1. 模拟记录一题正确答案
-      recordAnswer('test_word_001', true)
-      console.log('✅ 已记录答题: test_word_001, correct')
-
-      // 2. 检查成就
-      const { newAchievements, totalPoints } = checkNewAchievements(1)
-      console.log('📊 新成就数量:', newAchievements.length, '总积分:', totalPoints)
-      newAchievements.forEach(a => console.log('  🎉', a.id, '-', a.title, ':', a.description))
-
-      // 3. 检查 localStorage
-      const saved = localStorage.getItem('paul_english_achievements')
-      console.log('💾 已存储成就:', saved)
-      const perf = loadPerformances()
-      console.log('📝 performances Map.size:', perf.size)
-
-      // 4. 清理测试数据
-      const perf2 = loadPerformances()
-      perf2.delete('test_word_001')
-      savePerformances(perf2)
-      console.log('🧹 已清理测试数据')
-
-      if (newAchievements.length > 0) {
-        console.log('🎉🎉🎉 成就系统正常工作！发现了', newAchievements.length, '个新成就')
-      } else {
-        console.log('⚠️ 没有发现新成就，可能所有成就已解锁或条件不满足')
-      }
-      return { newAchievements, totalPoints }
-    }
-    console.log('[成就系统] 页面已初始化')
-    console.log('[成就系统] 在控制台输入以下命令进行调试:')
-    console.log('  debugAchievements() - 查看当前成就状态')
-    console.log('  testAchievement() - 模拟答题并测试成就触发')
   }, [])
 
   // 持久化积分
@@ -327,44 +271,43 @@ export default function VocabularyPractice() {
   // 待展示的成就（用于延迟弹窗显示，避免在弹窗前就保存 localStorage）
   const pendingAchievementRef = useRef<Achievement | null>(null)
 
-  // 全模块通用：记录答题 + 自动触发成就检查（快速模式、闯关模式等都走这个）
-  const handleModeAnswer = (wordId: string, isCorrect: boolean) => {
-    console.log('[成就系统] handleModeAnswer → wordId:', wordId, 'isCorrect:', isCorrect)
+  // 跨模式的 sessionStreak 追踪（用于正确触发连击类成就）
+  const sessionStreakRef = useRef(0)
+
+  // 全模块通用：记录答题 + 自动触发成就检查
+  const handleModeAnswer = (wordId: string, isCorrect: boolean, mode?: string) => {
     recordAnswer(wordId, isCorrect)
     if (isCorrect) {
-      console.log('[成就系统] handleModeAnswer → 答对了，调用 triggerAchievements')
-      triggerAchievements(1, 500)
+      sessionStreakRef.current += 1
+      triggerAchievements(sessionStreakRef.current, 500)
+    } else {
+      sessionStreakRef.current = 0
     }
   }
 
   // 全模块通用：检查成就并加入队列显示
+  // 限制每次最多弹 2 个成就，避免弹窗爆炸
+  const MAX_QUEUE_SIZE = 2
   const triggerAchievements = (sessionMaxStreak: number = 0, delay: number = 1500) => {
     try {
-      console.log('[成就系统] ========== triggerAchievements 开始 ==========')
-      console.log('[成就系统] sessionMaxStreak:', sessionMaxStreak)
       const { newAchievements, totalPoints } = checkNewAchievements(sessionMaxStreak)
-      console.log('[成就系统] 结果: newAchievements:', newAchievements.length, 'totalPoints:', totalPoints)
       if (newAchievements.length > 0) {
         setPoints(totalPoints)
-        // 将新成就加入队列（跳过已经在队列中的）
         const existingIds = new Set(achievementQueueRef.current.map(a => a.id))
-        if (unlockedAchievement) existingIds.add(unlockedAchievement.id)
+        if (pendingAchievementRef.current) existingIds.add(pendingAchievementRef.current.id)
         const toEnqueue = newAchievements.filter(a => !existingIds.has(a.id))
-        achievementQueueRef.current.push(...toEnqueue)
-        console.log('[成就系统] 🎉 加入队列:', toEnqueue.map(a => a.id), '队列长度:', achievementQueueRef.current.length)
-        // 如果当前没有在显示成就，开始显示
+        // 最多排队 2 个，多余的丢弃（但积分已保存）
+        const limited = toEnqueue.slice(0, MAX_QUEUE_SIZE)
+        achievementQueueRef.current.push(...limited)
         if (!showingAchievementRef.current) {
           showingAchievementRef.current = true
           const first = achievementQueueRef.current.shift()!
           pendingAchievementRef.current = first
-          console.log('[成就系统] ⏰ 立即显示成就:', first.id)
           setUnlockedAchievement(first)
         }
-      } else {
-        console.log('[成就系统] ❌ 没有新成就')
       }
     } catch (err) {
-      console.error('[成就系统] 💥 triggerAchievements 出错:', err)
+      // silently handle
     }
   }
 
@@ -379,7 +322,6 @@ export default function VocabularyPractice() {
     setShowResult(true)
 
     const isCorrect = answer === currentWord.meaning
-    console.log('[成就系统] handleAnswerSelect → wordId:', currentWord.word_id, 'answer:', answer, 'correct:', currentWord.meaning, 'isCorrect:', isCorrect)
 
     // 通过共享模块记录答题表现
     const wordId = currentWord.word_id
@@ -395,9 +337,12 @@ export default function VocabularyPractice() {
     if (isCorrect) {
       const newStreak = streak + 1
       const earnedPoints = 10 + (newStreak >= 3 ? 5 : 0)
-      setScore(score + 1)
+      scoreRef.current += 1
+      setScore(scoreRef.current)
       setStreak(newStreak)
-      setPoints(points + earnedPoints)
+      // 每题加分直接写 localStorage，state 用函数式更新同步
+      addPoints(earnedPoints)
+      setPoints(prev => prev + earnedPoints)
       setEncouragement(getRandomEncouragement('correct'))
 
       setAnswerFeedback({
@@ -423,10 +368,14 @@ export default function VocabularyPractice() {
         recordPerfectRound()
         triggerAchievements(newStreak)
 
+        const sessionSeconds = Math.round((Date.now() - sessionStartTimeRef.current) / 1000)
         updateDailyStats({
           wordsLearned: practiceSequence.length,
           maxStreak: newStreak,
-          perfectRounds: 1
+          perfectRounds: 1,
+          totalTime: sessionSeconds,
+          lastSessionTime: sessionSeconds,
+          lastSessionWords: practiceSequence.length,
         })
 
         setTimeout(() => {
@@ -467,6 +416,25 @@ export default function VocabularyPractice() {
         const nextWord = practiceSequence[nextIndex]
         const allMeanings = vocabularyData.map(v => v.meaning)
         setCurrentOptions(generateOptions(nextWord.meaning, allMeanings))
+      } else {
+        // 最后一题答完（可能答错），保存本次练习统计并显示完成卡片
+        const sessionSeconds = Math.round((Date.now() - sessionStartTimeRef.current) / 1000)
+        updateDailyStats({
+          wordsLearned: scoreRef.current,
+          maxStreak: streak,
+          totalTime: sessionSeconds,
+          lastSessionTime: sessionSeconds,
+          lastSessionWords: scoreRef.current,
+        })
+        setTimeout(() => {
+          setShowConfetti(true)
+          if (scoreRef.current >= practiceSequence.length * 0.7) {
+            sounds.complete()
+          }
+          if (containerRef.current) {
+            createConfetti(containerRef.current, scoreRef.current >= practiceSequence.length * 0.7 ? 80 : 30)
+          }
+        }, 300)
       }
       setCardTransition(false)
     }, 250)
@@ -474,7 +442,9 @@ export default function VocabularyPractice() {
 
   // 重新开始
   const handleRestart = () => {
+    sessionStartTimeRef.current = Date.now()
     setCurrentIndex(0)
+    scoreRef.current = 0
     setScore(0)
     setStreak(0)
     setShowConfetti(false)
@@ -579,6 +549,8 @@ export default function VocabularyPractice() {
         </div>
 
         <PracticeModeSelector onSelect={(mode) => {
+          sessionStreakRef.current = 0
+          sessionStartTimeRef.current = Date.now()
           regenerateSequence()
           setPracticeMode(mode)
         }} />
@@ -594,7 +566,8 @@ export default function VocabularyPractice() {
       <ListeningMode
         words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic, word_id: v.word_id }))}
         onComplete={(score, total) => {
-          updateDailyStats({ wordsLearned: score })
+          const sessionSeconds = Math.round((Date.now() - sessionStartTimeRef.current) / 1000)
+          updateDailyStats({ wordsLearned: score, totalTime: sessionSeconds, lastSessionTime: sessionSeconds, lastSessionWords: score })
           triggerAchievements(score, 0)
         }}
         onBack={() => setPracticeMode(null)}
@@ -612,7 +585,8 @@ export default function VocabularyPractice() {
       <SpellingMode
         words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic, word_id: v.word_id }))}
         onComplete={(score, total) => {
-          updateDailyStats({ wordsLearned: score })
+          const sessionSeconds = Math.round((Date.now() - sessionStartTimeRef.current) / 1000)
+          updateDailyStats({ wordsLearned: score, totalTime: sessionSeconds, lastSessionTime: sessionSeconds, lastSessionWords: score })
           triggerAchievements(score, 0)
         }}
         onBack={() => setPracticeMode(null)}
@@ -643,7 +617,8 @@ export default function VocabularyPractice() {
         <SpeedMode
           words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic, word_id: v.word_id }))}
           onComplete={(score, total) => {
-            updateDailyStats({ wordsLearned: score })
+            const sessionSeconds = Math.round((Date.now() - sessionStartTimeRef.current) / 1000)
+            updateDailyStats({ wordsLearned: score, totalTime: sessionSeconds, lastSessionTime: sessionSeconds, lastSessionWords: score })
             triggerAchievements(score, 0)
           }}
           onBack={() => setPracticeMode(null)}
@@ -669,17 +644,19 @@ export default function VocabularyPractice() {
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
             🏆 闯关挑战模式
           </h1>
-          <p className="text-gray-600">连续答对 5 题通关</p>
+          <p className="text-gray-600">连续答对 8 题通关</p>
         </header>
 
         <ChallengeMode
           words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic, word_id: v.word_id }))}
           onComplete={(success, streak) => {
+            const sessionSeconds = Math.round((Date.now() - sessionStartTimeRef.current) / 1000)
             if (success) {
               sounds.complete()
               const earnedPoints = 50 + streak * 5
-              setPoints(points + earnedPoints)
-              updateDailyStats({ maxStreak: streak })
+              addPoints(earnedPoints)
+              setPoints(prev => prev + earnedPoints)
+              updateDailyStats({ maxStreak: streak, totalTime: sessionSeconds, lastSessionTime: sessionSeconds, lastSessionWords: streak })
               triggerAchievements(streak, 500)
               setPointsReward({
                 points: earnedPoints,
@@ -690,6 +667,111 @@ export default function VocabularyPractice() {
           }}
           onBack={() => setPracticeMode(null)}
           onAnswer={handleModeAnswer}
+        />
+      </main>
+    )
+  }
+
+  // 单词打靶模式
+  if (practiceMode === 'shooting') {
+    return (
+      <main className="min-h-screen p-4 sm:p-8">
+        <AchievementLayer achievement={unlockedAchievement} onClose={handleAchievementClose} pointsReward={pointsReward} onPointsComplete={() => setPointsReward(null)} />
+        <header className="text-center mb-6">
+          <button
+            onClick={() => setPracticeMode(null)}
+            className="text-blue-500 hover:text-blue-600 mb-4"
+          >
+            ← 返回模式选择
+          </button>
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
+            🏹 单词弹射
+          </h1>
+          <p className="text-gray-600">拉动弹弓，射向正确单词！</p>
+        </header>
+
+        <WordShootingMode
+          words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic, word_id: v.word_id }))}
+          onComplete={(score, total) => {
+            const sessionSeconds = Math.round((Date.now() - sessionStartTimeRef.current) / 1000)
+            const earnedPoints = score * 12
+            addPoints(earnedPoints)
+            setPoints(prev => prev + earnedPoints)
+            updateDailyStats({ wordsLearned: score, totalTime: sessionSeconds, lastSessionTime: sessionSeconds, lastSessionWords: score })
+            triggerAchievements(score, 0)
+          }}
+          onBack={() => setPracticeMode(null)}
+          onAnswer={(wordId, isCorrect) => handleModeAnswer(wordId, isCorrect, 'shooting')}
+        />
+      </main>
+    )
+  }
+
+  // 单词钓鱼模式
+  if (practiceMode === 'fishing') {
+    return (
+      <main className="min-h-screen p-4 sm:p-8">
+        <AchievementLayer achievement={unlockedAchievement} onClose={handleAchievementClose} pointsReward={pointsReward} onPointsComplete={() => setPointsReward(null)} />
+        <header className="text-center mb-6">
+          <button
+            onClick={() => setPracticeMode(null)}
+            className="text-blue-500 hover:text-blue-600 mb-4"
+          >
+            ← 返回模式选择
+          </button>
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
+            🎣 单词钓鱼
+          </h1>
+          <p className="text-gray-600">点击正确的鱼，钓起来！</p>
+        </header>
+
+        <WordFishingMode
+          words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic, word_id: v.word_id }))}
+          onComplete={(score, total) => {
+            const sessionSeconds = Math.round((Date.now() - sessionStartTimeRef.current) / 1000)
+            const earnedPoints = score * 12
+            addPoints(earnedPoints)
+            setPoints(prev => prev + earnedPoints)
+            updateDailyStats({ wordsLearned: score, totalTime: sessionSeconds, lastSessionTime: sessionSeconds, lastSessionWords: score })
+            triggerAchievements(score, 0)
+          }}
+          onBack={() => setPracticeMode(null)}
+          onAnswer={(wordId, isCorrect) => handleModeAnswer(wordId, isCorrect, 'fishing')}
+        />
+      </main>
+    )
+  }
+
+  // 字母拼拼乐模式
+  if (practiceMode === 'scramble') {
+    return (
+      <main className="min-h-screen p-4 sm:p-8">
+        <AchievementLayer achievement={unlockedAchievement} onClose={handleAchievementClose} pointsReward={pointsReward} onPointsComplete={() => setPointsReward(null)} />
+        <header className="text-center mb-6">
+          <button
+            onClick={() => setPracticeMode(null)}
+            className="text-blue-500 hover:text-blue-600 mb-4"
+          >
+            ← 返回模式选择
+          </button>
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
+            🔤 字母拼拼乐
+          </h1>
+          <p className="text-gray-600">把打乱的字母拼成正确的单词！</p>
+        </header>
+
+        <WordScrambleMode
+          words={practiceSequence.map(v => ({ word: v.word, meaning: v.meaning, phonetic: v.phonetic, word_id: v.word_id }))}
+          onComplete={(score, total) => {
+            const sessionSeconds = Math.round((Date.now() - sessionStartTimeRef.current) / 1000)
+            const earnedPoints = score * 12
+            addPoints(earnedPoints)
+            setPoints(prev => prev + earnedPoints)
+            updateDailyStats({ wordsLearned: score, totalTime: sessionSeconds, lastSessionTime: sessionSeconds, lastSessionWords: score })
+            triggerAchievements(score, 0)
+          }}
+          onBack={() => setPracticeMode(null)}
+          onAnswer={(wordId, isCorrect) => handleModeAnswer(wordId, isCorrect, 'scramble')}
         />
       </main>
     )

@@ -6,8 +6,8 @@
       "unit": "Unit 8",
       "grammar_point": "日期和序数词",
       "category": "usage",
-      "student_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
-      "teacher_explanation": "always/usually/often/sometimes/never 表示做事的频率，放在动词前面",
+      "student_explanation": "日期用序数词，如 May the fifth；月份前用 on，如 on May 5th",
+      "teacher_explanation": "序数词表示顺序：first, second, third... 日期表达为 月+日（序数词），如 May the fifth 或 May 5th。介词用 on。",
       "correct_examples": [
         {"sentence":"When is your birthday?","translation":"你的生日是什么时候？","highlight":""},
         {"sentence":"My birthday is on the fifth of May.","translation":"我的生日在五月五日。","highlight":""}
