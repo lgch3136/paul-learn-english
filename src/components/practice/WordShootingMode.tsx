@@ -24,6 +24,8 @@ interface Target {
   wordId: string
   x: number
   y: number
+  baseX: number
+  baseY: number
   radius: number
   isCorrect: boolean
   type: 'normal' | 'gold' | 'diamond'
@@ -32,6 +34,14 @@ interface Target {
   hitByProjectile: boolean
   wobble: number
   showCorrect: boolean
+  floatPhaseX: number
+  floatPhaseY: number
+  floatSpeedX: number
+  floatSpeedY: number
+  floatAmpX: number
+  floatAmpY: number
+  driftSpeed: number
+  driftDir: number
 }
 
 // 粒子系统
@@ -55,10 +65,10 @@ const TARGET_TYPES = {
   diamond: { points: 3, color: '#8b5cf6', bgColor: '#f5f3ff', ring1: '#7c3aed', ring2: '#c4b5fd' },
 }
 
-const CANVAS_W = 400
-const CANVAS_H = 500
-const GROUND_Y = 435
-const RIVER_Y = 370          // 河流顶部（弹弓正前方）
+const CANVAS_W = 440
+const CANVAS_H = 560
+const GROUND_Y = 480
+const RIVER_Y = 410          // 河流顶部（弹弓正前方）
 const RIVER_H = 55           // 河流高度
 const GRAVITY = 0.35
 const DRAG_POWER = 0.32
@@ -68,12 +78,12 @@ const GAME_TIME = 90
 const PROJECTILE_RADIUS = 13
 
 // 弩几何（底部居中，向下拖拽弦发射）
-const SLING_BASE_X = 200
-const SLING_BASE_Y = 432
-const SLING_JOINT_X = 200             // 弩臂中心
-const SLING_JOINT_Y = 378             // 弦上端
-const SLING_REST_X = 200              // 弦静止中心
-const SLING_REST_Y = 393              // 弦静止Y
+const SLING_BASE_X = 220
+const SLING_BASE_Y = 477
+const SLING_JOINT_X = 220             // 弩臂中心
+const SLING_JOINT_Y = 418             // 弦上端
+const SLING_REST_X = 220              // 弦静止中心
+const SLING_REST_Y = 433              // 弦静止Y
 const SLING_LAUNCH_X = SLING_REST_X   // 发射起点X
 const SLING_LAUNCH_Y = SLING_REST_Y   // 发射起点Y
 const BOW_LIMB_LEN = 52               // 弩臂长度
@@ -83,11 +93,11 @@ const SLING_FORK_L_Y = SLING_JOINT_Y + BOW_LIMB_DROP
 const SLING_FORK_R_X = SLING_JOINT_X + BOW_LIMB_LEN
 const SLING_FORK_R_Y = SLING_JOINT_Y + BOW_LIMB_DROP
 
-// 靶子预设位置（底端贴近河对岸 RIVER_Y=385）
+// 靶子预设位置（漂浮在河对岸空中）
 const PRESET_POSITIONS = [
-  { x: 60,  y: 80 },  { x: 200, y: 70 },  { x: 340, y: 80 },
-  { x: 130, y: 210 }, { x: 270, y: 210 },
-  { x: 60,  y: 340 }, { x: 340, y: 340 },
+  { x: 66,  y: 90 },  { x: 220, y: 80 },  { x: 374, y: 90 },
+  { x: 143, y: 230 }, { x: 297, y: 230 },
+  { x: 66,  y: 350 }, { x: 374, y: 350 },
 ]
 
 export default function WordShootingMode({ words, onComplete, onBack, onAnswer }: WordShootingModeProps) {
@@ -197,13 +207,22 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
     targetsRef.current = allWords.map((w, i) => {
       const typeRand = Math.random()
       const type = typeRand < 0.55 ? 'normal' : typeRand < 0.82 ? 'gold' : 'diamond'
+      const bx = positions[i].x, by = positions[i].y
       return {
         id: `t-${Date.now()}-${i}`,
         word: w.word, wordId: w.word_id || '',
-        x: positions[i].x, y: positions[i].y,
+        x: bx, y: by, baseX: bx, baseY: by,
         radius: 32, isCorrect: w.word === word.word,
         type, hit: false, hitTime: 0, hitByProjectile: false,
         wobble: Math.random() * Math.PI * 2, showCorrect: false,
+        floatPhaseX: Math.random() * Math.PI * 2,
+        floatPhaseY: Math.random() * Math.PI * 2,
+        floatSpeedX: 0.6 + Math.random() * 1.0,
+        floatSpeedY: 0.8 + Math.random() * 1.2,
+        floatAmpX: 18 + Math.random() * 22,
+        floatAmpY: 10 + Math.random() * 18,
+        driftSpeed: (Math.random() - 0.5) * 0.4,
+        driftDir: Math.random() > 0.5 ? 1 : -1,
       }
     })
 
@@ -374,8 +393,27 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
       })
     }
 
-    // 靶子晃动
-    for (const t of targetsRef.current) { t.wobble += 0.015 * dt }
+    // 靶子空中漂浮移动
+    for (const t of targetsRef.current) {
+      t.wobble += 0.015 * dt
+      // 正弦浮动 + 缓慢漂移
+      t.floatPhaseX += t.floatSpeedX * 0.025 * dt
+      t.floatPhaseY += t.floatSpeedY * 0.025 * dt
+      const floatX = Math.sin(t.floatPhaseX) * t.floatAmpX + Math.cos(t.floatPhaseX * 0.7) * t.floatAmpX * 0.3
+      const floatY = Math.sin(t.floatPhaseY) * t.floatAmpY + Math.cos(t.floatPhaseY * 1.3) * t.floatAmpY * 0.25
+      // 缓慢的水平漂移（带方向反转）
+      t.baseX += t.driftSpeed * t.driftDir * dt
+      if (t.baseX < 40) { t.baseX = 40; t.driftDir = 1 }
+      if (t.baseX > CANVAS_W - 40) { t.baseX = CANVAS_W - 40; t.driftDir = -1 }
+      // 缓慢改变漂移方向
+      if (Math.random() < 0.002 * dt) { t.driftDir *= -1 }
+      // 垂直方向浮动范围限制
+      const minY = 50
+      const maxY = RIVER_Y - t.radius - 15
+      const newY = t.baseY + floatY
+      t.x = t.baseX + floatX
+      t.y = Math.max(minY, Math.min(maxY, newY))
+    }
 
     // 弩臂跟随瞄准方向旋转
     let targetAngle = 0
@@ -454,8 +492,9 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
     ctx.beginPath(); ctx.moveTo(-10, 290)
     ctx.bezierCurveTo(40, 210, 100, 230, 160, 255)
     ctx.bezierCurveTo(220, 235, 280, 220, 340, 245)
-    ctx.bezierCurveTo(370, 235, 400, 240, 410, 250)
-    ctx.lineTo(410, 320); ctx.lineTo(-10, 320); ctx.fill()
+    ctx.bezierCurveTo(370, 235, 400, 240, 420, 248)
+    ctx.bezierCurveTo(430, 250, 435, 258, 440, 265)
+    ctx.lineTo(440, 320); ctx.lineTo(-10, 320); ctx.fill()
     // 雪顶
     ctx.fillStyle = 'rgba(255,255,255,0.18)'
     ctx.beginPath(); ctx.moveTo(70, 225); ctx.bezierCurveTo(75, 210, 82, 212, 92, 218); ctx.closePath(); ctx.fill()
@@ -469,8 +508,9 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
     ctx.beginPath(); ctx.moveTo(-10, 315)
     ctx.bezierCurveTo(50, 275, 100, 290, 150, 295)
     ctx.bezierCurveTo(200, 270, 250, 280, 300, 290)
-    ctx.bezierCurveTo(350, 275, 380, 280, 410, 295)
-    ctx.lineTo(410, 350); ctx.lineTo(-10, 350); ctx.fill()
+    ctx.bezierCurveTo(350, 275, 380, 280, 420, 290)
+    ctx.bezierCurveTo(435, 293, 440, 300, 440, 305)
+    ctx.lineTo(440, 350); ctx.lineTo(-10, 350); ctx.fill()
     // 中山高光面（阳光侧）
     ctx.fillStyle = 'rgba(100,180,110,0.12)'
     ctx.beginPath(); ctx.moveTo(180, 278)
@@ -505,9 +545,10 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
     }
     drawTree(25, GROUND_Y - 4, 24, 18, 'rgba(56,142,60,0.35)', 'rgba(30,90,35,0.15)')
     drawTree(75, GROUND_Y - 2, 20, 14, 'rgba(67,160,71,0.3)', 'rgba(40,100,45,0.12)')
-    drawTree(375, GROUND_Y - 3, 22, 16, 'rgba(46,125,50,0.35)', 'rgba(25,80,30,0.15)')
+    drawTree(410, GROUND_Y - 3, 22, 16, 'rgba(46,125,50,0.35)', 'rgba(25,80,30,0.15)')
     drawTree(170, GROUND_Y - 1, 14, 10, 'rgba(76,165,80,0.2)', 'rgba(50,110,55,0.08)')
     drawTree(230, GROUND_Y, 12, 9, 'rgba(80,170,85,0.18)', 'rgba(50,110,55,0.06)')
+    drawTree(320, GROUND_Y - 2, 15, 11, 'rgba(55,140,55,0.22)', 'rgba(35,90,40,0.09)')
 
     // --- 4. 云朵（漂浮动画，带阴影） ---
     const drawCloudShape = (cx: number, cy: number, s: number, opacity: number) => {
@@ -617,7 +658,7 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
 
     // 小石子（带阴影）
     const pebbles: [number, number, number][] = [[25, GROUND_Y + 18, 4], [120, GROUND_Y + 22, 3], [220, GROUND_Y + 15, 5],
-                     [310, GROUND_Y + 20, 3.5], [370, GROUND_Y + 25, 4], [55, GROUND_Y + 30, 3]]
+                     [310, GROUND_Y + 20, 3.5], [385, GROUND_Y + 25, 4], [425, GROUND_Y + 22, 3.5], [55, GROUND_Y + 30, 3]]
     for (const [px, py, pr] of pebbles) {
       ctx.fillStyle = 'rgba(0,0,0,0.06)'
       ctx.beginPath(); ctx.ellipse(px + 1, py + 1, pr, pr * 0.6, (px * 0.1) % 1, 0, Math.PI * 2); ctx.fill()
@@ -703,7 +744,8 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
     drawFlower(155, GROUND_Y - 1, '#ab47bc', 1.1)
     drawFlower(280, GROUND_Y, '#42a5f5', 0.95)
     drawFlower(340, GROUND_Y + 2, '#ff7043', 0.85)
-    drawFlower(385, GROUND_Y, '#ec407a', 0.75)
+    drawFlower(395, GROUND_Y, '#ec407a', 0.75)
+    drawFlower(425, GROUND_Y + 1, '#ab47bc', 0.8)
 
     // 蝴蝶
     const bfX = 160 + Math.sin(t * 0.7) * 50
@@ -830,9 +872,9 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
     }
     ctx.lineCap = 'butt'
 
-    // --- 6. 绘制靶子（两遍渲染：先木桩，再靶心，确保靶心在木桩前面） ---
+    // --- 6. 绘制靶子（漂浮靶：只画空中阴影 + 靶心） ---
 
-    // === 第一遍：河岸阴影 + 木桩 + 底座 ===
+    // === 空中投影阴影（随靶子高度变化） ===
     for (const tgt of targetsRef.current) {
       if (tgt.hit && tgt.hitByProjectile) continue
       const wobbleX = Math.sin(tgt.wobble) * 2
@@ -840,68 +882,17 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
       const ty = tgt.y
       const r = tgt.radius
 
-      // 河岸投影
-      const shadowY = RIVER_Y + 3
-      ctx.save(); ctx.globalAlpha = 0.1
+      // 地面投影（靶子越高投影越淡越大）
+      const heightRatio = Math.max(0, Math.min(1, (RIVER_Y - ty - r) / (RIVER_Y - 50)))
+      const shadowAlpha = 0.04 + heightRatio * 0.08
+      const shadowScale = 0.6 + heightRatio * 0.4
+      ctx.save(); ctx.globalAlpha = shadowAlpha
       ctx.fillStyle = '#000'
-      ctx.beginPath(); ctx.ellipse(tx + 2, shadowY, r * 0.8, 5, 0, 0, Math.PI * 2); ctx.fill()
+      ctx.beginPath(); ctx.ellipse(tx, RIVER_Y + 5, r * shadowScale, 4, 0, 0, Math.PI * 2); ctx.fill()
       ctx.restore()
-
-      // 木桩阴影
-      const stakeW = 8
-      const stakeH = RIVER_Y - ty - r + 5
-      if (stakeH > 0) {
-        ctx.fillStyle = 'rgba(0,0,0,0.1)'
-        ctx.beginPath(); ctx.roundRect(tx - stakeW / 2 + 2, ty + r + 3, stakeW, stakeH, [0, 0, 2, 2]); ctx.fill()
-        // 木桩主体
-        const stakeGrad = ctx.createLinearGradient(tx - stakeW / 2, 0, tx + stakeW / 2, 0)
-        stakeGrad.addColorStop(0, '#4e342e'); stakeGrad.addColorStop(0.2, '#795548')
-        stakeGrad.addColorStop(0.4, '#8d6e63'); stakeGrad.addColorStop(0.55, '#a1887f')
-        stakeGrad.addColorStop(0.7, '#8d6e63'); stakeGrad.addColorStop(0.9, '#6d4c41')
-        stakeGrad.addColorStop(1, '#4e342e')
-        ctx.fillStyle = stakeGrad
-        ctx.beginPath(); ctx.roundRect(tx - stakeW / 2, ty + r + 2, stakeW, stakeH, [0, 0, 2, 2]); ctx.fill()
-        // 木纹
-        ctx.strokeStyle = 'rgba(0,0,0,0.05)'; ctx.lineWidth = 0.5
-        for (let sy = ty + r + 8; sy < ty + r + stakeH; sy += 5) {
-          ctx.beginPath(); ctx.moveTo(tx - stakeW / 2 + 1, sy)
-          ctx.lineTo(tx + stakeW / 2 - 1, sy + 0.5); ctx.stroke()
-        }
-        // 高光线
-        ctx.strokeStyle = 'rgba(255,255,255,0.08)'; ctx.lineWidth = 0.8
-        ctx.beginPath(); ctx.moveTo(tx - 2, ty + r + 4); ctx.lineTo(tx - 2, ty + r + stakeH - 2); ctx.stroke()
-
-        // X 形支架
-        if (stakeH > 35) {
-          ctx.strokeStyle = 'rgba(0,0,0,0.08)'; ctx.lineWidth = 3; ctx.lineCap = 'round'
-          const midY = ty + r + stakeH * 0.5
-          ctx.beginPath(); ctx.moveTo(tx - 10, midY + 10); ctx.lineTo(tx + 10, midY - 10); ctx.stroke()
-          ctx.strokeStyle = '#6d4c41'; ctx.lineWidth = 2.5
-          ctx.beginPath(); ctx.moveTo(tx - 10, midY + 10); ctx.lineTo(tx + 10, midY - 10); ctx.stroke()
-          ctx.strokeStyle = '#8d6e63'; ctx.lineWidth = 1.5
-          ctx.beginPath(); ctx.moveTo(tx + 10, midY + 10); ctx.lineTo(tx - 10, midY - 10); ctx.stroke()
-          ctx.lineCap = 'butt'
-        }
-      }
-
-      // 木桩顶帽
-      const capGrad = ctx.createLinearGradient(0, ty + r - 1, 0, ty + r + 6)
-      capGrad.addColorStop(0, '#a1887f'); capGrad.addColorStop(0.5, '#8d6e63'); capGrad.addColorStop(1, '#6d4c41')
-      ctx.fillStyle = capGrad
-      ctx.beginPath(); ctx.roundRect(tx - stakeW / 2 - 2, ty + r - 1, stakeW + 4, 6, 2); ctx.fill()
-      ctx.fillStyle = 'rgba(255,255,255,0.1)'
-      ctx.beginPath(); ctx.roundRect(tx - stakeW / 2 - 1, ty + r, stakeW + 2, 2, 1); ctx.fill()
-
-      // 底座平台
-      const platGrad = ctx.createLinearGradient(0, RIVER_Y - 6, 0, RIVER_Y + 4)
-      platGrad.addColorStop(0, '#795548'); platGrad.addColorStop(0.5, '#6d4c41'); platGrad.addColorStop(1, '#4e342e')
-      ctx.fillStyle = platGrad
-      ctx.beginPath(); ctx.roundRect(tx - 16, RIVER_Y - 5, 32, 10, 3); ctx.fill()
-      ctx.fillStyle = 'rgba(255,255,255,0.07)'
-      ctx.beginPath(); ctx.roundRect(tx - 14, RIVER_Y - 4, 28, 3, 2); ctx.fill()
     }
 
-    // === 第二遍：靶心圆 + 文字（画在木桩前面） ===
+    // === 靶心圆 + 文字 ===
     for (const tgt of targetsRef.current) {
       const wobbleX = Math.sin(tgt.wobble) * 2
       const tx = tgt.x + wobbleX
@@ -1057,22 +1048,6 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
       ctx.restore()
     }
 
-    // --- 6.5 水面靶子倒影（柔和的彩色反光） ---
-    ctx.save()
-    ctx.globalAlpha = 0.06
-    for (const tgt of targetsRef.current) {
-      if (tgt.hit && tgt.hitByProjectile) continue
-      const wobbleX = Math.sin(tgt.wobble) * 2
-      const tx = tgt.x + wobbleX
-      const config = TARGET_TYPES[tgt.type]
-      const reflectY = RIVER_Y + 15
-      const reflectGrad = ctx.createRadialGradient(tx, reflectY, 0, tx, reflectY, 25)
-      reflectGrad.addColorStop(0, config.color); reflectGrad.addColorStop(1, 'transparent')
-      ctx.fillStyle = reflectGrad
-      ctx.beginPath(); ctx.ellipse(tx, reflectY, 25, 8, 0, 0, Math.PI * 2); ctx.fill()
-    }
-    ctx.restore()
-
     // --- 7. 弩（底部居中，高端金属质感：暗铬+金色+铂金） ---
     const jX = SLING_JOINT_X, jY = SLING_JOINT_Y
 
@@ -1131,15 +1106,15 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
     const pulse2 = Math.sin(t * 2.2 + 1) * 0.5 + 0.5
 
     // 几何参数：从下到上
-    // GROUND_Y=435, jY=378(弩关节), 需要：底盘→柱→顶盘→枪托→关节
+    // GROUND_Y=480, jY=418(弩关节), 需要：底盘→柱→顶盘→枪托→关节
     const baseR = 55         // 底盘半径
-    const baseY = GROUND_Y   // 底盘贴地 = 435
+    const baseY = GROUND_Y   // 底盘贴地
     const diskH = 8          // 底盘高度
-    const diskTopY = baseY - diskH // 底盘顶面 = 427
+    const diskTopY = baseY - diskH // 底盘顶面
     const mountH = 6         // 顶盘高度
-    const mountTopY = 390    // 顶盘顶面（枪托底部）= 390
-    const pillarBotY = diskTopY  // 柱底 = 427
-    const pillarTopY = mountTopY + mountH // 柱顶 = 396（接顶盘底面）
+    const mountTopY = 430    // 顶盘顶面（枪托底部）
+    const pillarBotY = diskTopY  // 柱底
+    const pillarTopY = mountTopY + mountH // 柱顶（接顶盘底面）
     const pillarTopR = 20    // 柱顶半径
     const pillarBotR = 30    // 柱底半径
     const mountR = 26        // 顶盘半径
@@ -1290,7 +1265,7 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
     // === 高端金属弩身 ===
 
     // 枪托从顶盘表面开始
-    const stockBottomY = mountTopY  // = 402
+    const stockBottomY = mountTopY  // = 430
 
     // 暗铬枪身渐变（深邃的金属光泽）
     const stockGrad = ctx.createLinearGradient(SLING_BASE_X - 10, 0, SLING_BASE_X + 10, 0)
@@ -1422,11 +1397,11 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
       ctx.beginPath(); ctx.moveTo(fL.x, fL.y - 1); ctx.lineTo(ballPos.x, ballPos.y - 1); ctx.stroke()
       ctx.lineCap = 'butt'
 
-      // 弩箭（弦中心 → 箭尖方向）
+      // 弩箭（弦中心 → 弩关节中间线方向）
       if (!proj.active) {
         const arrowLen = 45
-        const adx = dragStartRef.current.x - ballPos.x
-        const ady = dragStartRef.current.y - ballPos.y
+        const adx = SLING_JOINT_X - ballPos.x
+        const ady = SLING_JOINT_Y - ballPos.y
         const aDist = Math.hypot(adx, ady)
         const aDirX = aDist > 1 ? adx / aDist : 0
         const aDirY = aDist > 1 ? ady / aDist : -1
@@ -1462,10 +1437,10 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
       }
     }
 
-    // 弓箭（拉弦时在弦中心显示箭，指向发射方向）
+    // 弓箭（拉弦时在弦中心显示箭，指向弩关节中间线）
     if (ballPos && !proj.active) {
-      const adx = dragStartRef.current.x - ballPos.x
-      const ady = dragStartRef.current.y - ballPos.y
+      const adx = SLING_JOINT_X - ballPos.x
+      const ady = SLING_JOINT_Y - ballPos.y
       const aDist = Math.hypot(adx, ady)
       const aimAngle = aDist > 5 ? Math.atan2(ady, adx) : -Math.PI / 2
       drawArrow(ballPos.x, ballPos.y, aimAngle)
@@ -1512,14 +1487,20 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
       drawArrow(proj.x, proj.y, proj.rotation)
     }
 
-    // --- 9. 瞄准预览轨迹（从球的位置直线射出，箭头形标记） ---
+    // --- 9. 瞄准预览轨迹（弓箭延长线，从箭尖开始，与箭方向一致） ---
     if (phaseRef.current === 'aiming' && isDraggingRef.current) {
-      const dx = dragStartRef.current.x - dragCurrentRef.current.x
-      const dy = dragStartRef.current.y - dragCurrentRef.current.y
-      const pvx = dx * DRAG_POWER
-      const pvy = dy * DRAG_POWER
-      // 从球的当前位置开始（和 handlePointerUp 一致）
-      let px = dragCurrentRef.current.x, py = dragCurrentRef.current.y
+      // 射击方向：从拉弦点指向弩关节（与箭方向一致）
+      const sdx = SLING_JOINT_X - dragCurrentRef.current.x
+      const sdy = SLING_JOINT_Y - dragCurrentRef.current.y
+      const sDist = Math.hypot(sdx, sdy)
+      const sDirX = sDist > 1 ? sdx / sDist : 0
+      const sDirY = sDist > 1 ? sdy / sDist : -1
+      const pvx = sdx * DRAG_POWER
+      const pvy = sdy * DRAG_POWER
+      // 从箭尖位置开始（跳过箭身，避免覆盖弓箭）
+      const arrowTipOffset = 58  // arrowLen(45) + tip(8) + 余量(5)
+      let px = dragCurrentRef.current.x + sDirX * arrowTipOffset
+      let py = dragCurrentRef.current.y + sDirY * arrowTipOffset
       let vx = pvx, vy = pvy
       const BOUNCE = 0.82
       const R = PROJECTILE_RADIUS
@@ -1527,35 +1508,96 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
       const aimAngle = Math.atan2(pvy, pvx)
       // 存储轨迹点（用于绘制连线）
       const trailPts: { x: number; y: number; step: number }[] = []
+      // 引导线反弹边界对齐画面框体内缘（bw=6, 加2px余量）
+      const FRAME = 8
+      let bounceCount = 0
+      const maxBounces = 2
       for (let i = 0; i < maxSteps; i++) {
         px += vx; py += vy
-        if (px < R) { px = R; vx = Math.abs(vx) * BOUNCE }
-        if (px > W - R) { px = W - R; vx = -Math.abs(vx) * BOUNCE }
-        if (py < R) { py = R; vy = Math.abs(vy) * BOUNCE }
+        let bounced = false
+        if (px < FRAME) { px = FRAME; vx = Math.abs(vx) * BOUNCE; bounced = true }
+        if (px > W - FRAME) { px = W - FRAME; vx = -Math.abs(vx) * BOUNCE; bounced = true }
+        if (py < FRAME) { py = FRAME; vy = Math.abs(vy) * BOUNCE; bounced = true }
+        if (bounced) { bounceCount++; if (bounceCount > maxBounces) break }
         trailPts.push({ x: px, y: py, step: i })
         if (py > GROUND_Y + 20) break
       }
-      // 绘制淡色连接线
+
+      // 外层辉光（宽光晕）
       if (trailPts.length > 2) {
-        ctx.save(); ctx.globalAlpha = 0.12
-        ctx.strokeStyle = '#fff'; ctx.lineWidth = 2; ctx.lineCap = 'round'
+        ctx.save(); ctx.globalAlpha = 0.2
+        ctx.strokeStyle = '#00e5ff'; ctx.lineWidth = 7; ctx.lineCap = 'round'
+        ctx.shadowColor = '#00e5ff'; ctx.shadowBlur = 12
+        ctx.beginPath(); ctx.moveTo(trailPts[0].x, trailPts[0].y)
+        for (let i = 1; i < trailPts.length; i += 2) {
+          ctx.lineTo(trailPts[i].x, trailPts[i].y)
+        }
+        ctx.stroke()
+        ctx.shadowBlur = 0; ctx.restore()
+      }
+
+      // 中层亮线
+      if (trailPts.length > 2) {
+        ctx.save(); ctx.globalAlpha = 0.55
+        ctx.strokeStyle = '#7cfffe'; ctx.lineWidth = 3.5; ctx.lineCap = 'round'
+        ctx.shadowColor = '#00e5ff'; ctx.shadowBlur = 6
+        ctx.beginPath(); ctx.moveTo(trailPts[0].x, trailPts[0].y)
+        for (let i = 1; i < trailPts.length; i += 2) {
+          ctx.lineTo(trailPts[i].x, trailPts[i].y)
+        }
+        ctx.stroke()
+        ctx.shadowBlur = 0; ctx.restore()
+      }
+
+      // 核心白线（最亮）
+      if (trailPts.length > 2) {
+        ctx.save(); ctx.globalAlpha = 0.75
+        ctx.strokeStyle = '#ffffff'; ctx.lineWidth = 1.5; ctx.lineCap = 'round'
         ctx.beginPath(); ctx.moveTo(trailPts[0].x, trailPts[0].y)
         for (let i = 1; i < trailPts.length; i += 2) {
           ctx.lineTo(trailPts[i].x, trailPts[i].y)
         }
         ctx.stroke(); ctx.restore()
       }
-      // 绘制箭头形虚线标记
-      for (let i = 0; i < trailPts.length; i += 5) {
+
+      // 虚线脉冲光点（沿轨迹移动的亮斑）
+      const pulsePhase = (t * 8) % 1
+      for (let i = 0; i < trailPts.length; i += 12) {
+        const pt = trailPts[i]
+        const distFromPulse = Math.abs((i / trailPts.length) - pulsePhase)
+        const pulseAlpha = distFromPulse < 0.08 ? (1 - distFromPulse / 0.08) * 0.8 : 0
+        if (pulseAlpha > 0.01) {
+          ctx.save(); ctx.globalAlpha = pulseAlpha
+          ctx.fillStyle = '#00e5ff'
+          ctx.beginPath(); ctx.arc(pt.x, pt.y, 5, 0, Math.PI * 2); ctx.fill()
+          ctx.globalAlpha = pulseAlpha * 0.3
+          ctx.beginPath(); ctx.arc(pt.x, pt.y, 10, 0, Math.PI * 2); ctx.fill()
+          ctx.restore()
+        }
+      }
+
+      // 绘制箭头形虚线标记（霓虹风格）
+      for (let i = 0; i < trailPts.length; i += 4) {
         const pt = trailPts[i]
         const ratio = pt.step / maxSteps
-        const alpha = (1 - ratio * 0.7) * 0.6
-        const dotSize = 3 - ratio * 1
-        // 小箭头形状
+        const alpha = (1 - ratio * 0.5) * 0.8
+        const dotSize = 4 - ratio * 1.5
+        // 箭头辉光
+        ctx.save(); ctx.globalAlpha = alpha * 0.3
+        ctx.translate(pt.x, pt.y)
+        ctx.rotate(aimAngle)
+        ctx.fillStyle = '#00e5ff'
+        ctx.beginPath()
+        ctx.moveTo(dotSize + 3, 0)
+        ctx.lineTo(-dotSize - 1, -(dotSize + 1) * 0.7)
+        ctx.lineTo(-dotSize - 1, (dotSize + 1) * 0.7)
+        ctx.closePath(); ctx.fill()
+        ctx.restore()
+        // 箭头本体
         ctx.save(); ctx.globalAlpha = alpha
         ctx.translate(pt.x, pt.y)
         ctx.rotate(aimAngle)
-        ctx.fillStyle = '#fff'
+        ctx.fillStyle = '#ffffff'
         ctx.beginPath()
         ctx.moveTo(dotSize + 2, 0)
         ctx.lineTo(-dotSize, -dotSize * 0.7)
@@ -1835,14 +1877,19 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
   const handlePointerUp = useCallback(() => {
     if (!isDraggingRef.current || phaseRef.current !== 'aiming') return
     isDraggingRef.current = false
-    const dx = dragStartRef.current.x - dragCurrentRef.current.x
-    const dy = dragStartRef.current.y - dragCurrentRef.current.y
+    // 射击方向：从拉弦点指向弩关节（与箭、引导线方向一致）
+    const dx = SLING_JOINT_X - dragCurrentRef.current.x
+    const dy = SLING_JOINT_Y - dragCurrentRef.current.y
     if (Math.hypot(dx, dy) < 15) { phaseRef.current = 'ready'; setPhase('ready'); return }
 
     const proj = projectileRef.current
-    // 从球的当前位置发射
-    proj.x = dragCurrentRef.current.x
-    proj.y = dragCurrentRef.current.y
+    // 从箭尖位置发射（与引导线起点一致）
+    const sDist = Math.hypot(dx, dy)
+    const sDirX = sDist > 1 ? dx / sDist : 0
+    const sDirY = sDist > 1 ? dy / sDist : -1
+    const arrowTipOffset = 58
+    proj.x = dragCurrentRef.current.x + sDirX * arrowTipOffset
+    proj.y = dragCurrentRef.current.y + sDirY * arrowTipOffset
     proj.vx = dx * DRAG_POWER; proj.vy = dy * DRAG_POWER
     proj.active = true
     projectileTrailRef.current = []
