@@ -59,6 +59,97 @@ body {
   animation: float 3s ease-in-out infinite;
 }
 
+/* 气泡弹出动画 */
+@keyframes bubbleIn {
+  0% {
+    transform: translate(-50%, 10px) scale(0.5);
+    opacity: 0;
+  }
+  40% {
+    transform: translate(-50%, -3px) scale(1.05);
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-50%, 0) scale(0.95);
+  }
+  100% {
+    transform: translate(-50%, 0) scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-bubble-in {
+  animation: bubbleIn 0.4s ease-out forwards;
+}
+
+/* 宠物动作动画 */
+@keyframes petBounce {
+  0%, 100% { transform: translateY(0) scale(1); }
+  30% { transform: translateY(-18px) scale(1.08); }
+  50% { transform: translateY(-5px) scale(0.95); }
+  70% { transform: translateY(-12px) scale(1.03); }
+}
+.animate-pet-bounce { animation: petBounce 0.8s ease-in-out; }
+
+@keyframes petSpin {
+  0% { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(25deg) scale(1.1); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+.animate-pet-spin { animation: petSpin 0.6s ease-in-out; }
+
+@keyframes petWiggle {
+  0%, 100% { transform: translateX(0); }
+  15% { transform: translateX(-8px) rotate(-5deg); }
+  30% { transform: translateX(8px) rotate(5deg); }
+  45% { transform: translateX(-6px) rotate(-3deg); }
+  60% { transform: translateX(6px) rotate(3deg); }
+  75% { transform: translateX(-3px) rotate(-1deg); }
+}
+.animate-pet-wiggle { animation: petWiggle 0.7s ease-in-out; }
+
+@keyframes petJump {
+  0% { transform: translateY(0) scale(1, 1); }
+  20% { transform: translateY(2px) scale(0.9, 1.1); }
+  50% { transform: translateY(-25px) scale(1.1, 0.9); }
+  80% { transform: translateY(2px) scale(0.95, 1.05); }
+  100% { transform: translateY(0) scale(1, 1); }
+}
+.animate-pet-jump { animation: petJump 0.7s ease-in-out; }
+
+@keyframes petDance {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  15% { transform: translateY(-10px) rotate(-8deg); }
+  30% { transform: translateY(-3px) rotate(8deg); }
+  45% { transform: translateY(-15px) rotate(-5deg); }
+  60% { transform: translateY(-5px) rotate(10deg); }
+  75% { transform: translateY(-8px) rotate(-3deg); }
+}
+.animate-pet-dance { animation: petDance 1.5s ease-in-out; }
+
+@keyframes petWave {
+  0%, 100% { transform: rotate(0deg); }
+  20% { transform: rotate(-15deg); }
+  40% { transform: rotate(12deg); }
+  60% { transform: rotate(-10deg); }
+  80% { transform: rotate(5deg); }
+}
+.animate-pet-wave { animation: petWave 0.8s ease-in-out; }
+
+@keyframes heartFloat {
+  0% { transform: translateY(0) scale(0.5); opacity: 1; }
+  100% { transform: translateY(-40px) scale(1.2); opacity: 0; }
+}
+.animate-heart-float { animation: heartFloat 1.2s ease-out forwards; }
+
+@keyframes comboPop {
+  0% { transform: scale(0.5); opacity: 0.3; }
+  40% { transform: scale(1.25); opacity: 1; }
+  70% { transform: scale(0.9); }
+  100% { transform: scale(1); opacity: 1; }
+}
+.animate-combo-pop { animation: comboPop 0.35s ease-out; }
+
 /* 游戏化元素 */
 .badge {
   @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;

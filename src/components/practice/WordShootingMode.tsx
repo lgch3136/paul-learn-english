@@ -16,6 +16,7 @@ interface WordShootingModeProps {
   onComplete: (score: number, totalWords: number) => void
   onBack: () => void
   onAnswer?: (wordId: string, isCorrect: boolean) => void
+  onCombo?: (combo: number) => void
 }
 
 interface Target {
@@ -74,7 +75,6 @@ const GRAVITY = 0.35
 const DRAG_POWER = 0.32
 const MAX_DRAG = 120
 const MAX_LIVES = 5
-const GAME_TIME = 90
 const PROJECTILE_RADIUS = 13
 
 // 弩几何（底部居中，向下拖拽弦发射）
@@ -100,15 +100,66 @@ const PRESET_POSITIONS = [
   { x: 66,  y: 350 }, { x: 374, y: 350 },
 ]
 
-export default function WordShootingMode({ words, onComplete, onBack, onAnswer }: WordShootingModeProps) {
+// 排行榜数据
+interface LeaderboardEntry {
+  name: string
+  combo: number
+  time: number
+  date: string
+}
+const LEADERBOARD_KEY = 'paul_english_shooting_leaderboard'
+
+function loadLeaderboard(): LeaderboardEntry[] {
+  try {
+    const data = localStorage.getItem(LEADERBOARD_KEY)
+    if (data) return JSON.parse(data)
+  } catch (e) {}
+  return []
+}
+
+function saveLeaderboard(combo: number): LeaderboardEntry[] {
+  if (combo < 2) return loadLeaderboard()
+  const list = loadLeaderboard()
+  const petName = (() => { try { return localStorage.getItem('paul_english_pet_name') || 'Player' } catch { return 'Player' } })()
+  const now = new Date()
+  list.push({
+    name: petName,
+    combo,
+    time: Math.round((Date.now() - (window as any).__comboStartTime) / 1000) || 0,
+    date: `${now.getMonth() + 1}/${now.getDate()} ${now.getHours()}:${String(now.getMinutes()).padStart(2, '0')}`,
+  })
+  list.sort((a, b) => b.combo - a.combo)
+  const top10 = list.slice(0, 10)
+  try { localStorage.setItem(LEADERBOARD_KEY, JSON.stringify(top10)) } catch (e) {}
+  return top10
+}
+
+function getCurrentRank(combo: number): number {
+  if (combo < 2) return -1
+  const list = loadLeaderboard()
+  // 找到 combo 在排行榜中的位置 (1-based)
+  let rank = 1
+  for (const entry of list) {
+    if (combo > entry.combo) break
+    rank++
+  }
+  return Math.min(rank, 11) // 最多显示第11名（不在榜上）
+}
+
+export default function WordShootingMode({ words, onComplete, onBack, onAnswer, onCombo }: WordShootingModeProps) {
   const [phase, setPhase] = useState<Phase>('start')
   const [score, setScore] = useState(0)
   const [streak, setStreak] = useState(0)
   const [lives, setLives] = useState(MAX_LIVES)
-  const [timeLeft, setTimeLeft] = useState(GAME_TIME)
+  const [maxCombo, setMaxCombo] = useState(0)
+  const [comboDisplay, setComboDisplay] = useState(0)
   const [correctCount, setCorrectCount] = useState(0)
   const [showCombo, setShowCombo] = useState(false)
   const [comboText, setComboText] = useState('')
+  const [showLeaderboard, setShowLeaderboard] = useState(false)
+  const [leaderboardData, setLeaderboardData] = useState<LeaderboardEntry[]>(loadLeaderboard())
+  const [showRecord, setShowRecord] = useState(false)
+  const recordTimerRef = useRef<NodeJS.Timeout | null>(null)
 
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const phaseRef = useRef<Phase>('start')
@@ -116,7 +167,8 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
   const correctCountRef = useRef(0)
   const streakRef = useRef(0)
   const livesRef = useRef(MAX_LIVES)
-  const timeLeftRef = useRef(GAME_TIME)
+  const maxComboRef = useRef(0)
+  const comboStartTimeRef = useRef(0)
   const levelRef = useRef(1)
   const answeredRef = useRef(0)
   const targetsRef = useRef<Target[]>([])
@@ -154,7 +206,6 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
 
   const gameLoopRef = useRef<number>(0)
   const lastTimeRef = useRef(0)
-  const timerRef = useRef<NodeJS.Timeout | null>(null)
   const comboTimerRef = useRef<NodeJS.Timeout | null>(null)
 
   const shuffleArray = <T,>(arr: T[]): T[] => {
@@ -237,8 +288,9 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
     phaseRef.current = 'complete'
     setPhase('complete')
     cancelAnimationFrame(gameLoopRef.current)
-    if (timerRef.current) clearInterval(timerRef.current)
     if (correctCountRef.current >= words.length * 0.5) sounds.complete()
+    // 保存排行榜
+    saveLeaderboard(maxComboRef.current)
     onComplete(correctCountRef.current, words.length)
   }, [onComplete, words.length])
   const gameLoop = useCallback(() => {
@@ -273,6 +325,18 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
             t.showCorrect = true
             const newStreak = streakRef.current + 1
             streakRef.current = newStreak
+            // 连击追踪
+            if (newStreak === 1) comboStartTimeRef.current = now
+            if (newStreak > maxComboRef.current) {
+              maxComboRef.current = newStreak
+              setMaxCombo(newStreak)
+              setComboDisplay(newStreak)
+              ;(window as any).__comboStartTime = comboStartTimeRef.current
+              // 破纪录提示
+              setShowRecord(true)
+              if (recordTimerRef.current) clearTimeout(recordTimerRef.current)
+              recordTimerRef.current = setTimeout(() => setShowRecord(false), 1800)
+            }
             const bonus = newStreak >= 3 ? 2 : 0
             const pts = TARGET_TYPES[t.type].points + bonus
             scoreRef.current += pts; correctCountRef.current += 1; answeredRef.current += 1
@@ -295,6 +359,7 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
               setShowCombo(true); sounds.streak()
               if (comboTimerRef.current) clearTimeout(comboTimerRef.current)
               comboTimerRef.current = setTimeout(() => setShowCombo(false), 1200)
+              onCombo?.(newStreak)
             }
 
             if (answeredRef.current % 6 === 0) levelRef.current += 1
@@ -303,7 +368,8 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
             setTimeout(() => { if (phaseRef.current === 'hit') prepareQuestion() }, 1200)
           } else {
             t.showCorrect = true
-            streakRef.current = 0; setStreak(0)
+            streakRef.current = 0; setStreak(0); setComboDisplay(0)
+            livesRef.current -= 1; setLives(livesRef.current)
             sounds.wrong(); vibrate(200)
             if (onAnswer && t.wordId) onAnswer(t.wordId, false)
             explosionsRef.current.push({ x: t.x, y: t.y, time: now, color: '#ef4444', text: '❌' })
@@ -311,6 +377,7 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
             spawnParticles(t.x, t.y, 15, '#ef4444', 'spark', 3)
             // 显示正确靶子
             targetsRef.current.forEach(tgt => { if (tgt.isCorrect) tgt.showCorrect = true })
+            if (livesRef.current <= 0) { setTimeout(() => endGame(), 800); return }
             phaseRef.current = 'miss'; setPhase('miss')
             setTimeout(() => { if (phaseRef.current === 'miss') prepareQuestion() }, 1500)
           }
@@ -338,7 +405,7 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
       // 脱靶：飞出底部（弹弓下方）
       if (proj.active && proj.y > GROUND_Y + 40) {
         proj.active = false
-        streakRef.current = 0; setStreak(0)
+        streakRef.current = 0; setStreak(0); setComboDisplay(0)
         sounds.wrong(); vibrate(100)
         livesRef.current -= 1; setLives(livesRef.current)
         targetsRef.current.forEach(t => { if (t.isCorrect) t.showCorrect = true })
@@ -1798,7 +1865,8 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
   // 开始游戏
   const startGame = useCallback(() => {
     scoreRef.current = 0; correctCountRef.current = 0; streakRef.current = 0
-    livesRef.current = MAX_LIVES; timeLeftRef.current = GAME_TIME
+    livesRef.current = MAX_LIVES; maxComboRef.current = 0
+    comboStartTimeRef.current = 0
     levelRef.current = 1; answeredRef.current = 0
     targetsRef.current = []; explosionsRef.current = []
     projectileTrailRef.current = []; particlesRef.current = []
@@ -1807,7 +1875,8 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
     animTimeRef.current = 0
 
     setScore(0); setCorrectCount(0); setStreak(0)
-    setLives(MAX_LIVES); setTimeLeft(GAME_TIME); setShowCombo(false)
+    setLives(MAX_LIVES); setMaxCombo(0); setComboDisplay(0); setShowCombo(false); setShowRecord(false)
+    setLeaderboardData(loadLeaderboard())
 
     const canvas = canvasRef.current
     if (canvas) { canvas.width = CANVAS_W; canvas.height = CANVAS_H }
@@ -1817,15 +1886,7 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
 
     if (gameLoopRef.current) cancelAnimationFrame(gameLoopRef.current)
     gameLoopRef.current = requestAnimationFrame(gameLoop)
-
-    if (timerRef.current) clearInterval(timerRef.current)
-    timerRef.current = setInterval(() => {
-      if (phaseRef.current === 'complete') return
-      timeLeftRef.current -= 1
-      setTimeLeft(timeLeftRef.current)
-      if (timeLeftRef.current <= 0) endGame()
-    }, 1000)
-  }, [gameLoop, prepareQuestion, endGame, initClouds])
+  }, [gameLoop, prepareQuestion, initClouds])
 
   // 获取 canvas 坐标
   const getCanvasPos = useCallback((clientX: number, clientY: number) => {
@@ -1903,8 +1964,8 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
   useEffect(() => {
     return () => {
       if (gameLoopRef.current) cancelAnimationFrame(gameLoopRef.current)
-      if (timerRef.current) clearInterval(timerRef.current)
       if (comboTimerRef.current) clearTimeout(comboTimerRef.current)
+      if (recordTimerRef.current) clearTimeout(recordTimerRef.current)
     }
   }, [])
 
@@ -1940,9 +2001,9 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
                   { icon: '📖', text: '跨过面前的河，命中对岸的英文靶子' },
                   { icon: '🔄', text: '碰到墙壁会反弹，利用反弹打到角落靶子！' },
                   { icon: '⭐', text: '普通靶 1 分 · 金靶 2 分 · 钻石靶 3 分' },
-                  { icon: '❤️', text: '5 条命，落地扣 1 条' },
+                  { icon: '❤️', text: '5 条命，脱靶扣 1 条，扣完结束' },
                   { icon: '🔥', text: '连续命中触发连击加倍得分！' },
-                  { icon: '⏰', text: '限时 90 秒，挑战你的极限' },
+                  { icon: '🏆', text: '挑战最高连击数，冲击排行榜！' },
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2">
                     <span className="text-base mt-0.5 shrink-0">{item.icon}</span>
@@ -1979,7 +2040,7 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
           <div className="relative p-8">
             <span className="text-7xl mb-3 block">{pct >= 80 ? '🏆' : pct >= 50 ? '🎉' : '💪'}</span>
             <h2 className="text-2xl font-black text-white drop-shadow-lg mb-1">
-              {timeLeftRef.current <= 0 ? '⏰ 时间到！' : '🏹 弹射完成！'}
+              🏹 弹射完成！
             </h2>
             <p className="text-white/70 text-sm mb-5">精彩表现！</p>
 
@@ -2027,31 +2088,47 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
   // ===== 游戏界面 =====
   return (
     <div className="max-w-md mx-auto relative select-none">
-      {/* 顶部信息栏 */}
-      <div className="flex justify-between items-center mb-2">
-        <div className="flex items-center gap-0.5">
+      {/* 顶部信息栏：生命值 + 连击大字居中 + 得分 + 排行 */}
+      <div className="relative flex items-center justify-between mb-1.5 overflow-hidden" style={{ height: '3.5rem' }}>
+        {/* 生命值 */}
+        <div className="flex items-center gap-0.5 z-10">
           {Array.from({ length: MAX_LIVES }).map((_, i) => (
             <span key={i} className={`text-base transition-all duration-300 ${i < lives ? 'drop-shadow' : 'grayscale opacity-30'} ${i < lives && lives <= 2 ? 'animate-pulse' : ''}`}>
               {i < lives ? '❤️' : '🖤'}
             </span>
           ))}
         </div>
-        <div className={`flex items-center gap-1 px-3 py-1.5 rounded-full font-bold text-sm shadow-sm ${
-          timeLeft <= 10 ? 'bg-red-100 text-red-600 animate-pulse' :
-          timeLeft <= 20 ? 'bg-yellow-100 text-yellow-700' : 'bg-white/80 text-blue-700'
-        }`}>⏰ {timeLeft}s</div>
-        <div className="flex items-center gap-1 bg-white/80 px-3 py-1.5 rounded-full shadow-sm">
-          <span className="text-sm font-black text-amber-600">⭐ {score}</span>
+        {/* 连击数（绝对居中，限宽防溢出） */}
+        <div className="absolute left-1/2 -translate-x-1/2 overflow-hidden" style={{ maxWidth: '50%' }}>
+          <span
+            key={comboDisplay}
+            className={`block font-black tracking-tighter leading-[0.85] whitespace-nowrap transition-all duration-200 ${
+              comboDisplay >= 8 ? 'text-7xl bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 bg-clip-text text-transparent drop-shadow-[0_0_12px_rgba(236,72,153,0.5)]' :
+              comboDisplay >= 5 ? 'text-6xl bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(249,115,22,0.4)]' :
+              comboDisplay >= 3 ? 'text-4xl text-orange-500 drop-shadow-[0_0_8px_rgba(249,115,22,0.3)]' :
+              comboDisplay >= 1 ? 'text-2xl text-yellow-600' :
+              'text-2xl text-gray-300'
+            } animate-combo-pop`}
+          >
+            🔥 {comboDisplay > 0 ? comboDisplay : '0'}
+          </span>
         </div>
-      </div>
-
-      {/* 时间条 */}
-      <div className="mb-2 h-2 rounded-full bg-gray-200/50 overflow-hidden shadow-inner">
-        <div className={`h-full rounded-full transition-all duration-1000 ease-linear ${
-          timeLeft > 20 ? 'bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400' :
-          timeLeft > 10 ? 'bg-gradient-to-r from-yellow-400 via-orange-400 to-red-400' :
-          'bg-gradient-to-r from-red-500 via-red-600 to-red-700 animate-pulse'
-        }`} style={{ width: `${(timeLeft / GAME_TIME) * 100}%` }} />
+        {/* 得分 + 排行名次 */}
+        <div className="flex items-center gap-1.5 z-10">
+          <div className="flex items-center gap-1 bg-white/80 px-3 py-1 rounded-full shadow-sm">
+            <span className="text-sm font-black text-amber-600">⭐ {score}</span>
+          </div>
+          <button
+            onClick={() => { setLeaderboardData(loadLeaderboard()); setShowLeaderboard(true) }}
+            className="flex items-center gap-1 px-2 py-1 rounded-full bg-white/80 shadow-sm hover:bg-white hover:scale-105 transition-all text-xs font-bold text-gray-500"
+            title="查看排行榜"
+          >
+            🏆 {(() => {
+              const rank = getCurrentRank(maxCombo)
+              return rank > 0 && rank <= 10 ? `#${rank}` : '-'
+            })()}
+          </button>
+        </div>
       </div>
 
       {/* 当前题目 */}
@@ -2063,17 +2140,6 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
           <h2 className="text-xl font-black drop-shadow-lg tracking-wide">{currentMeaningRef.current}</h2>
         </div>
       </div>
-
-      {/* 连击 */}
-      {streak >= 2 && (
-        <div className="text-center mb-1">
-          <span className={`inline-flex items-center gap-1 px-4 py-1 rounded-full text-white font-bold text-xs shadow-lg transition-all ${
-            streak >= 6 ? 'bg-gradient-to-r from-red-500 to-pink-500 animate-pulse scale-110' :
-            streak >= 4 ? 'bg-gradient-to-r from-orange-500 to-red-500 scale-105' :
-            'bg-gradient-to-r from-yellow-500 to-orange-500'
-          }`}>🔥 ×{streak} 连中</span>
-        </div>
-      )}
 
       {/* 画布 */}
       <div className="relative rounded-xl overflow-hidden shadow-2xl ring-1 ring-black/10" style={{ boxShadow: '0 4px 20px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.1)' }}>
@@ -2099,7 +2165,75 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
             </div>
           </div>
         )}
+        {/* 破纪录提示 */}
+        {showRecord && (
+          <div className="absolute top-24 left-1/2 transform -translate-x-1/2 z-50 animate-bounce-in pointer-events-none">
+            <div className="bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-400 text-white px-6 py-3 rounded-2xl shadow-2xl border-2 border-yellow-300/50 flex items-center gap-2">
+              <span className="text-2xl">🏆</span>
+              <div>
+                <p className="text-sm font-black drop-shadow-md">New Record!</p>
+                <p className="text-xs opacity-90">最高连击 {maxCombo}</p>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
+
+      {/* 排行榜弹窗 */}
+      {showLeaderboard && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" onClick={() => setShowLeaderboard(false)} />
+          <div className="relative bg-white rounded-2xl shadow-2xl max-w-sm w-full animate-bounce-in overflow-hidden">
+            <div className="bg-gradient-to-r from-purple-600 via-pink-500 to-orange-500 p-4 text-white text-center">
+              <span className="text-3xl mb-1 block">🏆</span>
+              <h2 className="text-xl font-black">Combo Leaderboard</h2>
+              <p className="text-xs opacity-80">Top 10 Players</p>
+            </div>
+            <div className="p-4 max-h-[360px] overflow-y-auto">
+              {leaderboardData.length === 0 ? (
+                <div className="text-center py-8 text-gray-400">
+                  <span className="text-4xl block mb-2">🎯</span>
+                  <p className="text-sm">No records yet!</p>
+                  <p className="text-xs">Be the first to make a combo!</p>
+                </div>
+              ) : (
+                <div className="space-y-2">
+                  {leaderboardData.map((entry, idx) => (
+                    <div key={idx} className={`flex items-center gap-3 p-2.5 rounded-xl ${
+                      idx === 0 ? 'bg-gradient-to-r from-yellow-100 to-amber-100 border border-yellow-300' :
+                      idx === 1 ? 'bg-gray-100 border border-gray-200' :
+                      idx === 2 ? 'bg-orange-50 border border-orange-200' :
+                      'bg-gray-50'
+                    }`}>
+                      <span className={`text-lg font-black w-8 text-center ${
+                        idx === 0 ? 'text-yellow-500' : idx === 1 ? 'text-gray-400' : idx === 2 ? 'text-orange-400' : 'text-gray-300'
+                      }`}>
+                        {idx === 0 ? '🥇' : idx === 1 ? '🥈' : idx === 2 ? '🥉' : `#${idx + 1}`}
+                      </span>
+                      <div className="flex-1 min-w-0">
+                        <p className="text-sm font-bold text-gray-800 truncate">{entry.name}</p>
+                        <p className="text-xs text-gray-400">{entry.date}</p>
+                      </div>
+                      <div className="text-right">
+                        <p className="text-lg font-black text-orange-500">🔥 ×{entry.combo}</p>
+                        {entry.time > 0 && <p className="text-xs text-gray-400">{entry.time}s</p>}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+            <div className="p-3 border-t bg-gray-50">
+              <button
+                onClick={() => setShowLeaderboard(false)}
+                className="w-full bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2.5 rounded-xl transition-colors"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* 底部提示 */}
       <div className="flex justify-between items-center mt-2.5 px-1">
@@ -2109,7 +2243,9 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer }
         }`}>
           {phase === 'aiming' ? '🎯 松手发射！' : '👇 向下拖拽弩弦发射'}
         </span>
-        <span className="text-xs text-gray-400 font-medium">命中 {correctCountRef.current}</span>
+        <span className="text-xs text-gray-400 font-medium">
+          🏆 最佳 {maxCombo > 0 ? maxCombo : '-'}
+        </span>
       </div>
     </div>
   )

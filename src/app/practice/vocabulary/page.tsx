@@ -10,8 +10,6 @@ import {
   getRandomEncouragement,
   PlayerStats,
   Achievement,
-  getCurrentLevel,
-  getLevelProgress
 } from '@/lib/gameification'
 import {
   WordPerformance,
@@ -34,6 +32,7 @@ import WordFishingMode from '@/components/practice/WordFishingMode'
 import WordScrambleMode from '@/components/practice/WordScrambleMode'
 import AchievementPopup from '@/components/gameification/AchievementPopup'
 import PointsReward from '@/components/gameification/PointsReward'
+import EnglishPet from '@/components/gameification/EnglishPet'
 import BackButton from '@/components/ui/BackButton'
 import Skeleton, { WordCardSkeleton } from '@/components/ui/Skeleton'
 import { updateDailyStats } from '@/lib/daily-stats'
@@ -105,6 +104,9 @@ export default function VocabularyPractice() {
   const showingAchievementRef = useRef(false)
   const [pointsReward, setPointsReward] = useState<{ points: number; message: string; icon: string } | null>(null)
   const [points, setPoints] = useState(0)
+  const [petCorrectCount, setPetCorrectCount] = useState(0)
+  const [petWrongCount, setPetWrongCount] = useState(0)
+  const [petCombo, setPetCombo] = useState(0)
   const [stats, setStats] = useState<PlayerStats>({
     totalWords: 0,
     correctAnswers: 0,
@@ -274,14 +276,16 @@ export default function VocabularyPractice() {
   // 跨模式的 sessionStreak 追踪（用于正确触发连击类成就）
   const sessionStreakRef = useRef(0)
 
-  // 全模块通用：记录答题 + 自动触发成就检查
+  // 全模块通用：记录答题 + 自动触发成就检查 + 宠物事件
   const handleModeAnswer = (wordId: string, isCorrect: boolean, mode?: string) => {
     recordAnswer(wordId, isCorrect)
     if (isCorrect) {
       sessionStreakRef.current += 1
+      setPetCorrectCount(prev => prev + 1)
       triggerAchievements(sessionStreakRef.current, 500)
     } else {
       sessionStreakRef.current = 0
+      setPetWrongCount(prev => prev + 1)
     }
   }
 
@@ -465,8 +469,6 @@ export default function VocabularyPractice() {
   }
 
   const isCorrect = currentWord ? selectedAnswer === currentWord.meaning : false
-  const currentLevel = getCurrentLevel(points)
-  const levelProgress = getLevelProgress(points)
   const performanceSummary = getPerformanceSummary(performances)
 
   // 范围选择界面
@@ -530,21 +532,10 @@ export default function VocabularyPractice() {
           </div>
         </div>
 
-        {/* 积分和等级 */}
+        {/* 电子宠物（替换积分等级） */}
         <div className="max-w-md mx-auto mb-6">
-          <div className="card">
-            <div className="flex items-center gap-4">
-              <span className="text-4xl">{currentLevel.icon}</span>
-              <div className="flex-1">
-                <div className="flex justify-between items-center mb-1">
-                  <span className="font-bold">Lv.{currentLevel.level} {currentLevel.title}</span>
-                  <span className="text-blue-600 font-semibold">{points} 积分</span>
-                </div>
-                <div className="progress-bar h-2">
-                  <div className="progress-fill" style={{ width: `${levelProgress}%` }}></div>
-                </div>
-              </div>
-            </div>
+          <div className="card bg-gradient-to-r from-blue-50 via-purple-50 to-pink-50">
+            <EnglishPet points={points} onCorrect={petCorrectCount} onWrong={petWrongCount} mode="inline" />
           </div>
         </div>
 
@@ -573,6 +564,7 @@ export default function VocabularyPractice() {
         onBack={() => setPracticeMode(null)}
         onAnswer={handleModeAnswer}
       />
+      <EnglishPet points={points} onCorrect={petCorrectCount} onWrong={petWrongCount} mode="floating" />
       </>
     )
   }
@@ -592,6 +584,7 @@ export default function VocabularyPractice() {
         onBack={() => setPracticeMode(null)}
         onAnswer={handleModeAnswer}
       />
+      <EnglishPet points={points} onCorrect={petCorrectCount} onWrong={petWrongCount} mode="floating" />
       </>
     )
   }
@@ -625,6 +618,7 @@ export default function VocabularyPractice() {
           onAnswer={handleModeAnswer}
           paused={!!unlockedAchievement}
         />
+        <EnglishPet points={points} onCorrect={petCorrectCount} onWrong={petWrongCount} mode="floating" />
       </main>
     )
   }
@@ -668,6 +662,7 @@ export default function VocabularyPractice() {
           onBack={() => setPracticeMode(null)}
           onAnswer={handleModeAnswer}
         />
+        <EnglishPet points={points} onCorrect={petCorrectCount} onWrong={petWrongCount} mode="floating" />
       </main>
     )
   }
@@ -702,7 +697,11 @@ export default function VocabularyPractice() {
           }}
           onBack={() => setPracticeMode(null)}
           onAnswer={(wordId, isCorrect) => handleModeAnswer(wordId, isCorrect, 'shooting')}
+          onCombo={(combo) => setPetCombo(combo)}
         />
+
+        {/* 电子宠物（右下角悬浮） */}
+        <EnglishPet points={points} onCorrect={petCorrectCount} onWrong={petWrongCount} onCombo={petCombo} mode="floating" />
       </main>
     )
   }
@@ -738,6 +737,7 @@ export default function VocabularyPractice() {
           onBack={() => setPracticeMode(null)}
           onAnswer={(wordId, isCorrect) => handleModeAnswer(wordId, isCorrect, 'fishing')}
         />
+        <EnglishPet points={points} onCorrect={petCorrectCount} onWrong={petWrongCount} mode="floating" />
       </main>
     )
   }
@@ -773,6 +773,7 @@ export default function VocabularyPractice() {
           onBack={() => setPracticeMode(null)}
           onAnswer={(wordId, isCorrect) => handleModeAnswer(wordId, isCorrect, 'scramble')}
         />
+        <EnglishPet points={points} onCorrect={petCorrectCount} onWrong={petWrongCount} mode="floating" />
       </main>
     )
   }
@@ -898,21 +899,10 @@ export default function VocabularyPractice() {
         <p className="text-gray-600">{gameScope?.label} · 经典模式</p>
       </header>
 
-      {/* 积分和等级 */}
+      {/* 电子宠物（替换积分等级） */}
       <div className="max-w-md mx-auto mb-4">
-        <div className="card py-3">
-          <div className="flex items-center gap-3">
-            <span className="text-2xl">{currentLevel.icon}</span>
-            <div className="flex-1">
-              <div className="flex justify-between items-center text-sm">
-                <span className="font-medium">Lv.{currentLevel.level}</span>
-                <span className="text-blue-600">{points} 积分</span>
-              </div>
-              <div className="progress-bar h-1.5 mt-1">
-                <div className="progress-fill" style={{ width: `${levelProgress}%` }}></div>
-              </div>
-            </div>
-          </div>
+        <div className="card py-3 bg-gradient-to-r from-blue-50 via-purple-50 to-pink-50">
+          <EnglishPet points={points} onCorrect={petCorrectCount} onWrong={petWrongCount} mode="inline" />
         </div>
       </div>
 
