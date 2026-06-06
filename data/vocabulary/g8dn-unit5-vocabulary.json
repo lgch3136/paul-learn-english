@@ -1,0 +1,382 @@
+{
+  "unit": "g8dn-unit5",
+  "unit_title": "Good manners",
+  "theme": "礼仪与文明",
+  "vocabulary": [
+    {
+      "word_id": "g8dn_unit5_001",
+      "word": "manner",
+      "meaning": "礼貌；方式",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good manners",
+        "table manners"
+      ],
+      "sentence": "Good manners are very important.",
+      "phonetic": "/ˈmænər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_002",
+      "word": "properly",
+      "meaning": "恰当地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "behave properly",
+        "do properly"
+      ],
+      "sentence": "Learn to behave properly in public.",
+      "phonetic": "/ˈprɒpərli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_003",
+      "word": "shake",
+      "meaning": "握手",
+      "part_of_speech": "verb",
+      "phrase": [
+        "shake hands",
+        "shake sb's hand"
+      ],
+      "sentence": "People shake hands when they meet.",
+      "phonetic": "/ʃeɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_004",
+      "word": "kiss",
+      "meaning": "亲吻",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "give a kiss",
+        "kiss goodbye"
+      ],
+      "sentence": "In some countries, people kiss when they meet.",
+      "phonetic": "/kɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_005",
+      "word": "close",
+      "meaning": "亲密的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "close friend",
+        "close to"
+      ],
+      "sentence": "They are very close friends.",
+      "phonetic": "/kləʊs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_006",
+      "word": "conversation",
+      "meaning": "交谈",
+      "part_of_speech": "noun",
+      "phrase": [
+        "start a conversation",
+        "have a conversation"
+      ],
+      "sentence": "Avoid talking about age in conversation.",
+      "phonetic": "/ˌkɒnvərˈseɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_007",
+      "word": "avoid",
+      "meaning": "避免",
+      "part_of_speech": "verb",
+      "phrase": [
+        "avoid doing",
+        "avoid mistakes"
+      ],
+      "sentence": "Avoid talking loudly in public.",
+      "phonetic": "/əˈvɔɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_008",
+      "word": "subject",
+      "meaning": "话题",
+      "part_of_speech": "noun",
+      "phrase": [
+        "change the subject",
+        "sensitive subject"
+      ],
+      "sentence": "Age is a sensitive subject for some people.",
+      "phonetic": "/ˈsʌbdʒɪkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_009",
+      "word": "behave",
+      "meaning": "表现",
+      "part_of_speech": "verb",
+      "phrase": [
+        "behave well",
+        "behave yourself"
+      ],
+      "sentence": "Please behave yourself in the library.",
+      "phonetic": "/bɪˈheɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_010",
+      "word": "public",
+      "meaning": "公共的",
+      "part_of_speech": "adj/noun",
+      "phrase": [
+        "in public",
+        "public place"
+      ],
+      "sentence": "Don't shout in public.",
+      "phonetic": "/ˈpʌblɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_011",
+      "word": "push",
+      "meaning": "推",
+      "part_of_speech": "verb",
+      "phrase": [
+        "push in",
+        "push the door"
+      ],
+      "sentence": "Don't push in. Wait in line.",
+      "phonetic": "/pʊʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_012",
+      "word": "queue",
+      "meaning": "排队",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "queue up",
+        "stand in a queue"
+      ],
+      "sentence": "British people like to queue.",
+      "phonetic": "/kjuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_013",
+      "word": "wait",
+      "meaning": "等待",
+      "part_of_speech": "verb",
+      "phrase": [
+        "wait in line",
+        "wait for"
+      ],
+      "sentence": "Please wait for your turn.",
+      "phonetic": "/weɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_014",
+      "word": "excuse",
+      "meaning": "原谅",
+      "part_of_speech": "verb",
+      "phrase": [
+        "excuse me",
+        "make an excuse"
+      ],
+      "sentence": "Excuse me, could you please move?",
+      "phonetic": "/ɪkˈskjuːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_015",
+      "word": "loudly",
+      "meaning": "大声地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "talk loudly",
+        "laugh loudly"
+      ],
+      "sentence": "Don't talk loudly in the library.",
+      "phonetic": "/ˈlaʊdli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_016",
+      "word": "touch",
+      "meaning": "触摸",
+      "part_of_speech": "verb",
+      "phrase": [
+        "do not touch",
+        "keep in touch"
+      ],
+      "sentence": "Please do not touch the paintings.",
+      "phonetic": "/tʌtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_017",
+      "word": "risk",
+      "meaning": "风险",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take risks",
+        "at risk"
+      ],
+      "sentence": "Don't take risks with your health.",
+      "phonetic": "/rɪsk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_018",
+      "word": "express",
+      "meaning": "表达",
+      "part_of_speech": "verb",
+      "phrase": [
+        "express yourself",
+        "express thanks"
+      ],
+      "sentence": "We use \"please\" to express politeness.",
+      "phonetic": "/ɪkˈspres/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_019",
+      "word": "explain",
+      "meaning": "解释",
+      "part_of_speech": "verb",
+      "phrase": [
+        "explain to",
+        "explain why"
+      ],
+      "sentence": "Can you explain the rules to me?",
+      "phonetic": "/ɪkˈspleɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_020",
+      "word": "greet",
+      "meaning": "问候",
+      "part_of_speech": "verb",
+      "phrase": [
+        "greet each other",
+        "greet with a smile"
+      ],
+      "sentence": "How do people greet each other in your country?",
+      "phonetic": "/ɡriːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_021",
+      "word": "host",
+      "meaning": "主人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "host family",
+        "party host"
+      ],
+      "sentence": "The host should make guests feel welcome.",
+      "phonetic": "/həʊst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_022",
+      "word": "guest",
+      "meaning": "客人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "welcome guest",
+        "guest room"
+      ],
+      "sentence": "Guests should arrive on time.",
+      "phonetic": "/ɡest/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_023",
+      "word": "impolite",
+      "meaning": "不礼貌的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "impolite behaviour",
+        "very impolite"
+      ],
+      "sentence": "It is impolite to interrupt others.",
+      "phonetic": "/ˌɪmpəˈlaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_024",
+      "word": "elderly",
+      "meaning": "年长的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "elderly people",
+        "the elderly"
+      ],
+      "sentence": "We should respect elderly people.",
+      "phonetic": "/ˈeldərli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit5_025",
+      "word": "tip",
+      "meaning": "小费；建议",
+      "part_of_speech": "noun",
+      "phrase": [
+        "leave a tip",
+        "useful tip"
+      ],
+      "sentence": "In some countries, you should leave a tip.",
+      "phonetic": "/tɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "unit": "g5dn-unit5",
+  "unit_title": "Helping our parents",
+  "theme": "家务劳动",
+  "vocabulary": [
+    {
+      "word_id": "g5dn_unit5_001",
+      "word": "clean",
+      "meaning": "打扫",
+      "part_of_speech": "verb",
+      "phrase": [
+        "clean the room",
+        "clean up"
+      ],
+      "sentence": "I help clean the house.",
+      "phonetic": "/kliːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_002",
+      "word": "sweep",
+      "meaning": "扫",
+      "part_of_speech": "verb",
+      "phrase": [
+        "sweep the floor",
+        "sweep away"
+      ],
+      "sentence": "I sweep the floor every day.",
+      "phonetic": "/swiːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_003",
+      "word": "floor",
+      "meaning": "地板",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sweep the floor",
+        "on the floor"
+      ],
+      "sentence": "The floor is very dirty.",
+      "phonetic": "/flɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_004",
+      "word": "wash",
+      "meaning": "洗",
+      "part_of_speech": "verb",
+      "phrase": [
+        "wash dishes",
+        "wash clothes"
+      ],
+      "sentence": "I wash the dishes after dinner.",
+      "phonetic": "/wɒʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_005",
+      "word": "dish",
+      "meaning": "盘子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "wash dishes",
+        "a dish of"
+      ],
+      "sentence": "Let me help you wash the dishes.",
+      "phonetic": "/dɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_006",
+      "word": "clothes",
+      "meaning": "衣服",
+      "part_of_speech": "noun",
+      "phrase": [
+        "wash clothes",
+        "put on clothes"
+      ],
+      "sentence": "She is washing clothes.",
+      "phonetic": "/kləʊðz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_007",
+      "word": "water",
+      "meaning": "浇水",
+      "part_of_speech": "verb",
+      "phrase": [
+        "water the flowers",
+        "water plants"
+      ],
+      "sentence": "I water the flowers every morning.",
+      "phonetic": "/ˈwɔːtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_008",
+      "word": "plant",
+      "meaning": "植物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "water plants",
+        "grow plants"
+      ],
+      "sentence": "There are many plants in the garden.",
+      "phonetic": "/plɑːnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_009",
+      "word": "garden",
+      "meaning": "花园",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the garden",
+        "garden party"
+      ],
+      "sentence": "Dad is working in the garden.",
+      "phonetic": "/ˈɡɑːrdn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_010",
+      "word": "busy",
+      "meaning": "忙碌的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "busy doing",
+        "very busy"
+      ],
+      "sentence": "My parents are very busy.",
+      "phonetic": "/ˈbɪzi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_011",
+      "word": "parent",
+      "meaning": "父母",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my parents",
+        "good parent"
+      ],
+      "sentence": "I want to help my parents.",
+      "phonetic": "/ˈpeərənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_012",
+      "word": "homework",
+      "meaning": "家庭作业",
+      "part_of_speech": "noun",
+      "phrase": [
+        "do homework",
+        "finish homework"
+      ],
+      "sentence": "I finish my homework first.",
+      "phonetic": "/ˈhəʊmwɜːrk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_013",
+      "word": "breakfast",
+      "meaning": "早饭",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have breakfast",
+        "make breakfast"
+      ],
+      "sentence": "I help make breakfast.",
+      "phonetic": "/ˈbrekfəst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_014",
+      "word": "tidy",
+      "meaning": "整理",
+      "part_of_speech": "verb/adj",
+      "phrase": [
+        "tidy up",
+        "keep tidy"
+      ],
+      "sentence": "I tidy my room on weekends.",
+      "phonetic": "/ˈtaɪdi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_015",
+      "word": "mess",
+      "meaning": "混乱",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a mess",
+        "in a mess"
+      ],
+      "sentence": "Don't make a mess in the kitchen.",
+      "phonetic": "/mes/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_016",
+      "word": "rubbish",
+      "meaning": "垃圾",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take out the rubbish",
+        "rubbish bin"
+      ],
+      "sentence": "Please take out the rubbish.",
+      "phonetic": "/ˈrʌbɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_017",
+      "word": "bin",
+      "meaning": "垃圾桶",
+      "part_of_speech": "noun",
+      "phrase": [
+        "rubbish bin",
+        "throw in the bin"
+      ],
+      "sentence": "Put it in the bin.",
+      "phonetic": "/bɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_018",
+      "word": "together",
+      "meaning": "一起",
+      "part_of_speech": "adv",
+      "phrase": [
+        "work together",
+        "get together"
+      ],
+      "sentence": "We do housework together.",
+      "phonetic": "/təˈɡeðər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_019",
+      "word": "evening",
+      "meaning": "晚上",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the evening",
+        "good evening"
+      ],
+      "sentence": "In the evening, we watch TV together.",
+      "phonetic": "/ˈiːvnɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_020",
+      "word": "grow",
+      "meaning": "种植；生长",
+      "part_of_speech": "verb",
+      "phrase": [
+        "grow vegetables",
+        "grow up"
+      ],
+      "sentence": "We grow flowers in the garden.",
+      "phonetic": "/ɡrəʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_021",
+      "word": "housework",
+      "meaning": "家务",
+      "part_of_speech": "noun",
+      "phrase": [
+        "do housework",
+        "help with housework"
+      ],
+      "sentence": "I often help with housework.",
+      "phonetic": "/ˈhaʊswɜːrk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_022",
+      "word": "morning",
+      "meaning": "早上",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the morning",
+        "every morning"
+      ],
+      "sentence": "I get up early in the morning.",
+      "phonetic": "/ˈmɔːrnɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_023",
+      "word": "afternoon",
+      "meaning": "下午",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the afternoon",
+        "this afternoon"
+      ],
+      "sentence": "I do housework in the afternoon.",
+      "phonetic": "/ˌɑːftərˈnuːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_024",
+      "word": "free",
+      "meaning": "空闲的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "free time",
+        "set free"
+      ],
+      "sentence": "Are you free this afternoon?",
+      "phonetic": "/friː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit5_025",
+      "word": "enjoy",
+      "meaning": "享受",
+      "part_of_speech": "verb",
+      "phrase": [
+        "enjoy doing",
+        "enjoy life"
+      ],
+      "sentence": "I enjoy helping my parents.",
+      "phonetic": "/ɪnˈdʒɔɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

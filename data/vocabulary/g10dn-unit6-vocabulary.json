@@ -1,0 +1,382 @@
+{
+  "unit": "g10dn-unit6",
+  "unit_title": "Tomorrow's world",
+  "theme": "未来世界",
+  "vocabulary": [
+    {
+      "word_id": "g10dn_unit6_001",
+      "word": "virtual",
+      "meaning": "虚拟的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "virtual reality",
+        "virtual world"
+      ],
+      "sentence": "Virtual reality is changing our world.",
+      "phonetic": "/ˈvɜːrtʃuəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_002",
+      "word": "reality",
+      "meaning": "现实",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in reality",
+        "virtual reality"
+      ],
+      "sentence": "VR means virtual reality.",
+      "phonetic": "/riˈæləti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_003",
+      "word": "network",
+      "meaning": "网络",
+      "part_of_speech": "noun",
+      "phrase": [
+        "social network",
+        "computer network"
+      ],
+      "sentence": "The Internet is a global network.",
+      "phonetic": "/ˈnetwɜːrk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_004",
+      "word": "software",
+      "meaning": "软件",
+      "part_of_speech": "noun",
+      "phrase": [
+        "computer software",
+        "software program"
+      ],
+      "sentence": "I need to update the software.",
+      "phonetic": "/ˈsɒftweər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_005",
+      "word": "programming",
+      "meaning": "编程",
+      "part_of_speech": "noun",
+      "phrase": [
+        "computer programming",
+        "learn programming"
+      ],
+      "sentence": "Programming is an important skill.",
+      "phonetic": "/ˈprəʊɡræmɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_006",
+      "word": "database",
+      "meaning": "数据库",
+      "part_of_speech": "noun",
+      "phrase": [
+        "online database",
+        "search the database"
+      ],
+      "sentence": "The database stores millions of records.",
+      "phonetic": "/ˈdeɪtəbeɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_007",
+      "word": "security",
+      "meaning": "安全",
+      "part_of_speech": "noun",
+      "phrase": [
+        "national security",
+        "security system"
+      ],
+      "sentence": "Online security is very important.",
+      "phonetic": "/sɪˈkjʊərəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_008",
+      "word": "hacker",
+      "meaning": "黑客",
+      "part_of_speech": "noun",
+      "phrase": [
+        "computer hacker",
+        "hacker attack"
+      ],
+      "sentence": "Hackers can break into computer systems.",
+      "phonetic": "/ˈhækər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_009",
+      "word": "virus",
+      "meaning": "病毒",
+      "part_of_speech": "noun",
+      "phrase": [
+        "computer virus",
+        "virus protection"
+      ],
+      "sentence": "My computer got a virus.",
+      "phonetic": "/ˈvaɪrəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_010",
+      "word": "digital",
+      "meaning": "数字的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "digital age",
+        "digital technology"
+      ],
+      "sentence": "We live in the digital age.",
+      "phonetic": "/ˈdɪdʒɪtl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_011",
+      "word": "remote",
+      "meaning": "远程的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "remote control",
+        "remote access"
+      ],
+      "sentence": "You can control it by remote control.",
+      "phonetic": "/rɪˈməʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_012",
+      "word": "data",
+      "meaning": "数据",
+      "part_of_speech": "noun",
+      "phrase": [
+        "big data",
+        "data analysis"
+      ],
+      "sentence": "Companies collect a lot of data.",
+      "phonetic": "/ˈdeɪtə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_013",
+      "word": "electronic",
+      "meaning": "电子的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "electronic device",
+        "electronic music"
+      ],
+      "sentence": "Electronic devices make life easier.",
+      "phonetic": "/ɪˌlekˈtrɒnɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_014",
+      "word": "automatic",
+      "meaning": "自动的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "automatic doors",
+        "fully automatic"
+      ],
+      "sentence": "The doors are automatic.",
+      "phonetic": "/ˌɔːtəˈmætɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_015",
+      "word": "advanced",
+      "meaning": "先进的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "advanced technology",
+        "highly advanced"
+      ],
+      "sentence": "Japan has very advanced robots.",
+      "phonetic": "/ədˈvɑːnst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_016",
+      "word": "artificial",
+      "meaning": "人工的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "artificial intelligence",
+        "artificial light"
+      ],
+      "sentence": "AI means artificial intelligence.",
+      "phonetic": "/ˌɑːrtɪˈfɪʃl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_017",
+      "word": "intelligence",
+      "meaning": "智力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "artificial intelligence",
+        "high intelligence"
+      ],
+      "sentence": "Artificial intelligence is the future.",
+      "phonetic": "/ɪnˈtelɪdʒəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_018",
+      "word": "predict",
+      "meaning": "预测",
+      "part_of_speech": "verb",
+      "phrase": [
+        "predict the future",
+        "hard to predict"
+      ],
+      "sentence": "Scientists predict major climate changes.",
+      "phonetic": "/prɪˈdɪkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_019",
+      "word": "forecast",
+      "meaning": "预测",
+      "part_of_speech": "noun",
+      "phrase": [
+        "weather forecast",
+        "economic forecast"
+      ],
+      "sentence": "The forecast says robots will do most jobs.",
+      "phonetic": "/ˈfɔːrkɑːst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_020",
+      "word": "imagination",
+      "meaning": "想象",
+      "part_of_speech": "noun",
+      "phrase": [
+        "use your imagination",
+        "wild imagination"
+      ],
+      "sentence": "Use your imagination to picture the future.",
+      "phonetic": "/ɪˌmædʒɪˈneɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_021",
+      "word": "innovation",
+      "meaning": "创新",
+      "part_of_speech": "noun",
+      "phrase": [
+        "technological innovation",
+        "drive innovation"
+      ],
+      "sentence": "Innovation is key to progress.",
+      "phonetic": "/ˌɪnəˈveɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_022",
+      "word": "automation",
+      "meaning": "自动化",
+      "part_of_speech": "noun",
+      "phrase": [
+        "factory automation",
+        "full automation"
+      ],
+      "sentence": "Automation will replace many jobs.",
+      "phonetic": "/ˌɔːtəˈmeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_023",
+      "word": "privacy",
+      "meaning": "隐私",
+      "part_of_speech": "noun",
+      "phrase": [
+        "personal privacy",
+        "invasion of privacy"
+      ],
+      "sentence": "Our privacy is at risk online.",
+      "phonetic": "/ˈprɪvəsi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_024",
+      "word": "ethical",
+      "meaning": "伦理的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "ethical question",
+        "ethical issue"
+      ],
+      "sentence": "Technology raises many ethical questions.",
+      "phonetic": "/ˈeθɪkl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit6_025",
+      "word": "transform",
+      "meaning": "改变",
+      "part_of_speech": "verb",
+      "phrase": [
+        "transform the world",
+        "completely transform"
+      ],
+      "sentence": "AI will transform the way we live.",
+      "phonetic": "/trænsˈfɔːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "unit": "g7dn-unit1",
+  "unit_title": "Dream homes",
+  "theme": "家居",
+  "vocabulary": [
+    {
+      "word_id": "g7dn_unit1_001",
+      "word": "dream",
+      "meaning": "梦想",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dream home"
+      ],
+      "sentence": "My dream home is by the sea.",
+      "phonetic": "/driːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_002",
+      "word": "palace",
+      "meaning": "宫殿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the Summer Palace"
+      ],
+      "sentence": "It looks like a palace.",
+      "phonetic": "/ˈpæləs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_003",
+      "word": "capital",
+      "meaning": "首都",
+      "part_of_speech": "noun",
+      "phrase": [
+        "capital city"
+      ],
+      "sentence": "Beijing is the capital of China.",
+      "phonetic": "/ˈkæpɪtl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_004",
+      "word": "mile",
+      "meaning": "英里",
+      "part_of_speech": "noun",
+      "phrase": [
+        "miles away"
+      ],
+      "sentence": "It's about five miles away.",
+      "phonetic": "/maɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_005",
+      "word": "garden",
+      "meaning": "花园",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the garden"
+      ],
+      "sentence": "We have a small garden.",
+      "phonetic": "/ˈɡɑːdn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_006",
+      "word": "flat",
+      "meaning": "公寓",
+      "part_of_speech": "noun",
+      "phrase": [
+        "live in a flat"
+      ],
+      "sentence": "I live in a flat on the 5th floor.",
+      "phonetic": "/flæt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_007",
+      "word": "balcony",
+      "meaning": "阳台",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the balcony"
+      ],
+      "sentence": "I like sitting on the balcony.",
+      "phonetic": "/ˈbælkəni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_008",
+      "word": "beach",
+      "meaning": "海滩",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the beach"
+      ],
+      "sentence": "We walked along the beach.",
+      "phonetic": "/biːtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_009",
+      "word": "sea",
+      "meaning": "大海",
+      "part_of_speech": "noun",
+      "phrase": [
+        "by the sea"
+      ],
+      "sentence": "The house is near the sea.",
+      "phonetic": "/siː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_010",
+      "word": "center",
+      "meaning": "中心",
+      "part_of_speech": "noun",
+      "phrase": [
+        "city center"
+      ],
+      "sentence": "The hotel is in the city center.",
+      "phonetic": "/ˈsentə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_011",
+      "word": "own",
+      "meaning": "自己的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "my own room"
+      ],
+      "sentence": "I want my own bedroom.",
+      "phonetic": "/əʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_012",
+      "word": "share",
+      "meaning": "分享",
+      "part_of_speech": "verb",
+      "phrase": [
+        "share with"
+      ],
+      "sentence": "I share a room with my sister.",
+      "phonetic": "/ʃeə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_013",
+      "word": "bedroom",
+      "meaning": "卧室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "clean bedroom"
+      ],
+      "sentence": "My bedroom is small but tidy.",
+      "phonetic": "/ˈbedruːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_014",
+      "word": "kitchen",
+      "meaning": "厨房",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the kitchen"
+      ],
+      "sentence": "Mom is cooking in the kitchen.",
+      "phonetic": "/ˈkɪtʃɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_015",
+      "word": "bathroom",
+      "meaning": "浴室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "clean bathroom"
+      ],
+      "sentence": "The bathroom is on the right.",
+      "phonetic": "/ˈbɑːθruːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_016",
+      "word": "living room",
+      "meaning": "客厅",
+      "part_of_speech": "noun",
+      "phrase": [
+        "spacious living room"
+      ],
+      "sentence": "We watch TV in the living room.",
+      "phonetic": "/ˈlɪvɪŋ ruːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_017",
+      "word": "sofa",
+      "meaning": "沙发",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the sofa"
+      ],
+      "sentence": "He is sleeping on the sofa.",
+      "phonetic": "/ˈsəʊfə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_018",
+      "word": "lamp",
+      "meaning": "灯",
+      "part_of_speech": "noun",
+      "phrase": [
+        "table lamp"
+      ],
+      "sentence": "Turn on the lamp, please.",
+      "phonetic": "/læmp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_019",
+      "word": "shower",
+      "meaning": "淋浴",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take a shower"
+      ],
+      "sentence": "I usually take a shower at night.",
+      "phonetic": "/ˈʃaʊə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_020",
+      "word": "machine",
+      "meaning": "机器",
+      "part_of_speech": "noun",
+      "phrase": [
+        "washing machine"
+      ],
+      "sentence": "The washing machine is broken.",
+      "phonetic": "/məˈʃiːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_021",
+      "word": "fridge",
+      "meaning": "冰箱",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the fridge"
+      ],
+      "sentence": "Put the milk in the fridge.",
+      "phonetic": "/frɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_022",
+      "word": "mirror",
+      "meaning": "镜子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "look in the mirror"
+      ],
+      "sentence": "She looked at herself in the mirror.",
+      "phonetic": "/ˈmɪrə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_023",
+      "word": "double",
+      "meaning": "双倍的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "double bed"
+      ],
+      "sentence": "I have a double bed.",
+      "phonetic": "/ˈdʌbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_024",
+      "word": "message",
+      "meaning": "消息",
+      "part_of_speech": "noun",
+      "phrase": [
+        "leave a message"
+      ],
+      "sentence": "Can I take a message?",
+      "phonetic": "/ˈmesɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit1_025",
+      "word": "invite",
+      "meaning": "邀请",
+      "part_of_speech": "verb",
+      "phrase": [
+        "invite sb to"
+      ],
+      "sentence": "I invited her to my birthday party.",
+      "phonetic": "/ɪnˈvaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

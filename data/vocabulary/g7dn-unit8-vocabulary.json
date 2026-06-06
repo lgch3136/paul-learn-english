@@ -1,0 +1,357 @@
+{
+  "unit": "g7dn-unit8",
+  "unit_title": "Pets",
+  "theme": "宠物",
+  "vocabulary": [
+    {
+      "word_id": "g7dn_unit8_001",
+      "word": "pet",
+      "meaning": "宠物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "keep a pet"
+      ],
+      "sentence": "Do you have a pet?",
+      "phonetic": "/pet/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_002",
+      "word": "mouse",
+      "meaning": "老鼠",
+      "part_of_speech": "noun",
+      "phrase": [
+        "computer mouse"
+      ],
+      "sentence": "The cat caught a mouse.",
+      "phonetic": "/maʊs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_003",
+      "word": "feed",
+      "meaning": "喂养",
+      "part_of_speech": "verb",
+      "phrase": [
+        "feed the dog"
+      ],
+      "sentence": "Please feed the fish twice a day.",
+      "phonetic": "/fiːd/",
+      "error_tags": [
+        "动词形式错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_004",
+      "word": "brush",
+      "meaning": "刷",
+      "part_of_speech": "verb",
+      "phrase": [
+        "brush the fur"
+      ],
+      "sentence": "You should brush your dog's fur.",
+      "phonetic": "/brʌʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_005",
+      "word": "fur",
+      "meaning": "毛皮",
+      "part_of_speech": "noun",
+      "phrase": [
+        "soft fur"
+      ],
+      "sentence": "The cat has soft white fur.",
+      "phonetic": "/fɜː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_006",
+      "word": "paw",
+      "meaning": "爪子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cat's paw"
+      ],
+      "sentence": "The kitten has tiny paws.",
+      "phonetic": "/pɔː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_007",
+      "word": "basket",
+      "meaning": "篮子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a basket of"
+      ],
+      "sentence": "The cat sleeps in a basket.",
+      "phonetic": "/ˈbɑːskɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_008",
+      "word": "noisy",
+      "meaning": "吵闹的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be noisy"
+      ],
+      "sentence": "The classroom is very noisy.",
+      "phonetic": "/ˈnɔɪzi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_009",
+      "word": "gentle",
+      "meaning": "温柔的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "a gentle touch"
+      ],
+      "sentence": "Be gentle with the baby rabbit.",
+      "phonetic": "/ˈdʒentl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_010",
+      "word": "touch",
+      "meaning": "触摸",
+      "part_of_speech": "verb",
+      "phrase": [
+        "don't touch"
+      ],
+      "sentence": "Don't touch the painting.",
+      "phonetic": "/tʌtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_011",
+      "word": "rhyme",
+      "meaning": "押韵诗",
+      "part_of_speech": "noun",
+      "phrase": [
+        "nursery rhyme"
+      ],
+      "sentence": "Can you recite this rhyme?",
+      "phonetic": "/raɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_012",
+      "word": "care",
+      "meaning": "照顾",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take care of"
+      ],
+      "sentence": "Please take care of my dog.",
+      "phonetic": "/keə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_013",
+      "word": "anywhere",
+      "meaning": "任何地方",
+      "part_of_speech": "adv",
+      "phrase": [
+        "go anywhere"
+      ],
+      "sentence": "You can sit anywhere.",
+      "phonetic": "/ˈeniweə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_014",
+      "word": "repeat",
+      "meaning": "重复",
+      "part_of_speech": "verb",
+      "phrase": [
+        "repeat after me"
+      ],
+      "sentence": "Please repeat the sentence.",
+      "phonetic": "/rɪˈpiːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_015",
+      "word": "agree",
+      "meaning": "同意",
+      "part_of_speech": "verb",
+      "phrase": [
+        "agree with"
+      ],
+      "sentence": "I agree with you.",
+      "phonetic": "/əˈɡriː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_016",
+      "word": "weight",
+      "meaning": "重量",
+      "part_of_speech": "noun",
+      "phrase": [
+        "lose weight"
+      ],
+      "sentence": "The cat is putting on weight.",
+      "phonetic": "/weɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_017",
+      "word": "goldfish",
+      "meaning": "金鱼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "keep goldfish"
+      ],
+      "sentence": "I have two goldfish.",
+      "phonetic": "/ˈɡəʊldfɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_018",
+      "word": "trouble",
+      "meaning": "麻烦",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in trouble"
+      ],
+      "sentence": "He is always in trouble.",
+      "phonetic": "/ˈtrʌbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_019",
+      "word": "bubble",
+      "meaning": "气泡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "blow bubbles"
+      ],
+      "sentence": "The fish blows bubbles.",
+      "phonetic": "/ˈbʌbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_020",
+      "word": "fight",
+      "meaning": "打架",
+      "part_of_speech": "verb",
+      "phrase": [
+        "fight with"
+      ],
+      "sentence": "The two dogs are fighting.",
+      "phonetic": "/faɪt/",
+      "error_tags": [
+        "动词形式错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_021",
+      "word": "hutch",
+      "meaning": "兔笼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "rabbit hutch"
+      ],
+      "sentence": "The rabbit lives in a hutch.",
+      "phonetic": "/hʌtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_022",
+      "word": "end",
+      "meaning": "结束",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at the end of"
+      ],
+      "sentence": "We'll have a test at the end of the month.",
+      "phonetic": "/end/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_023",
+      "word": "stick",
+      "meaning": "棍子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a walking stick"
+      ],
+      "sentence": "The old man uses a walking stick.",
+      "phonetic": "/stɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_024",
+      "word": "hide",
+      "meaning": "躲藏",
+      "part_of_speech": "verb",
+      "phrase": [
+        "hide behind"
+      ],
+      "sentence": "The cat hid under the bed.",
+      "phonetic": "/haɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit8_025",
+      "word": "build",
+      "meaning": "建造",
+      "part_of_speech": "verb",
+      "phrase": [
+        "build a house"
+      ],
+      "sentence": "Birds build nests in trees.",
+      "phonetic": "/bɪld/",
+      "error_tags": [
+        "动词形式错"
+      ]
+    }
+  ]
+}

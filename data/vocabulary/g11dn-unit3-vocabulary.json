@@ -1,0 +1,382 @@
+{
+  "unit": "g11dn-unit3",
+  "unit_title": "The world online",
+  "theme": "网络世界",
+  "vocabulary": [
+    {
+      "word_id": "g11dn_unit3_001",
+      "word": "online",
+      "meaning": "在线的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "online shopping",
+        "go online"
+      ],
+      "sentence": "Online shopping is very popular.",
+      "phonetic": "/ˌɒnˈlaɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_002",
+      "word": "web",
+      "meaning": "网络",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the World Wide Web",
+        "web browser"
+      ],
+      "sentence": "The web connects people worldwide.",
+      "phonetic": "/web/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_003",
+      "word": "website",
+      "meaning": "网站",
+      "part_of_speech": "noun",
+      "phrase": [
+        "official website",
+        "create a website"
+      ],
+      "sentence": "You can find the information on our website.",
+      "phonetic": "/ˈwebsaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_004",
+      "word": "browse",
+      "meaning": "浏览",
+      "part_of_speech": "verb",
+      "phrase": [
+        "browse the Internet",
+        "browse through"
+      ],
+      "sentence": "I like browsing news websites.",
+      "phonetic": "/braʊz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_005",
+      "word": "search engine",
+      "meaning": "搜索引擎",
+      "part_of_speech": "noun",
+      "phrase": [
+        "use a search engine",
+        "search engine result"
+      ],
+      "sentence": "Google is a popular search engine.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_006",
+      "word": "download",
+      "meaning": "下载",
+      "part_of_speech": "verb",
+      "phrase": [
+        "download a file",
+        "download music"
+      ],
+      "sentence": "You can download the app for free.",
+      "phonetic": "/ˌdaʊnˈləʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_007",
+      "word": "upload",
+      "meaning": "上传",
+      "part_of_speech": "verb",
+      "phrase": [
+        "upload a photo",
+        "upload speed"
+      ],
+      "sentence": "I uploaded my pictures to the cloud.",
+      "phonetic": "/ˌʌpˈləʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_008",
+      "word": "register",
+      "meaning": "注册",
+      "part_of_speech": "verb",
+      "phrase": [
+        "register an account",
+        "register for"
+      ],
+      "sentence": "You need to register to use the website.",
+      "phonetic": "/ˈredʒɪstər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_009",
+      "word": "account",
+      "meaning": "账户",
+      "part_of_speech": "noun",
+      "phrase": [
+        "create an account",
+        "bank account"
+      ],
+      "sentence": "I forgot my account password.",
+      "phonetic": "/əˈkaʊnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_010",
+      "word": "password",
+      "meaning": "密码",
+      "part_of_speech": "noun",
+      "phrase": [
+        "enter password",
+        "strong password"
+      ],
+      "sentence": "Create a strong password for your account.",
+      "phonetic": "/ˈpɑːswɜːrd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_011",
+      "word": "privacy",
+      "meaning": "隐私",
+      "part_of_speech": "noun",
+      "phrase": [
+        "privacy policy",
+        "protect privacy"
+      ],
+      "sentence": "Your privacy is important to us.",
+      "phonetic": "/ˈprɪvəsi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_012",
+      "word": "cyber",
+      "meaning": "网络的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "cyber crime",
+        "cyber security"
+      ],
+      "sentence": "Cyber security is a big concern.",
+      "phonetic": "/ˈsaɪbər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_013",
+      "word": "fraud",
+      "meaning": "诈骗",
+      "part_of_speech": "noun",
+      "phrase": [
+        "online fraud",
+        "commit fraud"
+      ],
+      "sentence": "Be careful of online fraud.",
+      "phonetic": "/frɔːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_014",
+      "word": "identity",
+      "meaning": "身份",
+      "part_of_speech": "noun",
+      "phrase": [
+        "identity theft",
+        "identity card"
+      ],
+      "sentence": "Protect your identity online.",
+      "phonetic": "/aɪˈdentəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_015",
+      "word": "community",
+      "meaning": "社区",
+      "part_of_speech": "noun",
+      "phrase": [
+        "online community",
+        "international community"
+      ],
+      "sentence": "There are many online communities.",
+      "phonetic": "/kəˈmjuːnəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_016",
+      "word": "forum",
+      "meaning": "论坛",
+      "part_of_speech": "noun",
+      "phrase": [
+        "online forum",
+        "discussion forum"
+      ],
+      "sentence": "People share ideas on the forum.",
+      "phonetic": "/ˈfɔːrəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_017",
+      "word": "comment",
+      "meaning": "评论",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "leave a comment",
+        "no comment"
+      ],
+      "sentence": "Please comment on this article.",
+      "phonetic": "/ˈkɒment/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_018",
+      "word": "like",
+      "meaning": "点赞",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "get a like",
+        "like a post"
+      ],
+      "sentence": "My photo got 100 likes.",
+      "phonetic": "/laɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_019",
+      "word": "share",
+      "meaning": "分享",
+      "part_of_speech": "verb",
+      "phrase": [
+        "share a link",
+        "share with friends"
+      ],
+      "sentence": "Please share this post with your friends.",
+      "phonetic": "/ʃeər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_020",
+      "word": "viral",
+      "meaning": "病毒式的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "go viral",
+        "viral video"
+      ],
+      "sentence": "The video went viral on social media.",
+      "phonetic": "/ˈvaɪrəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_021",
+      "word": "influencer",
+      "meaning": "网红",
+      "part_of_speech": "noun",
+      "phrase": [
+        "social media influencer",
+        "online influencer"
+      ],
+      "sentence": "She is a famous influencer.",
+      "phonetic": "/ˈɪnfluənsər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_022",
+      "word": "stream",
+      "meaning": "流媒体播放",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "live stream",
+        "stream music"
+      ],
+      "sentence": "I stream music on my phone.",
+      "phonetic": "/striːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_023",
+      "word": "podcast",
+      "meaning": "播客",
+      "part_of_speech": "noun",
+      "phrase": [
+        "listen to a podcast",
+        "podcast series"
+      ],
+      "sentence": "I listen to podcasts on my way to work.",
+      "phonetic": "/ˈpɒdkɑːst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_024",
+      "word": "blog",
+      "meaning": "博客",
+      "part_of_speech": "noun",
+      "phrase": [
+        "write a blog",
+        "blog post"
+      ],
+      "sentence": "She writes a travel blog.",
+      "phonetic": "/blɒɡ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit3_025",
+      "word": "e-commerce",
+      "meaning": "电子商务",
+      "part_of_speech": "noun",
+      "phrase": [
+        "e-commerce platform",
+        "e-commerce giant"
+      ],
+      "sentence": "E-commerce is growing fast.",
+      "phonetic": "/ˈiːkɒmɜːrs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

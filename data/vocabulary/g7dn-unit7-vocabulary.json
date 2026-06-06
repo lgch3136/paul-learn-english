@@ -1,0 +1,357 @@
+{
+  "unit": "g7dn-unit7",
+  "unit_title": "Abilities",
+  "theme": "能力",
+  "vocabulary": [
+    {
+      "word_id": "g7dn_unit7_001",
+      "word": "ability",
+      "meaning": "能力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "reading ability"
+      ],
+      "sentence": "He has the ability to learn fast.",
+      "phonetic": "/əˈbɪləti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_002",
+      "word": "believe",
+      "meaning": "相信",
+      "part_of_speech": "verb",
+      "phrase": [
+        "believe in"
+      ],
+      "sentence": "I believe you can do it.",
+      "phonetic": "/bɪˈliːv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_003",
+      "word": "send",
+      "meaning": "发送",
+      "part_of_speech": "verb",
+      "phrase": [
+        "send an email"
+      ],
+      "sentence": "I'll send you a message.",
+      "phonetic": "/send/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_004",
+      "word": "able",
+      "meaning": "能够的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be able to"
+      ],
+      "sentence": "She is able to swim well.",
+      "phonetic": "/ˈeɪbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_005",
+      "word": "pay",
+      "meaning": "付款",
+      "part_of_speech": "verb",
+      "phrase": [
+        "pay for"
+      ],
+      "sentence": "I paid 20 yuan for the book.",
+      "phonetic": "/peɪ/",
+      "error_tags": [
+        "动词形式错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_006",
+      "word": "raise",
+      "meaning": "募集",
+      "part_of_speech": "verb",
+      "phrase": [
+        "raise money"
+      ],
+      "sentence": "We raised money for the poor.",
+      "phonetic": "/reɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_007",
+      "word": "brave",
+      "meaning": "勇敢的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "a brave boy"
+      ],
+      "sentence": "He is a brave fireman.",
+      "phonetic": "/breɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_008",
+      "word": "save",
+      "meaning": "拯救",
+      "part_of_speech": "verb",
+      "phrase": [
+        "save lives"
+      ],
+      "sentence": "The doctor saved his life.",
+      "phonetic": "/seɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_009",
+      "word": "smoke",
+      "meaning": "烟雾",
+      "part_of_speech": "noun",
+      "phrase": [
+        "heavy smoke"
+      ],
+      "sentence": "There was smoke coming from the building.",
+      "phonetic": "/sməʊk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_010",
+      "word": "badly",
+      "meaning": "严重地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "hurt badly"
+      ],
+      "sentence": "He was hurt badly in the accident.",
+      "phonetic": "/ˈbædli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_011",
+      "word": "hurt",
+      "meaning": "受伤",
+      "part_of_speech": "verb",
+      "phrase": [
+        "get hurt"
+      ],
+      "sentence": "Did you hurt yourself?",
+      "phonetic": "/hɜːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_012",
+      "word": "could",
+      "meaning": "能够",
+      "part_of_speech": "modal",
+      "phrase": [
+        "could do"
+      ],
+      "sentence": "She could read at age four.",
+      "phonetic": "/kʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_013",
+      "word": "newspaper",
+      "meaning": "报纸",
+      "part_of_speech": "noun",
+      "phrase": [
+        "read a newspaper"
+      ],
+      "sentence": "He reads the newspaper every morning.",
+      "phonetic": "/ˈnjuːzpeɪpə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_014",
+      "word": "match",
+      "meaning": "火柴",
+      "part_of_speech": "noun",
+      "phrase": [
+        "light a match"
+      ],
+      "sentence": "Don't play with matches.",
+      "phonetic": "/mætʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_015",
+      "word": "rubbish",
+      "meaning": "垃圾",
+      "part_of_speech": "noun",
+      "phrase": [
+        "rubbish bin"
+      ],
+      "sentence": "Please put the rubbish in the bin.",
+      "phonetic": "/ˈrʌbɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_016",
+      "word": "bin",
+      "meaning": "垃圾桶",
+      "part_of_speech": "noun",
+      "phrase": [
+        "rubbish bin"
+      ],
+      "sentence": "Throw it into the bin.",
+      "phonetic": "/bɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_017",
+      "word": "protect",
+      "meaning": "保护",
+      "part_of_speech": "verb",
+      "phrase": [
+        "protect from"
+      ],
+      "sentence": "We should protect the environment.",
+      "phonetic": "/prəˈtekt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_018",
+      "word": "rush",
+      "meaning": "冲",
+      "part_of_speech": "verb",
+      "phrase": [
+        "rush into"
+      ],
+      "sentence": "Don't rush into the room.",
+      "phonetic": "/rʌʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_019",
+      "word": "wet",
+      "meaning": "湿的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "get wet"
+      ],
+      "sentence": "Your clothes are all wet.",
+      "phonetic": "/wet/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_020",
+      "word": "blanket",
+      "meaning": "毯子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a warm blanket"
+      ],
+      "sentence": "Put a blanket over him.",
+      "phonetic": "/ˈblæŋkɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_021",
+      "word": "fireman",
+      "meaning": "消防员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "brave fireman"
+      ],
+      "sentence": "The firemen saved the child.",
+      "phonetic": "/ˈfaɪəmən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_022",
+      "word": "nod",
+      "meaning": "点头",
+      "part_of_speech": "verb",
+      "phrase": [
+        "nod one's head"
+      ],
+      "sentence": "He nodded and said yes.",
+      "phonetic": "/nɒd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_023",
+      "word": "moment",
+      "meaning": "片刻",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at the moment"
+      ],
+      "sentence": "She is busy at the moment.",
+      "phonetic": "/ˈməʊmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_024",
+      "word": "careless",
+      "meaning": "粗心的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be careless"
+      ],
+      "sentence": "Don't be careless with fire.",
+      "phonetic": "/ˈkeələs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit7_025",
+      "word": "by the way",
+      "meaning": "顺便说一下",
+      "part_of_speech": "phrase",
+      "phrase": [
+        "by the way"
+      ],
+      "sentence": "By the way, have you seen my book?",
+      "phonetic": "/baɪ ðə weɪ/",
+      "error_tags": [
+        "句序错"
+      ]
+    }
+  ]
+}

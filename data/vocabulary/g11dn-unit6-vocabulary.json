@@ -1,0 +1,382 @@
+{
+  "unit": "g11dn-unit6",
+  "unit_title": "The universal language",
+  "theme": "音乐与通用语言",
+  "vocabulary": [
+    {
+      "word_id": "g11dn_unit6_001",
+      "word": "universal",
+      "meaning": "普遍的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "universal language",
+        "universal truth"
+      ],
+      "sentence": "Music is a universal language.",
+      "phonetic": "/ˌjuːnɪˈvɜːrsl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_002",
+      "word": "orchestra",
+      "meaning": "管弦乐队",
+      "part_of_speech": "noun",
+      "phrase": [
+        "symphony orchestra",
+        "play in an orchestra"
+      ],
+      "sentence": "She plays violin in the orchestra.",
+      "phonetic": "/ˈɔːrkɪstrə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_003",
+      "word": "conductor",
+      "meaning": "指挥",
+      "part_of_speech": "noun",
+      "phrase": [
+        "orchestra conductor",
+        "train conductor"
+      ],
+      "sentence": "The conductor raised his baton.",
+      "phonetic": "/kənˈdʌktər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_004",
+      "word": "symphony",
+      "meaning": "交响乐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Beethoven's symphony",
+        "symphony orchestra"
+      ],
+      "sentence": "The symphony was beautiful.",
+      "phonetic": "/ˈsɪmfəni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_005",
+      "word": "concerto",
+      "meaning": "协奏曲",
+      "part_of_speech": "noun",
+      "phrase": [
+        "piano concerto",
+        "violin concerto"
+      ],
+      "sentence": "He played a beautiful piano concerto.",
+      "phonetic": "/kənˈtʃɜːrtəʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_006",
+      "word": "opera",
+      "meaning": "歌剧",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go to the opera",
+        "opera singer"
+      ],
+      "sentence": "She has a beautiful opera voice.",
+      "phonetic": "/ˈɒprə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_007",
+      "word": "choir",
+      "meaning": "合唱团",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sing in a choir",
+        "church choir"
+      ],
+      "sentence": "He joined the school choir.",
+      "phonetic": "/ˈkwaɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_008",
+      "word": "melody",
+      "meaning": "旋律",
+      "part_of_speech": "noun",
+      "phrase": [
+        "beautiful melody",
+        "main melody"
+      ],
+      "sentence": "This song has a lovely melody.",
+      "phonetic": "/ˈmelədi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_009",
+      "word": "rhythm",
+      "meaning": "节奏",
+      "part_of_speech": "noun",
+      "phrase": [
+        "catchy rhythm",
+        "dance rhythm"
+      ],
+      "sentence": "The rhythm of this song is very strong.",
+      "phonetic": "/ˈrɪðəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_010",
+      "word": "harmony",
+      "meaning": "和声；和谐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sing in harmony",
+        "musical harmony"
+      ],
+      "sentence": "They sang in perfect harmony.",
+      "phonetic": "/ˈhɑːrməni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_011",
+      "word": "lyrics",
+      "meaning": "歌词",
+      "part_of_speech": "noun",
+      "phrase": [
+        "song lyrics",
+        "write lyrics"
+      ],
+      "sentence": "The lyrics of this song are very meaningful.",
+      "phonetic": "/ˈlɪrɪks/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_012",
+      "word": "composer",
+      "meaning": "作曲家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "classical composer",
+        "music composer"
+      ],
+      "sentence": "Mozart was a great composer.",
+      "phonetic": "/kəmˈpəʊzər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_013",
+      "word": "musician",
+      "meaning": "音乐家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "professional musician",
+        "street musician"
+      ],
+      "sentence": "He is a talented musician.",
+      "phonetic": "/mjuːˈzɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_014",
+      "word": "instrument",
+      "meaning": "乐器",
+      "part_of_speech": "noun",
+      "phrase": [
+        "musical instrument",
+        "play an instrument"
+      ],
+      "sentence": "Which instrument do you play?",
+      "phonetic": "/ˈɪnstrəmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_015",
+      "word": "string",
+      "meaning": "弦乐器",
+      "part_of_speech": "noun",
+      "phrase": [
+        "string instrument",
+        "guitar string"
+      ],
+      "sentence": "Violin is a string instrument.",
+      "phonetic": "/strɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_016",
+      "word": "woodwind",
+      "meaning": "木管乐器",
+      "part_of_speech": "noun",
+      "phrase": [
+        "woodwind instrument",
+        "woodwind section"
+      ],
+      "sentence": "The flute is a woodwind instrument.",
+      "phonetic": "/ˈwʊdwɪnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_017",
+      "word": "brass",
+      "meaning": "铜管乐器",
+      "part_of_speech": "noun",
+      "phrase": [
+        "brass instrument",
+        "brass band"
+      ],
+      "sentence": "Trumpets are brass instruments.",
+      "phonetic": "/brɑːs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_018",
+      "word": "percussion",
+      "meaning": "打击乐器",
+      "part_of_speech": "noun",
+      "phrase": [
+        "percussion instrument",
+        "percussion section"
+      ],
+      "sentence": "Drums are percussion instruments.",
+      "phonetic": "/pərˈkʌʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_019",
+      "word": "rehearsal",
+      "meaning": "排练",
+      "part_of_speech": "noun",
+      "phrase": [
+        "band rehearsal",
+        "dress rehearsal"
+      ],
+      "sentence": "We have rehearsal twice a week.",
+      "phonetic": "/rɪˈhɜːrsl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_020",
+      "word": "performance",
+      "meaning": "表演",
+      "part_of_speech": "noun",
+      "phrase": [
+        "live performance",
+        "give a performance"
+      ],
+      "sentence": "The performance was amazing.",
+      "phonetic": "/pərˈfɔːrməns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_021",
+      "word": "audience",
+      "meaning": "观众",
+      "part_of_speech": "noun",
+      "phrase": [
+        "large audience",
+        "audience applause"
+      ],
+      "sentence": "The audience clapped for five minutes.",
+      "phonetic": "/ˈɔːdiəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_022",
+      "word": "applause",
+      "meaning": "掌声",
+      "part_of_speech": "noun",
+      "phrase": [
+        "round of applause",
+        "thunderous applause"
+      ],
+      "sentence": "The applause was thunderous.",
+      "phonetic": "/əˈplɔːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_023",
+      "word": "encore",
+      "meaning": "返场加演",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ask for an encore",
+        "play an encore"
+      ],
+      "sentence": "The band came back for an encore.",
+      "phonetic": "/ˈɒŋkɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_024",
+      "word": "jazz",
+      "meaning": "爵士乐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "jazz music",
+        "jazz band"
+      ],
+      "sentence": "I love listening to jazz in the evening.",
+      "phonetic": "/dʒæz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit6_025",
+      "word": "blues",
+      "meaning": "蓝调",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sing the blues",
+        "blues music"
+      ],
+      "sentence": "Blues music expresses deep emotions.",
+      "phonetic": "/bluːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

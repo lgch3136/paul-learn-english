@@ -1,0 +1,382 @@
+{
+  "unit": "g8dn-unit6",
+  "unit_title": "Sunshine for all",
+  "theme": "志愿服务",
+  "vocabulary": [
+    {
+      "word_id": "g8dn_unit6_001",
+      "word": "volunteer",
+      "meaning": "志愿者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "be a volunteer",
+        "volunteer work"
+      ],
+      "sentence": "I want to be a volunteer.",
+      "phonetic": "/ˌvɒlənˈtɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_002",
+      "word": "expect",
+      "meaning": "期待",
+      "part_of_speech": "verb",
+      "phrase": [
+        "expect to do",
+        "as expected"
+      ],
+      "sentence": "I expect to learn a lot from this experience.",
+      "phonetic": "/ɪkˈspekt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_003",
+      "word": "training",
+      "meaning": "培训",
+      "part_of_speech": "noun",
+      "phrase": [
+        "volunteer training",
+        "receive training"
+      ],
+      "sentence": "We had training before the event.",
+      "phonetic": "/ˈtreɪnɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_004",
+      "word": "task",
+      "meaning": "任务",
+      "part_of_speech": "noun",
+      "phrase": [
+        "complete a task",
+        "difficult task"
+      ],
+      "sentence": "My task is to help the elderly.",
+      "phonetic": "/tɑːsk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_005",
+      "word": "athlete",
+      "meaning": "运动员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Olympic athlete",
+        "professional athlete"
+      ],
+      "sentence": "I helped an athlete during the games.",
+      "phonetic": "/ˈæθliːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_006",
+      "word": "coach",
+      "meaning": "教练",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sports coach",
+        "head coach"
+      ],
+      "sentence": "The coach taught us how to help.",
+      "phonetic": "/kəʊtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_007",
+      "word": "gold",
+      "meaning": "金牌；金",
+      "part_of_speech": "noun",
+      "phrase": [
+        "gold medal",
+        "win gold"
+      ],
+      "sentence": "She won a gold medal.",
+      "phonetic": "/ɡəʊld/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_008",
+      "word": "silver",
+      "meaning": "银牌；银",
+      "part_of_speech": "noun",
+      "phrase": [
+        "silver medal",
+        "silver jewellery"
+      ],
+      "sentence": "He got the silver medal.",
+      "phonetic": "/ˈsɪlvər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_009",
+      "word": "confident",
+      "meaning": "自信的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel confident",
+        "confident about"
+      ],
+      "sentence": "The training made me more confident.",
+      "phonetic": "/ˈkɒnfɪdənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_010",
+      "word": "background",
+      "meaning": "背景",
+      "part_of_speech": "noun",
+      "phrase": [
+        "family background",
+        "cultural background"
+      ],
+      "sentence": "Volunteers come from different backgrounds.",
+      "phonetic": "/ˈbækɡraʊnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_011",
+      "word": "closely",
+      "meaning": "紧密地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "work closely",
+        "closely related"
+      ],
+      "sentence": "We worked closely as a team.",
+      "phonetic": "/ˈkləʊsli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_012",
+      "word": "achieve",
+      "meaning": "实现；达到",
+      "part_of_speech": "verb",
+      "phrase": [
+        "achieve success",
+        "achieve your goal"
+      ],
+      "sentence": "Together we can achieve great things.",
+      "phonetic": "/əˈtʃiːv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_013",
+      "word": "charity",
+      "meaning": "慈善",
+      "part_of_speech": "noun",
+      "phrase": [
+        "charity work",
+        "charity event"
+      ],
+      "sentence": "The charity helps poor children.",
+      "phonetic": "/ˈtʃærəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_014",
+      "word": "organize",
+      "meaning": "组织",
+      "part_of_speech": "verb",
+      "phrase": [
+        "organize an event",
+        "organize well"
+      ],
+      "sentence": "We organized a charity run.",
+      "phonetic": "/ˈɔːrɡənaɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_015",
+      "word": "event",
+      "meaning": "活动；事件",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sports event",
+        "special event"
+      ],
+      "sentence": "The event was very successful.",
+      "phonetic": "/ɪˈvent/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_016",
+      "word": "prize",
+      "meaning": "奖品",
+      "part_of_speech": "noun",
+      "phrase": [
+        "first prize",
+        "win a prize"
+      ],
+      "sentence": "The winner received a prize.",
+      "phonetic": "/praɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_017",
+      "word": "disabled",
+      "meaning": "残疾的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "disabled people",
+        "physically disabled"
+      ],
+      "sentence": "We should help disabled people.",
+      "phonetic": "/dɪsˈeɪbld/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_018",
+      "word": "blind",
+      "meaning": "失明的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "blind people",
+        "go blind"
+      ],
+      "sentence": "Guide dogs help blind people.",
+      "phonetic": "/blaɪnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_019",
+      "word": "deaf",
+      "meaning": "失聪的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "deaf people",
+        "deaf culture"
+      ],
+      "sentence": "She uses sign language because she is deaf.",
+      "phonetic": "/def/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_020",
+      "word": "elderly",
+      "meaning": "年长的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "elderly people",
+        "care for the elderly"
+      ],
+      "sentence": "We visit elderly people every weekend.",
+      "phonetic": "/ˈeldərli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_021",
+      "word": "homeless",
+      "meaning": "无家可归的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "homeless people",
+        "homeless shelter"
+      ],
+      "sentence": "The charity helps homeless people.",
+      "phonetic": "/ˈhəʊmləs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_022",
+      "word": "meaningful",
+      "meaning": "有意义的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "meaningful experience",
+        "meaningful work"
+      ],
+      "sentence": "Volunteering is a meaningful activity.",
+      "phonetic": "/ˈmiːnɪŋfl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_023",
+      "word": "donate",
+      "meaning": "捐赠",
+      "part_of_speech": "verb",
+      "phrase": [
+        "donate money",
+        "donate to charity"
+      ],
+      "sentence": "Many people donate to help others.",
+      "phonetic": "/dəʊˈneɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_024",
+      "word": "support",
+      "meaning": "支持",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "give support",
+        "support the team"
+      ],
+      "sentence": "We all need support sometimes.",
+      "phonetic": "/səˈpɔːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit6_025",
+      "word": "opportunity",
+      "meaning": "机会",
+      "part_of_speech": "noun",
+      "phrase": [
+        "an opportunity to",
+        "seize an opportunity"
+      ],
+      "sentence": "This is a great opportunity to help.",
+      "phonetic": "/ˌɒpəˈtjuːnəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

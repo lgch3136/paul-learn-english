@@ -1,0 +1,382 @@
+{
+  "unit": "g11dn-unit5",
+  "unit_title": "The written word",
+  "theme": "文学与文字",
+  "vocabulary": [
+    {
+      "word_id": "g11dn_unit5_001",
+      "word": "literature",
+      "meaning": "文学",
+      "part_of_speech": "noun",
+      "phrase": [
+        "English literature",
+        "classical literature"
+      ],
+      "sentence": "Literature reflects human experience.",
+      "phonetic": "/ˈlɪtrətʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_002",
+      "word": "poem",
+      "meaning": "诗歌",
+      "part_of_speech": "noun",
+      "phrase": [
+        "write a poem",
+        "love poem"
+      ],
+      "sentence": "She wrote a beautiful poem.",
+      "phonetic": "/ˈpəʊɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_003",
+      "word": "poet",
+      "meaning": "诗人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "romantic poet",
+        "famous poet"
+      ],
+      "sentence": "Li Bai is a famous Chinese poet.",
+      "phonetic": "/ˈpəʊɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_004",
+      "word": "novel",
+      "meaning": "小说",
+      "part_of_speech": "noun",
+      "phrase": [
+        "historical novel",
+        "bestselling novel"
+      ],
+      "sentence": "His latest novel is very popular.",
+      "phonetic": "/ˈnɒvl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_005",
+      "word": "chapter",
+      "meaning": "章节",
+      "part_of_speech": "noun",
+      "phrase": [
+        "first chapter",
+        "new chapter"
+      ],
+      "sentence": "Each chapter tells a different story.",
+      "phonetic": "/ˈtʃæptər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_006",
+      "word": "plot",
+      "meaning": "情节",
+      "part_of_speech": "noun",
+      "phrase": [
+        "main plot",
+        "twist in the plot"
+      ],
+      "sentence": "The plot of the novel is very exciting.",
+      "phonetic": "/plɒt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_007",
+      "word": "character",
+      "meaning": "人物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "main character",
+        "character development"
+      ],
+      "sentence": "The characters in this book are very real.",
+      "phonetic": "/ˈkærəktər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_008",
+      "word": "setting",
+      "meaning": "背景",
+      "part_of_speech": "noun",
+      "phrase": [
+        "story setting",
+        "beautiful setting"
+      ],
+      "sentence": "The setting is a small village in England.",
+      "phonetic": "/ˈsetɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_009",
+      "word": "theme",
+      "meaning": "主题",
+      "part_of_speech": "noun",
+      "phrase": [
+        "main theme",
+        "central theme"
+      ],
+      "sentence": "Love is a common theme in literature.",
+      "phonetic": "/θiːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_010",
+      "word": "symbol",
+      "meaning": "象征",
+      "part_of_speech": "noun",
+      "phrase": [
+        "literary symbol",
+        "a symbol of"
+      ],
+      "sentence": "The rose is a symbol of love.",
+      "phonetic": "/ˈsɪmbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_011",
+      "word": "metaphor",
+      "meaning": "比喻",
+      "part_of_speech": "noun",
+      "phrase": [
+        "use a metaphor",
+        "powerful metaphor"
+      ],
+      "sentence": "Life is a journey is a common metaphor.",
+      "phonetic": "/ˈmetəfər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_012",
+      "word": "fiction",
+      "meaning": "小说；虚构",
+      "part_of_speech": "noun",
+      "phrase": [
+        "science fiction",
+        "historical fiction"
+      ],
+      "sentence": "I prefer reading fiction to non-fiction.",
+      "phonetic": "/ˈfɪkʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_013",
+      "word": "non-fiction",
+      "meaning": "非小说类",
+      "part_of_speech": "noun",
+      "phrase": [
+        "non-fiction book",
+        "read non-fiction"
+      ],
+      "sentence": "Non-fiction books are based on facts.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_014",
+      "word": "biography",
+      "meaning": "传记",
+      "part_of_speech": "noun",
+      "phrase": [
+        "read a biography",
+        "write a biography"
+      ],
+      "sentence": "I am reading a biography of Einstein.",
+      "phonetic": "/baɪˈɒɡrəfi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_015",
+      "word": "autobiography",
+      "meaning": "自传",
+      "part_of_speech": "noun",
+      "phrase": [
+        "write an autobiography",
+        "celebrity autobiography"
+      ],
+      "sentence": "His autobiography sold millions of copies.",
+      "phonetic": "/ˌɔːtəbaɪˈɒɡrəfi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_016",
+      "word": "bestseller",
+      "meaning": "畅销书",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bestselling novel",
+        "become a bestseller"
+      ],
+      "sentence": "The book became an international bestseller.",
+      "phonetic": "/ˌbestˈselər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_017",
+      "word": "author",
+      "meaning": "作者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "famous author",
+        "book author"
+      ],
+      "sentence": "Who is the author of this book?",
+      "phonetic": "/ˈɔːθər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_018",
+      "word": "publisher",
+      "meaning": "出版商",
+      "part_of_speech": "noun",
+      "phrase": [
+        "book publisher",
+        "work with a publisher"
+      ],
+      "sentence": "The publisher accepted the book.",
+      "phonetic": "/ˈpʌblɪʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_019",
+      "word": "manuscript",
+      "meaning": "手稿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "original manuscript",
+        "ancient manuscript"
+      ],
+      "sentence": "The author sent the manuscript to the publisher.",
+      "phonetic": "/ˈmænjuskrɪpt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_020",
+      "word": "edit",
+      "meaning": "编辑",
+      "part_of_speech": "verb",
+      "phrase": [
+        "edit a book",
+        "edit carefully"
+      ],
+      "sentence": "The editor edited the manuscript.",
+      "phonetic": "/ˈedɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_021",
+      "word": "revise",
+      "meaning": "修改",
+      "part_of_speech": "verb",
+      "phrase": [
+        "revise a draft",
+        "revise thoroughly"
+      ],
+      "sentence": "The author revised the first chapter.",
+      "phonetic": "/rɪˈvaɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_022",
+      "word": "publish",
+      "meaning": "出版",
+      "part_of_speech": "verb",
+      "phrase": [
+        "publish a book",
+        "get published"
+      ],
+      "sentence": "The book was published last year.",
+      "phonetic": "/ˈpʌblɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_023",
+      "word": "copyright",
+      "meaning": "版权",
+      "part_of_speech": "noun",
+      "phrase": [
+        "copyright law",
+        "copyright protection"
+      ],
+      "sentence": "The copyright lasts for 70 years.",
+      "phonetic": "/ˈkɒpiraɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_024",
+      "word": "classic",
+      "meaning": "经典",
+      "part_of_speech": "adj/noun",
+      "phrase": [
+        "classic literature",
+        "modern classic"
+      ],
+      "sentence": "Pride and Prejudice is a classic novel.",
+      "phonetic": "/ˈklæsɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit5_025",
+      "word": "literary",
+      "meaning": "文学的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "literary work",
+        "literary criticism"
+      ],
+      "sentence": "He won a literary award.",
+      "phonetic": "/ˈlɪtərəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

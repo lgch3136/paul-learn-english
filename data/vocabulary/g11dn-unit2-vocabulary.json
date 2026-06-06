@@ -1,0 +1,382 @@
+{
+  "unit": "g11dn-unit2",
+  "unit_title": "Fit for life",
+  "theme": "健康生活",
+  "vocabulary": [
+    {
+      "word_id": "g11dn_unit2_001",
+      "word": "antibiotic",
+      "meaning": "抗生素",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take antibiotics",
+        "antibiotic resistance"
+      ],
+      "sentence": "Antibiotics can kill bacteria.",
+      "phonetic": "/ˌæntibaɪˈɒtɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_002",
+      "word": "aspirin",
+      "meaning": "阿司匹林",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take an aspirin",
+        "aspirin tablet"
+      ],
+      "sentence": "Aspirin can reduce pain and fever.",
+      "phonetic": "/ˈæsprɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_003",
+      "word": "circulate",
+      "meaning": "循环",
+      "part_of_speech": "verb",
+      "phrase": [
+        "blood circulates",
+        "circulate around"
+      ],
+      "sentence": "Blood circulates around the body.",
+      "phonetic": "/ˈsɜːrkjəleɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_004",
+      "word": "artery",
+      "meaning": "动脉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "blood artery",
+        "blocked artery"
+      ],
+      "sentence": "Blocked arteries can cause heart problems.",
+      "phonetic": "/ˈɑːrtəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_005",
+      "word": "vein",
+      "meaning": "静脉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "blood vein",
+        "varicose vein"
+      ],
+      "sentence": "Veins carry blood back to the heart.",
+      "phonetic": "/veɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_006",
+      "word": "pulse",
+      "meaning": "脉搏",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take the pulse",
+        "pulse rate"
+      ],
+      "sentence": "The doctor checked my pulse.",
+      "phonetic": "/pʌls/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_007",
+      "word": "wrist",
+      "meaning": "手腕",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on my wrist",
+        "wrist watch"
+      ],
+      "sentence": "She wears a watch on her wrist.",
+      "phonetic": "/rɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_008",
+      "word": "lung",
+      "meaning": "肺",
+      "part_of_speech": "noun",
+      "phrase": [
+        "lung cancer",
+        "lung disease"
+      ],
+      "sentence": "Smoking can damage your lungs.",
+      "phonetic": "/lʌŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_009",
+      "word": "liver",
+      "meaning": "肝脏",
+      "part_of_speech": "noun",
+      "phrase": [
+        "liver disease",
+        "liver function"
+      ],
+      "sentence": "The liver helps clean your blood.",
+      "phonetic": "/ˈlɪvər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_010",
+      "word": "kidney",
+      "meaning": "肾脏",
+      "part_of_speech": "noun",
+      "phrase": [
+        "kidney stone",
+        "kidney transplant"
+      ],
+      "sentence": "He needs a new kidney.",
+      "phonetic": "/ˈkɪdni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_011",
+      "word": "organ",
+      "meaning": "器官",
+      "part_of_speech": "noun",
+      "phrase": [
+        "vital organ",
+        "organ transplant"
+      ],
+      "sentence": "The heart is a vital organ.",
+      "phonetic": "/ˈɔːrɡən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_012",
+      "word": "symptom",
+      "meaning": "症状",
+      "part_of_speech": "noun",
+      "phrase": [
+        "common symptom",
+        "early symptom"
+      ],
+      "sentence": "Fever is a common symptom of flu.",
+      "phonetic": "/ˈsɪmptəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_013",
+      "word": "diagnose",
+      "meaning": "诊断",
+      "part_of_speech": "verb",
+      "phrase": [
+        "diagnose a disease",
+        "diagnose with"
+      ],
+      "sentence": "The doctor diagnosed her with flu.",
+      "phonetic": "/ˈdaɪəɡnəʊz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_014",
+      "word": "prescription",
+      "meaning": "处方",
+      "part_of_speech": "noun",
+      "phrase": [
+        "write a prescription",
+        "prescription drug"
+      ],
+      "sentence": "You need a prescription for this medicine.",
+      "phonetic": "/prɪˈskrɪpʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_015",
+      "word": "surgery",
+      "meaning": "外科手术",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have surgery",
+        "heart surgery"
+      ],
+      "sentence": "The surgery lasted for four hours.",
+      "phonetic": "/ˈsɜːrdʒəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_016",
+      "word": "surgeon",
+      "meaning": "外科医生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "heart surgeon",
+        "brain surgeon"
+      ],
+      "sentence": "The surgeon performed a difficult operation.",
+      "phonetic": "/ˈsɜːrdʒən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_017",
+      "word": "therapy",
+      "meaning": "疗法",
+      "part_of_speech": "noun",
+      "phrase": [
+        "physical therapy",
+        "gene therapy"
+      ],
+      "sentence": "She is receiving therapy for her back pain.",
+      "phonetic": "/ˈθerəpi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_018",
+      "word": "acupuncture",
+      "meaning": "针灸",
+      "part_of_speech": "noun",
+      "phrase": [
+        "acupuncture treatment",
+        "try acupuncture"
+      ],
+      "sentence": "Acupuncture is a traditional Chinese treatment.",
+      "phonetic": "/ˈækjupʌŋktʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_019",
+      "word": "herbal",
+      "meaning": "草药的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "herbal medicine",
+        "herbal tea"
+      ],
+      "sentence": "Herbal medicine uses natural plants.",
+      "phonetic": "/ˈhɜːrbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_020",
+      "word": "side effect",
+      "meaning": "副作用",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cause side effects",
+        "serious side effect"
+      ],
+      "sentence": "This medicine has few side effects.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_021",
+      "word": "dose",
+      "meaning": "剂量",
+      "part_of_speech": "noun",
+      "phrase": [
+        "daily dose",
+        "take a dose"
+      ],
+      "sentence": "Take one dose of medicine every four hours.",
+      "phonetic": "/dəʊs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_022",
+      "word": "allergy",
+      "meaning": "过敏",
+      "part_of_speech": "noun",
+      "phrase": [
+        "food allergy",
+        "allergic reaction"
+      ],
+      "sentence": "I have an allergy to peanuts.",
+      "phonetic": "/ˈælərdʒi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_023",
+      "word": "nutrition",
+      "meaning": "营养",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good nutrition",
+        "nutrition facts"
+      ],
+      "sentence": "Good nutrition is key to staying fit.",
+      "phonetic": "/njuːˈtrɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_024",
+      "word": "metabolism",
+      "meaning": "新陈代谢",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fast metabolism",
+        "slow metabolism"
+      ],
+      "sentence": "Exercise speeds up your metabolism.",
+      "phonetic": "/məˈtæbəlɪzəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit2_025",
+      "word": "wellness",
+      "meaning": "健康",
+      "part_of_speech": "noun",
+      "phrase": [
+        "health and wellness",
+        "wellness program"
+      ],
+      "sentence": "Wellness is about body and mind.",
+      "phonetic": "/ˈwelnəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

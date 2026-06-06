@@ -1,0 +1,357 @@
+{
+  "unit": "g7up-unit7",
+  "unit_title": "Shopping",
+  "theme": "购物",
+  "vocabulary": [
+    {
+      "word_id": "g7up_unit7_001",
+      "word": "shop",
+      "meaning": "购物",
+      "part_of_speech": "verb",
+      "phrase": [
+        "go shopping"
+      ],
+      "sentence": "Let's go shopping this afternoon.",
+      "phonetic": "/ʃɒp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_002",
+      "word": "hate",
+      "meaning": "讨厌",
+      "part_of_speech": "verb",
+      "phrase": [
+        "hate doing"
+      ],
+      "sentence": "I hate getting up early.",
+      "phonetic": "/heɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_003",
+      "word": "wallet",
+      "meaning": "钱包",
+      "part_of_speech": "noun",
+      "phrase": [
+        "empty wallet"
+      ],
+      "sentence": "I forgot my wallet at home.",
+      "phonetic": "/ˈwɒlɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_004",
+      "word": "carry",
+      "meaning": "搬运",
+      "part_of_speech": "verb",
+      "phrase": [
+        "carry bags"
+      ],
+      "sentence": "Can you help me carry this?",
+      "phonetic": "/ˈkæri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_005",
+      "word": "mall",
+      "meaning": "商场",
+      "part_of_speech": "noun",
+      "phrase": [
+        "shopping mall"
+      ],
+      "sentence": "There is a big mall near here.",
+      "phonetic": "/mɔːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_006",
+      "word": "collect",
+      "meaning": "收集",
+      "part_of_speech": "verb",
+      "phrase": [
+        "collect stamps"
+      ],
+      "sentence": "He likes collecting coins.",
+      "phonetic": "/kəˈlekt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_007",
+      "word": "pretty",
+      "meaning": "漂亮的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "pretty dress"
+      ],
+      "sentence": "That's a pretty hat.",
+      "phonetic": "/ˈprɪti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_008",
+      "word": "cost",
+      "meaning": "花费",
+      "part_of_speech": "verb",
+      "phrase": [
+        "cost money"
+      ],
+      "sentence": "How much does it cost?",
+      "phonetic": "/kɒst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_009",
+      "word": "cheap",
+      "meaning": "便宜的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "very cheap"
+      ],
+      "sentence": "This T-shirt is really cheap.",
+      "phonetic": "/tʃiːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_010",
+      "word": "expensive",
+      "meaning": "贵的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "too expensive"
+      ],
+      "sentence": "That bag is too expensive.",
+      "phonetic": "/ɪkˈspensɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_011",
+      "word": "size",
+      "meaning": "尺寸",
+      "part_of_speech": "noun",
+      "phrase": [
+        "large size"
+      ],
+      "sentence": "What size do you wear?",
+      "phonetic": "/saɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_012",
+      "word": "fit",
+      "meaning": "适合",
+      "part_of_speech": "verb",
+      "phrase": [
+        "fit well"
+      ],
+      "sentence": "This coat fits me well.",
+      "phonetic": "/fɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_013",
+      "word": "change",
+      "meaning": "零钱",
+      "part_of_speech": "noun",
+      "phrase": [
+        "here is your change"
+      ],
+      "sentence": "Here is your change, sir.",
+      "phonetic": "/tʃeɪndʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_014",
+      "word": "pocket",
+      "meaning": "口袋",
+      "part_of_speech": "noun",
+      "phrase": [
+        "pocket money"
+      ],
+      "sentence": "I put my keys in my pocket.",
+      "phonetic": "/ˈpɒkɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_015",
+      "word": "area",
+      "meaning": "区域",
+      "part_of_speech": "noun",
+      "phrase": [
+        "shopping area"
+      ],
+      "sentence": "Let's go to the shopping area.",
+      "phonetic": "/ˈeəriə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_016",
+      "word": "note",
+      "meaning": "笔记",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take notes"
+      ],
+      "sentence": "Please take notes in class.",
+      "phonetic": "/nəʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_017",
+      "word": "most",
+      "meaning": "大多数",
+      "part_of_speech": "pron",
+      "phrase": [
+        "most of"
+      ],
+      "sentence": "Most of the students passed.",
+      "phonetic": "/məʊst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_018",
+      "word": "stationery",
+      "meaning": "文具",
+      "part_of_speech": "noun",
+      "phrase": [
+        "stationery shop"
+      ],
+      "sentence": "I need some stationery.",
+      "phonetic": "/ˈsteɪʃənri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_019",
+      "word": "toy",
+      "meaning": "玩具",
+      "part_of_speech": "noun",
+      "phrase": [
+        "toy shop"
+      ],
+      "sentence": "The toy shop is on the second floor.",
+      "phonetic": "/tɔɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_020",
+      "word": "hair clip",
+      "meaning": "发夹",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pretty hair clip"
+      ],
+      "sentence": "She bought a new hair clip.",
+      "phonetic": "/heə klɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_021",
+      "word": "enough",
+      "meaning": "足够的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "enough money"
+      ],
+      "sentence": "I don't have enough time.",
+      "phonetic": "/ɪˈnʌf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_022",
+      "word": "match",
+      "meaning": "搭配",
+      "part_of_speech": "verb",
+      "phrase": [
+        "match well"
+      ],
+      "sentence": "Your shoes match your dress.",
+      "phonetic": "/mætʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_023",
+      "word": "raise",
+      "meaning": "筹集",
+      "part_of_speech": "verb",
+      "phrase": [
+        "raise money"
+      ],
+      "sentence": "They raised money for charity.",
+      "phonetic": "/reɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_024",
+      "word": "poor",
+      "meaning": "贫穷的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "poor children"
+      ],
+      "sentence": "We help poor children.",
+      "phonetic": "/pɔː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit7_025",
+      "word": "donate",
+      "meaning": "捐赠",
+      "part_of_speech": "verb",
+      "phrase": [
+        "donate money"
+      ],
+      "sentence": "They donate money to the poor.",
+      "phonetic": "/dəʊˈneɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

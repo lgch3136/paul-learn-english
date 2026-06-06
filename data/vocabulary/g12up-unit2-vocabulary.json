@@ -1,0 +1,382 @@
+{
+  "unit": "g12up-unit2",
+  "unit_title": "Witnessing time",
+  "theme": "历史见证",
+  "vocabulary": [
+    {
+      "word_id": "g12up_unit2_001",
+      "word": "witness",
+      "meaning": "见证",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "witness history",
+        "eye witness"
+      ],
+      "sentence": "We are witnessing great changes.",
+      "phonetic": "/ˈwɪtnəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_002",
+      "word": "historic",
+      "meaning": "有历史意义的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "historic moment",
+        "historic event"
+      ],
+      "sentence": "This is a historic occasion.",
+      "phonetic": "/hɪˈstɒrɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_003",
+      "word": "monument",
+      "meaning": "纪念碑",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ancient monument",
+        "national monument"
+      ],
+      "sentence": "The monument marks an important battle.",
+      "phonetic": "/ˈmɒnjumənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_004",
+      "word": "memorial",
+      "meaning": "纪念馆",
+      "part_of_speech": "noun",
+      "phrase": [
+        "war memorial",
+        "memorial service"
+      ],
+      "sentence": "We visited the war memorial.",
+      "phonetic": "/məˈmɔːriəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_005",
+      "word": "relic",
+      "meaning": "遗迹",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural relic",
+        "ancient relic"
+      ],
+      "sentence": "These relics are thousands of years old.",
+      "phonetic": "/ˈrelɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_006",
+      "word": "decay",
+      "meaning": "腐烂；衰败",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "tooth decay",
+        "fall into decay"
+      ],
+      "sentence": "The old building fell into decay.",
+      "phonetic": "/dɪˈkeɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_007",
+      "word": "restore",
+      "meaning": "修复",
+      "part_of_speech": "verb",
+      "phrase": [
+        "restore a building",
+        "restore to"
+      ],
+      "sentence": "They restored the old temple.",
+      "phonetic": "/rɪˈstɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_008",
+      "word": "preservation",
+      "meaning": "保护",
+      "part_of_speech": "noun",
+      "phrase": [
+        "historic preservation",
+        "food preservation"
+      ],
+      "sentence": "The preservation of old buildings is important.",
+      "phonetic": "/ˌprezərˈveɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_009",
+      "word": "chronicle",
+      "meaning": "编年史",
+      "part_of_speech": "noun",
+      "phrase": [
+        "historical chronicle",
+        "chronicle of events"
+      ],
+      "sentence": "The chronicle records every major event.",
+      "phonetic": "/ˈkrɒnɪkl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_010",
+      "word": "anniversary",
+      "meaning": "周年纪念",
+      "part_of_speech": "noun",
+      "phrase": [
+        "wedding anniversary",
+        "100th anniversary"
+      ],
+      "sentence": "They celebrated their 50th anniversary.",
+      "phonetic": "/ˌænɪˈvɜːrsəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_011",
+      "word": "commemorate",
+      "meaning": "纪念",
+      "part_of_speech": "verb",
+      "phrase": [
+        "commemorate the event",
+        "commemorate the dead"
+      ],
+      "sentence": "A statue was built to commemorate the hero.",
+      "phonetic": "/kəˈmeməreɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_012",
+      "word": "heritage",
+      "meaning": "遗产",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural heritage",
+        "heritage site"
+      ],
+      "sentence": "The Great Wall is a world heritage site.",
+      "phonetic": "/ˈherɪtɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_013",
+      "word": "archaeology",
+      "meaning": "考古学",
+      "part_of_speech": "noun",
+      "phrase": [
+        "study archaeology",
+        "archaeology dig"
+      ],
+      "sentence": "Archaeology helps us understand the past.",
+      "phonetic": "/ˌɑːrkiˈɒlədʒi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_014",
+      "word": "excavation",
+      "meaning": "挖掘",
+      "part_of_speech": "noun",
+      "phrase": [
+        "archaeological excavation",
+        "excavation site"
+      ],
+      "sentence": "The excavation revealed ancient pottery.",
+      "phonetic": "/ˌekskəˈveɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_015",
+      "word": "artifact",
+      "meaning": "人工制品",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ancient artifact",
+        "historical artifact"
+      ],
+      "sentence": "Museum displays many ancient artifacts.",
+      "phonetic": "/ˈɑːrtɪfækt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_016",
+      "word": "dynasty",
+      "meaning": "朝代",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Qing Dynasty",
+        "ancient dynasty"
+      ],
+      "sentence": "The Ming Dynasty lasted for 276 years.",
+      "phonetic": "/ˈdɪnəsti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_017",
+      "word": "emperor",
+      "meaning": "皇帝",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Roman emperor",
+        "emperor of China"
+      ],
+      "sentence": "The emperor built the Great Wall.",
+      "phonetic": "/ˈempərər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_018",
+      "word": "throne",
+      "meaning": "王位",
+      "part_of_speech": "noun",
+      "phrase": [
+        "come to the throne",
+        "sit on the throne"
+      ],
+      "sentence": "The prince ascended to the throne.",
+      "phonetic": "/θrəʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_019",
+      "word": "manuscript",
+      "meaning": "手稿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ancient manuscript",
+        "original manuscript"
+      ],
+      "sentence": "The manuscript is kept in the library.",
+      "phonetic": "/ˈmænjuskrɪpt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_020",
+      "word": "inscription",
+      "meaning": "碑文",
+      "part_of_speech": "noun",
+      "phrase": [
+        "stone inscription",
+        "ancient inscription"
+      ],
+      "sentence": "The inscription tells the story of the battle.",
+      "phonetic": "/ɪnˈskrɪpʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_021",
+      "word": "scroll",
+      "meaning": "卷轴",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ancient scroll",
+        "paper scroll"
+      ],
+      "sentence": "The scroll contains ancient wisdom.",
+      "phonetic": "/skrəʊl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_022",
+      "word": "antique",
+      "meaning": "古董",
+      "part_of_speech": "noun",
+      "phrase": [
+        "antique shop",
+        "valuable antique"
+      ],
+      "sentence": "This vase is a valuable antique.",
+      "phonetic": "/ænˈtiːk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_023",
+      "word": "heritage",
+      "meaning": "遗产",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural heritage",
+        "rich heritage"
+      ],
+      "sentence": "China has a rich cultural heritage.",
+      "phonetic": "/ˈherɪtɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_024",
+      "word": "testament",
+      "meaning": "证明",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a testament to",
+        "living testament"
+      ],
+      "sentence": "These ruins are a testament to ancient greatness.",
+      "phonetic": "/ˈtestəmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit2_025",
+      "word": "timeless",
+      "meaning": "永恒的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "timeless beauty",
+        "timeless classic"
+      ],
+      "sentence": "The pyramids have a timeless beauty.",
+      "phonetic": "/ˈtaɪmləs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

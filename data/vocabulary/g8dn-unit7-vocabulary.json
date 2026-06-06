@@ -1,0 +1,382 @@
+{
+  "unit": "g8dn-unit7",
+  "unit_title": "International charities",
+  "theme": "国际慈善组织",
+  "vocabulary": [
+    {
+      "word_id": "g8dn_unit7_001",
+      "word": "especially",
+      "meaning": "尤其",
+      "part_of_speech": "adv",
+      "phrase": [
+        "especially important",
+        "especially for"
+      ],
+      "sentence": "Charities help people, especially children.",
+      "phonetic": "/ɪˈspeʃəli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_002",
+      "word": "basic",
+      "meaning": "基本的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "basic needs",
+        "basic education"
+      ],
+      "sentence": "Everyone should have basic healthcare.",
+      "phonetic": "/ˈbeɪsɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_003",
+      "word": "education",
+      "meaning": "教育",
+      "part_of_speech": "noun",
+      "phrase": [
+        "basic education",
+        "get an education"
+      ],
+      "sentence": "Education is important for every child.",
+      "phonetic": "/ˌedʒuˈkeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_004",
+      "word": "equal",
+      "meaning": "平等的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "equal rights",
+        "equal opportunity"
+      ],
+      "sentence": "All people should have equal rights.",
+      "phonetic": "/ˈiːkwəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_005",
+      "word": "right",
+      "meaning": "权利",
+      "part_of_speech": "noun",
+      "phrase": [
+        "equal rights",
+        "human rights"
+      ],
+      "sentence": "Children have the right to go to school.",
+      "phonetic": "/raɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_006",
+      "word": "spread",
+      "meaning": "传播",
+      "part_of_speech": "verb",
+      "phrase": [
+        "spread knowledge",
+        "spread around the world"
+      ],
+      "sentence": "ORBIS doctors spread knowledge.",
+      "phonetic": "/spred/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_007",
+      "word": "patient",
+      "meaning": "病人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "treat patients",
+        "cancer patient"
+      ],
+      "sentence": "The doctor is seeing a patient now.",
+      "phonetic": "/ˈpeɪʃnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_008",
+      "word": "afford",
+      "meaning": "负担得起",
+      "part_of_speech": "verb",
+      "phrase": [
+        "can't afford",
+        "afford to buy"
+      ],
+      "sentence": "Many poor people cannot afford medical treatment.",
+      "phonetic": "/əˈfɔːrd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_009",
+      "word": "cure",
+      "meaning": "治愈",
+      "part_of_speech": "verb",
+      "phrase": [
+        "cure a disease",
+        "find a cure"
+      ],
+      "sentence": "Many eye problems can be cured.",
+      "phonetic": "/kjʊər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_010",
+      "word": "medical",
+      "meaning": "医疗的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "medical treatment",
+        "medical care"
+      ],
+      "sentence": "They provide free medical care.",
+      "phonetic": "/ˈmedɪkl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_011",
+      "word": "treatment",
+      "meaning": "治疗",
+      "part_of_speech": "noun",
+      "phrase": [
+        "medical treatment",
+        "get treatment"
+      ],
+      "sentence": "The treatment saved her life.",
+      "phonetic": "/ˈtriːtmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_012",
+      "word": "volunteer",
+      "meaning": "志愿者",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "volunteer doctor",
+        "volunteer to help"
+      ],
+      "sentence": "Doctors volunteer to work on the plane.",
+      "phonetic": "/ˌvɒlənˈtɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_013",
+      "word": "operate",
+      "meaning": "做手术",
+      "part_of_speech": "verb",
+      "phrase": [
+        "operate on",
+        "operate a machine"
+      ],
+      "sentence": "The doctors operate on the plane.",
+      "phonetic": "/ˈɒpəreɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_014",
+      "word": "proud",
+      "meaning": "自豪的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be proud of",
+        "feel proud"
+      ],
+      "sentence": "I am proud to be a volunteer.",
+      "phonetic": "/praʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_015",
+      "word": "reader",
+      "meaning": "读者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dear reader",
+        "regular reader"
+      ],
+      "sentence": "Thank you for being a loyal reader.",
+      "phonetic": "/ˈriːdər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_016",
+      "word": "medicine",
+      "meaning": "药物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take medicine",
+        "modern medicine"
+      ],
+      "sentence": "They sent medicine to the village.",
+      "phonetic": "/ˈmedɪsn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_017",
+      "word": "develop",
+      "meaning": "发展",
+      "part_of_speech": "verb",
+      "phrase": [
+        "develop quickly",
+        "develop a plan"
+      ],
+      "sentence": "We need to develop better healthcare.",
+      "phonetic": "/dɪˈveləp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_018",
+      "word": "prevent",
+      "meaning": "预防",
+      "part_of_speech": "verb",
+      "phrase": [
+        "prevent disease",
+        "prevent from"
+      ],
+      "sentence": "Clean water can prevent many diseases.",
+      "phonetic": "/prɪˈvent/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_019",
+      "word": "case",
+      "meaning": "病例；情况",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in this case",
+        "medical case"
+      ],
+      "sentence": "The doctor treated many cases.",
+      "phonetic": "/keɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_020",
+      "word": "organize",
+      "meaning": "组织",
+      "part_of_speech": "verb",
+      "phrase": [
+        "organize a charity",
+        "well organized"
+      ],
+      "sentence": "UNICEF organizes help for children.",
+      "phonetic": "/ˈɔːrɡənaɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_021",
+      "word": "carry",
+      "meaning": "携带；搬运",
+      "part_of_speech": "verb",
+      "phrase": [
+        "carry on",
+        "carry out"
+      ],
+      "sentence": "They carry out important work.",
+      "phonetic": "/ˈkæri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_022",
+      "word": "indeed",
+      "meaning": "确实",
+      "part_of_speech": "adv",
+      "phrase": [
+        "thank you indeed",
+        "very much indeed"
+      ],
+      "sentence": "The work they do is indeed important.",
+      "phonetic": "/ɪnˈdiːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_023",
+      "word": "interviewer",
+      "meaning": "采访者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "TV interviewer",
+        "job interviewer"
+      ],
+      "sentence": "The interviewer asked many questions.",
+      "phonetic": "/ˈɪntərvjuːər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_024",
+      "word": "secretary",
+      "meaning": "秘书",
+      "part_of_speech": "noun",
+      "phrase": [
+        "personal secretary",
+        "school secretary"
+      ],
+      "sentence": "She works as a secretary for a charity.",
+      "phonetic": "/ˈsekrətri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit7_025",
+      "word": "donation",
+      "meaning": "捐赠",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a donation",
+        "charitable donation"
+      ],
+      "sentence": "Every donation makes a difference.",
+      "phonetic": "/dəʊˈneɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

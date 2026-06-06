@@ -1,0 +1,382 @@
+{
+  "unit": "g9dn-unit2",
+  "unit_title": "Great people",
+  "theme": "伟大人物",
+  "vocabulary": [
+    {
+      "word_id": "g9dn_unit2_001",
+      "word": "inventor",
+      "meaning": "发明家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "great inventor",
+        "famous inventor"
+      ],
+      "sentence": "Edison was a great inventor.",
+      "phonetic": "/ɪnˈventər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_002",
+      "word": "invent",
+      "meaning": "发明",
+      "part_of_speech": "verb",
+      "phrase": [
+        "invent a machine",
+        "newly invented"
+      ],
+      "sentence": "Who invented the telephone?",
+      "phonetic": "/ɪnˈvent/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_003",
+      "word": "fighter",
+      "meaning": "斗士",
+      "part_of_speech": "noun",
+      "phrase": [
+        "freedom fighter",
+        "fire fighter"
+      ],
+      "sentence": "He was a fighter for peace.",
+      "phonetic": "/ˈfaɪtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_004",
+      "word": "explorer",
+      "meaning": "探险家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "famous explorer",
+        "polar explorer"
+      ],
+      "sentence": "Columbus was a famous explorer.",
+      "phonetic": "/ɪkˈsplɔːrər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_005",
+      "word": "discovery",
+      "meaning": "发现",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a discovery",
+        "scientific discovery"
+      ],
+      "sentence": "This is an important discovery.",
+      "phonetic": "/dɪˈskʌvəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_006",
+      "word": "step",
+      "meaning": "脚步；步骤",
+      "part_of_speech": "noun",
+      "phrase": [
+        "first step",
+        "take a step"
+      ],
+      "sentence": "That is one small step for a man.",
+      "phonetic": "/step/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_007",
+      "word": "surface",
+      "meaning": "表面",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the surface",
+        "Earth's surface"
+      ],
+      "sentence": "The surface of the moon is dusty.",
+      "phonetic": "/ˈsɜːrfɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_008",
+      "word": "citizen",
+      "meaning": "公民",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Chinese citizen",
+        "senior citizen"
+      ],
+      "sentence": "She is a proud citizen of China.",
+      "phonetic": "/ˈsɪtɪzn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_009",
+      "word": "pride",
+      "meaning": "骄傲",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take pride in",
+        "with pride"
+      ],
+      "sentence": "We take pride in our country's achievements.",
+      "phonetic": "/praɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_010",
+      "word": "pilot",
+      "meaning": "飞行员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fighter pilot",
+        "test pilot"
+      ],
+      "sentence": "He trained to be a pilot.",
+      "phonetic": "/ˈpaɪlət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_011",
+      "word": "licence",
+      "meaning": "执照",
+      "part_of_speech": "noun",
+      "phrase": [
+        "driving licence",
+        "pilot's licence"
+      ],
+      "sentence": "He got his pilot's licence at 20.",
+      "phonetic": "/ˈlaɪsns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_012",
+      "word": "navy",
+      "meaning": "海军",
+      "part_of_speech": "noun",
+      "phrase": [
+        "join the navy",
+        "navy officer"
+      ],
+      "sentence": "He served in the navy.",
+      "phonetic": "/ˈneɪvi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_013",
+      "word": "serve",
+      "meaning": "服务",
+      "part_of_speech": "verb",
+      "phrase": [
+        "serve the country",
+        "serve as"
+      ],
+      "sentence": "He served as a pilot for many years.",
+      "phonetic": "/sɜːrv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_014",
+      "word": "astronaut",
+      "meaning": "宇航员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Chinese astronaut",
+        "become an astronaut"
+      ],
+      "sentence": "Yang Liwei is a Chinese astronaut.",
+      "phonetic": "/ˈæstrənɔːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_015",
+      "word": "spirit",
+      "meaning": "精神",
+      "part_of_speech": "noun",
+      "phrase": [
+        "team spirit",
+        "fighting spirit"
+      ],
+      "sentence": "He showed great spirit during the mission.",
+      "phonetic": "/ˈspɪrɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_016",
+      "word": "mission",
+      "meaning": "任务",
+      "part_of_speech": "noun",
+      "phrase": [
+        "space mission",
+        "complete a mission"
+      ],
+      "sentence": "The space mission was a success.",
+      "phonetic": "/ˈmɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_017",
+      "word": "giant",
+      "meaning": "巨大的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "giant leap",
+        "giant panda"
+      ],
+      "sentence": "It was a giant leap for mankind.",
+      "phonetic": "/ˈdʒaɪənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_018",
+      "word": "leap",
+      "meaning": "跳跃",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a giant leap",
+        "leap forward"
+      ],
+      "sentence": "This discovery is a big leap forward.",
+      "phonetic": "/liːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_019",
+      "word": "mankind",
+      "meaning": "人类",
+      "part_of_speech": "noun",
+      "phrase": [
+        "for mankind",
+        "the history of mankind"
+      ],
+      "sentence": "This benefits all of mankind.",
+      "phonetic": "/mænˈkaɪnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_020",
+      "word": "scientist",
+      "meaning": "科学家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "famous scientist",
+        "research scientist"
+      ],
+      "sentence": "She wants to become a scientist.",
+      "phonetic": "/ˈsaɪəntɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_021",
+      "word": "laboratory",
+      "meaning": "实验室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "science laboratory",
+        "in the laboratory"
+      ],
+      "sentence": "Scientists work in the laboratory.",
+      "phonetic": "/ləˈbɒrətri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_022",
+      "word": "unknown",
+      "meaning": "未知的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "unknown world",
+        "remain unknown"
+      ],
+      "sentence": "There are many unknown things in space.",
+      "phonetic": "/ˌʌnˈnəʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_023",
+      "word": "widely",
+      "meaning": "广泛地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "widely used",
+        "widely known"
+      ],
+      "sentence": "His invention is widely used today.",
+      "phonetic": "/ˈwaɪdli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_024",
+      "word": "mathematics",
+      "meaning": "数学",
+      "part_of_speech": "noun",
+      "phrase": [
+        "study mathematics",
+        "mathematics teacher"
+      ],
+      "sentence": "She is good at mathematics.",
+      "phonetic": "/ˌmæθəˈmætɪks/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit2_025",
+      "word": "admire",
+      "meaning": "钦佩",
+      "part_of_speech": "verb",
+      "phrase": [
+        "admire someone",
+        "greatly admire"
+      ],
+      "sentence": "I admire people who never give up.",
+      "phonetic": "/ədˈmaɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "unit": "g10dn-unit4",
+  "unit_title": "Advertising",
+  "theme": "广告与媒体",
+  "vocabulary": [
+    {
+      "word_id": "g10dn_unit4_001",
+      "word": "advertisement",
+      "meaning": "广告",
+      "part_of_speech": "noun",
+      "phrase": [
+        "TV advertisement",
+        "put an advertisement"
+      ],
+      "sentence": "I saw an interesting advertisement on TV.",
+      "phonetic": "/ədˈvɜːrtɪsmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_002",
+      "word": "commercial",
+      "meaning": "商业广告",
+      "part_of_speech": "noun",
+      "phrase": [
+        "TV commercial",
+        "commercial break"
+      ],
+      "sentence": "The commercial lasted 30 seconds.",
+      "phonetic": "/kəˈmɜːrʃl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_003",
+      "word": "persuade",
+      "meaning": "说服",
+      "part_of_speech": "verb",
+      "phrase": [
+        "persuade to buy",
+        "persuade someone"
+      ],
+      "sentence": "Advertisements try to persuade us to buy things.",
+      "phonetic": "/pərˈsweɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_004",
+      "word": "promote",
+      "meaning": "推广",
+      "part_of_speech": "verb",
+      "phrase": [
+        "promote a product",
+        "promote sales"
+      ],
+      "sentence": "They use ads to promote their products.",
+      "phonetic": "/prəˈməʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_005",
+      "word": "intend",
+      "meaning": "打算",
+      "part_of_speech": "verb",
+      "phrase": [
+        "be intended for",
+        "intend to do"
+      ],
+      "sentence": "This ad is intended for young people.",
+      "phonetic": "/ɪnˈtend/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_006",
+      "word": "slogan",
+      "meaning": "口号",
+      "part_of_speech": "noun",
+      "phrase": [
+        "advertising slogan",
+        "catchy slogan"
+      ],
+      "sentence": "A good slogan is easy to remember.",
+      "phonetic": "/ˈsləʊɡən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_007",
+      "word": "brand",
+      "meaning": "品牌",
+      "part_of_speech": "noun",
+      "phrase": [
+        "famous brand",
+        "brand name"
+      ],
+      "sentence": "This is a well-known brand.",
+      "phonetic": "/brænd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_008",
+      "word": "target",
+      "meaning": "目标",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "target audience",
+        "hit the target"
+      ],
+      "sentence": "The ad targets young consumers.",
+      "phonetic": "/ˈtɑːrɡɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_009",
+      "word": "consumer",
+      "meaning": "消费者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "consumer goods",
+        "consumer rights"
+      ],
+      "sentence": "Consumers should be careful about ads.",
+      "phonetic": "/kənˈsjuːmər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_010",
+      "word": "claim",
+      "meaning": "声称",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "make a claim",
+        "claim to be"
+      ],
+      "sentence": "The ad claims the product works in one day.",
+      "phonetic": "/kleɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_011",
+      "word": "appeal",
+      "meaning": "吸引",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "appeal to",
+        "have appeal"
+      ],
+      "sentence": "The ad appeals to our emotions.",
+      "phonetic": "/əˈpiːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_012",
+      "word": "false",
+      "meaning": "虚假的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "false advertising",
+        "true or false"
+      ],
+      "sentence": "Some ads make false promises.",
+      "phonetic": "/fɔːls/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_013",
+      "word": "misleading",
+      "meaning": "误导的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "misleading advertisement",
+        "be misleading"
+      ],
+      "sentence": "The ad was found to be misleading.",
+      "phonetic": "/ˌmɪsˈliːdɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_014",
+      "word": "media",
+      "meaning": "媒体",
+      "part_of_speech": "noun",
+      "phrase": [
+        "social media",
+        "mass media"
+      ],
+      "sentence": "Advertising uses many types of media.",
+      "phonetic": "/ˈmiːdiə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_015",
+      "word": "billboard",
+      "meaning": "广告牌",
+      "part_of_speech": "noun",
+      "phrase": [
+        "billboard advertising",
+        "on a billboard"
+      ],
+      "sentence": "There is a huge billboard on the highway.",
+      "phonetic": "/ˈbɪlbɔːrd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_016",
+      "word": "poster",
+      "meaning": "海报",
+      "part_of_speech": "noun",
+      "phrase": [
+        "movie poster",
+        "put up a poster"
+      ],
+      "sentence": "We designed a poster for the event.",
+      "phonetic": "/ˈpəʊstər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_017",
+      "word": "campaign",
+      "meaning": "活动",
+      "part_of_speech": "noun",
+      "phrase": [
+        "advertising campaign",
+        "launch a campaign"
+      ],
+      "sentence": "The campaign cost millions of dollars.",
+      "phonetic": "/kæmˈpeɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_018",
+      "word": "effective",
+      "meaning": "有效的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "effective advertising",
+        "highly effective"
+      ],
+      "sentence": "The ad was very effective.",
+      "phonetic": "/ɪˈfektɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_019",
+      "word": "convince",
+      "meaning": "使信服",
+      "part_of_speech": "verb",
+      "phrase": [
+        "convince someone to buy",
+        "be convinced"
+      ],
+      "sentence": "The ad convinced me to try the product.",
+      "phonetic": "/kənˈvɪns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_020",
+      "word": "purchase",
+      "meaning": "购买",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "make a purchase",
+        "purchase online"
+      ],
+      "sentence": "Online purchases have increased a lot.",
+      "phonetic": "/ˈpɜːrtʃəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_021",
+      "word": "profit",
+      "meaning": "利润",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a profit",
+        "profit margin"
+      ],
+      "sentence": "Companies make huge profits from advertising.",
+      "phonetic": "/ˈprɒfɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_022",
+      "word": "celebrity",
+      "meaning": "名人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "celebrity endorsement",
+        "famous celebrity"
+      ],
+      "sentence": "Celebrities often appear in advertisements.",
+      "phonetic": "/səˈlebrəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_023",
+      "word": "endorse",
+      "meaning": "代言",
+      "part_of_speech": "verb",
+      "phrase": [
+        "endorse a product",
+        "celebrity endorsement"
+      ],
+      "sentence": "The singer endorses this brand of shoes.",
+      "phonetic": "/ɪnˈdɔːrs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_024",
+      "word": "visual",
+      "meaning": "视觉的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "visual effect",
+        "visual art"
+      ],
+      "sentence": "The visual effects in the ad were stunning.",
+      "phonetic": "/ˈvɪʒuəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit4_025",
+      "word": "impression",
+      "meaning": "印象",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make an impression",
+        "first impression"
+      ],
+      "sentence": "The ad left a strong impression on me.",
+      "phonetic": "/ɪmˈpreʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

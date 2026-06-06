@@ -1,0 +1,357 @@
+{
+  "unit": "g7dn-unit4",
+  "unit_title": "Finding your way",
+  "theme": "问路",
+  "vocabulary": [
+    {
+      "word_id": "g7dn_unit4_001",
+      "word": "follow",
+      "meaning": "跟随",
+      "part_of_speech": "verb",
+      "phrase": [
+        "follow me"
+      ],
+      "sentence": "Please follow me to the office.",
+      "phonetic": "/ˈfɒləʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_002",
+      "word": "north",
+      "meaning": "北方",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the north"
+      ],
+      "sentence": "Beijing is in the north of China.",
+      "phonetic": "/nɔːθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_003",
+      "word": "south",
+      "meaning": "南方",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the south"
+      ],
+      "sentence": "Guangzhou is in the south.",
+      "phonetic": "/saʊθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_004",
+      "word": "east",
+      "meaning": "东方",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the east"
+      ],
+      "sentence": "The sun rises in the east.",
+      "phonetic": "/iːst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_005",
+      "word": "west",
+      "meaning": "西方",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the west"
+      ],
+      "sentence": "The sun sets in the west.",
+      "phonetic": "/west/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_006",
+      "word": "trip",
+      "meaning": "旅行",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a school trip"
+      ],
+      "sentence": "We had a wonderful trip.",
+      "phonetic": "/trɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_007",
+      "word": "path",
+      "meaning": "小路",
+      "part_of_speech": "noun",
+      "phrase": [
+        "along the path"
+      ],
+      "sentence": "Walk along this path.",
+      "phonetic": "/pɑːθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_008",
+      "word": "bridge",
+      "meaning": "桥",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cross the bridge"
+      ],
+      "sentence": "Cross the bridge and turn right.",
+      "phonetic": "/brɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_009",
+      "word": "crossing",
+      "meaning": "十字路口",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at the crossing"
+      ],
+      "sentence": "Turn left at the crossing.",
+      "phonetic": "/ˈkrɒsɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_010",
+      "word": "traffic",
+      "meaning": "交通",
+      "part_of_speech": "noun",
+      "phrase": [
+        "traffic lights"
+      ],
+      "sentence": "Wait for the traffic lights.",
+      "phonetic": "/ˈtræfɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_011",
+      "word": "corner",
+      "meaning": "角落",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at the corner"
+      ],
+      "sentence": "The shop is at the corner.",
+      "phonetic": "/ˈkɔːnə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_012",
+      "word": "prepare",
+      "meaning": "准备",
+      "part_of_speech": "verb",
+      "phrase": [
+        "prepare for"
+      ],
+      "sentence": "I need to prepare for the exam.",
+      "phonetic": "/prɪˈpeə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_013",
+      "word": "plenty",
+      "meaning": "大量",
+      "part_of_speech": "pron",
+      "phrase": [
+        "plenty of"
+      ],
+      "sentence": "There is plenty of food.",
+      "phonetic": "/ˈplenti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_014",
+      "word": "exit",
+      "meaning": "出口",
+      "part_of_speech": "noun",
+      "phrase": [
+        "emergency exit"
+      ],
+      "sentence": "Where is the exit?",
+      "phonetic": "/ˈeksɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_015",
+      "word": "straight",
+      "meaning": "直的",
+      "part_of_speech": "adv",
+      "phrase": [
+        "go straight"
+      ],
+      "sentence": "Go straight and you'll see it.",
+      "phonetic": "/streɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_016",
+      "word": "quite",
+      "meaning": "相当",
+      "part_of_speech": "adv",
+      "phrase": [
+        "quite far"
+      ],
+      "sentence": "It's quite a long way.",
+      "phonetic": "/kwaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_017",
+      "word": "dangerous",
+      "meaning": "危险的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be dangerous"
+      ],
+      "sentence": "It's dangerous to swim here.",
+      "phonetic": "/ˈdeɪndʒərəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_018",
+      "word": "remember",
+      "meaning": "记住",
+      "part_of_speech": "verb",
+      "phrase": [
+        "remember to do"
+      ],
+      "sentence": "Remember to bring your book.",
+      "phonetic": "/rɪˈmembə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_019",
+      "word": "forest",
+      "meaning": "森林",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the forest"
+      ],
+      "sentence": "We walked through the forest.",
+      "phonetic": "/ˈfɒrɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_020",
+      "word": "funny",
+      "meaning": "有趣的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "a funny story"
+      ],
+      "sentence": "He told us a funny story.",
+      "phonetic": "/ˈfʌni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_021",
+      "word": "giraffe",
+      "meaning": "长颈鹿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a tall giraffe"
+      ],
+      "sentence": "Giraffes have long necks.",
+      "phonetic": "/dʒɪˈrɑːf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_022",
+      "word": "leaf",
+      "meaning": "叶子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "green leaf"
+      ],
+      "sentence": "The leaves turn yellow in autumn.",
+      "phonetic": "/liːf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_023",
+      "word": "sound",
+      "meaning": "声音",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a sound"
+      ],
+      "sentence": "I heard a strange sound.",
+      "phonetic": "/saʊnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_024",
+      "word": "laugh",
+      "meaning": "笑",
+      "part_of_speech": "verb",
+      "phrase": [
+        "laugh at"
+      ],
+      "sentence": "Don't laugh at others.",
+      "phonetic": "/lɑːf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit4_025",
+      "word": "suddenly",
+      "meaning": "突然地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "happen suddenly"
+      ],
+      "sentence": "Suddenly it began to rain.",
+      "phonetic": "/ˈsʌdnli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

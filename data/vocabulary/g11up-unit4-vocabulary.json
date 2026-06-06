@@ -1,0 +1,382 @@
+{
+  "unit": "g11up-unit4",
+  "unit_title": "Laughter is good for you",
+  "theme": "幽默与健康",
+  "vocabulary": [
+    {
+      "word_id": "g11up_unit4_001",
+      "word": "laughter",
+      "meaning": "笑声",
+      "part_of_speech": "noun",
+      "phrase": [
+        "burst of laughter",
+        "laughter therapy"
+      ],
+      "sentence": "Laughter is the best medicine.",
+      "phonetic": "/ˈlɑːftər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_002",
+      "word": "humour",
+      "meaning": "幽默",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sense of humour",
+        "black humour"
+      ],
+      "sentence": "A good sense of humour is important.",
+      "phonetic": "/ˈhjuːmər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_003",
+      "word": "comedy",
+      "meaning": "喜剧",
+      "part_of_speech": "noun",
+      "phrase": [
+        "stand-up comedy",
+        "comedy show"
+      ],
+      "sentence": "I enjoy watching stand-up comedy.",
+      "phonetic": "/ˈkɒmədi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_004",
+      "word": "comedian",
+      "meaning": "喜剧演员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "famous comedian",
+        "stand-up comedian"
+      ],
+      "sentence": "The comedian made everyone laugh.",
+      "phonetic": "/kəˈmiːdiən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_005",
+      "word": "joke",
+      "meaning": "笑话",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tell a joke",
+        "practical joke"
+      ],
+      "sentence": "He told a very funny joke.",
+      "phonetic": "/dʒəʊk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_006",
+      "word": "amusing",
+      "meaning": "有趣的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "amusing story",
+        "find it amusing"
+      ],
+      "sentence": "The story was very amusing.",
+      "phonetic": "/əˈmjuːzɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_007",
+      "word": "entertain",
+      "meaning": "使娱乐",
+      "part_of_speech": "verb",
+      "phrase": [
+        "entertain the audience",
+        "entertain friends"
+      ],
+      "sentence": "He entertained us with a funny story.",
+      "phonetic": "/ˌentərˈteɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_008",
+      "word": "master",
+      "meaning": "大师",
+      "part_of_speech": "noun",
+      "phrase": [
+        "comedy master",
+        "master of"
+      ],
+      "sentence": "He is a master of comedy.",
+      "phonetic": "/ˈmɑːstər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_009",
+      "word": "perform",
+      "meaning": "表演",
+      "part_of_speech": "verb",
+      "phrase": [
+        "perform on stage",
+        "perform a play"
+      ],
+      "sentence": "She performs at comedy clubs.",
+      "phonetic": "/pərˈfɔːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_010",
+      "word": "stage",
+      "meaning": "舞台",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on stage",
+        "centre stage"
+      ],
+      "sentence": "He walked onto the stage nervously.",
+      "phonetic": "/steɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_011",
+      "word": "silent",
+      "meaning": "无声的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "silent film",
+        "remain silent"
+      ],
+      "sentence": "Charlie Chaplin was famous for silent comedy.",
+      "phonetic": "/ˈsaɪlənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_012",
+      "word": "physical",
+      "meaning": "身体的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "physical comedy",
+        "physical health"
+      ],
+      "sentence": "Physical comedy is very visual.",
+      "phonetic": "/ˈfɪzɪkl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_013",
+      "word": "affect",
+      "meaning": "影响",
+      "part_of_speech": "verb",
+      "phrase": [
+        "affect health",
+        "be affected by"
+      ],
+      "sentence": "Laughter positively affects our health.",
+      "phonetic": "/əˈfekt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_014",
+      "word": "psychological",
+      "meaning": "心理的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "psychological effect",
+        "psychological health"
+      ],
+      "sentence": "Laughter has psychological benefits.",
+      "phonetic": "/ˌsaɪkəˈlɒdʒɪkl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_015",
+      "word": "boost",
+      "meaning": "提高",
+      "part_of_speech": "verb",
+      "phrase": [
+        "boost energy",
+        "boost confidence"
+      ],
+      "sentence": "Laughter can boost your immune system.",
+      "phonetic": "/buːst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_016",
+      "word": "immune",
+      "meaning": "免疫的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "immune system",
+        "immune to"
+      ],
+      "sentence": "A strong immune system fights disease.",
+      "phonetic": "/ɪˈmjuːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_017",
+      "word": "endorphin",
+      "meaning": "内啡肽",
+      "part_of_speech": "noun",
+      "phrase": [
+        "release endorphins",
+        "endorphin level"
+      ],
+      "sentence": "Laughing releases endorphins in the brain.",
+      "phonetic": "/enˈdɔːrfɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_018",
+      "word": "blood",
+      "meaning": "血液",
+      "part_of_speech": "noun",
+      "phrase": [
+        "blood pressure",
+        "blood flow"
+      ],
+      "sentence": "Laughing improves blood flow.",
+      "phonetic": "/blʌd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_019",
+      "word": "pressure",
+      "meaning": "压力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "blood pressure",
+        "reduce pressure"
+      ],
+      "sentence": "Laughter lowers blood pressure.",
+      "phonetic": "/ˈpreʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_020",
+      "word": "depression",
+      "meaning": "抑郁",
+      "part_of_speech": "noun",
+      "phrase": [
+        "suffer from depression",
+        "beat depression"
+      ],
+      "sentence": "Laughter can help fight depression.",
+      "phonetic": "/dɪˈpreʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_021",
+      "word": "relieve",
+      "meaning": "缓解",
+      "part_of_speech": "verb",
+      "phrase": [
+        "relieve stress",
+        "relieve pain"
+      ],
+      "sentence": "Laughing relieves stress.",
+      "phonetic": "/rɪˈliːv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_022",
+      "word": "positive",
+      "meaning": "积极的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "positive effect",
+        "stay positive"
+      ],
+      "sentence": "A positive attitude helps you stay healthy.",
+      "phonetic": "/ˈpɒzətɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_023",
+      "word": "wit",
+      "meaning": "机智",
+      "part_of_speech": "noun",
+      "phrase": [
+        "quick wit",
+        "have a sharp wit"
+      ],
+      "sentence": "His quick wit impressed everyone.",
+      "phonetic": "/wɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_024",
+      "word": "satire",
+      "meaning": "讽刺",
+      "part_of_speech": "noun",
+      "phrase": [
+        "political satire",
+        "sharp satire"
+      ],
+      "sentence": "Satire is a form of humour.",
+      "phonetic": "/ˈsætaɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit4_025",
+      "word": "audience",
+      "meaning": "观众",
+      "part_of_speech": "noun",
+      "phrase": [
+        "live audience",
+        "target audience"
+      ],
+      "sentence": "The audience could not stop laughing.",
+      "phonetic": "/ˈɔːdiəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

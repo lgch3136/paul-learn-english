@@ -1,0 +1,357 @@
+{
+  "unit": "g7dn-unit5",
+  "unit_title": "Amazing things",
+  "theme": "奇闻",
+  "vocabulary": [
+    {
+      "word_id": "g7dn_unit5_001",
+      "word": "amazing",
+      "meaning": "令人惊奇的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "amazing thing"
+      ],
+      "sentence": "The world is full of amazing things.",
+      "phonetic": "/əˈmeɪzɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_002",
+      "word": "fact",
+      "meaning": "事实",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in fact"
+      ],
+      "sentence": "In fact, he is only ten years old.",
+      "phonetic": "/fækt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_003",
+      "word": "earth",
+      "meaning": "地球",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on earth"
+      ],
+      "sentence": "What on earth is that?",
+      "phonetic": "/ɜːθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_004",
+      "word": "bone",
+      "meaning": "骨头",
+      "part_of_speech": "noun",
+      "phrase": [
+        "break a bone"
+      ],
+      "sentence": "Dogs like to chew bones.",
+      "phonetic": "/bəʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_005",
+      "word": "same",
+      "meaning": "相同的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "the same as"
+      ],
+      "sentence": "We are in the same class.",
+      "phonetic": "/seɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_006",
+      "word": "birth",
+      "meaning": "出生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "date of birth"
+      ],
+      "sentence": "What's your date of birth?",
+      "phonetic": "/bɜːθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_007",
+      "word": "stop",
+      "meaning": "停止",
+      "part_of_speech": "verb",
+      "phrase": [
+        "stop doing"
+      ],
+      "sentence": "Please stop talking.",
+      "phonetic": "/stɒp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_008",
+      "word": "reply",
+      "meaning": "回复",
+      "part_of_speech": "verb",
+      "phrase": [
+        "reply to"
+      ],
+      "sentence": "She didn't reply to my message.",
+      "phonetic": "/rɪˈplaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_009",
+      "word": "strange",
+      "meaning": "奇怪的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "look strange"
+      ],
+      "sentence": "A strange thing happened today.",
+      "phonetic": "/streɪndʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_010",
+      "word": "quick",
+      "meaning": "快的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be quick"
+      ],
+      "sentence": "Be quick, or we'll be late.",
+      "phonetic": "/kwɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_011",
+      "word": "happen",
+      "meaning": "发生",
+      "part_of_speech": "verb",
+      "phrase": [
+        "happen to"
+      ],
+      "sentence": "What happened to you?",
+      "phonetic": "/ˈhæpən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_012",
+      "word": "search",
+      "meaning": "搜索",
+      "part_of_speech": "verb",
+      "phrase": [
+        "search for"
+      ],
+      "sentence": "I searched for information online.",
+      "phonetic": "/sɜːtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_013",
+      "word": "weak",
+      "meaning": "虚弱的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel weak"
+      ],
+      "sentence": "I felt weak after the illness.",
+      "phonetic": "/wiːk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_014",
+      "word": "asleep",
+      "meaning": "睡着的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "fall asleep"
+      ],
+      "sentence": "He fell asleep quickly.",
+      "phonetic": "/əˈsliːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_015",
+      "word": "anybody",
+      "meaning": "任何人",
+      "part_of_speech": "pron",
+      "phrase": [
+        "anybody else"
+      ],
+      "sentence": "Is there anybody in the room?",
+      "phonetic": "/ˈenibɒdi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_016",
+      "word": "nobody",
+      "meaning": "没有人",
+      "part_of_speech": "pron",
+      "phrase": [
+        "nobody knows"
+      ],
+      "sentence": "Nobody knows the answer.",
+      "phonetic": "/ˈnəʊbədi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_017",
+      "word": "reply",
+      "meaning": "答复",
+      "part_of_speech": "verb",
+      "phrase": [
+        "reply to a letter"
+      ],
+      "sentence": "Please reply to my email.",
+      "phonetic": "/rɪˈplaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_018",
+      "word": "surprised",
+      "meaning": "惊讶的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be surprised"
+      ],
+      "sentence": "I was surprised to see him.",
+      "phonetic": "/səˈpraɪzd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_019",
+      "word": "wonder",
+      "meaning": "想知道",
+      "part_of_speech": "verb",
+      "phrase": [
+        "wonder about"
+      ],
+      "sentence": "I wonder what happened.",
+      "phonetic": "/ˈwʌndə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_020",
+      "word": "carefully",
+      "meaning": "仔细地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "listen carefully"
+      ],
+      "sentence": "Please listen carefully.",
+      "phonetic": "/ˈkeəfəli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_021",
+      "word": "sandwich",
+      "meaning": "三明治",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a sandwich"
+      ],
+      "sentence": "I had a sandwich for lunch.",
+      "phonetic": "/ˈsænwɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_022",
+      "word": "piece",
+      "meaning": "片",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a piece of"
+      ],
+      "sentence": "Can I have a piece of cake?",
+      "phonetic": "/piːs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_023",
+      "word": "travel",
+      "meaning": "旅行",
+      "part_of_speech": "verb",
+      "phrase": [
+        "travel around"
+      ],
+      "sentence": "I want to travel around the world.",
+      "phonetic": "/ˈtrævl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_024",
+      "word": "snake",
+      "meaning": "蛇",
+      "part_of_speech": "noun",
+      "phrase": [
+        "poisonous snake"
+      ],
+      "sentence": "Be careful of snakes.",
+      "phonetic": "/sneɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit5_025",
+      "word": "camel",
+      "meaning": "骆驼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ride a camel"
+      ],
+      "sentence": "We rode a camel in the desert.",
+      "phonetic": "/ˈkæml/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

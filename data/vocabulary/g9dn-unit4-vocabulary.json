@@ -1,0 +1,382 @@
+{
+  "unit": "g9dn-unit4",
+  "unit_title": "Life on Mars",
+  "theme": "火星生活",
+  "vocabulary": [
+    {
+      "word_id": "g9dn_unit4_001",
+      "word": "Mars",
+      "meaning": "火星",
+      "part_of_speech": "noun",
+      "phrase": [
+        "live on Mars",
+        "go to Mars"
+      ],
+      "sentence": "Scientists want to send people to Mars.",
+      "phonetic": "/mɑːrz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_002",
+      "word": "planet",
+      "meaning": "行星",
+      "part_of_speech": "noun",
+      "phrase": [
+        "planet Earth",
+        "Red Planet"
+      ],
+      "sentence": "Mars is called the Red Planet.",
+      "phonetic": "/ˈplænɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_003",
+      "word": "spacecraft",
+      "meaning": "宇宙飞船",
+      "part_of_speech": "noun",
+      "phrase": [
+        "send a spacecraft",
+        "spacecraft launch"
+      ],
+      "sentence": "The spacecraft will arrive in six months.",
+      "phonetic": "/ˈspeɪskrɑːft/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_004",
+      "word": "oxygen",
+      "meaning": "氧气",
+      "part_of_speech": "noun",
+      "phrase": [
+        "lack of oxygen",
+        "oxygen mask"
+      ],
+      "sentence": "There is no oxygen on Mars.",
+      "phonetic": "/ˈɒksɪdʒən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_005",
+      "word": "gravity",
+      "meaning": "重力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "zero gravity",
+        "force of gravity"
+      ],
+      "sentence": "The gravity on Mars is weaker than Earth.",
+      "phonetic": "/ˈɡrævəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_006",
+      "word": "float",
+      "meaning": "漂浮",
+      "part_of_speech": "verb",
+      "phrase": [
+        "float in space",
+        "float away"
+      ],
+      "sentence": "In zero gravity, things float around.",
+      "phonetic": "/fləʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_007",
+      "word": "planet",
+      "meaning": "行星",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dwarf planet",
+        "planet system"
+      ],
+      "sentence": "Earth is the only planet with known life.",
+      "phonetic": "/ˈplænɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_008",
+      "word": "crowded",
+      "meaning": "拥挤的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "too crowded",
+        "crowded city"
+      ],
+      "sentence": "Earth is becoming more and more crowded.",
+      "phonetic": "/ˈkraʊdɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_009",
+      "word": "rapid",
+      "meaning": "快速的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "rapid growth",
+        "rapid change"
+      ],
+      "sentence": "The population is growing at a rapid speed.",
+      "phonetic": "/ˈræpɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_010",
+      "word": "increase",
+      "meaning": "增加",
+      "part_of_speech": "verb",
+      "phrase": [
+        "increase by",
+        "increase to"
+      ],
+      "sentence": "The population keeps increasing.",
+      "phonetic": "/ɪnˈkriːs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_011",
+      "word": "transport",
+      "meaning": "交通工具",
+      "part_of_speech": "noun",
+      "phrase": [
+        "public transport",
+        "transport system"
+      ],
+      "sentence": "What transport will we use on Mars?",
+      "phonetic": "/ˈtrænspɔːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_012",
+      "word": "challenging",
+      "meaning": "有挑战性的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "challenging task",
+        "very challenging"
+      ],
+      "sentence": "Living on Mars will be challenging.",
+      "phonetic": "/ˈtʃælɪndʒɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_013",
+      "word": "interplanetary",
+      "meaning": "行星间的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "interplanetary travel",
+        "interplanetary journey"
+      ],
+      "sentence": "Interplanetary travel is the future.",
+      "phonetic": "/ˌɪntərˈplænɪtri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_014",
+      "word": "disadvantage",
+      "meaning": "缺点",
+      "part_of_speech": "noun",
+      "phrase": [
+        "main disadvantage",
+        "advantages and disadvantages"
+      ],
+      "sentence": "What are the disadvantages of living on Mars?",
+      "phonetic": "/ˌdɪsədˈvɑːntɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_015",
+      "word": "doubt",
+      "meaning": "怀疑",
+      "part_of_speech": "noun",
+      "phrase": [
+        "without doubt",
+        "in doubt"
+      ],
+      "sentence": "There is no doubt that it will be hard.",
+      "phonetic": "/daʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_016",
+      "word": "survive",
+      "meaning": "生存",
+      "part_of_speech": "verb",
+      "phrase": [
+        "survive on Mars",
+        "struggle to survive"
+      ],
+      "sentence": "Can humans survive on Mars?",
+      "phonetic": "/sərˈvaɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_017",
+      "word": "supply",
+      "meaning": "供应",
+      "part_of_speech": "noun",
+      "phrase": [
+        "food supply",
+        "water supply"
+      ],
+      "sentence": "Food supply is a big problem on Mars.",
+      "phonetic": "/səˈplaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_018",
+      "word": "robot",
+      "meaning": "机器人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Mars robot",
+        "robot mission"
+      ],
+      "sentence": "Robots have already explored Mars.",
+      "phonetic": "/ˈrəʊbɒt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_019",
+      "word": "settler",
+      "meaning": "定居者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "early settler",
+        "Mars settlers"
+      ],
+      "sentence": "The first settlers will face many challenges.",
+      "phonetic": "/ˈsetlər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_020",
+      "word": "uncomfortable",
+      "meaning": "不舒服的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "uncomfortable journey",
+        "feel uncomfortable"
+      ],
+      "sentence": "The journey to Mars will be uncomfortable.",
+      "phonetic": "/ʌnˈkʌmftəbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_021",
+      "word": "taste",
+      "meaning": "味道",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good taste",
+        "taste of food"
+      ],
+      "sentence": "The food might lose its taste in space.",
+      "phonetic": "/teɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_022",
+      "word": "special",
+      "meaning": "特别的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "special training",
+        "special suit"
+      ],
+      "sentence": "Astronauts need special training.",
+      "phonetic": "/ˈspeʃl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_023",
+      "word": "further",
+      "meaning": "更远的；进一步的",
+      "part_of_speech": "adj/adv",
+      "phrase": [
+        "further research",
+        "go further"
+      ],
+      "sentence": "We need to do further research.",
+      "phonetic": "/ˈfɜːrðər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_024",
+      "word": "possibility",
+      "meaning": "可能性",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the possibility of",
+        "no possibility"
+      ],
+      "sentence": "Is there a possibility of life on Mars?",
+      "phonetic": "/ˌpɒsəˈbɪləti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit4_025",
+      "word": "explore",
+      "meaning": "探索",
+      "part_of_speech": "verb",
+      "phrase": [
+        "explore space",
+        "explore the unknown"
+      ],
+      "sentence": "We want to explore the universe.",
+      "phonetic": "/ɪkˈsplɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

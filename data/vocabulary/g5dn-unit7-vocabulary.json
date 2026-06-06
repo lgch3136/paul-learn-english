@@ -1,0 +1,382 @@
+{
+  "unit": "g5dn-unit7",
+  "unit_title": "Chinese festivals",
+  "theme": "中国传统节日",
+  "vocabulary": [
+    {
+      "word_id": "g5dn_unit7_001",
+      "word": "festival",
+      "meaning": "节日",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Spring Festival",
+        "Mid-Autumn Festival"
+      ],
+      "sentence": "Chinese New Year is my favourite festival.",
+      "phonetic": "/ˈfestɪvl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_002",
+      "word": "spring",
+      "meaning": "春天",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Spring Festival",
+        "in spring"
+      ],
+      "sentence": "Spring is a beautiful season.",
+      "phonetic": "/sprɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_003",
+      "word": "dumpling",
+      "meaning": "饺子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make dumplings",
+        "eat dumplings"
+      ],
+      "sentence": "We eat dumplings at Spring Festival.",
+      "phonetic": "/ˈdʌmplɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_004",
+      "word": "dragon",
+      "meaning": "龙",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dragon dance",
+        "dragon boat"
+      ],
+      "sentence": "The dragon dance is very exciting.",
+      "phonetic": "/ˈdræɡən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_005",
+      "word": "lantern",
+      "meaning": "灯笼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Lantern Festival",
+        "red lantern"
+      ],
+      "sentence": "People hang red lanterns.",
+      "phonetic": "/ˈlæntərn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_006",
+      "word": "moon",
+      "meaning": "月亮",
+      "part_of_speech": "noun",
+      "phrase": [
+        "full moon",
+        "moon cake"
+      ],
+      "sentence": "The moon is round and bright.",
+      "phonetic": "/muːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_007",
+      "word": "mooncake",
+      "meaning": "月饼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "eat mooncakes",
+        "make mooncakes"
+      ],
+      "sentence": "We eat mooncakes at Mid-Autumn Festival.",
+      "phonetic": "/ˈmuːnkeɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_008",
+      "word": "family",
+      "meaning": "家庭",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my family",
+        "family dinner"
+      ],
+      "sentence": "Families get together for the festival.",
+      "phonetic": "/ˈfæməli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_009",
+      "word": "celebrate",
+      "meaning": "庆祝",
+      "part_of_speech": "verb",
+      "phrase": [
+        "celebrate a festival",
+        "celebrate together"
+      ],
+      "sentence": "How do you celebrate Spring Festival?",
+      "phonetic": "/ˈselɪbreɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_010",
+      "word": "January",
+      "meaning": "一月",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in January",
+        "January first"
+      ],
+      "sentence": "Spring Festival is usually in January or February.",
+      "phonetic": "/ˈdʒænjuəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_011",
+      "word": "February",
+      "meaning": "二月",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in February",
+        "February 14th"
+      ],
+      "sentence": "It is cold here in February.",
+      "phonetic": "/ˈfebruəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_012",
+      "word": "August",
+      "meaning": "八月",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in August",
+        "August 15th"
+      ],
+      "sentence": "The festival is on August 15th.",
+      "phonetic": "/ˈɔːɡəst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_013",
+      "word": "September",
+      "meaning": "九月",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in September",
+        "September 1st"
+      ],
+      "sentence": "Autumn begins in September.",
+      "phonetic": "/sepˈtembər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_014",
+      "word": "October",
+      "meaning": "十月",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in October",
+        "October 1st"
+      ],
+      "sentence": "National Day is on October 1st.",
+      "phonetic": "/ɒkˈtəʊbər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_015",
+      "word": "climb",
+      "meaning": "爬",
+      "part_of_speech": "verb",
+      "phrase": [
+        "climb mountains",
+        "climb the wall"
+      ],
+      "sentence": "People climb mountains on this day.",
+      "phonetic": "/klaɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_016",
+      "word": "dragon boat",
+      "meaning": "龙舟",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dragon boat race",
+        "row a dragon boat"
+      ],
+      "sentence": "Dragon boat races are very exciting.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_017",
+      "word": "race",
+      "meaning": "比赛",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dragon boat race",
+        "running race"
+      ],
+      "sentence": "Dragon boat races are very popular.",
+      "phonetic": "/reɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_018",
+      "word": "double",
+      "meaning": "双倍的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "double ninth",
+        "double happiness"
+      ],
+      "sentence": "Double Ninth Festival is for the elderly.",
+      "phonetic": "/ˈdʌbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_019",
+      "word": "ninth",
+      "meaning": "第九",
+      "part_of_speech": "num",
+      "phrase": [
+        "the ninth day",
+        "ninth grade"
+      ],
+      "sentence": "The festival is on the ninth day.",
+      "phonetic": "/naɪnθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_020",
+      "word": "important",
+      "meaning": "重要的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "very important",
+        "important festival"
+      ],
+      "sentence": "This is an important Chinese festival.",
+      "phonetic": "/ɪmˈpɔːrtnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_021",
+      "word": "traditional",
+      "meaning": "传统的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "traditional festival",
+        "traditional food"
+      ],
+      "sentence": "Dumplings are a traditional food.",
+      "phonetic": "/trəˈdɪʃənl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_022",
+      "word": "reunion",
+      "meaning": "团聚",
+      "part_of_speech": "noun",
+      "phrase": [
+        "family reunion",
+        "reunion dinner"
+      ],
+      "sentence": "The reunion dinner is very important.",
+      "phonetic": "/riːˈjuːniən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_023",
+      "word": "autumn",
+      "meaning": "秋天",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in autumn",
+        "Mid-Autumn"
+      ],
+      "sentence": "Autumn is a harvest season.",
+      "phonetic": "/ˈɔːtəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_024",
+      "word": "firework",
+      "meaning": "烟花",
+      "part_of_speech": "noun",
+      "phrase": [
+        "set off fireworks",
+        "watch fireworks"
+      ],
+      "sentence": "We watch fireworks at Spring Festival.",
+      "phonetic": "/ˈfaɪərwɜːrk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit7_025",
+      "word": "decorate",
+      "meaning": "装饰",
+      "part_of_speech": "verb",
+      "phrase": [
+        "decorate with",
+        "decorate the house"
+      ],
+      "sentence": "People decorate their houses with red paper.",
+      "phonetic": "/ˈdekəreɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

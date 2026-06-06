@@ -1,0 +1,382 @@
+{
+  "unit": "g8up-unit2",
+  "unit_title": "School life",
+  "theme": "学校生活",
+  "vocabulary": [
+    {
+      "word_id": "g8up_unit2_001",
+      "word": "British",
+      "meaning": "英国的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "British school",
+        "British English"
+      ],
+      "sentence": "In a British school, students wear uniforms.",
+      "phonetic": "/ˈbrɪtɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_002",
+      "word": "American",
+      "meaning": "美国的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "American school",
+        "American accent"
+      ],
+      "sentence": "American schools have many clubs.",
+      "phonetic": "/əˈmerɪkən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_003",
+      "word": "mixed",
+      "meaning": "混合的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "mixed school",
+        "mixed feelings"
+      ],
+      "sentence": "Our school is a mixed school.",
+      "phonetic": "/mɪkst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_004",
+      "word": "subject",
+      "meaning": "科目",
+      "part_of_speech": "noun",
+      "phrase": [
+        "school subject",
+        "favourite subject"
+      ],
+      "sentence": "English is my favourite subject.",
+      "phonetic": "/ˈsʌbdʒɪkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_005",
+      "word": "French",
+      "meaning": "法语",
+      "part_of_speech": "noun/adj",
+      "phrase": [
+        "learn French",
+        "French class"
+      ],
+      "sentence": "I am learning French this year.",
+      "phonetic": "/frentʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_006",
+      "word": "foreign",
+      "meaning": "外国的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "foreign language",
+        "foreign country"
+      ],
+      "sentence": "Learning a foreign language is fun.",
+      "phonetic": "/ˈfɒrən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_007",
+      "word": "language",
+      "meaning": "语言",
+      "part_of_speech": "noun",
+      "phrase": [
+        "foreign language",
+        "body language"
+      ],
+      "sentence": "English is an important language.",
+      "phonetic": "/ˈlæŋɡwɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_008",
+      "word": "during",
+      "meaning": "在…期间",
+      "part_of_speech": "prep",
+      "phrase": [
+        "during the week",
+        "during class"
+      ],
+      "sentence": "We have lunch during the break.",
+      "phonetic": "/ˈdjʊərɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_009",
+      "word": "discuss",
+      "meaning": "讨论",
+      "part_of_speech": "verb",
+      "phrase": [
+        "discuss with",
+        "discuss problems"
+      ],
+      "sentence": "We discuss books in class.",
+      "phonetic": "/dɪˈskʌs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_010",
+      "word": "baseball",
+      "meaning": "棒球",
+      "part_of_speech": "noun",
+      "phrase": [
+        "play baseball",
+        "baseball game"
+      ],
+      "sentence": "Baseball is popular in America.",
+      "phonetic": "/ˈbeɪsbɔːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_011",
+      "word": "tennis",
+      "meaning": "网球",
+      "part_of_speech": "noun",
+      "phrase": [
+        "play tennis",
+        "tennis court"
+      ],
+      "sentence": "Do you like playing tennis?",
+      "phonetic": "/ˈtenɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_012",
+      "word": "win",
+      "meaning": "赢得",
+      "part_of_speech": "verb",
+      "phrase": [
+        "win a game",
+        "win the prize"
+      ],
+      "sentence": "Our team won the match.",
+      "phonetic": "/wɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_013",
+      "word": "cheer",
+      "meaning": "欢呼",
+      "part_of_speech": "verb",
+      "phrase": [
+        "cheer for",
+        "cheer up"
+      ],
+      "sentence": "We cheer for our team.",
+      "phonetic": "/tʃɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_014",
+      "word": "practice",
+      "meaning": "练习",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "football practice",
+        "practice makes perfect"
+      ],
+      "sentence": "We have basketball practice after school.",
+      "phonetic": "/ˈpræktɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_015",
+      "word": "club",
+      "meaning": "俱乐部",
+      "part_of_speech": "noun",
+      "phrase": [
+        "after-school club",
+        "join a club"
+      ],
+      "sentence": "There are many clubs at school.",
+      "phonetic": "/klʌb/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_016",
+      "word": "offer",
+      "meaning": "提供",
+      "part_of_speech": "verb",
+      "phrase": [
+        "offer help",
+        "offer to do"
+      ],
+      "sentence": "Our school offers many activities.",
+      "phonetic": "/ˈɒfər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_017",
+      "word": "spend",
+      "meaning": "花费",
+      "part_of_speech": "verb",
+      "phrase": [
+        "spend time",
+        "spend money"
+      ],
+      "sentence": "I spend two hours on homework.",
+      "phonetic": "/spend/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_018",
+      "word": "daily",
+      "meaning": "日常的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "daily life",
+        "daily routine"
+      ],
+      "sentence": "My daily school life is busy.",
+      "phonetic": "/ˈdeɪli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_019",
+      "word": "uniform",
+      "meaning": "校服",
+      "part_of_speech": "noun",
+      "phrase": [
+        "school uniform",
+        "wear a uniform"
+      ],
+      "sentence": "We wear uniforms to school.",
+      "phonetic": "/ˈjuːnɪfɔːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_020",
+      "word": "buddy",
+      "meaning": "伙伴",
+      "part_of_speech": "noun",
+      "phrase": [
+        "buddy club",
+        "study buddy"
+      ],
+      "sentence": "My buddy helps me with math.",
+      "phonetic": "/ˈbʌdi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_021",
+      "word": "senior",
+      "meaning": "高年级的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "senior student",
+        "senior high"
+      ],
+      "sentence": "Senior students help new students.",
+      "phonetic": "/ˈsiːniər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_022",
+      "word": "junior",
+      "meaning": "低年级的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "junior high",
+        "junior student"
+      ],
+      "sentence": "Junior high is exciting.",
+      "phonetic": "/ˈdʒuːniər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_023",
+      "word": "article",
+      "meaning": "文章",
+      "part_of_speech": "noun",
+      "phrase": [
+        "write an article",
+        "newspaper article"
+      ],
+      "sentence": "She wrote an article about school life.",
+      "phonetic": "/ˈɑːrtɪkl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_024",
+      "word": "excellent",
+      "meaning": "极好的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "excellent student",
+        "excellent work"
+      ],
+      "sentence": "You did an excellent job!",
+      "phonetic": "/ˈeksələnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit2_025",
+      "word": "term",
+      "meaning": "学期",
+      "part_of_speech": "noun",
+      "phrase": [
+        "this term",
+        "end of term"
+      ],
+      "sentence": "We have exams at the end of term.",
+      "phonetic": "/tɜːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

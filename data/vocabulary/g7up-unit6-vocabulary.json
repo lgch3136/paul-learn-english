@@ -1,0 +1,371 @@
+{
+  "unit": "g7up-unit6",
+  "unit_title": "Food and lifestyle",
+  "theme": "饮食",
+  "vocabulary": [
+    {
+      "word_id": "g7up_unit6_001",
+      "word": "lifestyle",
+      "meaning": "生活方式",
+      "part_of_speech": "noun",
+      "phrase": [
+        "healthy lifestyle"
+      ],
+      "sentence": "I have a healthy lifestyle.",
+      "phonetic": "/ˈlaɪfstaɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_002",
+      "word": "sugar",
+      "meaning": "糖",
+      "part_of_speech": "noun",
+      "phrase": [
+        "too much sugar"
+      ],
+      "sentence": "Don't eat too much sugar.",
+      "phonetic": "/ˈʃʊɡə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_003",
+      "word": "tooth",
+      "meaning": "牙齿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "brush teeth"
+      ],
+      "sentence": "Brush your teeth twice a day.",
+      "phonetic": "/tuːθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_004",
+      "word": "healthy",
+      "meaning": "健康的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "keep healthy"
+      ],
+      "sentence": "Vegetables are healthy food.",
+      "phonetic": "/ˈhelθi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_005",
+      "word": "fit",
+      "meaning": "健康的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "keep fit"
+      ],
+      "sentence": "I exercise to keep fit.",
+      "phonetic": "/fɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_006",
+      "word": "meal",
+      "meaning": "一餐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "three meals a day"
+      ],
+      "sentence": "I have three meals every day.",
+      "phonetic": "/miːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_007",
+      "word": "pear",
+      "meaning": "梨",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a juicy pear"
+      ],
+      "sentence": "Would you like a pear?",
+      "phonetic": "/peə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_008",
+      "word": "watermelon",
+      "meaning": "西瓜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a slice of watermelon"
+      ],
+      "sentence": "Watermelon is sweet in summer.",
+      "phonetic": "/ˈwɔːtəmelən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_009",
+      "word": "beef",
+      "meaning": "牛肉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "beef noodles"
+      ],
+      "sentence": "I'd like some beef.",
+      "phonetic": "/biːf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_010",
+      "word": "carrot",
+      "meaning": "胡萝卜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "carrot juice"
+      ],
+      "sentence": "Rabbits love carrots.",
+      "phonetic": "/ˈkærət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_011",
+      "word": "pork",
+      "meaning": "猪肉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "pork ribs"
+      ],
+      "sentence": "Do you eat pork?",
+      "phonetic": "/pɔːk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_012",
+      "word": "snack",
+      "meaning": "零食",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have a snack"
+      ],
+      "sentence": "Don't eat too many snacks.",
+      "phonetic": "/snæk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_013",
+      "word": "energy",
+      "meaning": "能量",
+      "part_of_speech": "noun",
+      "phrase": [
+        "full of energy"
+      ],
+      "sentence": "Food gives us energy.",
+      "phonetic": "/ˈenədʒi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_014",
+      "word": "whole",
+      "meaning": "整个的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "the whole day"
+      ],
+      "sentence": "I studied the whole day.",
+      "phonetic": "/həʊl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_015",
+      "word": "change",
+      "meaning": "改变",
+      "part_of_speech": "verb",
+      "phrase": [
+        "change your diet"
+      ],
+      "sentence": "You need to change your habits.",
+      "phonetic": "/tʃeɪndʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_016",
+      "word": "plan",
+      "meaning": "计划",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a diet plan"
+      ],
+      "sentence": "I have a new exercise plan.",
+      "phonetic": "/plæn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_017",
+      "word": "swimmer",
+      "meaning": "游泳者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a good swimmer"
+      ],
+      "sentence": "She is an excellent swimmer.",
+      "phonetic": "/ˈswɪmə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_018",
+      "word": "dancer",
+      "meaning": "舞者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ballet dancer"
+      ],
+      "sentence": "He wants to be a dancer.",
+      "phonetic": "/ˈdɑːnsə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_019",
+      "word": "chocolate",
+      "meaning": "巧克力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a bar of chocolate"
+      ],
+      "sentence": "I love chocolate.",
+      "phonetic": "/ˈtʃɒklət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_020",
+      "word": "keep",
+      "meaning": "保持",
+      "part_of_speech": "verb",
+      "phrase": [
+        "keep healthy"
+      ],
+      "sentence": "We must keep our room clean.",
+      "phonetic": "/kiːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_021",
+      "word": "less",
+      "meaning": "更少的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "less than"
+      ],
+      "sentence": "Eat less meat and more vegetables.",
+      "phonetic": "/les/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_022",
+      "word": "total",
+      "meaning": "总共的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "total number"
+      ],
+      "sentence": "The total score is 100.",
+      "phonetic": "/ˈtəʊtl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_023",
+      "word": "number",
+      "meaning": "数字",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a number of"
+      ],
+      "sentence": "A large number of students like PE.",
+      "phonetic": "/ˈnʌmbə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_024",
+      "word": "score",
+      "meaning": "分数",
+      "part_of_speech": "noun",
+      "phrase": [
+        "get a high score"
+      ],
+      "sentence": "She got a high score.",
+      "phonetic": "/skɔː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_025",
+      "word": "menu",
+      "meaning": "菜单",
+      "part_of_speech": "noun",
+      "phrase": [
+        "look at the menu"
+      ],
+      "sentence": "Let's look at the menu.",
+      "phonetic": "/ˈmenjuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit6_026",
+      "word": "bean",
+      "meaning": "豆",
+      "part_of_speech": "noun",
+      "phrase": [
+        "green beans"
+      ],
+      "sentence": "Beans are good for health.",
+      "phonetic": "/biːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

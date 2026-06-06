@@ -1,0 +1,382 @@
+{
+  "unit": "g5dn-unit2",
+  "unit_title": "How do you come to school?",
+  "theme": "交通方式",
+  "vocabulary": [
+    {
+      "word_id": "g5dn_unit2_001",
+      "word": "bus",
+      "meaning": "公共汽车",
+      "part_of_speech": "noun",
+      "phrase": [
+        "by bus",
+        "bus stop"
+      ],
+      "sentence": "I go to school by bus.",
+      "phonetic": "/bʌs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_002",
+      "word": "train",
+      "meaning": "火车",
+      "part_of_speech": "noun",
+      "phrase": [
+        "by train",
+        "train station"
+      ],
+      "sentence": "We went there by train.",
+      "phonetic": "/treɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_003",
+      "word": "metro",
+      "meaning": "地铁",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take the metro",
+        "metro station"
+      ],
+      "sentence": "The metro is very fast.",
+      "phonetic": "/ˈmetrəʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_004",
+      "word": "taxi",
+      "meaning": "出租车",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take a taxi",
+        "taxi driver"
+      ],
+      "sentence": "Let us take a taxi.",
+      "phonetic": "/ˈtæksi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_005",
+      "word": "bike",
+      "meaning": "自行车",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ride a bike",
+        "by bike"
+      ],
+      "sentence": "I ride a bike to school.",
+      "phonetic": "/baɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_006",
+      "word": "plane",
+      "meaning": "飞机",
+      "part_of_speech": "noun",
+      "phrase": [
+        "by plane",
+        "on the plane"
+      ],
+      "sentence": "He went to London by plane.",
+      "phonetic": "/pleɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_007",
+      "word": "ship",
+      "meaning": "轮船",
+      "part_of_speech": "noun",
+      "phrase": [
+        "by ship",
+        "on a ship"
+      ],
+      "sentence": "They travelled by ship.",
+      "phonetic": "/ʃɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_008",
+      "word": "walk",
+      "meaning": "步行",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "on foot",
+        "walk to school"
+      ],
+      "sentence": "I walk to school every day.",
+      "phonetic": "/wɔːk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_009",
+      "word": "near",
+      "meaning": "在…附近",
+      "part_of_speech": "prep",
+      "phrase": [
+        "near the school",
+        "near here"
+      ],
+      "sentence": "My home is near the school.",
+      "phonetic": "/nɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_010",
+      "word": "far",
+      "meaning": "远的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "far from",
+        "not far"
+      ],
+      "sentence": "Is it far from here?",
+      "phonetic": "/fɑːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_011",
+      "word": "street",
+      "meaning": "街道",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the street",
+        "street food"
+      ],
+      "sentence": "There are many shops on this street.",
+      "phonetic": "/striːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_012",
+      "word": "town",
+      "meaning": "城镇",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in town",
+        "home town"
+      ],
+      "sentence": "She lives in a small town.",
+      "phonetic": "/taʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_013",
+      "word": "city",
+      "meaning": "城市",
+      "part_of_speech": "noun",
+      "phrase": [
+        "big city",
+        "city centre"
+      ],
+      "sentence": "Shanghai is a big city.",
+      "phonetic": "/ˈsɪti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_014",
+      "word": "wheel",
+      "meaning": "轮子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "car wheel",
+        "steering wheel"
+      ],
+      "sentence": "The bike has two wheels.",
+      "phonetic": "/wiːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_015",
+      "word": "ride",
+      "meaning": "骑；乘",
+      "part_of_speech": "verb",
+      "phrase": [
+        "ride a bike",
+        "ride a horse"
+      ],
+      "sentence": "Can you ride a bike?",
+      "phonetic": "/raɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_016",
+      "word": "always",
+      "meaning": "总是",
+      "part_of_speech": "adv",
+      "phrase": [
+        "always late",
+        "as always"
+      ],
+      "sentence": "He always comes to school early.",
+      "phonetic": "/ˈɔːlweɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_017",
+      "word": "sometimes",
+      "meaning": "有时候",
+      "part_of_speech": "adv",
+      "phrase": [
+        "sometimes go",
+        "travel sometimes"
+      ],
+      "sentence": "I sometimes go by bike.",
+      "phonetic": "/ˈsʌmtaɪmz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_018",
+      "word": "never",
+      "meaning": "从不",
+      "part_of_speech": "adv",
+      "phrase": [
+        "never late",
+        "never say never"
+      ],
+      "sentence": "She never takes the bus.",
+      "phonetic": "/ˈnevər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_019",
+      "word": "leave",
+      "meaning": "离开",
+      "part_of_speech": "verb",
+      "phrase": [
+        "leave home",
+        "leave for"
+      ],
+      "sentence": "I leave home at 7.",
+      "phonetic": "/liːv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_020",
+      "word": "arrive",
+      "meaning": "到达",
+      "part_of_speech": "verb",
+      "phrase": [
+        "arrive at",
+        "arrive home"
+      ],
+      "sentence": "We arrive at school at 8.",
+      "phonetic": "/əˈraɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_021",
+      "word": "traffic",
+      "meaning": "交通",
+      "part_of_speech": "noun",
+      "phrase": [
+        "traffic light",
+        "heavy traffic"
+      ],
+      "sentence": "The traffic is busy.",
+      "phonetic": "/ˈtræfɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_022",
+      "word": "underground",
+      "meaning": "地铁",
+      "part_of_speech": "noun",
+      "phrase": [
+        "underground station",
+        "by underground"
+      ],
+      "sentence": "I take the underground.",
+      "phonetic": "/ˈʌndərɡraʊnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_023",
+      "word": "journey",
+      "meaning": "旅程",
+      "part_of_speech": "noun",
+      "phrase": [
+        "long journey",
+        "safe journey"
+      ],
+      "sentence": "The journey takes thirty minutes.",
+      "phonetic": "/ˈdʒɜːrni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_024",
+      "word": "travel",
+      "meaning": "旅行",
+      "part_of_speech": "verb",
+      "phrase": [
+        "travel to school",
+        "travel by train"
+      ],
+      "sentence": "How do you travel to school?",
+      "phonetic": "/ˈtrævl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit2_025",
+      "word": "minute",
+      "meaning": "分钟",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ten minutes",
+        "wait a minute"
+      ],
+      "sentence": "It takes twenty minutes by bike.",
+      "phonetic": "/ˈmɪnɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

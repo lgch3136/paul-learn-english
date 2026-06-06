@@ -1,0 +1,382 @@
+{
+  "unit": "g8dn-unit3",
+  "unit_title": "Online tours",
+  "theme": "网络与电脑",
+  "vocabulary": [
+    {
+      "word_id": "g8dn_unit3_001",
+      "word": "online",
+      "meaning": "在线的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "go online",
+        "online tour"
+      ],
+      "sentence": "You can take an online tour of the museum.",
+      "phonetic": "/ˌɒnˈlaɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_002",
+      "word": "program",
+      "meaning": "节目；程序",
+      "part_of_speech": "noun",
+      "phrase": [
+        "computer program",
+        "TV program"
+      ],
+      "sentence": "I installed a new program.",
+      "phonetic": "/ˈprəʊɡræm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_003",
+      "word": "keyboard",
+      "meaning": "键盘",
+      "part_of_speech": "noun",
+      "phrase": [
+        "computer keyboard",
+        "type on keyboard"
+      ],
+      "sentence": "I need a new keyboard.",
+      "phonetic": "/ˈkiːbɔːrd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_004",
+      "word": "unit",
+      "meaning": "单元；部件",
+      "part_of_speech": "noun",
+      "phrase": [
+        "main unit",
+        "central unit"
+      ],
+      "sentence": "The computer's main unit is under the desk.",
+      "phonetic": "/ˈjuːnɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_005",
+      "word": "screen",
+      "meaning": "屏幕",
+      "part_of_speech": "noun",
+      "phrase": [
+        "computer screen",
+        "on the screen"
+      ],
+      "sentence": "Look at the screen.",
+      "phonetic": "/skriːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_006",
+      "word": "channel",
+      "meaning": "频道",
+      "part_of_speech": "noun",
+      "phrase": [
+        "TV channel",
+        "change channel"
+      ],
+      "sentence": "Which channel do you want to watch?",
+      "phonetic": "/ˈtʃænl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_007",
+      "word": "remote control",
+      "meaning": "遥控器",
+      "part_of_speech": "noun",
+      "phrase": [
+        "use the remote control",
+        "TV remote control"
+      ],
+      "sentence": "Pass me the remote control.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_008",
+      "word": "mouse",
+      "meaning": "鼠标",
+      "part_of_speech": "noun",
+      "phrase": [
+        "computer mouse",
+        "click the mouse"
+      ],
+      "sentence": "Click the mouse to start.",
+      "phonetic": "/maʊs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_009",
+      "word": "click",
+      "meaning": "点击",
+      "part_of_speech": "verb",
+      "phrase": [
+        "click on",
+        "double click"
+      ],
+      "sentence": "Click on the icon to open the file.",
+      "phonetic": "/klɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_010",
+      "word": "icon",
+      "meaning": "图标",
+      "part_of_speech": "noun",
+      "phrase": [
+        "desktop icon",
+        "click the icon"
+      ],
+      "sentence": "Click on the icon to start the program.",
+      "phonetic": "/ˈaɪkɒn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_011",
+      "word": "website",
+      "meaning": "网站",
+      "part_of_speech": "noun",
+      "phrase": [
+        "visit a website",
+        "official website"
+      ],
+      "sentence": "You can find information on the website.",
+      "phonetic": "/ˈwebsaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_012",
+      "word": "world-famous",
+      "meaning": "举世闻名的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "world-famous city",
+        "world-famous artist"
+      ],
+      "sentence": "New York is a world-famous city.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_013",
+      "word": "trade",
+      "meaning": "贸易",
+      "part_of_speech": "noun",
+      "phrase": [
+        "international trade",
+        "trade centre"
+      ],
+      "sentence": "New York is a centre of world trade.",
+      "phonetic": "/treɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_014",
+      "word": "international",
+      "meaning": "国际的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "international trade",
+        "international airport"
+      ],
+      "sentence": "It is an international city.",
+      "phonetic": "/ˌɪntərˈnæʃnəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_015",
+      "word": "gather",
+      "meaning": "聚集",
+      "part_of_speech": "verb",
+      "phrase": [
+        "gather together",
+        "gather round"
+      ],
+      "sentence": "Millions of people gather here on New Year's Eve.",
+      "phonetic": "/ˈɡæðər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_016",
+      "word": "huge",
+      "meaning": "巨大的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "a huge city",
+        "huge success"
+      ],
+      "sentence": "The building is huge.",
+      "phonetic": "/hjuːdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_017",
+      "word": "several",
+      "meaning": "几个",
+      "part_of_speech": "adj",
+      "phrase": [
+        "several times",
+        "for several days"
+      ],
+      "sentence": "I have been there several times.",
+      "phonetic": "/ˈsevrəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_018",
+      "word": "relax",
+      "meaning": "放松",
+      "part_of_speech": "verb",
+      "phrase": [
+        "relax at home",
+        "feel relaxed"
+      ],
+      "sentence": "Listening to music helps me relax.",
+      "phonetic": "/rɪˈlæks/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_019",
+      "word": "century",
+      "meaning": "世纪",
+      "part_of_speech": "noun",
+      "phrase": [
+        "21st century",
+        "for centuries"
+      ],
+      "sentence": "The castle is several centuries old.",
+      "phonetic": "/ˈsentʃəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_020",
+      "word": "island",
+      "meaning": "岛屿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on an island",
+        "small island"
+      ],
+      "sentence": "Manhattan is an island.",
+      "phonetic": "/ˈaɪlənd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_021",
+      "word": "opposite",
+      "meaning": "相反的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "opposite direction",
+        "quite the opposite"
+      ],
+      "sentence": "The bank is opposite the hotel.",
+      "phonetic": "/ˈɒpəzɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_022",
+      "word": "hard",
+      "meaning": "硬的；困难的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "hard work",
+        "try hard"
+      ],
+      "sentence": "The seats on the plane are hard.",
+      "phonetic": "/hɑːrd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_023",
+      "word": "guide",
+      "meaning": "指南；导游",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tour guide",
+        "travel guide"
+      ],
+      "sentence": "You can use the online tour guide.",
+      "phonetic": "/ɡaɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_024",
+      "word": "print",
+      "meaning": "打印",
+      "part_of_speech": "verb",
+      "phrase": [
+        "print out",
+        "3D print"
+      ],
+      "sentence": "You can print the ticket at home.",
+      "phonetic": "/prɪnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit3_025",
+      "word": "receive",
+      "meaning": "收到",
+      "part_of_speech": "verb",
+      "phrase": [
+        "receive a letter",
+        "receive from"
+      ],
+      "sentence": "I received an email from my friend.",
+      "phonetic": "/rɪˈsiːv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

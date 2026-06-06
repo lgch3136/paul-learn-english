@@ -1,0 +1,382 @@
+{
+  "unit": "g11dn-unit4",
+  "unit_title": "Public transport",
+  "theme": "公共交通",
+  "vocabulary": [
+    {
+      "word_id": "g11dn_unit4_001",
+      "word": "transport",
+      "meaning": "交通",
+      "part_of_speech": "noun",
+      "phrase": [
+        "public transport",
+        "transport system"
+      ],
+      "sentence": "Public transport reduces pollution.",
+      "phonetic": "/ˈtrænspɔːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_002",
+      "word": "subway",
+      "meaning": "地铁",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take the subway",
+        "subway station"
+      ],
+      "sentence": "The subway is the fastest way to travel.",
+      "phonetic": "/ˈsʌbweɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_003",
+      "word": "highway",
+      "meaning": "公路",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the highway",
+        "highway system"
+      ],
+      "sentence": "We drove on the highway for two hours.",
+      "phonetic": "/ˈhaɪweɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_004",
+      "word": "traffic jam",
+      "meaning": "交通堵塞",
+      "part_of_speech": "noun",
+      "phrase": [
+        "stuck in a traffic jam",
+        "avoid traffic jams"
+      ],
+      "sentence": "I was stuck in a traffic jam for an hour.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_005",
+      "word": "commute",
+      "meaning": "通勤",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "daily commute",
+        "commute to work"
+      ],
+      "sentence": "My commute takes about 40 minutes.",
+      "phonetic": "/kəˈmjuːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_006",
+      "word": "fare",
+      "meaning": "车费",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bus fare",
+        "train fare"
+      ],
+      "sentence": "The bus fare is 2 yuan.",
+      "phonetic": "/feər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_007",
+      "word": "ticket",
+      "meaning": "车票",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a single ticket",
+        "return ticket"
+      ],
+      "sentence": "I bought a monthly ticket.",
+      "phonetic": "/ˈtɪkɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_008",
+      "word": "platform",
+      "meaning": "站台",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the platform",
+        "platform number"
+      ],
+      "sentence": "The train leaves from platform 3.",
+      "phonetic": "/ˈplætfɔːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_009",
+      "word": "terminal",
+      "meaning": "终点站",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bus terminal",
+        "airport terminal"
+      ],
+      "sentence": "We arrived at the bus terminal.",
+      "phonetic": "/ˈtɜːrmɪnl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_010",
+      "word": "schedule",
+      "meaning": "时刻表",
+      "part_of_speech": "noun",
+      "phrase": [
+        "train schedule",
+        "bus schedule"
+      ],
+      "sentence": "Check the schedule before you go.",
+      "phonetic": "/ˈʃedjuːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_011",
+      "word": "delay",
+      "meaning": "延误",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "flight delay",
+        "be delayed"
+      ],
+      "sentence": "The train was delayed by 20 minutes.",
+      "phonetic": "/dɪˈleɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_012",
+      "word": "cancel",
+      "meaning": "取消",
+      "part_of_speech": "verb",
+      "phrase": [
+        "cancel a flight",
+        "be cancelled"
+      ],
+      "sentence": "All trains were cancelled due to snow.",
+      "phonetic": "/ˈkænsl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_013",
+      "word": "transfer",
+      "meaning": "换乘",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "transfer to",
+        "bus transfer"
+      ],
+      "sentence": "You need to transfer at the next stop.",
+      "phonetic": "/trænsˈfɜːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_014",
+      "word": "passenger",
+      "meaning": "乘客",
+      "part_of_speech": "noun",
+      "phrase": [
+        "train passenger",
+        "passenger seat"
+      ],
+      "sentence": "Passengers should wait in line.",
+      "phonetic": "/ˈpæsɪndʒər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_015",
+      "word": "pedestrian",
+      "meaning": "行人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "pedestrian crossing",
+        "pedestrian street"
+      ],
+      "sentence": "Pedestrians should use the crossing.",
+      "phonetic": "/pəˈdestriən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_016",
+      "word": "intersection",
+      "meaning": "十字路口",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at the intersection",
+        "busy intersection"
+      ],
+      "sentence": "Turn left at the next intersection.",
+      "phonetic": "/ˌɪntərˈsekʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_017",
+      "word": "lane",
+      "meaning": "车道",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bus lane",
+        "bike lane"
+      ],
+      "sentence": "There is a special lane for buses.",
+      "phonetic": "/leɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_018",
+      "word": "license",
+      "meaning": "执照",
+      "part_of_speech": "noun",
+      "phrase": [
+        "driving license",
+        "get your license"
+      ],
+      "sentence": "You need a license to drive a car.",
+      "phonetic": "/ˈlaɪsns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_019",
+      "word": "vehicle",
+      "meaning": "车辆",
+      "part_of_speech": "noun",
+      "phrase": [
+        "motor vehicle",
+        "electric vehicle"
+      ],
+      "sentence": "Electric vehicles are better for the environment.",
+      "phonetic": "/ˈviːəkl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_020",
+      "word": "pollution",
+      "meaning": "污染",
+      "part_of_speech": "noun",
+      "phrase": [
+        "air pollution",
+        "reduce pollution"
+      ],
+      "sentence": "Cars cause a lot of pollution.",
+      "phonetic": "/pəˈluːʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_021",
+      "word": "congestion",
+      "meaning": "拥堵",
+      "part_of_speech": "noun",
+      "phrase": [
+        "traffic congestion",
+        "reduce congestion"
+      ],
+      "sentence": "The city has a serious congestion problem.",
+      "phonetic": "/kənˈdʒestʃən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_022",
+      "word": "efficient",
+      "meaning": "高效的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "efficient transport",
+        "energy efficient"
+      ],
+      "sentence": "The metro is very efficient.",
+      "phonetic": "/ɪˈfɪʃnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_023",
+      "word": "accessible",
+      "meaning": "无障碍的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "wheelchair accessible",
+        "accessible to all"
+      ],
+      "sentence": "All buses should be accessible to disabled people.",
+      "phonetic": "/əkˈsesəbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_024",
+      "word": "infrastructure",
+      "meaning": "基础设施",
+      "part_of_speech": "noun",
+      "phrase": [
+        "transport infrastructure",
+        "build infrastructure"
+      ],
+      "sentence": "The city needs better infrastructure.",
+      "phonetic": "/ˈɪnfrəstrʌktʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit4_025",
+      "word": "route",
+      "meaning": "路线",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bus route",
+        "plan a route"
+      ],
+      "sentence": "This bus route goes to the city centre.",
+      "phonetic": "/ruːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

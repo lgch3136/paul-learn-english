@@ -1,0 +1,382 @@
+{
+  "unit": "g5dn-unit8",
+  "unit_title": "Birthdays",
+  "theme": "生日与日期",
+  "vocabulary": [
+    {
+      "word_id": "g5dn_unit8_001",
+      "word": "birthday",
+      "meaning": "生日",
+      "part_of_speech": "noun",
+      "phrase": [
+        "happy birthday",
+        "birthday party"
+      ],
+      "sentence": "When is your birthday?",
+      "phonetic": "/ˈbɜːrθdeɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_002",
+      "word": "March",
+      "meaning": "三月",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in March",
+        "March 8th"
+      ],
+      "sentence": "Spring comes in March.",
+      "phonetic": "/mɑːrtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_003",
+      "word": "April",
+      "meaning": "四月",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in April",
+        "April 1st"
+      ],
+      "sentence": "His birthday is in April.",
+      "phonetic": "/ˈeɪprəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_004",
+      "word": "May",
+      "meaning": "五月",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in May",
+        "May Day"
+      ],
+      "sentence": "May is a warm month.",
+      "phonetic": "/meɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_005",
+      "word": "June",
+      "meaning": "六月",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in June",
+        "June 1st"
+      ],
+      "sentence": "Children's Day is in June.",
+      "phonetic": "/dʒuːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_006",
+      "word": "July",
+      "meaning": "七月",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in July",
+        "July 4th"
+      ],
+      "sentence": "It is very hot in July.",
+      "phonetic": "/dʒuːˈlaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_007",
+      "word": "November",
+      "meaning": "十一月",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in November",
+        "November 11th"
+      ],
+      "sentence": "It gets cold in November.",
+      "phonetic": "/nəʊˈvembər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_008",
+      "word": "December",
+      "meaning": "十二月",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in December",
+        "December 25th"
+      ],
+      "sentence": "Christmas is in December.",
+      "phonetic": "/dɪˈsembər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_009",
+      "word": "date",
+      "meaning": "日期",
+      "part_of_speech": "noun",
+      "phrase": [
+        "birth date",
+        "what date"
+      ],
+      "sentence": "What is the date today?",
+      "phonetic": "/deɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_010",
+      "word": "month",
+      "meaning": "月",
+      "part_of_speech": "noun",
+      "phrase": [
+        "this month",
+        "last month"
+      ],
+      "sentence": "Which month is your birthday in?",
+      "phonetic": "/mʌnθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_011",
+      "word": "present",
+      "meaning": "礼物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "birthday present",
+        "give a present"
+      ],
+      "sentence": "I got many presents.",
+      "phonetic": "/ˈpreznt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_012",
+      "word": "gift",
+      "meaning": "礼物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "birthday gift",
+        "a special gift"
+      ],
+      "sentence": "Thank you for the gift!",
+      "phonetic": "/ɡɪft/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_013",
+      "word": "card",
+      "meaning": "卡片",
+      "part_of_speech": "noun",
+      "phrase": [
+        "birthday card",
+        "greeting card"
+      ],
+      "sentence": "She sent me a birthday card.",
+      "phonetic": "/kɑːrd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_014",
+      "word": "party",
+      "meaning": "聚会",
+      "part_of_speech": "noun",
+      "phrase": [
+        "birthday party",
+        "have a party"
+      ],
+      "sentence": "We had a big party.",
+      "phonetic": "/ˈpɑːrti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_015",
+      "word": "cake",
+      "meaning": "蛋糕",
+      "part_of_speech": "noun",
+      "phrase": [
+        "birthday cake",
+        "make a cake"
+      ],
+      "sentence": "Let me blow out the candles on the cake.",
+      "phonetic": "/keɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_016",
+      "word": "candle",
+      "meaning": "蜡烛",
+      "part_of_speech": "noun",
+      "phrase": [
+        "birthday candle",
+        "light the candles"
+      ],
+      "sentence": "There are ten candles on the cake.",
+      "phonetic": "/ˈkændl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_017",
+      "word": "blow",
+      "meaning": "吹",
+      "part_of_speech": "verb",
+      "phrase": [
+        "blow out",
+        "blow the candle"
+      ],
+      "sentence": "Blow out the candles!",
+      "phonetic": "/bləʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_018",
+      "word": "wish",
+      "meaning": "愿望",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "make a wish",
+        "birthday wish"
+      ],
+      "sentence": "Make a wish before you blow out the candles.",
+      "phonetic": "/wɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_019",
+      "word": "number",
+      "meaning": "数字",
+      "part_of_speech": "noun",
+      "phrase": [
+        "phone number",
+        "lucky number"
+      ],
+      "sentence": "How old are you? What is the number?",
+      "phonetic": "/ˈnʌmbər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_020",
+      "word": "age",
+      "meaning": "年龄",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at the age of",
+        "for my age"
+      ],
+      "sentence": "What age are you turning?",
+      "phonetic": "/eɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_021",
+      "word": "balloon",
+      "meaning": "气球",
+      "part_of_speech": "noun",
+      "phrase": [
+        "colourful balloons",
+        "blow up a balloon"
+      ],
+      "sentence": "There are many balloons at the party.",
+      "phonetic": "/bəˈluːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_022",
+      "word": "song",
+      "meaning": "歌曲",
+      "part_of_speech": "noun",
+      "phrase": [
+        "birthday song",
+        "sing a song"
+      ],
+      "sentence": "We sing the birthday song.",
+      "phonetic": "/sɒŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_023",
+      "word": "invite",
+      "meaning": "邀请",
+      "part_of_speech": "verb",
+      "phrase": [
+        "invite friends",
+        "invite to a party"
+      ],
+      "sentence": "I will invite all my friends.",
+      "phonetic": "/ɪnˈvaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_024",
+      "word": "eighth",
+      "meaning": "第八",
+      "part_of_speech": "num",
+      "phrase": [
+        "the eighth of May",
+        "eighth grade"
+      ],
+      "sentence": "My birthday is on the eighth of May.",
+      "phonetic": "/eɪtθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit8_025",
+      "word": "twelfth",
+      "meaning": "第十二",
+      "part_of_speech": "num",
+      "phrase": [
+        "the twelfth",
+        "twelfth birthday"
+      ],
+      "sentence": "It is my twelfth birthday today.",
+      "phonetic": "/twelfθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

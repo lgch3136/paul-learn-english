@@ -1,0 +1,382 @@
+{
+  "unit": "g12dn-unit2",
+  "unit_title": "Getting a job",
+  "theme": "求职就业",
+  "vocabulary": [
+    {
+      "word_id": "g12dn_unit2_001",
+      "word": "application",
+      "meaning": "申请",
+      "part_of_speech": "noun",
+      "phrase": [
+        "job application",
+        "fill in an application"
+      ],
+      "sentence": "I sent my application last week.",
+      "phonetic": "/ˌæplɪˈkeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_002",
+      "word": "applicant",
+      "meaning": "申请人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "job applicant",
+        "qualified applicant"
+      ],
+      "sentence": "There were over 100 applicants.",
+      "phonetic": "/ˈæplɪkənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_003",
+      "word": "vacancy",
+      "meaning": "空缺",
+      "part_of_speech": "noun",
+      "phrase": [
+        "job vacancy",
+        "fill a vacancy"
+      ],
+      "sentence": "There is a vacancy for a teacher.",
+      "phonetic": "/ˈveɪkənsi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_004",
+      "word": "recruit",
+      "meaning": "招聘",
+      "part_of_speech": "verb",
+      "phrase": [
+        "recruit employees",
+        "recruiting process"
+      ],
+      "sentence": "The company is recruiting new staff.",
+      "phonetic": "/rɪˈkruːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_005",
+      "word": "candidate",
+      "meaning": "候选人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "job candidate",
+        "suitable candidate"
+      ],
+      "sentence": "The best candidate will get the job.",
+      "phonetic": "/ˈkændɪdeɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_006",
+      "word": "shortlist",
+      "meaning": "入围名单",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "on the shortlist",
+        "be shortlisted"
+      ],
+      "sentence": "She was shortlisted for the position.",
+      "phonetic": "/ˈʃɔːrtlɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_007",
+      "word": "reference",
+      "meaning": "推荐信",
+      "part_of_speech": "noun",
+      "phrase": [
+        "character reference",
+        "provide a reference"
+      ],
+      "sentence": "We need two references from your previous jobs.",
+      "phonetic": "/ˈrefrəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_008",
+      "word": "negotiate",
+      "meaning": "谈判",
+      "part_of_speech": "verb",
+      "phrase": [
+        "negotiate a salary",
+        "negotiate terms"
+      ],
+      "sentence": "You can negotiate the starting salary.",
+      "phonetic": "/nɪˈɡəʊʃieɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_009",
+      "word": "contract",
+      "meaning": "合同",
+      "part_of_speech": "noun",
+      "phrase": [
+        "employment contract",
+        "sign a contract"
+      ],
+      "sentence": "Read the contract carefully before signing.",
+      "phonetic": "/ˈkɒntrækt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_010",
+      "word": "probation",
+      "meaning": "试用期",
+      "part_of_speech": "noun",
+      "phrase": [
+        "probation period",
+        "on probation"
+      ],
+      "sentence": "There is a three-month probation period.",
+      "phonetic": "/prəˈbeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_011",
+      "word": "dismiss",
+      "meaning": "解雇",
+      "part_of_speech": "verb",
+      "phrase": [
+        "dismiss an employee",
+        "be dismissed"
+      ],
+      "sentence": "He was dismissed for poor performance.",
+      "phonetic": "/dɪsˈmɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_012",
+      "word": "redundant",
+      "meaning": "被裁员的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be made redundant",
+        "redundant worker"
+      ],
+      "sentence": "He was made redundant after the merger.",
+      "phonetic": "/rɪˈdʌndənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_013",
+      "word": "resign",
+      "meaning": "辞职",
+      "part_of_speech": "verb",
+      "phrase": [
+        "resign from a job",
+        "decide to resign"
+      ],
+      "sentence": "She resigned to start her own business.",
+      "phonetic": "/rɪˈzaɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_014",
+      "word": "retire",
+      "meaning": "退休",
+      "part_of_speech": "verb",
+      "phrase": [
+        "retire from work",
+        "retire early"
+      ],
+      "sentence": "He plans to retire at 60.",
+      "phonetic": "/rɪˈtaɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_015",
+      "word": "turnover",
+      "meaning": "人员流动率",
+      "part_of_speech": "noun",
+      "phrase": [
+        "staff turnover",
+        "high turnover"
+      ],
+      "sentence": "The company has a high staff turnover.",
+      "phonetic": "/ˈtɜːrnəʊvər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_016",
+      "word": "flexible",
+      "meaning": "灵活的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "flexible hours",
+        "flexible working"
+      ],
+      "sentence": "The job offers flexible working hours.",
+      "phonetic": "/ˈfleksəbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_017",
+      "word": "work-life balance",
+      "meaning": "工作生活平衡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "maintain work-life balance",
+        "good work-life balance"
+      ],
+      "sentence": "Work-life balance is important to me.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_018",
+      "word": "overtime",
+      "meaning": "加班",
+      "part_of_speech": "noun",
+      "phrase": [
+        "work overtime",
+        "overtime pay"
+      ],
+      "sentence": "I often work overtime during busy seasons.",
+      "phonetic": "/ˈəʊvərtaɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_019",
+      "word": "commute",
+      "meaning": "通勤",
+      "part_of_speech": "noun",
+      "phrase": [
+        "daily commute",
+        "long commute"
+      ],
+      "sentence": "My commute is about an hour each way.",
+      "phonetic": "/kəˈmjuːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_020",
+      "word": "job satisfaction",
+      "meaning": "工作满意度",
+      "part_of_speech": "noun",
+      "phrase": [
+        "high job satisfaction",
+        "improve job satisfaction"
+      ],
+      "sentence": "Job satisfaction is more important than salary.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_021",
+      "word": "networking",
+      "meaning": "人际网络",
+      "part_of_speech": "noun",
+      "phrase": [
+        "business networking",
+        "networking event"
+      ],
+      "sentence": "Networking can help you find new opportunities.",
+      "phonetic": "/ˈnetwɜːrkɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_022",
+      "word": "headhunter",
+      "meaning": "猎头",
+      "part_of_speech": "noun",
+      "phrase": [
+        "contact a headhunter",
+        "work with a headhunter"
+      ],
+      "sentence": "A headhunter contacted me about a job.",
+      "phonetic": "/ˈhedhʌntər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_023",
+      "word": "cover letter",
+      "meaning": "求职信",
+      "part_of_speech": "noun",
+      "phrase": [
+        "write a cover letter",
+        "attach a cover letter"
+      ],
+      "sentence": "Your cover letter should highlight your skills.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_024",
+      "word": "portfolio",
+      "meaning": "作品集",
+      "part_of_speech": "noun",
+      "phrase": [
+        "design portfolio",
+        "online portfolio"
+      ],
+      "sentence": "Show your portfolio at the interview.",
+      "phonetic": "/pɔːrtˈfəʊliəʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit2_025",
+      "word": "soft skills",
+      "meaning": "软技能",
+      "part_of_speech": "noun",
+      "phrase": [
+        "develop soft skills",
+        "soft skills training"
+      ],
+      "sentence": "Communication is an important soft skill.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

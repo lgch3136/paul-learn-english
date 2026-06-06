@@ -1,0 +1,382 @@
+{
+  "unit": "g11up-unit1",
+  "unit_title": "Getting along with others",
+  "theme": "人际交往",
+  "vocabulary": [
+    {
+      "word_id": "g11up_unit1_001",
+      "word": "betray",
+      "meaning": "背叛",
+      "part_of_speech": "verb",
+      "phrase": [
+        "betray a friend",
+        "feel betrayed"
+      ],
+      "sentence": "I felt betrayed by my best friend.",
+      "phonetic": "/bɪˈtreɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_002",
+      "word": "apologize",
+      "meaning": "道歉",
+      "part_of_speech": "verb",
+      "phrase": [
+        "apologize for",
+        "apologize to"
+      ],
+      "sentence": "You should apologize for what you said.",
+      "phonetic": "/əˈpɒlədʒaɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_003",
+      "word": "forgive",
+      "meaning": "原谅",
+      "part_of_speech": "verb",
+      "phrase": [
+        "forgive someone",
+        "forgive and forget"
+      ],
+      "sentence": "Can you forgive me?",
+      "phonetic": "/fərˈɡɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_004",
+      "word": "pretend",
+      "meaning": "假装",
+      "part_of_speech": "verb",
+      "phrase": [
+        "pretend to be",
+        "pretend not to"
+      ],
+      "sentence": "She pretended not to see me.",
+      "phonetic": "/prɪˈtend/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_005",
+      "word": "beg",
+      "meaning": "恳求",
+      "part_of_speech": "verb",
+      "phrase": [
+        "beg for forgiveness",
+        "beg someone"
+      ],
+      "sentence": "I begged her to stay.",
+      "phonetic": "/beɡ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_006",
+      "word": "swear",
+      "meaning": "发誓",
+      "part_of_speech": "verb",
+      "phrase": [
+        "swear to do",
+        "swear at"
+      ],
+      "sentence": "I swear I did not tell anyone.",
+      "phonetic": "/sweər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_007",
+      "word": "spy",
+      "meaning": "监视；间谍",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "spy on",
+        "secret spy"
+      ],
+      "sentence": "It is wrong to spy on your friends.",
+      "phonetic": "/spaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_008",
+      "word": "remark",
+      "meaning": "评论",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "make a remark",
+        "unkind remark"
+      ],
+      "sentence": "His rude remark hurt my feelings.",
+      "phonetic": "/rɪˈmɑːrk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_009",
+      "word": "disagree",
+      "meaning": "不同意",
+      "part_of_speech": "verb",
+      "phrase": [
+        "disagree with",
+        "disagree about"
+      ],
+      "sentence": "I disagree with your opinion.",
+      "phonetic": "/ˌdɪsəˈɡriː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_010",
+      "word": "quarrel",
+      "meaning": "争吵",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "have a quarrel",
+        "quarrel about"
+      ],
+      "sentence": "We had a quarrel over something silly.",
+      "phonetic": "/ˈkwɒrəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_011",
+      "word": "manner",
+      "meaning": "方式",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in a friendly manner",
+        "bad manners"
+      ],
+      "sentence": "Speak to others in a polite manner.",
+      "phonetic": "/ˈmænər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_012",
+      "word": "sensitive",
+      "meaning": "敏感的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "sensitive topic",
+        "be sensitive about"
+      ],
+      "sentence": "He is very sensitive about his weight.",
+      "phonetic": "/ˈsensətɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_013",
+      "word": "athletic",
+      "meaning": "运动的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "athletic ability",
+        "athletic build"
+      ],
+      "sentence": "She is very athletic and loves sports.",
+      "phonetic": "/æθˈletɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_014",
+      "word": "envy",
+      "meaning": "嫉妒",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "envy someone",
+        "green with envy"
+      ],
+      "sentence": "Don't envy other people's success.",
+      "phonetic": "/ˈenvi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_015",
+      "word": "overcome",
+      "meaning": "克服",
+      "part_of_speech": "verb",
+      "phrase": [
+        "overcome jealousy",
+        "overcome fear"
+      ],
+      "sentence": "You must overcome your jealousy.",
+      "phonetic": "/ˌəʊvərˈkʌm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_016",
+      "word": "admit",
+      "meaning": "承认",
+      "part_of_speech": "verb",
+      "phrase": [
+        "admit a mistake",
+        "admit that"
+      ],
+      "sentence": "He admitted he was wrong.",
+      "phonetic": "/ədˈmɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_017",
+      "word": "blame",
+      "meaning": "责备",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take the blame",
+        "put the blame on"
+      ],
+      "sentence": "You cannot blame others for your mistakes.",
+      "phonetic": "/bleɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_018",
+      "word": "confess",
+      "meaning": "坦白",
+      "part_of_speech": "verb",
+      "phrase": [
+        "confess to",
+        "confess a secret"
+      ],
+      "sentence": "She confessed her feelings to him.",
+      "phonetic": "/kənˈfes/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_019",
+      "word": "jealous",
+      "meaning": "嫉妒的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel jealous",
+        "jealous of"
+      ],
+      "sentence": "Don't be jealous of your friends.",
+      "phonetic": "/ˈdʒeləs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_020",
+      "word": "companion",
+      "meaning": "伙伴",
+      "part_of_speech": "noun",
+      "phrase": [
+        "close companion",
+        "travel companion"
+      ],
+      "sentence": "A dog can be a loyal companion.",
+      "phonetic": "/kəmˈpænjən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_021",
+      "word": "bond",
+      "meaning": "纽带",
+      "part_of_speech": "noun",
+      "phrase": [
+        "strong bond",
+        "form a bond"
+      ],
+      "sentence": "There is a special bond between true friends.",
+      "phonetic": "/bɒnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_022",
+      "word": "gossip",
+      "meaning": "闲话",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "spread gossip",
+        "gossip about"
+      ],
+      "sentence": "Don't gossip about your friends.",
+      "phonetic": "/ˈɡɒsɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_023",
+      "word": "sincere",
+      "meaning": "真诚的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "sincere apology",
+        "sincere friend"
+      ],
+      "sentence": "A sincere apology can fix many problems.",
+      "phonetic": "/sɪnˈsɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_024",
+      "word": "loyal",
+      "meaning": "忠诚的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "loyal friend",
+        "remain loyal"
+      ],
+      "sentence": "A loyal friend will never betray you.",
+      "phonetic": "/ˈlɔɪəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit1_025",
+      "word": "compromise",
+      "meaning": "妥协",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "reach a compromise",
+        "compromise on"
+      ],
+      "sentence": "Friendship sometimes requires compromise.",
+      "phonetic": "/ˈkɒmprəmaɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

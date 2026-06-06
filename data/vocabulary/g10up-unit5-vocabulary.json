@@ -1,0 +1,382 @@
+{
+  "unit": "g10up-unit5",
+  "unit_title": "Wish you were here",
+  "theme": "旅行与探险",
+  "vocabulary": [
+    {
+      "word_id": "g10up_unit5_001",
+      "word": "adventure",
+      "meaning": "冒险",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go on an adventure",
+        "sense of adventure"
+      ],
+      "sentence": "Africa is a land of adventure.",
+      "phonetic": "/ədˈventʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_002",
+      "word": "explore",
+      "meaning": "探索",
+      "part_of_speech": "verb",
+      "phrase": [
+        "explore the world",
+        "explore new places"
+      ],
+      "sentence": "I want to explore the Amazon jungle.",
+      "phonetic": "/ɪkˈsplɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_003",
+      "word": "desert",
+      "meaning": "沙漠",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Sahara desert",
+        "desert island"
+      ],
+      "sentence": "The desert is very hot during the day.",
+      "phonetic": "/ˈdezərt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_004",
+      "word": "jungle",
+      "meaning": "丛林",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Amazon jungle",
+        "dense jungle"
+      ],
+      "sentence": "The jungle is full of wild animals.",
+      "phonetic": "/ˈdʒʌŋɡl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_005",
+      "word": "wilderness",
+      "meaning": "荒野",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the wilderness",
+        "vast wilderness"
+      ],
+      "sentence": "They travelled through the wilderness.",
+      "phonetic": "/ˈwɪldərnəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_006",
+      "word": "route",
+      "meaning": "路线",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take a route",
+        "travel route"
+      ],
+      "sentence": "We planned a safe route through the mountains.",
+      "phonetic": "/ruːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_007",
+      "word": "camp",
+      "meaning": "露营",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "go camping",
+        "set up camp"
+      ],
+      "sentence": "We camped near the river.",
+      "phonetic": "/kæmp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_008",
+      "word": "survival",
+      "meaning": "生存",
+      "part_of_speech": "noun",
+      "phrase": [
+        "survival skills",
+        "survival of the fittest"
+      ],
+      "sentence": "You need survival skills in the wild.",
+      "phonetic": "/sərˈvaɪvl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_009",
+      "word": "equipment",
+      "meaning": "装备",
+      "part_of_speech": "noun",
+      "phrase": [
+        "camping equipment",
+        "sports equipment"
+      ],
+      "sentence": "We packed all the necessary equipment.",
+      "phonetic": "/ɪˈkwɪpmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_010",
+      "word": "supplies",
+      "meaning": "补给",
+      "part_of_speech": "noun",
+      "phrase": [
+        "food supplies",
+        "medical supplies"
+      ],
+      "sentence": "We carried enough supplies for a week.",
+      "phonetic": "/səˈplaɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_011",
+      "word": "altitude",
+      "meaning": "海拔",
+      "part_of_speech": "noun",
+      "phrase": [
+        "high altitude",
+        "at an altitude of"
+      ],
+      "sentence": "The altitude made it hard to breathe.",
+      "phonetic": "/ˈæltɪtjuːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_012",
+      "word": "destination",
+      "meaning": "目的地",
+      "part_of_speech": "noun",
+      "phrase": [
+        "reach the destination",
+        "final destination"
+      ],
+      "sentence": "Our destination is the top of the mountain.",
+      "phonetic": "/ˌdestɪˈneɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_013",
+      "word": "magnificent",
+      "meaning": "壮丽的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "magnificent view",
+        "magnificent palace"
+      ],
+      "sentence": "The view from the top was magnificent.",
+      "phonetic": "/mæɡˈnɪfɪsnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_014",
+      "word": "sunrise",
+      "meaning": "日出",
+      "part_of_speech": "noun",
+      "phrase": [
+        "watch the sunrise",
+        "at sunrise"
+      ],
+      "sentence": "We got up early to see the sunrise.",
+      "phonetic": "/ˈsʌnraɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_015",
+      "word": "sunset",
+      "meaning": "日落",
+      "part_of_speech": "noun",
+      "phrase": [
+        "beautiful sunset",
+        "at sunset"
+      ],
+      "sentence": "The sunset over the desert was amazing.",
+      "phonetic": "/ˈsʌnset/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_016",
+      "word": "wild",
+      "meaning": "野生的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "wild animals",
+        "in the wild"
+      ],
+      "sentence": "We saw many wild animals on the trip.",
+      "phonetic": "/waɪld/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_017",
+      "word": "track",
+      "meaning": "追踪",
+      "part_of_speech": "verb",
+      "phrase": [
+        "track animals",
+        "keep track of"
+      ],
+      "sentence": "We tracked the footprints of a lion.",
+      "phonetic": "/træk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_018",
+      "word": "courage",
+      "meaning": "勇气",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have courage",
+        "take courage"
+      ],
+      "sentence": "It takes courage to explore the unknown.",
+      "phonetic": "/ˈkʌrɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_019",
+      "word": "remote",
+      "meaning": "偏远的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "remote area",
+        "remote village"
+      ],
+      "sentence": "They lived in a remote mountain village.",
+      "phonetic": "/rɪˈməʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_020",
+      "word": "expedition",
+      "meaning": "远征",
+      "part_of_speech": "noun",
+      "phrase": [
+        "scientific expedition",
+        "go on an expedition"
+      ],
+      "sentence": "The expedition lasted for three months.",
+      "phonetic": "/ˌekspəˈdɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_021",
+      "word": "discover",
+      "meaning": "发现",
+      "part_of_speech": "verb",
+      "phrase": [
+        "discover new lands",
+        "make a discovery"
+      ],
+      "sentence": "They discovered a hidden waterfall.",
+      "phonetic": "/dɪˈskʌvər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_022",
+      "word": "arrange",
+      "meaning": "安排",
+      "part_of_speech": "verb",
+      "phrase": [
+        "arrange a trip",
+        "arrange for"
+      ],
+      "sentence": "I will arrange everything for the trip.",
+      "phonetic": "/əˈreɪndʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_023",
+      "word": "harm",
+      "meaning": "伤害",
+      "part_of_speech": "noun",
+      "phrase": [
+        "do no harm",
+        "cause harm"
+      ],
+      "sentence": "We should do no harm to nature.",
+      "phonetic": "/hɑːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_024",
+      "word": "adventurous",
+      "meaning": "爱冒险的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "adventurous spirit",
+        "feel adventurous"
+      ],
+      "sentence": "She is very adventurous and loves to travel.",
+      "phonetic": "/ədˈventʃərəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit5_025",
+      "word": "scenery",
+      "meaning": "景色",
+      "part_of_speech": "noun",
+      "phrase": [
+        "beautiful scenery",
+        "natural scenery"
+      ],
+      "sentence": "The scenery in Tibet is breathtaking.",
+      "phonetic": "/ˈsiːnəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

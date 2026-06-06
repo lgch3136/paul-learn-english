@@ -1,0 +1,382 @@
+{
+  "unit": "g9up-unit4",
+  "unit_title": "Growing up",
+  "theme": "成长经历",
+  "vocabulary": [
+    {
+      "word_id": "g9up_unit4_001",
+      "word": "whenever",
+      "meaning": "无论何时",
+      "part_of_speech": "conj",
+      "phrase": [
+        "whenever possible",
+        "whenever you want"
+      ],
+      "sentence": "Whenever I think of my childhood, I smile.",
+      "phonetic": "/wenˈevər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_002",
+      "word": "through",
+      "meaning": "通过",
+      "part_of_speech": "prep",
+      "phrase": [
+        "go through",
+        "look through"
+      ],
+      "sentence": "He has gone through many difficulties.",
+      "phonetic": "/θruː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_003",
+      "word": "university",
+      "meaning": "大学",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go to university",
+        "university life"
+      ],
+      "sentence": "She wants to go to university.",
+      "phonetic": "/ˌjuːnɪˈvɜːrsəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_004",
+      "word": "simply",
+      "meaning": "仅仅；简单地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "simply because",
+        "put simply"
+      ],
+      "sentence": "He succeeded simply because he never gave up.",
+      "phonetic": "/ˈsɪmpli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_005",
+      "word": "score",
+      "meaning": "得分",
+      "part_of_speech": "noun",
+      "phrase": [
+        "score a goal",
+        "high score"
+      ],
+      "sentence": "He scored 20 points in the game.",
+      "phonetic": "/skɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_006",
+      "word": "league",
+      "meaning": "联赛",
+      "part_of_speech": "noun",
+      "phrase": [
+        "basketball league",
+        "in the league"
+      ],
+      "sentence": "He plays in the NBA league.",
+      "phonetic": "/liːɡ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_007",
+      "word": "junior",
+      "meaning": "初级的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "junior high",
+        "junior team"
+      ],
+      "sentence": "He started playing in junior high.",
+      "phonetic": "/ˈdʒuːniər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_008",
+      "word": "senior",
+      "meaning": "高级的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "senior high",
+        "senior team"
+      ],
+      "sentence": "He joined the senior team at 18.",
+      "phonetic": "/ˈsiːniər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_009",
+      "word": "force",
+      "meaning": "迫使",
+      "part_of_speech": "verb",
+      "phrase": [
+        "force to do",
+        "by force"
+      ],
+      "sentence": "The coach forced him to practise harder.",
+      "phonetic": "/fɔːrs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_010",
+      "word": "remain",
+      "meaning": "保持；留下",
+      "part_of_speech": "verb",
+      "phrase": [
+        "remain calm",
+        "remain the same"
+      ],
+      "sentence": "He remained in the team for ten years.",
+      "phonetic": "/rɪˈmeɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_011",
+      "word": "prove",
+      "meaning": "证明",
+      "part_of_speech": "verb",
+      "phrase": [
+        "prove that",
+        "prove to be"
+      ],
+      "sentence": "He proved that he was a great player.",
+      "phonetic": "/pruːv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_012",
+      "word": "matter",
+      "meaning": "要紧",
+      "part_of_speech": "verb",
+      "phrase": [
+        "it doesn't matter",
+        "what matters"
+      ],
+      "sentence": "What matters most is hard work.",
+      "phonetic": "/ˈmætər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_013",
+      "word": "leader",
+      "meaning": "领导者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "team leader",
+        "born leader"
+      ],
+      "sentence": "He became a leader on the court.",
+      "phonetic": "/ˈliːdər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_014",
+      "word": "name",
+      "meaning": "命名",
+      "part_of_speech": "verb",
+      "phrase": [
+        "be named",
+        "name after"
+      ],
+      "sentence": "He was named Player of the Year.",
+      "phonetic": "/neɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_015",
+      "word": "championship",
+      "meaning": "冠军",
+      "part_of_speech": "noun",
+      "phrase": [
+        "win the championship",
+        "world championship"
+      ],
+      "sentence": "They won the championship.",
+      "phonetic": "/ˈtʃæmpiənʃɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_016",
+      "word": "graduate",
+      "meaning": "毕业",
+      "part_of_speech": "verb",
+      "phrase": [
+        "graduate from",
+        "college graduate"
+      ],
+      "sentence": "She graduated from university last year.",
+      "phonetic": "/ˈɡrædʒueɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_017",
+      "word": "encourage",
+      "meaning": "鼓励",
+      "part_of_speech": "verb",
+      "phrase": [
+        "encourage to do",
+        "encourage each other"
+      ],
+      "sentence": "My parents always encouraged me.",
+      "phonetic": "/ɪnˈkʌrɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_018",
+      "word": "progress",
+      "meaning": "进步",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make progress",
+        "in progress"
+      ],
+      "sentence": "I have made a lot of progress.",
+      "phonetic": "/ˈprəʊɡres/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_019",
+      "word": "childhood",
+      "meaning": "童年",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in my childhood",
+        "happy childhood"
+      ],
+      "sentence": "I had a happy childhood.",
+      "phonetic": "/ˈtʃaɪldhʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_020",
+      "word": "national",
+      "meaning": "国家的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "national team",
+        "national park"
+      ],
+      "sentence": "He played for the national team.",
+      "phonetic": "/ˈnæʃnəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_021",
+      "word": "succeed",
+      "meaning": "成功",
+      "part_of_speech": "verb",
+      "phrase": [
+        "succeed in",
+        "finally succeed"
+      ],
+      "sentence": "If you work hard, you will succeed.",
+      "phonetic": "/səkˈsiːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_022",
+      "word": "research",
+      "meaning": "研究",
+      "part_of_speech": "noun",
+      "phrase": [
+        "do research",
+        "scientific research"
+      ],
+      "sentence": "She is doing research on child development.",
+      "phonetic": "/rɪˈsɜːrtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_023",
+      "word": "successful",
+      "meaning": "成功的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "a successful person",
+        "be successful"
+      ],
+      "sentence": "He is a very successful businessman.",
+      "phonetic": "/səkˈsesfl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_024",
+      "word": "overcome",
+      "meaning": "克服",
+      "part_of_speech": "verb",
+      "phrase": [
+        "overcome difficulties",
+        "overcome fear"
+      ],
+      "sentence": "You must overcome your fear of failure.",
+      "phonetic": "/ˌəʊvərˈkʌm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit4_025",
+      "word": "achievement",
+      "meaning": "成就",
+      "part_of_speech": "noun",
+      "phrase": [
+        "great achievement",
+        "sense of achievement"
+      ],
+      "sentence": "Winning the gold medal was a great achievement.",
+      "phonetic": "/əˈtʃiːvmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

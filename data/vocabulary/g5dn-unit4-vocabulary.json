@@ -1,0 +1,382 @@
+{
+  "unit": "g5dn-unit4",
+  "unit_title": "Seeing the doctor",
+  "theme": "看医生与健康",
+  "vocabulary": [
+    {
+      "word_id": "g5dn_unit4_001",
+      "word": "headache",
+      "meaning": "头疼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have a headache",
+        "bad headache"
+      ],
+      "sentence": "I have a headache.",
+      "phonetic": "/ˈhedeɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_002",
+      "word": "toothache",
+      "meaning": "牙疼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have a toothache",
+        "terrible toothache"
+      ],
+      "sentence": "He has a toothache.",
+      "phonetic": "/ˈtuːθeɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_003",
+      "word": "fever",
+      "meaning": "发烧",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have a fever",
+        "high fever"
+      ],
+      "sentence": "She has a fever today.",
+      "phonetic": "/ˈfiːvər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_004",
+      "word": "cough",
+      "meaning": "咳嗽",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "have a cough",
+        "cough badly"
+      ],
+      "sentence": "I have a bad cough.",
+      "phonetic": "/kɒf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_005",
+      "word": "cold",
+      "meaning": "感冒",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have a cold",
+        "catch a cold"
+      ],
+      "sentence": "I think I have a cold.",
+      "phonetic": "/kəʊld/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_006",
+      "word": "medicine",
+      "meaning": "药",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take medicine",
+        "Chinese medicine"
+      ],
+      "sentence": "Take this medicine three times a day.",
+      "phonetic": "/ˈmedɪsn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_007",
+      "word": "rest",
+      "meaning": "休息",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "have a rest",
+        "take a rest"
+      ],
+      "sentence": "You should have a rest.",
+      "phonetic": "/rest/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_008",
+      "word": "dentist",
+      "meaning": "牙医",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go to the dentist",
+        "see the dentist"
+      ],
+      "sentence": "You should see a dentist.",
+      "phonetic": "/ˈdentɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_009",
+      "word": "check",
+      "meaning": "检查",
+      "part_of_speech": "verb",
+      "phrase": [
+        "check up",
+        "health check"
+      ],
+      "sentence": "Let me check your temperature.",
+      "phonetic": "/tʃek/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_010",
+      "word": "temperature",
+      "meaning": "体温",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take temperature",
+        "high temperature"
+      ],
+      "sentence": "Let me take your temperature.",
+      "phonetic": "/ˈtemprətʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_011",
+      "word": "pain",
+      "meaning": "疼痛",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in pain",
+        "feel pain"
+      ],
+      "sentence": "Where is the pain?",
+      "phonetic": "/peɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_012",
+      "word": "hurt",
+      "meaning": "疼痛；受伤",
+      "part_of_speech": "verb",
+      "phrase": [
+        "my leg hurts",
+        "does it hurt?"
+      ],
+      "sentence": "My head hurts.",
+      "phonetic": "/hɜːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_013",
+      "word": "throat",
+      "meaning": "喉咙",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sore throat",
+        "clear your throat"
+      ],
+      "sentence": "I have a sore throat.",
+      "phonetic": "/θrəʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_014",
+      "word": "stomach",
+      "meaning": "胃；肚子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "stomach ache",
+        "empty stomach"
+      ],
+      "sentence": "My stomach hurts.",
+      "phonetic": "/ˈstʌmək/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_015",
+      "word": "brush",
+      "meaning": "刷",
+      "part_of_speech": "verb",
+      "phrase": [
+        "brush teeth",
+        "brush hair"
+      ],
+      "sentence": "Brush your teeth twice a day.",
+      "phonetic": "/brʌʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_016",
+      "word": "sweet",
+      "meaning": "甜的；糖果",
+      "part_of_speech": "adj/noun",
+      "phrase": [
+        "too sweet",
+        "eat sweets"
+      ],
+      "sentence": "Do not eat too many sweets.",
+      "phonetic": "/swiːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_017",
+      "word": "healthy",
+      "meaning": "健康的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "stay healthy",
+        "healthy food"
+      ],
+      "sentence": "We should eat healthy food.",
+      "phonetic": "/ˈhelθi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_018",
+      "word": "drink",
+      "meaning": "喝",
+      "part_of_speech": "verb",
+      "phrase": [
+        "drink water",
+        "drink milk"
+      ],
+      "sentence": "Drink more warm water.",
+      "phonetic": "/drɪŋk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_019",
+      "word": "sleep",
+      "meaning": "睡觉",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "go to sleep",
+        "get enough sleep"
+      ],
+      "sentence": "You should get enough sleep.",
+      "phonetic": "/sliːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_020",
+      "word": "feel",
+      "meaning": "感觉",
+      "part_of_speech": "verb",
+      "phrase": [
+        "feel well",
+        "feel better"
+      ],
+      "sentence": "I don't feel well.",
+      "phonetic": "/fiːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_021",
+      "word": "arm",
+      "meaning": "手臂",
+      "part_of_speech": "noun",
+      "phrase": [
+        "broken arm",
+        "arm in arm"
+      ],
+      "sentence": "My arm hurts.",
+      "phonetic": "/ɑːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_022",
+      "word": "leg",
+      "meaning": "腿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "break a leg",
+        "leg pain"
+      ],
+      "sentence": "I hurt my leg.",
+      "phonetic": "/leɡ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_023",
+      "word": "body",
+      "meaning": "身体",
+      "part_of_speech": "noun",
+      "phrase": [
+        "human body",
+        "body temperature"
+      ],
+      "sentence": "Take good care of your body.",
+      "phonetic": "/ˈbɒdi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_024",
+      "word": "should",
+      "meaning": "应该",
+      "part_of_speech": "modal verb",
+      "phrase": [
+        "you should",
+        "should not"
+      ],
+      "sentence": "You should see a doctor.",
+      "phonetic": "/ʃʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit4_025",
+      "word": "worry",
+      "meaning": "担心",
+      "part_of_speech": "verb",
+      "phrase": [
+        "don't worry",
+        "worry about"
+      ],
+      "sentence": "Don't worry. You'll be fine.",
+      "phonetic": "/ˈwʌri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

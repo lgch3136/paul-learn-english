@@ -1,0 +1,382 @@
+{
+  "unit": "g9dn-unit1",
+  "unit_title": "Asia",
+  "theme": "亚洲国家与文化",
+  "vocabulary": [
+    {
+      "word_id": "g9dn_unit1_001",
+      "word": "tiring",
+      "meaning": "累人的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "a tiring journey",
+        "very tiring"
+      ],
+      "sentence": "The long flight was very tiring.",
+      "phonetic": "/ˈtaɪərɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_002",
+      "word": "step",
+      "meaning": "台阶",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take steps",
+        "step by step"
+      ],
+      "sentence": "There are many steps up to the temple.",
+      "phonetic": "/step/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_003",
+      "word": "landscape",
+      "meaning": "风景",
+      "part_of_speech": "noun",
+      "phrase": [
+        "beautiful landscape",
+        "natural landscape"
+      ],
+      "sentence": "The landscape in Guilin is amazing.",
+      "phonetic": "/ˈlændskeɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_004",
+      "word": "attraction",
+      "meaning": "景点",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tourist attraction",
+        "main attraction"
+      ],
+      "sentence": "The Great Wall is a famous attraction.",
+      "phonetic": "/əˈtrækʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_005",
+      "word": "raise",
+      "meaning": "升起",
+      "part_of_speech": "verb",
+      "phrase": [
+        "raise the flag",
+        "raise your hand"
+      ],
+      "sentence": "The national flag is raised every morning.",
+      "phonetic": "/reɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_006",
+      "word": "wonder",
+      "meaning": "奇迹",
+      "part_of_speech": "noun",
+      "phrase": [
+        "natural wonder",
+        "no wonder"
+      ],
+      "sentence": "The Great Wall is one of the wonders of the world.",
+      "phonetic": "/ˈwʌndər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_007",
+      "word": "lie",
+      "meaning": "位于",
+      "part_of_speech": "verb",
+      "phrase": [
+        "lie in",
+        "lie on the ground"
+      ],
+      "sentence": "Beijing lies in the north of China.",
+      "phonetic": "/laɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_008",
+      "word": "shape",
+      "meaning": "形状",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the shape of",
+        "different shapes"
+      ],
+      "sentence": "The building is in the shape of a dragon.",
+      "phonetic": "/ʃeɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_009",
+      "word": "hang",
+      "meaning": "悬挂",
+      "part_of_speech": "verb",
+      "phrase": [
+        "hang on the wall",
+        "hang out"
+      ],
+      "sentence": "Red lanterns hang from the ceiling.",
+      "phonetic": "/hæŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_010",
+      "word": "point",
+      "meaning": "指",
+      "part_of_speech": "verb",
+      "phrase": [
+        "point to",
+        "point out"
+      ],
+      "sentence": "He pointed to the mountain in the distance.",
+      "phonetic": "/pɔɪnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_011",
+      "word": "eastern",
+      "meaning": "东方的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "eastern China",
+        "Eastern culture"
+      ],
+      "sentence": "Shanghai is in eastern China.",
+      "phonetic": "/ˈiːstərn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_012",
+      "word": "south-east",
+      "meaning": "东南",
+      "part_of_speech": "noun",
+      "phrase": [
+        "south-east Asia",
+        "in the south-east"
+      ],
+      "sentence": "Thailand is in South-east Asia.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_013",
+      "word": "Japanese",
+      "meaning": "日本的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "Japanese culture",
+        "Japanese food"
+      ],
+      "sentence": "I love Japanese food.",
+      "phonetic": "/ˌdʒæpəˈniːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_014",
+      "word": "Korean",
+      "meaning": "韩国的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "Korean food",
+        "Korean drama"
+      ],
+      "sentence": "Korean dramas are very popular.",
+      "phonetic": "/kəˈriːən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_015",
+      "word": "population",
+      "meaning": "人口",
+      "part_of_speech": "noun",
+      "phrase": [
+        "large population",
+        "world population"
+      ],
+      "sentence": "China has the largest population.",
+      "phonetic": "/ˌpɒpjuˈleɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_016",
+      "word": "billion",
+      "meaning": "十亿",
+      "part_of_speech": "num",
+      "phrase": [
+        "one billion",
+        "billions of"
+      ],
+      "sentence": "India has over a billion people.",
+      "phonetic": "/ˈbɪljən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_017",
+      "word": "emperor",
+      "meaning": "皇帝",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Chinese emperor",
+        "emperor's palace"
+      ],
+      "sentence": "The emperor ruled the country for many years.",
+      "phonetic": "/ˈempərər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_018",
+      "word": "palace",
+      "meaning": "宫殿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Summer Palace",
+        "royal palace"
+      ],
+      "sentence": "We visited the Summer Palace.",
+      "phonetic": "/ˈpæləs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_019",
+      "word": "watchtower",
+      "meaning": "瞭望塔",
+      "part_of_speech": "noun",
+      "phrase": [
+        "climb a watchtower",
+        "ancient watchtower"
+      ],
+      "sentence": "There are watchtowers along the Great Wall.",
+      "phonetic": "/ˈwɒtʃtaʊər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_020",
+      "word": "cave",
+      "meaning": "洞穴",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Mogao Caves",
+        "cave painting"
+      ],
+      "sentence": "We explored the ancient caves.",
+      "phonetic": "/keɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_021",
+      "word": "hire",
+      "meaning": "租用",
+      "part_of_speech": "verb",
+      "phrase": [
+        "hire a car",
+        "for hire"
+      ],
+      "sentence": "We hired a bicycle to go around the city.",
+      "phonetic": "/ˈhaɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_022",
+      "word": "cycle",
+      "meaning": "骑自行车",
+      "part_of_speech": "verb",
+      "phrase": [
+        "cycle around",
+        "go cycling"
+      ],
+      "sentence": "We cycled around the old city.",
+      "phonetic": "/ˈsaɪkl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_023",
+      "word": "breathe",
+      "meaning": "呼吸",
+      "part_of_speech": "verb",
+      "phrase": [
+        "breathe fresh air",
+        "breathe deeply"
+      ],
+      "sentence": "I love breathing the fresh mountain air.",
+      "phonetic": "/briːð/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_024",
+      "word": "flight",
+      "meaning": "航班",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take a flight",
+        "direct flight"
+      ],
+      "sentence": "Our flight to Tokyo was delayed.",
+      "phonetic": "/flaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit1_025",
+      "word": "service",
+      "meaning": "服务",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good service",
+        "customer service"
+      ],
+      "sentence": "The service in the hotel was excellent.",
+      "phonetic": "/ˈsɜːrvɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

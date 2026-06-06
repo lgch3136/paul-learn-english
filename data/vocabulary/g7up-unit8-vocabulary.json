@@ -1,0 +1,357 @@
+{
+  "unit": "g7up-unit8",
+  "unit_title": "Fashion",
+  "theme": "时尚",
+  "vocabulary": [
+    {
+      "word_id": "g7up_unit8_001",
+      "word": "fashion",
+      "meaning": "时尚",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fashion show"
+      ],
+      "sentence": "She likes fashion magazines.",
+      "phonetic": "/ˈfæʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_002",
+      "word": "lady",
+      "meaning": "女士",
+      "part_of_speech": "noun",
+      "phrase": [
+        "young lady"
+      ],
+      "sentence": "The lady in red is my teacher.",
+      "phonetic": "/ˈleɪdi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_003",
+      "word": "gentleman",
+      "meaning": "先生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ladies and gentlemen"
+      ],
+      "sentence": "Ladies and gentlemen, welcome!",
+      "phonetic": "/ˈdʒentlmən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_004",
+      "word": "style",
+      "meaning": "风格",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in style"
+      ],
+      "sentence": "She has a good sense of style.",
+      "phonetic": "/staɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_005",
+      "word": "trainer",
+      "meaning": "运动鞋",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pair of trainers"
+      ],
+      "sentence": "I need new trainers.",
+      "phonetic": "/ˈtreɪnə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_006",
+      "word": "comfortable",
+      "meaning": "舒适的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel comfortable"
+      ],
+      "sentence": "These shoes are very comfortable.",
+      "phonetic": "/ˈkʌmftəbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_007",
+      "word": "popular",
+      "meaning": "流行的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be popular with"
+      ],
+      "sentence": "Jeans are popular among teenagers.",
+      "phonetic": "/ˈpɒpjələ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_008",
+      "word": "cotton",
+      "meaning": "棉花",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cotton shirt"
+      ],
+      "sentence": "This shirt is made of cotton.",
+      "phonetic": "/ˈkɒtn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_009",
+      "word": "silk",
+      "meaning": "丝绸",
+      "part_of_speech": "noun",
+      "phrase": [
+        "silk scarf"
+      ],
+      "sentence": "Silk feels very soft.",
+      "phonetic": "/sɪlk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_010",
+      "word": "wool",
+      "meaning": "羊毛",
+      "part_of_speech": "noun",
+      "phrase": [
+        "wool sweater"
+      ],
+      "sentence": "Wool keeps you warm.",
+      "phonetic": "/wʊl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_011",
+      "word": "smart",
+      "meaning": "聪明的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "look smart"
+      ],
+      "sentence": "He looks smart in that suit.",
+      "phonetic": "/smɑːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_012",
+      "word": "cool",
+      "meaning": "酷的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "look cool"
+      ],
+      "sentence": "You look so cool!",
+      "phonetic": "/kuːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_013",
+      "word": "design",
+      "meaning": "设计",
+      "part_of_speech": "verb",
+      "phrase": [
+        "design clothes"
+      ],
+      "sentence": "She designs beautiful dresses.",
+      "phonetic": "/dɪˈzaɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_014",
+      "word": "model",
+      "meaning": "模特",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fashion model"
+      ],
+      "sentence": "She wants to be a model.",
+      "phonetic": "/ˈmɒdl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_015",
+      "word": "include",
+      "meaning": "包括",
+      "part_of_speech": "verb",
+      "phrase": [
+        "include in"
+      ],
+      "sentence": "The price includes breakfast.",
+      "phonetic": "/ɪnˈkluːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_016",
+      "word": "dark",
+      "meaning": "深色的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "dark blue"
+      ],
+      "sentence": "I prefer dark colours.",
+      "phonetic": "/dɑːk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_017",
+      "word": "material",
+      "meaning": "材料",
+      "part_of_speech": "noun",
+      "phrase": [
+        "natural material"
+      ],
+      "sentence": "What material is this made of?",
+      "phonetic": "/məˈtɪəriəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_018",
+      "word": "feature",
+      "meaning": "特征",
+      "part_of_speech": "noun",
+      "phrase": [
+        "special feature"
+      ],
+      "sentence": "The feature of this jacket is the hood.",
+      "phonetic": "/ˈfiːtʃə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_019",
+      "word": "among",
+      "meaning": "在…之中",
+      "part_of_speech": "prep",
+      "phrase": [
+        "among them"
+      ],
+      "sentence": "She is popular among students.",
+      "phonetic": "/əˈmʌŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_020",
+      "word": "purple",
+      "meaning": "紫色",
+      "part_of_speech": "adj",
+      "phrase": [
+        "purple dress"
+      ],
+      "sentence": "She wore a purple scarf.",
+      "phonetic": "/ˈpɜːpl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_021",
+      "word": "grey",
+      "meaning": "灰色",
+      "part_of_speech": "adj",
+      "phrase": [
+        "grey hair"
+      ],
+      "sentence": "He has grey hair now.",
+      "phonetic": "/ɡreɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_022",
+      "word": "suitable",
+      "meaning": "合适的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "suitable for"
+      ],
+      "sentence": "Is this suitable for a party?",
+      "phonetic": "/ˈsuːtəbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_023",
+      "word": "smooth",
+      "meaning": "光滑的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel smooth"
+      ],
+      "sentence": "Silk feels smooth and soft.",
+      "phonetic": "/smuːð/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_024",
+      "word": "leather",
+      "meaning": "皮革",
+      "part_of_speech": "noun",
+      "phrase": [
+        "leather shoes"
+      ],
+      "sentence": "These leather boots are expensive.",
+      "phonetic": "/ˈleðə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit8_025",
+      "word": "scarf",
+      "meaning": "围巾",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a warm scarf"
+      ],
+      "sentence": "She wears a red scarf.",
+      "phonetic": "/skɑːf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

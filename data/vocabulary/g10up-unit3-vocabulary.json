@@ -1,0 +1,382 @@
+{
+  "unit": "g10up-unit3",
+  "unit_title": "Looking good, feeling good",
+  "theme": "健康与健身",
+  "vocabulary": [
+    {
+      "word_id": "g10up_unit3_001",
+      "word": "figure",
+      "meaning": "身材",
+      "part_of_speech": "noun",
+      "phrase": [
+        "keep your figure",
+        "figure out"
+      ],
+      "sentence": "She exercises to keep her figure.",
+      "phonetic": "/ˈfɪɡjər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_002",
+      "word": "ashamed",
+      "meaning": "羞愧的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel ashamed",
+        "ashamed of"
+      ],
+      "sentence": "He is ashamed of his weight.",
+      "phonetic": "/əˈʃeɪmd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_003",
+      "word": "weight",
+      "meaning": "体重",
+      "part_of_speech": "noun",
+      "phrase": [
+        "lose weight",
+        "gain weight"
+      ],
+      "sentence": "I want to lose some weight.",
+      "phonetic": "/weɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_004",
+      "word": "diet",
+      "meaning": "饮食",
+      "part_of_speech": "noun",
+      "phrase": [
+        "balanced diet",
+        "go on a diet"
+      ],
+      "sentence": "A healthy diet is important.",
+      "phonetic": "/ˈdaɪət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_005",
+      "word": "overweight",
+      "meaning": "超重的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "slightly overweight",
+        "overweight people"
+      ],
+      "sentence": "Being overweight can cause health problems.",
+      "phonetic": "/ˌəʊvərˈweɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_006",
+      "word": "athlete",
+      "meaning": "运动员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "professional athlete",
+        "Olympic athlete"
+      ],
+      "sentence": "Athletes train very hard.",
+      "phonetic": "/ˈæθliːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_007",
+      "word": "workout",
+      "meaning": "锻炼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "do a workout",
+        "daily workout"
+      ],
+      "sentence": "I do a 30-minute workout every day.",
+      "phonetic": "/ˈwɜːrkaʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_008",
+      "word": "muscle",
+      "meaning": "肌肉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "build muscle",
+        "muscle pain"
+      ],
+      "sentence": "Exercise helps build muscle.",
+      "phonetic": "/ˈmʌsl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_009",
+      "word": "energy",
+      "meaning": "能量",
+      "part_of_speech": "noun",
+      "phrase": [
+        "full of energy",
+        "save energy"
+      ],
+      "sentence": "I need more energy for the day.",
+      "phonetic": "/ˈenərdʒi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_010",
+      "word": "skip",
+      "meaning": "跳过",
+      "part_of_speech": "verb",
+      "phrase": [
+        "skip breakfast",
+        "skip class"
+      ],
+      "sentence": "Don't skip meals to lose weight.",
+      "phonetic": "/skɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_011",
+      "word": "pill",
+      "meaning": "药片",
+      "part_of_speech": "noun",
+      "phrase": [
+        "diet pill",
+        "take a pill"
+      ],
+      "sentence": "Diet pills can be dangerous.",
+      "phonetic": "/pɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_012",
+      "word": "harmful",
+      "meaning": "有害的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "harmful to health",
+        "harmful effect"
+      ],
+      "sentence": "Smoking is harmful to your health.",
+      "phonetic": "/ˈhɑːrmfl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_013",
+      "word": "operation",
+      "meaning": "手术",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have an operation",
+        "plastic operation"
+      ],
+      "sentence": "She had an operation to lose weight.",
+      "phonetic": "/ˌɒpəˈreɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_014",
+      "word": "attractive",
+      "meaning": "有吸引力的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "look attractive",
+        "attractive appearance"
+      ],
+      "sentence": "Everyone wants to look attractive.",
+      "phonetic": "/əˈtræktɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_015",
+      "word": "regular",
+      "meaning": "规律的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "regular exercise",
+        "on a regular basis"
+      ],
+      "sentence": "Regular exercise is good for you.",
+      "phonetic": "/ˈreɡjələr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_016",
+      "word": "nutrition",
+      "meaning": "营养",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good nutrition",
+        "nutrition facts"
+      ],
+      "sentence": "Good nutrition is the key to health.",
+      "phonetic": "/njuːˈtrɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_017",
+      "word": "calorie",
+      "meaning": "卡路里",
+      "part_of_speech": "noun",
+      "phrase": [
+        "count calories",
+        "low calorie"
+      ],
+      "sentence": "Fast food has lots of calories.",
+      "phonetic": "/ˈkæləri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_018",
+      "word": "balance",
+      "meaning": "平衡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "keep a balance",
+        "lose balance"
+      ],
+      "sentence": "You need a balance of diet and exercise.",
+      "phonetic": "/ˈbæləns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_019",
+      "word": "recover",
+      "meaning": "恢复",
+      "part_of_speech": "verb",
+      "phrase": [
+        "recover from",
+        "recover quickly"
+      ],
+      "sentence": "It took weeks to recover from the injury.",
+      "phonetic": "/rɪˈkʌvər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_020",
+      "word": "positive",
+      "meaning": "积极的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "positive attitude",
+        "stay positive"
+      ],
+      "sentence": "A positive attitude is very important.",
+      "phonetic": "/ˈpɒzətɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_021",
+      "word": "confident",
+      "meaning": "自信的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel confident",
+        "confident about"
+      ],
+      "sentence": "Exercise makes me feel confident.",
+      "phonetic": "/ˈkɒnfɪdənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_022",
+      "word": "vitamin",
+      "meaning": "维生素",
+      "part_of_speech": "noun",
+      "phrase": [
+        "vitamin C",
+        "take vitamins"
+      ],
+      "sentence": "Fruits contain many vitamins.",
+      "phonetic": "/ˈvɪtəmɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_023",
+      "word": "protein",
+      "meaning": "蛋白质",
+      "part_of_speech": "noun",
+      "phrase": [
+        "high protein",
+        "protein shake"
+      ],
+      "sentence": "Eggs are a good source of protein.",
+      "phonetic": "/ˈprəʊtiːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_024",
+      "word": "carbohydrate",
+      "meaning": "碳水化合物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "complex carbohydrate",
+        "carbohydrate intake"
+      ],
+      "sentence": "Athletes need carbohydrates for energy.",
+      "phonetic": "/ˌkɑːrbəʊˈhaɪdreɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit3_025",
+      "word": "active",
+      "meaning": "活跃的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "stay active",
+        "active lifestyle"
+      ],
+      "sentence": "An active lifestyle keeps you healthy.",
+      "phonetic": "/ˈæktɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

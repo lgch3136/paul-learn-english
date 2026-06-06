@@ -1,0 +1,382 @@
+{
+  "unit": "g9up-unit8",
+  "unit_title": "Detective stories",
+  "theme": "侦探故事",
+  "vocabulary": [
+    {
+      "word_id": "g9up_unit8_001",
+      "word": "detective",
+      "meaning": "侦探",
+      "part_of_speech": "noun",
+      "phrase": [
+        "detective story",
+        "private detective"
+      ],
+      "sentence": "Sherlock Holmes is a famous detective.",
+      "phonetic": "/dɪˈtektɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_002",
+      "word": "clue",
+      "meaning": "线索",
+      "part_of_speech": "noun",
+      "phrase": [
+        "find a clue",
+        "no clue"
+      ],
+      "sentence": "The detective found an important clue.",
+      "phonetic": "/kluː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_003",
+      "word": "murder",
+      "meaning": "谋杀",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "murder case",
+        "be murdered"
+      ],
+      "sentence": "A rich man was murdered last night.",
+      "phonetic": "/ˈmɜːrdər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_004",
+      "word": "suspect",
+      "meaning": "嫌疑人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "main suspect",
+        "suspect someone"
+      ],
+      "sentence": "The police have a suspect.",
+      "phonetic": "/ˈsʌspekt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_005",
+      "word": "victim",
+      "meaning": "受害者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "murder victim",
+        "innocent victim"
+      ],
+      "sentence": "The victim was found in his office.",
+      "phonetic": "/ˈvɪktɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_006",
+      "word": "crime",
+      "meaning": "犯罪",
+      "part_of_speech": "noun",
+      "phrase": [
+        "commit a crime",
+        "crime scene"
+      ],
+      "sentence": "Solving this crime will be difficult.",
+      "phonetic": "/kraɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_007",
+      "word": "criminal",
+      "meaning": "罪犯",
+      "part_of_speech": "noun",
+      "phrase": [
+        "catch the criminal",
+        "criminal case"
+      ],
+      "sentence": "The criminal left no evidence.",
+      "phonetic": "/ˈkrɪmɪnl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_008",
+      "word": "witness",
+      "meaning": "目击者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "eye witness",
+        "witness to"
+      ],
+      "sentence": "A witness saw a man running away.",
+      "phonetic": "/ˈwɪtnəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_009",
+      "word": "guilty",
+      "meaning": "有罪的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel guilty",
+        "find guilty"
+      ],
+      "sentence": "He was found guilty of the crime.",
+      "phonetic": "/ˈɡɪlti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_010",
+      "word": "charge",
+      "meaning": "指控",
+      "part_of_speech": "verb",
+      "phrase": [
+        "charge with",
+        "in charge of"
+      ],
+      "sentence": "He was charged with murder.",
+      "phonetic": "/tʃɑːrdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_011",
+      "word": "break into",
+      "meaning": "闯入",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "break into a house",
+        "break into tears"
+      ],
+      "sentence": "Someone broke into the office.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_012",
+      "word": "enemy",
+      "meaning": "敌人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make an enemy",
+        "public enemy"
+      ],
+      "sentence": "Did the victim have any enemies?",
+      "phonetic": "/ˈenəmi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_013",
+      "word": "single",
+      "meaning": "单一的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "a single clue",
+        "not a single"
+      ],
+      "sentence": "There was not a single fingerprint.",
+      "phonetic": "/ˈsɪŋɡl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_014",
+      "word": "wealthy",
+      "meaning": "富有的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "wealthy family",
+        "wealthy businessman"
+      ],
+      "sentence": "The victim was a wealthy man.",
+      "phonetic": "/ˈwelθi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_015",
+      "word": "against",
+      "meaning": "违反；反对",
+      "part_of_speech": "prep",
+      "phrase": [
+        "against the law",
+        "be against"
+      ],
+      "sentence": "Murder is against the law.",
+      "phonetic": "/əˈɡenst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_016",
+      "word": "arrest",
+      "meaning": "逮捕",
+      "part_of_speech": "verb",
+      "phrase": [
+        "arrest someone",
+        "under arrest"
+      ],
+      "sentence": "The police arrested the suspect.",
+      "phonetic": "/əˈrest/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_017",
+      "word": "prison",
+      "meaning": "监狱",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in prison",
+        "go to prison"
+      ],
+      "sentence": "He was sent to prison for 20 years.",
+      "phonetic": "/ˈprɪzn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_018",
+      "word": "evidence",
+      "meaning": "证据",
+      "part_of_speech": "noun",
+      "phrase": [
+        "find evidence",
+        "no evidence"
+      ],
+      "sentence": "There was no evidence against him.",
+      "phonetic": "/ˈevɪdəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_019",
+      "word": "safety",
+      "meaning": "安全",
+      "part_of_speech": "noun",
+      "phrase": [
+        "for safety",
+        "road safety"
+      ],
+      "sentence": "Your safety is the most important thing.",
+      "phonetic": "/ˈseɪfti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_020",
+      "word": "fingerprint",
+      "meaning": "指纹",
+      "part_of_speech": "noun",
+      "phrase": [
+        "leave a fingerprint",
+        "fingerprint test"
+      ],
+      "sentence": "They found his fingerprints on the gun.",
+      "phonetic": "/ˈfɪŋɡərprɪnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_021",
+      "word": "prove",
+      "meaning": "证明",
+      "part_of_speech": "verb",
+      "phrase": [
+        "prove guilty",
+        "prove to be"
+      ],
+      "sentence": "Can you prove he was at the scene?",
+      "phonetic": "/pruːv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_022",
+      "word": "suppose",
+      "meaning": "认为",
+      "part_of_speech": "verb",
+      "phrase": [
+        "be supposed to",
+        "I suppose so"
+      ],
+      "sentence": "I suppose he is the murderer.",
+      "phonetic": "/səˈpəʊz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_023",
+      "word": "report",
+      "meaning": "报道",
+      "part_of_speech": "noun",
+      "phrase": [
+        "news report",
+        "police report"
+      ],
+      "sentence": "The report said the killer escaped.",
+      "phonetic": "/rɪˈpɔːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_024",
+      "word": "confirm",
+      "meaning": "确认",
+      "part_of_speech": "verb",
+      "phrase": [
+        "confirm that",
+        "confirmed report"
+      ],
+      "sentence": "The police confirmed the death.",
+      "phonetic": "/kənˈfɜːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit8_025",
+      "word": "truth",
+      "meaning": "真相",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tell the truth",
+        "find out the truth"
+      ],
+      "sentence": "The detective finally found the truth.",
+      "phonetic": "/truːθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "unit": "g11dn-unit7",
+  "unit_title": "Colours of the light",
+  "theme": "光与色彩",
+  "vocabulary": [
+    {
+      "word_id": "g11dn_unit7_001",
+      "word": "spectrum",
+      "meaning": "光谱",
+      "part_of_speech": "noun",
+      "phrase": [
+        "colour spectrum",
+        "broad spectrum"
+      ],
+      "sentence": "A rainbow shows the full colour spectrum.",
+      "phonetic": "/ˈspektrəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_002",
+      "word": "ray",
+      "meaning": "光线",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sun ray",
+        "ray of light"
+      ],
+      "sentence": "A ray of sunlight came through the window.",
+      "phonetic": "/reɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_003",
+      "word": "reflect",
+      "meaning": "反射",
+      "part_of_speech": "verb",
+      "phrase": [
+        "reflect light",
+        "reflect on"
+      ],
+      "sentence": "A mirror reflects light.",
+      "phonetic": "/rɪˈflekt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_004",
+      "word": "absorb",
+      "meaning": "吸收",
+      "part_of_speech": "verb",
+      "phrase": [
+        "absorb light",
+        "absorb water"
+      ],
+      "sentence": "Dark colours absorb more light.",
+      "phonetic": "/əbˈzɔːrb/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_005",
+      "word": "transparent",
+      "meaning": "透明的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "transparent glass",
+        "completely transparent"
+      ],
+      "sentence": "The window is transparent.",
+      "phonetic": "/trænsˈpærənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_006",
+      "word": "opaque",
+      "meaning": "不透明的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "opaque glass",
+        "completely opaque"
+      ],
+      "sentence": "The wall is opaque—you cannot see through it.",
+      "phonetic": "/əʊˈpeɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_007",
+      "word": "translucent",
+      "meaning": "半透明的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "translucent paper",
+        "translucent material"
+      ],
+      "sentence": "The curtain is translucent.",
+      "phonetic": "/trænzˈluːsnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_008",
+      "word": "wavelength",
+      "meaning": "波长",
+      "part_of_speech": "noun",
+      "phrase": [
+        "light wavelength",
+        "different wavelengths"
+      ],
+      "sentence": "Different colours have different wavelengths.",
+      "phonetic": "/ˈweɪvleŋθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_009",
+      "word": "infrared",
+      "meaning": "红外线的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "infrared light",
+        "infrared camera"
+      ],
+      "sentence": "Infrared light is invisible to humans.",
+      "phonetic": "/ˌɪnfrəˈred/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_010",
+      "word": "ultraviolet",
+      "meaning": "紫外线的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "ultraviolet rays",
+        "ultraviolet radiation"
+      ],
+      "sentence": "Ultraviolet rays can cause skin cancer.",
+      "phonetic": "/ˌʌltrəˈvaɪələt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_011",
+      "word": "pigment",
+      "meaning": "颜料；色素",
+      "part_of_speech": "noun",
+      "phrase": [
+        "natural pigment",
+        "colour pigment"
+      ],
+      "sentence": "Plants contain natural pigments.",
+      "phonetic": "/ˈpɪɡmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_012",
+      "word": "laser",
+      "meaning": "激光",
+      "part_of_speech": "noun",
+      "phrase": [
+        "laser beam",
+        "laser surgery"
+      ],
+      "sentence": "Lasers are used in eye surgery.",
+      "phonetic": "/ˈleɪzər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_013",
+      "word": "vision",
+      "meaning": "视力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good vision",
+        "field of vision"
+      ],
+      "sentence": "Colour vision is an amazing ability.",
+      "phonetic": "/ˈvɪʒn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_014",
+      "word": "perception",
+      "meaning": "感知",
+      "part_of_speech": "noun",
+      "phrase": [
+        "colour perception",
+        "visual perception"
+      ],
+      "sentence": "Our perception of colour can be affected by light.",
+      "phonetic": "/pərˈsepʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_015",
+      "word": "optical",
+      "meaning": "光学的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "optical illusion",
+        "optical fibre"
+      ],
+      "sentence": "An optical illusion can trick your eyes.",
+      "phonetic": "/ˈɒptɪkl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_016",
+      "word": "illusion",
+      "meaning": "幻觉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "optical illusion",
+        "create an illusion"
+      ],
+      "sentence": "The lines seem to move—it is an illusion.",
+      "phonetic": "/ɪˈluːʒn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_017",
+      "word": "shade",
+      "meaning": "色度",
+      "part_of_speech": "noun",
+      "phrase": [
+        "different shades",
+        "shade of blue"
+      ],
+      "sentence": "I like this shade of blue.",
+      "phonetic": "/ʃeɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_018",
+      "word": "contrast",
+      "meaning": "对比",
+      "part_of_speech": "noun",
+      "phrase": [
+        "colour contrast",
+        "in contrast to"
+      ],
+      "sentence": "The contrast between black and white is strong.",
+      "phonetic": "/ˈkɒntrɑːst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_019",
+      "word": "vibrant",
+      "meaning": "鲜艳的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "vibrant colours",
+        "vibrant city"
+      ],
+      "sentence": "The painting has very vibrant colours.",
+      "phonetic": "/ˈvaɪbrənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_020",
+      "word": "dull",
+      "meaning": "暗淡的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "dull colour",
+        "dull day"
+      ],
+      "sentence": "The room was painted a dull grey.",
+      "phonetic": "/dʌl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_021",
+      "word": "glow",
+      "meaning": "发光",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "glow in the dark",
+        "warm glow"
+      ],
+      "sentence": "The stars glow in the night sky.",
+      "phonetic": "/ɡləʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_022",
+      "word": "twilight",
+      "meaning": "暮光",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at twilight",
+        "twilight zone"
+      ],
+      "sentence": "The sky turned orange at twilight.",
+      "phonetic": "/ˈtwaɪlaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_023",
+      "word": "phenomenon",
+      "meaning": "现象",
+      "part_of_speech": "noun",
+      "phrase": [
+        "natural phenomenon",
+        "scientific phenomenon"
+      ],
+      "sentence": "The northern lights are a beautiful phenomenon.",
+      "phonetic": "/fɪˈnɒmɪnən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_024",
+      "word": "prism",
+      "meaning": "棱镜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "glass prism",
+        "through a prism"
+      ],
+      "sentence": "A prism can split white light into colours.",
+      "phonetic": "/ˈprɪzəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit7_025",
+      "word": "refract",
+      "meaning": "折射",
+      "part_of_speech": "verb",
+      "phrase": [
+        "refract light",
+        "refract through"
+      ],
+      "sentence": "Light refracts when it passes through water.",
+      "phonetic": "/rɪˈfrækt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "unit": "g5dn-unit3",
+  "unit_title": "Asking the way",
+  "theme": "问路与指路",
+  "vocabulary": [
+    {
+      "word_id": "g5dn_unit3_001",
+      "word": "left",
+      "meaning": "左边",
+      "part_of_speech": "noun",
+      "phrase": [
+        "turn left",
+        "on the left"
+      ],
+      "sentence": "Turn left at the corner.",
+      "phonetic": "/left/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_002",
+      "word": "right",
+      "meaning": "右边",
+      "part_of_speech": "noun",
+      "phrase": [
+        "turn right",
+        "on the right"
+      ],
+      "sentence": "The shop is on your right.",
+      "phonetic": "/raɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_003",
+      "word": "straight",
+      "meaning": "直的；直接",
+      "part_of_speech": "adj/adv",
+      "phrase": [
+        "go straight",
+        "straight ahead"
+      ],
+      "sentence": "Go straight along this road.",
+      "phonetic": "/streɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_004",
+      "word": "along",
+      "meaning": "沿着",
+      "part_of_speech": "prep",
+      "phrase": [
+        "walk along",
+        "along the road"
+      ],
+      "sentence": "Walk along this street.",
+      "phonetic": "/əˈlɒŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_005",
+      "word": "turn",
+      "meaning": "转弯",
+      "part_of_speech": "verb",
+      "phrase": [
+        "turn left",
+        "turn around"
+      ],
+      "sentence": "Turn right at the hospital.",
+      "phonetic": "/tɜːrn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_006",
+      "word": "cross",
+      "meaning": "穿过",
+      "part_of_speech": "verb",
+      "phrase": [
+        "cross the road",
+        "cross the street"
+      ],
+      "sentence": "Cross the bridge.",
+      "phonetic": "/krɒs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_007",
+      "word": "bridge",
+      "meaning": "桥",
+      "part_of_speech": "noun",
+      "phrase": [
+        "over the bridge",
+        "cross the bridge"
+      ],
+      "sentence": "There is a bridge over the river.",
+      "phonetic": "/brɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_008",
+      "word": "corner",
+      "meaning": "拐角",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at the corner",
+        "street corner"
+      ],
+      "sentence": "The shop is at the corner.",
+      "phonetic": "/ˈkɔːrnər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_009",
+      "word": "traffic light",
+      "meaning": "红绿灯",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at the traffic lights",
+        "wait at traffic lights"
+      ],
+      "sentence": "Stop at the traffic lights.",
+      "phonetic": "/ˈtræfɪk laɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_010",
+      "word": "crossing",
+      "meaning": "十字路口",
+      "part_of_speech": "noun",
+      "phrase": [
+        "zebra crossing",
+        "at the crossing"
+      ],
+      "sentence": "Turn right at the next crossing.",
+      "phonetic": "/ˈkrɒsɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_011",
+      "word": "stop",
+      "meaning": "停下；车站",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "bus stop",
+        "stop here"
+      ],
+      "sentence": "You can stop here.",
+      "phonetic": "/stɒp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_012",
+      "word": "station",
+      "meaning": "车站",
+      "part_of_speech": "noun",
+      "phrase": [
+        "train station",
+        "police station"
+      ],
+      "sentence": "Where is the station?",
+      "phonetic": "/ˈsteɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_013",
+      "word": "museum",
+      "meaning": "博物馆",
+      "part_of_speech": "noun",
+      "phrase": [
+        "science museum",
+        "visit the museum"
+      ],
+      "sentence": "The museum is over there.",
+      "phonetic": "/mjuːˈziːəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_014",
+      "word": "cinema",
+      "meaning": "电影院",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go to the cinema",
+        "near the cinema"
+      ],
+      "sentence": "There is a cinema near here.",
+      "phonetic": "/ˈsɪnəmə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_015",
+      "word": "supermarket",
+      "meaning": "超市",
+      "part_of_speech": "noun",
+      "phrase": [
+        "near the supermarket",
+        "go supermarket"
+      ],
+      "sentence": "The supermarket is next to the bank.",
+      "phonetic": "/ˈsuːpərmɑːrkɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_016",
+      "word": "bank",
+      "meaning": "银行",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bank card",
+        "near the bank"
+      ],
+      "sentence": "The bank is opposite the park.",
+      "phonetic": "/bæŋk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_017",
+      "word": "opposite",
+      "meaning": "在…对面",
+      "part_of_speech": "prep",
+      "phrase": [
+        "opposite the park",
+        "sit opposite"
+      ],
+      "sentence": "The shop is opposite the library.",
+      "phonetic": "/ˈɒpəzɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_018",
+      "word": "next to",
+      "meaning": "紧挨着",
+      "part_of_speech": "prep",
+      "phrase": [
+        "next to me",
+        "next to the door"
+      ],
+      "sentence": "The library is next to the bookstore.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_019",
+      "word": "excuse",
+      "meaning": "原谅",
+      "part_of_speech": "verb",
+      "phrase": [
+        "excuse me",
+        "make an excuse"
+      ],
+      "sentence": "Excuse me, how can I get to the station?",
+      "phonetic": "/ɪkˈskjuːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_020",
+      "word": "lost",
+      "meaning": "迷路的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "get lost",
+        "feel lost"
+      ],
+      "sentence": "I'm lost. Can you help me?",
+      "phonetic": "/lɒst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_021",
+      "word": "direction",
+      "meaning": "方向",
+      "part_of_speech": "noun",
+      "phrase": [
+        "give directions",
+        "in the direction of"
+      ],
+      "sentence": "Can you give me directions?",
+      "phonetic": "/dɪˈrekʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_022",
+      "word": "map",
+      "meaning": "地图",
+      "part_of_speech": "noun",
+      "phrase": [
+        "read a map",
+        "on the map"
+      ],
+      "sentence": "Let me show you on the map.",
+      "phonetic": "/mæp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_023",
+      "word": "bookstore",
+      "meaning": "书店",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at the bookstore",
+        "near the bookstore"
+      ],
+      "sentence": "The bookstore is next to the park.",
+      "phonetic": "/ˈbʊkstɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_024",
+      "word": "anywhere",
+      "meaning": "任何地方",
+      "part_of_speech": "adv",
+      "phrase": [
+        "go anywhere",
+        "not anywhere"
+      ],
+      "sentence": "Is there a hospital anywhere near here?",
+      "phonetic": "/ˈeniweər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit3_025",
+      "word": "get to",
+      "meaning": "到达",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "get to school",
+        "get to the station"
+      ],
+      "sentence": "How can I get to the cinema?",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

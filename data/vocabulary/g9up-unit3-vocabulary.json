@@ -1,0 +1,382 @@
+{
+  "unit": "g9up-unit3",
+  "unit_title": "Teenage problems",
+  "theme": "青少年问题",
+  "vocabulary": [
+    {
+      "word_id": "g9up_unit3_001",
+      "word": "teenage",
+      "meaning": "青少年的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "teenage problems",
+        "teenage years"
+      ],
+      "sentence": "Teenage years can be difficult.",
+      "phonetic": "/ˈtiːneɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_002",
+      "word": "mark",
+      "meaning": "分数",
+      "part_of_speech": "noun",
+      "phrase": [
+        "get a high mark",
+        "full marks"
+      ],
+      "sentence": "I got low marks in the exam.",
+      "phonetic": "/mɑːrk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_003",
+      "word": "mad",
+      "meaning": "发疯的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "drive me mad",
+        "go mad"
+      ],
+      "sentence": "The noise is driving me mad.",
+      "phonetic": "/mæd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_004",
+      "word": "exam",
+      "meaning": "考试",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take an exam",
+        "pass the exam"
+      ],
+      "sentence": "I am stressed about the exam.",
+      "phonetic": "/ɪɡˈzæm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_005",
+      "word": "stressed",
+      "meaning": "有压力的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel stressed",
+        "stressed out"
+      ],
+      "sentence": "I always feel stressed before exams.",
+      "phonetic": "/strest/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_006",
+      "word": "strict",
+      "meaning": "严格的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "strict rules",
+        "strict teacher"
+      ],
+      "sentence": "My parents are very strict with me.",
+      "phonetic": "/strɪkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_007",
+      "word": "suggestion",
+      "meaning": "建议",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a suggestion",
+        "useful suggestion"
+      ],
+      "sentence": "Can you give me some suggestions?",
+      "phonetic": "/səˈdʒestʃən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_008",
+      "word": "cause",
+      "meaning": "原因；导致",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "cause and effect",
+        "main cause"
+      ],
+      "sentence": "What is the cause of your stress?",
+      "phonetic": "/kɔːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_009",
+      "word": "valuable",
+      "meaning": "宝贵的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "valuable advice",
+        "valuable time"
+      ],
+      "sentence": "Your advice is very valuable.",
+      "phonetic": "/ˈvæljuəbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_010",
+      "word": "silence",
+      "meaning": "沉默",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in silence",
+        "break the silence"
+      ],
+      "sentence": "There was a long silence.",
+      "phonetic": "/ˈsaɪləns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_011",
+      "word": "method",
+      "meaning": "方法",
+      "part_of_speech": "noun",
+      "phrase": [
+        "teaching method",
+        "new method"
+      ],
+      "sentence": "You need a better study method.",
+      "phonetic": "/ˈmeθəd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_012",
+      "word": "solve",
+      "meaning": "解决",
+      "part_of_speech": "verb",
+      "phrase": [
+        "solve a problem",
+        "solve the puzzle"
+      ],
+      "sentence": "How can we solve this problem?",
+      "phonetic": "/sɒlv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_013",
+      "word": "reply",
+      "meaning": "答复",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "reply to",
+        "no reply"
+      ],
+      "sentence": "She did not reply to my message.",
+      "phonetic": "/rɪˈplaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_014",
+      "word": "pleasure",
+      "meaning": "快乐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "with pleasure",
+        "take pleasure in"
+      ],
+      "sentence": "Reading gives me great pleasure.",
+      "phonetic": "/ˈpleʒər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_015",
+      "word": "friendship",
+      "meaning": "友谊",
+      "part_of_speech": "noun",
+      "phrase": [
+        "true friendship",
+        "build friendship"
+      ],
+      "sentence": "True friendship is very valuable.",
+      "phonetic": "/ˈfrendʃɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_016",
+      "word": "worry",
+      "meaning": "担心",
+      "part_of_speech": "verb",
+      "phrase": [
+        "worry about",
+        "don't worry"
+      ],
+      "sentence": "Don't worry too much about the exam.",
+      "phonetic": "/ˈwʌri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_017",
+      "word": "choice",
+      "meaning": "选择",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a choice",
+        "good choice"
+      ],
+      "sentence": "You have to make a choice.",
+      "phonetic": "/tʃɔɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_018",
+      "word": "stay up",
+      "meaning": "熬夜",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "stay up late",
+        "stay up all night"
+      ],
+      "sentence": "Don't stay up too late studying.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_019",
+      "word": "awake",
+      "meaning": "醒着的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "stay awake",
+        "keep awake"
+      ],
+      "sentence": "I was awake all night worrying.",
+      "phonetic": "/əˈweɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_020",
+      "word": "imagine",
+      "meaning": "想象",
+      "part_of_speech": "verb",
+      "phrase": [
+        "imagine doing",
+        "can you imagine"
+      ],
+      "sentence": "I can't imagine life without friends.",
+      "phonetic": "/ɪˈmædʒɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_021",
+      "word": "doubt",
+      "meaning": "怀疑",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "without doubt",
+        "no doubt"
+      ],
+      "sentence": "I doubt whether this method works.",
+      "phonetic": "/daʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_022",
+      "word": "worth",
+      "meaning": "值得的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be worth doing",
+        "worth the effort"
+      ],
+      "sentence": "The hard work is worth it.",
+      "phonetic": "/wɜːrθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_023",
+      "word": "deal",
+      "meaning": "处理",
+      "part_of_speech": "verb",
+      "phrase": [
+        "deal with",
+        "a great deal"
+      ],
+      "sentence": "How do you deal with stress?",
+      "phonetic": "/diːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_024",
+      "word": "allow",
+      "meaning": "允许",
+      "part_of_speech": "verb",
+      "phrase": [
+        "allow to do",
+        "not allowed"
+      ],
+      "sentence": "My parents don't allow me to go out late.",
+      "phonetic": "/əˈlaʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit3_025",
+      "word": "strict",
+      "meaning": "严格的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "strict with",
+        "strict control"
+      ],
+      "sentence": "My dad is strict about my study time.",
+      "phonetic": "/strɪkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

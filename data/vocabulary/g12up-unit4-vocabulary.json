@@ -1,0 +1,382 @@
+{
+  "unit": "g12up-unit4",
+  "unit_title": "Behind beliefs",
+  "theme": "信仰与文化",
+  "vocabulary": [
+    {
+      "word_id": "g12up_unit4_001",
+      "word": "belief",
+      "meaning": "信仰",
+      "part_of_speech": "noun",
+      "phrase": [
+        "religious belief",
+        "strong belief"
+      ],
+      "sentence": "Everyone has the right to their beliefs.",
+      "phonetic": "/bɪˈliːf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_002",
+      "word": "faith",
+      "meaning": "信念",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have faith in",
+        "religious faith"
+      ],
+      "sentence": "Faith gives people strength.",
+      "phonetic": "/feɪθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_003",
+      "word": "religion",
+      "meaning": "宗教",
+      "part_of_speech": "noun",
+      "phrase": [
+        "world religion",
+        "freedom of religion"
+      ],
+      "sentence": "There are many religions in the world.",
+      "phonetic": "/rɪˈlɪdʒən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_004",
+      "word": "spiritual",
+      "meaning": "精神的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "spiritual belief",
+        "spiritual growth"
+      ],
+      "sentence": "Many people seek spiritual fulfilment.",
+      "phonetic": "/ˈspɪrɪtʃuəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_005",
+      "word": "sacred",
+      "meaning": "神圣的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "sacred place",
+        "sacred text"
+      ],
+      "sentence": "This mountain is sacred to local people.",
+      "phonetic": "/ˈseɪkrɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_006",
+      "word": "pilgrim",
+      "meaning": "朝圣者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "pilgrim route",
+        "religious pilgrim"
+      ],
+      "sentence": "Pilgrims travel to holy places.",
+      "phonetic": "/ˈpɪlɡrɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_007",
+      "word": "pilgrimage",
+      "meaning": "朝圣",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go on a pilgrimage",
+        "annual pilgrimage"
+      ],
+      "sentence": "The pilgrimage takes three days.",
+      "phonetic": "/ˈpɪlɡrɪmɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_008",
+      "word": "holy",
+      "meaning": "神圣的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "holy place",
+        "holy book"
+      ],
+      "sentence": "Jerusalem is a holy city for three religions.",
+      "phonetic": "/ˈhəʊli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_009",
+      "word": "temple",
+      "meaning": "寺庙",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Buddhist temple",
+        "ancient temple"
+      ],
+      "sentence": "We visited an ancient temple.",
+      "phonetic": "/ˈtempl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_010",
+      "word": "church",
+      "meaning": "教堂",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go to church",
+        "church service"
+      ],
+      "sentence": "The church was built in the 12th century.",
+      "phonetic": "/tʃɜːrtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_011",
+      "word": "mosque",
+      "meaning": "清真寺",
+      "part_of_speech": "noun",
+      "phrase": [
+        "grand mosque",
+        "visit a mosque"
+      ],
+      "sentence": "The mosque has a beautiful dome.",
+      "phonetic": "/mɒsk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_012",
+      "word": "prayer",
+      "meaning": "祷告",
+      "part_of_speech": "noun",
+      "phrase": [
+        "say a prayer",
+        "prayer room"
+      ],
+      "sentence": "Prayer is an important part of daily life.",
+      "phonetic": "/preər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_013",
+      "word": "worship",
+      "meaning": "敬拜",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "place of worship",
+        "worship together"
+      ],
+      "sentence": "People gather to worship on Sundays.",
+      "phonetic": "/ˈwɜːrʃɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_014",
+      "word": "ritual",
+      "meaning": "仪式",
+      "part_of_speech": "noun",
+      "phrase": [
+        "religious ritual",
+        "daily ritual"
+      ],
+      "sentence": "The ritual has been performed for centuries.",
+      "phonetic": "/ˈrɪtʃuəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_015",
+      "word": "sacrifice",
+      "meaning": "祭品；牺牲",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a sacrifice",
+        "animal sacrifice"
+      ],
+      "sentence": "In ancient times, people offered sacrifices to gods.",
+      "phonetic": "/ˈsækrɪfaɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_016",
+      "word": "soul",
+      "meaning": "灵魂",
+      "part_of_speech": "noun",
+      "phrase": [
+        "body and soul",
+        "sell your soul"
+      ],
+      "sentence": "Many believe the soul lives on after death.",
+      "phonetic": "/səʊl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_017",
+      "word": "afterlife",
+      "meaning": "来世",
+      "part_of_speech": "noun",
+      "phrase": [
+        "believe in afterlife",
+        "life after death"
+      ],
+      "sentence": "Different religions have different views of the afterlife.",
+      "phonetic": "/ˈɑːftərlaɪf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_018",
+      "word": "doctrine",
+      "meaning": "教义",
+      "part_of_speech": "noun",
+      "phrase": [
+        "religious doctrine",
+        "church doctrine"
+      ],
+      "sentence": "The doctrine teaches love and compassion.",
+      "phonetic": "/ˈdɒktrɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_019",
+      "word": "superstition",
+      "meaning": "迷信",
+      "part_of_speech": "noun",
+      "phrase": [
+        "common superstition",
+        "believe in superstitions"
+      ],
+      "sentence": "Some people believe in superstitions about numbers.",
+      "phonetic": "/ˌsuːpərˈstɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_020",
+      "word": "philosophy",
+      "meaning": "哲学",
+      "part_of_speech": "noun",
+      "phrase": [
+        "eastern philosophy",
+        "life philosophy"
+      ],
+      "sentence": "Chinese philosophy emphasizes harmony.",
+      "phonetic": "/fɪˈlɒsəfi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_021",
+      "word": "enlightenment",
+      "meaning": "启蒙",
+      "part_of_speech": "noun",
+      "phrase": [
+        "seek enlightenment",
+        "age of enlightenment"
+      ],
+      "sentence": "Buddhists seek spiritual enlightenment.",
+      "phonetic": "/ɪnˈlaɪtnmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_022",
+      "word": "meditation",
+      "meaning": "冥想",
+      "part_of_speech": "noun",
+      "phrase": [
+        "practice meditation",
+        "meditation session"
+      ],
+      "sentence": "Meditation helps clear the mind.",
+      "phonetic": "/ˌmedɪˈteɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_023",
+      "word": "ethics",
+      "meaning": "伦理",
+      "part_of_speech": "noun",
+      "phrase": [
+        "professional ethics",
+        "code of ethics"
+      ],
+      "sentence": "Every religion has its own ethics.",
+      "phonetic": "/ˈeθɪks/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_024",
+      "word": "morality",
+      "meaning": "道德",
+      "part_of_speech": "noun",
+      "phrase": [
+        "public morality",
+        "sense of morality"
+      ],
+      "sentence": "Morality guides our choices in life.",
+      "phonetic": "/məˈræləti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit4_025",
+      "word": "virtue",
+      "meaning": "美德",
+      "part_of_speech": "noun",
+      "phrase": [
+        "patience is a virtue",
+        "moral virtue"
+      ],
+      "sentence": "Honesty is considered a virtue.",
+      "phonetic": "/ˈvɜːrtʃuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

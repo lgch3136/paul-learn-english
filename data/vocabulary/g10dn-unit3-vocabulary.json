@@ -1,0 +1,382 @@
+{
+  "unit": "g10dn-unit3",
+  "unit_title": "Back to the past",
+  "theme": "历史与文明",
+  "vocabulary": [
+    {
+      "word_id": "g10dn_unit3_001",
+      "word": "civilization",
+      "meaning": "文明",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ancient civilization",
+        "Mayan civilization"
+      ],
+      "sentence": "Rome was once a great civilization.",
+      "phonetic": "/ˌsɪvəlaɪˈzeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_002",
+      "word": "ruin",
+      "meaning": "废墟",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ancient ruins",
+        "in ruins"
+      ],
+      "sentence": "We visited the ruins of Pompeii.",
+      "phonetic": "/ˈruːɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_003",
+      "word": "remains",
+      "meaning": "遗迹",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ancient remains",
+        "human remains"
+      ],
+      "sentence": "The remains of the city were discovered in 1748.",
+      "phonetic": "/rɪˈmeɪnz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_004",
+      "word": "volcano",
+      "meaning": "火山",
+      "part_of_speech": "noun",
+      "phrase": [
+        "active volcano",
+        "volcano eruption"
+      ],
+      "sentence": "Mount Vesuvius is a famous volcano.",
+      "phonetic": "/vɒlˈkeɪnəʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_005",
+      "word": "erupt",
+      "meaning": "爆发",
+      "part_of_speech": "verb",
+      "phrase": [
+        "volcano erupts",
+        "erupt suddenly"
+      ],
+      "sentence": "The volcano erupted and destroyed the city.",
+      "phonetic": "/ɪˈrʌpt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_006",
+      "word": "ash",
+      "meaning": "灰",
+      "part_of_speech": "noun",
+      "phrase": [
+        "volcanic ash",
+        "ash cloud"
+      ],
+      "sentence": "The city was covered with volcanic ash.",
+      "phonetic": "/æʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_007",
+      "word": "pour",
+      "meaning": "倾泻",
+      "part_of_speech": "verb",
+      "phrase": [
+        "pour out",
+        "pouring rain"
+      ],
+      "sentence": "Lava poured down the mountain.",
+      "phonetic": "/pɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_008",
+      "word": "unfortunate",
+      "meaning": "不幸的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "unfortunate event",
+        "be unfortunate"
+      ],
+      "sentence": "The people of Pompeii were very unfortunate.",
+      "phonetic": "/ʌnˈfɔːrtʃənət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_009",
+      "word": "decorate",
+      "meaning": "装饰",
+      "part_of_speech": "verb",
+      "phrase": [
+        "decorate the walls",
+        "be decorated with"
+      ],
+      "sentence": "The walls were decorated with paintings.",
+      "phonetic": "/ˈdekəreɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_010",
+      "word": "wealthy",
+      "meaning": "富有的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "wealthy city",
+        "wealthy family"
+      ],
+      "sentence": "Pompeii was once a wealthy city.",
+      "phonetic": "/ˈwelθi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_011",
+      "word": "commercial",
+      "meaning": "商业的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "commercial centre",
+        "commercial success"
+      ],
+      "sentence": "It was a busy commercial city.",
+      "phonetic": "/kəˈmɜːrʃl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_012",
+      "word": "gradually",
+      "meaning": "逐渐地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "gradually disappear",
+        "gradually become"
+      ],
+      "sentence": "The city was gradually forgotten.",
+      "phonetic": "/ˈɡrædʒuəli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_013",
+      "word": "scholar",
+      "meaning": "学者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ancient scholar",
+        "visiting scholar"
+      ],
+      "sentence": "Scholars study the history of ancient cities.",
+      "phonetic": "/ˈskɒlər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_014",
+      "word": "cultural",
+      "meaning": "文化的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "cultural heritage",
+        "cultural difference"
+      ],
+      "sentence": "It is important to preserve cultural relics.",
+      "phonetic": "/ˈkʌltʃərəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_015",
+      "word": "institute",
+      "meaning": "机构",
+      "part_of_speech": "noun",
+      "phrase": [
+        "research institute",
+        "educational institute"
+      ],
+      "sentence": "The institute studies ancient civilizations.",
+      "phonetic": "/ˈɪnstɪtjuːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_016",
+      "word": "ruin",
+      "meaning": "毁灭",
+      "part_of_speech": "verb",
+      "phrase": [
+        "ruin the city",
+        "ruin your life"
+      ],
+      "sentence": "The earthquake ruined the city.",
+      "phonetic": "/ˈruːɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_017",
+      "word": "vast",
+      "meaning": "广阔的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "vast empire",
+        "vast area"
+      ],
+      "sentence": "The Roman Empire covered a vast area.",
+      "phonetic": "/vɑːst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_018",
+      "word": "empire",
+      "meaning": "帝国",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Roman Empire",
+        "build an empire"
+      ],
+      "sentence": "The Roman Empire was very powerful.",
+      "phonetic": "/ˈempaɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_019",
+      "word": "destruction",
+      "meaning": "破坏",
+      "part_of_speech": "noun",
+      "phrase": [
+        "total destruction",
+        "cause destruction"
+      ],
+      "sentence": "The destruction of the city was complete.",
+      "phonetic": "/dɪˈstrʌkʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_020",
+      "word": "historical",
+      "meaning": "历史的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "historical site",
+        "historical event"
+      ],
+      "sentence": "This is an important historical site.",
+      "phonetic": "/hɪˈstɒrɪkl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_021",
+      "word": "preserve",
+      "meaning": "保护",
+      "part_of_speech": "verb",
+      "phrase": [
+        "preserve history",
+        "well preserved"
+      ],
+      "sentence": "We should preserve our historical heritage.",
+      "phonetic": "/prɪˈzɜːrv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_022",
+      "word": "ancient",
+      "meaning": "古老的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "ancient Rome",
+        "ancient history"
+      ],
+      "sentence": "Ancient Rome was a powerful empire.",
+      "phonetic": "/ˈeɪnʃənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_023",
+      "word": "dig",
+      "meaning": "挖掘",
+      "part_of_speech": "verb",
+      "phrase": [
+        "dig up",
+        "dig deep"
+      ],
+      "sentence": "Archaeologists dig for ancient objects.",
+      "phonetic": "/dɪɡ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_024",
+      "word": "treasure",
+      "meaning": "宝藏",
+      "part_of_speech": "noun",
+      "phrase": [
+        "hidden treasure",
+        "treasure map"
+      ],
+      "sentence": "They found a treasure buried in the ruins.",
+      "phonetic": "/ˈtreʒər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit3_025",
+      "word": "archaeologist",
+      "meaning": "考古学家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "famous archaeologist",
+        "team of archaeologists"
+      ],
+      "sentence": "Archaeologists discovered the ancient tomb.",
+      "phonetic": "/ˌɑːrkiˈɒlədʒɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "unit": "g10up-unit6",
+  "unit_title": "Amazing people",
+  "theme": "杰出人物",
+  "vocabulary": [
+    {
+      "word_id": "g10up_unit6_001",
+      "word": "explorer",
+      "meaning": "探险家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "famous explorer",
+        "polar explorer"
+      ],
+      "sentence": "Zheng He was a great Chinese explorer.",
+      "phonetic": "/ɪkˈsplɔːrər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_002",
+      "word": "brave",
+      "meaning": "勇敢的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "brave explorer",
+        "brave enough"
+      ],
+      "sentence": "The explorers were brave and determined.",
+      "phonetic": "/breɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_003",
+      "word": "adventurous",
+      "meaning": "爱冒险的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "adventurous life",
+        "an adventurous journey"
+      ],
+      "sentence": "He lived an adventurous life.",
+      "phonetic": "/ədˈventʃərəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_004",
+      "word": "artist",
+      "meaning": "艺术家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "famous artist",
+        "struggling artist"
+      ],
+      "sentence": "Van Gogh was a talented artist.",
+      "phonetic": "/ˈɑːrtɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_005",
+      "word": "bright",
+      "meaning": "明亮的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "bright colours",
+        "bright future"
+      ],
+      "sentence": "His paintings are full of bright colours.",
+      "phonetic": "/braɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_006",
+      "word": "curious",
+      "meaning": "好奇的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "curious about",
+        "curious nature"
+      ],
+      "sentence": "Scientists are curious by nature.",
+      "phonetic": "/ˈkjʊəriəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_007",
+      "word": "fortune",
+      "meaning": "财富",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a fortune",
+        "good fortune"
+      ],
+      "sentence": "He made a fortune from his inventions.",
+      "phonetic": "/ˈfɔːrtʃuːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_008",
+      "word": "frightened",
+      "meaning": "害怕的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel frightened",
+        "frightened to death"
+      ],
+      "sentence": "They were frightened by the storm.",
+      "phonetic": "/ˈfraɪtnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_009",
+      "word": "preserve",
+      "meaning": "保护",
+      "part_of_speech": "verb",
+      "phrase": [
+        "preserve history",
+        "preserve food"
+      ],
+      "sentence": "Mummies were preserved in the pyramids.",
+      "phonetic": "/prɪˈzɜːrv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_010",
+      "word": "curse",
+      "meaning": "诅咒",
+      "part_of_speech": "noun",
+      "phrase": [
+        "put a curse on",
+        "break the curse"
+      ],
+      "sentence": "Some believed a curse was on the tomb.",
+      "phonetic": "/kɜːrs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_011",
+      "word": "tomb",
+      "meaning": "坟墓",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ancient tomb",
+        "tomb chamber"
+      ],
+      "sentence": "They discovered an ancient tomb.",
+      "phonetic": "/tuːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_012",
+      "word": "treasure",
+      "meaning": "财宝",
+      "part_of_speech": "noun",
+      "phrase": [
+        "hidden treasure",
+        "treasure hunt"
+      ],
+      "sentence": "The tomb was full of treasures.",
+      "phonetic": "/ˈtreʒər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_013",
+      "word": "valley",
+      "meaning": "山谷",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Valley of the Kings",
+        "mountain valley"
+      ],
+      "sentence": "The tomb was in a hidden valley.",
+      "phonetic": "/ˈvæli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_014",
+      "word": "ancient",
+      "meaning": "古代的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "ancient Egypt",
+        "ancient civilization"
+      ],
+      "sentence": "We learned about ancient Egypt.",
+      "phonetic": "/ˈeɪnʃənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_015",
+      "word": "civilization",
+      "meaning": "文明",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ancient civilization",
+        "modern civilization"
+      ],
+      "sentence": "Egypt had a great ancient civilization.",
+      "phonetic": "/ˌsɪvəlaɪˈzeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_016",
+      "word": "discovery",
+      "meaning": "发现",
+      "part_of_speech": "noun",
+      "phrase": [
+        "scientific discovery",
+        "make a discovery"
+      ],
+      "sentence": "The discovery shocked the world.",
+      "phonetic": "/dɪˈskʌvəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_017",
+      "word": "brilliant",
+      "meaning": "杰出的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "brilliant scientist",
+        "brilliant idea"
+      ],
+      "sentence": "He was a brilliant inventor.",
+      "phonetic": "/ˈbrɪliənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_018",
+      "word": "astonishing",
+      "meaning": "令人惊讶的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "astonishing discovery",
+        "quite astonishing"
+      ],
+      "sentence": "The discovery was astonishing.",
+      "phonetic": "/əˈstɒnɪʃɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_019",
+      "word": "pioneer",
+      "meaning": "先驱",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pioneer in",
+        "early pioneer"
+      ],
+      "sentence": "She was a pioneer in her field.",
+      "phonetic": "/ˌpaɪəˈnɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_020",
+      "word": "achievement",
+      "meaning": "成就",
+      "part_of_speech": "noun",
+      "phrase": [
+        "great achievement",
+        "sense of achievement"
+      ],
+      "sentence": "His achievements changed the world.",
+      "phonetic": "/əˈtʃiːvmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_021",
+      "word": "contribution",
+      "meaning": "贡献",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a contribution",
+        "important contribution"
+      ],
+      "sentence": "He made great contributions to science.",
+      "phonetic": "/ˌkɒntrɪˈbjuːʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_022",
+      "word": "inspiration",
+      "meaning": "鼓舞",
+      "part_of_speech": "noun",
+      "phrase": [
+        "source of inspiration",
+        "draw inspiration from"
+      ],
+      "sentence": "His story is an inspiration to us all.",
+      "phonetic": "/ˌɪnspəˈreɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_023",
+      "word": "determination",
+      "meaning": "决心",
+      "part_of_speech": "noun",
+      "phrase": [
+        "with determination",
+        "show determination"
+      ],
+      "sentence": "His determination led to success.",
+      "phonetic": "/dɪˌtɜːrmɪˈneɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_024",
+      "word": "overcome",
+      "meaning": "克服",
+      "part_of_speech": "verb",
+      "phrase": [
+        "overcome difficulties",
+        "overcome fear"
+      ],
+      "sentence": "He overcame many challenges.",
+      "phonetic": "/ˌəʊvərˈkʌm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit6_025",
+      "word": "legend",
+      "meaning": "传奇",
+      "part_of_speech": "noun",
+      "phrase": [
+        "living legend",
+        "folk legend"
+      ],
+      "sentence": "He became a legend in his own time.",
+      "phonetic": "/ˈledʒənd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

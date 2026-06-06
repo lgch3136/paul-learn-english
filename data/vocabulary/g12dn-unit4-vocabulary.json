@@ -1,0 +1,382 @@
+{
+  "unit": "g12dn-unit4",
+  "unit_title": "The next step",
+  "theme": "未来规划",
+  "vocabulary": [
+    {
+      "word_id": "g12dn_unit4_001",
+      "word": "transition",
+      "meaning": "过渡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "smooth transition",
+        "make the transition"
+      ],
+      "sentence": "The transition from school to work is challenging.",
+      "phonetic": "/trænˈzɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_002",
+      "word": "graduation",
+      "meaning": "毕业",
+      "part_of_speech": "noun",
+      "phrase": [
+        "after graduation",
+        "graduation ceremony"
+      ],
+      "sentence": "After graduation, I want to travel.",
+      "phonetic": "/ˌɡrædʒuˈeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_003",
+      "word": "gap year",
+      "meaning": "间隔年",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take a gap year",
+        "during my gap year"
+      ],
+      "sentence": "She took a gap year to travel.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_004",
+      "word": "undergraduate",
+      "meaning": "本科生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "undergraduate student",
+        "undergraduate degree"
+      ],
+      "sentence": "He is an undergraduate at Peking University.",
+      "phonetic": "/ˌʌndərˈɡrædʒuət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_005",
+      "word": "postgraduate",
+      "meaning": "研究生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "postgraduate study",
+        "postgraduate degree"
+      ],
+      "sentence": "She is doing postgraduate research.",
+      "phonetic": "/ˌpəʊstˈɡrædʒuət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_006",
+      "word": "scholarship",
+      "meaning": "奖学金",
+      "part_of_speech": "noun",
+      "phrase": [
+        "full scholarship",
+        "apply for a scholarship"
+      ],
+      "sentence": "She won a scholarship to study abroad.",
+      "phonetic": "/ˈskɒlərʃɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_007",
+      "word": "tuition",
+      "meaning": "学费",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tuition fees",
+        "pay tuition"
+      ],
+      "sentence": "The tuition is quite expensive.",
+      "phonetic": "/tjuːˈɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_008",
+      "word": "accommodation",
+      "meaning": "住宿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "student accommodation",
+        "find accommodation"
+      ],
+      "sentence": "University accommodation is often on campus.",
+      "phonetic": "/əˌkɒməˈdeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_009",
+      "word": "campus",
+      "meaning": "校园",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on campus",
+        "campus life"
+      ],
+      "sentence": "Campus life is exciting and diverse.",
+      "phonetic": "/ˈkæmpəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_010",
+      "word": "freshman",
+      "meaning": "大一新生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "freshman year",
+        "college freshman"
+      ],
+      "sentence": "Freshman year is full of new experiences.",
+      "phonetic": "/ˈfreʃmən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_011",
+      "word": "sophomore",
+      "meaning": "大二学生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sophomore year",
+        "sophomore student"
+      ],
+      "sentence": "By sophomore year, you know your way around.",
+      "phonetic": "/ˈsɒfəmɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_012",
+      "word": "seminar",
+      "meaning": "研讨会",
+      "part_of_speech": "noun",
+      "phrase": [
+        "attend a seminar",
+        "give a seminar"
+      ],
+      "sentence": "The seminar on career planning was helpful.",
+      "phonetic": "/ˈsemɪnɑːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_013",
+      "word": "thesis",
+      "meaning": "论文",
+      "part_of_speech": "noun",
+      "phrase": [
+        "write a thesis",
+        "master's thesis"
+      ],
+      "sentence": "I spent six months writing my thesis.",
+      "phonetic": "/ˈθiːsɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_014",
+      "word": "dissertation",
+      "meaning": "毕业论文",
+      "part_of_speech": "noun",
+      "phrase": [
+        "doctoral dissertation",
+        "defend a dissertation"
+      ],
+      "sentence": "She is working on her dissertation.",
+      "phonetic": "/ˌdɪsərˈteɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_015",
+      "word": "volunteer",
+      "meaning": "志愿者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "volunteer work",
+        "become a volunteer"
+      ],
+      "sentence": "Volunteering looks good on your resume.",
+      "phonetic": "/ˌvɒlənˈtɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_016",
+      "word": "intern",
+      "meaning": "实习生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "summer intern",
+        "engineering intern"
+      ],
+      "sentence": "I worked as an intern at a tech company.",
+      "phonetic": "/ˈɪntɜːrn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_017",
+      "word": "apprenticeship",
+      "meaning": "学徒期",
+      "part_of_speech": "noun",
+      "phrase": [
+        "start an apprenticeship",
+        "complete an apprenticeship"
+      ],
+      "sentence": "An apprenticeship combines work and study.",
+      "phonetic": "/əˈprentɪsʃɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_018",
+      "word": "vocational",
+      "meaning": "职业的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "vocational training",
+        "vocational school"
+      ],
+      "sentence": "Vocational schools teach practical skills.",
+      "phonetic": "/vəʊˈkeɪʃənl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_019",
+      "word": "lifelong learning",
+      "meaning": "终身学习",
+      "part_of_speech": "noun",
+      "phrase": [
+        "embrace lifelong learning",
+        "lifelong learning habit"
+      ],
+      "sentence": "Lifelong learning keeps your skills up to date.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_020",
+      "word": "self-improvement",
+      "meaning": "自我提升",
+      "part_of_speech": "noun",
+      "phrase": [
+        "continuous self-improvement",
+        "focus on self-improvement"
+      ],
+      "sentence": "Self-improvement is a lifelong journey.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_021",
+      "word": "adaptability",
+      "meaning": "适应能力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "show adaptability",
+        "key adaptability"
+      ],
+      "sentence": "Adaptability is crucial in a fast-changing world.",
+      "phonetic": "/əˌdæptəˈbɪləti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_022",
+      "word": "entrepreneurship",
+      "meaning": "创业精神",
+      "part_of_speech": "noun",
+      "phrase": [
+        "encourage entrepreneurship",
+        "social entrepreneurship"
+      ],
+      "sentence": "Entrepreneurship can create new opportunities.",
+      "phonetic": "/ˌɒntrəprəˈnɜːrʃɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_023",
+      "word": "potential",
+      "meaning": "潜力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "reach your potential",
+        "full potential"
+      ],
+      "sentence": "Everyone has great potential.",
+      "phonetic": "/pəˈtenʃl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_024",
+      "word": "aspiration",
+      "meaning": "志向",
+      "part_of_speech": "noun",
+      "phrase": [
+        "career aspiration",
+        "high aspiration"
+      ],
+      "sentence": "Follow your aspirations and dreams.",
+      "phonetic": "/ˌæspəˈreɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit4_025",
+      "word": "destiny",
+      "meaning": "命运",
+      "part_of_speech": "noun",
+      "phrase": [
+        "control your destiny",
+        "meet your destiny"
+      ],
+      "sentence": "Your destiny is in your own hands.",
+      "phonetic": "/ˈdestəni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

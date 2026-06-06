@@ -1,0 +1,382 @@
+{
+  "unit": "g12dn-unit3",
+  "unit_title": "The secret of success",
+  "theme": "成功之道",
+  "vocabulary": [
+    {
+      "word_id": "g12dn_unit3_001",
+      "word": "success",
+      "meaning": "成功",
+      "part_of_speech": "noun",
+      "phrase": [
+        "achieve success",
+        "road to success"
+      ],
+      "sentence": "What is the secret of success?",
+      "phonetic": "/səkˈses/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_002",
+      "word": "ambition",
+      "meaning": "雄心",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have ambition",
+        "burning ambition"
+      ],
+      "sentence": "Ambition drives people to succeed.",
+      "phonetic": "/æmˈbɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_003",
+      "word": "perseverance",
+      "meaning": "毅力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "great perseverance",
+        "show perseverance"
+      ],
+      "sentence": "Perseverance is key to success.",
+      "phonetic": "/ˌpɜːrsɪˈvɪərəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_004",
+      "word": "discipline",
+      "meaning": "自律",
+      "part_of_speech": "noun",
+      "phrase": [
+        "self-discipline",
+        "strict discipline"
+      ],
+      "sentence": "Discipline helps you stay focused.",
+      "phonetic": "/ˈdɪsəplɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_005",
+      "word": "dedication",
+      "meaning": "奉献",
+      "part_of_speech": "noun",
+      "phrase": [
+        "hard work and dedication",
+        "total dedication"
+      ],
+      "sentence": "His dedication to the project was impressive.",
+      "phonetic": "/ˌdedɪˈkeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_006",
+      "word": "sacrifice",
+      "meaning": "牺牲",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "make sacrifices",
+        "sacrifice for success"
+      ],
+      "sentence": "Success often requires sacrifice.",
+      "phonetic": "/ˈsækrɪfaɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_007",
+      "word": "mindset",
+      "meaning": "心态",
+      "part_of_speech": "noun",
+      "phrase": [
+        "growth mindset",
+        "positive mindset"
+      ],
+      "sentence": "A positive mindset is very important.",
+      "phonetic": "/ˈmaɪndset/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_008",
+      "word": "resilience",
+      "meaning": "韧性",
+      "part_of_speech": "noun",
+      "phrase": [
+        "show resilience",
+        "build resilience"
+      ],
+      "sentence": "Resilience helps you bounce back from failure.",
+      "phonetic": "/rɪˈzɪliəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_009",
+      "word": "adversity",
+      "meaning": "逆境",
+      "part_of_speech": "noun",
+      "phrase": [
+        "overcome adversity",
+        "in the face of adversity"
+      ],
+      "sentence": "She succeeded in the face of great adversity.",
+      "phonetic": "/ədˈvɜːrsəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_010",
+      "word": "tenacity",
+      "meaning": "坚韧",
+      "part_of_speech": "noun",
+      "phrase": [
+        "great tenacity",
+        "show tenacity"
+      ],
+      "sentence": "His tenacity helped him reach his goal.",
+      "phonetic": "/təˈnæsəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_011",
+      "word": "optimism",
+      "meaning": "乐观",
+      "part_of_speech": "noun",
+      "phrase": [
+        "boundless optimism",
+        "cautious optimism"
+      ],
+      "sentence": "Optimism keeps you going through hard times.",
+      "phonetic": "/ˈɒptɪmɪzəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_012",
+      "word": "vision",
+      "meaning": "远见",
+      "part_of_speech": "noun",
+      "phrase": [
+        "clear vision",
+        "man of vision"
+      ],
+      "sentence": "Successful people have a clear vision.",
+      "phonetic": "/ˈvɪʒn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_013",
+      "word": "strategy",
+      "meaning": "策略",
+      "part_of_speech": "noun",
+      "phrase": [
+        "business strategy",
+        "develop a strategy"
+      ],
+      "sentence": "You need a good strategy for success.",
+      "phonetic": "/ˈstrætədʒi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_014",
+      "word": "execution",
+      "meaning": "执行",
+      "part_of_speech": "noun",
+      "phrase": [
+        "plan execution",
+        "flawless execution"
+      ],
+      "sentence": "A good plan without execution is useless.",
+      "phonetic": "/ˌeksɪˈkjuːʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_015",
+      "word": "innovation",
+      "meaning": "创新",
+      "part_of_speech": "noun",
+      "phrase": [
+        "constant innovation",
+        "technological innovation"
+      ],
+      "sentence": "Innovation gives you a competitive edge.",
+      "phonetic": "/ˌɪnəˈveɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_016",
+      "word": "mentor",
+      "meaning": "导师",
+      "part_of_speech": "noun",
+      "phrase": [
+        "find a mentor",
+        "business mentor"
+      ],
+      "sentence": "A good mentor can guide you to success.",
+      "phonetic": "/ˈmentɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_017",
+      "word": "networking",
+      "meaning": "人际网络",
+      "part_of_speech": "noun",
+      "phrase": [
+        "social networking",
+        "networking skills"
+      ],
+      "sentence": "Networking opens many doors.",
+      "phonetic": "/ˈnetwɜːrkɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_018",
+      "word": "opportunity",
+      "meaning": "机会",
+      "part_of_speech": "noun",
+      "phrase": [
+        "seize the opportunity",
+        "golden opportunity"
+      ],
+      "sentence": "Success is about seizing opportunities.",
+      "phonetic": "/ˌɒpəˈtjuːnəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_019",
+      "word": "failure",
+      "meaning": "失败",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fear of failure",
+        "learn from failure"
+      ],
+      "sentence": "Failure is a stepping stone to success.",
+      "phonetic": "/ˈfeɪljər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_020",
+      "word": "setback",
+      "meaning": "挫折",
+      "part_of_speech": "noun",
+      "phrase": [
+        "temporary setback",
+        "major setback"
+      ],
+      "sentence": "Don't let a setback stop you.",
+      "phonetic": "/ˈsetbæk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_021",
+      "word": "breakthrough",
+      "meaning": "突破",
+      "part_of_speech": "noun",
+      "phrase": [
+        "scientific breakthrough",
+        "major breakthrough"
+      ],
+      "sentence": "After years of work, she had a breakthrough.",
+      "phonetic": "/ˈbreɪkθruː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_022",
+      "word": "milestone",
+      "meaning": "里程碑",
+      "part_of_speech": "noun",
+      "phrase": [
+        "important milestone",
+        "reach a milestone"
+      ],
+      "sentence": "Graduation is a big milestone in life.",
+      "phonetic": "/ˈmaɪlstəʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_023",
+      "word": "legacy",
+      "meaning": "遗产；留给后人的东西",
+      "part_of_speech": "noun",
+      "phrase": [
+        "leave a legacy",
+        "lasting legacy"
+      ],
+      "sentence": "He wants to leave a legacy behind.",
+      "phonetic": "/ˈleɡəsi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_024",
+      "word": "fulfilment",
+      "meaning": "成就感",
+      "part_of_speech": "noun",
+      "phrase": [
+        "personal fulfilment",
+        "sense of fulfilment"
+      ],
+      "sentence": "True success brings fulfilment.",
+      "phonetic": "/fʊlˈfɪlmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit3_025",
+      "word": "mastery",
+      "meaning": "精通",
+      "part_of_speech": "noun",
+      "phrase": [
+        "technical mastery",
+        "achieve mastery"
+      ],
+      "sentence": "Mastery takes years of practice.",
+      "phonetic": "/ˈmɑːstəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

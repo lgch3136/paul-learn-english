@@ -1,0 +1,382 @@
+{
+  "unit": "g10up-unit2",
+  "unit_title": "Growing pains",
+  "theme": "成长的烦恼",
+  "vocabulary": [
+    {
+      "word_id": "g10up_unit2_001",
+      "word": "adult",
+      "meaning": "成年人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "become an adult",
+        "young adults"
+      ],
+      "sentence": "You are almost an adult now.",
+      "phonetic": "/ˈædʌlt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_002",
+      "word": "argument",
+      "meaning": "争论",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have an argument",
+        "heated argument"
+      ],
+      "sentence": "We had an argument about my curfew.",
+      "phonetic": "/ˈɑːrɡjumənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_003",
+      "word": "conflict",
+      "meaning": "冲突",
+      "part_of_speech": "noun",
+      "phrase": [
+        "family conflict",
+        "resolve a conflict"
+      ],
+      "sentence": "How do you deal with conflict?",
+      "phonetic": "/ˈkɒnflɪkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_004",
+      "word": "teenager",
+      "meaning": "青少年",
+      "part_of_speech": "noun",
+      "phrase": [
+        "typical teenager",
+        "teenager problems"
+      ],
+      "sentence": "Teenagers often have conflicts with parents.",
+      "phonetic": "/ˈtiːneɪdʒər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_005",
+      "word": "suppose",
+      "meaning": "认为；假设",
+      "part_of_speech": "verb",
+      "phrase": [
+        "be supposed to",
+        "I suppose"
+      ],
+      "sentence": "You are supposed to be home by 10.",
+      "phonetic": "/səˈpəʊz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_006",
+      "word": "blame",
+      "meaning": "责备",
+      "part_of_speech": "verb",
+      "phrase": [
+        "blame for",
+        "take the blame"
+      ],
+      "sentence": "Don't blame your parents for everything.",
+      "phonetic": "/bleɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_007",
+      "word": "upset",
+      "meaning": "不安的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel upset",
+        "get upset"
+      ],
+      "sentence": "She was upset about the argument.",
+      "phonetic": "/ʌpˈset/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_008",
+      "word": "handle",
+      "meaning": "处理",
+      "part_of_speech": "verb",
+      "phrase": [
+        "handle problems",
+        "handle well"
+      ],
+      "sentence": "Learn to handle your emotions.",
+      "phonetic": "/ˈhændl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_009",
+      "word": "misunderstand",
+      "meaning": "误解",
+      "part_of_speech": "verb",
+      "phrase": [
+        "misunderstand each other",
+        "completely misunderstand"
+      ],
+      "sentence": "Teenagers and parents often misunderstand each other.",
+      "phonetic": "/ˌmɪsʌndərˈstænd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_010",
+      "word": "forbid",
+      "meaning": "禁止",
+      "part_of_speech": "verb",
+      "phrase": [
+        "forbid to do",
+        "strictly forbid"
+      ],
+      "sentence": "My parents forbid me to stay out late.",
+      "phonetic": "/fərˈbɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_011",
+      "word": "patience",
+      "meaning": "耐心",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have patience",
+        "lose patience"
+      ],
+      "sentence": "Raising teenagers requires a lot of patience.",
+      "phonetic": "/ˈpeɪʃns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_012",
+      "word": "generation",
+      "meaning": "一代",
+      "part_of_speech": "noun",
+      "phrase": [
+        "younger generation",
+        "generation gap"
+      ],
+      "sentence": "The generation gap is a common problem.",
+      "phonetic": "/ˌdʒenəˈreɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_013",
+      "word": "gap",
+      "meaning": "差距",
+      "part_of_speech": "noun",
+      "phrase": [
+        "generation gap",
+        "bridge the gap"
+      ],
+      "sentence": "How can we bridge the generation gap?",
+      "phonetic": "/ɡæp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_014",
+      "word": "curfew",
+      "meaning": "宵禁",
+      "part_of_speech": "noun",
+      "phrase": [
+        "impose a curfew",
+        "break the curfew"
+      ],
+      "sentence": "My curfew is 10 p.m.",
+      "phonetic": "/ˈkɜːrfjuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_015",
+      "word": "tend",
+      "meaning": "倾向",
+      "part_of_speech": "verb",
+      "phrase": [
+        "tend to do",
+        "tend towards"
+      ],
+      "sentence": "Teenagers tend to be rebellious.",
+      "phonetic": "/tend/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_016",
+      "word": "adolescence",
+      "meaning": "青春期",
+      "part_of_speech": "noun",
+      "phrase": [
+        "during adolescence",
+        "early adolescence"
+      ],
+      "sentence": "Adolescence is a difficult period.",
+      "phonetic": "/ˌædəˈlesns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_017",
+      "word": "emotion",
+      "meaning": "情感",
+      "part_of_speech": "noun",
+      "phrase": [
+        "control emotions",
+        "strong emotion"
+      ],
+      "sentence": "Teenagers experience strong emotions.",
+      "phonetic": "/ɪˈməʊʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_018",
+      "word": "balance",
+      "meaning": "平衡",
+      "part_of_speech": "verb",
+      "phrase": [
+        "balance study and play",
+        "keep the balance"
+      ],
+      "sentence": "It is hard to balance everything.",
+      "phonetic": "/ˈbæləns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_019",
+      "word": "independence",
+      "meaning": "独立",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fight for independence",
+        "gain independence"
+      ],
+      "sentence": "Teenagers want more independence.",
+      "phonetic": "/ˌɪndɪˈpendəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_020",
+      "word": "rebellious",
+      "meaning": "叛逆的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "rebellious teenager",
+        "rebellious behaviour"
+      ],
+      "sentence": "Being rebellious is part of growing up.",
+      "phonetic": "/rɪˈbeljəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_021",
+      "word": "guide",
+      "meaning": "引导",
+      "part_of_speech": "verb",
+      "phrase": [
+        "guide through",
+        "guide me"
+      ],
+      "sentence": "Parents try to guide their children.",
+      "phonetic": "/ɡaɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_022",
+      "word": "freedom",
+      "meaning": "自由",
+      "part_of_speech": "noun",
+      "phrase": [
+        "want freedom",
+        "freedom of choice"
+      ],
+      "sentence": "Teenagers want more freedom.",
+      "phonetic": "/ˈfriːdəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_023",
+      "word": "confused",
+      "meaning": "困惑的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel confused",
+        "confused about"
+      ],
+      "sentence": "I feel confused about my future.",
+      "phonetic": "/kənˈfjuːzd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_024",
+      "word": "pressure",
+      "meaning": "压力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "under pressure",
+        "peer pressure"
+      ],
+      "sentence": "There is a lot of pressure at high school.",
+      "phonetic": "/ˈpreʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit2_025",
+      "word": "compromise",
+      "meaning": "妥协",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "reach a compromise",
+        "compromise on"
+      ],
+      "sentence": "We need to find a compromise.",
+      "phonetic": "/ˈkɒmprəmaɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

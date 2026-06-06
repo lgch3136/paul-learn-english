@@ -1,0 +1,382 @@
+{
+  "unit": "g12dn-unit1",
+  "unit_title": "Careers and skills",
+  "theme": "职业与技能",
+  "vocabulary": [
+    {
+      "word_id": "g12dn_unit1_001",
+      "word": "career",
+      "meaning": "职业",
+      "part_of_speech": "noun",
+      "phrase": [
+        "career choice",
+        "career path"
+      ],
+      "sentence": "Choosing a career is an important decision.",
+      "phonetic": "/kəˈrɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_002",
+      "word": "profession",
+      "meaning": "专业；职业",
+      "part_of_speech": "noun",
+      "phrase": [
+        "medical profession",
+        "teaching profession"
+      ],
+      "sentence": "Teaching is a noble profession.",
+      "phonetic": "/prəˈfeʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_003",
+      "word": "occupation",
+      "meaning": "职业",
+      "part_of_speech": "noun",
+      "phrase": [
+        "current occupation",
+        "choose an occupation"
+      ],
+      "sentence": "What is your occupation?",
+      "phonetic": "/ˌɒkjuˈpeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_004",
+      "word": "qualification",
+      "meaning": "资格",
+      "part_of_speech": "noun",
+      "phrase": [
+        "academic qualification",
+        "professional qualification"
+      ],
+      "sentence": "You need proper qualifications for this job.",
+      "phonetic": "/ˌkwɒlɪfɪˈkeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_005",
+      "word": "certificate",
+      "meaning": "证书",
+      "part_of_speech": "noun",
+      "phrase": [
+        "graduation certificate",
+        "birth certificate"
+      ],
+      "sentence": "I received my training certificate.",
+      "phonetic": "/sərˈtɪfɪkət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_006",
+      "word": "diploma",
+      "meaning": "文凭",
+      "part_of_speech": "noun",
+      "phrase": [
+        "high school diploma",
+        "get a diploma"
+      ],
+      "sentence": "He earned his diploma last year.",
+      "phonetic": "/dɪˈpləʊmə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_007",
+      "word": "degree",
+      "meaning": "学位",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bachelor's degree",
+        "master's degree"
+      ],
+      "sentence": "She has a degree in engineering.",
+      "phonetic": "/dɪˈɡriː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_008",
+      "word": "internship",
+      "meaning": "实习",
+      "part_of_speech": "noun",
+      "phrase": [
+        "summer internship",
+        "paid internship"
+      ],
+      "sentence": "I did an internship at a law firm.",
+      "phonetic": "/ˈɪntɜːrnʃɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_009",
+      "word": "apprentice",
+      "meaning": "学徒",
+      "part_of_speech": "noun",
+      "phrase": [
+        "become an apprentice",
+        "apprentice training"
+      ],
+      "sentence": "He started as an apprentice carpenter.",
+      "phonetic": "/əˈprentɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_010",
+      "word": "mentor",
+      "meaning": "导师",
+      "part_of_speech": "noun",
+      "phrase": [
+        "find a mentor",
+        "mentor program"
+      ],
+      "sentence": "A good mentor can guide your career.",
+      "phonetic": "/ˈmentɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_011",
+      "word": "curriculum vitae",
+      "meaning": "简历",
+      "part_of_speech": "noun",
+      "phrase": [
+        "write a CV",
+        "update your CV"
+      ],
+      "sentence": "Send your CV to the company.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_012",
+      "word": "resume",
+      "meaning": "简历",
+      "part_of_speech": "noun",
+      "phrase": [
+        "submit a resume",
+        "resume writing"
+      ],
+      "sentence": "Your resume should be one page.",
+      "phonetic": "/rɪˈzjuːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_013",
+      "word": "interview",
+      "meaning": "面试",
+      "part_of_speech": "noun",
+      "phrase": [
+        "job interview",
+        "attend an interview"
+      ],
+      "sentence": "I have an interview tomorrow.",
+      "phonetic": "/ˈɪntərvjuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_014",
+      "word": "employer",
+      "meaning": "雇主",
+      "part_of_speech": "noun",
+      "phrase": [
+        "potential employer",
+        "current employer"
+      ],
+      "sentence": "My employer offers good benefits.",
+      "phonetic": "/ɪmˈplɔɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_015",
+      "word": "employee",
+      "meaning": "雇员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "full-time employee",
+        "employee benefits"
+      ],
+      "sentence": "The company has 500 employees.",
+      "phonetic": "/ɪmˈplɔɪiː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_016",
+      "word": "colleague",
+      "meaning": "同事",
+      "part_of_speech": "noun",
+      "phrase": [
+        "work colleague",
+        "senior colleague"
+      ],
+      "sentence": "I get along well with my colleagues.",
+      "phonetic": "/ˈkɒliːɡ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_017",
+      "word": "promotion",
+      "meaning": "晋升",
+      "part_of_speech": "noun",
+      "phrase": [
+        "job promotion",
+        "get a promotion"
+      ],
+      "sentence": "She got a promotion to manager.",
+      "phonetic": "/prəˈməʊʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_018",
+      "word": "salary",
+      "meaning": "薪水",
+      "part_of_speech": "noun",
+      "phrase": [
+        "monthly salary",
+        "annual salary"
+      ],
+      "sentence": "The job offers a good salary.",
+      "phonetic": "/ˈsæləri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_019",
+      "word": "bonus",
+      "meaning": "奖金",
+      "part_of_speech": "noun",
+      "phrase": [
+        "annual bonus",
+        "performance bonus"
+      ],
+      "sentence": "Employees receive a bonus at year-end.",
+      "phonetic": "/ˈbəʊnəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_020",
+      "word": "pension",
+      "meaning": "养老金",
+      "part_of_speech": "noun",
+      "phrase": [
+        "retirement pension",
+        "pension fund"
+      ],
+      "sentence": "The company provides a good pension plan.",
+      "phonetic": "/ˈpenʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_021",
+      "word": "entrepreneur",
+      "meaning": "企业家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "successful entrepreneur",
+        "young entrepreneur"
+      ],
+      "sentence": "He is a successful entrepreneur.",
+      "phonetic": "/ˌɒntrəprəˈnɜːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_022",
+      "word": "startup",
+      "meaning": "创业公司",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tech startup",
+        "launch a startup"
+      ],
+      "sentence": "She founded a tech startup.",
+      "phonetic": "/ˈstɑːrtʌp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_023",
+      "word": "freelance",
+      "meaning": "自由职业",
+      "part_of_speech": "adj/noun",
+      "phrase": [
+        "freelance work",
+        "freelance writer"
+      ],
+      "sentence": "I work as a freelance designer.",
+      "phonetic": "/ˈfriːlɑːns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_024",
+      "word": "workforce",
+      "meaning": "劳动力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "skilled workforce",
+        "join the workforce"
+      ],
+      "sentence": "The workforce is becoming more diverse.",
+      "phonetic": "/ˈwɜːrkfɔːrs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12dn_unit1_025",
+      "word": "automation",
+      "meaning": "自动化",
+      "part_of_speech": "noun",
+      "phrase": [
+        "job automation",
+        "factory automation"
+      ],
+      "sentence": "Automation is changing the job market.",
+      "phonetic": "/ˌɔːtəˈmeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "unit": "g8dn-unit8",
+  "unit_title": "A green world",
+  "theme": "环保与绿色生活",
+  "vocabulary": [
+    {
+      "word_id": "g8dn_unit8_001",
+      "word": "green",
+      "meaning": "绿色的；环保的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "green world",
+        "green energy"
+      ],
+      "sentence": "We should build a green world.",
+      "phonetic": "/ɡriːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_002",
+      "word": "reduce",
+      "meaning": "减少",
+      "part_of_speech": "verb",
+      "phrase": [
+        "reduce waste",
+        "reduce pollution"
+      ],
+      "sentence": "We must reduce plastic waste.",
+      "phonetic": "/rɪˈdjuːs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_003",
+      "word": "reuse",
+      "meaning": "重复使用",
+      "part_of_speech": "verb",
+      "phrase": [
+        "reuse bags",
+        "reduce and reuse"
+      ],
+      "sentence": "Reuse your shopping bags.",
+      "phonetic": "/ˌriːˈjuːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_004",
+      "word": "recycle",
+      "meaning": "回收",
+      "part_of_speech": "verb",
+      "phrase": [
+        "recycle paper",
+        "recycle bin"
+      ],
+      "sentence": "We should recycle old bottles.",
+      "phonetic": "/ˌriːˈsaɪkl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_005",
+      "word": "plastic",
+      "meaning": "塑料",
+      "part_of_speech": "noun/adj",
+      "phrase": [
+        "plastic bag",
+        "plastic bottle"
+      ],
+      "sentence": "Plastic waste is a big problem.",
+      "phonetic": "/ˈplæstɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_006",
+      "word": "separate",
+      "meaning": "分开",
+      "part_of_speech": "verb",
+      "phrase": [
+        "separate garbage",
+        "separate from"
+      ],
+      "sentence": "You should separate the garbage.",
+      "phonetic": "/ˈsepəreɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_007",
+      "word": "allow",
+      "meaning": "允许",
+      "part_of_speech": "verb",
+      "phrase": [
+        "allow to do",
+        "not allowed"
+      ],
+      "sentence": "Smoking is not allowed here.",
+      "phonetic": "/əˈlaʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_008",
+      "word": "fine",
+      "meaning": "罚款",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "pay a fine",
+        "get fined"
+      ],
+      "sentence": "You will be fined if you litter.",
+      "phonetic": "/faɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_009",
+      "word": "limit",
+      "meaning": "限制",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "speed limit",
+        "without limit"
+      ],
+      "sentence": "We should limit water usage.",
+      "phonetic": "/ˈlɪmɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_010",
+      "word": "depend",
+      "meaning": "依赖",
+      "part_of_speech": "verb",
+      "phrase": [
+        "depend on",
+        "it depends"
+      ],
+      "sentence": "We depend on nature for clean air.",
+      "phonetic": "/dɪˈpend/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_011",
+      "word": "resource",
+      "meaning": "资源",
+      "part_of_speech": "noun",
+      "phrase": [
+        "natural resources",
+        "human resources"
+      ],
+      "sentence": "Water is a precious resource.",
+      "phonetic": "/rɪˈsɔːrs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_012",
+      "word": "coal",
+      "meaning": "煤",
+      "part_of_speech": "noun",
+      "phrase": [
+        "coal mine",
+        "burn coal"
+      ],
+      "sentence": "Burning coal pollutes the air.",
+      "phonetic": "/kəʊl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_013",
+      "word": "oil",
+      "meaning": "石油",
+      "part_of_speech": "noun",
+      "phrase": [
+        "oil field",
+        "cooking oil"
+      ],
+      "sentence": "Oil is not a renewable resource.",
+      "phonetic": "/ɔɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_014",
+      "word": "solar",
+      "meaning": "太阳的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "solar energy",
+        "solar panel"
+      ],
+      "sentence": "Solar energy is clean and free.",
+      "phonetic": "/ˈsəʊlər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_015",
+      "word": "dig",
+      "meaning": "挖",
+      "part_of_speech": "verb",
+      "phrase": [
+        "dig a hole",
+        "dig up"
+      ],
+      "sentence": "People dig coal from the ground.",
+      "phonetic": "/dɪɡ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_016",
+      "word": "serious",
+      "meaning": "严重的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "serious problem",
+        "take seriously"
+      ],
+      "sentence": "Pollution is a serious issue.",
+      "phonetic": "/ˈsɪəriəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_017",
+      "word": "harmful",
+      "meaning": "有害的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "harmful to",
+        "harmful effects"
+      ],
+      "sentence": "Smoke is harmful to our health.",
+      "phonetic": "/ˈhɑːrmfl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_018",
+      "word": "living",
+      "meaning": "活着的；居住的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "living things",
+        "living room"
+      ],
+      "sentence": "All living things need clean water.",
+      "phonetic": "/ˈlɪvɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_019",
+      "word": "display",
+      "meaning": "展示",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "on display",
+        "display board"
+      ],
+      "sentence": "We made a display about recycling.",
+      "phonetic": "/dɪˈspleɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_020",
+      "word": "survey",
+      "meaning": "调查",
+      "part_of_speech": "noun",
+      "phrase": [
+        "do a survey",
+        "according to a survey"
+      ],
+      "sentence": "We did a survey on recycling habits.",
+      "phonetic": "/ˈsɜːrveɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_021",
+      "word": "simple",
+      "meaning": "简单的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "simple steps",
+        "simple and easy"
+      ],
+      "sentence": "Here are some simple steps to go green.",
+      "phonetic": "/ˈsɪmpl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_022",
+      "word": "step",
+      "meaning": "步骤",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take steps",
+        "step by step"
+      ],
+      "sentence": "Small steps can make a big difference.",
+      "phonetic": "/step/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_023",
+      "word": "power",
+      "meaning": "电力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "solar power",
+        "power station"
+      ],
+      "sentence": "Turn off the power when not in use.",
+      "phonetic": "/ˈpaʊər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_024",
+      "word": "difference",
+      "meaning": "不同；影响",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a difference",
+        "big difference"
+      ],
+      "sentence": "Every action makes a difference.",
+      "phonetic": "/ˈdɪfrəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit8_025",
+      "word": "wise",
+      "meaning": "明智的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "wise choice",
+        "wise man"
+      ],
+      "sentence": "It is wise to save energy.",
+      "phonetic": "/waɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "unit": "g9up-unit2",
+  "unit_title": "Colours",
+  "theme": "颜色与情绪",
+  "vocabulary": [
+    {
+      "word_id": "g9up_unit2_001",
+      "word": "influence",
+      "meaning": "影响",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "influence on",
+        "have an influence"
+      ],
+      "sentence": "Colours can influence our mood.",
+      "phonetic": "/ˈɪnfluəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_002",
+      "word": "mood",
+      "meaning": "情绪",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in a good mood",
+        "bad mood"
+      ],
+      "sentence": "Bright colours can improve your mood.",
+      "phonetic": "/muːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_003",
+      "word": "peace",
+      "meaning": "和平；安宁",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in peace",
+        "peace of mind"
+      ],
+      "sentence": "Green represents peace and nature.",
+      "phonetic": "/piːs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_004",
+      "word": "sadness",
+      "meaning": "悲伤",
+      "part_of_speech": "noun",
+      "phrase": [
+        "feel sadness",
+        "deep sadness"
+      ],
+      "sentence": "Black is the colour of sadness in some cultures.",
+      "phonetic": "/ˈsædnəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_005",
+      "word": "purity",
+      "meaning": "纯洁",
+      "part_of_speech": "noun",
+      "phrase": [
+        "purity of white",
+        "symbol of purity"
+      ],
+      "sentence": "White is a symbol of purity.",
+      "phonetic": "/ˈpjʊərəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_006",
+      "word": "calm",
+      "meaning": "平静的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "stay calm",
+        "calm down"
+      ],
+      "sentence": "Blue makes people feel calm.",
+      "phonetic": "/kɑːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_007",
+      "word": "relaxed",
+      "meaning": "放松的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel relaxed",
+        "relaxed atmosphere"
+      ],
+      "sentence": "I feel relaxed in a green room.",
+      "phonetic": "/rɪˈlækst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_008",
+      "word": "strength",
+      "meaning": "力量",
+      "part_of_speech": "noun",
+      "phrase": [
+        "physical strength",
+        "inner strength"
+      ],
+      "sentence": "Red represents strength and power.",
+      "phonetic": "/streŋθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_009",
+      "word": "heat",
+      "meaning": "热",
+      "part_of_speech": "noun",
+      "phrase": [
+        "heat of summer",
+        "body heat"
+      ],
+      "sentence": "Red is the colour of heat.",
+      "phonetic": "/hiːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_010",
+      "word": "decision",
+      "meaning": "决定",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a decision",
+        "final decision"
+      ],
+      "sentence": "Colours can help us make decisions.",
+      "phonetic": "/dɪˈsɪʒn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_011",
+      "word": "difficulty",
+      "meaning": "困难",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have difficulty",
+        "without difficulty"
+      ],
+      "sentence": "I have difficulty choosing a colour.",
+      "phonetic": "/ˈdɪfɪkəlti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_012",
+      "word": "nature",
+      "meaning": "自然",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in nature",
+        "human nature"
+      ],
+      "sentence": "Green is the colour of nature.",
+      "phonetic": "/ˈneɪtʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_013",
+      "word": "ancient",
+      "meaning": "古代的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "ancient times",
+        "ancient culture"
+      ],
+      "sentence": "In ancient China, different colours had meanings.",
+      "phonetic": "/ˈeɪnʃənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_014",
+      "word": "require",
+      "meaning": "需要",
+      "part_of_speech": "verb",
+      "phrase": [
+        "require patience",
+        "as required"
+      ],
+      "sentence": "Painting a room requires careful planning.",
+      "phonetic": "/rɪˈkwaɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_015",
+      "word": "therapy",
+      "meaning": "疗法",
+      "part_of_speech": "noun",
+      "phrase": [
+        "colour therapy",
+        "music therapy"
+      ],
+      "sentence": "Colour therapy uses colours to improve health.",
+      "phonetic": "/ˈθerəpi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_016",
+      "word": "discover",
+      "meaning": "发现",
+      "part_of_speech": "verb",
+      "phrase": [
+        "discover that",
+        "scientific discovery"
+      ],
+      "sentence": "Scientists discovered that colours affect mood.",
+      "phonetic": "/dɪˈskʌvər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_017",
+      "word": "promise",
+      "meaning": "承诺",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "make a promise",
+        "keep a promise"
+      ],
+      "sentence": "I promise to paint it blue.",
+      "phonetic": "/ˈprɒmɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_018",
+      "word": "harm",
+      "meaning": "伤害",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "do harm",
+        "cause harm"
+      ],
+      "sentence": "Too much red can cause harm to your eyes.",
+      "phonetic": "/hɑːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_019",
+      "word": "balance",
+      "meaning": "平衡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "keep a balance",
+        "lose balance"
+      ],
+      "sentence": "We need a balance of colours in life.",
+      "phonetic": "/ˈbæləns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_020",
+      "word": "everyday",
+      "meaning": "日常的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "everyday life",
+        "everyday English"
+      ],
+      "sentence": "Colours play a role in our everyday life.",
+      "phonetic": "/ˈevrideɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_021",
+      "word": "suggest",
+      "meaning": "建议",
+      "part_of_speech": "verb",
+      "phrase": [
+        "suggest doing",
+        "suggest that"
+      ],
+      "sentence": "I suggest using soft colours in the bedroom.",
+      "phonetic": "/səˈdʒest/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_022",
+      "word": "prefer",
+      "meaning": "更喜欢",
+      "part_of_speech": "verb",
+      "phrase": [
+        "prefer to",
+        "prefer A to B"
+      ],
+      "sentence": "I prefer warm colours.",
+      "phonetic": "/prɪˈfɜːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_023",
+      "word": "whether",
+      "meaning": "是否",
+      "part_of_speech": "conj",
+      "phrase": [
+        "whether or not",
+        "ask whether"
+      ],
+      "sentence": "I wonder whether colours really affect us.",
+      "phonetic": "/ˈweðər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_024",
+      "word": "personal",
+      "meaning": "个人的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "personal taste",
+        "personal opinion"
+      ],
+      "sentence": "Colour choice is a personal thing.",
+      "phonetic": "/ˈpɜːrsənl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit2_025",
+      "word": "suit",
+      "meaning": "适合",
+      "part_of_speech": "verb",
+      "phrase": [
+        "suit you",
+        "well suited"
+      ],
+      "sentence": "This colour really suits you!",
+      "phonetic": "/suːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

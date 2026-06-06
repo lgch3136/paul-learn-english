@@ -1,0 +1,382 @@
+{
+  "unit": "g10up-unit4",
+  "unit_title": "Unexplained",
+  "theme": "未解之谜",
+  "vocabulary": [
+    {
+      "word_id": "g10up_unit4_001",
+      "word": "unexplained",
+      "meaning": "无法解释的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "unexplained mystery",
+        "remain unexplained"
+      ],
+      "sentence": "Some things remain unexplained.",
+      "phonetic": "/ˌʌnɪkˈspleɪnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_002",
+      "word": "puzzle",
+      "meaning": "谜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "solve a puzzle",
+        "jigsaw puzzle"
+      ],
+      "sentence": "The universe is full of puzzles.",
+      "phonetic": "/ˈpʌzl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_003",
+      "word": "mysterious",
+      "meaning": "神秘的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "mysterious creature",
+        "mysterious disappearance"
+      ],
+      "sentence": "Many mysterious things happen in the Bermuda Triangle.",
+      "phonetic": "/mɪˈstɪəriəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_004",
+      "word": "alien",
+      "meaning": "外星人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "alien life",
+        "space aliens"
+      ],
+      "sentence": "Some people believe aliens have visited Earth.",
+      "phonetic": "/ˈeɪliən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_005",
+      "word": "creature",
+      "meaning": "生物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "strange creature",
+        "living creature"
+      ],
+      "sentence": "A mysterious creature was seen in the lake.",
+      "phonetic": "/ˈkriːtʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_006",
+      "word": "witness",
+      "meaning": "目击",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "eye witness",
+        "witness an event"
+      ],
+      "sentence": "Many people witnessed the strange lights.",
+      "phonetic": "/ˈwɪtnəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_007",
+      "word": "exist",
+      "meaning": "存在",
+      "part_of_speech": "verb",
+      "phrase": [
+        "does exist",
+        "cease to exist"
+      ],
+      "sentence": "Do aliens really exist?",
+      "phonetic": "/ɪɡˈzɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_008",
+      "word": "incident",
+      "meaning": "事件",
+      "part_of_speech": "noun",
+      "phrase": [
+        "strange incident",
+        "unfortunate incident"
+      ],
+      "sentence": "The incident was never explained.",
+      "phonetic": "/ˈɪnsɪdənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_009",
+      "word": "disappear",
+      "meaning": "消失",
+      "part_of_speech": "verb",
+      "phrase": [
+        "disappear without trace",
+        "disappear into"
+      ],
+      "sentence": "The plane disappeared over the ocean.",
+      "phonetic": "/ˌdɪsəˈpɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_010",
+      "word": "assume",
+      "meaning": "假设",
+      "part_of_speech": "verb",
+      "phrase": [
+        "assume that",
+        "let us assume"
+      ],
+      "sentence": "We cannot simply assume aliens exist.",
+      "phonetic": "/əˈsjuːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_011",
+      "word": "construction",
+      "meaning": "建造",
+      "part_of_speech": "noun",
+      "phrase": [
+        "stone construction",
+        "under construction"
+      ],
+      "sentence": "The construction of the pyramids remains a mystery.",
+      "phonetic": "/kənˈstrʌkʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_012",
+      "word": "search",
+      "meaning": "搜寻",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "search for",
+        "in search of"
+      ],
+      "sentence": "Scientists continue to search for answers.",
+      "phonetic": "/sɜːrtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_013",
+      "word": "frightened",
+      "meaning": "害怕的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel frightened",
+        "frightened of"
+      ],
+      "sentence": "The strange noise made me feel frightened.",
+      "phonetic": "/ˈfraɪtnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_014",
+      "word": "possibility",
+      "meaning": "可能性",
+      "part_of_speech": "noun",
+      "phrase": [
+        "strong possibility",
+        "consider the possibility"
+      ],
+      "sentence": "There is a possibility that aliens exist.",
+      "phonetic": "/ˌpɒsəˈbɪləti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_015",
+      "word": "theory",
+      "meaning": "理论",
+      "part_of_speech": "noun",
+      "phrase": [
+        "develop a theory",
+        "conspiracy theory"
+      ],
+      "sentence": "There are many theories about the pyramids.",
+      "phonetic": "/ˈθɪəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_016",
+      "word": "dinosaur",
+      "meaning": "恐龙",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dinosaur fossil",
+        "dinosaurs died out"
+      ],
+      "sentence": "Dinosaurs lived millions of years ago.",
+      "phonetic": "/ˈdaɪnəsɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_017",
+      "word": "extinct",
+      "meaning": "灭绝的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "become extinct",
+        "extinct species"
+      ],
+      "sentence": "Many species have become extinct.",
+      "phonetic": "/ɪkˈstɪŋkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_018",
+      "word": "evidence",
+      "meaning": "证据",
+      "part_of_speech": "noun",
+      "phrase": [
+        "hard evidence",
+        "lack of evidence"
+      ],
+      "sentence": "There is no clear evidence.",
+      "phonetic": "/ˈevɪdəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_019",
+      "word": "phenomenon",
+      "meaning": "现象",
+      "part_of_speech": "noun",
+      "phrase": [
+        "natural phenomenon",
+        "unusual phenomenon"
+      ],
+      "sentence": "This is a very rare phenomenon.",
+      "phonetic": "/fɪˈnɒmɪnən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_020",
+      "word": "survive",
+      "meaning": "幸存",
+      "part_of_speech": "verb",
+      "phrase": [
+        "survive the crash",
+        "struggle to survive"
+      ],
+      "sentence": "Did anyone survive the accident?",
+      "phonetic": "/sərˈvaɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_021",
+      "word": "ancestor",
+      "meaning": "祖先",
+      "part_of_speech": "noun",
+      "phrase": [
+        "human ancestor",
+        "common ancestor"
+      ],
+      "sentence": "Our ancestors lived in caves.",
+      "phonetic": "/ˈænsestər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_022",
+      "word": "ancient",
+      "meaning": "古代的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "ancient civilization",
+        "ancient times"
+      ],
+      "sentence": "The ancient Egyptians built the pyramids.",
+      "phonetic": "/ˈeɪnʃənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_023",
+      "word": "pyramid",
+      "meaning": "金字塔",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Egyptian pyramid",
+        "build pyramids"
+      ],
+      "sentence": "How did the Egyptians build the pyramids?",
+      "phonetic": "/ˈpɪrəmɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_024",
+      "word": "myth",
+      "meaning": "神话",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Greek myth",
+        "myth or fact"
+      ],
+      "sentence": "Some stories are just myths.",
+      "phonetic": "/mɪθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit4_025",
+      "word": "speculate",
+      "meaning": "推测",
+      "part_of_speech": "verb",
+      "phrase": [
+        "speculate about",
+        "it is speculated"
+      ],
+      "sentence": "People love to speculate about mysteries.",
+      "phonetic": "/ˈspekjuleɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

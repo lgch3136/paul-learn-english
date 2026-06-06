@@ -1,0 +1,382 @@
+{
+  "unit": "g5dn-unit6",
+  "unit_title": "In the kitchen",
+  "theme": "厨房与烹饪",
+  "vocabulary": [
+    {
+      "word_id": "g5dn_unit6_001",
+      "word": "kitchen",
+      "meaning": "厨房",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the kitchen",
+        "kitchen door"
+      ],
+      "sentence": "My mother is in the kitchen.",
+      "phonetic": "/ˈkɪtʃɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_002",
+      "word": "fridge",
+      "meaning": "冰箱",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the fridge",
+        "open the fridge"
+      ],
+      "sentence": "Put the milk in the fridge.",
+      "phonetic": "/frɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_003",
+      "word": "vegetable",
+      "meaning": "蔬菜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "green vegetables",
+        "grow vegetables"
+      ],
+      "sentence": "We need some vegetables.",
+      "phonetic": "/ˈvedʒtəbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_004",
+      "word": "potato",
+      "meaning": "土豆",
+      "part_of_speech": "noun",
+      "phrase": [
+        "potato chips",
+        "sweet potato"
+      ],
+      "sentence": "I like potatoes very much.",
+      "phonetic": "/pəˈteɪtəʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_005",
+      "word": "tomato",
+      "meaning": "西红柿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tomato soup",
+        "fresh tomato"
+      ],
+      "sentence": "Tomatoes are good for health.",
+      "phonetic": "/təˈmɑːtəʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_006",
+      "word": "meat",
+      "meaning": "肉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "chicken meat",
+        "piece of meat"
+      ],
+      "sentence": "Do you want some meat?",
+      "phonetic": "/miːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_007",
+      "word": "bread",
+      "meaning": "面包",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a piece of bread",
+        "bread and butter"
+      ],
+      "sentence": "I have bread for breakfast.",
+      "phonetic": "/bred/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_008",
+      "word": "soup",
+      "meaning": "汤",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tomato soup",
+        "chicken soup"
+      ],
+      "sentence": "The soup smells good!",
+      "phonetic": "/suːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_009",
+      "word": "ready",
+      "meaning": "准备好的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "get ready",
+        "ready for"
+      ],
+      "sentence": "Dinner is ready!",
+      "phonetic": "/ˈredi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_010",
+      "word": "smell",
+      "meaning": "闻起来",
+      "part_of_speech": "verb",
+      "phrase": [
+        "smell good",
+        "smell like"
+      ],
+      "sentence": "The food smells delicious.",
+      "phonetic": "/smel/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_011",
+      "word": "chicken",
+      "meaning": "鸡肉；鸡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fried chicken",
+        "chicken soup"
+      ],
+      "sentence": "I like chicken very much.",
+      "phonetic": "/ˈtʃɪkɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_012",
+      "word": "noodles",
+      "meaning": "面条",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a bowl of noodles",
+        "rice noodles"
+      ],
+      "sentence": "I want some noodles.",
+      "phonetic": "/ˈnuːdlz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_013",
+      "word": "rice",
+      "meaning": "米饭",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cook rice",
+        "a bowl of rice"
+      ],
+      "sentence": "We eat rice every day.",
+      "phonetic": "/raɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_014",
+      "word": "egg",
+      "meaning": "鸡蛋",
+      "part_of_speech": "noun",
+      "phrase": [
+        "boiled egg",
+        "egg fried rice"
+      ],
+      "sentence": "There are some eggs in the kitchen.",
+      "phonetic": "/eɡ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_015",
+      "word": "plate",
+      "meaning": "盘子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the plate",
+        "a plate of"
+      ],
+      "sentence": "Put the food on the plate.",
+      "phonetic": "/pleɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_016",
+      "word": "bowl",
+      "meaning": "碗",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a bowl of rice",
+        "soup bowl"
+      ],
+      "sentence": "I need a bowl for the soup.",
+      "phonetic": "/bəʊl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_017",
+      "word": "knife",
+      "meaning": "刀",
+      "part_of_speech": "noun",
+      "phrase": [
+        "knife and fork",
+        "sharp knife"
+      ],
+      "sentence": "Be careful with the knife.",
+      "phonetic": "/naɪf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_018",
+      "word": "fork",
+      "meaning": "叉子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "knife and fork",
+        "a fork of"
+      ],
+      "sentence": "Use your fork to eat.",
+      "phonetic": "/fɔːrk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_019",
+      "word": "spoon",
+      "meaning": "勺子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a spoon of sugar",
+        "tea spoon"
+      ],
+      "sentence": "Pass me the spoon, please.",
+      "phonetic": "/spuːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_020",
+      "word": "hungry",
+      "meaning": "饿的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel hungry",
+        "very hungry"
+      ],
+      "sentence": "I am very hungry now.",
+      "phonetic": "/ˈhʌŋɡri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_021",
+      "word": "dinner",
+      "meaning": "晚餐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have dinner",
+        "cook dinner"
+      ],
+      "sentence": "What do we have for dinner?",
+      "phonetic": "/ˈdɪnər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_022",
+      "word": "lunch",
+      "meaning": "午餐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have lunch",
+        "lunch time"
+      ],
+      "sentence": "What did you eat for lunch?",
+      "phonetic": "/lʌntʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_023",
+      "word": "delicious",
+      "meaning": "美味的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "delicious food",
+        "taste delicious"
+      ],
+      "sentence": "This soup is really delicious.",
+      "phonetic": "/dɪˈlɪʃəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_024",
+      "word": "cooking",
+      "meaning": "烹饪",
+      "part_of_speech": "noun",
+      "phrase": [
+        "do the cooking",
+        "cooking class"
+      ],
+      "sentence": "Who does the cooking in your family?",
+      "phonetic": "/ˈkʊkɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit6_025",
+      "word": "beef",
+      "meaning": "牛肉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "roast beef",
+        "beef noodles"
+      ],
+      "sentence": "Would you like some beef?",
+      "phonetic": "/biːf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

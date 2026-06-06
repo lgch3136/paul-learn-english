@@ -1,0 +1,382 @@
+{
+  "unit": "g8up-unit1",
+  "unit_title": "Friends",
+  "theme": "朋友与友谊",
+  "vocabulary": [
+    {
+      "word_id": "g8up_unit1_001",
+      "word": "honest",
+      "meaning": "诚实的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "an honest boy",
+        "to be honest"
+      ],
+      "sentence": "He is an honest friend.",
+      "phonetic": "/ˈɒnɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_002",
+      "word": "secret",
+      "meaning": "秘密",
+      "part_of_speech": "noun",
+      "phrase": [
+        "keep a secret",
+        "tell a secret"
+      ],
+      "sentence": "Can you keep a secret?",
+      "phonetic": "/ˈsiːkrət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_003",
+      "word": "joy",
+      "meaning": "欢乐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "great joy",
+        "tears of joy"
+      ],
+      "sentence": "She brings joy to everyone.",
+      "phonetic": "/dʒɔɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_004",
+      "word": "believe",
+      "meaning": "相信",
+      "part_of_speech": "verb",
+      "phrase": [
+        "believe in",
+        "believe me"
+      ],
+      "sentence": "I believe what you say.",
+      "phonetic": "/bɪˈliːv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_005",
+      "word": "trust",
+      "meaning": "信任",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "trust each other",
+        "lose trust"
+      ],
+      "sentence": "Friends should trust each other.",
+      "phonetic": "/trʌst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_006",
+      "word": "share",
+      "meaning": "分享",
+      "part_of_speech": "verb",
+      "phrase": [
+        "share with",
+        "share happiness"
+      ],
+      "sentence": "Good friends share everything.",
+      "phonetic": "/ʃeər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_007",
+      "word": "care",
+      "meaning": "关心",
+      "part_of_speech": "verb",
+      "phrase": [
+        "care about",
+        "take care"
+      ],
+      "sentence": "She always cares about her friends.",
+      "phonetic": "/keər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_008",
+      "word": "generous",
+      "meaning": "慷慨的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "a generous friend",
+        "be generous with"
+      ],
+      "sentence": "He is very generous to others.",
+      "phonetic": "/ˈdʒenərəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_009",
+      "word": "willing",
+      "meaning": "愿意的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be willing to",
+        "willing to help"
+      ],
+      "sentence": "She is always willing to help.",
+      "phonetic": "/ˈwɪlɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_010",
+      "word": "ready",
+      "meaning": "乐意的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be ready to help",
+        "get ready"
+      ],
+      "sentence": "A good friend is ready to listen.",
+      "phonetic": "/ˈredi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_011",
+      "word": "voice",
+      "meaning": "嗓音",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a sweet voice",
+        "in a low voice"
+      ],
+      "sentence": "She has a beautiful voice.",
+      "phonetic": "/vɔɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_012",
+      "word": "singer",
+      "meaning": "歌手",
+      "part_of_speech": "noun",
+      "phrase": [
+        "pop singer",
+        "famous singer"
+      ],
+      "sentence": "He wants to be a singer.",
+      "phonetic": "/ˈsɪŋər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_013",
+      "word": "almost",
+      "meaning": "几乎",
+      "part_of_speech": "adv",
+      "phrase": [
+        "almost always",
+        "almost never"
+      ],
+      "sentence": "We almost never argue.",
+      "phonetic": "/ˈɔːlməʊst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_014",
+      "word": "round",
+      "meaning": "圆形的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "round face",
+        "all year round"
+      ],
+      "sentence": "She has a round face.",
+      "phonetic": "/raʊnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_015",
+      "word": "sense",
+      "meaning": "感觉；幽默感",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sense of humour",
+        "common sense"
+      ],
+      "sentence": "He has a good sense of humour.",
+      "phonetic": "/sens/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_016",
+      "word": "humour",
+      "meaning": "幽默",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sense of humour",
+        "black humour"
+      ],
+      "sentence": "British humour is famous.",
+      "phonetic": "/ˈhjuːmər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_017",
+      "word": "bored",
+      "meaning": "无聊的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel bored",
+        "get bored"
+      ],
+      "sentence": "I never feel bored with her.",
+      "phonetic": "/bɔːrd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_018",
+      "word": "fit",
+      "meaning": "健康的；适合",
+      "part_of_speech": "adj",
+      "phrase": [
+        "keep fit",
+        "fit into"
+      ],
+      "sentence": "He is very fit and strong.",
+      "phonetic": "/fɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_019",
+      "word": "smile",
+      "meaning": "微笑",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "a big smile",
+        "smile at"
+      ],
+      "sentence": "She always has a warm smile.",
+      "phonetic": "/smaɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_020",
+      "word": "patient",
+      "meaning": "耐心的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be patient with",
+        "patient teacher"
+      ],
+      "sentence": "A good friend is patient.",
+      "phonetic": "/ˈpeɪʃnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_021",
+      "word": "joke",
+      "meaning": "笑话",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tell a joke",
+        "play a joke"
+      ],
+      "sentence": "He often tells funny jokes.",
+      "phonetic": "/dʒəʊk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_022",
+      "word": "true",
+      "meaning": "真实的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "true friend",
+        "come true"
+      ],
+      "sentence": "A true friend is hard to find.",
+      "phonetic": "/truː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_023",
+      "word": "honest",
+      "meaning": "诚实的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "an honest answer",
+        "honest person"
+      ],
+      "sentence": "I want my friend to be honest.",
+      "phonetic": "/ˈɒnɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_024",
+      "word": "slim",
+      "meaning": "苗条的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "slim and tall",
+        "stay slim"
+      ],
+      "sentence": "She is slim and pretty.",
+      "phonetic": "/slɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit1_025",
+      "word": "cheerful",
+      "meaning": "快乐的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "a cheerful smile",
+        "cheerful person"
+      ],
+      "sentence": "She is always cheerful.",
+      "phonetic": "/ˈtʃɪərfl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

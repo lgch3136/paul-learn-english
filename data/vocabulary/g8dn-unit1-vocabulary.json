@@ -1,0 +1,382 @@
+{
+  "unit": "g8dn-unit1",
+  "unit_title": "Past and present",
+  "theme": "过去与现在",
+  "vocabulary": [
+    {
+      "word_id": "g8dn_unit1_001",
+      "word": "past",
+      "meaning": "过去",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the past",
+        "past tense"
+      ],
+      "sentence": "Things were different in the past.",
+      "phonetic": "/pɑːst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_002",
+      "word": "present",
+      "meaning": "现在",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at present",
+        "present time"
+      ],
+      "sentence": "Life is better at present.",
+      "phonetic": "/ˈpreznt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_003",
+      "word": "just",
+      "meaning": "刚才",
+      "part_of_speech": "adv",
+      "phrase": [
+        "just now",
+        "have just"
+      ],
+      "sentence": "I have just eaten lunch.",
+      "phonetic": "/dʒʌst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_004",
+      "word": "since",
+      "meaning": "自从",
+      "part_of_speech": "prep",
+      "phrase": [
+        "since then",
+        "ever since"
+      ],
+      "sentence": "She has lived here since 2010.",
+      "phonetic": "/sɪns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_005",
+      "word": "yet",
+      "meaning": "还；已经",
+      "part_of_speech": "adv",
+      "phrase": [
+        "not yet",
+        "have you yet"
+      ],
+      "sentence": "I have not finished my homework yet.",
+      "phonetic": "/jet/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_006",
+      "word": "already",
+      "meaning": "已经",
+      "part_of_speech": "adv",
+      "phrase": [
+        "have already",
+        "already done"
+      ],
+      "sentence": "He has already left.",
+      "phonetic": "/ɔːlˈredi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_007",
+      "word": "ever",
+      "meaning": "曾经",
+      "part_of_speech": "adv",
+      "phrase": [
+        "have you ever",
+        "ever since"
+      ],
+      "sentence": "Have you ever been to Beijing?",
+      "phonetic": "/ˈevər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_008",
+      "word": "married",
+      "meaning": "已婚的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "get married",
+        "married couple"
+      ],
+      "sentence": "They got married last year.",
+      "phonetic": "/ˈmærid/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_009",
+      "word": "wife",
+      "meaning": "妻子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "husband and wife",
+        "my wife"
+      ],
+      "sentence": "His wife is a teacher.",
+      "phonetic": "/waɪf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_010",
+      "word": "husband",
+      "meaning": "丈夫",
+      "part_of_speech": "noun",
+      "phrase": [
+        "husband and wife",
+        "my husband"
+      ],
+      "sentence": "Her husband works in a bank.",
+      "phonetic": "/ˈhʌzbənd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_011",
+      "word": "block",
+      "meaning": "街区",
+      "part_of_speech": "noun",
+      "phrase": [
+        "around the block",
+        "block of flats"
+      ],
+      "sentence": "There is a park near our block.",
+      "phonetic": "/blɒk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_012",
+      "word": "northern",
+      "meaning": "北方的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "in northern China",
+        "northern part"
+      ],
+      "sentence": "I live in the northern part of town.",
+      "phonetic": "/ˈnɔːrðərn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_013",
+      "word": "factory",
+      "meaning": "工厂",
+      "part_of_speech": "noun",
+      "phrase": [
+        "shoe factory",
+        "factory worker"
+      ],
+      "sentence": "The old factory closed down.",
+      "phonetic": "/ˈfæktri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_014",
+      "word": "waste",
+      "meaning": "浪费；废物",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "waste time",
+        "waste of money"
+      ],
+      "sentence": "Don't waste water.",
+      "phonetic": "/weɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_015",
+      "word": "pollute",
+      "meaning": "污染",
+      "part_of_speech": "verb",
+      "phrase": [
+        "pollute the river",
+        "pollute the air"
+      ],
+      "sentence": "Factories used to pollute the river.",
+      "phonetic": "/pəˈluːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_016",
+      "word": "realize",
+      "meaning": "意识到",
+      "part_of_speech": "verb",
+      "phrase": [
+        "realize that",
+        "come to realize"
+      ],
+      "sentence": "I realized how much things have changed.",
+      "phonetic": "/ˈriːəlaɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_017",
+      "word": "condition",
+      "meaning": "状况",
+      "part_of_speech": "noun",
+      "phrase": [
+        "living condition",
+        "in good condition"
+      ],
+      "sentence": "Living conditions have improved.",
+      "phonetic": "/kənˈdɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_018",
+      "word": "transport",
+      "meaning": "交通",
+      "part_of_speech": "noun",
+      "phrase": [
+        "public transport",
+        "transport system"
+      ],
+      "sentence": "Transport is much better now.",
+      "phonetic": "/ˈtrænspɔːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_019",
+      "word": "communication",
+      "meaning": "交流",
+      "part_of_speech": "noun",
+      "phrase": [
+        "means of communication",
+        "communication skills"
+      ],
+      "sentence": "Communication is easier now.",
+      "phonetic": "/kəˌmjuːnɪˈkeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_020",
+      "word": "environment",
+      "meaning": "环境",
+      "part_of_speech": "noun",
+      "phrase": [
+        "protect the environment",
+        "natural environment"
+      ],
+      "sentence": "The environment is cleaner now.",
+      "phonetic": "/ɪnˈvaɪrənmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_021",
+      "word": "lonely",
+      "meaning": "孤独的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel lonely",
+        "lonely old man"
+      ],
+      "sentence": "Some old people feel lonely.",
+      "phonetic": "/ˈləʊnli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_022",
+      "word": "interview",
+      "meaning": "采访",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "job interview",
+        "interview someone"
+      ],
+      "sentence": "I had an interview with my grandpa.",
+      "phonetic": "/ˈɪntərvjuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_023",
+      "word": "narrow",
+      "meaning": "狭窄的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "narrow street",
+        "narrow path"
+      ],
+      "sentence": "The streets used to be narrow.",
+      "phonetic": "/ˈnærəʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_024",
+      "word": "cinema",
+      "meaning": "电影院",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go to the cinema",
+        "cinema hall"
+      ],
+      "sentence": "There was a cinema near my home.",
+      "phonetic": "/ˈsɪnəmə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit1_025",
+      "word": "change",
+      "meaning": "变化",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "great change",
+        "change a lot"
+      ],
+      "sentence": "Our city has changed a lot.",
+      "phonetic": "/tʃeɪndʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

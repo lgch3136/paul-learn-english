@@ -1,0 +1,382 @@
+{
+  "unit": "g11up-unit5",
+  "unit_title": "The secret of happiness",
+  "theme": "幸福与成功",
+  "vocabulary": [
+    {
+      "word_id": "g11up_unit5_001",
+      "word": "happiness",
+      "meaning": "幸福",
+      "part_of_speech": "noun",
+      "phrase": [
+        "true happiness",
+        "pursue happiness"
+      ],
+      "sentence": "What is the secret of happiness?",
+      "phonetic": "/ˈhæpinəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_002",
+      "word": "positive",
+      "meaning": "积极的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "positive thinking",
+        "positive attitude"
+      ],
+      "sentence": "A positive attitude brings happiness.",
+      "phonetic": "/ˈpɒzətɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_003",
+      "word": "gratitude",
+      "meaning": "感恩",
+      "part_of_speech": "noun",
+      "phrase": [
+        "express gratitude",
+        "deep gratitude"
+      ],
+      "sentence": "Gratitude is the key to happiness.",
+      "phonetic": "/ˈɡrætɪtjuːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_004",
+      "word": "optimistic",
+      "meaning": "乐观的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "optimistic attitude",
+        "remain optimistic"
+      ],
+      "sentence": "Optimistic people live longer.",
+      "phonetic": "/ˌɒptɪˈmɪstɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_005",
+      "word": "pessimistic",
+      "meaning": "悲观的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "pessimistic view",
+        "feel pessimistic"
+      ],
+      "sentence": "Don't be so pessimistic!",
+      "phonetic": "/ˌpesɪˈmɪstɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_006",
+      "word": "content",
+      "meaning": "满足的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel content",
+        "be content with"
+      ],
+      "sentence": "She is content with her simple life.",
+      "phonetic": "/kənˈtent/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_007",
+      "word": "fulfilment",
+      "meaning": "满足感",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sense of fulfilment",
+        "personal fulfilment"
+      ],
+      "sentence": "Work gives me a sense of fulfilment.",
+      "phonetic": "/fʊlˈfɪlmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_008",
+      "word": "accomplish",
+      "meaning": "完成",
+      "part_of_speech": "verb",
+      "phrase": [
+        "accomplish a goal",
+        "accomplish nothing"
+      ],
+      "sentence": "What have you accomplished today?",
+      "phonetic": "/əˈkʌmplɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_009",
+      "word": "pursue",
+      "meaning": "追求",
+      "part_of_speech": "verb",
+      "phrase": [
+        "pursue happiness",
+        "pursue a dream"
+      ],
+      "sentence": "Everyone has the right to pursue happiness.",
+      "phonetic": "/pərˈsjuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_010",
+      "word": "wealth",
+      "meaning": "财富",
+      "part_of_speech": "noun",
+      "phrase": [
+        "material wealth",
+        "wealth of knowledge"
+      ],
+      "sentence": "Wealth does not always bring happiness.",
+      "phonetic": "/welθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_011",
+      "word": "spiritual",
+      "meaning": "精神的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "spiritual happiness",
+        "spiritual growth"
+      ],
+      "sentence": "Spiritual wealth is more important than money.",
+      "phonetic": "/ˈspɪrɪtʃuəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_012",
+      "word": "philosophy",
+      "meaning": "哲学",
+      "part_of_speech": "noun",
+      "phrase": [
+        "life philosophy",
+        "western philosophy"
+      ],
+      "sentence": "My philosophy is to enjoy every day.",
+      "phonetic": "/fɪˈlɒsəfi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_013",
+      "word": "wisdom",
+      "meaning": "智慧",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ancient wisdom",
+        "words of wisdom"
+      ],
+      "sentence": "Wisdom comes with experience.",
+      "phonetic": "/ˈwɪzdəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_014",
+      "word": "meaning",
+      "meaning": "意义",
+      "part_of_speech": "noun",
+      "phrase": [
+        "meaning of life",
+        "true meaning"
+      ],
+      "sentence": "Finding meaning in life brings happiness.",
+      "phonetic": "/ˈmiːnɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_015",
+      "word": "purpose",
+      "meaning": "目的",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sense of purpose",
+        "on purpose"
+      ],
+      "sentence": "Everyone needs a purpose in life.",
+      "phonetic": "/ˈpɜːrpəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_016",
+      "word": "passion",
+      "meaning": "热情",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have a passion for",
+        "full of passion"
+      ],
+      "sentence": "Follow your passion.",
+      "phonetic": "/ˈpæʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_017",
+      "word": "fulfil",
+      "meaning": "实现",
+      "part_of_speech": "verb",
+      "phrase": [
+        "fulfil a dream",
+        "fulfil a promise"
+      ],
+      "sentence": "Helping others fulfils me.",
+      "phonetic": "/fʊlˈfɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_018",
+      "word": "appreciate",
+      "meaning": "感激",
+      "part_of_speech": "verb",
+      "phrase": [
+        "appreciate life",
+        "appreciate help"
+      ],
+      "sentence": "I appreciate every moment of life.",
+      "phonetic": "/əˈpriːʃieɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_019",
+      "word": "overcome",
+      "meaning": "克服",
+      "part_of_speech": "verb",
+      "phrase": [
+        "overcome difficulties",
+        "overcome challenges"
+      ],
+      "sentence": "Overcoming challenges makes us stronger.",
+      "phonetic": "/ˌəʊvərˈkʌm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_020",
+      "word": "resilience",
+      "meaning": "韧性",
+      "part_of_speech": "noun",
+      "phrase": [
+        "show resilience",
+        "build resilience"
+      ],
+      "sentence": "Resilience helps us bounce back from failure.",
+      "phonetic": "/rɪˈzɪliəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_021",
+      "word": "balance",
+      "meaning": "平衡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "work-life balance",
+        "keep a balance"
+      ],
+      "sentence": "A balanced life leads to happiness.",
+      "phonetic": "/ˈbæləns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_022",
+      "word": "satisfaction",
+      "meaning": "满意",
+      "part_of_speech": "noun",
+      "phrase": [
+        "life satisfaction",
+        "job satisfaction"
+      ],
+      "sentence": "True satisfaction comes from within.",
+      "phonetic": "/ˌsætɪsˈfækʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_023",
+      "word": "well-being",
+      "meaning": "幸福；健康",
+      "part_of_speech": "noun",
+      "phrase": [
+        "mental well-being",
+        "sense of well-being"
+      ],
+      "sentence": "Exercise improves your well-being.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_024",
+      "word": "inner",
+      "meaning": "内在的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "inner peace",
+        "inner strength"
+      ],
+      "sentence": "Inner peace is the ultimate happiness.",
+      "phonetic": "/ˈɪnər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit5_025",
+      "word": "peace",
+      "meaning": "平静",
+      "part_of_speech": "noun",
+      "phrase": [
+        "inner peace",
+        "peace of mind"
+      ],
+      "sentence": "I have found peace in my heart.",
+      "phonetic": "/piːs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

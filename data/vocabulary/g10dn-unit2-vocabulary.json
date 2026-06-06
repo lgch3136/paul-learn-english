@@ -1,0 +1,382 @@
+{
+  "unit": "g10dn-unit2",
+  "unit_title": "Language",
+  "theme": "语言与文化",
+  "vocabulary": [
+    {
+      "word_id": "g10dn_unit2_001",
+      "word": "language",
+      "meaning": "语言",
+      "part_of_speech": "noun",
+      "phrase": [
+        "foreign language",
+        "body language"
+      ],
+      "sentence": "Language is a tool for communication.",
+      "phonetic": "/ˈlæŋɡwɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_002",
+      "word": "vocabulary",
+      "meaning": "词汇",
+      "part_of_speech": "noun",
+      "phrase": [
+        "build vocabulary",
+        "limited vocabulary"
+      ],
+      "sentence": "Reading helps expand your vocabulary.",
+      "phonetic": "/vəˈkæbjələri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_003",
+      "word": "nowadays",
+      "meaning": "现今",
+      "part_of_speech": "adv",
+      "phrase": [
+        "nowadays people",
+        "but nowadays"
+      ],
+      "sentence": "Nowadays, English is widely spoken.",
+      "phonetic": "/ˈnaʊədeɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_004",
+      "word": "accent",
+      "meaning": "口音",
+      "part_of_speech": "noun",
+      "phrase": [
+        "British accent",
+        "foreign accent"
+      ],
+      "sentence": "He speaks English with a strong accent.",
+      "phonetic": "/ˈæksent/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_005",
+      "word": "dialect",
+      "meaning": "方言",
+      "part_of_speech": "noun",
+      "phrase": [
+        "local dialect",
+        "speak in dialect"
+      ],
+      "sentence": "There are many dialects in China.",
+      "phonetic": "/ˈdaɪəlekt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_006",
+      "word": "mixture",
+      "meaning": "混合",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a mixture of",
+        "strange mixture"
+      ],
+      "sentence": "English is a mixture of many languages.",
+      "phonetic": "/ˈmɪkstʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_007",
+      "word": "official",
+      "meaning": "官方的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "official language",
+        "official statement"
+      ],
+      "sentence": "English is an official language in India.",
+      "phonetic": "/əˈfɪʃl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_008",
+      "word": "contribute",
+      "meaning": "贡献；导致",
+      "part_of_speech": "verb",
+      "phrase": [
+        "contribute to",
+        "contribute ideas"
+      ],
+      "sentence": "French contributed many words to English.",
+      "phonetic": "/kənˈtrɪbjuːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_009",
+      "word": "adopt",
+      "meaning": "采用",
+      "part_of_speech": "verb",
+      "phrase": [
+        "adopt a word",
+        "adopt a policy"
+      ],
+      "sentence": "English has adopted words from many languages.",
+      "phonetic": "/əˈdɒpt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_010",
+      "word": "entire",
+      "meaning": "整个的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "the entire world",
+        "entire life"
+      ],
+      "sentence": "The entire English vocabulary is huge.",
+      "phonetic": "/ɪnˈtaɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_011",
+      "word": "process",
+      "meaning": "过程",
+      "part_of_speech": "noun",
+      "phrase": [
+        "learning process",
+        "in the process of"
+      ],
+      "sentence": "Learning a language is a slow process.",
+      "phonetic": "/ˈprəʊses/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_012",
+      "word": "distinguish",
+      "meaning": "区分",
+      "part_of_speech": "verb",
+      "phrase": [
+        "distinguish between",
+        "can distinguish"
+      ],
+      "sentence": "Can you distinguish British and American accents?",
+      "phonetic": "/dɪˈstɪŋɡwɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_013",
+      "word": "concern",
+      "meaning": "担忧",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "show concern",
+        "concern about"
+      ],
+      "sentence": "There is concern about languages dying out.",
+      "phonetic": "/kənˈsɜːrn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_014",
+      "word": "ban",
+      "meaning": "禁止",
+      "part_of_speech": "verb",
+      "phrase": [
+        "ban from",
+        "officially ban"
+      ],
+      "sentence": "Some countries ban certain words for official use.",
+      "phonetic": "/bæn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_015",
+      "word": "simplify",
+      "meaning": "简化",
+      "part_of_speech": "verb",
+      "phrase": [
+        "simplify the language",
+        "simplify the process"
+      ],
+      "sentence": "We should simplify the instructions.",
+      "phonetic": "/ˈsɪmplɪfaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_016",
+      "word": "combine",
+      "meaning": "结合",
+      "part_of_speech": "verb",
+      "phrase": [
+        "combine with",
+        "combine together"
+      ],
+      "sentence": "Combine words to make new expressions.",
+      "phonetic": "/kəmˈbaɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_017",
+      "word": "represent",
+      "meaning": "代表",
+      "part_of_speech": "verb",
+      "phrase": [
+        "represent the country",
+        "represent ideas"
+      ],
+      "sentence": "Words represent ideas and objects.",
+      "phonetic": "/ˌreprɪˈzent/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_018",
+      "word": "symbol",
+      "meaning": "象征",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a symbol of",
+        "use symbols"
+      ],
+      "sentence": "The dove is a symbol of peace.",
+      "phonetic": "/ˈsɪmbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_019",
+      "word": "gesture",
+      "meaning": "手势",
+      "part_of_speech": "noun",
+      "phrase": [
+        "hand gesture",
+        "kind gesture"
+      ],
+      "sentence": "Gestures can mean different things in different cultures.",
+      "phonetic": "/ˈdʒestʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_020",
+      "word": "character",
+      "meaning": "文字；汉字",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Chinese character",
+        "write characters"
+      ],
+      "sentence": "Chinese characters are beautiful.",
+      "phonetic": "/ˈkærəktər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_021",
+      "word": "reflect",
+      "meaning": "反映",
+      "part_of_speech": "verb",
+      "phrase": [
+        "reflect the culture",
+        "reflect on"
+      ],
+      "sentence": "Language reflects the culture of a people.",
+      "phonetic": "/rɪˈflekt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_022",
+      "word": "convey",
+      "meaning": "传达",
+      "part_of_speech": "verb",
+      "phrase": [
+        "convey meaning",
+        "convey a message"
+      ],
+      "sentence": "Words convey meaning.",
+      "phonetic": "/kənˈveɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_023",
+      "word": "origin",
+      "meaning": "起源",
+      "part_of_speech": "noun",
+      "phrase": [
+        "word origin",
+        "have its origin in"
+      ],
+      "sentence": "What is the origin of this word?",
+      "phonetic": "/ˈɒrɪdʒɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_024",
+      "word": "evolve",
+      "meaning": "演变",
+      "part_of_speech": "verb",
+      "phrase": [
+        "evolve over time",
+        "continue to evolve"
+      ],
+      "sentence": "Languages evolve over time.",
+      "phonetic": "/iˈvɒlv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit2_025",
+      "word": "global",
+      "meaning": "全球的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "global language",
+        "global communication"
+      ],
+      "sentence": "English has become a global language.",
+      "phonetic": "/ˈɡləʊbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

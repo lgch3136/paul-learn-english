@@ -1,0 +1,382 @@
+{
+  "unit": "g11dn-unit1",
+  "unit_title": "Living with technology",
+  "theme": "科技生活",
+  "vocabulary": [
+    {
+      "word_id": "g11dn_unit1_001",
+      "word": "technology",
+      "meaning": "科技",
+      "part_of_speech": "noun",
+      "phrase": [
+        "modern technology",
+        "information technology"
+      ],
+      "sentence": "Technology is changing our lives.",
+      "phonetic": "/tekˈnɒlədʒi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_002",
+      "word": "device",
+      "meaning": "设备",
+      "part_of_speech": "noun",
+      "phrase": [
+        "electronic device",
+        "mobile device"
+      ],
+      "sentence": "Smartphones are the most popular device.",
+      "phonetic": "/dɪˈvaɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_003",
+      "word": "portable",
+      "meaning": "便携的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "portable device",
+        "portable computer"
+      ],
+      "sentence": "Laptops are portable computers.",
+      "phonetic": "/ˈpɔːrtəbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_004",
+      "word": "broadcast",
+      "meaning": "广播",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "broadcast live",
+        "radio broadcast"
+      ],
+      "sentence": "The news is broadcast 24 hours a day.",
+      "phonetic": "/ˈbrɔːdkɑːst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_005",
+      "word": "satellite",
+      "meaning": "卫星",
+      "part_of_speech": "noun",
+      "phrase": [
+        "satellite TV",
+        "communication satellite"
+      ],
+      "sentence": "The signal comes from a satellite.",
+      "phonetic": "/ˈsætəlaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_006",
+      "word": "evolution",
+      "meaning": "演变",
+      "part_of_speech": "noun",
+      "phrase": [
+        "technological evolution",
+        "theory of evolution"
+      ],
+      "sentence": "The evolution of phones is amazing.",
+      "phonetic": "/ˌiːvəˈluːʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_007",
+      "word": "construct",
+      "meaning": "建造",
+      "part_of_speech": "verb",
+      "phrase": [
+        "construct a building",
+        "construct a theory"
+      ],
+      "sentence": "They constructed a new factory.",
+      "phonetic": "/kənˈstrʌkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_008",
+      "word": "accessible",
+      "meaning": "可使用的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "easily accessible",
+        "accessible to all"
+      ],
+      "sentence": "Technology should be accessible to everyone.",
+      "phonetic": "/əkˈsesəbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_009",
+      "word": "wireless",
+      "meaning": "无线的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "wireless network",
+        "wireless connection"
+      ],
+      "sentence": "Wireless technology makes life convenient.",
+      "phonetic": "/ˈwaɪərləs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_010",
+      "word": "digital",
+      "meaning": "数字的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "digital television",
+        "digital age"
+      ],
+      "sentence": "We have entered the digital age.",
+      "phonetic": "/ˈdɪdʒɪtl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_011",
+      "word": "storage",
+      "meaning": "存储",
+      "part_of_speech": "noun",
+      "phrase": [
+        "data storage",
+        "storage space"
+      ],
+      "sentence": "Cloud storage is very convenient.",
+      "phonetic": "/ˈstɔːrɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_012",
+      "word": "record",
+      "meaning": "录制",
+      "part_of_speech": "verb",
+      "phrase": [
+        "record a video",
+        "record a song"
+      ],
+      "sentence": "You can record TV shows to watch later.",
+      "phonetic": "/rɪˈkɔːrd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_013",
+      "word": "patent",
+      "meaning": "专利",
+      "part_of_speech": "noun",
+      "phrase": [
+        "file a patent",
+        "patent protection"
+      ],
+      "sentence": "He got a patent for his invention.",
+      "phonetic": "/ˈpætnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_014",
+      "word": "launch",
+      "meaning": "推出",
+      "part_of_speech": "verb",
+      "phrase": [
+        "launch a product",
+        "product launch"
+      ],
+      "sentence": "Apple launched a new iPhone.",
+      "phonetic": "/lɔːntʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_015",
+      "word": "version",
+      "meaning": "版本",
+      "part_of_speech": "noun",
+      "phrase": [
+        "latest version",
+        "new version"
+      ],
+      "sentence": "Have you updated to the latest version?",
+      "phonetic": "/ˈvɜːrʒn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_016",
+      "word": "update",
+      "meaning": "更新",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "software update",
+        "update information"
+      ],
+      "sentence": "I need to update my phone system.",
+      "phonetic": "/ˌʌpˈdeɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_017",
+      "word": "application",
+      "meaning": "应用程序",
+      "part_of_speech": "noun",
+      "phrase": [
+        "mobile application",
+        "download an app"
+      ],
+      "sentence": "I downloaded a new application.",
+      "phonetic": "/ˌæplɪˈkeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_018",
+      "word": "revolution",
+      "meaning": "革命",
+      "part_of_speech": "noun",
+      "phrase": [
+        "digital revolution",
+        "industrial revolution"
+      ],
+      "sentence": "The Internet caused a revolution.",
+      "phonetic": "/ˌrevəˈluːʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_019",
+      "word": "circuit",
+      "meaning": "电路",
+      "part_of_speech": "noun",
+      "phrase": [
+        "integrated circuit",
+        "short circuit"
+      ],
+      "sentence": "The computer has a complex circuit.",
+      "phonetic": "/ˈsɜːrkɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_020",
+      "word": "screen",
+      "meaning": "屏幕",
+      "part_of_speech": "noun",
+      "phrase": [
+        "touch screen",
+        "TV screen"
+      ],
+      "sentence": "The phone has a 6-inch screen.",
+      "phonetic": "/skriːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_021",
+      "word": "appliance",
+      "meaning": "电器",
+      "part_of_speech": "noun",
+      "phrase": [
+        "home appliance",
+        "electrical appliance"
+      ],
+      "sentence": "Smart appliances can be controlled by phone.",
+      "phonetic": "/əˈplaɪəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_022",
+      "word": "innovation",
+      "meaning": "创新",
+      "part_of_speech": "noun",
+      "phrase": [
+        "latest innovation",
+        "technological innovation"
+      ],
+      "sentence": "Innovation drives economic growth.",
+      "phonetic": "/ˌɪnəˈveɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_023",
+      "word": "advance",
+      "meaning": "进步",
+      "part_of_speech": "noun",
+      "phrase": [
+        "technological advance",
+        "in advance"
+      ],
+      "sentence": "Technological advances make life easier.",
+      "phonetic": "/ədˈvɑːns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_024",
+      "word": "convenience",
+      "meaning": "便利",
+      "part_of_speech": "noun",
+      "phrase": [
+        "for convenience",
+        "modern convenience"
+      ],
+      "sentence": "Technology brings great convenience.",
+      "phonetic": "/kənˈviːniəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11dn_unit1_025",
+      "word": "obsolete",
+      "meaning": "过时的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "become obsolete",
+        "obsolete technology"
+      ],
+      "sentence": "Old phones quickly become obsolete.",
+      "phonetic": "/ˈɒbsəliːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

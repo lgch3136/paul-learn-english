@@ -1,0 +1,382 @@
+{
+  "unit": "g11up-unit3",
+  "unit_title": "Science and nature",
+  "theme": "科学与自然",
+  "vocabulary": [
+    {
+      "word_id": "g11up_unit3_001",
+      "word": "clone",
+      "meaning": "克隆",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "clone a sheep",
+        "human clone"
+      ],
+      "sentence": "Scientists cloned a sheep called Dolly.",
+      "phonetic": "/kləʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_002",
+      "word": "tissue",
+      "meaning": "组织",
+      "part_of_speech": "noun",
+      "phrase": [
+        "body tissue",
+        "tissue sample"
+      ],
+      "sentence": "They took a tissue sample from the plant.",
+      "phonetic": "/ˈtɪʃuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_003",
+      "word": "cell",
+      "meaning": "细胞",
+      "part_of_speech": "noun",
+      "phrase": [
+        "blood cell",
+        "stem cell"
+      ],
+      "sentence": "All living things are made of cells.",
+      "phonetic": "/sel/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_004",
+      "word": "gene",
+      "meaning": "基因",
+      "part_of_speech": "noun",
+      "phrase": [
+        "gene therapy",
+        "human gene"
+      ],
+      "sentence": "Genes determine many of our characteristics.",
+      "phonetic": "/dʒiːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_005",
+      "word": "genetic",
+      "meaning": "基因的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "genetic engineering",
+        "genetic material"
+      ],
+      "sentence": "Genetic research has made great progress.",
+      "phonetic": "/dʒəˈnetɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_006",
+      "word": "modify",
+      "meaning": "修改",
+      "part_of_speech": "verb",
+      "phrase": [
+        "genetically modified",
+        "modify a plan"
+      ],
+      "sentence": "GM food means genetically modified food.",
+      "phonetic": "/ˈmɒdɪfaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_007",
+      "word": "organ",
+      "meaning": "器官",
+      "part_of_speech": "noun",
+      "phrase": [
+        "internal organ",
+        "organ transplant"
+      ],
+      "sentence": "The heart is a vital organ.",
+      "phonetic": "/ˈɔːrɡən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_008",
+      "word": "transplant",
+      "meaning": "移植",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "organ transplant",
+        "heart transplant"
+      ],
+      "sentence": "He needs a kidney transplant.",
+      "phonetic": "/trænsˈplɑːnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_009",
+      "word": "biology",
+      "meaning": "生物学",
+      "part_of_speech": "noun",
+      "phrase": [
+        "molecular biology",
+        "study biology"
+      ],
+      "sentence": "She studies biology at university.",
+      "phonetic": "/baɪˈɒlədʒi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_010",
+      "word": "chemistry",
+      "meaning": "化学",
+      "part_of_speech": "noun",
+      "phrase": [
+        "chemistry lab",
+        "organic chemistry"
+      ],
+      "sentence": "Chemistry is an interesting subject.",
+      "phonetic": "/ˈkemɪstri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_011",
+      "word": "physics",
+      "meaning": "物理",
+      "part_of_speech": "noun",
+      "phrase": [
+        "nuclear physics",
+        "physics teacher"
+      ],
+      "sentence": "Physics explains how the universe works.",
+      "phonetic": "/ˈfɪzɪks/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_012",
+      "word": "formula",
+      "meaning": "公式",
+      "part_of_speech": "noun",
+      "phrase": [
+        "chemical formula",
+        "mathematical formula"
+      ],
+      "sentence": "Do you remember this formula?",
+      "phonetic": "/ˈfɔːrmjələ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_013",
+      "word": "experiment",
+      "meaning": "实验",
+      "part_of_speech": "noun",
+      "phrase": [
+        "do an experiment",
+        "scientific experiment"
+      ],
+      "sentence": "The experiment was a success.",
+      "phonetic": "/ɪkˈsperɪmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_014",
+      "word": "laboratory",
+      "meaning": "实验室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "science laboratory",
+        "lab assistant"
+      ],
+      "sentence": "We work in the laboratory.",
+      "phonetic": "/ləˈbɒrətri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_015",
+      "word": "evolution",
+      "meaning": "进化",
+      "part_of_speech": "noun",
+      "phrase": [
+        "theory of evolution",
+        "human evolution"
+      ],
+      "sentence": "Evolution takes millions of years.",
+      "phonetic": "/ˌiːvəˈluːʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_016",
+      "word": "species",
+      "meaning": "物种",
+      "part_of_speech": "noun",
+      "phrase": [
+        "human species",
+        "different species"
+      ],
+      "sentence": "There are millions of species on Earth.",
+      "phonetic": "/ˈspiːʃiːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_017",
+      "word": "bacteria",
+      "meaning": "细菌",
+      "part_of_speech": "noun",
+      "phrase": [
+        "harmful bacteria",
+        "bacterial infection"
+      ],
+      "sentence": "Some bacteria are good for our health.",
+      "phonetic": "/bækˈtɪəriə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_018",
+      "word": "virus",
+      "meaning": "病毒",
+      "part_of_speech": "noun",
+      "phrase": [
+        "flu virus",
+        "virus outbreak"
+      ],
+      "sentence": "The virus spread quickly around the world.",
+      "phonetic": "/ˈvaɪrəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_019",
+      "word": "microscope",
+      "meaning": "显微镜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "under a microscope",
+        "electron microscope"
+      ],
+      "sentence": "You can see bacteria under a microscope.",
+      "phonetic": "/ˈmaɪkrəskəʊp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_020",
+      "word": "mechanism",
+      "meaning": "机制",
+      "part_of_speech": "noun",
+      "phrase": [
+        "natural mechanism",
+        "defence mechanism"
+      ],
+      "sentence": "Scientists study the mechanism of diseases.",
+      "phonetic": "/ˈmekənɪzəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_021",
+      "word": "breakthrough",
+      "meaning": "突破",
+      "part_of_speech": "noun",
+      "phrase": [
+        "scientific breakthrough",
+        "major breakthrough"
+      ],
+      "sentence": "This discovery is a real breakthrough.",
+      "phonetic": "/ˈbreɪkθruː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_022",
+      "word": "principle",
+      "meaning": "原理",
+      "part_of_speech": "noun",
+      "phrase": [
+        "basic principle",
+        "scientific principle"
+      ],
+      "sentence": "The principle of gravity was discovered by Newton.",
+      "phonetic": "/ˈprɪnsəpl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_023",
+      "word": "phenomenon",
+      "meaning": "现象",
+      "part_of_speech": "noun",
+      "phrase": [
+        "natural phenomenon",
+        "unusual phenomenon"
+      ],
+      "sentence": "The northern lights are a beautiful phenomenon.",
+      "phonetic": "/fɪˈnɒmɪnən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_024",
+      "word": "theory",
+      "meaning": "理论",
+      "part_of_speech": "noun",
+      "phrase": [
+        "scientific theory",
+        "theory of relativity"
+      ],
+      "sentence": "Einstein's theory changed physics.",
+      "phonetic": "/ˈθɪəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit3_025",
+      "word": "research",
+      "meaning": "研究",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "scientific research",
+        "do research"
+      ],
+      "sentence": "She is doing research on cancer.",
+      "phonetic": "/rɪˈsɜːrtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

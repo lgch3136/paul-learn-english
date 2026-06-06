@@ -1,0 +1,382 @@
+{
+  "unit": "g12up-unit5",
+  "unit_title": "Building the future",
+  "theme": "未来建设",
+  "vocabulary": [
+    {
+      "word_id": "g12up_unit5_001",
+      "word": "ambitious",
+      "meaning": "雄心勃勃的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "ambitious plan",
+        "ambitious goal"
+      ],
+      "sentence": "The government has an ambitious plan for the city.",
+      "phonetic": "/æmˈbɪʃəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_002",
+      "word": "blueprint",
+      "meaning": "蓝图",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a blueprint for",
+        "draw up a blueprint"
+      ],
+      "sentence": "We need a blueprint for the future.",
+      "phonetic": "/ˈbluːprɪnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_003",
+      "word": "infrastructure",
+      "meaning": "基础设施",
+      "part_of_speech": "noun",
+      "phrase": [
+        "build infrastructure",
+        "modern infrastructure"
+      ],
+      "sentence": "Good infrastructure attracts business.",
+      "phonetic": "/ˈɪnfrəstrʌktʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_004",
+      "word": "urbanization",
+      "meaning": "城市化",
+      "part_of_speech": "noun",
+      "phrase": [
+        "rapid urbanization",
+        "process of urbanization"
+      ],
+      "sentence": "Urbanization is happening very fast.",
+      "phonetic": "/ˌɜːrbənaɪˈzeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_005",
+      "word": "sustainable",
+      "meaning": "可持续的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "sustainable development",
+        "sustainable energy"
+      ],
+      "sentence": "We need sustainable solutions for the future.",
+      "phonetic": "/səˈsteɪnəbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_006",
+      "word": "renewable",
+      "meaning": "可再生的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "renewable energy",
+        "renewable resource"
+      ],
+      "sentence": "Solar power is a renewable energy source.",
+      "phonetic": "/rɪˈnjuːəbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_007",
+      "word": "innovation",
+      "meaning": "创新",
+      "part_of_speech": "noun",
+      "phrase": [
+        "technological innovation",
+        "drive innovation"
+      ],
+      "sentence": "Innovation is the key to the future.",
+      "phonetic": "/ˌɪnəˈveɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_008",
+      "word": "artificial",
+      "meaning": "人工的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "artificial intelligence",
+        "artificial light"
+      ],
+      "sentence": "Artificial intelligence will change the world.",
+      "phonetic": "/ˌɑːrtɪˈfɪʃl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_009",
+      "word": "robotics",
+      "meaning": "机器人技术",
+      "part_of_speech": "noun",
+      "phrase": [
+        "robotics industry",
+        "advance in robotics"
+      ],
+      "sentence": "Robotics is a fast-growing field.",
+      "phonetic": "/rəʊˈbɒtɪks/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_010",
+      "word": "engineering",
+      "meaning": "工程学",
+      "part_of_speech": "noun",
+      "phrase": [
+        "civil engineering",
+        "genetic engineering"
+      ],
+      "sentence": "Engineering shapes our modern world.",
+      "phonetic": "/ˌendʒɪˈnɪərɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_011",
+      "word": "architect",
+      "meaning": "建筑师",
+      "part_of_speech": "noun",
+      "phrase": [
+        "chief architect",
+        "landscape architect"
+      ],
+      "sentence": "The architect designed a wonderful building.",
+      "phonetic": "/ˈɑːrkɪtekt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_012",
+      "word": "construction",
+      "meaning": "建设",
+      "part_of_speech": "noun",
+      "phrase": [
+        "under construction",
+        "construction site"
+      ],
+      "sentence": "The construction will be finished next year.",
+      "phonetic": "/kənˈstrʌkʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_013",
+      "word": "skyscraper",
+      "meaning": "摩天大楼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tall skyscraper",
+        "glass skyscraper"
+      ],
+      "sentence": "The city is full of skyscrapers.",
+      "phonetic": "/ˈskaɪskreɪpər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_014",
+      "word": "megacity",
+      "meaning": "超级城市",
+      "part_of_speech": "noun",
+      "phrase": [
+        "mega-city development",
+        "live in a megacity"
+      ],
+      "sentence": "Tokyo is one of the world's megacities.",
+      "phonetic": "/ˈmeɡəsɪti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_015",
+      "word": "ecosystem",
+      "meaning": "生态系统",
+      "part_of_speech": "noun",
+      "phrase": [
+        "urban ecosystem",
+        "fragile ecosystem"
+      ],
+      "sentence": "Cities need to protect their ecosystem.",
+      "phonetic": "/ˈiːkəʊsɪstəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_016",
+      "word": "smart",
+      "meaning": "智能的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "smart city",
+        "smart technology"
+      ],
+      "sentence": "Smart cities use technology to improve life.",
+      "phonetic": "/smɑːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_017",
+      "word": "futuristic",
+      "meaning": "未来主义的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "futuristic design",
+        "futuristic vision"
+      ],
+      "sentence": "The building has a futuristic look.",
+      "phonetic": "/ˌfjuːtʃəˈrɪstɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_018",
+      "word": "vision",
+      "meaning": "愿景",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a vision for the future",
+        "share a vision"
+      ],
+      "sentence": "We need a clear vision for our future.",
+      "phonetic": "/ˈvɪʒn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_019",
+      "word": "prosperity",
+      "meaning": "繁荣",
+      "part_of_speech": "noun",
+      "phrase": [
+        "future prosperity",
+        "bring prosperity"
+      ],
+      "sentence": "Technology can bring prosperity to all.",
+      "phonetic": "/prɒˈsperəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_020",
+      "word": "inequality",
+      "meaning": "不平等",
+      "part_of_speech": "noun",
+      "phrase": [
+        "social inequality",
+        "reduce inequality"
+      ],
+      "sentence": "We must address inequality in society.",
+      "phonetic": "/ˌɪnɪˈkwɒləti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_021",
+      "word": "poverty",
+      "meaning": "贫困",
+      "part_of_speech": "noun",
+      "phrase": [
+        "extreme poverty",
+        "fight poverty"
+      ],
+      "sentence": "Eliminating poverty is a global goal.",
+      "phonetic": "/ˈpɒvəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_022",
+      "word": "challenge",
+      "meaning": "挑战",
+      "part_of_speech": "noun",
+      "phrase": [
+        "biggest challenge",
+        "face a challenge"
+      ],
+      "sentence": "Climate change is our biggest challenge.",
+      "phonetic": "/ˈtʃælɪndʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_023",
+      "word": "optimistic",
+      "meaning": "乐观的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "optimistic about the future",
+        "cautiously optimistic"
+      ],
+      "sentence": "I am optimistic about the future.",
+      "phonetic": "/ˌɒptɪˈmɪstɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_024",
+      "word": "transform",
+      "meaning": "改变",
+      "part_of_speech": "verb",
+      "phrase": [
+        "transform society",
+        "transform into"
+      ],
+      "sentence": "Technology will transform our lives.",
+      "phonetic": "/trænsˈfɔːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit5_025",
+      "word": "horizon",
+      "meaning": "地平线",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the horizon",
+        "broaden horizons"
+      ],
+      "sentence": "New opportunities are on the horizon.",
+      "phonetic": "/həˈraɪzn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

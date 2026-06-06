@@ -1,0 +1,382 @@
+{
+  "unit": "g12up-unit7",
+  "unit_title": "Law and order",
+  "theme": "法律与秩序",
+  "vocabulary": [
+    {
+      "word_id": "g12up_unit7_001",
+      "word": "justice",
+      "meaning": "正义",
+      "part_of_speech": "noun",
+      "phrase": [
+        "social justice",
+        "bring to justice"
+      ],
+      "sentence": "Justice must be served.",
+      "phonetic": "/ˈdʒʌstɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_002",
+      "word": "legislation",
+      "meaning": "立法",
+      "part_of_speech": "noun",
+      "phrase": [
+        "pass legislation",
+        "new legislation"
+      ],
+      "sentence": "The government passed new legislation.",
+      "phonetic": "/ˌledʒɪsˈleɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_003",
+      "word": "constitution",
+      "meaning": "宪法",
+      "part_of_speech": "noun",
+      "phrase": [
+        "national constitution",
+        "written constitution"
+      ],
+      "sentence": "The constitution protects basic rights.",
+      "phonetic": "/ˌkɒnstɪˈtjuːʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_004",
+      "word": "amendment",
+      "meaning": "修正案",
+      "part_of_speech": "noun",
+      "phrase": [
+        "constitutional amendment",
+        "propose an amendment"
+      ],
+      "sentence": "The amendment was passed by Congress.",
+      "phonetic": "/əˈmendmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_005",
+      "word": "parliament",
+      "meaning": "议会",
+      "part_of_speech": "noun",
+      "phrase": [
+        "member of parliament",
+        "parliament building"
+      ],
+      "sentence": "Parliament passed the new law.",
+      "phonetic": "/ˈpɑːrləmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_006",
+      "word": "congress",
+      "meaning": "国会",
+      "part_of_speech": "noun",
+      "phrase": [
+        "US Congress",
+        "congress passed"
+      ],
+      "sentence": "Congress voted on the bill.",
+      "phonetic": "/ˈkɒŋɡres/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_007",
+      "word": "supreme",
+      "meaning": "最高的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "supreme court",
+        "supreme power"
+      ],
+      "sentence": "The Supreme Court made the final decision.",
+      "phonetic": "/suːˈpriːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_008",
+      "word": "court",
+      "meaning": "法庭",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go to court",
+        "court of law"
+      ],
+      "sentence": "The case was heard in court.",
+      "phonetic": "/kɔːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_009",
+      "word": "trial",
+      "meaning": "审判",
+      "part_of_speech": "noun",
+      "phrase": [
+        "stand trial",
+        "fair trial"
+      ],
+      "sentence": "Everyone has a right to a fair trial.",
+      "phonetic": "/ˈtraɪəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_010",
+      "word": "jury",
+      "meaning": "陪审团",
+      "part_of_speech": "noun",
+      "phrase": [
+        "jury member",
+        "jury decision"
+      ],
+      "sentence": "The jury found him guilty.",
+      "phonetic": "/ˈdʒʊəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_011",
+      "word": "verdict",
+      "meaning": "裁决",
+      "part_of_speech": "noun",
+      "phrase": [
+        "reach a verdict",
+        "guilty verdict"
+      ],
+      "sentence": "The jury reached a verdict after two days.",
+      "phonetic": "/ˈvɜːrdɪkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_012",
+      "word": "sentence",
+      "meaning": "判决",
+      "part_of_speech": "noun",
+      "phrase": [
+        "life sentence",
+        "pass a sentence"
+      ],
+      "sentence": "He received a five-year prison sentence.",
+      "phonetic": "/ˈsentəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_013",
+      "word": "appeal",
+      "meaning": "上诉",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "file an appeal",
+        "appeal against"
+      ],
+      "sentence": "He decided to appeal the decision.",
+      "phonetic": "/əˈpiːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_014",
+      "word": "prosecutor",
+      "meaning": "检察官",
+      "part_of_speech": "noun",
+      "phrase": [
+        "public prosecutor",
+        "chief prosecutor"
+      ],
+      "sentence": "The prosecutor presented the evidence.",
+      "phonetic": "/ˈprɒsɪkjuːtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_015",
+      "word": "defendant",
+      "meaning": "被告",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the defendant",
+        "defendant's rights"
+      ],
+      "sentence": "The defendant pleaded not guilty.",
+      "phonetic": "/dɪˈfendənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_016",
+      "word": "accuse",
+      "meaning": "指控",
+      "part_of_speech": "verb",
+      "phrase": [
+        "accuse of",
+        "accuse someone"
+      ],
+      "sentence": "He was accused of theft.",
+      "phonetic": "/əˈkjuːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_017",
+      "word": "convict",
+      "meaning": "定罪",
+      "part_of_speech": "verb",
+      "phrase": [
+        "convict someone",
+        "be convicted of"
+      ],
+      "sentence": "He was convicted of robbery.",
+      "phonetic": "/kənˈvɪkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_018",
+      "word": "innocent",
+      "meaning": "无罪的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "innocent until proven guilty",
+        "find innocent"
+      ],
+      "sentence": "Everyone is innocent until proven guilty.",
+      "phonetic": "/ˈɪnəsnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_019",
+      "word": "guilty",
+      "meaning": "有罪的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "plead guilty",
+        "find guilty"
+      ],
+      "sentence": "He pleaded guilty to the charge.",
+      "phonetic": "/ˈɡɪlti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_020",
+      "word": "testify",
+      "meaning": "作证",
+      "part_of_speech": "verb",
+      "phrase": [
+        "testify in court",
+        "testify against"
+      ],
+      "sentence": "She refused to testify against her husband.",
+      "phonetic": "/ˈtestɪfaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_021",
+      "word": "oath",
+      "meaning": "宣誓",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take an oath",
+        "under oath"
+      ],
+      "sentence": "Witnesses must take an oath to tell the truth.",
+      "phonetic": "/əʊθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_022",
+      "word": "corruption",
+      "meaning": "腐败",
+      "part_of_speech": "noun",
+      "phrase": [
+        "political corruption",
+        "fight corruption"
+      ],
+      "sentence": "Corruption undermines justice.",
+      "phonetic": "/kəˈrʌpʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_023",
+      "word": "bribery",
+      "meaning": "贿赂",
+      "part_of_speech": "noun",
+      "phrase": [
+        "accept bribes",
+        "bribery case"
+      ],
+      "sentence": "Bribery is a serious crime.",
+      "phonetic": "/ˈbraɪbəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_024",
+      "word": "human rights",
+      "meaning": "人权",
+      "part_of_speech": "noun",
+      "phrase": [
+        "protect human rights",
+        "human rights violation"
+      ],
+      "sentence": "Human rights are universal.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit7_025",
+      "word": "equality",
+      "meaning": "平等",
+      "part_of_speech": "noun",
+      "phrase": [
+        "racial equality",
+        "equality before the law"
+      ],
+      "sentence": "The law should guarantee equality for all.",
+      "phonetic": "/iˈkwɒləti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

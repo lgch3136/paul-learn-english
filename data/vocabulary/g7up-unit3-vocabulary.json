@@ -1,0 +1,357 @@
+{
+  "unit": "g7up-unit3",
+  "unit_title": "Welcome to our school!",
+  "theme": "学校",
+  "vocabulary": [
+    {
+      "word_id": "g7up_unit3_001",
+      "word": "subject",
+      "meaning": "科目",
+      "part_of_speech": "noun",
+      "phrase": [
+        "favourite subject"
+      ],
+      "sentence": "English is my favourite subject.",
+      "phonetic": "/ˈsʌbdʒɪkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_002",
+      "word": "geography",
+      "meaning": "地理",
+      "part_of_speech": "noun",
+      "phrase": [
+        "geography class"
+      ],
+      "sentence": "We learn geography on Tuesday.",
+      "phonetic": "/dʒiˈɒɡrəfi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_003",
+      "word": "history",
+      "meaning": "历史",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Chinese history"
+      ],
+      "sentence": "I like history best.",
+      "phonetic": "/ˈhɪstri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_004",
+      "word": "biology",
+      "meaning": "生物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "biology lesson"
+      ],
+      "sentence": "Biology is interesting.",
+      "phonetic": "/baɪˈɒlədʒi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_005",
+      "word": "gate",
+      "meaning": "大门",
+      "part_of_speech": "noun",
+      "phrase": [
+        "school gate"
+      ],
+      "sentence": "Meet me at the school gate.",
+      "phonetic": "/ɡeɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_006",
+      "word": "bright",
+      "meaning": "明亮的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "bright future"
+      ],
+      "sentence": "The classroom is very bright.",
+      "phonetic": "/braɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_007",
+      "word": "modern",
+      "meaning": "现代的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "modern building"
+      ],
+      "sentence": "Our school has a modern library.",
+      "phonetic": "/ˈmɒdn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_008",
+      "word": "diary",
+      "meaning": "日记",
+      "part_of_speech": "noun",
+      "phrase": [
+        "keep a diary"
+      ],
+      "sentence": "I write a diary every day.",
+      "phonetic": "/ˈdaɪəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_009",
+      "word": "building",
+      "meaning": "建筑",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tall building"
+      ],
+      "sentence": "The new building is very big.",
+      "phonetic": "/ˈbɪldɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_010",
+      "word": "hall",
+      "meaning": "大厅",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dining hall"
+      ],
+      "sentence": "The school hall is large.",
+      "phonetic": "/hɔːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_011",
+      "word": "show around",
+      "meaning": "带领参观",
+      "part_of_speech": "phrase",
+      "phrase": [
+        "show sb around"
+      ],
+      "sentence": "Let me show you around.",
+      "phonetic": "/ʃəʊ əˈraʊnd/",
+      "error_tags": [
+        "句序错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_012",
+      "word": "front",
+      "meaning": "前面",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in front of"
+      ],
+      "sentence": "The library is in front of the hall.",
+      "phonetic": "/frʌnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_013",
+      "word": "ground",
+      "meaning": "地面",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the ground"
+      ],
+      "sentence": "The playground is on the ground floor.",
+      "phonetic": "/ɡraʊnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_014",
+      "word": "first",
+      "meaning": "第一",
+      "part_of_speech": "num",
+      "phrase": [
+        "first floor"
+      ],
+      "sentence": "My classroom is on the first floor.",
+      "phonetic": "/fɜːst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_015",
+      "word": "open",
+      "meaning": "开放的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "open day"
+      ],
+      "sentence": "Today is our school open day.",
+      "phonetic": "/ˈəʊpən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_016",
+      "word": "borrow",
+      "meaning": "借",
+      "part_of_speech": "verb",
+      "phrase": [
+        "borrow books"
+      ],
+      "sentence": "I borrow books from the library.",
+      "phonetic": "/ˈbɒrəʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_017",
+      "word": "letter",
+      "meaning": "信",
+      "part_of_speech": "noun",
+      "phrase": [
+        "write a letter"
+      ],
+      "sentence": "She wrote a letter to me.",
+      "phonetic": "/ˈletə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_018",
+      "word": "few",
+      "meaning": "少数的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "a few"
+      ],
+      "sentence": "I have a few friends here.",
+      "phonetic": "/fjuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_019",
+      "word": "away",
+      "meaning": "离开",
+      "part_of_speech": "adv",
+      "phrase": [
+        "far away"
+      ],
+      "sentence": "The school is not far away.",
+      "phonetic": "/əˈweɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_020",
+      "word": "best",
+      "meaning": "最好的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "the best"
+      ],
+      "sentence": "He is the best student in class.",
+      "phonetic": "/best/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_021",
+      "word": "wonderful",
+      "meaning": "精彩的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "wonderful time"
+      ],
+      "sentence": "We had a wonderful day.",
+      "phonetic": "/ˈwʌndəfl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_022",
+      "word": "take",
+      "meaning": "花费",
+      "part_of_speech": "verb",
+      "phrase": [
+        "take time"
+      ],
+      "sentence": "It takes me 20 minutes to walk.",
+      "phonetic": "/teɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_023",
+      "word": "ride",
+      "meaning": "骑",
+      "part_of_speech": "verb",
+      "phrase": [
+        "ride a bike"
+      ],
+      "sentence": "He rides a bike to school.",
+      "phonetic": "/raɪd/",
+      "error_tags": [
+        "动词形式错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_024",
+      "word": "walk",
+      "meaning": "步行",
+      "part_of_speech": "verb",
+      "phrase": [
+        "walk to school"
+      ],
+      "sentence": "I walk to school every day.",
+      "phonetic": "/wɔːk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit3_025",
+      "word": "kilometre",
+      "meaning": "千米",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a kilometre away"
+      ],
+      "sentence": "It's about 2 kilometres from here.",
+      "phonetic": "/kɪˈlɒmɪtə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

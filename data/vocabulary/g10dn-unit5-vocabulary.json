@@ -1,0 +1,382 @@
+{
+  "unit": "g10dn-unit5",
+  "unit_title": "Sports events",
+  "theme": "体育赛事",
+  "vocabulary": [
+    {
+      "word_id": "g10dn_unit5_001",
+      "word": "significance",
+      "meaning": "重要性",
+      "part_of_speech": "noun",
+      "phrase": [
+        "great significance",
+        "of no significance"
+      ],
+      "sentence": "The Olympics have great significance.",
+      "phonetic": "/sɪɡˈnɪfɪkəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_002",
+      "word": "Olympic",
+      "meaning": "奥运会的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "Olympic Games",
+        "Olympic spirit"
+      ],
+      "sentence": "The Olympic Games happen every four years.",
+      "phonetic": "/əˈlɪmpɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_003",
+      "word": "compete",
+      "meaning": "竞争",
+      "part_of_speech": "verb",
+      "phrase": [
+        "compete in",
+        "compete for"
+      ],
+      "sentence": "Athletes from all over the world compete.",
+      "phonetic": "/kəmˈpiːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_004",
+      "word": "separate",
+      "meaning": "分开的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "separate event",
+        "keep separate"
+      ],
+      "sentence": "Men and women compete in separate events.",
+      "phonetic": "/ˈsepərət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_005",
+      "word": "motto",
+      "meaning": "格言",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Olympic motto",
+        "school motto"
+      ],
+      "sentence": "The Olympic motto is \"Faster, Higher, Stronger.\"",
+      "phonetic": "/ˈmɒtəʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_006",
+      "word": "medal",
+      "meaning": "奖牌",
+      "part_of_speech": "noun",
+      "phrase": [
+        "gold medal",
+        "win a medal"
+      ],
+      "sentence": "She won a gold medal in swimming.",
+      "phonetic": "/ˈmedl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_007",
+      "word": "athlete",
+      "meaning": "运动员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Olympic athlete",
+        "top athlete"
+      ],
+      "sentence": "The athletes trained for years.",
+      "phonetic": "/ˈæθliːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_008",
+      "word": "honour",
+      "meaning": "荣誉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "great honour",
+        "in honour of"
+      ],
+      "sentence": "It is an honour to represent your country.",
+      "phonetic": "/ˈɒnər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_009",
+      "word": "ancient",
+      "meaning": "古代的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "ancient Olympics",
+        "ancient times"
+      ],
+      "sentence": "The ancient Olympics started in Greece.",
+      "phonetic": "/ˈeɪnʃənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_010",
+      "word": "contemporary",
+      "meaning": "当代的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "contemporary Olympics",
+        "contemporary art"
+      ],
+      "sentence": "The contemporary Olympics started in 1896.",
+      "phonetic": "/kənˈtemprəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_011",
+      "word": "well-known",
+      "meaning": "著名的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "well-known athlete",
+        "well-known fact"
+      ],
+      "sentence": "Michael Jordan is a well-known athlete.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_012",
+      "word": "champion",
+      "meaning": "冠军",
+      "part_of_speech": "noun",
+      "phrase": [
+        "world champion",
+        "defend champion"
+      ],
+      "sentence": "She is the world champion.",
+      "phonetic": "/ˈtʃæmpiən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_013",
+      "word": "excite",
+      "meaning": "使兴奋",
+      "part_of_speech": "verb",
+      "phrase": [
+        "excite the crowd",
+        "feel excited"
+      ],
+      "sentence": "The game excited the whole stadium.",
+      "phonetic": "/ɪkˈsaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_014",
+      "word": "volunteer",
+      "meaning": "志愿者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Olympic volunteer",
+        "volunteer work"
+      ],
+      "sentence": "Thousands of volunteers help at the Olympics.",
+      "phonetic": "/ˌvɒlənˈtɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_015",
+      "word": "stadium",
+      "meaning": "体育场",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Olympic stadium",
+        "football stadium"
+      ],
+      "sentence": "The stadium can hold 80,000 people.",
+      "phonetic": "/ˈsteɪdiəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_016",
+      "word": "spectator",
+      "meaning": "观众",
+      "part_of_speech": "noun",
+      "phrase": [
+        "thousands of spectators",
+        "spectator sport"
+      ],
+      "sentence": "The spectators cheered loudly.",
+      "phonetic": "/spekˈteɪtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_017",
+      "word": "record",
+      "meaning": "纪录",
+      "part_of_speech": "noun",
+      "phrase": [
+        "world record",
+        "break a record"
+      ],
+      "sentence": "He broke the world record!",
+      "phonetic": "/ˈrekɔːrd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_018",
+      "word": "ceremony",
+      "meaning": "仪式",
+      "part_of_speech": "noun",
+      "phrase": [
+        "opening ceremony",
+        "award ceremony"
+      ],
+      "sentence": "The opening ceremony was spectacular.",
+      "phonetic": "/ˈserəməni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_019",
+      "word": "torch",
+      "meaning": "火炬",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Olympic torch",
+        "carry the torch"
+      ],
+      "sentence": "The Olympic torch relay is very exciting.",
+      "phonetic": "/tɔːrtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_020",
+      "word": "host",
+      "meaning": "主办",
+      "part_of_speech": "verb",
+      "phrase": [
+        "host the Olympics",
+        "host country"
+      ],
+      "sentence": "Beijing hosted the Olympics in 2008.",
+      "phonetic": "/həʊst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_021",
+      "word": "victory",
+      "meaning": "胜利",
+      "part_of_speech": "noun",
+      "phrase": [
+        "achieve victory",
+        "sweet victory"
+      ],
+      "sentence": "Victory belongs to the most prepared.",
+      "phonetic": "/ˈvɪktəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_022",
+      "word": "accomplish",
+      "meaning": "完成；实现",
+      "part_of_speech": "verb",
+      "phrase": [
+        "accomplish a goal",
+        "nothing accomplished"
+      ],
+      "sentence": "He accomplished his dream of winning gold.",
+      "phonetic": "/əˈkʌmplɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_023",
+      "word": "glory",
+      "meaning": "荣耀",
+      "part_of_speech": "noun",
+      "phrase": [
+        "moment of glory",
+        "bring glory to"
+      ],
+      "sentence": "Winning gold brought glory to the country.",
+      "phonetic": "/ˈɡlɔːri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_024",
+      "word": "marathon",
+      "meaning": "马拉松",
+      "part_of_speech": "noun",
+      "phrase": [
+        "run a marathon",
+        "marathon runner"
+      ],
+      "sentence": "The marathon is 42 kilometres long.",
+      "phonetic": "/ˈmærəθɒn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit5_025",
+      "word": "tournament",
+      "meaning": "锦标赛",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tennis tournament",
+        "international tournament"
+      ],
+      "sentence": "She won the tournament.",
+      "phonetic": "/ˈtʊərnəmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

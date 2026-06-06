@@ -1,0 +1,382 @@
+{
+  "unit": "g8up-unit4",
+  "unit_title": "Do it yourself",
+  "theme": "DIY与手工",
+  "vocabulary": [
+    {
+      "word_id": "g8up_unit4_001",
+      "word": "instruction",
+      "meaning": "说明",
+      "part_of_speech": "noun",
+      "phrase": [
+        "follow the instructions",
+        "read the instruction"
+      ],
+      "sentence": "Read the instructions carefully.",
+      "phonetic": "/ɪnˈstrʌkʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_002",
+      "word": "tool",
+      "meaning": "工具",
+      "part_of_speech": "noun",
+      "phrase": [
+        "DIY tools",
+        "tool box"
+      ],
+      "sentence": "You need some basic tools.",
+      "phonetic": "/tuːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_003",
+      "word": "brush",
+      "meaning": "刷子；画笔",
+      "part_of_speech": "noun",
+      "phrase": [
+        "paint brush",
+        "brush stroke"
+      ],
+      "sentence": "Use a brush to paint the wall.",
+      "phonetic": "/brʌʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_004",
+      "word": "tape",
+      "meaning": "胶带",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sticky tape",
+        "measure tape"
+      ],
+      "sentence": "I need some tape to fix it.",
+      "phonetic": "/teɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_005",
+      "word": "rope",
+      "meaning": "绳子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a piece of rope",
+        "tie with rope"
+      ],
+      "sentence": "Tie the box with a rope.",
+      "phonetic": "/rəʊp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_006",
+      "word": "scissors",
+      "meaning": "剪刀",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pair of scissors",
+        "cut with scissors"
+      ],
+      "sentence": "Pass me the scissors please.",
+      "phonetic": "/ˈsɪzərz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_007",
+      "word": "glue",
+      "meaning": "胶水",
+      "part_of_speech": "noun",
+      "phrase": [
+        "stick with glue",
+        "super glue"
+      ],
+      "sentence": "Use glue to stick the paper.",
+      "phonetic": "/ɡluː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_008",
+      "word": "repair",
+      "meaning": "修理",
+      "part_of_speech": "verb",
+      "phrase": [
+        "repair a bike",
+        "under repair"
+      ],
+      "sentence": "Can you repair this chair?",
+      "phonetic": "/rɪˈpeər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_009",
+      "word": "decorate",
+      "meaning": "装饰",
+      "part_of_speech": "verb",
+      "phrase": [
+        "decorate the room",
+        "decorate with"
+      ],
+      "sentence": "Let us decorate the classroom.",
+      "phonetic": "/ˈdekəreɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_010",
+      "word": "rose",
+      "meaning": "玫瑰",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a red rose",
+        "rose garden"
+      ],
+      "sentence": "I made a paper rose.",
+      "phonetic": "/rəʊz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_011",
+      "word": "instead",
+      "meaning": "代替",
+      "part_of_speech": "adv",
+      "phrase": [
+        "instead of",
+        "do it instead"
+      ],
+      "sentence": "Use glue instead of tape.",
+      "phonetic": "/ɪnˈsted/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_012",
+      "word": "crazy",
+      "meaning": "疯狂的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "go crazy",
+        "crazy about"
+      ],
+      "sentence": "Are you crazy about DIY?",
+      "phonetic": "/ˈkreɪzi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_013",
+      "word": "terrible",
+      "meaning": "可怕的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "look terrible",
+        "feel terrible"
+      ],
+      "sentence": "The room looks terrible now.",
+      "phonetic": "/ˈterəbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_014",
+      "word": "once",
+      "meaning": "曾经；一次",
+      "part_of_speech": "adv",
+      "phrase": [
+        "once upon a time",
+        "at once"
+      ],
+      "sentence": "I once made a bookshelf.",
+      "phonetic": "/wʌns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_015",
+      "word": "mistake",
+      "meaning": "错误",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make a mistake",
+        "by mistake"
+      ],
+      "sentence": "I made a silly mistake.",
+      "phonetic": "/mɪˈsteɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_016",
+      "word": "course",
+      "meaning": "课程；过程",
+      "part_of_speech": "noun",
+      "phrase": [
+        "of course",
+        "take a course"
+      ],
+      "sentence": "I am taking a DIY course.",
+      "phonetic": "/kɔːrs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_017",
+      "word": "already",
+      "meaning": "已经",
+      "part_of_speech": "adv",
+      "phrase": [
+        "have already",
+        "already done"
+      ],
+      "sentence": "I have already finished it.",
+      "phonetic": "/ɔːlˈredi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_018",
+      "word": "fill",
+      "meaning": "填满",
+      "part_of_speech": "verb",
+      "phrase": [
+        "fill with",
+        "fill in"
+      ],
+      "sentence": "Fill the hole with glue.",
+      "phonetic": "/fɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_019",
+      "word": "cover",
+      "meaning": "覆盖",
+      "part_of_speech": "verb",
+      "phrase": [
+        "cover with",
+        "book cover"
+      ],
+      "sentence": "Cover the box with paper.",
+      "phonetic": "/ˈkʌvər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_020",
+      "word": "paint",
+      "meaning": "颜料；画",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "paint the wall",
+        "oil paint"
+      ],
+      "sentence": "What colour paint do you want?",
+      "phonetic": "/peɪnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_021",
+      "word": "power",
+      "meaning": "电源；力量",
+      "part_of_speech": "noun",
+      "phrase": [
+        "power cut",
+        "power on"
+      ],
+      "sentence": "Cut off the power first.",
+      "phonetic": "/ˈpaʊər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_022",
+      "word": "shelf",
+      "meaning": "架子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bookshelf",
+        "on the shelf"
+      ],
+      "sentence": "I built a shelf for my books.",
+      "phonetic": "/ʃelf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_023",
+      "word": "fix",
+      "meaning": "修理",
+      "part_of_speech": "verb",
+      "phrase": [
+        "fix up",
+        "fix the problem"
+      ],
+      "sentence": "Can you help me fix my bike?",
+      "phonetic": "/fɪks/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_024",
+      "word": "certain",
+      "meaning": "确定的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be certain",
+        "for certain"
+      ],
+      "sentence": "Are you certain about this?",
+      "phonetic": "/ˈsɜːrtn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit4_025",
+      "word": "exactly",
+      "meaning": "精确地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "know exactly",
+        "exactly the same"
+      ],
+      "sentence": "Follow the steps exactly.",
+      "phonetic": "/ɪɡˈzæktli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

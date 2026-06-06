@@ -1,0 +1,382 @@
+{
+  "unit": "g12up-unit6",
+  "unit_title": "People on the move",
+  "theme": "移民与迁徙",
+  "vocabulary": [
+    {
+      "word_id": "g12up_unit6_001",
+      "word": "migration",
+      "meaning": "迁徙",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bird migration",
+        "human migration"
+      ],
+      "sentence": "Bird migration is a natural wonder.",
+      "phonetic": "/maɪˈɡreɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_002",
+      "word": "immigrant",
+      "meaning": "移民",
+      "part_of_speech": "noun",
+      "phrase": [
+        "illegal immigrant",
+        "first-generation immigrant"
+      ],
+      "sentence": "She is a first-generation immigrant.",
+      "phonetic": "/ˈɪmɪɡrənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_003",
+      "word": "refugee",
+      "meaning": "难民",
+      "part_of_speech": "noun",
+      "phrase": [
+        "war refugee",
+        "refugee camp"
+      ],
+      "sentence": "Refugees flee their homes to find safety.",
+      "phonetic": "/ˌrefjuˈdʒiː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_004",
+      "word": "asylum",
+      "meaning": "庇护",
+      "part_of_speech": "noun",
+      "phrase": [
+        "political asylum",
+        "seek asylum"
+      ],
+      "sentence": "They applied for political asylum.",
+      "phonetic": "/əˈsaɪləm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_005",
+      "word": "border",
+      "meaning": "边界",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cross the border",
+        "border control"
+      ],
+      "sentence": "They crossed the border at night.",
+      "phonetic": "/ˈbɔːrdər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_006",
+      "word": "frontier",
+      "meaning": "边境",
+      "part_of_speech": "noun",
+      "phrase": [
+        "western frontier",
+        "new frontiers"
+      ],
+      "sentence": "The frontier between the two countries is heavily guarded.",
+      "phonetic": "/ˈfrʌntɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_007",
+      "word": "settle",
+      "meaning": "定居",
+      "part_of_speech": "verb",
+      "phrase": [
+        "settle down",
+        "settle in a new country"
+      ],
+      "sentence": "They decided to settle in Canada.",
+      "phonetic": "/ˈsetl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_008",
+      "word": "settler",
+      "meaning": "定居者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "early settler",
+        "European settler"
+      ],
+      "sentence": "The first settlers arrived in 1620.",
+      "phonetic": "/ˈsetlər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_009",
+      "word": "nomad",
+      "meaning": "游牧民",
+      "part_of_speech": "noun",
+      "phrase": [
+        "nomadic tribe",
+        "desert nomad"
+      ],
+      "sentence": "The nomads moved from place to place.",
+      "phonetic": "/ˈnəʊmæd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_010",
+      "word": "diaspora",
+      "meaning": "散居",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Chinese diaspora",
+        "Jewish diaspora"
+      ],
+      "sentence": "The Chinese diaspora is spread worldwide.",
+      "phonetic": "/daɪˈæspərə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_011",
+      "word": "exile",
+      "meaning": "流放",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go into exile",
+        "live in exile"
+      ],
+      "sentence": "He spent many years in exile.",
+      "phonetic": "/ˈeksaɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_012",
+      "word": "citizenship",
+      "meaning": "公民身份",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dual citizenship",
+        "citizenship test"
+      ],
+      "sentence": "He applied for citizenship.",
+      "phonetic": "/ˈsɪtɪzənʃɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_013",
+      "word": "visa",
+      "meaning": "签证",
+      "part_of_speech": "noun",
+      "phrase": [
+        "apply for a visa",
+        "tourist visa"
+      ],
+      "sentence": "You need a visa to enter the country.",
+      "phonetic": "/ˈviːzə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_014",
+      "word": "passport",
+      "meaning": "护照",
+      "part_of_speech": "noun",
+      "phrase": [
+        "valid passport",
+        "passport control"
+      ],
+      "sentence": "Show your passport at the border.",
+      "phonetic": "/ˈpɑːspɔːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_015",
+      "word": "detain",
+      "meaning": "拘留",
+      "part_of_speech": "verb",
+      "phrase": [
+        "detain someone",
+        "be detained"
+      ],
+      "sentence": "He was detained at the airport.",
+      "phonetic": "/dɪˈteɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_016",
+      "word": "deport",
+      "meaning": "驱逐出境",
+      "part_of_speech": "verb",
+      "phrase": [
+        "deport someone",
+        "be deported"
+      ],
+      "sentence": "He was deported back to his home country.",
+      "phonetic": "/dɪˈpɔːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_017",
+      "word": "census",
+      "meaning": "人口普查",
+      "part_of_speech": "noun",
+      "phrase": [
+        "national census",
+        "census data"
+      ],
+      "sentence": "The census shows population changes.",
+      "phonetic": "/ˈsensəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_018",
+      "word": "demographics",
+      "meaning": "人口统计",
+      "part_of_speech": "noun",
+      "phrase": [
+        "changing demographics",
+        "demographic data"
+      ],
+      "sentence": "Demographics show an aging population.",
+      "phonetic": "/ˌdeməˈɡræfɪks/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_019",
+      "word": "emigrate",
+      "meaning": "移出",
+      "part_of_speech": "verb",
+      "phrase": [
+        "emigrate to",
+        "decide to emigrate"
+      ],
+      "sentence": "Many people emigrated for better jobs.",
+      "phonetic": "/ˈemɪɡreɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_020",
+      "word": "brain drain",
+      "meaning": "人才流失",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cause brain drain",
+        "suffer from brain drain"
+      ],
+      "sentence": "Brain drain is a problem for developing countries.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_021",
+      "word": "multicultural",
+      "meaning": "多元文化的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "multicultural society",
+        "multicultural city"
+      ],
+      "sentence": "A multicultural society has many benefits.",
+      "phonetic": "/ˌmʌltiˈkʌltʃərəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_022",
+      "word": "assimilation",
+      "meaning": "同化",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural assimilation",
+        "force assimilation"
+      ],
+      "sentence": "Assimilation can mean losing your own culture.",
+      "phonetic": "/əˌsɪmɪˈleɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_023",
+      "word": "xenophobia",
+      "meaning": "排外",
+      "part_of_speech": "noun",
+      "phrase": [
+        "racism and xenophobia",
+        "fight xenophobia"
+      ],
+      "sentence": "Xenophobia is fear of foreigners.",
+      "phonetic": "/ˌzenəˈfəʊbiə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_024",
+      "word": "humanitarian",
+      "meaning": "人道主义的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "humanitarian aid",
+        "humanitarian crisis"
+      ],
+      "sentence": "Refugees need humanitarian assistance.",
+      "phonetic": "/hjuːˌmænɪˈteəriən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit6_025",
+      "word": "displacement",
+      "meaning": "流离失所",
+      "part_of_speech": "noun",
+      "phrase": [
+        "forced displacement",
+        "internal displacement"
+      ],
+      "sentence": "War causes massive displacement.",
+      "phonetic": "/dɪsˈpleɪsmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

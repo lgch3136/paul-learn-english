@@ -1,0 +1,382 @@
+{
+  "unit": "g7up-unit2",
+  "unit_title": "Let's play sports!",
+  "theme": "运动",
+  "vocabulary": [
+    {
+      "word_id": "g7up_2_001",
+      "word": "sport",
+      "meaning": "运动",
+      "part_of_speech": "noun",
+      "phrase": [
+        "play sports",
+        "sport shoes"
+      ],
+      "sentence": "I like sports.",
+      "phonetic": "/spɔːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_002",
+      "word": "tennis",
+      "meaning": "网球",
+      "part_of_speech": "noun",
+      "phrase": [
+        "play tennis",
+        "tennis player"
+      ],
+      "sentence": "He plays tennis well.",
+      "phonetic": "/ˈtenɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_003",
+      "word": "volleyball",
+      "meaning": "排球",
+      "part_of_speech": "noun",
+      "phrase": [
+        "play volleyball",
+        "volleyball team"
+      ],
+      "sentence": "We play volleyball after class.",
+      "phonetic": "/ˈvɒlibɔːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_004",
+      "word": "enjoy",
+      "meaning": "享受",
+      "part_of_speech": "verb",
+      "phrase": [
+        "enjoy doing",
+        "enjoy oneself"
+      ],
+      "sentence": "I enjoy swimming.",
+      "phonetic": "/ɪnˈdʒɔɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_005",
+      "word": "player",
+      "meaning": "运动员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "football player",
+        "team player"
+      ],
+      "sentence": "He is a good player.",
+      "phonetic": "/ˈpleɪə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_006",
+      "word": "member",
+      "meaning": "成员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "team member",
+        "club member"
+      ],
+      "sentence": "I am a club member.",
+      "phonetic": "/ˈmembə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_007",
+      "word": "free",
+      "meaning": "空闲的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "free time",
+        "be free"
+      ],
+      "sentence": "Are you free this weekend?",
+      "phonetic": "/friː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_008",
+      "word": "hope",
+      "meaning": "希望",
+      "part_of_speech": "verb",
+      "phrase": [
+        "hope to do",
+        "I hope so"
+      ],
+      "sentence": "I hope to see you soon.",
+      "phonetic": "/həʊp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_009",
+      "word": "match",
+      "meaning": "比赛",
+      "part_of_speech": "noun",
+      "phrase": [
+        "football match",
+        "watch a match"
+      ],
+      "sentence": "We won the match.",
+      "phonetic": "/mætʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_010",
+      "word": "hero",
+      "meaning": "英雄",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my hero",
+        "national hero"
+      ],
+      "sentence": "Yao Ming is my hero.",
+      "phonetic": "/ˈhɪərəʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_011",
+      "word": "team",
+      "meaning": "团队",
+      "part_of_speech": "noun",
+      "phrase": [
+        "team work",
+        "basketball team"
+      ],
+      "sentence": "We are a great team.",
+      "phonetic": "/tiːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_012",
+      "word": "dream",
+      "meaning": "梦想",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my dream",
+        "dream come true"
+      ],
+      "sentence": "My dream is to be a doctor.",
+      "phonetic": "/driːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_013",
+      "word": "true",
+      "meaning": "真实的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "come true",
+        "a true story"
+      ],
+      "sentence": "His dream came true.",
+      "phonetic": "/truː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_014",
+      "word": "drawing",
+      "meaning": "绘画",
+      "part_of_speech": "noun",
+      "phrase": [
+        "drawing class",
+        "like drawing"
+      ],
+      "sentence": "She is good at drawing.",
+      "phonetic": "/ˈdrɔːɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_015",
+      "word": "weekend",
+      "meaning": "周末",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on weekends",
+        "this weekend"
+      ],
+      "sentence": "What do you do on weekends?",
+      "phonetic": "/ˌwiːkˈend/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_016",
+      "word": "once",
+      "meaning": "一次",
+      "part_of_speech": "adv",
+      "phrase": [
+        "once a week",
+        "at once"
+      ],
+      "sentence": "I exercise once a week.",
+      "phonetic": "/wʌns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_017",
+      "word": "twice",
+      "meaning": "两次",
+      "part_of_speech": "adv",
+      "phrase": [
+        "twice a month",
+        "think twice"
+      ],
+      "sentence": "She reads twice a day.",
+      "phonetic": "/twaɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_018",
+      "word": "practice",
+      "meaning": "练习",
+      "part_of_speech": "noun",
+      "phrase": [
+        "football practice",
+        "need practice"
+      ],
+      "sentence": "Practice makes perfect.",
+      "phonetic": "/ˈpræktɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_019",
+      "word": "coach",
+      "meaning": "教练",
+      "part_of_speech": "noun",
+      "phrase": [
+        "basketball coach",
+        "head coach"
+      ],
+      "sentence": "Our coach is very strict.",
+      "phonetic": "/kəʊtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_020",
+      "word": "score",
+      "meaning": "得分",
+      "part_of_speech": "verb",
+      "phrase": [
+        "score a goal",
+        "high score"
+      ],
+      "sentence": "He scored two goals.",
+      "phonetic": "/skɔː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_021",
+      "word": "goal",
+      "meaning": "目标",
+      "part_of_speech": "noun",
+      "phrase": [
+        "score a goal",
+        "reach a goal"
+      ],
+      "sentence": "He kicked the ball into the goal.",
+      "phonetic": "/ɡəʊl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_022",
+      "word": "club",
+      "meaning": "俱乐部",
+      "part_of_speech": "noun",
+      "phrase": [
+        "join a club",
+        "sports club"
+      ],
+      "sentence": "I joined the Reading Club.",
+      "phonetic": "/klʌb/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_023",
+      "word": "else",
+      "meaning": "别的",
+      "part_of_speech": "adv",
+      "phrase": [
+        "something else",
+        "anyone else"
+      ],
+      "sentence": "What else do you want?",
+      "phonetic": "/els/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_024",
+      "word": "fun",
+      "meaning": "乐趣",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have fun",
+        "for fun"
+      ],
+      "sentence": "We had great fun.",
+      "phonetic": "/fʌn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_2_025",
+      "word": "talk about",
+      "meaning": "谈论",
+      "part_of_speech": "phrase",
+      "phrase": [
+        "talk about sports",
+        "talk about it"
+      ],
+      "sentence": "They often talk about football.",
+      "phonetic": "/tɔːk əˈbaʊt/",
+      "error_tags": [
+        "句序错"
+      ]
+    }
+  ]
+}

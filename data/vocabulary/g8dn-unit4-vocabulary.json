@@ -1,0 +1,382 @@
+{
+  "unit": "g8dn-unit4",
+  "unit_title": "A good read",
+  "theme": "阅读与书籍",
+  "vocabulary": [
+    {
+      "word_id": "g8dn_unit4_001",
+      "word": "read",
+      "meaning": "读物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a good read",
+        "read books"
+      ],
+      "sentence": "This book is a good read.",
+      "phonetic": "/riːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_002",
+      "word": "novel",
+      "meaning": "小说",
+      "part_of_speech": "noun",
+      "phrase": [
+        "read a novel",
+        "historical novel"
+      ],
+      "sentence": "I am reading a science fiction novel.",
+      "phonetic": "/ˈnɒvl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_003",
+      "word": "knowledge",
+      "meaning": "知识",
+      "part_of_speech": "noun",
+      "phrase": [
+        "gain knowledge",
+        "general knowledge"
+      ],
+      "sentence": "Reading increases our knowledge.",
+      "phonetic": "/ˈnɒlɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_004",
+      "word": "library",
+      "meaning": "图书馆",
+      "part_of_speech": "noun",
+      "phrase": [
+        "school library",
+        "public library"
+      ],
+      "sentence": "I borrowed a book from the library.",
+      "phonetic": "/ˈlaɪbrəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_005",
+      "word": "classic",
+      "meaning": "经典作品",
+      "part_of_speech": "noun",
+      "phrase": [
+        "literary classic",
+        "classic novel"
+      ],
+      "sentence": "I enjoy reading the classics.",
+      "phonetic": "/ˈklæsɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_006",
+      "word": "against",
+      "meaning": "反对；紧靠",
+      "part_of_speech": "prep",
+      "phrase": [
+        "lean against",
+        "fight against"
+      ],
+      "sentence": "He leaned against the wall.",
+      "phonetic": "/əˈɡenst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_007",
+      "word": "tie",
+      "meaning": "绑；系",
+      "part_of_speech": "verb",
+      "phrase": [
+        "tie up",
+        "tie to"
+      ],
+      "sentence": "They tied Gulliver to the ground.",
+      "phonetic": "/taɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_008",
+      "word": "tiny",
+      "meaning": "极小的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "tiny people",
+        "tiny house"
+      ],
+      "sentence": "The tiny people were very afraid.",
+      "phonetic": "/ˈtaɪni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_009",
+      "word": "manage",
+      "meaning": "设法",
+      "part_of_speech": "verb",
+      "phrase": [
+        "manage to do",
+        "manage well"
+      ],
+      "sentence": "How did Gulliver manage to escape?",
+      "phonetic": "/ˈmænɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_010",
+      "word": "army",
+      "meaning": "军队",
+      "part_of_speech": "noun",
+      "phrase": [
+        "join the army",
+        "standing army"
+      ],
+      "sentence": "A tiny army stood before him.",
+      "phonetic": "/ˈɑːrmi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_011",
+      "word": "shoulder",
+      "meaning": "肩膀",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on my shoulder",
+        "shoulder to shoulder"
+      ],
+      "sentence": "A little man stood on his shoulder.",
+      "phonetic": "/ˈʃəʊldər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_012",
+      "word": "stomach",
+      "meaning": "肚子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on my stomach",
+        "stomach ache"
+      ],
+      "sentence": "The tiny people climbed onto his stomach.",
+      "phonetic": "/ˈstʌmək/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_013",
+      "word": "finger",
+      "meaning": "手指",
+      "part_of_speech": "noun",
+      "phrase": [
+        "index finger",
+        "finger tip"
+      ],
+      "sentence": "He picked up a tiny man with his finger.",
+      "phonetic": "/ˈfɪŋɡər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_014",
+      "word": "hand",
+      "meaning": "手",
+      "part_of_speech": "noun",
+      "phrase": [
+        "right hand",
+        "hand in hand"
+      ],
+      "sentence": "He held out his hand.",
+      "phonetic": "/hænd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_015",
+      "word": "lift",
+      "meaning": "举起",
+      "part_of_speech": "verb",
+      "phrase": [
+        "lift up",
+        "lift weights"
+      ],
+      "sentence": "He could lift a tiny ship.",
+      "phonetic": "/lɪft/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_016",
+      "word": "sail",
+      "meaning": "航行",
+      "part_of_speech": "verb",
+      "phrase": [
+        "sail across",
+        "set sail"
+      ],
+      "sentence": "Gulliver sailed across the sea.",
+      "phonetic": "/seɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_017",
+      "word": "continue",
+      "meaning": "继续",
+      "part_of_speech": "verb",
+      "phrase": [
+        "continue reading",
+        "to be continued"
+      ],
+      "sentence": "The story continues in the next chapter.",
+      "phonetic": "/kənˈtɪnjuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_018",
+      "word": "writer",
+      "meaning": "作家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "famous writer",
+        "freelance writer"
+      ],
+      "sentence": "Who is your favourite writer?",
+      "phonetic": "/ˈraɪtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_019",
+      "word": "publishing",
+      "meaning": "出版",
+      "part_of_speech": "noun",
+      "phrase": [
+        "publishing house",
+        "book publishing"
+      ],
+      "sentence": "The book was published by a big publishing house.",
+      "phonetic": "/ˈpʌblɪʃɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_020",
+      "word": "refuse",
+      "meaning": "拒绝",
+      "part_of_speech": "verb",
+      "phrase": [
+        "refuse to do",
+        "refuse an offer"
+      ],
+      "sentence": "I refuse to stop reading!",
+      "phonetic": "/rɪˈfjuːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_021",
+      "word": "success",
+      "meaning": "成功",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a great success",
+        "achieve success"
+      ],
+      "sentence": "The book was a great success.",
+      "phonetic": "/səkˈses/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_022",
+      "word": "translate",
+      "meaning": "翻译",
+      "part_of_speech": "verb",
+      "phrase": [
+        "translate into",
+        "translate from"
+      ],
+      "sentence": "This novel has been translated into many languages.",
+      "phonetic": "/trænsˈleɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_023",
+      "word": "sales",
+      "meaning": "销量",
+      "part_of_speech": "noun",
+      "phrase": [
+        "book sales",
+        "sales record"
+      ],
+      "sentence": "The book broke sales records.",
+      "phonetic": "/seɪlz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_024",
+      "word": "copy",
+      "meaning": "一本；副本",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a copy of",
+        "hard copy"
+      ],
+      "sentence": "I bought a copy of the book.",
+      "phonetic": "/ˈkɒpi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit4_025",
+      "word": "series",
+      "meaning": "系列",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a series of books",
+        "TV series"
+      ],
+      "sentence": "Harry Potter is a famous book series.",
+      "phonetic": "/ˈsɪəriːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

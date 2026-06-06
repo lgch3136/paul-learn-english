@@ -1,0 +1,382 @@
+{
+  "unit": "g8up-unit3",
+  "unit_title": "A day out",
+  "theme": "外出游览",
+  "vocabulary": [
+    {
+      "word_id": "g8up_unit3_001",
+      "word": "sightseeing",
+      "meaning": "观光",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go sightseeing",
+        "sightseeing tour"
+      ],
+      "sentence": "We went sightseeing in Beijing.",
+      "phonetic": "/ˈsaɪtsiːɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_002",
+      "word": "trip",
+      "meaning": "旅行",
+      "part_of_speech": "noun",
+      "phrase": [
+        "school trip",
+        "a day trip"
+      ],
+      "sentence": "We had a wonderful trip.",
+      "phonetic": "/trɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_003",
+      "word": "climb",
+      "meaning": "攀登",
+      "part_of_speech": "verb",
+      "phrase": [
+        "climb a hill",
+        "climb up"
+      ],
+      "sentence": "We climbed the Great Wall.",
+      "phonetic": "/klaɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_004",
+      "word": "view",
+      "meaning": "景色",
+      "part_of_speech": "noun",
+      "phrase": [
+        "beautiful view",
+        "point of view"
+      ],
+      "sentence": "The view from the top was amazing.",
+      "phonetic": "/vjuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_005",
+      "word": "amazing",
+      "meaning": "令人惊奇的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "amazing view",
+        "look amazing"
+      ],
+      "sentence": "The trip was amazing!",
+      "phonetic": "/əˈmeɪzɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_006",
+      "word": "president",
+      "meaning": "总统",
+      "part_of_speech": "noun",
+      "phrase": [
+        "former president",
+        "vice president"
+      ],
+      "sentence": "We saw the president's house.",
+      "phonetic": "/ˈprezɪdənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_007",
+      "word": "model",
+      "meaning": "模型",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a model of",
+        "role model"
+      ],
+      "sentence": "There is a model of the Golden Gate Bridge.",
+      "phonetic": "/ˈmɒdl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_008",
+      "word": "real",
+      "meaning": "真实的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "real life",
+        "the real thing"
+      ],
+      "sentence": "It looks so real!",
+      "phonetic": "/riːəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_009",
+      "word": "main",
+      "meaning": "主要的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "main building",
+        "main reason"
+      ],
+      "sentence": "The main building is very tall.",
+      "phonetic": "/meɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_010",
+      "word": "interest",
+      "meaning": "兴趣",
+      "part_of_speech": "noun",
+      "phrase": [
+        "place of interest",
+        "have interest in"
+      ],
+      "sentence": "There are many places of interest.",
+      "phonetic": "/ˈɪntrəst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_011",
+      "word": "culture",
+      "meaning": "文化",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Chinese culture",
+        "culture shock"
+      ],
+      "sentence": "We learned about local culture.",
+      "phonetic": "/ˈkʌltʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_012",
+      "word": "join",
+      "meaning": "参加",
+      "part_of_speech": "verb",
+      "phrase": [
+        "join in",
+        "join us"
+      ],
+      "sentence": "Would you like to join us?",
+      "phonetic": "/dʒɔɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_013",
+      "word": "shine",
+      "meaning": "照耀",
+      "part_of_speech": "verb",
+      "phrase": [
+        "the sun shines",
+        "shine brightly"
+      ],
+      "sentence": "The sun was shining all day.",
+      "phonetic": "/ʃaɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_014",
+      "word": "sky",
+      "meaning": "天空",
+      "part_of_speech": "noun",
+      "phrase": [
+        "blue sky",
+        "in the sky"
+      ],
+      "sentence": "The sky was clear and blue.",
+      "phonetic": "/skaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_015",
+      "word": "journey",
+      "meaning": "旅程",
+      "part_of_speech": "noun",
+      "phrase": [
+        "long journey",
+        "start a journey"
+      ],
+      "sentence": "The journey took two hours.",
+      "phonetic": "/ˈdʒɜːrni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_016",
+      "word": "highway",
+      "meaning": "高速公路",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the highway",
+        "highway system"
+      ],
+      "sentence": "We drove on the highway.",
+      "phonetic": "/ˈhaɪweɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_017",
+      "word": "fine",
+      "meaning": "好的；晴朗的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "fine weather",
+        "feel fine"
+      ],
+      "sentence": "It was a fine day for a trip.",
+      "phonetic": "/faɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_018",
+      "word": "arrive",
+      "meaning": "到达",
+      "part_of_speech": "verb",
+      "phrase": [
+        "arrive at",
+        "arrive in"
+      ],
+      "sentence": "We arrived at the park early.",
+      "phonetic": "/əˈraɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_019",
+      "word": "support",
+      "meaning": "支持",
+      "part_of_speech": "verb",
+      "phrase": [
+        "support the team",
+        "give support"
+      ],
+      "sentence": "All my friends support me.",
+      "phonetic": "/səˈpɔːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_020",
+      "word": "reach",
+      "meaning": "到达",
+      "part_of_speech": "verb",
+      "phrase": [
+        "reach the top",
+        "reach out"
+      ],
+      "sentence": "We finally reached the mountain top.",
+      "phonetic": "/riːtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_021",
+      "word": "final",
+      "meaning": "决赛；最终的",
+      "part_of_speech": "noun/adj",
+      "phrase": [
+        "the final match",
+        "final decision"
+      ],
+      "sentence": "Our team is in the final!",
+      "phonetic": "/ˈfaɪnl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_022",
+      "word": "cheer",
+      "meaning": "欢呼",
+      "part_of_speech": "verb",
+      "phrase": [
+        "cheer loudly",
+        "cheer for"
+      ],
+      "sentence": "The fans cheered for the players.",
+      "phonetic": "/tʃɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_023",
+      "word": "cost",
+      "meaning": "花费；费用",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "cost much",
+        "at a cost"
+      ],
+      "sentence": "The trip cost about 200 yuan.",
+      "phonetic": "/kɒst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_024",
+      "word": "lunchtime",
+      "meaning": "午餐时间",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at lunchtime",
+        "during lunchtime"
+      ],
+      "sentence": "We had a picnic at lunchtime.",
+      "phonetic": "/ˈlʌntʃtaɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit3_025",
+      "word": "ourselves",
+      "meaning": "我们自己",
+      "part_of_speech": "pronoun",
+      "phrase": [
+        "by ourselves",
+        "enjoy ourselves"
+      ],
+      "sentence": "We really enjoyed ourselves!",
+      "phonetic": "/aʊərˈselvz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

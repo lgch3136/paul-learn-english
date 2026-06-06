@@ -1,0 +1,382 @@
+{
+  "unit": "g8up-unit6",
+  "unit_title": "Birdwatching",
+  "theme": "观鸟与自然",
+  "vocabulary": [
+    {
+      "word_id": "g8up_unit6_001",
+      "word": "birdwatching",
+      "meaning": "观鸟",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go birdwatching",
+        "birdwatching club"
+      ],
+      "sentence": "Birdwatching is a popular hobby.",
+      "phonetic": "/ˈbɜːrdwɒtʃɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_002",
+      "word": "market",
+      "meaning": "市场",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bird market",
+        "super market"
+      ],
+      "sentence": "We went to the bird market.",
+      "phonetic": "/ˈmɑːrkɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_003",
+      "word": "nature",
+      "meaning": "自然",
+      "part_of_speech": "noun",
+      "phrase": [
+        "nature reserve",
+        "in nature"
+      ],
+      "sentence": "I love being close to nature.",
+      "phonetic": "/ˈneɪtʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_004",
+      "word": "wetland",
+      "meaning": "湿地",
+      "part_of_speech": "noun",
+      "phrase": [
+        "wetland park",
+        "protect wetlands"
+      ],
+      "sentence": "Wetlands are home to many birds.",
+      "phonetic": "/ˈwetlənd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_005",
+      "word": "provide",
+      "meaning": "提供",
+      "part_of_speech": "verb",
+      "phrase": [
+        "provide food",
+        "provide for"
+      ],
+      "sentence": "Wetlands provide shelter for birds.",
+      "phonetic": "/prəˈvaɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_006",
+      "word": "shelter",
+      "meaning": "庇护所",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take shelter",
+        "provide shelter"
+      ],
+      "sentence": "Trees give shelter to birds.",
+      "phonetic": "/ˈʃeltər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_007",
+      "word": "perfect",
+      "meaning": "完美的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "perfect place",
+        "perfect for"
+      ],
+      "sentence": "This is a perfect spot for birdwatching.",
+      "phonetic": "/ˈpɜːrfɪkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_008",
+      "word": "cover",
+      "meaning": "覆盖",
+      "part_of_speech": "noun",
+      "phrase": [
+        "forest cover",
+        "under cover"
+      ],
+      "sentence": "Birds need cover to hide.",
+      "phonetic": "/ˈkʌvər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_009",
+      "word": "speaker",
+      "meaning": "扬声器；说话者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "guest speaker",
+        "native speaker"
+      ],
+      "sentence": "A speaker came to talk about birds.",
+      "phonetic": "/ˈspiːkər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_010",
+      "word": "tour",
+      "meaning": "旅行；参观",
+      "part_of_speech": "noun",
+      "phrase": [
+        "guided tour",
+        "tour guide"
+      ],
+      "sentence": "We took a birdwatching tour.",
+      "phonetic": "/tʊər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_011",
+      "word": "application",
+      "meaning": "申请",
+      "part_of_speech": "noun",
+      "phrase": [
+        "job application",
+        "fill in an application"
+      ],
+      "sentence": "I sent an application to join the club.",
+      "phonetic": "/ˌæplɪˈkeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_012",
+      "word": "form",
+      "meaning": "表格",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fill in a form",
+        "application form"
+      ],
+      "sentence": "Please complete this form.",
+      "phonetic": "/fɔːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_013",
+      "word": "address",
+      "meaning": "地址",
+      "part_of_speech": "noun",
+      "phrase": [
+        "home address",
+        "email address"
+      ],
+      "sentence": "Write down your address.",
+      "phonetic": "/əˈdres/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_014",
+      "word": "chairperson",
+      "meaning": "主席",
+      "part_of_speech": "noun",
+      "phrase": [
+        "club chairperson",
+        "elect a chairperson"
+      ],
+      "sentence": "She is the chairperson of the club.",
+      "phonetic": "/ˈtʃeərpɜːrsn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_015",
+      "word": "introduce",
+      "meaning": "介绍",
+      "part_of_speech": "verb",
+      "phrase": [
+        "introduce yourself",
+        "introduce to"
+      ],
+      "sentence": "Let me introduce myself.",
+      "phonetic": "/ˌɪntrəˈdjuːs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_016",
+      "word": "natural",
+      "meaning": "自然的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "natural environment",
+        "natural world"
+      ],
+      "sentence": "I prefer natural beauty.",
+      "phonetic": "/ˈnætʃrəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_017",
+      "word": "fisherman",
+      "meaning": "渔民",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a local fisherman",
+        "fisherman's wharf"
+      ],
+      "sentence": "The fisherman caught many fish.",
+      "phonetic": "/ˈfɪʃərmən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_018",
+      "word": "count",
+      "meaning": "数；统计",
+      "part_of_speech": "verb",
+      "phrase": [
+        "count birds",
+        "count down"
+      ],
+      "sentence": "We counted 20 different kinds of birds.",
+      "phonetic": "/kaʊnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_019",
+      "word": "describe",
+      "meaning": "描述",
+      "part_of_speech": "verb",
+      "phrase": [
+        "describe a bird",
+        "describe to"
+      ],
+      "sentence": "Can you describe the bird you saw?",
+      "phonetic": "/dɪˈskraɪb/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_020",
+      "word": "prevent",
+      "meaning": "阻止",
+      "part_of_speech": "verb",
+      "phrase": [
+        "prevent from",
+        "prevent accidents"
+      ],
+      "sentence": "We should prevent pollution.",
+      "phonetic": "/prɪˈvent/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_021",
+      "word": "society",
+      "meaning": "社团；社会",
+      "part_of_speech": "noun",
+      "phrase": [
+        "birdwatching society",
+        "modern society"
+      ],
+      "sentence": "I joined the Birdwatching Society.",
+      "phonetic": "/səˈsaɪəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_022",
+      "word": "member",
+      "meaning": "成员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "club member",
+        "team member"
+      ],
+      "sentence": "All members should come to the meeting.",
+      "phonetic": "/ˈmembər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_023",
+      "word": "binoculars",
+      "meaning": "双筒望远镜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pair of binoculars",
+        "through binoculars"
+      ],
+      "sentence": "Bring your binoculars.",
+      "phonetic": "/bɪˈnɒkjələrz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_024",
+      "word": "crane",
+      "meaning": "鹤",
+      "part_of_speech": "noun",
+      "phrase": [
+        "red-crowned crane",
+        "crane bird"
+      ],
+      "sentence": "We saw a rare red-crowned crane.",
+      "phonetic": "/kreɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit6_025",
+      "word": "rare",
+      "meaning": "稀有的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "rare bird",
+        "a rare find"
+      ],
+      "sentence": "This kind of bird is very rare.",
+      "phonetic": "/reər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

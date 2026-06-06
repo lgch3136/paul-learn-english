@@ -1,0 +1,357 @@
+{
+  "unit": "g7dn-unit3",
+  "unit_title": "Welcome to Sunshine Town",
+  "theme": "城镇",
+  "vocabulary": [
+    {
+      "word_id": "g7dn_unit3_001",
+      "word": "town",
+      "meaning": "城镇",
+      "part_of_speech": "noun",
+      "phrase": [
+        "home town"
+      ],
+      "sentence": "My home town is small but beautiful.",
+      "phonetic": "/taʊn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_002",
+      "word": "quiet",
+      "meaning": "安静的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "keep quiet"
+      ],
+      "sentence": "The library is very quiet.",
+      "phonetic": "/ˈkwaɪət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_003",
+      "word": "local",
+      "meaning": "当地的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "local people"
+      ],
+      "sentence": "The local food is delicious.",
+      "phonetic": "/ˈləʊkl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_004",
+      "word": "theatre",
+      "meaning": "剧院",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go to the theatre"
+      ],
+      "sentence": "Let's go to the theatre tonight.",
+      "phonetic": "/ˈθɪətə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_005",
+      "word": "miss",
+      "meaning": "想念",
+      "part_of_speech": "verb",
+      "phrase": [
+        "miss you"
+      ],
+      "sentence": "I miss my grandparents.",
+      "phonetic": "/mɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_006",
+      "word": "forward",
+      "meaning": "向前",
+      "part_of_speech": "adv",
+      "phrase": [
+        "look forward to"
+      ],
+      "sentence": "I'm looking forward to seeing you.",
+      "phonetic": "/ˈfɔːwəd/",
+      "error_tags": [
+        "句序错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_007",
+      "word": "underground",
+      "meaning": "地铁",
+      "part_of_speech": "noun",
+      "phrase": [
+        "by underground"
+      ],
+      "sentence": "I go to school by underground.",
+      "phonetic": "/ˈʌndəɡraʊnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_008",
+      "word": "air",
+      "meaning": "空气",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fresh air"
+      ],
+      "sentence": "Let's get some fresh air.",
+      "phonetic": "/eə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_009",
+      "word": "country",
+      "meaning": "乡村",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the country"
+      ],
+      "sentence": "Living in the country is relaxing.",
+      "phonetic": "/ˈkʌntri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_010",
+      "word": "jogging",
+      "meaning": "慢跑",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go jogging"
+      ],
+      "sentence": "I go jogging every morning.",
+      "phonetic": "/ˈdʒɒɡɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_011",
+      "word": "Western",
+      "meaning": "西方的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "Western food"
+      ],
+      "sentence": "Do you like Western food?",
+      "phonetic": "/ˈwestən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_012",
+      "word": "opera",
+      "meaning": "歌剧",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Beijing opera"
+      ],
+      "sentence": "Beijing opera is a traditional art.",
+      "phonetic": "/ˈɒprə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_013",
+      "word": "famous",
+      "meaning": "著名的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be famous for"
+      ],
+      "sentence": "China is famous for the Great Wall.",
+      "phonetic": "/ˈfeɪməs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_014",
+      "word": "painting",
+      "meaning": "绘画",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Chinese painting"
+      ],
+      "sentence": "She likes Chinese painting.",
+      "phonetic": "/ˈpeɪntɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_015",
+      "word": "row",
+      "meaning": "划船",
+      "part_of_speech": "verb",
+      "phrase": [
+        "row a boat"
+      ],
+      "sentence": "We can row a boat on the lake.",
+      "phonetic": "/rəʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_016",
+      "word": "hotel",
+      "meaning": "酒店",
+      "part_of_speech": "noun",
+      "phrase": [
+        "stay at a hotel"
+      ],
+      "sentence": "We stayed at a nice hotel.",
+      "phonetic": "/həʊˈtel/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_017",
+      "word": "exchange",
+      "meaning": "交换",
+      "part_of_speech": "noun",
+      "phrase": [
+        "exchange student"
+      ],
+      "sentence": "She is an exchange student.",
+      "phonetic": "/ɪksˈtʃeɪndʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_018",
+      "word": "fresh",
+      "meaning": "新鲜的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "fresh air"
+      ],
+      "sentence": "I love fresh vegetables.",
+      "phonetic": "/freʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_019",
+      "word": "works",
+      "meaning": "作品",
+      "part_of_speech": "noun",
+      "phrase": [
+        "works of art"
+      ],
+      "sentence": "These are famous works of art.",
+      "phonetic": "/wɜːks/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_020",
+      "word": "drive",
+      "meaning": "开车",
+      "part_of_speech": "verb",
+      "phrase": [
+        "drive to"
+      ],
+      "sentence": "My father drives me to school.",
+      "phonetic": "/draɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_021",
+      "word": "smell",
+      "meaning": "闻",
+      "part_of_speech": "verb",
+      "phrase": [
+        "smell good"
+      ],
+      "sentence": "The flowers smell sweet.",
+      "phonetic": "/smel/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_022",
+      "word": "golden",
+      "meaning": "金色的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "golden sunshine"
+      ],
+      "sentence": "The golden leaves are beautiful.",
+      "phonetic": "/ˈɡəʊldən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_023",
+      "word": "order",
+      "meaning": "点餐",
+      "part_of_speech": "verb",
+      "phrase": [
+        "order food"
+      ],
+      "sentence": "Let's order some pizza.",
+      "phonetic": "/ˈɔːdə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_024",
+      "word": "ring",
+      "meaning": "打电话",
+      "part_of_speech": "verb",
+      "phrase": [
+        "ring sb"
+      ],
+      "sentence": "I'll ring you tomorrow.",
+      "phonetic": "/rɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit3_025",
+      "word": "teach",
+      "meaning": "教",
+      "part_of_speech": "verb",
+      "phrase": [
+        "teach English"
+      ],
+      "sentence": "She teaches us Chinese.",
+      "phonetic": "/tiːtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

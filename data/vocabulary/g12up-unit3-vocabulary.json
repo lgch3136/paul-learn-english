@@ -1,0 +1,382 @@
+{
+  "unit": "g12up-unit3",
+  "unit_title": "The meaning of colour",
+  "theme": "颜色的含义",
+  "vocabulary": [
+    {
+      "word_id": "g12up_unit3_001",
+      "word": "symbolize",
+      "meaning": "象征",
+      "part_of_speech": "verb",
+      "phrase": [
+        "symbolize peace",
+        "symbolize love"
+      ],
+      "sentence": "White symbolizes purity in many cultures.",
+      "phonetic": "/ˈsɪmbəlaɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_002",
+      "word": "represent",
+      "meaning": "代表",
+      "part_of_speech": "verb",
+      "phrase": [
+        "represent the country",
+        "represent an idea"
+      ],
+      "sentence": "Red represents good luck in China.",
+      "phonetic": "/ˌreprɪˈzent/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_003",
+      "word": "signify",
+      "meaning": "表示",
+      "part_of_speech": "verb",
+      "phrase": [
+        "signify danger",
+        "signify importance"
+      ],
+      "sentence": "A red light signifies danger.",
+      "phonetic": "/ˈsɪɡnɪfaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_004",
+      "word": "majesty",
+      "meaning": "威严",
+      "part_of_speech": "noun",
+      "phrase": [
+        "royal majesty",
+        "purple majesty"
+      ],
+      "sentence": "Purple was the colour of majesty in ancient times.",
+      "phonetic": "/ˈmædʒəsti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_005",
+      "word": "mourning",
+      "meaning": "哀悼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in mourning",
+        "period of mourning"
+      ],
+      "sentence": "Black is worn for mourning in Western cultures.",
+      "phonetic": "/ˈmɔːrnɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_006",
+      "word": "prosperity",
+      "meaning": "繁荣",
+      "part_of_speech": "noun",
+      "phrase": [
+        "economic prosperity",
+        "symbol of prosperity"
+      ],
+      "sentence": "Gold symbolizes prosperity and wealth.",
+      "phonetic": "/prɒˈsperəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_007",
+      "word": "innocence",
+      "meaning": "纯真",
+      "part_of_speech": "noun",
+      "phrase": [
+        "childhood innocence",
+        "symbol of innocence"
+      ],
+      "sentence": "White represents innocence in Western weddings.",
+      "phonetic": "/ˈɪnəsns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_008",
+      "word": "passion",
+      "meaning": "激情",
+      "part_of_speech": "noun",
+      "phrase": [
+        "burning passion",
+        "passion for life"
+      ],
+      "sentence": "Red is the colour of passion and love.",
+      "phonetic": "/ˈpæʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_009",
+      "word": "tranquility",
+      "meaning": "宁静",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sense of tranquility",
+        "peace and tranquility"
+      ],
+      "sentence": "Blue brings a feeling of tranquility.",
+      "phonetic": "/træŋˈkwɪləti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_010",
+      "word": "vitality",
+      "meaning": "活力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "full of vitality",
+        "youthful vitality"
+      ],
+      "sentence": "Green represents vitality and growth.",
+      "phonetic": "/vaɪˈtæləti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_011",
+      "word": "elegance",
+      "meaning": "优雅",
+      "part_of_speech": "noun",
+      "phrase": [
+        "natural elegance",
+        "dress with elegance"
+      ],
+      "sentence": "Black is associated with elegance and style.",
+      "phonetic": "/ˈelɪɡəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_012",
+      "word": "optimism",
+      "meaning": "乐观",
+      "part_of_speech": "noun",
+      "phrase": [
+        "full of optimism",
+        "cautious optimism"
+      ],
+      "sentence": "Yellow is a colour of optimism.",
+      "phonetic": "/ˈɒptɪmɪzəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_013",
+      "word": "dignity",
+      "meaning": "尊严",
+      "part_of_speech": "noun",
+      "phrase": [
+        "human dignity",
+        "with dignity"
+      ],
+      "sentence": "Purple represents dignity and power.",
+      "phonetic": "/ˈdɪɡnəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_014",
+      "word": "association",
+      "meaning": "关联",
+      "part_of_speech": "noun",
+      "phrase": [
+        "colour association",
+        "strong association"
+      ],
+      "sentence": "Different colours have different associations.",
+      "phonetic": "/əˌsəʊsiˈeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_015",
+      "word": "psychology",
+      "meaning": "心理学",
+      "part_of_speech": "noun",
+      "phrase": [
+        "colour psychology",
+        "study psychology"
+      ],
+      "sentence": "Colour psychology studies how colours affect us.",
+      "phonetic": "/saɪˈkɒlədʒi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_016",
+      "word": "stimulate",
+      "meaning": "刺激",
+      "part_of_speech": "verb",
+      "phrase": [
+        "stimulate the brain",
+        "stimulate growth"
+      ],
+      "sentence": "Red can stimulate appetite.",
+      "phonetic": "/ˈstɪmjuleɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_017",
+      "word": "soothe",
+      "meaning": "安抚",
+      "part_of_speech": "verb",
+      "phrase": [
+        "soothe the mind",
+        "soothe the pain"
+      ],
+      "sentence": "Blue helps soothe the mind.",
+      "phonetic": "/suːð/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_018",
+      "word": "perception",
+      "meaning": "感知",
+      "part_of_speech": "noun",
+      "phrase": [
+        "colour perception",
+        "visual perception"
+      ],
+      "sentence": "Colour perception varies across cultures.",
+      "phonetic": "/pərˈsepʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_019",
+      "word": "decorate",
+      "meaning": "装饰",
+      "part_of_speech": "verb",
+      "phrase": [
+        "decorate with colour",
+        "decorate the room"
+      ],
+      "sentence": "People decorate their homes with bright colours.",
+      "phonetic": "/ˈdekəreɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_020",
+      "word": "architectural",
+      "meaning": "建筑的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "architectural design",
+        "architectural style"
+      ],
+      "sentence": "Colour is an important architectural element.",
+      "phonetic": "/ˌɑːrkɪˈtektʃərəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_021",
+      "word": "context",
+      "meaning": "背景；上下文",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural context",
+        "in this context"
+      ],
+      "sentence": "The meaning of colour depends on context.",
+      "phonetic": "/ˈkɒntekst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_022",
+      "word": "harmonious",
+      "meaning": "和谐的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "harmonious colours",
+        "harmonious relationship"
+      ],
+      "sentence": "A harmonious colour scheme is pleasing.",
+      "phonetic": "/hɑːrˈməʊniəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_023",
+      "word": "vibrant",
+      "meaning": "有活力的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "vibrant city",
+        "vibrant colours"
+      ],
+      "sentence": "The festival was full of vibrant colours.",
+      "phonetic": "/ˈvaɪbrənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_024",
+      "word": "nuance",
+      "meaning": "细微差别",
+      "part_of_speech": "noun",
+      "phrase": [
+        "subtle nuance",
+        "nuance of meaning"
+      ],
+      "sentence": "There are many nuances in colour meanings.",
+      "phonetic": "/ˈnjuːɑːns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit3_025",
+      "word": "spectrum",
+      "meaning": "光谱",
+      "part_of_speech": "noun",
+      "phrase": [
+        "colour spectrum",
+        "broad spectrum"
+      ],
+      "sentence": "The colour spectrum ranges from red to violet.",
+      "phonetic": "/ˈspektrəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "unit": "g9up-unit7",
+  "unit_title": "Films",
+  "theme": "电影",
+  "vocabulary": [
+    {
+      "word_id": "g9up_unit7_001",
+      "word": "superstar",
+      "meaning": "超级明星",
+      "part_of_speech": "noun",
+      "phrase": [
+        "film superstar",
+        "become a superstar"
+      ],
+      "sentence": "She is a Hollywood superstar.",
+      "phonetic": "/ˈsuːpərstɑːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_002",
+      "word": "romantic",
+      "meaning": "浪漫的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "romantic film",
+        "romantic dinner"
+      ],
+      "sentence": "I love romantic comedies.",
+      "phonetic": "/rəʊˈmæntɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_003",
+      "word": "action",
+      "meaning": "动作",
+      "part_of_speech": "noun",
+      "phrase": [
+        "action film",
+        "take action"
+      ],
+      "sentence": "Action films are very exciting.",
+      "phonetic": "/ˈækʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_004",
+      "word": "western",
+      "meaning": "西部电影",
+      "part_of_speech": "noun",
+      "phrase": [
+        "western film",
+        "cowboy western"
+      ],
+      "sentence": "My grandpa likes watching westerns.",
+      "phonetic": "/ˈwestərn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_005",
+      "word": "science fiction",
+      "meaning": "科幻",
+      "part_of_speech": "noun",
+      "phrase": [
+        "science fiction film",
+        "science fiction novel"
+      ],
+      "sentence": "Science fiction films show the future.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_006",
+      "word": "storyline",
+      "meaning": "故事情节",
+      "part_of_speech": "noun",
+      "phrase": [
+        "exciting storyline",
+        "follow the storyline"
+      ],
+      "sentence": "The film has an interesting storyline.",
+      "phonetic": "/ˈstɔːrilaɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_007",
+      "word": "stunt",
+      "meaning": "特技",
+      "part_of_speech": "noun",
+      "phrase": [
+        "stunt double",
+        "perform a stunt"
+      ],
+      "sentence": "The actor did his own stunts.",
+      "phonetic": "/stʌnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_008",
+      "word": "special effect",
+      "meaning": "特效",
+      "part_of_speech": "noun",
+      "phrase": [
+        "amazing special effects",
+        "use special effects"
+      ],
+      "sentence": "The special effects are amazing!",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_009",
+      "word": "actress",
+      "meaning": "女演员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "leading actress",
+        "famous actress"
+      ],
+      "sentence": "She is my favourite actress.",
+      "phonetic": "/ˈæktrəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_010",
+      "word": "actor",
+      "meaning": "男演员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "leading actor",
+        "film actor"
+      ],
+      "sentence": "He is a talented actor.",
+      "phonetic": "/ˈæktər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_011",
+      "word": "role",
+      "meaning": "角色",
+      "part_of_speech": "noun",
+      "phrase": [
+        "play the role of",
+        "leading role"
+      ],
+      "sentence": "She played the role of a princess.",
+      "phonetic": "/rəʊl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_012",
+      "word": "mark",
+      "meaning": "标志",
+      "part_of_speech": "verb",
+      "phrase": [
+        "mark the beginning",
+        "question mark"
+      ],
+      "sentence": "This film marked the start of her career.",
+      "phonetic": "/mɑːrk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_013",
+      "word": "lifetime",
+      "meaning": "一生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in a lifetime",
+        "lifetime achievement"
+      ],
+      "sentence": "She won a lifetime achievement award.",
+      "phonetic": "/ˈlaɪftaɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_014",
+      "word": "nomination",
+      "meaning": "提名",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Oscar nomination",
+        "get a nomination"
+      ],
+      "sentence": "The film got three Oscar nominations.",
+      "phonetic": "/ˌnɒmɪˈneɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_015",
+      "word": "final",
+      "meaning": "最终的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "final decision",
+        "final scene"
+      ],
+      "sentence": "The final scene made me cry.",
+      "phonetic": "/ˈfaɪnl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_016",
+      "word": "rush",
+      "meaning": "冲",
+      "part_of_speech": "verb",
+      "phrase": [
+        "rush out",
+        "rush hour"
+      ],
+      "sentence": "We rushed to the cinema.",
+      "phonetic": "/rʌʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_017",
+      "word": "mistake",
+      "meaning": "错误地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "by mistake",
+        "make a mistake"
+      ],
+      "sentence": "I took the wrong seat by mistake.",
+      "phonetic": "/mɪˈsteɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_018",
+      "word": "neither",
+      "meaning": "两者都不",
+      "part_of_speech": "conj",
+      "phrase": [
+        "neither...nor",
+        "neither do I"
+      ],
+      "sentence": "Neither of us had seen the film before.",
+      "phonetic": "/ˈnaɪðər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_019",
+      "word": "review",
+      "meaning": "评论",
+      "part_of_speech": "noun",
+      "phrase": [
+        "film review",
+        "write a review"
+      ],
+      "sentence": "The film got good reviews.",
+      "phonetic": "/rɪˈvjuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_020",
+      "word": "attract",
+      "meaning": "吸引",
+      "part_of_speech": "verb",
+      "phrase": [
+        "attract attention",
+        "attract visitors"
+      ],
+      "sentence": "The film attracted millions of viewers.",
+      "phonetic": "/əˈtrækt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_021",
+      "word": "character",
+      "meaning": "角色",
+      "part_of_speech": "noun",
+      "phrase": [
+        "main character",
+        "strong character"
+      ],
+      "sentence": "The main character is very brave.",
+      "phonetic": "/ˈkærəktər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_022",
+      "word": "industry",
+      "meaning": "产业",
+      "part_of_speech": "noun",
+      "phrase": [
+        "film industry",
+        "heavy industry"
+      ],
+      "sentence": "Hollywood is the centre of the film industry.",
+      "phonetic": "/ˈɪndəstri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_023",
+      "word": "all-time",
+      "meaning": "空前的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "all-time favourite",
+        "all-time record"
+      ],
+      "sentence": "It is my all-time favourite film.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_024",
+      "word": "perfect",
+      "meaning": "完美的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "perfect ending",
+        "perfect for"
+      ],
+      "sentence": "The ending was just perfect.",
+      "phonetic": "/ˈpɜːrfɪkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit7_025",
+      "word": "audience",
+      "meaning": "观众",
+      "part_of_speech": "noun",
+      "phrase": [
+        "large audience",
+        "target audience"
+      ],
+      "sentence": "The audience clapped at the end.",
+      "phonetic": "/ˈɔːdiəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

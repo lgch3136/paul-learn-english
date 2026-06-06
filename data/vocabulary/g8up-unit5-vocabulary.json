@@ -1,0 +1,382 @@
+{
+  "unit": "g8up-unit5",
+  "unit_title": "Wild animals",
+  "theme": "野生动物",
+  "vocabulary": [
+    {
+      "word_id": "g8up_unit5_001",
+      "word": "wild",
+      "meaning": "野生的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "wild animal",
+        "in the wild"
+      ],
+      "sentence": "Tigers are wild animals.",
+      "phonetic": "/waɪld/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_002",
+      "word": "free",
+      "meaning": "自由的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "set free",
+        "free time"
+      ],
+      "sentence": "They should live free in the wild.",
+      "phonetic": "/friː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_003",
+      "word": "dish",
+      "meaning": "一道菜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a dish of",
+        "main dish"
+      ],
+      "sentence": "Some people eat wild animals as a dish.",
+      "phonetic": "/dɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_004",
+      "word": "pity",
+      "meaning": "遗憾",
+      "part_of_speech": "noun",
+      "phrase": [
+        "what a pity",
+        "feel pity"
+      ],
+      "sentence": "It is a pity that many animals are in danger.",
+      "phonetic": "/ˈpɪti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_005",
+      "word": "danger",
+      "meaning": "危险",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in danger",
+        "out of danger"
+      ],
+      "sentence": "Pandas are in danger.",
+      "phonetic": "/ˈdeɪndʒər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_006",
+      "word": "law",
+      "meaning": "法律",
+      "part_of_speech": "noun",
+      "phrase": [
+        "by law",
+        "break the law"
+      ],
+      "sentence": "There are laws to protect wild animals.",
+      "phonetic": "/lɔː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_007",
+      "word": "action",
+      "meaning": "行动",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take action",
+        "in action"
+      ],
+      "sentence": "We should take action to help them.",
+      "phonetic": "/ˈækʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_008",
+      "word": "report",
+      "meaning": "报告",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "weather report",
+        "report to"
+      ],
+      "sentence": "I read a report about pandas.",
+      "phonetic": "/rɪˈpɔːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_009",
+      "word": "movement",
+      "meaning": "移动；运动",
+      "part_of_speech": "noun",
+      "phrase": [
+        "quick movement",
+        "freedom of movement"
+      ],
+      "sentence": "The cat made a sudden movement.",
+      "phonetic": "/ˈmuːvmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_010",
+      "word": "sadly",
+      "meaning": "遗憾地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "sadly enough",
+        "say sadly"
+      ],
+      "sentence": "Sadly, many tigers have died.",
+      "phonetic": "/ˈsædli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_011",
+      "word": "mainly",
+      "meaning": "主要地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "mainly because",
+        "live mainly on"
+      ],
+      "sentence": "Pandas mainly eat bamboo.",
+      "phonetic": "/ˈmeɪnli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_012",
+      "word": "bamboo",
+      "meaning": "竹子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bamboo forest",
+        "bamboo shoots"
+      ],
+      "sentence": "Pandas love eating bamboo.",
+      "phonetic": "/ˌbæmˈbuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_013",
+      "word": "however",
+      "meaning": "然而",
+      "part_of_speech": "adv",
+      "phrase": [
+        "but however",
+        "however hard"
+      ],
+      "sentence": "However, the situation is improving.",
+      "phonetic": "/haʊˈevər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_014",
+      "word": "forest",
+      "meaning": "森林",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the forest",
+        "rain forest"
+      ],
+      "sentence": "Wild animals live in forests.",
+      "phonetic": "/ˈfɒrɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_015",
+      "word": "protect",
+      "meaning": "保护",
+      "part_of_speech": "verb",
+      "phrase": [
+        "protect animals",
+        "protect from"
+      ],
+      "sentence": "We should protect wild animals.",
+      "phonetic": "/prəˈtekt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_016",
+      "word": "reserve",
+      "meaning": "保护区",
+      "part_of_speech": "noun",
+      "phrase": [
+        "nature reserve",
+        "wildlife reserve"
+      ],
+      "sentence": "There are nature reserves for pandas.",
+      "phonetic": "/rɪˈzɜːrv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_017",
+      "word": "save",
+      "meaning": "拯救",
+      "part_of_speech": "verb",
+      "phrase": [
+        "save lives",
+        "save from danger"
+      ],
+      "sentence": "We need to save these animals.",
+      "phonetic": "/seɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_018",
+      "word": "hunter",
+      "meaning": "猎人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "animal hunter",
+        "hunter gatherer"
+      ],
+      "sentence": "Hunters kill wild animals for money.",
+      "phonetic": "/ˈhʌntər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_019",
+      "word": "thick",
+      "meaning": "厚的；浓密的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "thick fur",
+        "thick forest"
+      ],
+      "sentence": "Polar bears have thick fur.",
+      "phonetic": "/θɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_020",
+      "word": "kill",
+      "meaning": "杀害",
+      "part_of_speech": "verb",
+      "phrase": [
+        "kill animals",
+        "kill for food"
+      ],
+      "sentence": "Don't kill wild animals.",
+      "phonetic": "/kɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_021",
+      "word": "sell",
+      "meaning": "卖",
+      "part_of_speech": "verb",
+      "phrase": [
+        "sell for money",
+        "sell out"
+      ],
+      "sentence": "Some people sell animal fur.",
+      "phonetic": "/sel/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_022",
+      "word": "human",
+      "meaning": "人类",
+      "part_of_speech": "noun",
+      "phrase": [
+        "human being",
+        "human nature"
+      ],
+      "sentence": "Humans should share the earth with animals.",
+      "phonetic": "/ˈhjuːmən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_023",
+      "word": "squirrel",
+      "meaning": "松鼠",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a cute squirrel",
+        "squirrel nest"
+      ],
+      "sentence": "A squirrel was gathering nuts.",
+      "phonetic": "/ˈskwɪrəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_024",
+      "word": "stripe",
+      "meaning": "条纹",
+      "part_of_speech": "noun",
+      "phrase": [
+        "black stripes",
+        "stripe pattern"
+      ],
+      "sentence": "Zebras have black and white stripes.",
+      "phonetic": "/straɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit5_025",
+      "word": "while",
+      "meaning": "当…时候",
+      "part_of_speech": "conj",
+      "phrase": [
+        "for a while",
+        "after a while"
+      ],
+      "sentence": "While I was walking, I saw a fox.",
+      "phonetic": "/waɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "unit": "g9up-unit5",
+  "unit_title": "Art world",
+  "theme": "艺术世界",
+  "vocabulary": [
+    {
+      "word_id": "g9up_unit5_001",
+      "word": "art",
+      "meaning": "艺术",
+      "part_of_speech": "noun",
+      "phrase": [
+        "art world",
+        "modern art"
+      ],
+      "sentence": "She is interested in art.",
+      "phonetic": "/ɑːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_002",
+      "word": "pleasant",
+      "meaning": "令人愉快的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "pleasant music",
+        "pleasant surprise"
+      ],
+      "sentence": "The music is very pleasant.",
+      "phonetic": "/ˈpleznt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_003",
+      "word": "musical",
+      "meaning": "音乐的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "musical talent",
+        "musical instrument"
+      ],
+      "sentence": "She has great musical talent.",
+      "phonetic": "/ˈmjuːzɪkl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_004",
+      "word": "talent",
+      "meaning": "天赋",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have a talent for",
+        "hidden talent"
+      ],
+      "sentence": "He has a talent for music.",
+      "phonetic": "/ˈtælənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_005",
+      "word": "instrument",
+      "meaning": "乐器",
+      "part_of_speech": "noun",
+      "phrase": [
+        "musical instrument",
+        "play an instrument"
+      ],
+      "sentence": "Can you play any musical instrument?",
+      "phonetic": "/ˈɪnstrəmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_006",
+      "word": "common",
+      "meaning": "普通的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "common sense",
+        "in common"
+      ],
+      "sentence": "Playing the piano is common among musicians.",
+      "phonetic": "/ˈkɒmən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_007",
+      "word": "object",
+      "meaning": "物品",
+      "part_of_speech": "noun",
+      "phrase": [
+        "everyday object",
+        "object of art"
+      ],
+      "sentence": "He uses everyday objects to make music.",
+      "phonetic": "/ˈɒbdʒɪkt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_008",
+      "word": "control",
+      "meaning": "控制",
+      "part_of_speech": "verb",
+      "phrase": [
+        "under control",
+        "lose control"
+      ],
+      "sentence": "He can control the water flow to make sounds.",
+      "phonetic": "/kənˈtrəʊl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_009",
+      "word": "flow",
+      "meaning": "流动",
+      "part_of_speech": "verb",
+      "phrase": [
+        "water flow",
+        "flow away"
+      ],
+      "sentence": "The water flows through the pipes.",
+      "phonetic": "/fləʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_010",
+      "word": "traditional",
+      "meaning": "传统的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "traditional music",
+        "traditional culture"
+      ],
+      "sentence": "I prefer traditional Chinese music.",
+      "phonetic": "/trəˈdɪʃənl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_011",
+      "word": "bell",
+      "meaning": "钟；铃",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ring a bell",
+        "church bell"
+      ],
+      "sentence": "The bells make a beautiful sound.",
+      "phonetic": "/bel/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_012",
+      "word": "highly",
+      "meaning": "高度地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "highly recommend",
+        "think highly of"
+      ],
+      "sentence": "I highly recommend this concert.",
+      "phonetic": "/ˈhaɪli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_013",
+      "word": "breath",
+      "meaning": "呼吸",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take a breath",
+        "hold your breath"
+      ],
+      "sentence": "Take a deep breath before you sing.",
+      "phonetic": "/breθ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_014",
+      "word": "last",
+      "meaning": "持续",
+      "part_of_speech": "verb",
+      "phrase": [
+        "last for",
+        "last long"
+      ],
+      "sentence": "The concert lasted for two hours.",
+      "phonetic": "/lɑːst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_015",
+      "word": "concert",
+      "meaning": "音乐会",
+      "part_of_speech": "noun",
+      "phrase": [
+        "give a concert",
+        "attend a concert"
+      ],
+      "sentence": "I went to a wonderful concert last night.",
+      "phonetic": "/ˈkɒnsərt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_016",
+      "word": "countryside",
+      "meaning": "乡村",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the countryside",
+        "countryside life"
+      ],
+      "sentence": "The artist gets ideas from the countryside.",
+      "phonetic": "/ˈkʌntrisaɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_017",
+      "word": "present",
+      "meaning": "颁发；展示",
+      "part_of_speech": "verb",
+      "phrase": [
+        "present an award",
+        "present to"
+      ],
+      "sentence": "They presented the award to the best singer.",
+      "phonetic": "/prɪˈzent/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_018",
+      "word": "winner",
+      "meaning": "获胜者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "award winner",
+        "prize winner"
+      ],
+      "sentence": "She was the winner of the singing competition.",
+      "phonetic": "/ˈwɪnər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_019",
+      "word": "composer",
+      "meaning": "作曲家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "famous composer",
+        "music composer"
+      ],
+      "sentence": "Mozart is a great composer.",
+      "phonetic": "/kəmˈpəʊzər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_020",
+      "word": "central",
+      "meaning": "中心的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "central idea",
+        "central park"
+      ],
+      "sentence": "Music is central to his life.",
+      "phonetic": "/ˈsentrəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_021",
+      "word": "pop",
+      "meaning": "流行音乐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "pop music",
+        "pop star"
+      ],
+      "sentence": "She is a famous pop singer.",
+      "phonetic": "/pɒp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_022",
+      "word": "jazz",
+      "meaning": "爵士乐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "jazz music",
+        "jazz band"
+      ],
+      "sentence": "I love listening to jazz.",
+      "phonetic": "/dʒæz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_023",
+      "word": "country",
+      "meaning": "乡村音乐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "country music",
+        "country song"
+      ],
+      "sentence": "Country music tells stories.",
+      "phonetic": "/ˈkʌntri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_024",
+      "word": "rock",
+      "meaning": "摇滚乐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "rock music",
+        "rock band"
+      ],
+      "sentence": "Rock music is very energetic.",
+      "phonetic": "/rɒk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit5_025",
+      "word": "folk",
+      "meaning": "民间的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "folk music",
+        "folk song"
+      ],
+      "sentence": "Chinese folk music has a long history.",
+      "phonetic": "/fəʊk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

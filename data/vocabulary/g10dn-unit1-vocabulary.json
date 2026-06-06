@@ -1,0 +1,382 @@
+{
+  "unit": "g10dn-unit1",
+  "unit_title": "The world of our senses",
+  "theme": "感官世界",
+  "vocabulary": [
+    {
+      "word_id": "g10dn_unit1_001",
+      "word": "sense",
+      "meaning": "感官",
+      "part_of_speech": "noun",
+      "phrase": [
+        "five senses",
+        "sense of smell"
+      ],
+      "sentence": "We have five senses.",
+      "phonetic": "/sens/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_002",
+      "word": "fog",
+      "meaning": "雾",
+      "part_of_speech": "noun",
+      "phrase": [
+        "thick fog",
+        "foggy weather"
+      ],
+      "sentence": "The fog was so thick I could not see.",
+      "phonetic": "/fɒɡ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_003",
+      "word": "observe",
+      "meaning": "观察",
+      "part_of_speech": "verb",
+      "phrase": [
+        "observe carefully",
+        "observe that"
+      ],
+      "sentence": "She observed a strange light in the sky.",
+      "phonetic": "/əbˈzɜːrv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_004",
+      "word": "glance",
+      "meaning": "一瞥",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at first glance",
+        "take a glance"
+      ],
+      "sentence": "At first glance, it looked like a cat.",
+      "phonetic": "/ɡlɑːns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_005",
+      "word": "nowhere",
+      "meaning": "无处",
+      "part_of_speech": "adv",
+      "phrase": [
+        "nowhere to be seen",
+        "out of nowhere"
+      ],
+      "sentence": "The sound seemed to come from nowhere.",
+      "phonetic": "/ˈnəʊweər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_006",
+      "word": "footstep",
+      "meaning": "脚步声",
+      "part_of_speech": "noun",
+      "phrase": [
+        "hear footsteps",
+        "heavy footstep"
+      ],
+      "sentence": "I heard footsteps behind me.",
+      "phonetic": "/ˈfʊtstep/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_007",
+      "word": "sight",
+      "meaning": "视力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sense of sight",
+        "lose your sight"
+      ],
+      "sentence": "Sight is our most important sense.",
+      "phonetic": "/saɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_008",
+      "word": "hearing",
+      "meaning": "听力",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sense of hearing",
+        "hearing loss"
+      ],
+      "sentence": "His hearing is not very good.",
+      "phonetic": "/ˈhɪərɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_009",
+      "word": "smell",
+      "meaning": "嗅觉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sense of smell",
+        "strong smell"
+      ],
+      "sentence": "Dogs have a very good sense of smell.",
+      "phonetic": "/smel/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_010",
+      "word": "touch",
+      "meaning": "触觉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sense of touch",
+        "soft to the touch"
+      ],
+      "sentence": "The sense of touch is important for babies.",
+      "phonetic": "/tʌtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_011",
+      "word": "taste",
+      "meaning": "味觉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "sense of taste",
+        "good taste"
+      ],
+      "sentence": "You lose your sense of taste when you have a cold.",
+      "phonetic": "/teɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_012",
+      "word": "bitter",
+      "meaning": "苦的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "bitter taste",
+        "bitter experience"
+      ],
+      "sentence": "The medicine tasted bitter.",
+      "phonetic": "/ˈbɪtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_013",
+      "word": "ignore",
+      "meaning": "忽视",
+      "part_of_speech": "verb",
+      "phrase": [
+        "ignore the warning",
+        "cannot ignore"
+      ],
+      "sentence": "Don't ignore your body's signals.",
+      "phonetic": "/ɪɡˈnɔːr/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_014",
+      "word": "anxious",
+      "meaning": "焦虑的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel anxious",
+        "anxious about"
+      ],
+      "sentence": "She felt anxious in the dark.",
+      "phonetic": "/ˈæŋkʃəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_015",
+      "word": "firmly",
+      "meaning": "坚定地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "hold firmly",
+        "believe firmly"
+      ],
+      "sentence": "She held my hand firmly.",
+      "phonetic": "/ˈfɜːrmli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_016",
+      "word": "panic",
+      "meaning": "恐慌",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "in a panic",
+        "don't panic"
+      ],
+      "sentence": "Don't panic. Stay calm.",
+      "phonetic": "/ˈpænɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_017",
+      "word": "relief",
+      "meaning": "放心",
+      "part_of_speech": "noun",
+      "phrase": [
+        "feel relief",
+        "to my relief"
+      ],
+      "sentence": "To my relief, I found my way home.",
+      "phonetic": "/rɪˈliːf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_018",
+      "word": "thunderstorm",
+      "meaning": "雷雨",
+      "part_of_speech": "noun",
+      "phrase": [
+        "severe thunderstorm",
+        "during a thunderstorm"
+      ],
+      "sentence": "The thunderstorm scared the little girl.",
+      "phonetic": "/ˈθʌndərstɔːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_019",
+      "word": "lightning",
+      "meaning": "闪电",
+      "part_of_speech": "noun",
+      "phrase": [
+        "flash of lightning",
+        "lightning strike"
+      ],
+      "sentence": "Lightning lit up the whole sky.",
+      "phonetic": "/ˈlaɪtnɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_020",
+      "word": "foggy",
+      "meaning": "有雾的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "foggy morning",
+        "foggy weather"
+      ],
+      "sentence": "It was a foggy morning in London.",
+      "phonetic": "/ˈfɒɡi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_021",
+      "word": "forecast",
+      "meaning": "预报",
+      "part_of_speech": "noun",
+      "phrase": [
+        "weather forecast",
+        "rain forecast"
+      ],
+      "sentence": "The weather forecast says it will rain.",
+      "phonetic": "/ˈfɔːrkɑːst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_022",
+      "word": "signal",
+      "meaning": "信号",
+      "part_of_speech": "noun",
+      "phrase": [
+        "traffic signal",
+        "send a signal"
+      ],
+      "sentence": "The brain receives signals from the senses.",
+      "phonetic": "/ˈsɪɡnəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_023",
+      "word": "whisper",
+      "meaning": "低语",
+      "part_of_speech": "verb",
+      "phrase": [
+        "whisper to",
+        "in a whisper"
+      ],
+      "sentence": "She whispered something in my ear.",
+      "phonetic": "/ˈwɪspər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_024",
+      "word": "distance",
+      "meaning": "距离",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the distance",
+        "long distance"
+      ],
+      "sentence": "I could see a light in the distance.",
+      "phonetic": "/ˈdɪstəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10dn_unit1_025",
+      "word": "stare",
+      "meaning": "盯着看",
+      "part_of_speech": "verb",
+      "phrase": [
+        "stare at",
+        "stare into space"
+      ],
+      "sentence": "He stared at me without saying a word.",
+      "phonetic": "/steər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

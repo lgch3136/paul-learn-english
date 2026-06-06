@@ -1,0 +1,357 @@
+{
+  "unit": "g7dn-unit2",
+  "unit_title": "Neighbours",
+  "theme": "邻里",
+  "vocabulary": [
+    {
+      "word_id": "g7dn_unit2_001",
+      "word": "neighbour",
+      "meaning": "邻居",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good neighbour"
+      ],
+      "sentence": "We have friendly neighbours.",
+      "phonetic": "/ˈneɪbə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_002",
+      "word": "community",
+      "meaning": "社区",
+      "part_of_speech": "noun",
+      "phrase": [
+        "community center"
+      ],
+      "sentence": "Let's go to the community center.",
+      "phonetic": "/kəˈmjuːnəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_003",
+      "word": "skill",
+      "meaning": "技能",
+      "part_of_speech": "noun",
+      "phrase": [
+        "useful skill"
+      ],
+      "sentence": "Learning English is a useful skill.",
+      "phonetic": "/skɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_004",
+      "word": "problem",
+      "meaning": "问题",
+      "part_of_speech": "noun",
+      "phrase": [
+        "solve a problem"
+      ],
+      "sentence": "Can you help me with this problem?",
+      "phonetic": "/ˈprɒbləm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_005",
+      "word": "engineer",
+      "meaning": "工程师",
+      "part_of_speech": "noun",
+      "phrase": [
+        "software engineer"
+      ],
+      "sentence": "My father is an engineer.",
+      "phonetic": "/ˌendʒɪˈnɪə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_006",
+      "word": "check",
+      "meaning": "检查",
+      "part_of_speech": "verb",
+      "phrase": [
+        "check the computer"
+      ],
+      "sentence": "Please check your answer.",
+      "phonetic": "/tʃek/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_007",
+      "word": "broken",
+      "meaning": "坏了的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "fix broken things"
+      ],
+      "sentence": "The window is broken.",
+      "phonetic": "/ˈbrəʊkən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_008",
+      "word": "fix",
+      "meaning": "修理",
+      "part_of_speech": "verb",
+      "phrase": [
+        "fix the bike"
+      ],
+      "sentence": "Can you fix my watch?",
+      "phonetic": "/fɪks/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_009",
+      "word": "college",
+      "meaning": "学院",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go to college"
+      ],
+      "sentence": "She wants to go to college.",
+      "phonetic": "/ˈkɒlɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_010",
+      "word": "volunteer",
+      "meaning": "志愿者",
+      "part_of_speech": "noun",
+      "phrase": [
+        "volunteer work"
+      ],
+      "sentence": "Many volunteers help in the community.",
+      "phonetic": "/ˌvɒlənˈtɪə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_011",
+      "word": "lucky",
+      "meaning": "幸运的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel lucky"
+      ],
+      "sentence": "You are so lucky!",
+      "phonetic": "/ˈlʌki/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_012",
+      "word": "notice",
+      "meaning": "注意到",
+      "part_of_speech": "verb",
+      "phrase": [
+        "notice sb doing"
+      ],
+      "sentence": "Did you notice anything strange?",
+      "phonetic": "/ˈnəʊtɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_013",
+      "word": "information",
+      "meaning": "信息",
+      "part_of_speech": "noun",
+      "phrase": [
+        "get information"
+      ],
+      "sentence": "Where can I get the information?",
+      "phonetic": "/ˌɪnfəˈmeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_014",
+      "word": "manager",
+      "meaning": "经理",
+      "part_of_speech": "noun",
+      "phrase": [
+        "office manager"
+      ],
+      "sentence": "The manager is busy now.",
+      "phonetic": "/ˈmænɪdʒə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_015",
+      "word": "office",
+      "meaning": "办公室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "post office"
+      ],
+      "sentence": "I work in an office.",
+      "phonetic": "/ˈɒfɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_016",
+      "word": "policeman",
+      "meaning": "警察",
+      "part_of_speech": "noun",
+      "phrase": [
+        "traffic policeman"
+      ],
+      "sentence": "The policeman helped us.",
+      "phonetic": "/pəˈliːsmən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_017",
+      "word": "station",
+      "meaning": "站",
+      "part_of_speech": "noun",
+      "phrase": [
+        "police station"
+      ],
+      "sentence": "Where is the police station?",
+      "phonetic": "/ˈsteɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_018",
+      "word": "anyone",
+      "meaning": "任何人",
+      "part_of_speech": "pron",
+      "phrase": [
+        "anyone else"
+      ],
+      "sentence": "Is there anyone at home?",
+      "phonetic": "/ˈeniwʌn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_019",
+      "word": "elder",
+      "meaning": "年长的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "elder brother"
+      ],
+      "sentence": "My elder sister is a teacher.",
+      "phonetic": "/ˈeldə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_020",
+      "word": "future",
+      "meaning": "未来",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the future"
+      ],
+      "sentence": "What do you want to do in the future?",
+      "phonetic": "/ˈfjuːtʃə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_021",
+      "word": "artist",
+      "meaning": "艺术家",
+      "part_of_speech": "noun",
+      "phrase": [
+        "famous artist"
+      ],
+      "sentence": "He wants to be an artist.",
+      "phonetic": "/ˈɑːtɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_022",
+      "word": "sound",
+      "meaning": "听起来",
+      "part_of_speech": "verb",
+      "phrase": [
+        "sound like"
+      ],
+      "sentence": "That sounds great!",
+      "phonetic": "/saʊnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_023",
+      "word": "sick",
+      "meaning": "生病的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel sick"
+      ],
+      "sentence": "She is looking after her sick mother.",
+      "phonetic": "/sɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_024",
+      "word": "worry",
+      "meaning": "担心",
+      "part_of_speech": "verb",
+      "phrase": [
+        "worry about"
+      ],
+      "sentence": "Don't worry about me.",
+      "phonetic": "/ˈwʌri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit2_025",
+      "word": "below",
+      "meaning": "在…下面",
+      "part_of_speech": "prep",
+      "phrase": [
+        "below zero"
+      ],
+      "sentence": "The temperature is below zero.",
+      "phonetic": "/bɪˈləʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "unit": "g9up-unit6",
+  "unit_title": "TV programmes",
+  "theme": "电视节目",
+  "vocabulary": [
+    {
+      "word_id": "g9up_unit6_001",
+      "word": "programme",
+      "meaning": "节目",
+      "part_of_speech": "noun",
+      "phrase": [
+        "TV programme",
+        "watch a programme"
+      ],
+      "sentence": "What is your favourite TV programme?",
+      "phonetic": "/ˈprəʊɡræm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_002",
+      "word": "comedy",
+      "meaning": "喜剧",
+      "part_of_speech": "noun",
+      "phrase": [
+        "situation comedy",
+        "comedy show"
+      ],
+      "sentence": "I like watching comedies.",
+      "phonetic": "/ˈkɒmədi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_003",
+      "word": "documentary",
+      "meaning": "纪录片",
+      "part_of_speech": "noun",
+      "phrase": [
+        "nature documentary",
+        "watch a documentary"
+      ],
+      "sentence": "This documentary is about wildlife.",
+      "phonetic": "/ˌdɒkjuˈmentri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_004",
+      "word": "real-life",
+      "meaning": "真实的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "real-life story",
+        "real-life event"
+      ],
+      "sentence": "It is based on a real-life story.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_005",
+      "word": "dialogue",
+      "meaning": "对话",
+      "part_of_speech": "noun",
+      "phrase": [
+        "TV dialogue",
+        "daily dialogue"
+      ],
+      "sentence": "The dialogue in the show is very natural.",
+      "phonetic": "/ˈdaɪəlɒɡ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_006",
+      "word": "up-to-date",
+      "meaning": "最新的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "up-to-date news",
+        "keep up-to-date"
+      ],
+      "sentence": "The news channel gives up-to-date information.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_007",
+      "word": "fan",
+      "meaning": "迷；粉丝",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a big fan of",
+        "sports fan"
+      ],
+      "sentence": "I'm a big fan of this show.",
+      "phonetic": "/fæn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_008",
+      "word": "announce",
+      "meaning": "宣布",
+      "part_of_speech": "verb",
+      "phrase": [
+        "announce that",
+        "announce the result"
+      ],
+      "sentence": "They announced the winner of the show.",
+      "phonetic": "/əˈnaʊns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_009",
+      "word": "text",
+      "meaning": "短信；文本",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "text message",
+        "send a text"
+      ],
+      "sentence": "You can text your vote to the show.",
+      "phonetic": "/tekst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_010",
+      "word": "vote",
+      "meaning": "投票",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "vote for",
+        "cast a vote"
+      ],
+      "sentence": "Millions of people voted online.",
+      "phonetic": "/vəʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_011",
+      "word": "murder",
+      "meaning": "谋杀",
+      "part_of_speech": "noun",
+      "phrase": [
+        "murder mystery",
+        "commit murder"
+      ],
+      "sentence": "The documentary is about a famous murder case.",
+      "phonetic": "/ˈmɜːrdər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_012",
+      "word": "horror",
+      "meaning": "恐怖",
+      "part_of_speech": "noun",
+      "phrase": [
+        "horror film",
+        "horror story"
+      ],
+      "sentence": "I don't like horror films.",
+      "phonetic": "/ˈhɒrər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_013",
+      "word": "director",
+      "meaning": "导演",
+      "part_of_speech": "noun",
+      "phrase": [
+        "film director",
+        "managing director"
+      ],
+      "sentence": "Who is the director of this show?",
+      "phonetic": "/dɪˈrektər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_014",
+      "word": "mystery",
+      "meaning": "神秘",
+      "part_of_speech": "noun",
+      "phrase": [
+        "murder mystery",
+        "solve a mystery"
+      ],
+      "sentence": "The mystery kept me guessing until the end.",
+      "phonetic": "/ˈmɪstri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_015",
+      "word": "scared",
+      "meaning": "害怕的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel scared",
+        "be scared of"
+      ],
+      "sentence": "I was scared watching the horror film.",
+      "phonetic": "/skeəd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_016",
+      "word": "attack",
+      "meaning": "攻击",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "attack suddenly",
+        "under attack"
+      ],
+      "sentence": "The animal attacked the hunter.",
+      "phonetic": "/əˈtæk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_017",
+      "word": "polar",
+      "meaning": "极地的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "polar bear",
+        "polar region"
+      ],
+      "sentence": "They filmed polar bears in the Arctic.",
+      "phonetic": "/ˈpəʊlər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_018",
+      "word": "studio",
+      "meaning": "演播室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "TV studio",
+        "recording studio"
+      ],
+      "sentence": "The show is filmed in a big studio.",
+      "phonetic": "/ˈstjuːdiəʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_019",
+      "word": "minibus",
+      "meaning": "小型公交车",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take a minibus",
+        "by minibus"
+      ],
+      "sentence": "We went to the studio by minibus.",
+      "phonetic": "/ˈmɪnibʌs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_020",
+      "word": "prize",
+      "meaning": "奖品",
+      "part_of_speech": "noun",
+      "phrase": [
+        "win a prize",
+        "first prize"
+      ],
+      "sentence": "The winner gets a big prize.",
+      "phonetic": "/praɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_021",
+      "word": "viewer",
+      "meaning": "观众",
+      "part_of_speech": "noun",
+      "phrase": [
+        "TV viewer",
+        "millions of viewers"
+      ],
+      "sentence": "The show has millions of viewers.",
+      "phonetic": "/ˈvjuːər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_022",
+      "word": "series",
+      "meaning": "系列节目",
+      "part_of_speech": "noun",
+      "phrase": [
+        "TV series",
+        "a series of"
+      ],
+      "sentence": "This is the final episode of the series.",
+      "phonetic": "/ˈsɪəriːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_023",
+      "word": "broadcast",
+      "meaning": "广播；播出",
+      "part_of_speech": "verb",
+      "phrase": [
+        "broadcast live",
+        "radio broadcast"
+      ],
+      "sentence": "The game is broadcast live on TV.",
+      "phonetic": "/ˈbrɔːdkɑːst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_024",
+      "word": "entertainment",
+      "meaning": "娱乐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "entertainment industry",
+        "for entertainment"
+      ],
+      "sentence": "TV is a form of entertainment.",
+      "phonetic": "/ˌentərˈteɪnmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit6_025",
+      "word": "celebrity",
+      "meaning": "名人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "TV celebrity",
+        "celebrity culture"
+      ],
+      "sentence": "Many celebrities appear on this show.",
+      "phonetic": "/səˈlebrəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

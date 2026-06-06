@@ -1,0 +1,382 @@
+{
+  "unit": "g7up-unit1",
+  "unit_title": "This is me!",
+  "theme": "自我介绍",
+  "vocabulary": [
+    {
+      "word_id": "g7up_1_001",
+      "word": "grade",
+      "meaning": "年级",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Grade 7",
+        "in grade"
+      ],
+      "sentence": "I am in Grade 7.",
+      "phonetic": "/ɡreɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_002",
+      "word": "student",
+      "meaning": "学生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a good student",
+        "high school student"
+      ],
+      "sentence": "She is a good student.",
+      "phonetic": "/ˈstjuːdnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_003",
+      "word": "reading",
+      "meaning": "阅读",
+      "part_of_speech": "noun",
+      "phrase": [
+        "reading club",
+        "love reading"
+      ],
+      "sentence": "I like reading books.",
+      "phonetic": "/ˈriːdɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_004",
+      "word": "classmate",
+      "meaning": "同班同学",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my classmate",
+        "new classmate"
+      ],
+      "sentence": "He is my classmate.",
+      "phonetic": "/ˈklɑːsmeɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_005",
+      "word": "after school",
+      "meaning": "放学后",
+      "part_of_speech": "phrase",
+      "phrase": [
+        "play after school"
+      ],
+      "sentence": "I play football after school.",
+      "phonetic": "/ˈɑːftə skuːl/",
+      "error_tags": [
+        "句序错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_006",
+      "word": "slim",
+      "meaning": "苗条的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "look slim",
+        "tall and slim"
+      ],
+      "sentence": "She is tall and slim.",
+      "phonetic": "/slɪm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_007",
+      "word": "dancing",
+      "meaning": "跳舞",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go dancing",
+        "love dancing"
+      ],
+      "sentence": "She enjoys dancing.",
+      "phonetic": "/ˈdɑːnsɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_008",
+      "word": "swimming",
+      "meaning": "游泳",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go swimming",
+        "swimming pool"
+      ],
+      "sentence": "We go swimming every Sunday.",
+      "phonetic": "/ˈswɪmɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_009",
+      "word": "age",
+      "meaning": "年龄",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at the age of",
+        "my age"
+      ],
+      "sentence": "What is your age?",
+      "phonetic": "/eɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_010",
+      "word": "cute",
+      "meaning": "可爱的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "a cute baby",
+        "look cute"
+      ],
+      "sentence": "The puppy is very cute.",
+      "phonetic": "/kjuːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_011",
+      "word": "hobby",
+      "meaning": "业余爱好",
+      "part_of_speech": "noun",
+      "phrase": [
+        "my hobby",
+        "have a hobby"
+      ],
+      "sentence": "My hobby is playing chess.",
+      "phonetic": "/ˈhɒbi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_012",
+      "word": "everyone",
+      "meaning": "每人",
+      "part_of_speech": "pron",
+      "phrase": [
+        "everyone here",
+        "hello everyone"
+      ],
+      "sentence": "Everyone likes the party.",
+      "phonetic": "/ˈevriwʌn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_013",
+      "word": "glasses",
+      "meaning": "眼镜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "wear glasses",
+        "a pair of glasses"
+      ],
+      "sentence": "She wears glasses.",
+      "phonetic": "/ˈɡlɑːsɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_014",
+      "word": "introduce",
+      "meaning": "介绍",
+      "part_of_speech": "verb",
+      "phrase": [
+        "introduce myself",
+        "introduce A to B"
+      ],
+      "sentence": "Let me introduce myself.",
+      "phonetic": "/ˌɪntrəˈdjuːs/",
+      "error_tags": [
+        "拼写错",
+        "动词形式错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_015",
+      "word": "master",
+      "meaning": "掌握",
+      "part_of_speech": "verb",
+      "phrase": [
+        "master English",
+        "master a skill"
+      ],
+      "sentence": "I want to master English.",
+      "phonetic": "/ˈmɑːstə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_016",
+      "word": "look after",
+      "meaning": "照顾",
+      "part_of_speech": "phrase",
+      "phrase": [
+        "look after pets",
+        "look after yourself"
+      ],
+      "sentence": "She looks after her sister.",
+      "phonetic": "/lʊk ˈɑːftə/",
+      "error_tags": [
+        "句序错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_017",
+      "word": "be born",
+      "meaning": "出生",
+      "part_of_speech": "phrase",
+      "phrase": [
+        "be born in",
+        "was born"
+      ],
+      "sentence": "I was born in Shanghai.",
+      "phonetic": "/biː bɔːn/",
+      "error_tags": [
+        "动词形式错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_018",
+      "word": "come from",
+      "meaning": "来自",
+      "part_of_speech": "phrase",
+      "phrase": [
+        "come from China",
+        "where do you come from"
+      ],
+      "sentence": "I come from Nanjing.",
+      "phonetic": "/kʌm frɒm/",
+      "error_tags": [
+        "句序错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_019",
+      "word": "wear",
+      "meaning": "穿",
+      "part_of_speech": "verb",
+      "phrase": [
+        "wear a coat",
+        "wear glasses"
+      ],
+      "sentence": "He wears a blue shirt.",
+      "phonetic": "/weə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_020",
+      "word": "shy",
+      "meaning": "害羞的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel shy",
+        "a shy girl"
+      ],
+      "sentence": "Don't be shy.",
+      "phonetic": "/ʃaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_021",
+      "word": "friendly",
+      "meaning": "友好的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be friendly to",
+        "a friendly smile"
+      ],
+      "sentence": "Our teacher is very friendly.",
+      "phonetic": "/ˈfrendli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_022",
+      "word": "helpful",
+      "meaning": "有帮助的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be helpful",
+        "helpful advice"
+      ],
+      "sentence": "This book is very helpful.",
+      "phonetic": "/ˈhelpfl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_023",
+      "word": "polite",
+      "meaning": "有礼貌的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be polite",
+        "polite words"
+      ],
+      "sentence": "It's polite to say thank you.",
+      "phonetic": "/pəˈlaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_024",
+      "word": "honest",
+      "meaning": "诚实的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "an honest person",
+        "be honest"
+      ],
+      "sentence": "He is an honest boy.",
+      "phonetic": "/ˈɒnɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_1_025",
+      "word": "patient",
+      "meaning": "耐心的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be patient",
+        "patient teacher"
+      ],
+      "sentence": "You need to be patient.",
+      "phonetic": "/ˈpeɪʃnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

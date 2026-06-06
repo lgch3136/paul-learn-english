@@ -1,0 +1,382 @@
+{
+  "unit": "g11up-unit6",
+  "unit_title": "Understanding each other",
+  "theme": "文化理解",
+  "vocabulary": [
+    {
+      "word_id": "g11up_unit6_001",
+      "word": "cultural",
+      "meaning": "文化的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "cultural difference",
+        "cultural exchange"
+      ],
+      "sentence": "Cultural differences can cause misunderstandings.",
+      "phonetic": "/ˈkʌltʃərəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_002",
+      "word": "difference",
+      "meaning": "差异",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural difference",
+        "make a difference"
+      ],
+      "sentence": "We should respect our differences.",
+      "phonetic": "/ˈdɪfrəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_003",
+      "word": "celebrate",
+      "meaning": "庆祝；赞美",
+      "part_of_speech": "verb",
+      "phrase": [
+        "celebrate diversity",
+        "celebrate a festival"
+      ],
+      "sentence": "We should celebrate cultural diversity.",
+      "phonetic": "/ˈselɪbreɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_004",
+      "word": "diversity",
+      "meaning": "多样性",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural diversity",
+        "biological diversity"
+      ],
+      "sentence": "Diversity makes our world beautiful.",
+      "phonetic": "/daɪˈvɜːrsəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_005",
+      "word": "tradition",
+      "meaning": "传统",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural tradition",
+        "follow tradition"
+      ],
+      "sentence": "Every culture has its own traditions.",
+      "phonetic": "/trəˈdɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_006",
+      "word": "custom",
+      "meaning": "习俗",
+      "part_of_speech": "noun",
+      "phrase": [
+        "local custom",
+        "social custom"
+      ],
+      "sentence": "It is a custom to take off shoes before entering.",
+      "phonetic": "/ˈkʌstəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_007",
+      "word": "minority",
+      "meaning": "少数民族",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ethnic minority",
+        "minority group"
+      ],
+      "sentence": "China has 55 ethnic minorities.",
+      "phonetic": "/maɪˈnɒrəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_008",
+      "word": "ethnic",
+      "meaning": "民族的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "ethnic group",
+        "ethnic minority"
+      ],
+      "sentence": "There are many ethnic groups in Yunnan.",
+      "phonetic": "/ˈeθnɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_009",
+      "word": "religion",
+      "meaning": "宗教",
+      "part_of_speech": "noun",
+      "phrase": [
+        "respect religion",
+        "freedom of religion"
+      ],
+      "sentence": "We should respect all religions.",
+      "phonetic": "/rɪˈlɪdʒən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_010",
+      "word": "prejudice",
+      "meaning": "偏见",
+      "part_of_speech": "noun",
+      "phrase": [
+        "racial prejudice",
+        "without prejudice"
+      ],
+      "sentence": "Don't judge others with prejudice.",
+      "phonetic": "/ˈpredʒədɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_011",
+      "word": "stereotype",
+      "meaning": "刻板印象",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural stereotype",
+        "break stereotypes"
+      ],
+      "sentence": "Don't believe in stereotypes.",
+      "phonetic": "/ˈsteriətaɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_012",
+      "word": "tolerance",
+      "meaning": "宽容",
+      "part_of_speech": "noun",
+      "phrase": [
+        "religious tolerance",
+        "show tolerance"
+      ],
+      "sentence": "Tolerance is important for peace.",
+      "phonetic": "/ˈtɒlərəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_013",
+      "word": "harmony",
+      "meaning": "和谐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "live in harmony",
+        "social harmony"
+      ],
+      "sentence": "Different cultures can live in harmony.",
+      "phonetic": "/ˈhɑːrməni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_014",
+      "word": "integrate",
+      "meaning": "融合",
+      "part_of_speech": "verb",
+      "phrase": [
+        "integrate into",
+        "integrate with"
+      ],
+      "sentence": "Immigrants try to integrate into society.",
+      "phonetic": "/ˈɪntɪɡreɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_015",
+      "word": "global",
+      "meaning": "全球的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "global village",
+        "global issue"
+      ],
+      "sentence": "We all live in a global village.",
+      "phonetic": "/ˈɡləʊbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_016",
+      "word": "respect",
+      "meaning": "尊重",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "show respect",
+        "mutual respect"
+      ],
+      "sentence": "Mutual respect is the basis of understanding.",
+      "phonetic": "/rɪˈspekt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_017",
+      "word": "communicate",
+      "meaning": "交流",
+      "part_of_speech": "verb",
+      "phrase": [
+        "communicate with",
+        "communicate effectively"
+      ],
+      "sentence": "We should learn to communicate better.",
+      "phonetic": "/kəˈmjuːnɪkeɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_018",
+      "word": "misunderstanding",
+      "meaning": "误解",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cause misunderstanding",
+        "clear up a misunderstanding"
+      ],
+      "sentence": "Most conflicts come from misunderstanding.",
+      "phonetic": "/ˌmɪsʌndərˈstændɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_019",
+      "word": "barrier",
+      "meaning": "障碍",
+      "part_of_speech": "noun",
+      "phrase": [
+        "language barrier",
+        "cultural barrier"
+      ],
+      "sentence": "Language is sometimes a barrier.",
+      "phonetic": "/ˈbæriər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_020",
+      "word": "perspective",
+      "meaning": "视角",
+      "part_of_speech": "noun",
+      "phrase": [
+        "different perspective",
+        "from my perspective"
+      ],
+      "sentence": "Try to see things from another perspective.",
+      "phonetic": "/pərˈspektɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_021",
+      "word": "empathy",
+      "meaning": "同情心",
+      "part_of_speech": "noun",
+      "phrase": [
+        "show empathy",
+        "feel empathy for"
+      ],
+      "sentence": "Empathy helps us understand others.",
+      "phonetic": "/ˈempəθi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_022",
+      "word": "exchange",
+      "meaning": "交流",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural exchange",
+        "exchange program"
+      ],
+      "sentence": "Exchange programs bring cultures together.",
+      "phonetic": "/ɪksˈtʃeɪndʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_023",
+      "word": "adapt",
+      "meaning": "适应",
+      "part_of_speech": "verb",
+      "phrase": [
+        "adapt to",
+        "adapt yourself"
+      ],
+      "sentence": "You need to adapt to a new culture.",
+      "phonetic": "/əˈdæpt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_024",
+      "word": "heritage",
+      "meaning": "遗产",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural heritage",
+        "world heritage"
+      ],
+      "sentence": "Protecting cultural heritage is our duty.",
+      "phonetic": "/ˈherɪtɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit6_025",
+      "word": "identity",
+      "meaning": "身份",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural identity",
+        "personal identity"
+      ],
+      "sentence": "Your cultural identity is part of who you are.",
+      "phonetic": "/aɪˈdentəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

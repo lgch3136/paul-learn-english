@@ -1,0 +1,357 @@
+{
+  "unit": "g7up-unit4",
+  "unit_title": "My day",
+  "theme": "日常生活",
+  "vocabulary": [
+    {
+      "word_id": "g7up_unit4_001",
+      "word": "wake",
+      "meaning": "醒来",
+      "part_of_speech": "verb",
+      "phrase": [
+        "wake up"
+      ],
+      "sentence": "I wake up at 6 every morning.",
+      "phonetic": "/weɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_002",
+      "word": "seldom",
+      "meaning": "很少",
+      "part_of_speech": "adv",
+      "phrase": [
+        "seldom do"
+      ],
+      "sentence": "I seldom watch TV.",
+      "phonetic": "/ˈseldəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_003",
+      "word": "need",
+      "meaning": "需要",
+      "part_of_speech": "verb",
+      "phrase": [
+        "need to do"
+      ],
+      "sentence": "You need to rest now.",
+      "phonetic": "/niːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_004",
+      "word": "rest",
+      "meaning": "休息",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have a rest"
+      ],
+      "sentence": "Let's have a short rest.",
+      "phonetic": "/rest/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_005",
+      "word": "activity",
+      "meaning": "活动",
+      "part_of_speech": "noun",
+      "phrase": [
+        "after-school activity"
+      ],
+      "sentence": "We have many activities.",
+      "phonetic": "/ækˈtɪvəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_006",
+      "word": "homework",
+      "meaning": "家庭作业",
+      "part_of_speech": "noun",
+      "phrase": [
+        "do homework"
+      ],
+      "sentence": "I do my homework after dinner.",
+      "phonetic": "/ˈhəʊmwɜːk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_007",
+      "word": "quarter",
+      "meaning": "一刻钟",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a quarter past"
+      ],
+      "sentence": "It's a quarter past eight.",
+      "phonetic": "/ˈkwɔːtə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_008",
+      "word": "past",
+      "meaning": "经过",
+      "part_of_speech": "prep",
+      "phrase": [
+        "half past"
+      ],
+      "sentence": "It's half past two.",
+      "phonetic": "/pɑːst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_009",
+      "word": "never",
+      "meaning": "从不",
+      "part_of_speech": "adv",
+      "phrase": [
+        "never give up"
+      ],
+      "sentence": "I never eat junk food.",
+      "phonetic": "/ˈnevə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_010",
+      "word": "reason",
+      "meaning": "原因",
+      "part_of_speech": "noun",
+      "phrase": [
+        "the reason why"
+      ],
+      "sentence": "That's the reason.",
+      "phonetic": "/ˈriːzn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_011",
+      "word": "ready",
+      "meaning": "准备好的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "get ready"
+      ],
+      "sentence": "Are you ready for class?",
+      "phonetic": "/ˈredi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_012",
+      "word": "learn",
+      "meaning": "学习",
+      "part_of_speech": "verb",
+      "phrase": [
+        "learn about"
+      ],
+      "sentence": "We learn a lot at school.",
+      "phonetic": "/lɜːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_013",
+      "word": "world",
+      "meaning": "世界",
+      "part_of_speech": "noun",
+      "phrase": [
+        "all over the world"
+      ],
+      "sentence": "The world is beautiful.",
+      "phonetic": "/wɜːld/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_014",
+      "word": "chat",
+      "meaning": "聊天",
+      "part_of_speech": "verb",
+      "phrase": [
+        "chat with"
+      ],
+      "sentence": "We often chat after class.",
+      "phonetic": "/tʃæt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_015",
+      "word": "each other",
+      "meaning": "互相",
+      "part_of_speech": "phrase",
+      "phrase": [
+        "help each other"
+      ],
+      "sentence": "We should help each other.",
+      "phonetic": "/iːtʃ ˈʌðə/",
+      "error_tags": [
+        "句序错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_016",
+      "word": "spend",
+      "meaning": "花费",
+      "part_of_speech": "verb",
+      "phrase": [
+        "spend time"
+      ],
+      "sentence": "I spend two hours on homework.",
+      "phonetic": "/spend/",
+      "error_tags": [
+        "动词形式错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_017",
+      "word": "practise",
+      "meaning": "练习",
+      "part_of_speech": "verb",
+      "phrase": [
+        "practise English"
+      ],
+      "sentence": "You must practise every day.",
+      "phonetic": "/ˈpræktɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_018",
+      "word": "wish",
+      "meaning": "祝愿",
+      "part_of_speech": "verb",
+      "phrase": [
+        "wish you luck"
+      ],
+      "sentence": "I wish you a happy birthday.",
+      "phonetic": "/wɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_019",
+      "word": "luck",
+      "meaning": "运气",
+      "part_of_speech": "noun",
+      "phrase": [
+        "good luck"
+      ],
+      "sentence": "Good luck with your exam!",
+      "phonetic": "/lʌk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_020",
+      "word": "start",
+      "meaning": "开始",
+      "part_of_speech": "verb",
+      "phrase": [
+        "start to do"
+      ],
+      "sentence": "Classes start at 8 am.",
+      "phonetic": "/stɑːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_021",
+      "word": "would like",
+      "meaning": "想要",
+      "part_of_speech": "phrase",
+      "phrase": [
+        "would like to do"
+      ],
+      "sentence": "I would like a cup of tea.",
+      "phonetic": "/wʊd laɪk/",
+      "error_tags": [
+        "句序错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_022",
+      "word": "life",
+      "meaning": "生活",
+      "part_of_speech": "noun",
+      "phrase": [
+        "school life"
+      ],
+      "sentence": "School life is fun.",
+      "phonetic": "/laɪf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_023",
+      "word": "twice a week",
+      "meaning": "一周两次",
+      "part_of_speech": "phrase",
+      "phrase": [
+        "exercise twice a week"
+      ],
+      "sentence": "I play tennis twice a week.",
+      "phonetic": "/twaɪs ə wiːk/",
+      "error_tags": [
+        "句序错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_024",
+      "word": "roller skating",
+      "meaning": "轮滑",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go roller skating"
+      ],
+      "sentence": "I love roller skating.",
+      "phonetic": "/ˈrəʊlə ˈskeɪtɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit4_025",
+      "word": "picnic",
+      "meaning": "野餐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "have a picnic"
+      ],
+      "sentence": "We'll have a picnic on Sunday.",
+      "phonetic": "/ˈpɪknɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

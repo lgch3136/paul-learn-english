@@ -1,0 +1,382 @@
+{
+  "unit": "g11up-unit2",
+  "unit_title": "The environment",
+  "theme": "环境保护",
+  "vocabulary": [
+    {
+      "word_id": "g11up_unit2_001",
+      "word": "environmental",
+      "meaning": "环境的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "environmental protection",
+        "environmental problem"
+      ],
+      "sentence": "Environmental issues are serious.",
+      "phonetic": "/ɪnˌvaɪrənˈmentl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_002",
+      "word": "atmosphere",
+      "meaning": "大气层",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Earth's atmosphere",
+        "polluted atmosphere"
+      ],
+      "sentence": "The atmosphere is getting warmer.",
+      "phonetic": "/ˈætməsfɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_003",
+      "word": "carbon",
+      "meaning": "碳",
+      "part_of_speech": "noun",
+      "phrase": [
+        "carbon dioxide",
+        "carbon emission"
+      ],
+      "sentence": "We need to reduce carbon emissions.",
+      "phonetic": "/ˈkɑːrbən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_004",
+      "word": "dioxide",
+      "meaning": "二氧化物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "carbon dioxide",
+        "sulphur dioxide"
+      ],
+      "sentence": "Carbon dioxide causes global warming.",
+      "phonetic": "/daɪˈɒksaɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_005",
+      "word": "pollutant",
+      "meaning": "污染物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "air pollutant",
+        "chemical pollutant"
+      ],
+      "sentence": "Factories release pollutants into the air.",
+      "phonetic": "/pəˈluːtənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_006",
+      "word": "deforestation",
+      "meaning": "森林砍伐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "tropical deforestation",
+        "cause deforestation"
+      ],
+      "sentence": "Deforestation destroys animal habitats.",
+      "phonetic": "/ˌdiːˌfɒrɪˈsteɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_007",
+      "word": "consequence",
+      "meaning": "后果",
+      "part_of_speech": "noun",
+      "phrase": [
+        "serious consequence",
+        "face the consequence"
+      ],
+      "sentence": "Pollution has serious consequences.",
+      "phonetic": "/ˈkɒnsɪkwəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_008",
+      "word": "flood",
+      "meaning": "洪水",
+      "part_of_speech": "noun",
+      "phrase": [
+        "severe flood",
+        "flood control"
+      ],
+      "sentence": "Heavy rain caused floods.",
+      "phonetic": "/flʌd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_009",
+      "word": "drought",
+      "meaning": "干旱",
+      "part_of_speech": "noun",
+      "phrase": [
+        "severe drought",
+        "suffer from drought"
+      ],
+      "sentence": "The drought lasted for two years.",
+      "phonetic": "/draʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_010",
+      "word": "famine",
+      "meaning": "饥荒",
+      "part_of_speech": "noun",
+      "phrase": [
+        "food famine",
+        "suffer from famine"
+      ],
+      "sentence": "Drought can lead to famine.",
+      "phonetic": "/ˈfæmɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_011",
+      "word": "starvation",
+      "meaning": "饥饿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "die of starvation",
+        "face starvation"
+      ],
+      "sentence": "Many people face starvation every year.",
+      "phonetic": "/stɑːrˈveɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_012",
+      "word": "catastrophe",
+      "meaning": "灾难",
+      "part_of_speech": "noun",
+      "phrase": [
+        "environmental catastrophe",
+        "major catastrophe"
+      ],
+      "sentence": "Climate change could cause a catastrophe.",
+      "phonetic": "/kəˈtæstrəfi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_013",
+      "word": "irrigation",
+      "meaning": "灌溉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "irrigation system",
+        "water for irrigation"
+      ],
+      "sentence": "Irrigation helps farmers grow crops.",
+      "phonetic": "/ˌɪrɪˈɡeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_014",
+      "word": "sandstorm",
+      "meaning": "沙尘暴",
+      "part_of_speech": "noun",
+      "phrase": [
+        "severe sandstorm",
+        "sandstorm warning"
+      ],
+      "sentence": "Sandstorms are common in spring.",
+      "phonetic": "/ˈsændstɔːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_015",
+      "word": "desertification",
+      "meaning": "沙漠化",
+      "part_of_speech": "noun",
+      "phrase": [
+        "land desertification",
+        "prevent desertification"
+      ],
+      "sentence": "Desertification is a big problem in some areas.",
+      "phonetic": "/dɪˌzɜːrtɪfɪˈkeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_016",
+      "word": "renewable",
+      "meaning": "可再生的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "renewable energy",
+        "renewable resource"
+      ],
+      "sentence": "Solar power is a renewable energy source.",
+      "phonetic": "/rɪˈnjuːəbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_017",
+      "word": "sustainable",
+      "meaning": "可持续的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "sustainable development",
+        "sustainable future"
+      ],
+      "sentence": "We need sustainable solutions.",
+      "phonetic": "/səˈsteɪnəbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_018",
+      "word": "conservation",
+      "meaning": "保护",
+      "part_of_speech": "noun",
+      "phrase": [
+        "nature conservation",
+        "water conservation"
+      ],
+      "sentence": "Conservation of forests is important.",
+      "phonetic": "/ˌkɒnsərˈveɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_019",
+      "word": "biodegradable",
+      "meaning": "可生物降解的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "biodegradable material",
+        "biodegradable plastic"
+      ],
+      "sentence": "Use biodegradable bags.",
+      "phonetic": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_020",
+      "word": "ecosystem",
+      "meaning": "生态系统",
+      "part_of_speech": "noun",
+      "phrase": [
+        "marine ecosystem",
+        "damage the ecosystem"
+      ],
+      "sentence": "Pollution damages the ecosystem.",
+      "phonetic": "/ˈiːkəʊsɪstəm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_021",
+      "word": "species",
+      "meaning": "物种",
+      "part_of_speech": "noun",
+      "phrase": [
+        "endangered species",
+        "rare species"
+      ],
+      "sentence": "Many species are dying out.",
+      "phonetic": "/ˈspiːʃiːz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_022",
+      "word": "habitat",
+      "meaning": "栖息地",
+      "part_of_speech": "noun",
+      "phrase": [
+        "natural habitat",
+        "destroy habitats"
+      ],
+      "sentence": "Deforestation destroys animal habitats.",
+      "phonetic": "/ˈhæbɪtæt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_023",
+      "word": "greenhouse",
+      "meaning": "温室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "greenhouse effect",
+        "greenhouse gas"
+      ],
+      "sentence": "The greenhouse effect causes global warming.",
+      "phonetic": "/ˈɡriːnhaʊs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_024",
+      "word": "emission",
+      "meaning": "排放",
+      "part_of_speech": "noun",
+      "phrase": [
+        "carbon emission",
+        "reduce emissions"
+      ],
+      "sentence": "Factories should reduce emissions.",
+      "phonetic": "/iˈmɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit2_025",
+      "word": "climate",
+      "meaning": "气候",
+      "part_of_speech": "noun",
+      "phrase": [
+        "climate change",
+        "tropical climate"
+      ],
+      "sentence": "Climate change is a global challenge.",
+      "phonetic": "/ˈklaɪmət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

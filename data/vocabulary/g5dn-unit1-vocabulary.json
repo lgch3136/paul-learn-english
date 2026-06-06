@@ -1,0 +1,382 @@
+{
+  "unit": "g5dn-unit1",
+  "unit_title": "What do you do?",
+  "theme": "职业与日常活动",
+  "vocabulary": [
+    {
+      "word_id": "g5dn_unit1_001",
+      "word": "teacher",
+      "meaning": "老师",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a good teacher",
+        "English teacher"
+      ],
+      "sentence": "My mother is a teacher.",
+      "phonetic": "/ˈtiːtʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_002",
+      "word": "doctor",
+      "meaning": "医生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "see a doctor",
+        "family doctor"
+      ],
+      "sentence": "He wants to be a doctor.",
+      "phonetic": "/ˈdɒktər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_003",
+      "word": "nurse",
+      "meaning": "护士",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a kind nurse",
+        "head nurse"
+      ],
+      "sentence": "The nurse helps patients.",
+      "phonetic": "/nɜːrs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_004",
+      "word": "driver",
+      "meaning": "司机",
+      "part_of_speech": "noun",
+      "phrase": [
+        "bus driver",
+        "taxi driver"
+      ],
+      "sentence": "My father is a driver.",
+      "phonetic": "/ˈdraɪvər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_005",
+      "word": "cook",
+      "meaning": "厨师；烹饪",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "cook dinner",
+        "a good cook"
+      ],
+      "sentence": "She can cook very well.",
+      "phonetic": "/kʊk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_006",
+      "word": "farmer",
+      "meaning": "农民",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a hardworking farmer",
+        "on the farm"
+      ],
+      "sentence": "The farmer grows rice.",
+      "phonetic": "/ˈfɑːrmər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_007",
+      "word": "worker",
+      "meaning": "工人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "factory worker",
+        "hard worker"
+      ],
+      "sentence": "He is a factory worker.",
+      "phonetic": "/ˈwɜːrkər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_008",
+      "word": "policeman",
+      "meaning": "警察",
+      "part_of_speech": "noun",
+      "phrase": [
+        "traffic policeman",
+        "call the police"
+      ],
+      "sentence": "The policeman helps people.",
+      "phonetic": "/pəˈliːsmən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_009",
+      "word": "firefighter",
+      "meaning": "消防员",
+      "part_of_speech": "noun",
+      "phrase": [
+        "brave firefighter",
+        "fire station"
+      ],
+      "sentence": "The firefighter saved a child.",
+      "phonetic": "/ˈfaɪərfaɪtər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_010",
+      "word": "job",
+      "meaning": "工作",
+      "part_of_speech": "noun",
+      "phrase": [
+        "get a job",
+        "part-time job"
+      ],
+      "sentence": "What is your job?",
+      "phonetic": "/dʒɒb/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_011",
+      "word": "work",
+      "meaning": "工作",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "work hard",
+        "go to work"
+      ],
+      "sentence": "I work in a hospital.",
+      "phonetic": "/wɜːrk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_012",
+      "word": "help",
+      "meaning": "帮助",
+      "part_of_speech": "verb",
+      "phrase": [
+        "help others",
+        "with help"
+      ],
+      "sentence": "Can you help me?",
+      "phonetic": "/help/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_013",
+      "word": "sick",
+      "meaning": "生病的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "sick people",
+        "feel sick"
+      ],
+      "sentence": "She is taking care of sick people.",
+      "phonetic": "/sɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_014",
+      "word": "people",
+      "meaning": "人们",
+      "part_of_speech": "noun",
+      "phrase": [
+        "many people",
+        "young people"
+      ],
+      "sentence": "People here are friendly.",
+      "phonetic": "/ˈpiːpl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_015",
+      "word": "hospital",
+      "meaning": "医院",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in hospital",
+        "go to hospital"
+      ],
+      "sentence": "He works in a hospital.",
+      "phonetic": "/ˈhɒspɪtl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_016",
+      "word": "factory",
+      "meaning": "工厂",
+      "part_of_speech": "noun",
+      "phrase": [
+        "car factory",
+        "in a factory"
+      ],
+      "sentence": "The factory makes toys.",
+      "phonetic": "/ˈfæktri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_017",
+      "word": "office",
+      "meaning": "办公室",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the office",
+        "post office"
+      ],
+      "sentence": "She works in an office.",
+      "phonetic": "/ˈɒfɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_018",
+      "word": "farm",
+      "meaning": "农场",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the farm",
+        "farm animals"
+      ],
+      "sentence": "There are many animals on the farm.",
+      "phonetic": "/fɑːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_019",
+      "word": "drive",
+      "meaning": "驾驶",
+      "part_of_speech": "verb",
+      "phrase": [
+        "drive a car",
+        "drive to work"
+      ],
+      "sentence": "He can drive a bus.",
+      "phonetic": "/draɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_020",
+      "word": "teach",
+      "meaning": "教",
+      "part_of_speech": "verb",
+      "phrase": [
+        "teach English",
+        "teach students"
+      ],
+      "sentence": "She teaches us math.",
+      "phonetic": "/tiːtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_021",
+      "word": "make",
+      "meaning": "制作",
+      "part_of_speech": "verb",
+      "phrase": [
+        "make cakes",
+        "make friends"
+      ],
+      "sentence": "I like making model planes.",
+      "phonetic": "/meɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_022",
+      "word": "do",
+      "meaning": "做",
+      "part_of_speech": "verb",
+      "phrase": [
+        "do homework",
+        "do housework"
+      ],
+      "sentence": "What do you do?",
+      "phonetic": "/duː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_023",
+      "word": "different",
+      "meaning": "不同的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "different kinds",
+        "be different from"
+      ],
+      "sentence": "People have different jobs.",
+      "phonetic": "/ˈdɪfrənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_024",
+      "word": "interesting",
+      "meaning": "有趣的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "an interesting job",
+        "very interesting"
+      ],
+      "sentence": "His job sounds interesting.",
+      "phonetic": "/ˈɪntrəstɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g5dn_unit1_025",
+      "word": "important",
+      "meaning": "重要的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "very important",
+        "important job"
+      ],
+      "sentence": "Every job is important.",
+      "phonetic": "/ɪmˈpɔːrtnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

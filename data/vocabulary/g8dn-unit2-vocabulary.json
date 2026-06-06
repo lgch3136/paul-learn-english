@@ -1,0 +1,382 @@
+{
+  "unit": "g8dn-unit2",
+  "unit_title": "Travelling",
+  "theme": "旅行与度假",
+  "vocabulary": [
+    {
+      "word_id": "g8dn_unit2_001",
+      "word": "travelling",
+      "meaning": "旅行",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go travelling",
+        "love travelling"
+      ],
+      "sentence": "Travelling is my hobby.",
+      "phonetic": "/ˈtrævlɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_002",
+      "word": "beach",
+      "meaning": "海滩",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the beach",
+        "sandy beach"
+      ],
+      "sentence": "We played on the beach.",
+      "phonetic": "/biːtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_003",
+      "word": "seaside",
+      "meaning": "海边",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at the seaside",
+        "seaside town"
+      ],
+      "sentence": "We spent summer at the seaside.",
+      "phonetic": "/ˈsiːsaɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_004",
+      "word": "sailing",
+      "meaning": "帆船运动",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go sailing",
+        "sailing boat"
+      ],
+      "sentence": "I tried sailing for the first time.",
+      "phonetic": "/ˈseɪlɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_005",
+      "word": "theme park",
+      "meaning": "主题公园",
+      "part_of_speech": "noun",
+      "phrase": [
+        "visit a theme park",
+        "Disney theme park"
+      ],
+      "sentence": "The theme park was amazing!",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_006",
+      "word": "roller coaster",
+      "meaning": "过山车",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ride a roller coaster",
+        "on the roller coaster"
+      ],
+      "sentence": "The roller coaster was so exciting!",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_007",
+      "word": "magic",
+      "meaning": "魔法",
+      "part_of_speech": "noun/adj",
+      "phrase": [
+        "magic show",
+        "magic trick"
+      ],
+      "sentence": "The show was full of magic.",
+      "phonetic": "/ˈmædʒɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_008",
+      "word": "couple",
+      "meaning": "一对；夫妻",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a couple of",
+        "married couple"
+      ],
+      "sentence": "A couple of days later, we went to Paris.",
+      "phonetic": "/ˈkʌpl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_009",
+      "word": "castle",
+      "meaning": "城堡",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fairy-tale castle",
+        "old castle"
+      ],
+      "sentence": "We visited an old castle.",
+      "phonetic": "/ˈkɑːsl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_010",
+      "word": "sand",
+      "meaning": "沙子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on the sand",
+        "sand castle"
+      ],
+      "sentence": "The sand was soft and white.",
+      "phonetic": "/sænd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_011",
+      "word": "speed",
+      "meaning": "速度",
+      "part_of_speech": "noun",
+      "phrase": [
+        "at high speed",
+        "speed up"
+      ],
+      "sentence": "The train moved at high speed.",
+      "phonetic": "/spiːd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_012",
+      "word": "ride",
+      "meaning": "乘坐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take a ride",
+        "bike ride"
+      ],
+      "sentence": "Let's take a ride on the merry-go-round.",
+      "phonetic": "/raɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_013",
+      "word": "cartoon",
+      "meaning": "卡通",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cartoon character",
+        "watch cartoons"
+      ],
+      "sentence": "I love Disney cartoons.",
+      "phonetic": "/kɑːrˈtuːn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_014",
+      "word": "character",
+      "meaning": "角色",
+      "part_of_speech": "noun",
+      "phrase": [
+        "main character",
+        "cartoon character"
+      ],
+      "sentence": "Mickey Mouse is my favourite character.",
+      "phonetic": "/ˈkærəktər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_015",
+      "word": "parade",
+      "meaning": "游行",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Disney parade",
+        "watch a parade"
+      ],
+      "sentence": "We watched the Magic Parade.",
+      "phonetic": "/pəˈreɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_016",
+      "word": "mount",
+      "meaning": "山",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Mount Tai",
+        "climb the mount"
+      ],
+      "sentence": "We climbed Mount Huang.",
+      "phonetic": "/maʊnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_017",
+      "word": "except",
+      "meaning": "除了",
+      "part_of_speech": "prep",
+      "phrase": [
+        "except for",
+        "except that"
+      ],
+      "sentence": "Everyone went except me.",
+      "phonetic": "/ɪkˈsept/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_018",
+      "word": "business",
+      "meaning": "商务",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on business",
+        "do business"
+      ],
+      "sentence": "My dad went to Shanghai on business.",
+      "phonetic": "/ˈbɪznəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_019",
+      "word": "direct",
+      "meaning": "直接的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "direct flight",
+        "direct to"
+      ],
+      "sentence": "Is there a direct flight to Beijing?",
+      "phonetic": "/dɪˈrekt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_020",
+      "word": "flight",
+      "meaning": "航班",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take a flight",
+        "direct flight"
+      ],
+      "sentence": "Our flight was delayed.",
+      "phonetic": "/flaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_021",
+      "word": "point",
+      "meaning": "要点；地点",
+      "part_of_speech": "noun",
+      "phrase": [
+        "meeting point",
+        "point of view"
+      ],
+      "sentence": "Let us meet at the meeting point.",
+      "phonetic": "/pɔɪnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_022",
+      "word": "detail",
+      "meaning": "细节",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in detail",
+        "personal details"
+      ],
+      "sentence": "Tell me more details about your trip.",
+      "phonetic": "/ˈdiːteɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_023",
+      "word": "delicious",
+      "meaning": "美味的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "taste delicious",
+        "delicious food"
+      ],
+      "sentence": "The seafood was delicious.",
+      "phonetic": "/dɪˈlɪʃəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_024",
+      "word": "souvenir",
+      "meaning": "纪念品",
+      "part_of_speech": "noun",
+      "phrase": [
+        "buy souvenirs",
+        "souvenir shop"
+      ],
+      "sentence": "I bought some souvenirs for my friends.",
+      "phonetic": "/ˌsuːvəˈnɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8dn_unit2_025",
+      "word": "fantastic",
+      "meaning": "极好的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "fantastic time",
+        "look fantastic"
+      ],
+      "sentence": "We had a fantastic time!",
+      "phonetic": "/fænˈtæstɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

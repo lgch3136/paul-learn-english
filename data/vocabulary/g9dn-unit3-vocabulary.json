@@ -1,0 +1,382 @@
+{
+  "unit": "g9dn-unit3",
+  "unit_title": "Robots",
+  "theme": "机器人与科技",
+  "vocabulary": [
+    {
+      "word_id": "g9dn_unit3_001",
+      "word": "robot",
+      "meaning": "机器人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "home robot",
+        "robot arm"
+      ],
+      "sentence": "Robots can help with housework.",
+      "phonetic": "/ˈrəʊbɒt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_002",
+      "word": "post",
+      "meaning": "邮寄",
+      "part_of_speech": "verb",
+      "phrase": [
+        "post a letter",
+        "post office"
+      ],
+      "sentence": "The robot can post letters for you.",
+      "phonetic": "/pəʊst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_003",
+      "word": "brain",
+      "meaning": "大脑",
+      "part_of_speech": "noun",
+      "phrase": [
+        "human brain",
+        "use your brain"
+      ],
+      "sentence": "A robot's brain is a computer.",
+      "phonetic": "/breɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_004",
+      "word": "whatever",
+      "meaning": "无论什么",
+      "part_of_speech": "pron",
+      "phrase": [
+        "whatever you want",
+        "whatever happens"
+      ],
+      "sentence": "The robot does whatever you ask.",
+      "phonetic": "/wɒtˈevər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_005",
+      "word": "iron",
+      "meaning": "熨烫",
+      "part_of_speech": "verb",
+      "phrase": [
+        "iron clothes",
+        "do the ironing"
+      ],
+      "sentence": "The robot can iron your shirts.",
+      "phonetic": "/ˈaɪərn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_006",
+      "word": "smoothly",
+      "meaning": "平稳地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "run smoothly",
+        "go smoothly"
+      ],
+      "sentence": "The robot moves smoothly around the house.",
+      "phonetic": "/ˈsmuːðli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_007",
+      "word": "satisfy",
+      "meaning": "满足",
+      "part_of_speech": "verb",
+      "phrase": [
+        "satisfy needs",
+        "be satisfied with"
+      ],
+      "sentence": "The robot satisfies all her needs.",
+      "phonetic": "/ˈsætɪsfaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_008",
+      "word": "mess",
+      "meaning": "混乱",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in a mess",
+        "make a mess"
+      ],
+      "sentence": "The robot cleaned up the mess.",
+      "phonetic": "/mes/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_009",
+      "word": "virus",
+      "meaning": "病毒",
+      "part_of_speech": "noun",
+      "phrase": [
+        "computer virus",
+        "catch a virus"
+      ],
+      "sentence": "The robot caught a computer virus.",
+      "phonetic": "/ˈvaɪrəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_010",
+      "word": "properly",
+      "meaning": "适当地",
+      "part_of_speech": "adv",
+      "phrase": [
+        "work properly",
+        "behave properly"
+      ],
+      "sentence": "The robot stopped working properly.",
+      "phonetic": "/ˈprɒpərli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_011",
+      "word": "spread",
+      "meaning": "传播；扩散",
+      "part_of_speech": "verb",
+      "phrase": [
+        "spread everywhere",
+        "spread the news"
+      ],
+      "sentence": "The virus spread through the house.",
+      "phonetic": "/spred/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_012",
+      "word": "wheel",
+      "meaning": "轮子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "on wheels",
+        "steering wheel"
+      ],
+      "sentence": "The robot moves on wheels.",
+      "phonetic": "/wiːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_013",
+      "word": "complete",
+      "meaning": "完全的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "complete mess",
+        "complete control"
+      ],
+      "sentence": "The house was a complete mess.",
+      "phonetic": "/kəmˈpliːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_014",
+      "word": "rubbish",
+      "meaning": "垃圾",
+      "part_of_speech": "noun",
+      "phrase": [
+        "rubbish bin",
+        "take out the rubbish"
+      ],
+      "sentence": "The robot threw away the rubbish.",
+      "phonetic": "/ˈrʌbɪʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_015",
+      "word": "pill",
+      "meaning": "药片",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take a pill",
+        "sleeping pill"
+      ],
+      "sentence": "The robot reminds me to take my pills.",
+      "phonetic": "/pɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_016",
+      "word": "customer",
+      "meaning": "顾客",
+      "part_of_speech": "noun",
+      "phrase": [
+        "customer service",
+        "regular customer"
+      ],
+      "sentence": "The customer complained about the robot.",
+      "phonetic": "/ˈkʌstəmər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_017",
+      "word": "suit",
+      "meaning": "套装",
+      "part_of_speech": "noun",
+      "phrase": [
+        "business suit",
+        "wear a suit"
+      ],
+      "sentence": "He wore a suit to the interview.",
+      "phonetic": "/suːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_018",
+      "word": "repair",
+      "meaning": "修理",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "under repair",
+        "repair shop"
+      ],
+      "sentence": "The robot needs a repair.",
+      "phonetic": "/rɪˈpeər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_019",
+      "word": "instruction",
+      "meaning": "指令",
+      "part_of_speech": "noun",
+      "phrase": [
+        "give instructions",
+        "follow instructions"
+      ],
+      "sentence": "The robot follows your instructions.",
+      "phonetic": "/ɪnˈstrʌkʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_020",
+      "word": "battery",
+      "meaning": "电池",
+      "part_of_speech": "noun",
+      "phrase": [
+        "recharge the battery",
+        "battery life"
+      ],
+      "sentence": "The robot's battery lasts for 8 hours.",
+      "phonetic": "/ˈbætəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_021",
+      "word": "charge",
+      "meaning": "充电",
+      "part_of_speech": "verb",
+      "phrase": [
+        "charge the robot",
+        "in charge"
+      ],
+      "sentence": "Remember to charge the robot every night.",
+      "phonetic": "/tʃɑːrdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_022",
+      "word": "smart",
+      "meaning": "智能的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "smart robot",
+        "smart phone"
+      ],
+      "sentence": "Smart robots can learn new things.",
+      "phonetic": "/smɑːrt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_023",
+      "word": "technology",
+      "meaning": "科技",
+      "part_of_speech": "noun",
+      "phrase": [
+        "modern technology",
+        "information technology"
+      ],
+      "sentence": "Robot technology is developing fast.",
+      "phonetic": "/tekˈnɒlədʒi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_024",
+      "word": "artificial",
+      "meaning": "人工的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "artificial intelligence",
+        "artificial light"
+      ],
+      "sentence": "Artificial intelligence is changing the world.",
+      "phonetic": "/ˌɑːrtɪˈfɪʃl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9dn_unit3_025",
+      "word": "intelligence",
+      "meaning": "智能",
+      "part_of_speech": "noun",
+      "phrase": [
+        "artificial intelligence",
+        "high intelligence"
+      ],
+      "sentence": "AI stands for artificial intelligence.",
+      "phonetic": "/ɪnˈtelɪdʒəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

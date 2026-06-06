@@ -1,0 +1,357 @@
+{
+  "unit": "g7dn-unit6",
+  "unit_title": "Outdoor fun",
+  "theme": "户外",
+  "vocabulary": [
+    {
+      "word_id": "g7dn_unit6_001",
+      "word": "outdoor",
+      "meaning": "户外的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "outdoor activity"
+      ],
+      "sentence": "I love outdoor activities.",
+      "phonetic": "/ˈaʊtdɔː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_002",
+      "word": "camping",
+      "meaning": "露营",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go camping"
+      ],
+      "sentence": "We went camping last weekend.",
+      "phonetic": "/ˈkæmpɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_003",
+      "word": "cycling",
+      "meaning": "骑行",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go cycling"
+      ],
+      "sentence": "Cycling is good exercise.",
+      "phonetic": "/ˈsaɪklɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_004",
+      "word": "riding",
+      "meaning": "骑马",
+      "part_of_speech": "noun",
+      "phrase": [
+        "horse riding"
+      ],
+      "sentence": "Have you tried horse riding?",
+      "phonetic": "/ˈraɪdɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_005",
+      "word": "skating",
+      "meaning": "滑冰",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go skating"
+      ],
+      "sentence": "Let's go skating this winter.",
+      "phonetic": "/ˈskeɪtɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_006",
+      "word": "tent",
+      "meaning": "帐篷",
+      "part_of_speech": "noun",
+      "phrase": [
+        "put up a tent"
+      ],
+      "sentence": "We put up a tent near the river.",
+      "phonetic": "/tent/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_007",
+      "word": "stay",
+      "meaning": "停留",
+      "part_of_speech": "verb",
+      "phrase": [
+        "stay outside"
+      ],
+      "sentence": "We stayed there for two hours.",
+      "phonetic": "/steɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_008",
+      "word": "outside",
+      "meaning": "在外面",
+      "part_of_speech": "adv",
+      "phrase": [
+        "play outside"
+      ],
+      "sentence": "Let's play outside.",
+      "phonetic": "/ˌaʊtˈsaɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_009",
+      "word": "kite",
+      "meaning": "风筝",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fly a kite"
+      ],
+      "sentence": "We flew kites in the park.",
+      "phonetic": "/kaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_010",
+      "word": "period",
+      "meaning": "时期",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a long period"
+      ],
+      "sentence": "This lasted for a long period.",
+      "phonetic": "/ˈpɪəriəd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_011",
+      "word": "century",
+      "meaning": "世纪",
+      "part_of_speech": "noun",
+      "phrase": [
+        "21st century"
+      ],
+      "sentence": "We live in the 21st century.",
+      "phonetic": "/ˈsentʃəri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_012",
+      "word": "excited",
+      "meaning": "兴奋的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be excited about"
+      ],
+      "sentence": "We are excited about the trip.",
+      "phonetic": "/ɪkˈsaɪtɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_013",
+      "word": "mobile",
+      "meaning": "移动的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "mobile phone"
+      ],
+      "sentence": "My mobile phone is new.",
+      "phonetic": "/ˈməʊbaɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_014",
+      "word": "province",
+      "meaning": "省",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Jiangsu Province"
+      ],
+      "sentence": "I live in Jiangsu Province.",
+      "phonetic": "/ˈprɒvɪns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_015",
+      "word": "dynasty",
+      "meaning": "朝代",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Tang Dynasty"
+      ],
+      "sentence": "The Tang Dynasty was very strong.",
+      "phonetic": "/ˈdɪnəsti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_016",
+      "word": "wood",
+      "meaning": "木头",
+      "part_of_speech": "noun",
+      "phrase": [
+        "made of wood"
+      ],
+      "sentence": "The desk is made of wood.",
+      "phonetic": "/wʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_017",
+      "word": "period",
+      "meaning": "时期",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a period of time"
+      ],
+      "sentence": "We studied for a long period.",
+      "phonetic": "/ˈpɪəriəd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_018",
+      "word": "Italian",
+      "meaning": "意大利的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "Italian food"
+      ],
+      "sentence": "I love Italian pizza.",
+      "phonetic": "/ɪˈtæliən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_019",
+      "word": "become",
+      "meaning": "变成",
+      "part_of_speech": "verb",
+      "phrase": [
+        "become popular"
+      ],
+      "sentence": "Kites became popular in China.",
+      "phonetic": "/bɪˈkʌm/",
+      "error_tags": [
+        "动词形式错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_020",
+      "word": "excite",
+      "meaning": "使兴奋",
+      "part_of_speech": "verb",
+      "phrase": [
+        "excite the children"
+      ],
+      "sentence": "The news excited everyone.",
+      "phonetic": "/ɪkˈsaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_021",
+      "word": "fly",
+      "meaning": "飞",
+      "part_of_speech": "verb",
+      "phrase": [
+        "fly a kite"
+      ],
+      "sentence": "The bird flew away.",
+      "phonetic": "/flaɪ/",
+      "error_tags": [
+        "动词形式错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_022",
+      "word": "picnic",
+      "meaning": "野餐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "go for a picnic"
+      ],
+      "sentence": "Let's go for a picnic.",
+      "phonetic": "/ˈpɪknɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_023",
+      "word": "rabbit",
+      "meaning": "兔子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "white rabbit"
+      ],
+      "sentence": "The rabbit has long ears.",
+      "phonetic": "/ˈræbɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_024",
+      "word": "hole",
+      "meaning": "洞",
+      "part_of_speech": "noun",
+      "phrase": [
+        "rabbit hole"
+      ],
+      "sentence": "The rabbit went into its hole.",
+      "phonetic": "/həʊl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7dn_unit6_025",
+      "word": "pass",
+      "meaning": "经过",
+      "part_of_speech": "verb",
+      "phrase": [
+        "pass by"
+      ],
+      "sentence": "I saw her pass by just now.",
+      "phonetic": "/pɑːs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

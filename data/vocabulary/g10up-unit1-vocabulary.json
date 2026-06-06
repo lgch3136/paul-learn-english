@@ -1,0 +1,382 @@
+{
+  "unit": "g10up-unit1",
+  "unit_title": "School life",
+  "theme": "高中校园生活",
+  "vocabulary": [
+    {
+      "word_id": "g10up_unit1_001",
+      "word": "experience",
+      "meaning": "经历；体验",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "valuable experience",
+        "gain experience"
+      ],
+      "sentence": "High school is a new experience.",
+      "phonetic": "/ɪkˈspɪəriəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_002",
+      "word": "earn",
+      "meaning": "获得；赚",
+      "part_of_speech": "verb",
+      "phrase": [
+        "earn respect",
+        "earn money"
+      ],
+      "sentence": "You have to earn good grades.",
+      "phonetic": "/ɜːrn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_003",
+      "word": "respect",
+      "meaning": "尊敬",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "earn respect",
+        "show respect"
+      ],
+      "sentence": "We should respect our teachers.",
+      "phonetic": "/rɪˈspekt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_004",
+      "word": "devote",
+      "meaning": "致力于",
+      "part_of_speech": "verb",
+      "phrase": [
+        "devote oneself to",
+        "devote time to"
+      ],
+      "sentence": "I devote a lot of time to studying.",
+      "phonetic": "/dɪˈvəʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_005",
+      "word": "average",
+      "meaning": "平均的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "on average",
+        "above average"
+      ],
+      "sentence": "The average class size is 40.",
+      "phonetic": "/ˈævərɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_006",
+      "word": "challenging",
+      "meaning": "有挑战的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "challenging course",
+        "very challenging"
+      ],
+      "sentence": "High school subjects are more challenging.",
+      "phonetic": "/ˈtʃælɪndʒɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_007",
+      "word": "extra",
+      "meaning": "额外的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "extra help",
+        "extra time"
+      ],
+      "sentence": "I need extra time to finish homework.",
+      "phonetic": "/ˈekstrə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_008",
+      "word": "exchange",
+      "meaning": "交换",
+      "part_of_speech": "noun",
+      "phrase": [
+        "exchange student",
+        "cultural exchange"
+      ],
+      "sentence": "She is an exchange student from the UK.",
+      "phonetic": "/ɪksˈtʃeɪndʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_009",
+      "word": "former",
+      "meaning": "以前的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "former student",
+        "the former"
+      ],
+      "sentence": "She is a former student of our school.",
+      "phonetic": "/ˈfɔːrmər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_010",
+      "word": "graduate",
+      "meaning": "毕业生",
+      "part_of_speech": "noun",
+      "phrase": [
+        "high school graduate",
+        "college graduate"
+      ],
+      "sentence": "She is a graduate of our school.",
+      "phonetic": "/ˈɡrædʒuət/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_011",
+      "word": "fluent",
+      "meaning": "流利的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "fluent English",
+        "speak fluently"
+      ],
+      "sentence": "He is fluent in three languages.",
+      "phonetic": "/ˈfluːənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_012",
+      "word": "kindness",
+      "meaning": "善良",
+      "part_of_speech": "noun",
+      "phrase": [
+        "show kindness",
+        "act of kindness"
+      ],
+      "sentence": "Thank you for your kindness.",
+      "phonetic": "/ˈkaɪndnəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_013",
+      "word": "independent",
+      "meaning": "独立的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "independent study",
+        "become independent"
+      ],
+      "sentence": "High school students should be more independent.",
+      "phonetic": "/ˌɪndɪˈpendənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_014",
+      "word": "academic",
+      "meaning": "学术的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "academic year",
+        "academic performance"
+      ],
+      "sentence": "Academic achievements are important.",
+      "phonetic": "/ˌækəˈdemɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_015",
+      "word": "approve",
+      "meaning": "批准；赞成",
+      "part_of_speech": "verb",
+      "phrase": [
+        "approve of",
+        "get approved"
+      ],
+      "sentence": "My parents approved of my choice.",
+      "phonetic": "/əˈpruːv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_016",
+      "word": "preparation",
+      "meaning": "准备",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in preparation for",
+        "college preparation"
+      ],
+      "sentence": "This course is good preparation for college.",
+      "phonetic": "/ˌprepəˈreɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_017",
+      "word": "literature",
+      "meaning": "文学",
+      "part_of_speech": "noun",
+      "phrase": [
+        "English literature",
+        "classical literature"
+      ],
+      "sentence": "I enjoy reading English literature.",
+      "phonetic": "/ˈlɪtrətʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_018",
+      "word": "encouragement",
+      "meaning": "鼓励",
+      "part_of_speech": "noun",
+      "phrase": [
+        "words of encouragement",
+        "give encouragement"
+      ],
+      "sentence": "My teacher gave me a lot of encouragement.",
+      "phonetic": "/ɪnˈkʌrɪdʒmənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_019",
+      "word": "satisfaction",
+      "meaning": "满意",
+      "part_of_speech": "noun",
+      "phrase": [
+        "great satisfaction",
+        "job satisfaction"
+      ],
+      "sentence": "I felt great satisfaction after the exam.",
+      "phonetic": "/ˌsætɪsˈfækʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_020",
+      "word": "scholarship",
+      "meaning": "奖学金",
+      "part_of_speech": "noun",
+      "phrase": [
+        "win a scholarship",
+        "full scholarship"
+      ],
+      "sentence": "She won a scholarship to study abroad.",
+      "phonetic": "/ˈskɒlərʃɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_021",
+      "word": "broaden",
+      "meaning": "拓宽",
+      "part_of_speech": "verb",
+      "phrase": [
+        "broaden one's mind",
+        "broaden horizons"
+      ],
+      "sentence": "Travel helps broaden your mind.",
+      "phonetic": "/ˈbrɔːdn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_022",
+      "word": "horizon",
+      "meaning": "视野",
+      "part_of_speech": "noun",
+      "phrase": [
+        "broaden horizons",
+        "on the horizon"
+      ],
+      "sentence": "Reading broadens your horizons.",
+      "phonetic": "/həˈraɪzn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_023",
+      "word": "opportunity",
+      "meaning": "机会",
+      "part_of_speech": "noun",
+      "phrase": [
+        "seize the opportunity",
+        "equal opportunity"
+      ],
+      "sentence": "High school offers many opportunities.",
+      "phonetic": "/ˌɒpəˈtjuːnəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_024",
+      "word": "responsibility",
+      "meaning": "责任",
+      "part_of_speech": "noun",
+      "phrase": [
+        "take responsibility",
+        "sense of responsibility"
+      ],
+      "sentence": "With freedom comes responsibility.",
+      "phonetic": "/rɪˌspɒnsəˈbɪləti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g10up_unit1_025",
+      "word": "determination",
+      "meaning": "决心",
+      "part_of_speech": "noun",
+      "phrase": [
+        "with determination",
+        "show determination"
+      ],
+      "sentence": "Success requires determination.",
+      "phonetic": "/dɪˌtɜːrmɪˈneɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

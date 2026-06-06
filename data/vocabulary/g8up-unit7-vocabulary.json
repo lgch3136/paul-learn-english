@@ -1,0 +1,382 @@
+{
+  "unit": "g8up-unit7",
+  "unit_title": "Seasons",
+  "theme": "季节与天气",
+  "vocabulary": [
+    {
+      "word_id": "g8up_unit7_001",
+      "word": "temperature",
+      "meaning": "温度",
+      "part_of_speech": "noun",
+      "phrase": [
+        "high temperature",
+        "take temperature"
+      ],
+      "sentence": "The temperature will drop tonight.",
+      "phonetic": "/ˈtemprətʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_002",
+      "word": "degree",
+      "meaning": "度数",
+      "part_of_speech": "noun",
+      "phrase": [
+        "degrees Celsius",
+        "to a degree"
+      ],
+      "sentence": "It is about 30 degrees today.",
+      "phonetic": "/dɪˈɡriː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_003",
+      "word": "drop",
+      "meaning": "下降；掉落",
+      "part_of_speech": "verb",
+      "phrase": [
+        "drop below zero",
+        "temperature drop"
+      ],
+      "sentence": "The temperature dropped suddenly.",
+      "phonetic": "/drɒp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_004",
+      "word": "rise",
+      "meaning": "上升",
+      "part_of_speech": "verb",
+      "phrase": [
+        "temperature rises",
+        "rise up"
+      ],
+      "sentence": "The sun rises early in summer.",
+      "phonetic": "/raɪz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_005",
+      "word": "cloud",
+      "meaning": "云",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dark cloud",
+        "cloud over"
+      ],
+      "sentence": "There are many clouds in the sky.",
+      "phonetic": "/klaʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_006",
+      "word": "shower",
+      "meaning": "阵雨",
+      "part_of_speech": "noun",
+      "phrase": [
+        "rain shower",
+        "take a shower"
+      ],
+      "sentence": "There will be showers this afternoon.",
+      "phonetic": "/ˈʃaʊər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_007",
+      "word": "storm",
+      "meaning": "暴风雨",
+      "part_of_speech": "noun",
+      "phrase": [
+        "thunder storm",
+        "snow storm"
+      ],
+      "sentence": "A big storm is coming.",
+      "phonetic": "/stɔːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_008",
+      "word": "wind",
+      "meaning": "风",
+      "part_of_speech": "noun",
+      "phrase": [
+        "strong wind",
+        "wind blows"
+      ],
+      "sentence": "The wind is blowing hard.",
+      "phonetic": "/wɪnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_009",
+      "word": "foggy",
+      "meaning": "有雾的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "foggy morning",
+        "foggy weather"
+      ],
+      "sentence": "It is foggy outside today.",
+      "phonetic": "/ˈfɒɡi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_010",
+      "word": "snowball",
+      "meaning": "雪球",
+      "part_of_speech": "noun",
+      "phrase": [
+        "throw a snowball",
+        "snowball fight"
+      ],
+      "sentence": "We had a snowball fight.",
+      "phonetic": "/ˈsnəʊbɔːl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_011",
+      "word": "deep",
+      "meaning": "深的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "deep snow",
+        "deep sleep"
+      ],
+      "sentence": "The snow is very deep.",
+      "phonetic": "/diːp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_012",
+      "word": "frozen",
+      "meaning": "冰冻的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "frozen lake",
+        "frozen food"
+      ],
+      "sentence": "The lake is frozen in winter.",
+      "phonetic": "/ˈfrəʊzn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_013",
+      "word": "land",
+      "meaning": "土地；陆地",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dry land",
+        "land on"
+      ],
+      "sentence": "Farmers work on the land.",
+      "phonetic": "/lænd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_014",
+      "word": "excited",
+      "meaning": "兴奋的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel excited",
+        "excited about"
+      ],
+      "sentence": "Children are excited about the snow.",
+      "phonetic": "/ɪkˈsaɪtɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_015",
+      "word": "harvest",
+      "meaning": "收获",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "autumn harvest",
+        "harvest time"
+      ],
+      "sentence": "Autumn is the season of harvest.",
+      "phonetic": "/ˈhɑːrvɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_016",
+      "word": "crop",
+      "meaning": "庄稼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "grow crops",
+        "crop field"
+      ],
+      "sentence": "Farmers harvest crops in autumn.",
+      "phonetic": "/krɒp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_017",
+      "word": "shower",
+      "meaning": "阵雨",
+      "part_of_speech": "noun",
+      "phrase": [
+        "light shower",
+        "shower rain"
+      ],
+      "sentence": "A shower passed quickly.",
+      "phonetic": "/ˈʃaʊər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_018",
+      "word": "butterfly",
+      "meaning": "蝴蝶",
+      "part_of_speech": "noun",
+      "phrase": [
+        "colourful butterfly",
+        "butterfly effect"
+      ],
+      "sentence": "Butterflies fly among the flowers.",
+      "phonetic": "/ˈbʌtərflaɪ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_019",
+      "word": "lazy",
+      "meaning": "懒惰的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "lazy afternoon",
+        "feel lazy"
+      ],
+      "sentence": "I love lazy summer afternoons.",
+      "phonetic": "/ˈleɪzi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_020",
+      "word": "shade",
+      "meaning": "阴凉处",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in the shade",
+        "shade tree"
+      ],
+      "sentence": "Let us sit in the shade.",
+      "phonetic": "/ʃeɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_021",
+      "word": "stream",
+      "meaning": "小溪",
+      "part_of_speech": "noun",
+      "phrase": [
+        "mountain stream",
+        "stream of water"
+      ],
+      "sentence": "We played by the stream.",
+      "phonetic": "/striːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_022",
+      "word": "temperature",
+      "meaning": "温度",
+      "part_of_speech": "noun",
+      "phrase": [
+        "body temperature",
+        "room temperature"
+      ],
+      "sentence": "What is the temperature today?",
+      "phonetic": "/ˈtemprətʃər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_023",
+      "word": "blow",
+      "meaning": "吹；刮",
+      "part_of_speech": "verb",
+      "phrase": [
+        "blow hard",
+        "blow away"
+      ],
+      "sentence": "The wind blows strongly in March.",
+      "phonetic": "/bləʊ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_024",
+      "word": "leaf",
+      "meaning": "叶子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "green leaf",
+        "leaf turns yellow"
+      ],
+      "sentence": "Leaves turn brown in autumn.",
+      "phonetic": "/liːf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit7_025",
+      "word": "pile",
+      "meaning": "堆",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a pile of leaves",
+        "pile up"
+      ],
+      "sentence": "There is a pile of leaves on the ground.",
+      "phonetic": "/paɪl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

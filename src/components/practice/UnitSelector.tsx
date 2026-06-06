@@ -120,6 +120,141 @@ const gradeData: GradeData[] = [
       ]},
     ],
   },
+  {
+    id: 'g7', label: '初一', icon: '📒', color: 'from-teal-400 to-cyan-500',
+    semesters: [
+      { id: 'g7up', label: '上册', units: [
+        { id: 'g7up-unit1', label: 'U1 This is me!' },
+        { id: 'g7up-unit2', label: "U2 Let's play sports!" },
+        { id: 'g7up-unit3', label: 'U3 Welcome to our school!' },
+        { id: 'g7up-unit4', label: 'U4 My day' },
+        { id: 'g7up-unit5', label: "U5 Let's celebrate!" },
+        { id: 'g7up-unit6', label: 'U6 Food and lifestyle' },
+        { id: 'g7up-unit7', label: 'U7 Shopping' },
+        { id: 'g7up-unit8', label: 'U8 Fashion' },
+      ]},
+      { id: 'g7dn', label: '下册', units: [
+        { id: 'g7dn-unit1', label: 'U1 Dream homes' },
+        { id: 'g7dn-unit2', label: 'U2 Neighbours' },
+        { id: 'g7dn-unit3', label: 'U3 Sunshine Town' },
+        { id: 'g7dn-unit4', label: 'U4 Finding your way' },
+        { id: 'g7dn-unit5', label: 'U5 Amazing things' },
+        { id: 'g7dn-unit6', label: 'U6 Outdoor fun' },
+        { id: 'g7dn-unit7', label: 'U7 Abilities' },
+        { id: 'g7dn-unit8', label: 'U8 Pets' },
+      ]},
+    ],
+  },
+  {
+    id: 'g8', label: '初二', icon: '📓', color: 'from-indigo-400 to-blue-500',
+    semesters: [
+      { id: 'g8up', label: '上册', units: [
+        { id: 'g8up-unit1', label: 'U1 Friends' },
+        { id: 'g8up-unit2', label: 'U2 School life' },
+        { id: 'g8up-unit3', label: 'U3 A day out' },
+        { id: 'g8up-unit4', label: 'U4 Do it yourself' },
+        { id: 'g8up-unit5', label: 'U5 Wild animals' },
+        { id: 'g8up-unit6', label: 'U6 Birdwatching' },
+        { id: 'g8up-unit7', label: 'U7 Seasons' },
+        { id: 'g8up-unit8', label: 'U8 Natural disasters' },
+      ]},
+      { id: 'g8dn', label: '下册', units: [
+        { id: 'g8dn-unit1', label: 'U1 Past and present' },
+        { id: 'g8dn-unit2', label: 'U2 Travelling' },
+        { id: 'g8dn-unit3', label: 'U3 Online tours' },
+        { id: 'g8dn-unit4', label: 'U4 A good read' },
+        { id: 'g8dn-unit5', label: 'U5 Good manners' },
+        { id: 'g8dn-unit6', label: 'U6 Sunshine for all' },
+        { id: 'g8dn-unit7', label: 'U7 Intl charities' },
+        { id: 'g8dn-unit8', label: 'U8 A green world' },
+      ]},
+    ],
+  },
+  {
+    id: 'g9', label: '初三', icon: '📔', color: 'from-violet-400 to-purple-500',
+    semesters: [
+      { id: 'g9up', label: '上册', units: [
+        { id: 'g9up-unit1', label: 'U1 Know yourself' },
+        { id: 'g9up-unit2', label: 'U2 Colours' },
+        { id: 'g9up-unit3', label: 'U3 Teenage problems' },
+        { id: 'g9up-unit4', label: 'U4 Growing up' },
+        { id: 'g9up-unit5', label: 'U5 Art world' },
+        { id: 'g9up-unit6', label: 'U6 TV programmes' },
+        { id: 'g9up-unit7', label: 'U7 Films' },
+        { id: 'g9up-unit8', label: 'U8 Detective stories' },
+      ]},
+      { id: 'g9dn', label: '下册', units: [
+        { id: 'g9dn-unit1', label: 'U1 Asia' },
+        { id: 'g9dn-unit2', label: 'U2 Great people' },
+        { id: 'g9dn-unit3', label: 'U3 Robots' },
+        { id: 'g9dn-unit4', label: 'U4 Life on Mars' },
+      ]},
+    ],
+  },
+  {
+    id: 'g10', label: '高一', icon: '📚', color: 'from-red-400 to-rose-500',
+    semesters: [
+      { id: 'g10up', label: '上册 (M1-2)', units: [
+        { id: 'g10up-unit1', label: 'U1 School life' },
+        { id: 'g10up-unit2', label: 'U2 Growing pains' },
+        { id: 'g10up-unit3', label: 'U3 Looking good' },
+        { id: 'g10up-unit4', label: 'U4 Unexplained' },
+        { id: 'g10up-unit5', label: 'U5 Wish you were here' },
+        { id: 'g10up-unit6', label: 'U6 Amazing people' },
+      ]},
+      { id: 'g10dn', label: '下册 (M3-4)', units: [
+        { id: 'g10dn-unit1', label: 'U1 World of senses' },
+        { id: 'g10dn-unit2', label: 'U2 Language' },
+        { id: 'g10dn-unit3', label: 'U3 Back to the past' },
+        { id: 'g10dn-unit4', label: 'U4 Advertising' },
+        { id: 'g10dn-unit5', label: 'U5 Sports events' },
+        { id: 'g10dn-unit6', label: "U6 Tomorrow's world" },
+      ]},
+    ],
+  },
+  {
+    id: 'g11', label: '高二', icon: '📖', color: 'from-amber-400 to-orange-500',
+    semesters: [
+      { id: 'g11up', label: '上册 (M5-6)', units: [
+        { id: 'g11up-unit1', label: 'U1 Getting along' },
+        { id: 'g11up-unit2', label: 'U2 Environment' },
+        { id: 'g11up-unit3', label: 'U3 Science & nature' },
+        { id: 'g11up-unit4', label: 'U4 Laughter' },
+        { id: 'g11up-unit5', label: 'U5 Happiness' },
+        { id: 'g11up-unit6', label: 'U6 Understanding' },
+        { id: 'g11up-unit7', label: 'U7 Helping people' },
+      ]},
+      { id: 'g11dn', label: '下册 (M7-8)', units: [
+        { id: 'g11dn-unit1', label: 'U1 Technology' },
+        { id: 'g11dn-unit2', label: 'U2 Fit for life' },
+        { id: 'g11dn-unit3', label: 'U3 World online' },
+        { id: 'g11dn-unit4', label: 'U4 Public transport' },
+        { id: 'g11dn-unit5', label: 'U5 Written word' },
+        { id: 'g11dn-unit6', label: 'U6 Universal language' },
+        { id: 'g11dn-unit7', label: 'U7 Colours & light' },
+      ]},
+    ],
+  },
+  {
+    id: 'g12', label: '高三', icon: '🏫', color: 'from-gray-400 to-slate-500',
+    semesters: [
+      { id: 'g12up', label: '上册 (M9-10)', units: [
+        { id: 'g12up-unit1', label: 'U1 Other cultures' },
+        { id: 'g12up-unit2', label: 'U2 Witnessing time' },
+        { id: 'g12up-unit3', label: 'U3 Meaning of colour' },
+        { id: 'g12up-unit4', label: 'U4 Behind beliefs' },
+        { id: 'g12up-unit5', label: 'U5 Building future' },
+        { id: 'g12up-unit6', label: 'U6 People on the move' },
+        { id: 'g12up-unit7', label: 'U7 Law and order' },
+      ]},
+      { id: 'g12dn', label: '下册 (M11)', units: [
+        { id: 'g12dn-unit1', label: 'U1 Careers & skills' },
+        { id: 'g12dn-unit2', label: 'U2 Getting a job' },
+        { id: 'g12dn-unit3', label: 'U3 Secret of success' },
+        { id: 'g12dn-unit4', label: 'U4 The next step' },
+      ]},
+    ],
+  },
 ]
 
 const adultStages = [

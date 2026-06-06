@@ -1,0 +1,357 @@
+{
+  "unit": "g7up-unit5",
+  "unit_title": "Let's celebrate!",
+  "theme": "节日",
+  "vocabulary": [
+    {
+      "word_id": "g7up_unit5_001",
+      "word": "celebrate",
+      "meaning": "庆祝",
+      "part_of_speech": "verb",
+      "phrase": [
+        "celebrate a festival"
+      ],
+      "sentence": "How do you celebrate Halloween?",
+      "phonetic": "/ˈselɪbreɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_002",
+      "word": "festival",
+      "meaning": "节日",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Spring Festival"
+      ],
+      "sentence": "I love the Spring Festival.",
+      "phonetic": "/ˈfestɪvl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_003",
+      "word": "dress up",
+      "meaning": "装扮",
+      "part_of_speech": "phrase",
+      "phrase": [
+        "dress up as"
+      ],
+      "sentence": "We dress up as ghosts.",
+      "phonetic": "/dres ʌp/",
+      "error_tags": [
+        "句序错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_004",
+      "word": "ghost",
+      "meaning": "鬼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ghost story"
+      ],
+      "sentence": "Don't be afraid of ghosts.",
+      "phonetic": "/ɡəʊst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_005",
+      "word": "Christmas",
+      "meaning": "圣诞节",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Merry Christmas"
+      ],
+      "sentence": "Merry Christmas to you!",
+      "phonetic": "/ˈkrɪsməs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_006",
+      "word": "present",
+      "meaning": "礼物",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Christmas present"
+      ],
+      "sentence": "I got a nice present.",
+      "phonetic": "/ˈpreznt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_007",
+      "word": "together",
+      "meaning": "一起",
+      "part_of_speech": "adv",
+      "phrase": [
+        "get together"
+      ],
+      "sentence": "We always get together at New Year.",
+      "phonetic": "/təˈɡeðə/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_008",
+      "word": "full",
+      "meaning": "满的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be full of"
+      ],
+      "sentence": "The room is full of people.",
+      "phonetic": "/fʊl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_009",
+      "word": "knock",
+      "meaning": "敲",
+      "part_of_speech": "verb",
+      "phrase": [
+        "knock on the door"
+      ],
+      "sentence": "Please knock before entering.",
+      "phonetic": "/nɒk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_010",
+      "word": "shout",
+      "meaning": "喊叫",
+      "part_of_speech": "verb",
+      "phrase": [
+        "shout at"
+      ],
+      "sentence": "Don't shout in the library.",
+      "phonetic": "/ʃaʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_011",
+      "word": "candy",
+      "meaning": "糖果",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a piece of candy"
+      ],
+      "sentence": "Kids love candy.",
+      "phonetic": "/ˈkændi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_012",
+      "word": "treat",
+      "meaning": "款待",
+      "part_of_speech": "noun",
+      "phrase": [
+        "trick or treat"
+      ],
+      "sentence": "Trick or treat!",
+      "phonetic": "/triːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_013",
+      "word": "special",
+      "meaning": "特别的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "a special day"
+      ],
+      "sentence": "Today is a special day.",
+      "phonetic": "/ˈspeʃl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_014",
+      "word": "question",
+      "meaning": "问题",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ask a question"
+      ],
+      "sentence": "Do you have any questions?",
+      "phonetic": "/ˈkwestʃən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_015",
+      "word": "dumpling",
+      "meaning": "饺子",
+      "part_of_speech": "noun",
+      "phrase": [
+        "make dumplings"
+      ],
+      "sentence": "We eat dumplings at New Year.",
+      "phonetic": "/ˈdʌmplɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_016",
+      "word": "important",
+      "meaning": "重要的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "very important"
+      ],
+      "sentence": "Family is very important.",
+      "phonetic": "/ɪmˈpɔːtnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_017",
+      "word": "most",
+      "meaning": "大多数",
+      "part_of_speech": "adj",
+      "phrase": [
+        "most people"
+      ],
+      "sentence": "Most people like holidays.",
+      "phonetic": "/məʊst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_018",
+      "word": "packet",
+      "meaning": "小包",
+      "part_of_speech": "noun",
+      "phrase": [
+        "a packet of"
+      ],
+      "sentence": "I need a packet of sugar.",
+      "phonetic": "/ˈpækɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_019",
+      "word": "tradition",
+      "meaning": "传统",
+      "part_of_speech": "noun",
+      "phrase": [
+        "Chinese tradition"
+      ],
+      "sentence": "It's an old tradition.",
+      "phonetic": "/trəˈdɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_020",
+      "word": "firework",
+      "meaning": "烟花",
+      "part_of_speech": "noun",
+      "phrase": [
+        "set off fireworks"
+      ],
+      "sentence": "We watch fireworks at night.",
+      "phonetic": "/ˈfaɪəwɜːk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_021",
+      "word": "paint",
+      "meaning": "涂色",
+      "part_of_speech": "verb",
+      "phrase": [
+        "paint faces"
+      ],
+      "sentence": "They paint their faces red.",
+      "phonetic": "/peɪnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_022",
+      "word": "inside",
+      "meaning": "在里面",
+      "part_of_speech": "prep",
+      "phrase": [
+        "inside the house"
+      ],
+      "sentence": "Let's go inside.",
+      "phonetic": "/ˌɪnˈsaɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_023",
+      "word": "pumpkin",
+      "meaning": "南瓜",
+      "part_of_speech": "noun",
+      "phrase": [
+        "pumpkin lantern"
+      ],
+      "sentence": "We make pumpkin lanterns.",
+      "phonetic": "/ˈpʌmpkɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_024",
+      "word": "mask",
+      "meaning": "面具",
+      "part_of_speech": "noun",
+      "phrase": [
+        "wear a mask"
+      ],
+      "sentence": "He wears a scary mask.",
+      "phonetic": "/mɑːsk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g7up_unit5_025",
+      "word": "lantern",
+      "meaning": "灯笼",
+      "part_of_speech": "noun",
+      "phrase": [
+        "red lantern"
+      ],
+      "sentence": "Red lanterns are beautiful.",
+      "phonetic": "/ˈlæntən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

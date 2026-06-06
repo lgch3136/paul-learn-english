@@ -1,0 +1,382 @@
+{
+  "unit": "g11up-unit7",
+  "unit_title": "Helping people",
+  "theme": "慈善与帮助",
+  "vocabulary": [
+    {
+      "word_id": "g11up_unit7_001",
+      "word": "charity",
+      "meaning": "慈善",
+      "part_of_speech": "noun",
+      "phrase": [
+        "charity work",
+        "charity event"
+      ],
+      "sentence": "She works for a charity.",
+      "phonetic": "/ˈtʃærəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_002",
+      "word": "voluntary",
+      "meaning": "志愿的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "voluntary work",
+        "voluntary organization"
+      ],
+      "sentence": "He does voluntary work on weekends.",
+      "phonetic": "/ˈvɒləntri/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_003",
+      "word": "fund",
+      "meaning": "基金；资助",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "raise funds",
+        "fund a project"
+      ],
+      "sentence": "They raised funds for homeless children.",
+      "phonetic": "/fʌnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_004",
+      "word": "donate",
+      "meaning": "捐赠",
+      "part_of_speech": "verb",
+      "phrase": [
+        "donate money",
+        "donate blood"
+      ],
+      "sentence": "I donate to charity every month.",
+      "phonetic": "/dəʊˈneɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_005",
+      "word": "sponsor",
+      "meaning": "赞助",
+      "part_of_speech": "verb",
+      "phrase": [
+        "sponsor a child",
+        "sponsor an event"
+      ],
+      "sentence": "They sponsor poor children to go to school.",
+      "phonetic": "/ˈspɒnsər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_006",
+      "word": "orphan",
+      "meaning": "孤儿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "orphan child",
+        "orphan home"
+      ],
+      "sentence": "The foundation helps orphans.",
+      "phonetic": "/ˈɔːrfn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_007",
+      "word": "disability",
+      "meaning": "残疾",
+      "part_of_speech": "noun",
+      "phrase": [
+        "physical disability",
+        "learning disability"
+      ],
+      "sentence": "People with disabilities need our support.",
+      "phonetic": "/ˌdɪsəˈbɪləti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_008",
+      "word": "elderly",
+      "meaning": "老人",
+      "part_of_speech": "noun",
+      "phrase": [
+        "care for the elderly",
+        "elderly people"
+      ],
+      "sentence": "We should care for the elderly.",
+      "phonetic": "/ˈeldərli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_009",
+      "word": "shelter",
+      "meaning": "避难所",
+      "part_of_speech": "noun",
+      "phrase": [
+        "homeless shelter",
+        "take shelter"
+      ],
+      "sentence": "The shelter provides food and beds.",
+      "phonetic": "/ˈʃeltər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_010",
+      "word": "welfare",
+      "meaning": "福利",
+      "part_of_speech": "noun",
+      "phrase": [
+        "social welfare",
+        "child welfare"
+      ],
+      "sentence": "The government provides welfare for the poor.",
+      "phonetic": "/ˈwelfeər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_011",
+      "word": "poverty",
+      "meaning": "贫穷",
+      "part_of_speech": "noun",
+      "phrase": [
+        "live in poverty",
+        "fight poverty"
+      ],
+      "sentence": "Millions of people live in poverty.",
+      "phonetic": "/ˈpɒvəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_012",
+      "word": "hunger",
+      "meaning": "饥饿",
+      "part_of_speech": "noun",
+      "phrase": [
+        "world hunger",
+        "die of hunger"
+      ],
+      "sentence": "We must fight world hunger.",
+      "phonetic": "/ˈhʌŋɡər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_013",
+      "word": "humanitarian",
+      "meaning": "人道主义的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "humanitarian aid",
+        "humanitarian crisis"
+      ],
+      "sentence": "They provided humanitarian aid to refugees.",
+      "phonetic": "/hjuːˌmænɪˈteəriən/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_014",
+      "word": "relief",
+      "meaning": "救济",
+      "part_of_speech": "noun",
+      "phrase": [
+        "disaster relief",
+        "relief work"
+      ],
+      "sentence": "They sent relief supplies to the disaster area.",
+      "phonetic": "/rɪˈliːf/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_015",
+      "word": "refugee",
+      "meaning": "难民",
+      "part_of_speech": "noun",
+      "phrase": [
+        "refugee camp",
+        "war refugee"
+      ],
+      "sentence": "Refugees need our help.",
+      "phonetic": "/ˌrefjuˈdʒiː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_016",
+      "word": "campaign",
+      "meaning": "运动",
+      "part_of_speech": "noun",
+      "phrase": [
+        "fundraising campaign",
+        "awareness campaign"
+      ],
+      "sentence": "The campaign raised one million dollars.",
+      "phonetic": "/kæmˈpeɪn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_017",
+      "word": "awareness",
+      "meaning": "意识",
+      "part_of_speech": "noun",
+      "phrase": [
+        "raise awareness",
+        "public awareness"
+      ],
+      "sentence": "We need to raise awareness about this issue.",
+      "phonetic": "/əˈweərnəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_018",
+      "word": "advocate",
+      "meaning": "倡导",
+      "part_of_speech": "verb",
+      "phrase": [
+        "advocate for",
+        "advocate change"
+      ],
+      "sentence": "She advocates for children's rights.",
+      "phonetic": "/ˈædvəkeɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_019",
+      "word": "sacrifice",
+      "meaning": "牺牲",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "make a sacrifice",
+        "sacrifice for"
+      ],
+      "sentence": "Volunteers sacrifice their time to help.",
+      "phonetic": "/ˈsækrɪfaɪs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_020",
+      "word": "selfless",
+      "meaning": "无私的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "selfless act",
+        "selfless person"
+      ],
+      "sentence": "Her selfless dedication is inspiring.",
+      "phonetic": "/ˈselfləs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_021",
+      "word": "generous",
+      "meaning": "慷慨的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "generous donation",
+        "generous with"
+      ],
+      "sentence": "Thank you for your generous donation.",
+      "phonetic": "/ˈdʒenərəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_022",
+      "word": "compassion",
+      "meaning": "同情",
+      "part_of_speech": "noun",
+      "phrase": [
+        "show compassion",
+        "feel compassion"
+      ],
+      "sentence": "Compassion for others is a virtue.",
+      "phonetic": "/kəmˈpæʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_023",
+      "word": "impact",
+      "meaning": "影响",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "make an impact",
+        "positive impact"
+      ],
+      "sentence": "Your help can make a big impact.",
+      "phonetic": "/ˈɪmpækt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_024",
+      "word": "empower",
+      "meaning": "赋能",
+      "part_of_speech": "verb",
+      "phrase": [
+        "empower people",
+        "feel empowered"
+      ],
+      "sentence": "Education empowers people to change their lives.",
+      "phonetic": "/ɪmˈpaʊər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g11up_unit7_025",
+      "word": "alleviate",
+      "meaning": "减轻",
+      "part_of_speech": "verb",
+      "phrase": [
+        "alleviate poverty",
+        "alleviate suffering"
+      ],
+      "sentence": "We can help alleviate their suffering.",
+      "phonetic": "/əˈliːvieɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

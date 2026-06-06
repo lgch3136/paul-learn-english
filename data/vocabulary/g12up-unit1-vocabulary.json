@@ -1,0 +1,382 @@
+{
+  "unit": "g12up-unit1",
+  "unit_title": "Other countries, other cultures",
+  "theme": "跨文化交流",
+  "vocabulary": [
+    {
+      "word_id": "g12up_unit1_001",
+      "word": "aboriginal",
+      "meaning": "土著的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "aboriginal people",
+        "aboriginal culture"
+      ],
+      "sentence": "The aboriginal people of Australia have a rich culture.",
+      "phonetic": "/ˌæbəˈrɪdʒənl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_002",
+      "word": "heritage",
+      "meaning": "遗产",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural heritage",
+        "world heritage"
+      ],
+      "sentence": "This building is part of our national heritage.",
+      "phonetic": "/ˈherɪtɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_003",
+      "word": "minority",
+      "meaning": "少数",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ethnic minority",
+        "minority group"
+      ],
+      "sentence": "Minority cultures should be protected.",
+      "phonetic": "/maɪˈnɒrəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_004",
+      "word": "festival",
+      "meaning": "节日",
+      "part_of_speech": "noun",
+      "phrase": [
+        "traditional festival",
+        "cultural festival"
+      ],
+      "sentence": "The festival celebrates the harvest.",
+      "phonetic": "/ˈfestɪvl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_005",
+      "word": "ceremony",
+      "meaning": "仪式",
+      "part_of_speech": "noun",
+      "phrase": [
+        "traditional ceremony",
+        "wedding ceremony"
+      ],
+      "sentence": "The ceremony was very meaningful.",
+      "phonetic": "/ˈserəməni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_006",
+      "word": "ritual",
+      "meaning": "礼仪",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ancient ritual",
+        "religious ritual"
+      ],
+      "sentence": "The tribe has many ancient rituals.",
+      "phonetic": "/ˈrɪtʃuəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_007",
+      "word": "tribe",
+      "meaning": "部落",
+      "part_of_speech": "noun",
+      "phrase": [
+        "native tribe",
+        "tribal leader"
+      ],
+      "sentence": "The tribe lives deep in the forest.",
+      "phonetic": "/traɪb/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_008",
+      "word": "indigenous",
+      "meaning": "本土的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "indigenous people",
+        "indigenous culture"
+      ],
+      "sentence": "Indigenous languages are disappearing.",
+      "phonetic": "/ɪnˈdɪdʒənəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_009",
+      "word": "multicultural",
+      "meaning": "多元文化的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "multicultural society",
+        "multicultural city"
+      ],
+      "sentence": "London is a multicultural city.",
+      "phonetic": "/ˌmʌltiˈkʌltʃərəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_010",
+      "word": "immigrant",
+      "meaning": "移民",
+      "part_of_speech": "noun",
+      "phrase": [
+        "illegal immigrant",
+        "immigrant family"
+      ],
+      "sentence": "Immigrants bring new cultures to a country.",
+      "phonetic": "/ˈɪmɪɡrənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_011",
+      "word": "citizenship",
+      "meaning": "公民身份",
+      "part_of_speech": "noun",
+      "phrase": [
+        "dual citizenship",
+        "apply for citizenship"
+      ],
+      "sentence": "He gained citizenship last year.",
+      "phonetic": "/ˈsɪtɪzənʃɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_012",
+      "word": "melting pot",
+      "meaning": "大熔炉",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural melting pot",
+        "melting pot of cultures"
+      ],
+      "sentence": "America is often called a melting pot.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_013",
+      "word": "customs",
+      "meaning": "海关；习俗",
+      "part_of_speech": "noun",
+      "phrase": [
+        "local customs",
+        "go through customs"
+      ],
+      "sentence": "You should learn the local customs before you go.",
+      "phonetic": "/ˈkʌstəmz/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_014",
+      "word": "etiquette",
+      "meaning": "礼仪",
+      "part_of_speech": "noun",
+      "phrase": [
+        "social etiquette",
+        "business etiquette"
+      ],
+      "sentence": "Etiquette is different in different cultures.",
+      "phonetic": "/ˈetɪket/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_015",
+      "word": "taboo",
+      "meaning": "禁忌",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural taboo",
+        "break a taboo"
+      ],
+      "sentence": "In some cultures, this is a taboo.",
+      "phonetic": "/təˈbuː/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_016",
+      "word": "stereotype",
+      "meaning": "刻板印象",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural stereotype",
+        "break the stereotype"
+      ],
+      "sentence": "Stereotypes can be harmful.",
+      "phonetic": "/ˈsteriətaɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_017",
+      "word": "globalization",
+      "meaning": "全球化",
+      "part_of_speech": "noun",
+      "phrase": [
+        "economic globalization",
+        "effect of globalization"
+      ],
+      "sentence": "Globalization connects cultures.",
+      "phonetic": "/ˌɡləʊbəlaɪˈzeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_018",
+      "word": "preserve",
+      "meaning": "保护",
+      "part_of_speech": "verb",
+      "phrase": [
+        "preserve culture",
+        "preserve traditions"
+      ],
+      "sentence": "We should preserve our traditions.",
+      "phonetic": "/prɪˈzɜːrv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_019",
+      "word": "anthology",
+      "meaning": "选集",
+      "part_of_speech": "noun",
+      "phrase": [
+        "poetry anthology",
+        "short story anthology"
+      ],
+      "sentence": "The anthology includes stories from many cultures.",
+      "phonetic": "/ænˈθɒlədʒi/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_020",
+      "word": "civilization",
+      "meaning": "文明",
+      "part_of_speech": "noun",
+      "phrase": [
+        "ancient civilization",
+        "human civilization"
+      ],
+      "sentence": "Every civilization has contributed to the world.",
+      "phonetic": "/ˌsɪvəlaɪˈzeɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_021",
+      "word": "diversity",
+      "meaning": "多样性",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural diversity",
+        "embrace diversity"
+      ],
+      "sentence": "Diversity makes our world richer.",
+      "phonetic": "/daɪˈvɜːrsəti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_022",
+      "word": "tolerance",
+      "meaning": "宽容",
+      "part_of_speech": "noun",
+      "phrase": [
+        "religious tolerance",
+        "zero tolerance"
+      ],
+      "sentence": "Tolerance is needed in a multicultural society.",
+      "phonetic": "/ˈtɒlərəns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_023",
+      "word": "harmony",
+      "meaning": "和谐",
+      "part_of_speech": "noun",
+      "phrase": [
+        "social harmony",
+        "live in harmony"
+      ],
+      "sentence": "People of different cultures can live in harmony.",
+      "phonetic": "/ˈhɑːrməni/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_024",
+      "word": "integration",
+      "meaning": "融合",
+      "part_of_speech": "noun",
+      "phrase": [
+        "cultural integration",
+        "social integration"
+      ],
+      "sentence": "Integration takes time and effort.",
+      "phonetic": "/ˌɪntɪˈɡreɪʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g12up_unit1_025",
+      "word": "perspective",
+      "meaning": "视角",
+      "part_of_speech": "noun",
+      "phrase": [
+        "global perspective",
+        "different perspective"
+      ],
+      "sentence": "Travel gives you a new perspective.",
+      "phonetic": "/pərˈspektɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

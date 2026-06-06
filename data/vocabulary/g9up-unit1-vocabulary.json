@@ -1,0 +1,382 @@
+{
+  "unit": "g9up-unit1",
+  "unit_title": "Know yourself",
+  "theme": "认识自我",
+  "vocabulary": [
+    {
+      "word_id": "g9up_unit1_001",
+      "word": "personality",
+      "meaning": "个性",
+      "part_of_speech": "noun",
+      "phrase": [
+        "strong personality",
+        "personality test"
+      ],
+      "sentence": "Everyone has a different personality.",
+      "phonetic": "/ˌpɜːrsəˈnæləti/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_002",
+      "word": "creative",
+      "meaning": "有创造力的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "creative idea",
+        "creative thinking"
+      ],
+      "sentence": "She is a very creative person.",
+      "phonetic": "/kriˈeɪtɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_003",
+      "word": "curious",
+      "meaning": "好奇的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "curious about",
+        "curious mind"
+      ],
+      "sentence": "He is always curious about new things.",
+      "phonetic": "/ˈkjʊəriəs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_004",
+      "word": "energetic",
+      "meaning": "精力充沛的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "energetic person",
+        "feel energetic"
+      ],
+      "sentence": "I feel energetic in the morning.",
+      "phonetic": "/ˌenərˈdʒetɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_005",
+      "word": "modest",
+      "meaning": "谦虚的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "modest person",
+        "modest about"
+      ],
+      "sentence": "He is very modest about his achievements.",
+      "phonetic": "/ˈmɒdɪst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_006",
+      "word": "organized",
+      "meaning": "有条理的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "well organized",
+        "organized person"
+      ],
+      "sentence": "An organized person plans everything.",
+      "phonetic": "/ˈɔːrɡənaɪzd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_007",
+      "word": "patient",
+      "meaning": "有耐心的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be patient",
+        "patient teacher"
+      ],
+      "sentence": "You need to be patient with children.",
+      "phonetic": "/ˈpeɪʃnt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_008",
+      "word": "practical",
+      "meaning": "实际的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "practical advice",
+        "practical person"
+      ],
+      "sentence": "She always gives practical advice.",
+      "phonetic": "/ˈpræktɪkl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_009",
+      "word": "powerful",
+      "meaning": "强大的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "powerful leader",
+        "powerful machine"
+      ],
+      "sentence": "A positive attitude is very powerful.",
+      "phonetic": "/ˈpaʊərfl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_010",
+      "word": "lively",
+      "meaning": "活泼的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "lively child",
+        "lively discussion"
+      ],
+      "sentence": "She has a lively personality.",
+      "phonetic": "/ˈlaɪvli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_011",
+      "word": "confident",
+      "meaning": "自信的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "feel confident",
+        "confident smile"
+      ],
+      "sentence": "He is confident about the exam.",
+      "phonetic": "/ˈkɒnfɪdənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_012",
+      "word": "pay attention",
+      "meaning": "注意",
+      "part_of_speech": "verb phrase",
+      "phrase": [
+        "pay attention to",
+        "pay close attention"
+      ],
+      "sentence": "You should pay attention in class.",
+      "phonetic": "",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_013",
+      "word": "order",
+      "meaning": "顺序",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in order",
+        "keep order"
+      ],
+      "sentence": "Everything is in good order.",
+      "phonetic": "/ˈɔːrdər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_014",
+      "word": "suit",
+      "meaning": "适合",
+      "part_of_speech": "verb",
+      "phrase": [
+        "suit your personality",
+        "suit well"
+      ],
+      "sentence": "This job suits your personality well.",
+      "phonetic": "/suːt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_015",
+      "word": "general",
+      "meaning": "总的；一般的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "in general",
+        "general idea"
+      ],
+      "sentence": "In general, she is a hard worker.",
+      "phonetic": "/ˈdʒenrəl/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_016",
+      "word": "appear",
+      "meaning": "出现",
+      "part_of_speech": "verb",
+      "phrase": [
+        "appear to be",
+        "appear in"
+      ],
+      "sentence": "She appears to be very calm.",
+      "phonetic": "/əˈpɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_017",
+      "word": "fixed",
+      "meaning": "固定的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "fixed time",
+        "fixed routine"
+      ],
+      "sentence": "I follow a fixed daily routine.",
+      "phonetic": "/fɪkst/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_018",
+      "word": "lively",
+      "meaning": "充满活力的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "lively music",
+        "lively atmosphere"
+      ],
+      "sentence": "The party was very lively.",
+      "phonetic": "/ˈlaɪvli/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_019",
+      "word": "divide",
+      "meaning": "分开",
+      "part_of_speech": "verb",
+      "phrase": [
+        "divide into",
+        "divide among"
+      ],
+      "sentence": "We divide the work among ourselves.",
+      "phonetic": "/dɪˈvaɪd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_020",
+      "word": "shape",
+      "meaning": "形状；塑造",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "in good shape",
+        "shape your future"
+      ],
+      "sentence": "Good habits shape your personality.",
+      "phonetic": "/ʃeɪp/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_021",
+      "word": "absent",
+      "meaning": "缺席的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be absent from",
+        "absent minded"
+      ],
+      "sentence": "He is often absent-minded.",
+      "phonetic": "/ˈæbsənt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_022",
+      "word": "speech",
+      "meaning": "演讲",
+      "part_of_speech": "noun",
+      "phrase": [
+        "give a speech",
+        "make a speech"
+      ],
+      "sentence": "He is preparing a speech.",
+      "phonetic": "/spiːtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_023",
+      "word": "standard",
+      "meaning": "标准",
+      "part_of_speech": "noun",
+      "phrase": [
+        "high standard",
+        "living standard"
+      ],
+      "sentence": "She sets high standards for herself.",
+      "phonetic": "/ˈstændərd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_024",
+      "word": "careless",
+      "meaning": "粗心的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "careless mistake",
+        "careless driver"
+      ],
+      "sentence": "Don't be so careless!",
+      "phonetic": "/ˈkeərləs/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g9up_unit1_025",
+      "word": "devote",
+      "meaning": "致力于",
+      "part_of_speech": "verb",
+      "phrase": [
+        "devote to",
+        "devote oneself"
+      ],
+      "sentence": "She devotes a lot of time to her work.",
+      "phonetic": "/dɪˈvəʊt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}

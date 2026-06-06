@@ -1,0 +1,382 @@
+{
+  "unit": "g8up-unit8",
+  "unit_title": "Natural disasters",
+  "theme": "自然灾害",
+  "vocabulary": [
+    {
+      "word_id": "g8up_unit8_001",
+      "word": "disaster",
+      "meaning": "灾难",
+      "part_of_speech": "noun",
+      "phrase": [
+        "natural disaster",
+        "disaster area"
+      ],
+      "sentence": "Earthquakes are natural disasters.",
+      "phonetic": "/dɪˈzɑːstər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_002",
+      "word": "earthquake",
+      "meaning": "地震",
+      "part_of_speech": "noun",
+      "phrase": [
+        "strong earthquake",
+        "earthquake hits"
+      ],
+      "sentence": "A big earthquake hit the city.",
+      "phonetic": "/ˈɜːrθkweɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_003",
+      "word": "shake",
+      "meaning": "摇晃",
+      "part_of_speech": "verb",
+      "phrase": [
+        "shake violently",
+        "shake hands"
+      ],
+      "sentence": "The ground started to shake.",
+      "phonetic": "/ʃeɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_004",
+      "word": "loud",
+      "meaning": "大声的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "loud noise",
+        "speak loud"
+      ],
+      "sentence": "I heard a loud noise.",
+      "phonetic": "/laʊd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_005",
+      "word": "bomb",
+      "meaning": "炸弹",
+      "part_of_speech": "noun",
+      "phrase": [
+        "like a bomb",
+        "bomb explosion"
+      ],
+      "sentence": "It sounded like a bomb.",
+      "phonetic": "/bɒm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_006",
+      "word": "fear",
+      "meaning": "害怕",
+      "part_of_speech": "noun/verb",
+      "phrase": [
+        "in fear",
+        "fear of"
+      ],
+      "sentence": "People ran in fear.",
+      "phonetic": "/fɪər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_007",
+      "word": "direction",
+      "meaning": "方向",
+      "part_of_speech": "noun",
+      "phrase": [
+        "in all directions",
+        "sense of direction"
+      ],
+      "sentence": "Birds flew in all directions.",
+      "phonetic": "/dɪˈrekʃn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_008",
+      "word": "brick",
+      "meaning": "砖",
+      "part_of_speech": "noun",
+      "phrase": [
+        "red brick",
+        "brick wall"
+      ],
+      "sentence": "Bricks fell from the buildings.",
+      "phonetic": "/brɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_009",
+      "word": "shake",
+      "meaning": "摇动",
+      "part_of_speech": "verb",
+      "phrase": [
+        "shake the building",
+        "shake with fear"
+      ],
+      "sentence": "The whole building was shaking.",
+      "phonetic": "/ʃeɪk/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_010",
+      "word": "slight",
+      "meaning": "轻微的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "a slight shake",
+        "slight change"
+      ],
+      "sentence": "I felt a slight shake.",
+      "phonetic": "/slaɪt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_011",
+      "word": "mind",
+      "meaning": "介意",
+      "part_of_speech": "verb",
+      "phrase": [
+        "never mind",
+        "do you mind"
+      ],
+      "sentence": "Did you mind the noise?",
+      "phonetic": "/maɪnd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_012",
+      "word": "since",
+      "meaning": "自从",
+      "part_of_speech": "conj",
+      "phrase": [
+        "ever since",
+        "since then"
+      ],
+      "sentence": "Since the earthquake, things have changed.",
+      "phonetic": "/sɪns/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_013",
+      "word": "alive",
+      "meaning": "活着的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "stay alive",
+        "keep alive"
+      ],
+      "sentence": "Luckily, everyone is still alive.",
+      "phonetic": "/əˈlaɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_014",
+      "word": "after",
+      "meaning": "在…之后",
+      "part_of_speech": "prep",
+      "phrase": [
+        "after the storm",
+        "look after"
+      ],
+      "sentence": "After the disaster, people helped each other.",
+      "phonetic": "/ˈɑːftər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_015",
+      "word": "flood",
+      "meaning": "洪水",
+      "part_of_speech": "noun",
+      "phrase": [
+        "severe flood",
+        "flood water"
+      ],
+      "sentence": "The flood washed away the bridge.",
+      "phonetic": "/flʌd/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_016",
+      "word": "village",
+      "meaning": "村庄",
+      "part_of_speech": "noun",
+      "phrase": [
+        "small village",
+        "village people"
+      ],
+      "sentence": "The flood destroyed the village.",
+      "phonetic": "/ˈvɪlɪdʒ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_017",
+      "word": "lightning",
+      "meaning": "闪电",
+      "part_of_speech": "noun",
+      "phrase": [
+        "thunder and lightning",
+        "lightning strike"
+      ],
+      "sentence": "Lightning struck the tree.",
+      "phonetic": "/ˈlaɪtnɪŋ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_018",
+      "word": "thunder",
+      "meaning": "雷声",
+      "part_of_speech": "noun",
+      "phrase": [
+        "thunder storm",
+        "sound of thunder"
+      ],
+      "sentence": "Thunder roared in the sky.",
+      "phonetic": "/ˈθʌndər/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_019",
+      "word": "storm",
+      "meaning": "暴风雨",
+      "part_of_speech": "noun",
+      "phrase": [
+        "heavy storm",
+        "storm warning"
+      ],
+      "sentence": "The storm caused a lot of damage.",
+      "phonetic": "/stɔːrm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_020",
+      "word": "coach",
+      "meaning": "长途汽车",
+      "part_of_speech": "noun",
+      "phrase": [
+        "by coach",
+        "coach station"
+      ],
+      "sentence": "We took a coach to the mountains.",
+      "phonetic": "/kəʊtʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_021",
+      "word": "crash",
+      "meaning": "碰撞",
+      "part_of_speech": "verb/noun",
+      "phrase": [
+        "car crash",
+        "crash into"
+      ],
+      "sentence": "Two cars crashed on the highway.",
+      "phonetic": "/kræʃ/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_022",
+      "word": "trapped",
+      "meaning": "被困的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "be trapped",
+        "trapped inside"
+      ],
+      "sentence": "People were trapped in the building.",
+      "phonetic": "/træpt/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_023",
+      "word": "calm",
+      "meaning": "冷静的",
+      "part_of_speech": "adj",
+      "phrase": [
+        "stay calm",
+        "keep calm"
+      ],
+      "sentence": "Try to stay calm in a disaster.",
+      "phonetic": "/kɑːm/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_024",
+      "word": "survive",
+      "meaning": "幸存",
+      "part_of_speech": "verb",
+      "phrase": [
+        "survive the disaster",
+        "struggle to survive"
+      ],
+      "sentence": "Many people survived the earthquake.",
+      "phonetic": "/sərˈvaɪv/",
+      "error_tags": [
+        "拼写错"
+      ]
+    },
+    {
+      "word_id": "g8up_unit8_025",
+      "word": "warn",
+      "meaning": "警告",
+      "part_of_speech": "verb",
+      "phrase": [
+        "warn people",
+        "warn about"
+      ],
+      "sentence": "They warned us about the flood.",
+      "phonetic": "/wɔːrn/",
+      "error_tags": [
+        "拼写错"
+      ]
+    }
+  ]
+}
