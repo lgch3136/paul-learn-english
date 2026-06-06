@@ -325,12 +325,12 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer, 
             t.showCorrect = true
             const newStreak = streakRef.current + 1
             streakRef.current = newStreak
-            // 连击追踪
+            // 连击追踪：始终更新当前连击显示
             if (newStreak === 1) comboStartTimeRef.current = now
+            setComboDisplay(newStreak)
             if (newStreak > maxComboRef.current) {
               maxComboRef.current = newStreak
               setMaxCombo(newStreak)
-              setComboDisplay(newStreak)
               ;(window as any).__comboStartTime = comboStartTimeRef.current
               // 破纪录提示
               setShowRecord(true)
@@ -2087,9 +2087,9 @@ export default function WordShootingMode({ words, onComplete, onBack, onAnswer, 
 
   // ===== 游戏界面 =====
   return (
-    <div className="max-w-md mx-auto relative select-none">
+    <div className="max-w-lg mx-auto relative select-none">
       {/* 顶部信息栏：生命值 + 连击大字居中 + 得分 + 排行 */}
-      <div className="relative flex items-center justify-between mb-1.5 overflow-hidden" style={{ height: '3.5rem' }}>
+      <div className="relative flex items-center justify-between mb-1.5 overflow-visible" style={{ minHeight: '4.5rem' }}>
         {/* 生命值 */}
         <div className="flex items-center gap-0.5 z-10">
           {Array.from({ length: MAX_LIVES }).map((_, i) => (
